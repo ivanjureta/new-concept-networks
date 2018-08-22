@@ -2,39 +2,42 @@
 
 Author: Ivan Jureta
 
-Affiliation: Fonds de la Recherche Scientifique - FNRS, Belgium
+Affiliation: Fonds de la Recherche Scientifique - FNRS, Belgium, and University of Namur, Belgium
 
 Contact: ivan@ivanjureta.com
 
-<!-- 
-Planned topics/chapters:
+**Status: Unfinished draft, writing in progress. Feel free to share as-is, but contact me before making changes.**
 
-Rigor in Innovation
-Outline
-Innovation vs Chaos
-Learning Order in Chaos
-What Language Has to Do with Innovation?
-What Is an Innovation Language?
-What Does an Innovation Language Look Like?
-Four Core Ideas
-Language Reflects Knowledge
-Technical Languages for Specialist Knowledge
-Technical Languages Can Be Cheap to Grow
-Venture Languages Are Draft Technical Languages
-Why Now? Why at All?
-Knowledge Assets
-How and Why Work Is Automated
-New Ideas Use Old and New Words
-Definitions Record Choices
-Definitions Make Choices
-Language as Network
-Distributed Definitions
-Structuring Innovation Languages
-Epistemology of an Innovation Language
-Explicit and Implicit Constraints in Language
-Quality of a Venture Language
-Venture Languages as Assets
-Economics of Venture Languages
+<!-- 
+Planned additional topics/chapters:
+
+- Explicit and Implicit Constraints in Language: On how our definitions make some constraints on thought explicit, while others remain only implicit, and why it matters to be aware of both.
+- Quality of a Innovation language: On how to see a innovation language as data, and why this is useful to assess the quality of that language.
+- Innovation languages as Assets: On what makes a innovation language valuable, and factors which affect that value. 
+- Economics of Innovation languages: On what affects the cost of making and maintaining a innovation language, and how that relates to the value expected from having the innovation language.
+
+Random notes:
+- http://classic.austlii.edu.au/au/journals/UNSWLawJl/2004/22.html
+- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.401.6084&rep=rep1&type=pdf
+- https://www.reddit.com/r/askphilosophy/comments/1r3a17/whats_the_meaning_of_nietzsches_quote_only_that/
+- https://lirias2repo.kuleuven.be/bitstream/id/36835/;jsessionid=CA45A1E7157D200022138560B7CF7F96
+- https://www.unodc.org/documents/treaties/publications/forum1vol2.pdf#page=106
+- https://deepblue.lib.umich.edu/bitstream/handle/2027.42/51028/256.pdf?sequence=1&isAllowed=y
+
+Discussions of definitions:
+- Chronic illness: 
+    - https://link.springer.com/epdf/10.1007/s11229-017-1368-1?author_access_token=w2tfKWNGB2sYZe7Int0J1Pe4RwlQNchNByi7wbcMAY5sIxmzX1u3WldOWAvNhUQv9HGcmNbSg9QboKEoItsXc1CFt9xKwoHaBIc3I8Uj5Tgy4zOIcdir1IATEMEBObm6hFWqoMM12iwG783-kxEW7A==
+- Torture:
+    https://www.researchgate.net/profile/Ruth_Blakeley/publication/239795474_Dirty_Hands_Clean_Conscience_The_CIA_Inspector_General's_Investigation_of_Enhanced_Interrogation_Techniques_in_the_War_on_Terror_and_the_Torture_Debate/links/53ec90010cf24f241f158c98/Dirty-Hands-Clean-Conscience-The-CIA-Inspector-Generals-Investigation-of-Enhanced-Interrogation-Techniques-in-the-War-on-Terror-and-the-Torture-Debate.pdf
+    - http://faculty.arts.ubc.ca/price/373/Levinsontorture.pdf
+    - https://www.researchgate.net/profile/Kathleen_Clark9/publication/228298425_Ethical_Issues_Raised_by_the_OLC_Torture_Memorandum/links/54ff2f930cf2eaf210b73a3e.pdf
+    - https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=1002&context=wlulr
+- Species:
+    - http://www.reed.edu/biology/professors/srenn/pages/teaching/2007_syllabus/2007_readings/a4_Hey_2001.pdf
+- Trafficking of women:
+    - http://traffickingroundtable.org/wp-content/uploads/2012/08/Redirecting-the-Debate-over-Trafficking-in-Women-Definitions-Paradigms-and-Contexts.pdf
+- Corruption:
+    - http://www.untag-smd.ac.id/files/Perpustakaan_Digital_1/CORRUPTION%20The%20political%20economy%20of%20corruption.pdf#page=24
 -->
 
 ## Technical Languages for Innovation
@@ -91,7 +94,7 @@ Why does this matter?
 
 ## Learning Order in Chaos
 
-If there is one aspect, a process woven into all those experiences, all instances of innovation processes that I have been involved in, it is learning. And I mean this in the usual, casual sense, "the acquisition of knowledge or skills through study, experience, or being taught" as it says in the online Oxford English Dictionary. [OED:Learning](https://en.oxforddictionaries.com/definition/learning)
+If there is one aspect, a process woven into all those experiences, all instances of innovation processes that I have been involved in, it is learning. And I mean this in the usual, casual sense, "the acquisition of knowledge or skills through study, experience, or being taught" as it says in the online Oxford English Dictionary. [OED: Learning](https://en.oxforddictionaries.com/definition/learning)
 
 A problem with doing something new, is that you learn most from experience, via trial and error. Studying helps, as does being taught, or at least I am convinced of those from teaching students, but it only goes so far. It helps guide the trial and error, it helps select what to trial, and set up the test in the first place, but - again, because we are talking about new things, new ideas arising out of confusion and disorder - it does not give good predictions, and certainly cannot substitute to actually experiencing the errors and successes of the trials, then tirelessly predicting, generalizing, extrapolating from small samples of past outcomes, until results of some next trial bring down the last seemingly stable observation.
 
@@ -125,7 +128,7 @@ They will speak, of course, English, French, Mandaring, Swahili, or any natural 
 
 That is what innovation languages are. This book is about how to make them, perhaps more accurately, how to record and analyze them, since they are there anyway. Recording and analysis have a simple aim, which is to generate more value for the team, over the long run. How and why exactly will is a topic interwoven through the coming chapters.
 
-## What Language Has to Do with Innovation?
+## What Language Has to Do with Innovation
 
 When working on something new, you need a way to speak, write, and more generally communicate your ideas about it, so that you can coordinate your work with others, understand what they think and want to do about it, agree and disagree, and act, plan, and learn together.
 
@@ -149,7 +152,7 @@ Where I was able to observe the use of innovation languages, it became simpler t
 
 Over the last decade, I worked with dozens of teams which built up their innovation languages. That led to this book.
 
-## What Is an Innovation Language?
+## What an Innovation Language Is
 
 You and I learned to use one or more natural languages while growing up, and then through basic education. English, French, Dutch, German, Swahili, Mandarin, Hindu, are only some among some 5-7,000 languages considered as ordinary live languages in use.
 
@@ -163,13 +166,13 @@ With an innovation language, you try to impose precision, accuracy, and clarity 
 
 This only sounds counterintuitive.
 
-Suppose that you and I are tasked with creating a tool that predicts stock index values, e.g., the value of the S&P index (Standard & Poor's 500). The typical approach would be to fit a model to historical data, and so we need a source of that data. Our structuring language already needs to include at least three terms: Predicted Value, Historical Data, Prediction Model.
+Suppose that you and I are tasked with creating a tool that predicts stock index values, e.g., the value of the S&P index (Standard & Poor's 500). The typical approach would be to fit a model to historical data, and so we need a source of that data. Our innovation language already needs to include at least three terms: Predicted Value, Historical Data, Prediction Model.
 
 At this time, we do not know much about the Predicted Value, other than it will be the output of the Prediction Model; we do not know if that value is a single value, a range of values, if it is for a specific time unit, or for a time range, and so on. We have the same issues with Historical Data, which may be only data over a few years, or a few decades, if it will be better to have all decades or only the recent ones; and for the Model, we really have no idea which type of statistical model this could or should be. In the end, most is unknown, but by agreeing on the definitions of the three terms, we would agree not to call the Prediction Model a "predictive model" in some communication, a "prediction function" in others, to use "historical data" in all communication, instead of only "data" in some, "statistical data" in others. We would agree not to casually use synonyms, at least.
 
-At the same time, we would know what needs to be further defined and worked on - specifically, we need to work on identifying, finding, understanding the specifics of available Historical Data, and we could agree equally well on how to approach work on the Prediction Model, and understand what kinds of Predicted Values that model needs to produce. Inevitably, since so little is known that early on, the perspective on the problem and its solutions may change substantially, words thrown out, definitions revised, perhaps to the point of restarting a new structuring language. The potential for those is inevitable.
+At the same time, we would know what needs to be further defined and worked on - specifically, we need to work on identifying, finding, understanding the specifics of available Historical Data, and we could agree equally well on how to approach work on the Prediction Model, and understand what kinds of Predicted Values that model needs to produce. Inevitably, since so little is known that early on, the perspective on the problem and its solutions may change substantially, words thrown out, definitions revised, perhaps to the point of restarting a new innovation language. The potential for those is inevitable.
 
-In more abstract terms, having a team make and maintain a structuring language forces its participants into creating explicit conventions on at least two fronts: one is how they cut up the problem and solution spaces in the work they are doing, because they need to decide on terms and therefore categories that matter to them (in academic terms, they are making decisions related to ontology), and the other is that they adhere to a common vocabulary, so as to remove some of the synonymy and ambiguity that reflects the lack of stable and structured knowledge of the problem and solution space.
+In more abstract terms, having a team make and maintain a innovation language forces its participants into creating explicit conventions on at least two fronts: one is how they cut up the problem and solution spaces in the work they are doing, because they need to decide on terms and therefore categories that matter to them (in academic terms, they are making decisions related to ontology), and the other is that they adhere to a common vocabulary, so as to remove some of the synonymy and ambiguity that reflects the lack of stable and structured knowledge of the problem and solution space.
 
 ## What an Innovation Language Looks Like
 
@@ -256,13 +259,13 @@ This gets us to an interesting question, if rules are part of the language, or a
 
 Rule 8 is not the only one leading to this question. Rule 10 says when a Retainer can be used. Should Rule 10 be part of a definition of Retainer? Rule 3 defines the allowed duration of a Project, isn't it, then part of the definition of Project?
 
-To the extent that each rule restricts the interpretation of a term, it must be part of the definition of that term. If that is the case, then would everything written in the structuring language somehow constitute that language? I return to this later, in Chapter XX.
+To the extent that each rule restricts the interpretation of a term, it must be part of the definition of that term. If that is the case, then would everything written in the innovation language somehow constitute that language? I return to this later, in Chapter XX.
 
 ## Four Core Ideas
 
 The book is grounded in four simple ideas. 
 
-Language Reflects Knowledge
+### Language Reflects Knowledge
 
 The first idea is that language reflects knowledge, which means this: languages you use say a lot about what you do and do not know. 
 
@@ -272,22 +275,20 @@ The important consequence of language being a reflection of knowledge, is that i
 
 That is, ideas are not there, separate from these people, for others to inspect, but exist to the extent that they put them there; and putting them there involves communication, with language being a critical tool. How else would that knowledge be exchanged?
 
-Technical Languages for Specialist Knowledge
+### Technical Languages for Specialist Knowledge
 
-The second central idea is that general-purpose natural languages, such as English, French, Mandarin or Swahili, at least those parts which most of us learn through basic education, are not good enough to capture the nuances needed for being precise, accurate, and clear when communicating ideas that convey deep, specialist knowledge. 
+The second central idea is that general-purpose natural languages, such as English, French, Mandarin or Swahili, at least those parts which most of us learn through basic education, are not good enough to capture the nuances needed for being precise, accurate, and clear when communicating ideas that convey deep, specialist knowledge.
 
-Law has its own specific language for speaking about legal entities for example, and while such terms as "limited company" may hardly be new, they have been introduced to language because it was necessary to designate specific abstractions, invented at some period in history, which did not exist before that. 
+Law has its own specific language for speaking about legal entities for example, and while such terms as "limited company" may hardly be new, they have been introduced to language because it was necessary to designate specific abstractions, invented at some period in history, which did not exist before that.
 
-Here is a sample from the British Company Act of 2006 [Source], on company types.
-
-
+<!-- Here is a sample from the British Company Act of 2006 [Source], on company types. -->
 
 There are two important implications of this second idea:
 
 1. Technical languages are not accidental creations, but artifacts designed with specific purposes in mind. Therefore, there must be good practices to follow when doing that design. 
-2. The number of technical languages out there does not depend on some intrinsic property of any natural language, such as English or German, but on the varieties of bodies of knowledge that expert communities develop over time. 
+2. The number of technical languages out there does not depend on some intrinsic property of any natural language, such as English or German, but on the varieties of bodies of knowledge that expert communities develop over time.
 
-Technical Languages Can Be Cheap to Grow
+### Technical Languages Can Be Cheap to Grow
 
 If there are thousands of natural languages, there are many more technical languages, any one of which borrows from live or dead natural languages, but adds its own flair. 
 
@@ -297,39 +298,37 @@ The title of this book is a vague prediction, that soon there will be a billion 
 
 While the design of specialized languages is common in some disciplines, such as law, medicine, and engineering, even there it looks like a painful and expensive experience. My aim is to show that it is not, provided that it starts early, and proceeds incrementally through dedicated routines, to mirror the growth of the knowledge that the relevant community is exchanging. 
 
-Venture Languages Are Draft Technical Languages
+### Innovation language Are Draft Technical Languages
 
 The fourth important idea is that there are benefits to having draft, or rough technical languages, where terms and phrases convey new and immature ideas. This contrasts to technical languages, where the language is made to capture mature ideas.
 
-This is really the only difference between a technical and a structuring language. Structuring languages include terms which are not necessarily a reflection of agreed or stable knowledge. A structuring language looks like a rough, draft technical language, something that can become, or has parts which can become a technical language.
+This is really the only difference between a technical and a innovation language. Innovation languages include terms which are not necessarily a reflection of agreed or stable knowledge. A innovation language looks like a rough, draft technical language, something that can become, or has parts which can become a technical language.
 
-
-
-
-IX Why Now? Why at All?
+## Why Innovation Languages are Interesting Now
 
 Technical languages have been around as long as there was a need to convey complex ideas in a precise, accurate and clear way. Medical knowledge in Ancient Greece developed its own language. It is hard to argue against the need to make and the practicality of using technical languages. Would they have been around for that long, if there were no strong merits?
 
 But this book is not about any type of technical language. It is about immature technical languages, made along the way, as we solve unstructured and complicated problems. These are proto-technical languages. They may look as-if they are technical languages, but reflect and are used to communicate about much less developed, and less table knowledge than a typical contemporary technical language does.
 
-Now, a technical language itself cannot come out of thin air, but has to develop over time and in response to the maturing of, and change in the underlying body of knowledge. All technical languages had to start somewhere, somehow, and they were - then and there - also grounded in immature knowledge, looking perhaps much like structuring languages.
+Now, a technical language itself cannot come out of thin air, but has to develop over time and in response to the maturing of, and change in the underlying body of knowledge. All technical languages had to start somewhere, somehow, and they were - then and there - also grounded in immature knowledge, looking perhaps much like innovation languages.
 
-Why is now any different from any of the past times, for thinking more about how to make structuring languages? Or, in other words, to think more about how to make proto-technical languages?
+Why is now any different from any of the past times, for thinking more about how to make Innovation languages? Or, in other words, to think more about how to make proto-technical languages?
 
-Three factors stand out. 
-Knowledge Assets
+Three factors stand out.
 
-One factor that favors cheaper and faster production of structuring languages, is the increasing emphasis on an old idea, that people in organizations acquire, hold, apply, and grow knowledge, and that they have incentives to do this in a systematic way.
+### Knowledge Assets
+
+One factor that favors cheaper and faster production of Innovation languages, is the increasing emphasis on an old idea, that people in organizations acquire, hold, apply, and grow knowledge, and that they have incentives to do this in a systematic way.
 
 A systematic approach is needed to manage risks, if only of that knowledge disappearing too easily. 
 
-Systematically maintaining a structuring language, as one of the records of the specific organizational knowledge, can generate value. It facilitates seeking protection under intellectual property laws, even if it does guarantee that this will be successful.
+Systematically maintaining a innovation language, as one of the records of the specific organizational knowledge, can generate value. It facilitates seeking protection under intellectual property laws, even if it does guarantee that this will be successful.
 
-Having even the simplest structuring language for innovations, helps at the very least the communication with legal experts, and the identification of prior innovations, which may already benefit from legal protections.
+Having even the simplest innovation language for innovations, helps at the very least the communication with legal experts, and the identification of prior innovations, which may already benefit from legal protections.
 
-How and Why Work Is Automated
+### How and Why Work Is Automated
 
-The enduring interest to automate work, and how we do that, are the second and third factors which favor the creation of structuring languages.
+The enduring interest to automate work, and how we do that, are the second and third factors which favor the creation of Innovation languages.
 
 To automate work, you need to break it down into simpler tasks, and then automate these. To automate a task, you need a combination of data about past executions of that tasks and their outcomes, knowledge to distinguish good from bad executions, and knowledge about how to perform that task. 
 
@@ -341,97 +340,91 @@ To build the software, then, we need to describe the task and its execution. Jus
 
 Since we are automating by building software, we need to be precise about the operations that the software needs to perform, and the data it needs to perform them on. 
 
-If we need to be precise in software code, to make sure it does what we want it to do, then we also need to be precise in the specifications of that software, and finally, in the way that these specifications ensure that the software will automate the task. A structuring language moves across these artifacts, being present in the specifications and in code. 
+If we need to be precise in software code, to make sure it does what we want it to do, then we also need to be precise in the specifications of that software, and finally, in the way that these specifications ensure that the software will automate the task. A innovation language moves across these artifacts, being present in the specifications and in code. 
 
-The language becomes the backbone for task descriptions, later in software specification documents. The software itself used these terms, not only in its user interface, but in code, as classes, relationships, methods designed into the software followed the structuring language.
+The language becomes the backbone for task descriptions, later in software specification documents. The software itself used these terms, not only in its user interface, but in code, as classes, relationships, methods designed into the software followed the innovation language.
 
-
-
-X New Ideas Use Old and New Words
-On the relationship between new words and old words in a structuring language, how old words build up definitions of new ones.
+## New Ideas Use both Old and New Words
+*Chapter summary: On the relationship between new words and old words in a innovation language, how old words build up definitions of new ones.*
 
 How to explain a satellite to a child? How about using one of these definitions:
 
-Satellite: "An artificial body placed in orbit round the earth or moon or another planet in order to collect information or for communication." [Oxford English Dictionary: Satellite]
+> Satellite: "An artificial body placed in orbit round the earth or moon or another planet in order to collect information or for communication." [[OED: Satellite]](https://en.oxforddictionaries.com/definition/satellite)
 
-"In the context of spaceflight, a satellite is an artificial object which has been intentionally placed into orbit. Such objects are sometimes called artificial satellites to distinguish them from natural satellites such as Earth's Moon." [Wikipedia:Satellite]
+> "In the context of spaceflight, a satellite is an artificial object which has been intentionally placed into orbit. Such objects are sometimes called artificial satellites to distinguish them from natural satellites such as Earth's Moon." [[Wikipedia: Satellite]](https://en.wikipedia.org/wiki/Satellite)
 
-If a child already has an idea of artificial bodies, orbit, earth, planet, of what collecting information and communication are about in relation to these notions, then the first definition might be a good start. It is not an explanation, but we will come back later to the differences between definitions and explanations. 
+If a child already has an idea of artificial bodies, orbit, earth, planet, of what collecting information and communication are about in relation to these notions, then the first definition might be a good start. It is not an explanation, but we will come back later to the differences between definitions and explanations.
 
 How about this, which NASA says is for children ages 10+?
 
-"A satellite is a moon, planet or machine that orbits a planet or star. For example, Earth is a satellite because it orbits the sun. Likewise, the moon is a satellite because it orbits Earth. Usually, the word "satellite" refers to a machine that is launched into space and moves around Earth or another body in space." [NASA]
+> "A satellite is a moon, planet or machine that orbits a planet or star. For example, Earth is a satellite because it orbits the sun. Likewise, the moon is a satellite because it orbits Earth. Usually, the word "satellite" refers to a machine that is launched into space and moves around Earth or another body in space." [[NASA Knows! (Grades 5-8)]](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-a-satellite-58.html)
 
 Or this version, from NASA too, for a slightly younger audience:
 
-"A satellite is an object that moves around a larger object. Earth is a satellite because it moves around the sun. The moon is a satellite because it moves around Earth. Earth and the moon are called "natural" satellites.
-But usually when someone says "satellite," they are talking about a "man-made" satellite. Man-made satellites are machines made by people. These machines are launched into space and orbit Earth or another body in space." [NASA]
+> "A satellite is an object that moves around a larger object. Earth is a satellite because it moves around the sun. The moon is a satellite because it moves around Earth. Earth and the moon are called "natural" satellites.
+But usually when someone says "satellite," they are talking about a "man-made" satellite. Man-made satellites are machines made by people. These machines are launched into space and orbit Earth or another body in space." [[NASA Knows! (Grades K-4)]](https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-satellite-k4.html)
 
-If you had to choose one, which one would you choose? Are either of the first two good candidates? 
+If you had to choose one, which one would it be? Are either of the first two good candidates?
 
-You can think of these questions by looking at these definitions backwards, from the definiens (which defines) to the definiendum (the term being defined). Consider specifically the second definition; here it is again, with some terms underlined.
+You can think of these questions by looking at definitions backwards, from the definiens (which defines) to the definiendum (the term being defined). 
 
-"In the context of spaceflight, a satellite is an artificial object which has been intentionally placed into orbit. Such objects are sometimes called artificial satellites to distinguish them from natural satellites such as Earth's Moon."
+Take the Wikipedia Satellite definition again. Notice it mentions the term context, a complicated term, an abstraction that bears multiple precise definitions, which are likely to vary across specific disciplines; i.e., context has a different definition in different technical languages. For example, Wikipedia gives this, for context in computer science:
 
-Context is a complicated term, an abstraction that bears multiple precise definitions, which are likely to vary across specific disciplines; i.e., context has a different definition in different technical languages. For example, Wikipedia gives this, for context in computer science:
-
-"In computer science, a task context is the minimal set of data used by a task (which may be a process or thread) that must be saved to allow a task to be interrupted, and later continued from the same point." [Wikipedia:Context (computing)]
+> "In computer science, a task context is the minimal set of data used by a task (which may be a process or thread) that must be saved to allow a task to be interrupted, and later continued from the same point." [[Wikipedia: Context (computing)](https://en.wikipedia.org/wiki/Context_(computing))
 
 This is certainly not a unique or conventional understanding of the notion of context in computer science altogether. There are specific, and substantially different definitions of context in, e.g., knowledge representation, requirements engineering, mobile computing, and so on. Here is a definition from mobile computing research:
 
-"Context is any information that can be used to characterize the situation of an entity. An entity is a person, place, or object that is considered relevant to the interaction between a user and an application, including the user and applications themselves." [Dey and Abowd, 2000]
+> "Context is any information that can be used to characterize the situation of an entity. An entity is a person, place, or object that is considered relevant to the interaction between a user and an application, including the user and applications themselves." [[Abowd, Gregory D., et al. "Towards a better understanding of context and context-awareness." International symposium on handheld and ubiquitous computing. Springer, Berlin, Heidelberg, 1999.]](https://link.springer.com/chapter/10.1007%2F3-540-48157-5_29)
 
-In short, context has a definition that varies between technical languages. In philosophy, the relationship between context and knowledge is an ongoing and longstanding debate, see Epistemic Contextualism for one of lines of argument [SEP: Epistemic contextualism]. The Oxford English Dictionary gives this generalist definition:
+In short, context has a definition that varies between technical languages. In philosophy, the relationship between context and knowledge is an ongoing and longstanding debate, see Epistemic Contextualism for one of lines of argument [[SEP: Epistemic contextualism]](https://plato.stanford.edu/entries/contextualism-epistemology/). The Oxford English Dictionary gives this generalist definition:
 
-"The circumstances that form the setting for an event, statement, or idea, and in terms of which it can be fully understood." [Oxford English Dictionary:Context]
+"The circumstances that form the setting for an event, statement, or idea, and in terms of which it can be fully understood." [Oxford English Dictionary: Context]
 
-Being twisted in this way, context is a not a term to use, when defining or explaining a satellite to children. 
+Being twisted in this way, context is a not a term to use, when defining or explaining a satellite to children.
 
 The important takeaway here, is not that it is hard to explain a satellite to a child, but that how you define a term depends on two things:
-1. what you assume the user of that definition to know already, and 
-2. what they may want to do, once they learn the definition or explanation you give them. 
 
-So you may, sometimes in error, assume that the child does not know enough for you to use the Oxford English Dictionary definition. If you also think the child needs it simply out of curiosity, then perhaps either of the two NASA definitions will do. 
+* what you assume the user of that definition already knows, and 
+* what they may want to do, once they learn the definition or explanation you give them.
+
+You may, sometimes in error, assume that the child does not know enough for you to use the Oxford English Dictionary definition. If you also think the child needs it simply out of curiosity, then perhaps either of the two NASA definitions will do.
 
 But what if an astrophysicist asks an engineer for a definition of "satellite", not out of curiosity, but because they are working together on the design of a new satellite, and they are trying to align their ideas. None of the definitions above might work; perhaps their definition would speak of gravitationally bound objects in orbits, or use other technical terms more appropriate to their background knowledge and the task at hand.
 
 This gets us to the second and third takeaway:
-* it makes little sense to think about one term and its definition somehow in isolation from everything else, and 
+
+* it makes little sense to think about one term and its definition in isolation from everything else, and 
 * a technical language leans on natural language to some extent, even if only by using terms from natural language in definitions of technical terms.
 
-The following illustrates how the Satellite definition from the Oxford English Dictionary presumably leans on other natural language terms. All these terms are underlined.
+The following illustrates how the Satellite definition from the Oxford English Dictionary presumably leans on other natural language terms. Some are emphasized below.
 
-Satellite: "An artificial body placed in orbit round the earth or moon or another planet in order to collect information or for communication." [Oxford English Dictionary: Satellite]
+> Satellite: "An **artificial body** placed in **orbit** round the **earth** or **moon** or another **planet** in order to **collect information** or for **communication**." [Oxford English Dictionary: Satellite]
 
-Every word is underlined, of course. Each of them is a plain English word, so to speak, that is, it is a part of English. If we take it that the Oxford English Dictionary provides good definitions for many words that make a large subset of English language, then this Satellite definition leans on the dictionary as the guideline for how to read each of the words in the definition.
+Each emphasized word (and others) is a plain English word, so to speak, that is, it is a part of English. If we take it that the Oxford English Dictionary provides good definitions for many words that make a large subset of English language, then this Satellite definition leans on the dictionary as the guideline for how to read each of the words in the definition.
 
 But that definition of Satellite is taken from the Oxford English Dictionary, so by design, it leans on other words from there.
 
-So let us take a different Satellite definition, not from that dictionary, and underline all natural language words.
+We go to a different example now, where some words in the definiens are not in the Oxford English Dictionary.
 
-"In the context of spaceflight, a satellite is an artificial object which has been intentionally placed into orbit. Such objects are sometimes called artificial satellites to distinguish them from natural satellites such as Earth's Moon." [Wikipedia:Satellite]
-
-Again, all words are underlined. Note that you can take a slightly different approach and underline compound terms, such as "artificial satellite" rather than treat separately "artificial" and "satellite"; but this makes no difference in this argument. 
-
-Let's take a different example now, where some words in the definiens are not in the Oxford English Dictionary.
-
-"Biosafety: The prevention of large-scale loss of biological integrity, focusing both on ecological and human health. Set of measures or actions addressing the safety aspects related to the application of biotechnologies and to the release into the environment of transgenic plants and organisms, particularly microorganisms, that could negatively affect plant genetic resources, plant, animal or human health, or the environment." [UNDP:Biosafety]
+> "Biosafety: The prevention of large-scale loss of biological integrity, focusing both on ecological and human health. Set of measures or actions addressing the safety aspects related to the application of biotechnologies and to the release into the environment of transgenic plants and organisms, particularly microorganisms, that could negatively affect plant genetic resources, plant, animal or human health, or the environment." [[UNDP: Biosafety]](http://www.undp.org/content/sdfinance/en/home/glossary.html)
 
 This definition of Biosafety comes from the United Nations Development Programme (UNDP), in a glossary for documentation on sustainable development. Below, terms set in bold are not defined in the Oxford English Dictionary, and so for all practical purposes here, not part of natural language. At the same time, these terms are not defined in that UNDP glossary; terms set in italics are not part of natural language, but are defined in the glossary. The rest of the terms are part of natural language.
 
-"Biosafety: The prevention of large-scale loss of biological integrity, focusing both on ecological and human health. Set of measures or actions addressing the safety aspects related to the application of biotechnologies and to the release into the environment of transgenic plants and organisms, particularly microorganisms, that could negatively affect plant genetic resources, plant, animal or human health, or the environment." [UNDP:Biosafety]
-To summarize, in the Biosafety definition above, there are two terms outside natural language and outside the glossary itself ("large-scale loss" and "biological integrity"), and only "Biosafety is itself defined in the glossary, no other term from the definiens is. 
+> "Biosafety: The prevention of **large-scale loss** of **biological integrity**, focusing both on ecological and human health. Set of measures or actions addressing the safety aspects related to the application of biotechnologies and to the release into the environment of transgenic plants and organisms, particularly microorganisms, that could negatively affect plant genetic resources, plant, animal or human health, or the environment."
 
-Is that a good definition? 
+To summarize, in the Biosafety definition above, there are two terms outside natural language and outside the glossary itself ("large-scale loss" and "biological integrity"), and only "Biosafety is itself defined in the glossary, no other term from the definiens is.
+
+Is that a good definition?
 
 This is hard to say, as "good definition" itself is an open topic, to which I return in Chapter XX. It is clear, however, that there are several things to think about here:
-- "Biosafety" is defined independently from the rest of the glossary,
-- "Large-scale loss" is undefined within the topic of the glossary, i.e., the glossary does not help reduce the vagueness of that term in any way, and
-- "Biological integrity" is undefined in the glossary, and since it is not part of natural language, the authors in the glossary must have leaned on a technical language, but did not point to it in the glossary. 
+
+* "Biosafety" is defined independently from the rest of the glossary,
+* "Large-scale loss" is undefined within the topic of the glossary, i.e., the glossary does not help reduce the vagueness of that term in any way, and
+* "Biological integrity" is undefined in the glossary, and since it is not part of natural language, the authors in the glossary must have leaned on a technical language, but did not point to it in the glossary. 
 
 If these look like quibbles, they are not. Here is a sample of the activity around getting to and agreeing on a technical definition of "biological integrity":
 
-"[United States Environmental Protection Agency] convened a symposium [...] on the integrity of water soon after passage of PL 92-500 [Federal Water Pollution Control Act], but no clear definition of biotic integrity emerged. Many authors advocated the use of a holistic perspective. Karr and Dudley [...] argued that the "integrity" objective encompasses all factors affecting the ecosystem and developed a now widely quoted definition of biological integrity as the ability to support and maintain 'a balanced, integrated, adaptive community of organisms having a species composition, diversity, and functional organization comparable to that of natural habitat of the region.' A more recent paper defined ecological health (an umbrella goal, the maintenance of which motivates virtually all environmental legislation) as follows: 'a biological system...can be considered healthy when its inherent potential is realized, its condition is stable, its capacity for self-repair when perturbed is preserved, and minimal external support for management is needed'[...]." [Karr, 1991]
+"[United States Environmental Protection Agency] convened a symposium [...] on the integrity of water soon after passage of PL 92-500 [Federal Water Pollution Control Act], but no clear definition of biotic integrity emerged. Many authors advocated the use of a holistic perspective. Karr and Dudley [...] argued that the "integrity" objective encompasses all factors affecting the ecosystem and developed a now widely quoted definition of biological integrity as the ability to support and maintain 'a balanced, integrated, adaptive community of organisms having a species composition, diversity, and functional organization comparable to that of natural habitat of the region.' A more recent paper defined ecological health (an umbrella goal, the maintenance of which motivates virtually all environmental legislation) as follows: 'a biological system...can be considered healthy when its inherent potential is realized, its condition is stable, its capacity for self-repair when perturbed is preserved, and minimal external support for management is needed'[...]." [[Karr, James R. "Biological integrity: a long‐neglected aspect of water resource management." Ecological applications 1.1 (1991): 66-84.]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1941848)
 
 Disagreement is common when specialists work on definitions. The problem is not disagreement, but disconnect, which happens if the discussion involves parallel monologues, each pushing its own definition, and no dialogue where there is convergence to an agreement on the definition of each debated term. 
 
@@ -439,10 +432,8 @@ Going back to takeaways, these examples illustrated how a definition, even of a 
 
 New ideas need new words. At the same time, new words are anchored in old ones.
 
-
-
-XI Definitions Record Choices
-How the design of a structuring language reflects our problem-solving and decision-making.
+## Definitions Record Choices
+How the design of a innovation language reflects our problem-solving and decision-making.
 
 A technical language is a record of past decisions. This is a simple idea with some significant consequences. 
 
@@ -1173,137 +1164,3 @@ The relationship �in� can be used whenever we need to look at part of the co
 2. As such, SRN is a tool for POPP to know products better.
 3. If POPP know products better, POPP will sell them better.
 4. If POPP use SRN to learn more about products, then POPP will sell products better.
-
-
-
-
-
-
-
-
-
-The first relationship we need is between explanandum and explanans, to call their group an explanation. 
-- Explanandum: �POPP will use SRN�.
-- Explanans: For a POPP, SRN provides a single approved source of product information and training content. As such, SRN is a tool for POPP to know products better, and thus sell better.
-- Explanation;
-- A ternary relationship, called �group� between explanandum, explanans, and explanation.
-
-
-
-
-
-The purpose of open-ended questions is to allow POPP to initiate discussions which may not be directly tied to a particular product (line). It is expected that if such discussions are initiated, the information provided in them can be of use to understand, among others, the perception of POPP of Samsung and its products, of its management of POP.
-
-
-
-
-Before we get into acceptability, we need to agree on the structure of an explanation. There is, as in scientific explanation, that which we are explaining, and our explanation for it. The former are statements acting as an account of a phenomenon, of how something is. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-see http://classic.austlii.edu.au/au/journals/UNSWLawJl/2004/22.html
-
-
-http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.401.6084&rep=rep1&type=pdf
-
-https://www.reddit.com/r/askphilosophy/comments/1r3a17/whats_the_meaning_of_nietzsches_quote_only_that/
-
-https://lirias2repo.kuleuven.be/bitstream/id/36835/;jsessionid=CA45A1E7157D200022138560B7CF7F96
-
-https://www.unodc.org/documents/treaties/publications/forum1vol2.pdf#page=106
-
-https://deepblue.lib.umich.edu/bitstream/handle/2027.42/51028/256.pdf?sequence=1&isAllowed=y
-
-
-
-
-
-
-
-Definition debates:
-- Chronic illness: 
-- https://link.springer.com/epdf/10.1007/s11229-017-1368-1?author_access_token=w2tfKWNGB2sYZe7Int0J1Pe4RwlQNchNByi7wbcMAY5sIxmzX1u3WldOWAvNhUQv9HGcmNbSg9QboKEoItsXc1CFt9xKwoHaBIc3I8Uj5Tgy4zOIcdir1IATEMEBObm6hFWqoMM12iwG783-kxEW7A==
-- Torture:
-- https://www.researchgate.net/profile/Ruth_Blakeley/publication/239795474_Dirty_Hands_Clean_Conscience_The_CIA_Inspector_General's_Investigation_of_Enhanced_Interrogation_Techniques_in_the_War_on_Terror_and_the_Torture_Debate/links/53ec90010cf24f241f158c98/Dirty-Hands-Clean-Conscience-The-CIA-Inspector-Generals-Investigation-of-Enhanced-Interrogation-Techniques-in-the-War-on-Terror-and-the-Torture-Debate.pdf
-- http://faculty.arts.ubc.ca/price/373/Levinsontorture.pdf
-- https://www.researchgate.net/profile/Kathleen_Clark9/publication/228298425_Ethical_Issues_Raised_by_the_OLC_Torture_Memorandum/links/54ff2f930cf2eaf210b73a3e.pdf
-- https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=1002&context=wlulr
-- Species:
-- http://www.reed.edu/biology/professors/srenn/pages/teaching/2007_syllabus/2007_readings/a4_Hey_2001.pdf
-- Trafficking of women:
-- http://traffickingroundtable.org/wp-content/uploads/2012/08/Redirecting-the-Debate-over-Trafficking-in-Women-Definitions-Paradigms-and-Contexts.pdf
-- Corruption:
-- http://www.untag-smd.ac.id/files/Perpustakaan_Digital_1/CORRUPTION%20The%20political%20economy%20of%20corruption.pdf#page=24
-
-
-
-
-
-
-
-
-
-Explicit and Implicit Constraints in Language
-On how our definitions make some constraints on thought explicit, while others remain only implicit, and why it matters to be aware of both.
-
-X
-
-
-Quality of a Venture Language 
-On how to see a structuring language as data, and why this is useful to assess the quality of that language.
-
-Venture Languages as Assets
-On what makes a structuring language valuable, and factors which affect that value. 
-
-Economics of Venture Languages
-On what affects the cost of making and maintaining a structuring language, and how that relates to the value expected from having the structuring language.
-
-
-
-Source
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1/2
-
