@@ -424,7 +424,7 @@ This is hard to say, as "good definition" itself is an open topic, to which I re
 
 If these look like quibbles, they are not. Here is a sample of the activity around getting to and agreeing on a technical definition of "biological integrity":
 
-"[United States Environmental Protection Agency] convened a symposium [...] on the integrity of water soon after passage of PL 92-500 [Federal Water Pollution Control Act], but no clear definition of biotic integrity emerged. Many authors advocated the use of a holistic perspective. Karr and Dudley [...] argued that the "integrity" objective encompasses all factors affecting the ecosystem and developed a now widely quoted definition of biological integrity as the ability to support and maintain 'a balanced, integrated, adaptive community of organisms having a species composition, diversity, and functional organization comparable to that of natural habitat of the region.' A more recent paper defined ecological health (an umbrella goal, the maintenance of which motivates virtually all environmental legislation) as follows: 'a biological system...can be considered healthy when its inherent potential is realized, its condition is stable, its capacity for self-repair when perturbed is preserved, and minimal external support for management is needed'[...]." [[Karr, James R. "Biological integrity: a long‐neglected aspect of water resource management." Ecological applications 1.1 (1991): 66-84.]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1941848)
+> "[United States Environmental Protection Agency] convened a symposium [...] on the integrity of water soon after passage of PL 92-500 [Federal Water Pollution Control Act], but no clear definition of biotic integrity emerged. Many authors advocated the use of a holistic perspective. Karr and Dudley [...] argued that the "integrity" objective encompasses all factors affecting the ecosystem and developed a now widely quoted definition of biological integrity as the ability to support and maintain 'a balanced, integrated, adaptive community of organisms having a species composition, diversity, and functional organization comparable to that of natural habitat of the region.' A more recent paper defined ecological health (an umbrella goal, the maintenance of which motivates virtually all environmental legislation) as follows: 'a biological system...can be considered healthy when its inherent potential is realized, its condition is stable, its capacity for self-repair when perturbed is preserved, and minimal external support for management is needed'[...]." [[Karr, James R. "Biological integrity: a long‐neglected aspect of water resource management." Ecological applications 1.1 (1991): 66-84.]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1941848)
 
 Disagreement is common when specialists work on definitions. The problem is not disagreement, but disconnect, which happens if the discussion involves parallel monologues, each pushing its own definition, and no dialogue where there is convergence to an agreement on the definition of each debated term. 
 
@@ -433,23 +433,24 @@ Going back to takeaways, these examples illustrated how a definition, even of a 
 New ideas need new words. At the same time, new words are anchored in old ones.
 
 ## Definitions Record Choices
-How the design of a innovation language reflects our problem-solving and decision-making.
 
-A technical language is a record of past decisions. This is a simple idea with some significant consequences. 
+*Chapter summary: How the design of a innovation language reflects our problem-solving and decision-making.*
+
+A technical language is a record of past decisions. This is a simple idea with significant consequences.
 
 Let's start with a simple example, from the consulting contract case introduced earlier. We had the following definition.
 
-Service: The collaboration of one specific Consultant and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.
+* Service: The collaboration of one specific Consultant and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.
 
-Consider these alternative definitions. Differences from the original one above are in red.
+Consider these alternative definitions. Differences from the original one above are emphasized.
 
-Service1: The collaboration of one or more specific Consultants and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.
+* Service1: The collaboration of one **or more** specific Consultants and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.
 
 Service1 allows any number of Consultants to work for a Client under the same Service Contract. This may be better or worse than the original, but in either case, it can only be so if we decided that it should be so. In other words, the original definition excludes this possibility, because we decided to exclude that possibility. The main reason was that it would require coordination between Consultants, and that could have an impact on the speed at which we get to an agreed Service Contract.
 
 Service2 below, is another alternative.
 
-Service: The collaboration of one specific Consultant and one specific Client.
+* Service2: The collaboration of one specific Consultant and one specific Client.
 
 Service2 is less specific than either Service and Service1. You can see it as a less mature variant of each of these. It fails to mention the contract as the framework for collaboration. By doing that, it fails to say how we go from negotiation to collaboration, the transition which happens because there is agreement on a contract.
 
@@ -457,62 +458,62 @@ The point here, is that definitions, especially about new things, and especially
 
 To clarify that given/made distinction, here is the Oxford English Dictionary definition of giraffe.
 
-Giraffe: "A large African mammal with a very long neck and forelegs, having a coat patterned with brown patches separated by lighter lines. It is the tallest living animal." [Oxford English Dictionary:Giraffe]
+> Giraffe: "A large African mammal with a very long neck and forelegs, having a coat patterned with brown patches separated by lighter lines. It is the tallest living animal." [[OED: Giraffe]](https://en.oxforddictionaries.com/definition/giraffe)
 
 This definition conveys what one generally sees, when looking at the animal called giraffe. Giraffes, in other words, are given - it is not man-made, but a product of evolutionary processes. Alternatively, if we used a definition that lists a different set of properties, as below, we are still in the same case: a giraffe has these properties not because we made them so, i.e., the definition is not a reflection of our design of giraffes, but of our observation of giraffes.
 
-Giraffe:
-? "Scientific name: Giraffa camelopardalis
-? Weight: Males: 1,930 kilograms (4,254 pounds) Females: 1,180 kilograms (2,601 pounds)
-? Size: 5.7 meters tall from the ground to their horns (18.7 feet)
-? Life span: Average 10 to 15 years in the wild; recorded a maximum of 30 years
-? Habitat: Dense forest to open plains
-? Diet: Herbivorous
-? Gestation: Between 13 and 15 months
-? Predators: Humans, lions, leopards, hyenas, crocodiles" 
-[African Wildlife Foundation:Giraffe]
+Giraffe [[African Wildlife Foundation: Giraffe]](https://www.awf.org/wildlife-conservation/giraffe):
 
-But things are very different for our Service term above, since it refers to an abstraction, one we fully designed - a team chose its properties and from there followed its definition. 
+- "Scientific name: Giraffa camelopardalis
+- Weight: Males: 1,930 kilograms (4,254 pounds) Females: 1,180 kilograms (2,601 pounds)
+- Size: 5.7 meters tall from the ground to their horns (18.7 feet)
+- Life span: Average 10 to 15 years in the wild; recorded a maximum of 30 years
+- Habitat: Dense forest to open plains
+- Diet: Herbivorous
+- Gestation: Between 13 and 15 months
+- Predators: Humans, lions, leopards, hyenas, crocodiles"
 
-There are also in-between cases, where the definition is of an observed complex process. "Globalization" is an interesting case, and below are four definitions that the United Nations Economic and Social Council cites in their Compendium of basic United Nations terminology in governance and public administration.
+But things are very different for our Service term above, since it refers to an abstraction, one we fully designed - a team chose its properties and from there followed its definition.
 
-"Globalization is increased global integration and interdependence. It has a multidimensional character: economic, political, social and cultural. It is characterized by unprecedentedly rapid flows of goods and services: private capital; circulation of ideas and tendencies; and the emergence of new social and political movements (Division for Public Administration and Development Management, Department of Economic and Social Affairs, World Public Sector Report 2001 (New York, 2001)).
+There are also in-between cases, where the definition is of an observed complex process. "Globalization" is an interesting case, and below are four definitions that the United Nations Economic and Social Council cites in their [[Compendium of basic United Nations terminology in governance and public administration.]](https://publicadministration.un.org/publications/content/PDFs/E-Library%20Archives/2008%20CEPA_Compendium%20of%20Basic%20UN%20Terminology.pdf)
 
-The process through which an increasingly free flow of ideas, people, goods, services and capital leads to the integration of economies and societies. Major factors in the spread of globalization have been increased trade liberalization and advances in communication technology (IMF Glossary, http://www.imf.org/external/ np/exr/glossary/, accessed 2007).
+> "Globalization is increased global integration and interdependence. It has a multidimensional character: economic, political, social and cultural. It is characterized by unprecedentedly rapid flows of goods and services: private capital; circulation of ideas and tendencies; and the emergence of new social and political movements [...]
 
-Globalization describes the growth in international exchange and interdependence. With growing flows of trade and capital investment, there is the possibility of moving beyond an international economy (where 'the principle entities are national economies') to a 'stronger' version � the globalized economy in which 'distinct national economies are subsumed and rearticulated into the system by international processes and transactions' (Hirst and Peters (1996), as quoted in Jan Aart Scholte, Globalization: A Critical Introduction (London: Palgrave, 2000)).
+> The process through which an increasingly free flow of ideas, people, goods, services and capital leads to the integration of economies and societies. Major factors in the spread of globalization have been increased trade liberalization and advances in communication technology [...]
 
-Globalization can be defined as universalization. In this use, 'global' is used in the sense of being 'worldwide' and 'globalization' is 'the process of spreading various objects and experiences to people at all corners of the earth'. A classic example of this would be the spread of computing, television etc. (World Bank,World Development Report 1998/99: Knowledge for Development, Washington, D.C., 9 August 1999, http://www.worldbank.org/wdr/wdr98/contents.htm)." [UNESC:Globalization]
+> Globalization describes the growth in international exchange and interdependence. With growing flows of trade and capital investment, there is the possibility of moving beyond an international economy (where 'the principle entities are national economies') to a 'stronger' version of the globalized economy in which 'distinct national economies are subsumed and rearticulated into the system by international processes and transactions' [...]
 
-Similarities between definitions are in orange, differences in green. The World Bank definition looks more abstract than the others, in that it defines globalization as a type of universalization (which I leave undefined here), while the other three definitions talk of integration and interdependence. 
+> Globalization can be defined as universalization. In this use, 'global' is used in the sense of being 'worldwide' and 'globalization' is 'the process of spreading various objects and experiences to people at all corners of the earth'. A classic example of this would be the spread of computing, television etc."
 
-Below is another definition of "globalization", as it appears in the United Nations UNTERM, "a multilingual terminology database maintained jointly by the main duty stations and regional commissions of the United Nations system." [UNTERM]
+The World Bank definition looks more abstract than the others, in that it defines globalization as a type of universalization (which I leave undefined here), while the other three definitions talk of integration and interdependence.
 
-"Expansion of global linkages, organization of social life on global scale and growth of global consciousness, hence consolidation of world society. Most particularly (per Friedman), the term is used to refer to the seemingly "inexorable integration of markets, nation-states and technologies to a degree never witnessed before -- in a way that is enabling individuals, corporations and nation-states to reach around the world farther, faster, deeper and cheaper than ever before." This phenomenon also involves the spread of the gospel and forms of market capitalism to virtually every country in the world." [UNTERM:Globalization]
+Below is another definition of "globalization", as it appears in the United Nations UNTERM, "a multilingual terminology database maintained jointly by the main duty stations and regional commissions of the United Nations system."
 
-Is any of these, or is there, at all, the definition of globalization? 
+>"Expansion of global linkages, organization of social life on global scale and growth of global consciousness, hence consolidation of world society. Most particularly (per Friedman), the term is used to refer to the seemingly "inexorable integration of markets, nation-states and technologies to a degree never witnessed before -- in a way that is enabling individuals, corporations and nation-states to reach around the world farther, faster, deeper and cheaper than ever before." This phenomenon also involves the spread of the gospel and forms of market capitalism to virtually every country in the world." [[UNTERM:Globalization]](https://unterm.un.org/UNTERM/portal/welcome)
+
+Is any of these, or is there, at all, the definition of globalization?
 
 It is a complex process, which we do not know how to measure. There is disagreement on when, where and how it started. We do not know what cues to look for, which data is representative of it. We do not know if it has reached a peak, what reaching a peak means anyway, and we have few ideas on how globalization might end.
 
-"Today few doubt the reality of globalization, yet no one seems to know with any certainty what makes globalization real. So while there is no agreement about what globalization is, the entire discourse on globaliz- ation is founded on a quite solid agreement that globalization is. Behind the current and confusing debates about its ultimate causes and con- sequences, we find a wide yet largely tacit acceptance of the factuality of globalization as such, as a process of change taking place �out there�: even otherwise constructivistically minded scholars tend to regard globaliz- ation as an undeniable and inescapable part of contemporary experience" [Bartelson, 2000]
+> "Today few doubt the reality of globalization, yet no one seems to know with any certainty what makes globalization real. So while there is no agreement about what globalization is, the entire discourse on globaliz- ation is founded on a quite solid agreement that globalization is. Behind the current and confusing debates about its ultimate causes and con- sequences, we find a wide yet largely tacit acceptance of the factuality of globalization as such, as a process of change taking place 'out there': even otherwise constructivistically minded scholars tend to regard globaliz- ation as an undeniable and inescapable part of contemporary experience" [[Bartelson, Jens. "Three concepts of globalization." International Sociology 15.2 (2000): 180-196.]](http://journals.sagepub.com/doi/abs/10.1177/0268580900015002003)
 
 Which of these would you choose?
 
-This question depends on what, if anything you want to do about, with, or in relation to the phenomenon that is defined. 
+This question depends on what, if anything you want to do about, with, or in relation to the phenomenon that is defined.
 
 More specifically, a choice between definitions depends on the extent to which their differences make a difference in your decision-making and problem-solving.
 
 Going back to our small-scale consulting contract case, the choice of one of those three definitions given earlier (Service, Service1, and Service2) does make a difference. "Service" requires a different negotiation process than "Service1", and both can involve different processes than "Service2". 
 
-Definitions indeed record choices. If they define what is given and easily observable, such as giraffes, then definitions are more a record of choices of properties to pay attention to, among all potential (and perhaps unknown) properties of giraffes. If, instead, they define abstractions which we fully imagined and designed, then the definition reflects our choices of properties to give to these abstractions. And in many cases, we will be creating abstractions to communicate about potentially complicated combinations of phenomena, as we saw for globalization, where properties reflect, again, what we see through observation, but perhaps too, some wishful thinking, what we want these phenomena to be. 
+Definitions indeed record choices. If they define what is given and easily observable, such as giraffes, then definitions are more a record of choices of properties to pay attention to, among all potential (and perhaps unknown) properties of giraffes. If, instead, they define abstractions which we fully imagined and designed, then the definition reflects our choices of properties to give to these abstractions. And in many cases, we will be creating abstractions to communicate about potentially complicated combinations of phenomena, as we saw for globalization, where properties reflect, again, what we see through observation, but perhaps too, some wishful thinking, what we want these phenomena to be.
 
-As I discussed in Chapter VII, a definition is the bridge of the new to the old, we piece together the new from old notions. The new, by being there, by being defined, becomes a tool or vehicle for change, for moving not only ideas from old to new, but also learning to make new choices and act differently than before. Conceptualizations of "globalization", its definitions, work the same way, embodying observations, choices, mashing them up with expectations, making it a vehicle, not a simple reflection of what seems to be a shared experience. Bertelson's summary, of his discussion of the concept of "globalization" nicely sums up the multiple roles a definition can have, especially for complex phenomena, which lend themselves to analysis from different angles, and through tools from various bodies of knowledge.
+A definition is the bridge of the new to the old, we piece together the new from old notions. The new, by being there, by being defined, becomes a tool or vehicle for change, for moving not only ideas from old to new, but also learning to make new choices and act differently than before. Conceptualizations of "globalization", its definitions, work the same way, embodying observations, choices, mashing them up with expectations, making it a vehicle, not a simple reflection of what seems to be a shared experience. Bertelson's summary, of his discussion of the concept of "globalization" nicely sums up the multiple roles a definition can have, especially for complex phenomena, which lend themselves to analysis from different angles, and through tools from various bodies of knowledge.
 
-As he puts it, the term "globalization" links the old and the new (in purple, and marked [A] in the quote below), denotes the interest in the phenomenon itself [B], tells us about what can be [C] and when it will be [E], and points to a vague reality [D], i.e., does not refer to something tangible or otherwise easily accessible, for which you and I could rapidly come to same or similar enough observations.
+As he puts it, the term "globalization" links the old and the new (marked [A] in the quote below), denotes the interest in the phenomenon itself [B], tells us about what can be [C] and when it will be [E], and points to a vague reality [D], i.e., does not refer to something tangible or otherwise easily accessible, for which you and I could rapidly come to same or similar enough observations.
 
-"Through its various connotations, the concept of globalization functions as [A] a mediating link between the modern world with its crusty social ontology and the brave new world that remains inaccessible and unintelligible not only to the subscribers to that ontology but also to the believers in global change as well. Not only is globalization a moving target for social inquiry, but it also [B] signifies the movement of that inquiry itself. The concept of globalization thus makes modern political experience meaningful while simultaneously releasing political expectation from the strictures that the very meaningfulness of this experience has imposed on political imagination. It does so through a double gesture: by [C] projecting expectations onto the global while simultaneously making those expectations constitutive of globality as a point of reference and convergence. In this respect, the logic of the concept of globalization resembles that of the concepts of civilization and revolution as they were shaped before and during the French Revolution: [D] these concepts also lacked stable referents, but functioned as vehicles of social change by signifying change in its purest, most necessary and irreversible form: change as the condition of possible objects and possible identities in a possible future. And like these concepts, globalization does not represent a mere prognosis for the future, but a prophecy in quest for self-fulfillment. So far from being here to stay, the metaphors of globalization will perhaps die when the concept has fulfilled its destabilizing task, that is, [E] when globalization has become something that goes without saying and therefore no longer stands in need of being spoken about." [Bartelson, 2000]
+> "Through its various connotations, the concept of globalization functions as [A] a mediating link between the modern world with its crusty social ontology and the brave new world that remains inaccessible and unintelligible not only to the subscribers to that ontology but also to the believers in global change as well. Not only is globalization a moving target for social inquiry, but it also [B] signifies the movement of that inquiry itself. The concept of globalization thus makes modern political experience meaningful while simultaneously releasing political expectation from the strictures that the very meaningfulness of this experience has imposed on political imagination. It does so through a double gesture: by [C] projecting expectations onto the global while simultaneously making those expectations constitutive of globality as a point of reference and convergence. In this respect, the logic of the concept of globalization resembles that of the concepts of civilization and revolution as they were shaped before and during the French Revolution: [D] these concepts also lacked stable referents, but functioned as vehicles of social change by signifying change in its purest, most necessary and irreversible form: change as the condition of possible objects and possible identities in a possible future. And like these concepts, globalization does not represent a mere prognosis for the future, but a prophecy in quest for self-fulfillment. So far from being here to stay, the metaphors of globalization will perhaps die when the concept has fulfilled its destabilizing task, that is, [E] when globalization has become something that goes without saying and therefore no longer stands in need of being spoken about." [[Bartelson, Jens. "Three concepts of globalization." International Sociology 15.2 (2000): 180-196.]](http://journals.sagepub.com/doi/abs/10.1177/0268580900015002003)
 
-
+<!-- stopped here on Aug 22 -->
 
 
 
