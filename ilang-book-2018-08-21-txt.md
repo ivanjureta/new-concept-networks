@@ -688,7 +688,7 @@ Here is a summary of how definitions depend on other terms in the innovation lan
 * Shop Display Identifier --depends on-> Basic Shop Display
 * Shop Display Supplier --depends on-> Shop Display
 
-The Figure below shows the dependencies as a graph, called the term dependency network.
+The Figure below shows the dependencies as a graph, called the term dependency network. It has 15 nodes and 21 edges.
 
 ![](ilang-book-images/srn_term_dependency_network.png?raw=true)
 
@@ -700,7 +700,28 @@ Stop nodes are on paths between outer and inner nodes. They both depend on other
 
 Inner nodes depend on other nodes, but are not used to define terms.
 
+The term dependency network can be large, and its visualization impractical. As an example, consider the technical language defined in [[UNESCO Glossary of World Heritage Terms]](http://whc.unesco.org/archive/gloss96.htm). Doing the same analysis as above, the term dependency network has 158 nodes, one for each term, and 1428 edges, for each dependency between terms. Here is a small sample of the network:
 
+* Action Plan for the Future --depends on-> Action Plan for the Future
+* Corrective measures --depends on-> Action Plan for the Future
+* Advisory bodies --depends on-> Advisory bodies
+* Reactive monitoring --depends on-> Advisory bodies
+* State of conservation --depends on-> Advisory bodies
+* Assistance --depends on-> Assistance
+* Balance --depends on-> Assistance
+* Convention concerning the protection of the world cultural
+* and natural heritage --depends on-> Assistance
+* Emergency assistance --depends on-> Assistance
+* International assistance --depends on-> Assistance
+* International protection --depends on-> Assistance
+* List of World Heritage in Danger --depends on-> Assistance
+* Operational Guidelines for the Implementation of the World
+* Heritage Convention --depends on-> Assistance
+* ...and many more edges.
+
+
+
+<!-- Stopped here on Aug 23 -->
 
 ## Blowing Definitions Up
 An interesting analysis to do with dependencies is to blow up the definition of each term.
