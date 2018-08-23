@@ -509,75 +509,66 @@ Definitions indeed record choices. If they define what is given and easily obser
 
 A definition is the bridge of the new to the old, we piece together the new from old notions. The new, by being there, by being defined, becomes a tool or vehicle for change, for moving not only ideas from old to new, but also learning to make new choices and act differently than before. Conceptualizations of "globalization", its definitions, work the same way, embodying observations, choices, mashing them up with expectations, making it a vehicle, not a simple reflection of what seems to be a shared experience. Bertelson's summary, of his discussion of the concept of "globalization" nicely sums up the multiple roles a definition can have, especially for complex phenomena, which lend themselves to analysis from different angles, and through tools from various bodies of knowledge.
 
-As he puts it, the term "globalization" links the old and the new (marked [A] in the quote below), denotes the interest in the phenomenon itself [B], tells us about what can be [C] and when it will be [E], and points to a vague reality [D], i.e., does not refer to something tangible or otherwise easily accessible, for which you and I could rapidly come to same or similar enough observations.
+As he puts it, the term "globalization" links the old and the new (label [A] in the quote below), denotes the interest in the phenomenon itself [B], tells us about what can be [C] and when it will be [E], and points to a vague reality [D], i.e., does not refer to something tangible or otherwise easily accessible, for which you and I could rapidly come to same or similar enough observations.
 
-> "Through its various connotations, the concept of globalization functions as [A] a mediating link between the modern world with its crusty social ontology and the brave new world that remains inaccessible and unintelligible not only to the subscribers to that ontology but also to the believers in global change as well. Not only is globalization a moving target for social inquiry, but it also [B] signifies the movement of that inquiry itself. The concept of globalization thus makes modern political experience meaningful while simultaneously releasing political expectation from the strictures that the very meaningfulness of this experience has imposed on political imagination. It does so through a double gesture: by [C] projecting expectations onto the global while simultaneously making those expectations constitutive of globality as a point of reference and convergence. In this respect, the logic of the concept of globalization resembles that of the concepts of civilization and revolution as they were shaped before and during the French Revolution: [D] these concepts also lacked stable referents, but functioned as vehicles of social change by signifying change in its purest, most necessary and irreversible form: change as the condition of possible objects and possible identities in a possible future. And like these concepts, globalization does not represent a mere prognosis for the future, but a prophecy in quest for self-fulfillment. So far from being here to stay, the metaphors of globalization will perhaps die when the concept has fulfilled its destabilizing task, that is, [E] when globalization has become something that goes without saying and therefore no longer stands in need of being spoken about." [[Bartelson, Jens. "Three concepts of globalization." International Sociology 15.2 (2000): 180-196.]](http://journals.sagepub.com/doi/abs/10.1177/0268580900015002003)
+> "Through its various connotations, the concept of globalization functions as [A: a mediating link between the modern world with its crusty social ontology and the brave new world that remains inaccessible and unintelligible not only to the subscribers to that ontology but also to the believers in global change as well]. Not only is globalization a moving target for social inquiry, but it also [B: signifies the movement of that inquiry itself]. The concept of globalization thus makes modern political experience meaningful while simultaneously releasing political expectation from the strictures that the very meaningfulness of this experience has imposed on political imagination. It does so through a double gesture: by [C: projecting expectations onto the global while simultaneously making those expectations constitutive of globality as a point of reference and convergence]. In this respect, the logic of the concept of globalization resembles that of the concepts of civilization and revolution as they were shaped before and during the French Revolution: [D: these concepts also lacked stable referents, but functioned as vehicles of social change by signifying change in its purest, most necessary and irreversible form: change as the condition of possible objects and possible identities in a possible future]. And like these concepts, globalization does not represent a mere prognosis for the future, but a prophecy in quest for self-fulfillment. So far from being here to stay, the metaphors of globalization will perhaps die when the concept has fulfilled its destabilizing task, that is, [E: when globalization has become something that goes without saying and therefore no longer stands in need of being spoken about]." [[Bartelson, Jens. "Three concepts of globalization." International Sociology 15.2 (2000): 180-196.]](http://journals.sagepub.com/doi/abs/10.1177/0268580900015002003)
 
-<!-- stopped here on Aug 22 -->
+## Definitions Make Choices
+_Chapter summary: On how definitions make it easy do do some things, and hard to do others._
 
+If you commit to a definition, meaning you choose one definition of a term over others, then you also take additional commitments. It is yet another case of buying one and getting more than you asked for. How much of this more do you know? Do you want this additional baggage? These are the two central questions.
 
+Law is an interesting domain when thinking about definitions. This is for two reasons: one, it insists on using terms in a precise and consistent way, and two, how these terms are used has substantial effects on people's lives.
 
+Consider the hard case, of "terrorism". How would you define it? 
 
-XII Definitions Make Choices
-On how definitions make us do some things, and not others.
+Here is how terrorism is defined in the United Kingdom Terrorism Act. The version below is from 2018. Read the colors as follows: blue text is the original definition, and it was included in law in 2000; text labeled [A] was added to the original definition in 2006, and the updated definition was published in the Terrorism Act 2006; text labeled [B] was added in 2008, and published in Counter-Terrorism Act 2008.
 
-The main takeaway in this chapter, is that if you commit to a definition, i.e., if you choose one definition for a term rather than another, then you also take additional commitments. One of those cases when you buy one and get two. How much of it do you know? Do you want this additional baggage? These are the two central questions.
+> "Terrorism: interpretation.
+> * (1) In this Act 'terrorism' means the use or threat of action where
+>   * (a) the action falls within subsection (2),
+>   * (b) the use or threat is designed to influence the government [A: or an international governmental organisation] or to intimidate the public or a section of the public, and
+>   * (c) the use or threat is made for the purpose of advancing a political, religious [B:, racial] or ideological cause.
+> * (2) Action falls within this subsection if it
+>   * (a) involves serious violence against a person,
+>   * (b) involves serious damage to property,
+>   * (c) endangers a person's life, other than that of the person committing the action,
+>   * (d) creates a serious risk to the health or safety of the public or a section of the public, or
+>   * (e) is designed seriously to interfere with or seriously to disrupt an electronic system.
+> * (3) The use or threat of action falling within subsection (2) which involves the use of firearms or explosives is terrorism whether or not subsection (1)(b) is satisfied.
+> * (4)In this section
+>   * (a) 'action' includes action outside the United Kingdom,
+>   * (b) a reference to any person or to property is a reference to any person, or to property, wherever situated,
+>   * (c) a reference to the public includes a reference to the public of a country other than the United Kingdom, and
+>   * (d) 'the government' means the government of the United Kingdom, of a Part of the United Kingdom or of a country other than the United Kingdom.
+> * (5) In this Act a reference to action taken for the purposes of terrorism includes a reference to action taken for the benefit of a proscribed organisation." [[UK Terrorism Act 2000]](https://www.legislation.gov.uk/ukpga/2000/11/section/1#commentary-c16756551)
 
-Law is an interesting domain when thinking about definitions. This is because it combines two things: one, it insists on using terms in a precise and consistent way, and two, how these terms are used can have substantial effects on people's lives. 
+This is a complicated, but carefully made definition of a complex and important phenomenon. It is a poorly understood phenomenon. Any definition, therefore, however attentively made, will have limitations.
 
-One of the terms that gets its own definition in law is "terrorism". How would you define "terrorism"? 
+One of the possible consequences of applying this definition is that some acts, which normally do not look like cases of terrorism, still could be categorized as terrorism.
 
-Here is how the term "terrorism" is defined in the United Kingdom Terrorism Act. The version below is from 2018. Read the colors as follows: blue text is the original definition, and it was included in law in 2000; orange text was added to the original definition in 2006, and the updated definition was published in the Terrorism Act 2006; purple text was added in 2008, and published in Counter-Terrorism Act 2008.
+> "Civil disobedience, public protest and industrial action are among the activities that could fall within the definition. These types of activities should be excluded from any definition of terrorism. [...] Unlike the definition in the Australian Criminal Code (and its State equivalents), the New Zealand Terrorism Suppression Act, the Canadian Criminal Code and the 2003 South African Anti-Terrorism Bill, the United Kingdom definition does not contain an exception in favour of advocacy, protest or industrial action. The legislation simply requires the purported terrorist to have committed an act (such as endangering a person's life, or seriously damaging property), and to have committed that act in furtherance of a political, religious or ideological cause with the aim of influencing the government or intimidating the public (or a section thereof). This encompasses groups whose methods are generally non-violent and who do not aim to intimidate or to coerce the government or the public.
+For example, a long-running nurse's industrial dispute where staffing levels in public hospitals have been seriously reduced could 'create a serious risk to the health or safety of the public', within the meaning of s 1(2)(d) (as could the industrial actions of other essential services, such as fire officers, police, and so forth). If the strike were directed towards convincing the government to increase pay and conditions in public hospitals then this could also satisfy both the 'political cause' and the 'influencing government' requirements, in s1. Similarly, a mass student protest against the deregulation of university fees by the British Government could also fall within the definition of terrorism." [[Golder, Ben, and Williams George. "What is Terrorism-Problems of Legal Definition." UNSWLJ 27 (2004): 270.]](http://www.unswlawjournal.unsw.edu.au/wp-content/uploads/2017/09/27-2-12.pdf)
 
-"Terrorism: interpretation.
-(1)In this Act 'terrorism' means the use or threat of action where�
-(a)the action falls within subsection (2),
-(b)the use or threat is designed to influence the government [or an international governmental organisation] or to intimidate the public or a section of the public, and
-(c)the use or threat is made for the purpose of advancing a political, religious [, racial] or ideological cause.
-(2)Action falls within this subsection if it�
-(a)involves serious violence against a person,
-(b)involves serious damage to property,
-(c)endangers a person�s life, other than that of the person committing the action,
-(d)creates a serious risk to the health or safety of the public or a section of the public, or
-(e)is designed seriously to interfere with or seriously to disrupt an electronic system.
-(3)The use or threat of action falling within subsection (2) which involves the use of firearms or explosives is terrorism whether or not subsection (1)(b) is satisfied.
-(4)In this section�
-(a)�action� includes action outside the United Kingdom,
-(b)a reference to any person or to property is a reference to any person, or to property, wherever situated,
-(c)a reference to the public includes a reference to the public of a country other than the United Kingdom, and
-(d)'the government' means the government of the United Kingdom, of a Part of the United Kingdom or of a country other than the United Kingdom.
-(5)In this Act a reference to action taken for the purposes of terrorism includes a reference to action taken for the benefit of a proscribed organisation." [UK Terrorism Act 2000]
+Theses are interesting potential consequence, regardless of intentions that led to the definition.
 
-This is a complicated, but carefully made definition of a complex phenomenon that has a significant impact on society. It is a poorly understood phenomenon, and any definition, however attentively made, will have its limitations.
+Going back to less complicated topics, and more in the context of innovation languages, your choice of one definition over another has consequences on the structure of the problem space, of the solution space, and on the innovation process. This means that how you define something has an impact on what problem you are going to be solving - that is the problem space part - the potential ways you will be looking at to solve it - the solution space part - and on how you go through the formulation of the problem and its resolution - the innovation process part. In other words, it can affect really all that goes on during innovation.
 
-One of the possible consequences of applying this definition is that some acts, which normally do not look like cases of what we may intuitively associate with terrorism, still could be categorized as terrorism.
-
-"Civil disobedience, public protest and industrial action are among the activities that could fall within the definition.
-These types of activities should be excluded from any definition of terrorism. [...] Unlike the definition in the Australian Criminal Code (and its State equivalents), the New Zealand Terrorism Suppression Act, the Canadian Criminal Code and the 2003 South African Anti-Terrorism Bill, the United Kingdom definition does not contain an exception in favour of advocacy, protest or industrial action. The legislation simply requires the purported terrorist to have committed an act (such as endangering a person's life, or seriously damaging property), and to have committed that act in furtherance of a political, religious or ideological cause with the aim of influencing the government or intimidating the public (or a section thereof). This encompasses groups whose methods are generally non-violent and who do not aim to intimidate or to coerce the government or the public.
-For example, a long-running nurse�s industrial dispute where staffing levels in public hospitals have been seriously reduced could �create a serious risk to the health or safety of the public�, within the meaning of s 1(2)(d) (as could the industrial actions of other essential services, such as fire officers, police, and so forth). If the strike were directed towards convincing the government to increase pay and conditions in public hospitals then this could also satisfy both the �political cause� and the �influencing government� requirements, in s 1.
-Similarly, a mass student protest against the deregulation of university fees by the British Government could also fall within the definition of terrorism." [Golder, 2004]
-
-It is unclear if this was intended, but it is an interesting potential consequence.
-
-Going back to less complicated topics, and more in the context of innovation languages, choosing one definition over another has consequences on the structure of the problem space, of the solution space, and on the innovation process. This means that how you define something has an impact on what problem you are going to be solving - that is the problem space part - the potential ways you will be looking at to solve it - the solution space part - and on how you go through the formulation of the problem and its resolution - the innovation process part. In other words, it can affect really all that goes on during innovation.
-
-In an earlier Chapter, I introduced the case where we were designing a process for contract negotiation. One of the issues that was highlighted early on, was that such contract negotiation tends to take variable time, they can last long, and if they last too long, they may simply not lead to the contract at all. So one of the aims that was taken for granted, was that the process should shorten the time to contract, or more broadly, to the decision to sign or not. 
+In an earlier Chapter, I introduced the case where we were designing a process for contract negotiation. One of the issues that was highlighted early on, was that such contract negotiation tends to take an unpredictable amount of time. They can last long, and if they last too long, they may simply not lead to the contract at all. So one of the aims that was taken for granted, was that the process should shorten the time to contract, or more broadly, to the decision to sign or not.
 
 How do these early assumptions shape the problem space? Consider two potential definitions for the contract negotiation process.
 
-Contract Negotiation 1: Process in which parties agree on terms of collaboration.
+* Contract Negotiation 1: Process in which parties agree on terms of collaboration.
+* Contract Negotiation 2: Process in which a party that needs to have assignments performed communicates with potential parties that can execute these assignments, until she has either agreed with one on terms for collaboration towards the execution of these assignments, or has agreed with none of the considered parties.
+* Contract Negotiation 3: Process in which parties agree on terms of collaboration within two calendar weeks from the time the asking party requested a proposal from the supplying party.
 
-Contract Negotiation 2: Process in which a party that needs to have assignments performed communicates with potential parties that can execute these assignments, until she has either agreed with one on terms for collaboration towards the execution of these assignments, or has agreed with none of the considered parties.
-
-Contract Negotiation 3: Process in which parties agree on terms of collaboration within two calendar weeks from the time the asking party requested a proposal from the supplying party.
-
-The first definition is the least constraining. It leaves a lot open. Nothing is said about how many parties can be involved, how much time they can take, what they can collaborate on. The second definition is clear about the number of parties that can be involved, and how the process ends. Only the third definition mentions the duration of the process, and is precise about it, but is open regarding the number of participants. 
+The first definition is the least constraining. It leaves a lot open. Nothing is said about how many parties can be involved, how much time they can take, what they can collaborate on. The second definition is clear about the number of parties that can be involved, and how the process ends. Only the third definition mentions the duration of the process, and is precise about it, but is open regarding the number of participants.
 
 If the innovation team adopts the third definition, they still need to decide on the number of participants, among others. But can they allow any number of participants? Does allowing fewer participants make two weeks a long time for negotiations? Is two weeks too short, when there are many participants? Does the number of participants influence duration? Is it the other way around, does the duration limit the number of participants? Should the process differ in maximal duration if it has many participants? Which numbers would require which durations?
 
-If the team does indeed adopt the third definition, and makes it immutable, then this affects substantially the possible designs of the negotiation process. And it does so in ways which may not be easy to see as early on in the innovation process. We did, in fact adopt a definition which included a time limit. Because of this, we had to restrict communication between the parties. If we left it open, letting them freely communicate, we believed that they would not converge to a go/no go decision quickly enough. This, in turn, required that we provide template contracts, where it was clear which exact parameters could be negotiated. And that, then, required that we restrict communication between parties only to the negotiation of values of those parameters. Yet another unanticipated consequence of this, is that it can work only for highly structured contracts, where these negotiable parameters are few and well known. For example, a monthly retainer amount and a price per hour, together with the list of tasks. That is a far reaching consequence, because it affects the size of the potential market for the process, and the software that was to be made to support that process. 
+If the team does indeed adopt the third definition, and makes it immutable, then this affects substantially the possible designs of the negotiation process. And it does so in ways which may not be easy to see as early on in the innovation process. We did, in fact adopt a definition which included a time limit. Because of this, we had to restrict communication between the parties. If we left it open, letting them freely communicate, we believed that they would not converge to a go/no go decision quickly enough. This, in turn, required that we provide template contracts, where it was clear which exact parameters could be negotiated. And that, then, required that we restrict communication between parties only to the negotiation of values of those parameters. Yet another unanticipated consequence of this, is that it can work only for highly structured contracts, where these negotiable parameters are few and well known. For example, a monthly retainer amount and a price per hour, together with the list of tasks. That is a far reaching consequence, because it affects the size of the potential market for the process, and the software that was to be made to support that process.
 
-This does not mean that a more open, i.e., less constraining definition is better. If the team takes seriously the first definition instead, then it may completely ignore the importance of duration, thus ignoring the assumption that the duration of negotiations influences negotiation success. 
+This does not mean that a more open, i.e., less constraining definition is better. If the team takes seriously the first definition instead, then it may ignore the relationship of duration to outcome, and more specifically that the duration of negotiations influences negotiation success.
 
 All these issues seem obvious as you read this text, but they are hard to see and analyze when you are involved in the innovation process. It is often only in retrospect that their merits and drawbacks become clear.
 
@@ -585,38 +576,38 @@ In that respect, you can see a definition as a bundle of predictions. In the cas
 
 An analysis to do, that helps understand the implications of a definition on the problem and solution spaces, is to identify choices in the definition, and identify at least one other option for each. I did it below on the three definitions.
 
-Contract Negotiation 1: Process in which (one, two, more parties) (agree, disagree, cancel negotiations) on terms of (delegation, collaboration).
+* Contract Negotiation 1: Process in which _(one, two, more parties)_ _(agree, disagree, cancel negotiations)_ on terms of _(delegation, collaboration)_.
 
-I identified three choices in the first definition. One is the number of parties, with four options (either one of the three, and all three as the fourth). The second is the outcome of negotiations, with four options as well. The final is the object of negotiations, with two options. You could have gotten other choices and other options for each. What the analysis highlights, is that the first definition commits to one out of 4*4*3 possible combinations; the problem space is restricted to the chosen options in each choice, and any solution will have to solve a problem in that part of the problem space. 
+I identified three choices in the first definition. One is the number of parties, with four options (either one of the three, and all three as the fourth). The second is the outcome of negotiations, with four options as well. The final is the object of negotiations, with two options. You could have gotten other choices and other options for each. What the analysis highlights, is that the first definition commits to one out of 4 \* 4 \* 3 possible combinations; the problem space is restricted to the chosen options in each choice, and any solution will have to solve a problem in that part of the problem space.
 
 Consider now the second definition.
 
-Contract Negotiation 2: Process in which a party that needs to have (one, more assignments) performed communicates with (one, more than one potential parties) that can execute (all, subset of these assignments), until she has either agreed with (none, one, more than one party) on terms for collaboration towards the execution of (all, subset of these assignments).
+* Contract Negotiation 2: Process in which a party that needs to have _(one, more assignments)_ performed communicates with _(one, more than one potential parties)_ that can execute _(all, subset of these assignments)_, until she has either agreed with _(none, one, more than one party)_ on terms for collaboration towards the execution of _(all, subset of these assignments)_.
 
-Above, I highlighted five choices, and a problem space of 3*3*3*3*3 combinations. You could easily enlarge this problem space, by allowing participants to make their own decisions. That would look like this.
+Above, I highlighted five choices, and a problem space of 3 \* 3 \* 3 \* 3 \* 3 combinations. You could easily enlarge this problem space, by allowing participants to make their own decisions. That would look like this.
 
-Contract Negotiation 4: Process in which a party that needs to have (one, more assignments, party's own choice of number of assignments) performed communicates with (one, more than one potential parties, the number of parties decided for that contract) that can execute (all, subset of these assignments, a minimum set by the asking party), until she has either agreed with (none, one, more than one party, number chosen by the asking party) on terms for collaboration towards the execution of (all, subset of these assignments, minimal set required for the asking party to accept the contract).
+* Contract Negotiation 4: Process in which a party that needs to have _(one, more assignments, party's own choice of number of assignments)_ performed communicates with (one, more than one potential parties, the number of parties decided for that contract) that can execute _(all, subset of these assignments, a minimum set by the asking party)_, until she has either agreed with _(none, one, more than one party, number chosen by the asking party)_ on terms for collaboration towards the execution of _(all, subset of these assignments, minimal set required for the asking party to accept the contract)_.
 
-And this is just for a rather rough definition of one term. You can imagine how this becomes complicated to think of, if we start looking at choices in two, three, or more realistically, innovation languages with a few dozen, and sometimes hundreds of terms. Even if you dedicated effort to the analysis of this kind, to each definition alone, you would still have to do this for interactions of choices which are in definitions of different terms, but depend on each other.
+And this is only for a rough definition of a single term. You can imagine how this becomes complicated to think about, if we start looking at choices in two, three, or more realistically, innovation languages with a few dozen, and sometimes hundreds of terms. Even if you dedicated effort to the analysis of this kind, to each definition alone, you would still have to do this for interactions of choices which are in definitions of different terms, but depend on each other.
 
 Same analysis is now applied to the third definition.
 
-Contract Negotiation 3: Process in which (two, more than two, number st by asking party) parties agree on terms of collaboration within (one, two, custom number chosen by asking party) calendar weeks (from the time the asking party requested a proposal from the supplying party, from the time the first supplying party responded to the request for proposal, either of these as st by asking party).
+* Contract Negotiation 3: Process in which _(two, more than two, number st by asking party)_ parties agree on terms of collaboration within _(one, two, custom number chosen by asking party)_ calendar weeks _(from the time the asking party requested a proposal from the supplying party, from the time the first supplying party responded to the request for proposal, either of these as st by asking party)_.
 
-Again, notice how a seemingly simple definition can cause a headache, as the number of choices and options in each start to multiply. 
+Again, notice how a seemingly simple definition can cause headache, as the number of choices and options in each start to multiply.
 
-Let's take a step back. What goes on in this analysis? I said I was identifying choices. In abstract terms, these are assignments of values to variables. I took easy examples in these definitions, because it is straightforward to think about, e.g., the number of participants as a variable that can take different numerical values, positive integers. But this is less apparent in the third definition, for the choice of trigger that starts the negotiation timer, where I had the choice "two calendar weeks from the time the asking party requested a proposal from the supplying party". 
+Let's take a step back. What goes on in this analysis? I said I was identifying choices. In abstract terms, these are assignments of values to variables. I took easy examples in these definitions, because it is straightforward to think about, e.g., the number of participants as a variable that can take different numerical values, positive integers. But this is less apparent in the third definition, for the choice of trigger that starts the negotiation timer, where I had the choice "two calendar weeks from the time the asking party requested a proposal from the supplying party".
 
-In simple terms, choices are all items in a definition that you could change. A choice in a definition is something that could be different.
+In simple terms, choices are all items in a definition that you could change. A choice in a definition is something that can or could be different.
 
-A choice is not necessarily easy to identify in the definition. It could be easy, like in the cases I had above, or much harder, as in the following example. 
+A choice is not necessarily easy to identify in the definition. It could be straightforward, like in the cases I had above, or much harder, as in the following example.
 
-Shippable: A Shippable Unit (a.k.a. "Shippable" only) satisfies all the following conditions:
-? It involves one or more software functionality;
-? It is represented, in the release management process, by exactly one User Story;
-? It is released to UAT Environment;
-? Prior to its release to UAT Environment, it has been tested by Vibe to ensure that this software functionality operates in accordance to its Product Specification;
-? Its Product Specification has been approved, prior to the commitment of development resources to its implementation, i.e., prior to its User Story being introduced for the first time in a Sprint.
+* Shippable: A Shippable Unit (a.k.a. "Shippable" only) satisfies all the following conditions:
+    * It involves one or more software functionality;
+    * It is represented, in the release management process, by exactly one User Story;
+    * It is released to UAT Environment;
+    * Prior to its release to UAT Environment, it has been tested by Vibe to ensure that this software functionality operates in accordance to its Product Specification;
+    * Its Product Specification has been approved, prior to the commitment of development resources to its implementation, i.e., prior to its User Story being introduced for the first time in a Sprint.
 
 This comes from a terminology made by a software engineering team that was adopting for its own work style a general purpose development method. You might recognize that they were adopting and adapting for themselves, a variant of the Scrum method for software development. A first choice, which is hard to see in this definition, is that a shippable should involve pieces of functionality; it was only when the team started dedicating more resources to analysis tasks, which do not produce functionality, but do produce designs of future functionality, that they recognized that outcomes of these analyses cannot be presented as shippables, which skewed data on team's performance, and caused problems when performance assessments started being done by a third party. This was, in fact not a conscious choice, because the team was already - when the definition was made and approved - involved for months in developing functionality which was well specified up front, and there was no analysis effort to do. That option was not considered, and when no options are considered, this part of the Shippable definition seems, at that time, as immutable, it is not a choice at all, even if this turned out to be a mistake.
 
@@ -630,41 +621,26 @@ In the Shippables example above, the notion of a shippable is associated, as are
 
 This highlights the fact that you need to worry about choices that led to the introduction of the term to the innovation language, then about choices captured in the definition itself, and the choices that are implicit, which you only learn through experience.
 
-Troubles do not end there. I have a rather different understanding of options and choices when I am analyzing definitions that I create, as opposed to those that others made. Indeed, a term's definition is simply an outcome of the thinking and communication that led to it. If you did not participate in, or do that thinking, then your analysis of choices in a definition will be only on the definition itself, and the rest of the innovation language. 
+Troubles do not end there. I have a rather different understanding of options and choices when I am analyzing definitions that I create, as opposed to those that others made. Indeed, a term's definition is simply an outcome of the thinking and communication that led to it (including one's specific experience and expertise accumulated up to that point). If you did not participate in, or do that thinking, then your analysis of choices in a definition will be only on the definition itself, and the rest of the innovation language.
 
-But even if I had to make a definition of Shippable, I can still know little about Scrum, or software development altogether. Your analysis, in other words, inevitably leans on the knowledge you have. 
+But even if I had to make a definition of Shippable, I can still know little about Scrum, or software development altogether. Your analysis, in other words, inevitably leans on the knowledge you have.
 
 And even if I knew a lot about software engineering methods, it would be more appropriate to know specifics of that team, who will be using the definition, than if my knowledge was generic.
 
 The bottom line is that the less you know and the more indirect that knowledge is, the more difficult it is to anticipate the effects of choices in the definitions you make, or are handed over.
 
+I mentioned three parameters so far, which play into your ability to predict effects of choices in a definition. They are:
 
-Direct knowledge, specific to the case at hand
-Indirect knowledge, drawn from other cases
+* If your knowledge is direct or indirect; it is direct if you have expertise and experience on phenomena at hand; it is not if they are new to you, and much of what you can think of these phenomena is, thus, speculation based on, for example, analogy;
+* How extensive your knowledge on the phenomenon is. The less extensive it is, the more likely it is that many choices in the definition will remain implicit to you;
+* If you are an author of the definition, or only its recipient, in which case you did not participate in whichever explicit choices were made when that definition was designed.
 
-Author
-Given
-Author
-Given
-Low knowledge, new case
-4
-3
-2
-1
-High knowledge, recognizable case
-8
-7
-6
-5
-
-The table summarizes the parameters mentioned so far. There are three dimensions: One is about you having direct or indirect knowledge, the other about being or not among the authors of the definition, and the third about having much prior knowledge on the topic, or it being new to you. Ranking shows how much you are likely to anticipate the effects of the definition, 1 being lowest capacity to do so, 8 being highest. This is all common sense, being lucky could contradict it.
+These three dimensions are orthogonal. Your level on one has no relationship to your level on another. With this in mind, your wors case is being a recipient of a definition, while having low indirect knowledge of the phenomenon that the definition is about. 
 
 But what if choices in one definition are linked to choices in others? That requires a different view of an innovation language, presented in the next Chapter.
 
-
-
-XIII Language as Network
-On relationships between definitions in an innovation language, how they lead to a network representation of the language, and why that is useful.
+## Language as Network
+_Chapter summary: On relationships between definitions in an innovation language, how they lead to a network representation of the language, and why that is useful._
 
 This Chapter elaborates a simple idea, of relating a term A to a term B if the definition of A mentions B, and looking at what to do with these relationships.
 
@@ -672,55 +648,64 @@ Why do it? Because any term in an innovation language is not isolated. It is one
 
 Consider the following simple innovation language, made in a project to create software that should help collect data about how products are sold at points of sale. The data is subsequently used to help decision making in marketing and sales at a large electronics manufacturer.
 
-SRN: Smart Retail Network software.
-SDM: Shop Display Management software.
-Shop Display: object installed at a POP, which is used to promote products; Shop Display is synonym with Fixture.
-Basic Shop Display (BSD): a Shop Display which cannot itself be subdivided.
-Complex Shop Display (CSD): a Shop Display made from two or more Basic Shop Displays.
-Shop Display Identifier (SDID): unique numeric identifier generated by SDM for each BSD, used to identify a BSD when a QR code scanner is not available.
-Shop Display Supplier: representative of the company supplying Shop Displays.
-Point of Purchase (POP): location (shop) where products are being sold.
-Field Merchandiser (FMR): an individual visiting a POP and collecting data about the POP; an FMR typically gets a list of POP to visit, and upon visiting collects data about products being sold at POP, the characteristics of a POP, and any other data of use.
-POP personnel (POPP): an individual employed at a POP and involved in the selling of, and/or presentation of Samsung products to customers.
-Key Account (KA): an individual supervising one or more FMR.
-POP data: data (text, measurements, images) collected at a POP by an FMR.
-Report: a table, chart, or Excel or PowerPoint presentation file generated by SRN or SDM to facilitate the understanding of POP data.
-Analyst: employee interested in analyzing the data stored in SRN.
-Administrator: employee interested in changing the settings and/or performing maintenance of SRN.
+* SRN: Smart Retail Network software.
+* SDM: Shop Display Management software.
+* Shop Display: object installed at a POP, which is used to promote products; Shop Display is synonym with Fixture.
+* Basic Shop Display (BSD): a Shop Display which cannot itself be subdivided.
+* Complex Shop Display (CSD): a Shop Display made from two or more Basic Shop Displays.
+* Shop Display Identifier (SDID): unique numeric identifier generated by SDM for each BSD, used to identify a BSD when a QR code scanner is not available.
+* Shop Display Supplier: representative of the company supplying Shop Displays.
+* Point of Purchase (POP): location (shop) where products are being sold.
+* Field Merchandiser (FMR): an individual visiting a POP and collecting data about the POP; an FMR typically gets a list of POP to visit, and upon visiting collects data about products being sold at POP, the characteristics of a POP, and any other data of use.
+* POP personnel (POPP): an individual employed at a POP and involved in the selling of, and/or presentation of Samsung products to customers.
+* Key Account (KA): an individual supervising one or more FMR.
+* POP data: data (text, measurements, images) collected at a POP by an FMR.
+* Report: a table, chart, or Excel or PowerPoint presentation file generated by SRN or SDM to facilitate the understanding of POP data.
+* Analyst: employee interested in analyzing the data stored in SRN.
+* Administrator: employee interested in changing the settings and/or performing maintenance of SRN.
 
-Here is a summary of which terms appear in which definitions:
+Here is a summary of how definitions depend on other terms in the innovation language. Writing A <- B says that the definition of A mentions B, and so we say that A depends on B.
 
-SRN <- None
-SDM <- None
-Shop Display <- POP
-BSD <- Shop Display
-CSD <- BSD
-SDID <- SDM, BSD
-Shop Display Supplier <- Shop Display
-POP <- None
-FMR <- POP
-POPP <- POP
-KA <- FMR
-POP data <- POP, FMR
-Report <- SRN, SDM, POP data
-Analyst <- SRN
-Administrator <- SRN
+* Analyst --depends on-> SRN
+* Administrator --depends on-> SRN
+* Basic Shop Display --depends on-> Shop Display
+* Complex Shop Display --depends on-> Shop Display
+* Complex Shop Display --depends on-> Basic Shop Display
+* Field Merchandiser --depends on-> Point of Purchase
+* Field Merchandiser --depends on-> Field Merchandiser
+* Key Account --depends on-> Field Merchandiser
+* POP Personnel --depends on-> Point of Purchase
+* POP Data --depends on-> Point of Purchase
+* POP Data --depends on-> Field Merchandiser
+* Report --depends on-> SRN
+* Report --depends on-> SDM
+* Report --depends on-> Point of Purchase
+* Report --depends on-> POP Data
+* SDM --depends on-> Shop Display
+* Shop Display --depends on-> Shop Display
+* Shop Display --depends on-> Point of Purchase
+* Shop Display Identifier --depends on-> SDM
+* Shop Display Identifier --depends on-> Basic Shop Display
+* Shop Display Supplier --depends on-> Shop Display
 
-This can be visualized as follows. That diagram is called the definition network, defnet shorthand.
+The Figure below shows the dependencies as a graph, called the term dependency network.
+
+![](ilang-book-images/srn_term_dependency_network.png?raw=true)
+
+How does this diagram help? One way to read it, is that it shows dependencies. A term's definition depends on another's. This dependency view of an innovation language gives three types of nodes: inner, stops, and outer.
+
+Outer nodes depend on no term in the innovation language. The definition of an outer node depends entirely on terms defined in other languages, be they natural, technical, or other. That makes them outer, they are at the border with other languages, where the innovation language ends or begins. This is also a node which opens the innovation language most open to interpretation as it make it rely on definitions controlled outside the language, those definitions which are outside its scope.
+
+Stop nodes are on paths between outer and inner nodes. They both depend on other nodes and are mentioned in definitions of other nodes.
+
+Inner nodes depend on other nodes, but are not used to define terms.
 
 
 
-How does this diagram help? One way to read it, is that it shows dependencies. A term's definition depends on another's. This dependency view of an innovation language gives three types of nodes: inner, stops, and outer. 
+## Blowing Definitions Up
+An interesting analysis to do with dependencies is to blow up the definition of each term.
 
-Outer nodes depend on no term in the innovation language. The definition of an outer node depends entirely on terms defined in other languages, be they natural, technical, or other. That makes them outer, they are at the border with other languages, where the innovation language ends or begins. This is also a node which opens the innovation language most open to interpretation as it make it rely on definitions controlled outside the language, those definitions which are outside its scope. 
-
-Stop nodes are on paths between outer and inner nodes. They both depend on other nodes and are mentioned in definitions of other nodes. 
-
-Inner nodes depend on other nodes, but are not used to define terms. 
-
-An interesting analysis to do with dependencies is to blow up the definition of each term. 
-
-For the sake of clarity, let's call internal terms, all the terms in the innovation language, which have their own definitions. All others are called external terms. In the example above, POP is an internal term, while �product� and �location� are external terms.
+For the sake of clarity, let's call internal terms, all the terms in the innovation language, which have their own definitions. All others are called external terms. In the example above, POP is an internal term, while 'product' and 'location' are external terms.
 
 The blowup of a term works as follows. You count the number of times each external term appears in definitions of all internal terms. You then look at the most frequent external terms, and decide if they should be added to the language, that is, if they need to have a definition you want to control and agree on in the innovation team, or if there is no need for control and agreement.
 
