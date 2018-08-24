@@ -700,7 +700,22 @@ Stop nodes are on paths between outer and inner nodes. They both depend on other
 
 Inner nodes depend on other nodes, but are not used to define terms.
 
-The term dependency network can be large, and its visualization impractical. As an example, consider the technical language defined in [[UNESCO Glossary of World Heritage Terms]](http://whc.unesco.org/archive/gloss96.htm). Doing the same analysis as above, the term dependency network has 158 nodes, one for each term, and 1428 edges, for each dependency between terms. Here is a small sample of the network:
+The term dependency network can be large, and its visualization impractical. We can take an existing technical language for illustration. [[UNESCO Glossary of World Heritage Terms]](http://whc.unesco.org/archive/gloss96.htm) has 157 terms. Here is a preamble to that terminology:
+
+> "This Glossary of World Heritage Terms has been prepared in accordance with the request of the World Heritage Committee at its nineteenth session in December 1995. The Committee requested that the Glossary be a separate document, independent from, but referring to, the Operational Guidelines for the Implementation of the World Heritage Convention and to reports of relevant expert meetings. [...] The Glossary of World Heritage Terms has been prepared primarily by extracting terms and their definitions and interpretations from the World Heritage Convention, the Operational Guidelines and to reports of relevant expert meetings."
+
+Here is a sample definition, for the term "Cultural heritage":
+
+> "Cultural heritage is defined in Article 1 of the Convention as shown below:
+>
+> Article 1
+> For the purpose of this Convention, the following shall be considered as "cultural heritage": 
+> * monuments: architectural works, works of monumental sculpture and painting, elements or structures of an archaeological nature, inscriptions, cave dwellings and combinations of features, which are of outstanding universal value from the point of view of history, art or science;
+> * groups of buildings: groups of separate or connected buildings which, because of their
+architecture, their homogeneity or their place in the landscape, are of outstanding universal value from the point of view of history, art or science;
+> * sites: works of man or the combined works of nature and man, and areas including archaeological sites which are of outstanding universal value from the historical, aesthetic, ethnological or anthropological point of view (UNESCO 1972)."
+
+Doing the same analysis as above, the term dependency network has 157 nodes, one for each term, and 1423 edges, for each dependency between terms. Here is a small sample of the network:
 
 * Action Plan for the Future --depends on-> Action Plan for the Future
 * Corrective measures --depends on-> Action Plan for the Future
@@ -719,11 +734,54 @@ The term dependency network can be large, and its visualization impractical. As 
 * Heritage Convention --depends on-> Assistance
 * ...and many more edges.
 
+The following Figure shows one possible visualization of the term depednency network, for the Glossary of World Heritage Terms.
+
+![](ilang-book-images/UN_GWHT_tdn.png?raw=true)
+
+With large dependency networks, only interactive visualization can be of any use, and tools such as Gephi are relevant. [[Bastian, Mathieu, Sebastien Heymann, and Mathieu Jacomy. "Gephi: an open source software for exploring and manipulating networks." Icwsm 8.2009 (2009): 361-362.]](http://www.aaai.org/ocs/index.php/ICWSM/09/paper/download/154/1009)
+
+## Evaluating Term Importance
+Are all terms in a language equally important? Some are more frequently used than others. Use, here, can be measured by the number of times a term is mentioned in definitions of other terms in the language. An alternative is to look at the number of times a term gets mentioned in artifacts that use the innovation language, such as technical specifications, recorded communication between team members, and so on.
+
+Here, we will assume that a term's importance is directly proportional to the number of times it is mentioned in definitions of other terms in the innovation language. The rationale is that, if a term is frequently mentioned in definitions, then your understanding of those definitions hinges on your understanding of that term. If you misunderstood it, that may transfer to your understanding of definitions which use it.
+
+The following table shows the number of incoming edges to a node, in the term dependency network of the Glossary of World Heritage Terms. Given the number of terms (nodes), only those which are called in 30 or more other terms are shown. Each term in the table, is mentioned in the definitions of at least 30 other terms in the technical language. 
+
+Following our convention on what a term's importance means, this becomes a table of the most important terms, those whose understanding influences your understanding of many others in the same language. The cutoff at 30 is arbitrary - the count matters only to the extent that it shows relative importance of a term. The more often a term is mentioned in definitions of other terms, the more important is to be careful about its definition.
+
+| Term                                                                                                     |   Mentioned in |
+|:---------------------------------------------------------------------------------------------------------|---------------:|
+| Natural heritage                                                                                         |             30 |
+| Nomination                                                                                               |             32 |
+| Conservation                                                                                             |             35 |
+| Property                                                                                                 |             40 |
+| Committee                                                                                                |             45 |
+| World Heritage List                                                                                      |             46 |
+| Operational Guidelines                                                                                   |             49 |
+| List                                                                                                     |             60 |
+| Guidelines                                                                                               |             61 |
+| Natural                                                                                                  |             61 |
+| Convention                                                                                               |             64 |
+| UNESCO                                                                                                   |             91 |
+| World Heritage                                                                                           |             96 |
+
+Even if all terms need to be carefully defined, the most frequently mentioned ones command special attention. Basic statistical analysis above suggests that the World Heritage term is what the language overall leams most on. This is its definition.
+
+> "World Heritage may best be defined with reference to the Preamble to the World Heritage Convention which states that:
+> > ... parts of the cultural or natural heritage are of outstanding interest and therefore need to be preserved as part of the world heritage of mankind as a whole (UNESCO 1972: Preamble).
+> 
+> Paragraph 1 of the Operational Guidelines refers to the World Heritage (cultural heritage and natural heritage) as being
+> > ... among the priceless and irreplaceable possessions, not only of each nation, but of mankind as a whole. The loss, through deterioration or disappearance, of any of these most prized possessions constitutes an impoverishment of the heritage of all the peoples in the world. Parts of that heritage, because of their exceptional qualities, can be considered to be of outstanding universal value and as such worthy of special protection against the dangers which increasingly threaten them (UNESCO February 1996: 1)."
+
+## Evaluating Term Sensitivity to Change
 
 
-<!-- Stopped here on Aug 23 -->
+
+
+<!-- Stopped here on Aug 24 -->
 
 ## Blowing Definitions Up
+
 An interesting analysis to do with dependencies is to blow up the definition of each term.
 
 For the sake of clarity, let's call internal terms, all the terms in the innovation language, which have their own definitions. All others are called external terms. In the example above, POP is an internal term, while 'product' and 'location' are external terms.
