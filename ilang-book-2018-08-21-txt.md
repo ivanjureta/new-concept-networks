@@ -738,9 +738,11 @@ The following Figure shows one possible visualization of the term depednency net
 
 ![](ilang-book-images/UN_GWHT_tdn.png?raw=true)
 
-With large dependency networks, only interactive visualization can be of any use, and tools such as Gephi are relevant. [[Bastian, Mathieu, Sebastien Heymann, and Mathieu Jacomy. "Gephi: an open source software for exploring and manipulating networks." Icwsm 8.2009 (2009): 361-362.]](http://www.aaai.org/ocs/index.php/ICWSM/09/paper/download/154/1009)
+With large dependency networks, only interactive visualization can be of any use, and tools such as Gephi and Cytoscape are relevant. See: 
+* [[Bastian, Mathieu, Sebastien Heymann, and Mathieu Jacomy. "Gephi: an open source software for exploring and manipulating networks." Icwsm 8.2009 (2009): 361-362.]](http://www.aaai.org/ocs/index.php/ICWSM/09/paper/download/154/1009), and
+* [[Shannon, Paul, et al. "Cytoscape: a software environment for integrated models of biomolecular interaction networks." Genome research 13.11 (2003): 2498-2504.]](https://genome.cshlp.org/content/13/11/2498.short)
 
-## Evaluating Term Importance
+## Evaluating a Term's Importance
 Are all terms in a language equally important? Some are more frequently used than others. Use, here, can be measured by the number of times a term is mentioned in definitions of other terms in the language. An alternative is to look at the number of times a term gets mentioned in artifacts that use the innovation language, such as technical specifications, recorded communication between team members, and so on.
 
 Here, we will assume that a term's importance is directly proportional to the number of times it is mentioned in definitions of other terms in the innovation language. The rationale is that, if a term is frequently mentioned in definitions, then your understanding of those definitions hinges on your understanding of that term. If you misunderstood it, that may transfer to your understanding of definitions which use it.
@@ -749,7 +751,7 @@ The following table shows the number of incoming edges to a node, in the term de
 
 Following our convention on what a term's importance means, this becomes a table of the most important terms, those whose understanding influences your understanding of many others in the same language. The cutoff at 30 is arbitrary - the count matters only to the extent that it shows relative importance of a term. The more often a term is mentioned in definitions of other terms, the more important is to be careful about its definition.
 
-| Term                                                                                                     |   Mentioned in |
+| Term                                                                                                     |   Used in |
 |:---------------------------------------------------------------------------------------------------------|---------------:|
 | Natural heritage                                                                                         |             30 |
 | Nomination                                                                                               |             32 |
@@ -773,10 +775,56 @@ Even if all terms need to be carefully defined, the most frequently mentioned on
 > Paragraph 1 of the Operational Guidelines refers to the World Heritage (cultural heritage and natural heritage) as being
 > > ... among the priceless and irreplaceable possessions, not only of each nation, but of mankind as a whole. The loss, through deterioration or disappearance, of any of these most prized possessions constitutes an impoverishment of the heritage of all the peoples in the world. Parts of that heritage, because of their exceptional qualities, can be considered to be of outstanding universal value and as such worthy of special protection against the dangers which increasingly threaten them (UNESCO February 1996: 1)."
 
-## Evaluating Term Sensitivity to Change
+For analyses of this definition's merits and limitations, see:
+* [[Francioni, Francesco, and Federico Lenzerini (eds.). The 1972 World Heritage Convention. A commentary. Oxford, 2008.]](https://global.oup.com/academic/product/the-1972-world-heritage-convention-9780199291694?cc=rs&lang=en&), 
+* [[Vecco, Marilena. "A definition of cultural heritage: From the tangible to the intangible." Journal of Cultural Heritage 11.3 (2010): 321-324.]](https://www.sciencedirect.com/science/article/pii/S1296207410000361), 
+* [[Pocock, Douglas. "Some reflections on world heritage." Area 29.3 (1997): 260-268.]](https://rgs-ibg.onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4762.1997.tb00028.x), and 
+* [[Labadi, Sophia. "World Heritage, authenticity and post-authenticity: international and national perspectives." Heritage and globalisation. Routledge, 2010. 80-98.]](https://www.taylorfrancis.com/books/e/9781136965272/chapters/10.4324%2F9780203850855-12).
 
+## Evaluating a Term's Sensitivity to Change
+If a term X depends on many others in an innovation language, their changes will affect how X is understood, even if the definition of X remains syntactically the same.
 
+We can evaluate a term's sensitivity to change of other terms, by looking at the number of terms it depends on.
 
+The following table shows, for a given term, the number of other terms its definition uses. All terms are in the same innovation language. 
+
+The fewer terms a term uses, the less sensitive it is to the change of these terms' definitions. The more terms it uses, the more sensitive it is. The table is cut, to show the least and most sensitive terms only. As earlier, cutoff values are arbitrary, the motive here being to save space.
+
+| Term                                                                                                     |   Uses |
+|:---------------------------------------------------------------------------------------------------------|-------------:|
+| UNESCO                                                                                                   |            0 |
+| Conditions of authenticity                                                                               |            1 |
+| Nara Conference on Authenticity in Relation to the World Heritage Convention                             |            1 |
+| Nara Document on Authenticity                                                                            |            1 |
+| Test of authenticity                                                                                     |            1 |
+| Designed landscape                                                                                       |            1 |
+| Criterion                                                                                                |            1 |
+| Deferral                                                                                                 |            1 |
+| Global Strategy for the Implementation of the World Heritage Convention                                  |            1 |
+| Itineraries                                                                                              |            1 |
+| Routes                                                                                                   |            1 |
+| International Centre for the Study of the Preservation and Restoration of Cultural Property              |            1 |
+| World Heritage value                                                                                     |            1 |
+| UNESCO World Heritage Centre                                                                             |            1 |
+| World Heritage Centre                                                                                    |            1 |
+| ... | ... |
+| Reactive monitoring                                                                                      |           20 |
+| World Heritage Committee                                                                                 |           20 |
+| Tentative list                                                                                           |           20 |
+| Criteria                                                                                                 |           21 |
+| Advisory bodies                                                                                          |           22 |
+| Balance                                                                                                  |           24 |
+| International assistance                                                                                 |           26 |
+| Evaluation                                                                                               |           26 |
+| Authenticity                                                                                             |           27 |
+| Conservation                                                                                             |           27 |
+| Integrity                                                                                                |           31 |
+
+Low or high sensitivity are not inherently good or bad. They are signals that should trigger specific questions. If a term has low sensitivity, it sits at the boundary of the innovation language, as it is using little from that language. A boundary term begs questions of scope, of the innovation language, which we look at later. 
+
+If a term has high sensitivity, it leans substantially on the rest of the terms of that innovation language. Such terms need to be reviewed, whenever there is a change in terms they depend on.
+
+## 
 
 <!-- Stopped here on Aug 24 -->
 
