@@ -820,13 +820,120 @@ The fewer terms a term uses, the less sensitive it is to the change of these ter
 | Conservation                                                                                             |           27 |
 | Integrity                                                                                                |           31 |
 
-Low or high sensitivity are not inherently good or bad. They are signals that should trigger specific questions. If a term has low sensitivity, it sits at the boundary of the innovation language, as it is using little from that language. A boundary term begs questions of scope, of the innovation language, which we look at later. 
+Low or high sensitivity are not inherently good or bad. They are signals that trigger questions.
 
-If a term has high sensitivity, it leans substantially on the rest of the terms of that innovation language. Such terms need to be reviewed, whenever there is a change in terms they depend on.
+If a term has low sensitivity, it sits at the boundary of the innovation language. It uses little from that language. A boundary term begs questions of scope, of the innovation language, which we look at later. If a term has high sensitivity, it leans substantially on the rest of the terms of that innovation language.
 
-## 
+## Importance and Change Sensitivity Together
+We can focus on a specific term, and look at its importance and change sensitivity. In the Glossary of World Heritage Terms, "Cultural heritage" is used in 18 terms, listed in the table below. The table shows which terms need to be reviewed, when "Cultural heritage" definition changes. The review should ensure that changes to "Cultural heritage" do not produce inconsistency with the definitions of these notions.
 
-<!-- Stopped here on Aug 24 -->
+| Term                                                                            | Uses              |
+|:--------------------------------------------------------------------------------|:------------------|
+| Balance                                                                         | Cultural heritage |
+| Cultural heritage                                                               | Cultural heritage |
+| Convention concerning the protection of the world cultural and natural heritage | Cultural heritage |
+| Authenticity                                                                    | Cultural heritage |
+| Conservation                                                                    | Cultural heritage |
+| Criteria                                                                        | Cultural heritage |
+| Cultural heritage criteria                                                      | Cultural heritage |
+| Cultural property                                                               | Cultural heritage |
+| Global Strategy                                                                 | Cultural heritage |
+| Information sources                                                             | Cultural heritage |
+| Justification                                                                   | Cultural heritage |
+| Integrity                                                                       | Cultural heritage |
+| Spirit of the Convention                                                        | Cultural heritage |
+| Groups of buildings                                                             | Cultural heritage |
+| Monuments                                                                       | Cultural heritage |
+| Property                                                                        | Cultural heritage |
+| Sites                                                                           | Cultural heritage |
+| World Heritage                                                                  | Cultural heritage |
+
+Sensitivity of "Cultural heritage" is shown with the following table. It lists all eight terms which are used in the definition of "Cultural heritage". 
+
+| Term              | Uses                        |
+|:------------------|:----------------------------|
+| Cultural heritage | Convention                  |
+| Cultural heritage | Cultural heritage           |
+| Cultural heritage | Groups of buildings         |
+| Cultural heritage | Inscription                 |
+| Cultural heritage | Monuments                   |
+| Cultural heritage | Outstanding universal value |
+| Cultural heritage | Sites                       |
+| Cultural heritage | UNESCO                      |
+
+Notice self-reference in the definition. Both the importance and sensitivity tables include a row where Cultural heritage uses itself, so to speak. This is due to the style of writing in the glossary, where the definition of each term includes, typically at the very start, the term itself. 
+
+When looking at importance and sensitivity, the question to ask is if the term can be made more independent from others. The definition of Cultural heritage references the Convention twice, and each time in a different way: 
+
+* "...in Article 1 of the Convention as...", by mentioning the term Convention from the same Glossary, and
+* "...(UNESCO 1973)..." where it cites the World Heritage Convention publication.
+
+This can be solved by removing one of the two references in the definition itself. To enforce consistent referencing to the Convention, and thus eliminate further superfluous interdependencies, it would be necessary to introduce a rule on how to reference the Convention in all terms.
+
+There are two aims, when trying the make a term less dependent on the innovation language. One is cleanup, the elimination of superfluous mentions, as above. 
+
+The second is to check if the term can be rewritten to depend less on others, not because it does not depend on them upon careful reading, but because it depends on them for unclear reasons. For illustration, consider the term "Outstanding universal value" from the same Glossary.
+
+> "Outstanding universal value is referred to in several places in the Convention and the Operational Guidelines without specific definition. Parts of the cultural and natural heritage, 
+> 
+> > 'because of their exceptional qualities, can be considered to be of outstanding universal value, and as such worthy of special protection against the dangers which increasingly threaten them' (UNESCO February 1996: 1, Paragraph 1).
+>
+> Outstanding universal value is sometimes simply referred to as World Heritage value.
+> 
+> At the 'Expert Meeting on Evaluation of general principles and criteria for nominations of natural World Heritage sites' held at the Parc national de la Vanoise, France on 22 to 24 March 1996,
+> 
+> > The expert group recalled that different interpretations have been made of the term outstanding universal value which is a key to the establishment of a selective World Heritage List.  In a number of cases the term has been also interpreted as implying best of its kind.  The expert group stressed that the notion of outstanding universal value has been constructed over time and may be interpreted as a concept incorporating both uniqueness and representativeness (UNESCO 15 April 1996: 1).
+> 
+> The World Heritage Bureau and Committee will consider the substance of the report of the Expert Meeting at their twentieth sessions in 1996."
+
+Here are its dependencies lists. It is used in 15 and uses 17 terms, if we remove self-reference.
+
+| Term                                                                            | Uses                        |
+|:--------------------------------------------------------------------------------|:----------------------------|
+| Action Plan for the Future                                                      | Outstanding universal value |
+| Convention concerning the protection of the world cultural and natural heritage | Outstanding universal value |
+| World Heritage Committee                                                        | Outstanding universal value |
+| Cultural landscapes                                                             | Outstanding universal value |
+| Global Strategy                                                                 | Outstanding universal value |
+| Tentative list                                                                  | Outstanding universal value |
+| Canal                                                                           | Outstanding universal value |
+| Mixed property                                                                  | Outstanding universal value |
+| World Heritage List                                                             | Outstanding universal value |
+| Natural heritage                                                                | Outstanding universal value |
+| Spirit of the Convention                                                        | Outstanding universal value |
+| Cultural heritage                                                               | Outstanding universal value |
+| World Heritage                                                                  | Outstanding universal value |
+| Thematic studies                                                                | Outstanding universal value |
+| World Heritage value                                                            | Outstanding universal value |
+
+| Term                        | Uses                        |
+|:----------------------------|:----------------------------|
+| Outstanding universal value | Bureau                      |
+| Outstanding universal value | Committee                   |
+| Outstanding universal value | Convention                  |
+| Outstanding universal value | Criteria                    |
+| Outstanding universal value | Evaluation                  |
+| Outstanding universal value | Guidelines                  |
+| Outstanding universal value | List                        |
+| Outstanding universal value | Natural                     |
+| Outstanding universal value | Natural heritage            |
+| Outstanding universal value | Nomination                  |
+| Outstanding universal value | Protection                  |
+| Outstanding universal value | Sites                       |
+| Outstanding universal value | UNESCO                      |
+| Outstanding universal value | World Heritage              |
+| Outstanding universal value | World Heritage Bureau       |
+| Outstanding universal value | World Heritage List         |
+| Outstanding universal value | World Heritage value        |
+
+If, instead, the following definition was used, dependencies would be substiantially reduced. 
+
+> "Outstanding universal value means cultural and/or natural significance which is so exceptional as to transcend national boundaries and to be of common importance for present and future generations of all humanity. As such, the permanent protection of this heritage is of the highest importance to the international community as a whole. The Committee defines the criteria for the inscription of properties on the World Heritage List. [...] To be deemed of outstanding universal value, a property
+must also meet the conditions of integrity and/or authenticity and must have an adequate protection and management system to ensure its safeguarding." [[World Heritage Committee. Operational Guidelines for the Implementation of the World Heritage Convention. UNESCO, 2005.]](https://whc.unesco.org/en/guidelines/) 
+
+This variant was published in "Operational Guidelines for the Implementation of the World Heritage Convention", made after the glossary mentioned here. It has been argued that the newer definition above is also an improvement on former variants. For a discussion, see [[Jokilehto, Jukka (2008) The World Heritage List. What is OUV? Defining the Outstanding Universal Value of Cultural World Heritage Properties. Technical Report. hendrik Bäßler verlag, Berlin, 111p. Monuments & Sites (2001-), Vol. XVI. ISBN 978-3-930388-51-6.]](http://openarchive.icomos.org/435/)
+
+<!-- Stopped here on Aug 27 -->
 
 ## Blowing Definitions Up
 
@@ -864,7 +971,7 @@ So far, a defnet was a network made from term and definition pairs. What if we n
 
 These are questions about how an innovation language is related to descriptions, explanations, predictions, and prescriptions which use its terms. Is a description of some aspect of the innovation, a definition of that innovation, a part of that definition, or something else altogether, detached from the language? 
 
-Let's rephrase that with examples, to make it clearer. Is the specification of an algorithm for search, part of the definition of the term "search result"? Is the law that uses the term "terrorism" and its definition part of the definition of the term "terrorism"? Can we, in other words, ignore how the term "terrorism" is used in about terrorism law, when we try to define the term �terrorism� in that law? Does it matter to know the details of a search algorithm, to know what a "search result" is?
+Let's rephrase that with examples, to make it clearer. Is the specification of an algorithm for search, part of the definition of the term "search result"? Is the law that uses the term "terrorism" and its definition part of the definition of the term "terrorism"? Can we, in other words, ignore how the term "terrorism" is used in about terrorism law, when we try to define the term "terrorism" in that law? Does it matter to know the details of a search algorithm, to know what a "search result" is?
 
 There is neither a simple, nor a generally satisfactory answer to these questions.
 
