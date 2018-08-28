@@ -1,0 +1,159 @@
+| Term                                                                                                     |   Uses |
+|:---------------------------------------------------------------------------------------------------------|-------:|
+| Integrity                                                                                                |     31 |
+| Authenticity                                                                                             |     27 |
+| Conservation                                                                                             |     27 |
+| International assistance                                                                                 |     26 |
+| Evaluation                                                                                               |     26 |
+| Balance                                                                                                  |     24 |
+| Advisory bodies                                                                                          |     22 |
+| Criteria                                                                                                 |     21 |
+| Reactive monitoring                                                                                      |     20 |
+| World Heritage Committee                                                                                 |     20 |
+| Tentative list                                                                                           |     20 |
+| Operational Guidelines for the Implementation of the World Heritage Convention                           |     19 |
+| Convention concerning the protection of the world cultural and natural heritage                          |     18 |
+| Cultural heritage criteria                                                                               |     18 |
+| Justification                                                                                            |     18 |
+| Outstanding universal value                                                                              |     18 |
+| Identification                                                                                           |     18 |
+| State of conservation                                                                                    |     17 |
+| Cultural landscapes                                                                                      |     17 |
+| IUCN evaluation                                                                                          |     17 |
+| Comparative evaluations                                                                                  |     17 |
+| Protection                                                                                               |     17 |
+| List of World Heritage in Danger                                                                         |     16 |
+| Global Strategy                                                                                          |     15 |
+| Deferred                                                                                                 |     15 |
+| IUCN - The World Conservation Union                                                                      |     15 |
+| Corrective measures                                                                                      |     14 |
+| Technical co-operation                                                                                   |     14 |
+| Training                                                                                                 |     14 |
+| Inventory of property                                                                                    |     14 |
+| Presentation                                                                                             |     14 |
+| Biogeographic(al) provinces                                                                              |     14 |
+| Action Plan for the Future                                                                               |     13 |
+| Emergency assistance                                                                                     |     13 |
+| World Heritage Fund                                                                                      |     13 |
+| Associative cultural landscape                                                                           |     13 |
+| Natural area                                                                                             |     13 |
+| Joint nomination                                                                                         |     13 |
+| Groups of urban buildings                                                                                |     13 |
+| Systematic monitoring and reporting                                                                      |     13 |
+| Rehabilitation                                                                                           |     13 |
+| Management plan                                                                                          |     13 |
+| World Heritage                                                                                           |     13 |
+| Promotional activities                                                                                   |     12 |
+| ICOMOS evaluation                                                                                        |     12 |
+| International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre |     12 |
+| World Heritage List                                                                                      |     12 |
+| Delisting                                                                                                |     12 |
+| National protection                                                                                      |     12 |
+| Transmission                                                                                             |     12 |
+| Natural heritage criteria                                                                                |     12 |
+| Cultural property                                                                                        |     11 |
+| Buffer zone                                                                                              |     11 |
+| Secretariat                                                                                              |     11 |
+| Inhabited historic towns                                                                                 |     11 |
+| Mixed property                                                                                           |     11 |
+| Nomination form                                                                                          |     11 |
+| Mixed site                                                                                               |     11 |
+| Comparative assessments                                                                                  |     11 |
+| Natural heritage                                                                                         |     11 |
+| Renomination                                                                                             |     11 |
+| Deletion                                                                                                 |     11 |
+| International protection                                                                                 |     10 |
+| Preparatory assistance                                                                                   |     10 |
+| Organically evolved landscape                                                                            |     10 |
+| Data sheets                                                                                              |     10 |
+| World Conservation Monitoring Centre                                                                     |     10 |
+| CNPPA                                                                                                    |     10 |
+| Harmonization                                                                                            |     10 |
+| Movable property                                                                                         |     10 |
+| World Heritage emblem                                                                                    |     10 |
+| Nomination                                                                                               |     10 |
+| Property                                                                                                 |     10 |
+| Young People's Participation in World Heritage Preservation and Promotion                                |      9 |
+| International Council of Monuments and Sites                                                             |      9 |
+| Preservation                                                                                             |      9 |
+| Spirit of the Convention                                                                                 |      9 |
+| Thematic studies                                                                                         |      9 |
+| Serial property                                                                                          |      9 |
+| Series                                                                                                   |      9 |
+| Rules of Procedure                                                                                       |      8 |
+| Identification number                                                                                    |      8 |
+| United Nations Educational, Scientific and Cultural Organization                                         |      8 |
+| Clearly defined landscape                                                                                |      8 |
+| Cultural heritage                                                                                        |      8 |
+| Indicative list                                                                                          |      8 |
+| Organization of World Heritage Cities                                                                    |      8 |
+| Management                                                                                               |      8 |
+| World Heritage Bureau                                                                                    |      7 |
+| Sites                                                                                                    |      7 |
+| Natural property                                                                                         |      7 |
+| Centre                                                                                                   |      6 |
+| Safeguarding                                                                                             |      6 |
+| Immovable property                                                                                       |      6 |
+| Natural sites                                                                                            |      6 |
+| Referral                                                                                                 |      5 |
+| Rome Centre                                                                                              |      5 |
+| Geological and physiographical formations                                                                |      5 |
+| Natural features                                                                                         |      5 |
+| Precisely delineated [natural] areas                                                                     |      5 |
+| Technical evaluations                                                                                    |      5 |
+| Timetable                                                                                                |      5 |
+| Assistance                                                                                               |      4 |
+| Information sources                                                                                      |      4 |
+| Authorization form                                                                                       |      4 |
+| Canal                                                                                                    |      4 |
+| Convention                                                                                               |      4 |
+| Convention for the protection of the world cultural and natural heritage                                 |      4 |
+| Groups of buildings                                                                                      |      4 |
+| Guidelines                                                                                               |      4 |
+| Monuments                                                                                                |      4 |
+| Operational Guidelines                                                                                   |      4 |
+| World Heritage Convention                                                                                |      4 |
+| Inscription                                                                                              |      4 |
+| List                                                                                                     |      4 |
+| World Heritage Education                                                                                 |      4 |
+| see World Heritage Youth Forum/Fora                                                                      |      4 |
+| World Heritage Youth Project                                                                             |      4 |
+| Youth Forum                                                                                              |      4 |
+| Youth Project                                                                                            |      4 |
+| Bureau                                                                                                   |      3 |
+| Committee                                                                                                |      3 |
+| Intergovernmental Committee for the Protection of the World Cultural and Natural Heritage                |      3 |
+| International Union for the Conservation of Nature and Natural Resources                                 |      3 |
+| World Conservation Union                                                                                 |      3 |
+| General Assembly of States Parties to the Convention                                                     |      3 |
+| States Parties                                                                                           |      3 |
+| Emblem                                                                                                   |      3 |
+| World Heritage logo                                                                                      |      3 |
+| Fund                                                                                                     |      3 |
+| Fund for the Protection of the World Cultural and Natural Heritage                                       |      3 |
+| Serial nomination                                                                                        |      3 |
+| Serial site                                                                                              |      3 |
+| Commission on National Parks and Protected Areas                                                         |      2 |
+| Implementation                                                                                           |      2 |
+| Historic towns                                                                                           |      2 |
+| Towns                                                                                                    |      2 |
+| Heritage route                                                                                           |      2 |
+| ID No                                                                                                    |      2 |
+| Natural                                                                                                  |      2 |
+| OWHC                                                                                                     |      2 |
+| Reporting                                                                                                |      2 |
+| Conditions of authenticity                                                                               |      1 |
+| Nara Conference on Authenticity in Relation to the World Heritage Convention                             |      1 |
+| Nara Document on Authenticity                                                                            |      1 |
+| Test of authenticity                                                                                     |      1 |
+| Designed landscape                                                                                       |      1 |
+| Criterion                                                                                                |      1 |
+| Deferral                                                                                                 |      1 |
+| Global Strategy for the Implementation of the World Heritage Convention                                  |      1 |
+| Itineraries                                                                                              |      1 |
+| Routes                                                                                                   |      1 |
+| International Centre for the Study of the Preservation and Restoration of Cultural Property              |      1 |
+| World Heritage value                                                                                     |      1 |
+| UNESCO World Heritage Centre                                                                             |      1 |
+| World Heritage Centre                                                                                    |      1 |
+| UNESCO                                                                                                   |      0 |

@@ -1,0 +1,21 @@
+Outstanding universal value uses 18 terms.
+| Term                        | Uses                        |
+|:----------------------------|:----------------------------|
+| Outstanding universal value | Bureau                      |
+| Outstanding universal value | Committee                   |
+| Outstanding universal value | Convention                  |
+| Outstanding universal value | Criteria                    |
+| Outstanding universal value | Evaluation                  |
+| Outstanding universal value | Guidelines                  |
+| Outstanding universal value | List                        |
+| Outstanding universal value | Natural                     |
+| Outstanding universal value | Natural heritage            |
+| Outstanding universal value | Nomination                  |
+| Outstanding universal value | Outstanding universal value |
+| Outstanding universal value | Protection                  |
+| Outstanding universal value | Sites                       |
+| Outstanding universal value | UNESCO                      |
+| Outstanding universal value | World Heritage              |
+| Outstanding universal value | World Heritage Bureau       |
+| Outstanding universal value | World Heritage List         |
+| Outstanding universal value | World Heritage value        |
