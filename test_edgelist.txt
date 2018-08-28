@@ -1,1423 +1,1423 @@
-Action Plan for the Future%Action Plan for the Future%{'label': 'depends'}
-Action Plan for the Future%Committee%{'label': 'depends'}
-Action Plan for the Future%Cultural landscapes%{'label': 'depends'}
-Action Plan for the Future%Identification%{'label': 'depends'}
-Action Plan for the Future%List%{'label': 'depends'}
-Action Plan for the Future%Management%{'label': 'depends'}
-Action Plan for the Future%Nomination%{'label': 'depends'}
-Action Plan for the Future%Outstanding universal value%{'label': 'depends'}
-Action Plan for the Future%States Parties%{'label': 'depends'}
-Action Plan for the Future%UNESCO%{'label': 'depends'}
-Action Plan for the Future%World Heritage%{'label': 'depends'}
-Action Plan for the Future%World Heritage Committee%{'label': 'depends'}
-Action Plan for the Future%World Heritage List%{'label': 'depends'}
-Corrective measures%Action Plan for the Future%{'label': 'depends'}
-Corrective measures%Authenticity%{'label': 'depends'}
-Corrective measures%Conditions of authenticity%{'label': 'depends'}
-Corrective measures%Corrective measures%{'label': 'depends'}
-Corrective measures%Criteria%{'label': 'depends'}
-Corrective measures%Guidelines%{'label': 'depends'}
-Corrective measures%Integrity%{'label': 'depends'}
-Corrective measures%List%{'label': 'depends'}
-Corrective measures%List of World Heritage in Danger%{'label': 'depends'}
-Corrective measures%Operational Guidelines%{'label': 'depends'}
-Corrective measures%Property%{'label': 'depends'}
-Corrective measures%UNESCO%{'label': 'depends'}
-Corrective measures%World Heritage%{'label': 'depends'}
-Corrective measures%World Heritage Education%{'label': 'depends'}
-Advisory bodies%Advisory bodies%{'label': 'depends'}
-Advisory bodies%Centre%{'label': 'depends'}
-Advisory bodies%Committee%{'label': 'depends'}
-Advisory bodies%Conservation%{'label': 'depends'}
-Advisory bodies%Convention%{'label': 'depends'}
-Advisory bodies%Cultural property%{'label': 'depends'}
-Advisory bodies%Guidelines%{'label': 'depends'}
-Advisory bodies%International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%{'label': 'depends'}
-Advisory bodies%International Council of Monuments and Sites%{'label': 'depends'}
-Advisory bodies%Implementation%{'label': 'depends'}
-Advisory bodies%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-Advisory bodies%Monuments%{'label': 'depends'}
-Advisory bodies%Natural%{'label': 'depends'}
-Advisory bodies%Operational Guidelines%{'label': 'depends'}
-Advisory bodies%Preservation%{'label': 'depends'}
-Advisory bodies%Property%{'label': 'depends'}
-Advisory bodies%Sites%{'label': 'depends'}
-Advisory bodies%UNESCO%{'label': 'depends'}
-Advisory bodies%World Conservation Union%{'label': 'depends'}
-Advisory bodies%World Heritage%{'label': 'depends'}
-Advisory bodies%World Heritage Committee%{'label': 'depends'}
-Advisory bodies%World Heritage Convention%{'label': 'depends'}
-Reactive monitoring%Advisory bodies%{'label': 'depends'}
-Reactive monitoring%Bureau%{'label': 'depends'}
-Reactive monitoring%Centre%{'label': 'depends'}
-Reactive monitoring%Committee%{'label': 'depends'}
-Reactive monitoring%Conservation%{'label': 'depends'}
-Reactive monitoring%Deletion%{'label': 'depends'}
-Reactive monitoring%Guidelines%{'label': 'depends'}
-Reactive monitoring%List%{'label': 'depends'}
-Reactive monitoring%List of World Heritage in Danger%{'label': 'depends'}
-Reactive monitoring%Operational Guidelines%{'label': 'depends'}
-Reactive monitoring%Reactive monitoring%{'label': 'depends'}
-Reactive monitoring%Reporting%{'label': 'depends'}
-Reactive monitoring%Sites%{'label': 'depends'}
-Reactive monitoring%State of conservation%{'label': 'depends'}
-Reactive monitoring%States Parties%{'label': 'depends'}
-Reactive monitoring%Systematic monitoring and reporting%{'label': 'depends'}
-Reactive monitoring%UNESCO%{'label': 'depends'}
-Reactive monitoring%World Heritage%{'label': 'depends'}
-Reactive monitoring%World Heritage Centre%{'label': 'depends'}
-Reactive monitoring%World Heritage List%{'label': 'depends'}
-State of conservation%Advisory bodies%{'label': 'depends'}
-State of conservation%Bureau%{'label': 'depends'}
-State of conservation%Centre%{'label': 'depends'}
-State of conservation%Committee%{'label': 'depends'}
-State of conservation%Conservation%{'label': 'depends'}
-State of conservation%International Council of Monuments and Sites%{'label': 'depends'}
-State of conservation%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-State of conservation%List%{'label': 'depends'}
-State of conservation%List of World Heritage in Danger%{'label': 'depends'}
-State of conservation%Natural%{'label': 'depends'}
-State of conservation%Reactive monitoring%{'label': 'depends'}
-State of conservation%Reporting%{'label': 'depends'}
-State of conservation%State of conservation%{'label': 'depends'}
-State of conservation%World Conservation Union%{'label': 'depends'}
-State of conservation%World Heritage%{'label': 'depends'}
-State of conservation%World Heritage Centre%{'label': 'depends'}
-State of conservation%World Heritage Committee%{'label': 'depends'}
-Assistance%Assistance%{'label': 'depends'}
-Assistance%Emergency assistance%{'label': 'depends'}
-Assistance%International assistance%{'label': 'depends'}
-Assistance%Training%{'label': 'depends'}
-Balance%Assistance%{'label': 'depends'}
-Balance%Balance%{'label': 'depends'}
-Balance%Bureau%{'label': 'depends'}
-Balance%Committee%{'label': 'depends'}
-Balance%Conservation%{'label': 'depends'}
-Balance%Convention%{'label': 'depends'}
-Balance%Criteria%{'label': 'depends'}
-Balance%Cultural heritage%{'label': 'depends'}
-Balance%Evaluation%{'label': 'depends'}
-Balance%Fund%{'label': 'depends'}
-Balance%Guidelines%{'label': 'depends'}
-Balance%Implementation%{'label': 'depends'}
-Balance%International assistance%{'label': 'depends'}
-Balance%List%{'label': 'depends'}
-Balance%Natural%{'label': 'depends'}
-Balance%Natural heritage%{'label': 'depends'}
-Balance%Nomination%{'label': 'depends'}
-Balance%Operational Guidelines%{'label': 'depends'}
-Balance%Preservation%{'label': 'depends'}
-Balance%Sites%{'label': 'depends'}
-Balance%Spirit of the Convention%{'label': 'depends'}
-Balance%UNESCO%{'label': 'depends'}
-Balance%World Heritage%{'label': 'depends'}
-Balance%World Heritage List%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Assistance%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Committee%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Conservation%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Convention%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Cultural heritage%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Fund%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Identification%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%List%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Natural%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Natural heritage%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Outstanding universal value%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%Protection%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%States Parties%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%UNESCO%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%World Heritage%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%World Heritage Committee%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%World Heritage Fund%{'label': 'depends'}
-Convention concerning the protection of the world cultural and natural heritage%World Heritage List%{'label': 'depends'}
-Emergency assistance%Assistance%{'label': 'depends'}
-Emergency assistance%Centre%{'label': 'depends'}
-Emergency assistance%Emergency assistance%{'label': 'depends'}
-Emergency assistance%Fund%{'label': 'depends'}
-Emergency assistance%International assistance%{'label': 'depends'}
-Emergency assistance%List%{'label': 'depends'}
-Emergency assistance%Natural%{'label': 'depends'}
-Emergency assistance%States Parties%{'label': 'depends'}
-Emergency assistance%UNESCO%{'label': 'depends'}
-Emergency assistance%UNESCO World Heritage Centre%{'label': 'depends'}
-Emergency assistance%World Heritage%{'label': 'depends'}
-Emergency assistance%World Heritage Centre%{'label': 'depends'}
-Emergency assistance%World Heritage Fund%{'label': 'depends'}
-International assistance%Assistance%{'label': 'depends'}
-International assistance%Bureau%{'label': 'depends'}
-International assistance%Committee%{'label': 'depends'}
-International assistance%Conservation%{'label': 'depends'}
-International assistance%Convention%{'label': 'depends'}
-International assistance%Emergency assistance%{'label': 'depends'}
-International assistance%Fund%{'label': 'depends'}
-International assistance%Guidelines%{'label': 'depends'}
-International assistance%Implementation%{'label': 'depends'}
-International assistance%International assistance%{'label': 'depends'}
-International assistance%Natural%{'label': 'depends'}
-International assistance%Natural property%{'label': 'depends'}
-International assistance%Operational Guidelines%{'label': 'depends'}
-International assistance%Preparatory assistance%{'label': 'depends'}
-International assistance%Presentation%{'label': 'depends'}
-International assistance%Promotional activities%{'label': 'depends'}
-International assistance%Property%{'label': 'depends'}
-International assistance%Protection%{'label': 'depends'}
-International assistance%Rehabilitation%{'label': 'depends'}
-International assistance%States Parties%{'label': 'depends'}
-International assistance%Technical co-operation%{'label': 'depends'}
-International assistance%Training%{'label': 'depends'}
-International assistance%UNESCO%{'label': 'depends'}
-International assistance%World Heritage%{'label': 'depends'}
-International assistance%World Heritage Committee%{'label': 'depends'}
-International assistance%World Heritage Fund%{'label': 'depends'}
-International protection%Assistance%{'label': 'depends'}
-International protection%Convention%{'label': 'depends'}
-International protection%International protection%{'label': 'depends'}
-International protection%National protection%{'label': 'depends'}
-International protection%Natural%{'label': 'depends'}
-International protection%Natural heritage%{'label': 'depends'}
-International protection%Protection%{'label': 'depends'}
-International protection%States Parties%{'label': 'depends'}
-International protection%UNESCO%{'label': 'depends'}
-International protection%World Heritage Education%{'label': 'depends'}
-List of World Heritage in Danger%Assistance%{'label': 'depends'}
-List of World Heritage in Danger%Committee%{'label': 'depends'}
-List of World Heritage in Danger%Conservation%{'label': 'depends'}
-List of World Heritage in Danger%Convention%{'label': 'depends'}
-List of World Heritage in Danger%Deletion%{'label': 'depends'}
-List of World Heritage in Danger%Delisting%{'label': 'depends'}
-List of World Heritage in Danger%Guidelines%{'label': 'depends'}
-List of World Heritage in Danger%List%{'label': 'depends'}
-List of World Heritage in Danger%List of World Heritage in Danger%{'label': 'depends'}
-List of World Heritage in Danger%Natural%{'label': 'depends'}
-List of World Heritage in Danger%Operational Guidelines%{'label': 'depends'}
-List of World Heritage in Danger%Property%{'label': 'depends'}
-List of World Heritage in Danger%UNESCO%{'label': 'depends'}
-List of World Heritage in Danger%World Heritage%{'label': 'depends'}
-List of World Heritage in Danger%World Heritage Education%{'label': 'depends'}
-List of World Heritage in Danger%World Heritage List%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Assistance%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Committee%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Convention%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Criteria%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Evaluation%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Fund%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Guidelines%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Implementation%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%List%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Natural%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Nomination%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Operational Guidelines%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%Timetable%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%UNESCO%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%World Heritage%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%World Heritage Committee%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%World Heritage Convention%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%World Heritage Fund%{'label': 'depends'}
-Operational Guidelines for the Implementation of the World Heritage Convention%World Heritage List%{'label': 'depends'}
-Preparatory assistance%Assistance%{'label': 'depends'}
-Preparatory assistance%Centre%{'label': 'depends'}
-Preparatory assistance%Fund%{'label': 'depends'}
-Preparatory assistance%Guidelines%{'label': 'depends'}
-Preparatory assistance%International assistance%{'label': 'depends'}
-Preparatory assistance%Operational Guidelines%{'label': 'depends'}
-Preparatory assistance%Preparatory assistance%{'label': 'depends'}
-Preparatory assistance%UNESCO%{'label': 'depends'}
-Preparatory assistance%World Heritage%{'label': 'depends'}
-Preparatory assistance%World Heritage Fund%{'label': 'depends'}
-Promotional activities%Assistance%{'label': 'depends'}
-Promotional activities%Conservation%{'label': 'depends'}
-Promotional activities%Convention%{'label': 'depends'}
-Promotional activities%Fund%{'label': 'depends'}
-Promotional activities%Implementation%{'label': 'depends'}
-Promotional activities%International assistance%{'label': 'depends'}
-Promotional activities%Natural%{'label': 'depends'}
-Promotional activities%Preservation%{'label': 'depends'}
-Promotional activities%Promotional activities%{'label': 'depends'}
-Promotional activities%UNESCO%{'label': 'depends'}
-Promotional activities%World Heritage%{'label': 'depends'}
-Promotional activities%World Heritage Fund%{'label': 'depends'}
-Technical co-operation%Assistance%{'label': 'depends'}
-Technical co-operation%Conservation%{'label': 'depends'}
-Technical co-operation%Convention%{'label': 'depends'}
-Technical co-operation%Fund%{'label': 'depends'}
-Technical co-operation%Guidelines%{'label': 'depends'}
-Technical co-operation%International assistance%{'label': 'depends'}
+Series%Series%{'label': 'depends'}
+Series%List%{'label': 'depends'}
+Series%Nomination%{'label': 'depends'}
+Series%World Heritage%{'label': 'depends'}
+Series%Natural%{'label': 'depends'}
+Series%Serial property%{'label': 'depends'}
+Series%World Heritage List%{'label': 'depends'}
+Series%UNESCO%{'label': 'depends'}
+Series%Property%{'label': 'depends'}
+International Union for the Conservation of Nature and Natural Resources%World Conservation Union%{'label': 'depends'}
+International Union for the Conservation of Nature and Natural Resources%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+International Union for the Conservation of Nature and Natural Resources%Conservation%{'label': 'depends'}
 Technical co-operation%List%{'label': 'depends'}
 Technical co-operation%Operational Guidelines%{'label': 'depends'}
-Technical co-operation%States Parties%{'label': 'depends'}
-Technical co-operation%Technical co-operation%{'label': 'depends'}
-Technical co-operation%UNESCO%{'label': 'depends'}
 Technical co-operation%World Heritage%{'label': 'depends'}
+Technical co-operation%Assistance%{'label': 'depends'}
 Technical co-operation%World Heritage Fund%{'label': 'depends'}
+Technical co-operation%Conservation%{'label': 'depends'}
+Technical co-operation%Fund%{'label': 'depends'}
+Technical co-operation%Guidelines%{'label': 'depends'}
+Technical co-operation%States Parties%{'label': 'depends'}
+Technical co-operation%International assistance%{'label': 'depends'}
+Technical co-operation%Technical co-operation%{'label': 'depends'}
+Technical co-operation%Convention%{'label': 'depends'}
 Technical co-operation%World Heritage List%{'label': 'depends'}
-Training%Assistance%{'label': 'depends'}
-Training%Committee%{'label': 'depends'}
-Training%Conservation%{'label': 'depends'}
-Training%Convention%{'label': 'depends'}
-Training%Guidelines%{'label': 'depends'}
-Training%Implementation%{'label': 'depends'}
-Training%International assistance%{'label': 'depends'}
-Training%List%{'label': 'depends'}
-Training%Natural%{'label': 'depends'}
-Training%States Parties%{'label': 'depends'}
-Training%Training%{'label': 'depends'}
-Training%UNESCO%{'label': 'depends'}
-Training%World Heritage%{'label': 'depends'}
-Training%World Heritage Convention%{'label': 'depends'}
-World Heritage Committee%Assistance%{'label': 'depends'}
-World Heritage Committee%Committee%{'label': 'depends'}
-World Heritage Committee%Conservation%{'label': 'depends'}
-World Heritage Committee%Convention%{'label': 'depends'}
-World Heritage Committee%Fund%{'label': 'depends'}
-World Heritage Committee%Guidelines%{'label': 'depends'}
-World Heritage Committee%List%{'label': 'depends'}
-World Heritage Committee%Natural%{'label': 'depends'}
-World Heritage Committee%Nomination%{'label': 'depends'}
-World Heritage Committee%Operational Guidelines%{'label': 'depends'}
-World Heritage Committee%Outstanding universal value%{'label': 'depends'}
-World Heritage Committee%Protection%{'label': 'depends'}
-World Heritage Committee%State of conservation%{'label': 'depends'}
-World Heritage Committee%States Parties%{'label': 'depends'}
-World Heritage Committee%UNESCO%{'label': 'depends'}
-World Heritage Committee%World Heritage%{'label': 'depends'}
-World Heritage Committee%World Heritage Committee%{'label': 'depends'}
-World Heritage Committee%World Heritage Convention%{'label': 'depends'}
-World Heritage Committee%World Heritage Fund%{'label': 'depends'}
-World Heritage Committee%World Heritage List%{'label': 'depends'}
-World Heritage Fund%Assistance%{'label': 'depends'}
-World Heritage Fund%Convention%{'label': 'depends'}
-World Heritage Fund%Emergency assistance%{'label': 'depends'}
-World Heritage Fund%Fund%{'label': 'depends'}
-World Heritage Fund%International assistance%{'label': 'depends'}
-World Heritage Fund%Preparatory assistance%{'label': 'depends'}
-World Heritage Fund%Promotional activities%{'label': 'depends'}
-World Heritage Fund%Technical co-operation%{'label': 'depends'}
-World Heritage Fund%Training%{'label': 'depends'}
-World Heritage Fund%UNESCO%{'label': 'depends'}
-World Heritage Fund%World Heritage%{'label': 'depends'}
-World Heritage Fund%World Heritage Convention%{'label': 'depends'}
-World Heritage Fund%World Heritage Fund%{'label': 'depends'}
-Associative cultural landscape%Associative cultural landscape%{'label': 'depends'}
-Associative cultural landscape%Clearly defined landscape%{'label': 'depends'}
-Associative cultural landscape%Committee%{'label': 'depends'}
-Associative cultural landscape%Cultural landscapes%{'label': 'depends'}
-Associative cultural landscape%Guidelines%{'label': 'depends'}
-Associative cultural landscape%International Council of Monuments and Sites%{'label': 'depends'}
-Associative cultural landscape%List%{'label': 'depends'}
-Associative cultural landscape%Natural%{'label': 'depends'}
-Associative cultural landscape%Operational Guidelines%{'label': 'depends'}
-Associative cultural landscape%UNESCO%{'label': 'depends'}
-Associative cultural landscape%World Heritage%{'label': 'depends'}
-Associative cultural landscape%World Heritage Committee%{'label': 'depends'}
-Associative cultural landscape%World Heritage List%{'label': 'depends'}
-Cultural landscapes%Associative cultural landscape%{'label': 'depends'}
-Cultural landscapes%Canal%{'label': 'depends'}
-Cultural landscapes%Clearly defined landscape%{'label': 'depends'}
-Cultural landscapes%Committee%{'label': 'depends'}
-Cultural landscapes%Convention%{'label': 'depends'}
-Cultural landscapes%Cultural landscapes%{'label': 'depends'}
-Cultural landscapes%Guidelines%{'label': 'depends'}
-Cultural landscapes%Heritage route%{'label': 'depends'}
-Cultural landscapes%List%{'label': 'depends'}
-Cultural landscapes%Natural%{'label': 'depends'}
-Cultural landscapes%Operational Guidelines%{'label': 'depends'}
-Cultural landscapes%Organically evolved landscape%{'label': 'depends'}
-Cultural landscapes%Outstanding universal value%{'label': 'depends'}
-Cultural landscapes%Protection%{'label': 'depends'}
-Cultural landscapes%UNESCO%{'label': 'depends'}
-Cultural landscapes%World Heritage%{'label': 'depends'}
-Cultural landscapes%World Heritage List%{'label': 'depends'}
-Organically evolved landscape%Associative cultural landscape%{'label': 'depends'}
-Organically evolved landscape%Committee%{'label': 'depends'}
-Organically evolved landscape%Cultural landscapes%{'label': 'depends'}
-Organically evolved landscape%Guidelines%{'label': 'depends'}
-Organically evolved landscape%Natural%{'label': 'depends'}
-Organically evolved landscape%Operational Guidelines%{'label': 'depends'}
-Organically evolved landscape%Organically evolved landscape%{'label': 'depends'}
-Organically evolved landscape%UNESCO%{'label': 'depends'}
-Organically evolved landscape%World Heritage%{'label': 'depends'}
-Organically evolved landscape%World Heritage Committee%{'label': 'depends'}
-Authenticity%Authenticity%{'label': 'depends'}
-Authenticity%Committee%{'label': 'depends'}
-Authenticity%Conditions of authenticity%{'label': 'depends'}
-Authenticity%Conservation%{'label': 'depends'}
-Authenticity%Convention%{'label': 'depends'}
-Authenticity%Criteria%{'label': 'depends'}
-Authenticity%Cultural heritage%{'label': 'depends'}
-Authenticity%Cultural landscapes%{'label': 'depends'}
-Authenticity%Cultural property%{'label': 'depends'}
-Authenticity%Groups of urban buildings%{'label': 'depends'}
-Authenticity%Guidelines%{'label': 'depends'}
-Authenticity%International Council of Monuments and Sites%{'label': 'depends'}
-Authenticity%Information sources%{'label': 'depends'}
-Authenticity%Justification%{'label': 'depends'}
-Authenticity%List%{'label': 'depends'}
-Authenticity%Management%{'label': 'depends'}
-Authenticity%Nara Document on Authenticity%{'label': 'depends'}
-Authenticity%Nomination%{'label': 'depends'}
-Authenticity%Nomination form%{'label': 'depends'}
-Authenticity%Operational Guidelines%{'label': 'depends'}
-Authenticity%Property%{'label': 'depends'}
-Authenticity%Test of authenticity%{'label': 'depends'}
-Authenticity%UNESCO%{'label': 'depends'}
-Authenticity%World Heritage%{'label': 'depends'}
-Authenticity%World Heritage Convention%{'label': 'depends'}
-Authenticity%World Heritage Education%{'label': 'depends'}
-Authenticity%World Heritage List%{'label': 'depends'}
-Conditions of authenticity%Authenticity%{'label': 'depends'}
-Conservation%Authenticity%{'label': 'depends'}
-Conservation%Committee%{'label': 'depends'}
-Conservation%Conservation%{'label': 'depends'}
-Conservation%Convention%{'label': 'depends'}
-Conservation%Cultural heritage%{'label': 'depends'}
-Conservation%Cultural landscapes%{'label': 'depends'}
-Conservation%Guidelines%{'label': 'depends'}
-Conservation%Identification%{'label': 'depends'}
-Conservation%List%{'label': 'depends'}
-Conservation%Management%{'label': 'depends'}
-Conservation%Nara Document on Authenticity%{'label': 'depends'}
-Conservation%Natural%{'label': 'depends'}
-Conservation%Natural heritage%{'label': 'depends'}
-Conservation%Nomination%{'label': 'depends'}
-Conservation%Operational Guidelines%{'label': 'depends'}
-Conservation%Presentation%{'label': 'depends'}
-Conservation%Preservation%{'label': 'depends'}
-Conservation%Protection%{'label': 'depends'}
-Conservation%Safeguarding%{'label': 'depends'}
-Conservation%State of conservation%{'label': 'depends'}
-Conservation%States Parties%{'label': 'depends'}
-Conservation%Transmission%{'label': 'depends'}
-Conservation%UNESCO%{'label': 'depends'}
-Conservation%World Heritage%{'label': 'depends'}
-Conservation%World Heritage Committee%{'label': 'depends'}
-Conservation%World Heritage Convention%{'label': 'depends'}
-Conservation%World Heritage List%{'label': 'depends'}
-Criteria%Authenticity%{'label': 'depends'}
-Criteria%Committee%{'label': 'depends'}
-Criteria%Convention%{'label': 'depends'}
-Criteria%Criteria%{'label': 'depends'}
-Criteria%Cultural heritage%{'label': 'depends'}
-Criteria%Cultural heritage criteria%{'label': 'depends'}
-Criteria%Guidelines%{'label': 'depends'}
-Criteria%Integrity%{'label': 'depends'}
-Criteria%List%{'label': 'depends'}
-Criteria%List of World Heritage in Danger%{'label': 'depends'}
-Criteria%Management%{'label': 'depends'}
-Criteria%Natural%{'label': 'depends'}
-Criteria%Natural heritage%{'label': 'depends'}
-Criteria%Operational Guidelines%{'label': 'depends'}
-Criteria%Property%{'label': 'depends'}
-Criteria%Protection%{'label': 'depends'}
-Criteria%Test of authenticity%{'label': 'depends'}
-Criteria%UNESCO%{'label': 'depends'}
-Criteria%World Heritage%{'label': 'depends'}
-Criteria%World Heritage Committee%{'label': 'depends'}
-Criteria%World Heritage List%{'label': 'depends'}
-Cultural heritage criteria%Authenticity%{'label': 'depends'}
-Cultural heritage criteria%Criteria%{'label': 'depends'}
-Cultural heritage criteria%Cultural heritage%{'label': 'depends'}
-Cultural heritage criteria%Cultural heritage criteria%{'label': 'depends'}
-Cultural heritage criteria%Cultural property%{'label': 'depends'}
-Cultural heritage criteria%Guidelines%{'label': 'depends'}
-Cultural heritage criteria%Integrity%{'label': 'depends'}
-Cultural heritage criteria%List%{'label': 'depends'}
-Cultural heritage criteria%Management%{'label': 'depends'}
-Cultural heritage criteria%Natural%{'label': 'depends'}
-Cultural heritage criteria%Natural heritage%{'label': 'depends'}
-Cultural heritage criteria%Natural heritage criteria%{'label': 'depends'}
-Cultural heritage criteria%Operational Guidelines%{'label': 'depends'}
-Cultural heritage criteria%Property%{'label': 'depends'}
-Cultural heritage criteria%Protection%{'label': 'depends'}
-Cultural heritage criteria%UNESCO%{'label': 'depends'}
-Cultural heritage criteria%World Heritage%{'label': 'depends'}
-Cultural heritage criteria%World Heritage List%{'label': 'depends'}
-Cultural property%Authenticity%{'label': 'depends'}
-Cultural property%Criteria%{'label': 'depends'}
-Cultural property%Cultural heritage%{'label': 'depends'}
-Cultural property%Cultural heritage criteria%{'label': 'depends'}
-Cultural property%List%{'label': 'depends'}
-Cultural property%Mixed property%{'label': 'depends'}
-Cultural property%Natural%{'label': 'depends'}
-Cultural property%Property%{'label': 'depends'}
-Cultural property%Test of authenticity%{'label': 'depends'}
-Cultural property%World Heritage%{'label': 'depends'}
-Cultural property%World Heritage List%{'label': 'depends'}
-Evaluation%Authenticity%{'label': 'depends'}
-Evaluation%Bureau%{'label': 'depends'}
-Evaluation%Committee%{'label': 'depends'}
-Evaluation%Conditions of authenticity%{'label': 'depends'}
-Evaluation%Conservation%{'label': 'depends'}
-Evaluation%Criteria%{'label': 'depends'}
-Evaluation%Cultural landscapes%{'label': 'depends'}
-Evaluation%Evaluation%{'label': 'depends'}
-Evaluation%Guidelines%{'label': 'depends'}
-Evaluation%International Council of Monuments and Sites%{'label': 'depends'}
-Evaluation%ICOMOS evaluation%{'label': 'depends'}
-Evaluation%Integrity%{'label': 'depends'}
-Evaluation%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-Evaluation%Monuments%{'label': 'depends'}
-Evaluation%Natural%{'label': 'depends'}
-Evaluation%Nomination%{'label': 'depends'}
-Evaluation%Operational Guidelines%{'label': 'depends'}
-Evaluation%Sites%{'label': 'depends'}
-Evaluation%States Parties%{'label': 'depends'}
-Evaluation%Technical evaluations%{'label': 'depends'}
-Evaluation%Timetable%{'label': 'depends'}
-Evaluation%UNESCO%{'label': 'depends'}
-Evaluation%World Conservation Union%{'label': 'depends'}
-Evaluation%World Heritage%{'label': 'depends'}
-Evaluation%World Heritage Committee%{'label': 'depends'}
-Evaluation%World Heritage Education%{'label': 'depends'}
-Global Strategy%Authenticity%{'label': 'depends'}
-Global Strategy%Bureau%{'label': 'depends'}
-Global Strategy%Committee%{'label': 'depends'}
-Global Strategy%Cultural heritage%{'label': 'depends'}
-Global Strategy%Cultural landscapes%{'label': 'depends'}
-Global Strategy%Global Strategy%{'label': 'depends'}
-Global Strategy%List%{'label': 'depends'}
-Global Strategy%Natural%{'label': 'depends'}
-Global Strategy%Natural heritage%{'label': 'depends'}
-Global Strategy%Outstanding universal value%{'label': 'depends'}
-Global Strategy%UNESCO%{'label': 'depends'}
-Global Strategy%World Heritage%{'label': 'depends'}
-Global Strategy%World Heritage Bureau%{'label': 'depends'}
-Global Strategy%World Heritage Committee%{'label': 'depends'}
-Global Strategy%World Heritage List%{'label': 'depends'}
-Information sources%Authenticity%{'label': 'depends'}
-Information sources%Cultural heritage%{'label': 'depends'}
-Information sources%Information sources%{'label': 'depends'}
-Information sources%Nara Document on Authenticity%{'label': 'depends'}
-Justification%Authenticity%{'label': 'depends'}
-Justification%Criteria%{'label': 'depends'}
-Justification%Cultural heritage%{'label': 'depends'}
-Justification%Evaluation%{'label': 'depends'}
-Justification%Guidelines%{'label': 'depends'}
-Justification%List%{'label': 'depends'}
-Justification%Natural%{'label': 'depends'}
-Justification%Natural property%{'label': 'depends'}
-Justification%Nomination%{'label': 'depends'}
-Justification%Nomination form%{'label': 'depends'}
-Justification%Operational Guidelines%{'label': 'depends'}
-Justification%Preservation%{'label': 'depends'}
-Justification%Property%{'label': 'depends'}
-Justification%States Parties%{'label': 'depends'}
-Justification%UNESCO%{'label': 'depends'}
-Justification%World Heritage%{'label': 'depends'}
-Justification%World Heritage Education%{'label': 'depends'}
-Justification%World Heritage List%{'label': 'depends'}
+Technical co-operation%UNESCO%{'label': 'depends'}
 Nara Conference on Authenticity in Relation to the World Heritage Convention%Authenticity%{'label': 'depends'}
-Nara Document on Authenticity%Authenticity%{'label': 'depends'}
-Tentative list%Authenticity%{'label': 'depends'}
-Tentative list%Committee%{'label': 'depends'}
-Tentative list%Convention%{'label': 'depends'}
-Tentative list%Criteria%{'label': 'depends'}
-Tentative list%Guidelines%{'label': 'depends'}
-Tentative list%Inscription%{'label': 'depends'}
-Tentative list%Integrity%{'label': 'depends'}
-Tentative list%Inventory of property%{'label': 'depends'}
-Tentative list%Justification%{'label': 'depends'}
-Tentative list%List%{'label': 'depends'}
-Tentative list%Natural%{'label': 'depends'}
-Tentative list%Nomination%{'label': 'depends'}
-Tentative list%Operational Guidelines%{'label': 'depends'}
-Tentative list%Outstanding universal value%{'label': 'depends'}
-Tentative list%Property%{'label': 'depends'}
-Tentative list%States Parties%{'label': 'depends'}
-Tentative list%Tentative list%{'label': 'depends'}
-Tentative list%UNESCO%{'label': 'depends'}
-Tentative list%World Heritage%{'label': 'depends'}
-Tentative list%World Heritage List%{'label': 'depends'}
-Test of authenticity%Authenticity%{'label': 'depends'}
-Authorization form%Authorization form%{'label': 'depends'}
-Authorization form%Nomination%{'label': 'depends'}
-Authorization form%Nomination form%{'label': 'depends'}
-Authorization form%UNESCO%{'label': 'depends'}
-Buffer zone%Buffer zone%{'label': 'depends'}
-Buffer zone%Conservation%{'label': 'depends'}
-Buffer zone%Guidelines%{'label': 'depends'}
-Buffer zone%Natural%{'label': 'depends'}
-Buffer zone%Natural property%{'label': 'depends'}
-Buffer zone%Nomination%{'label': 'depends'}
-Buffer zone%Operational Guidelines%{'label': 'depends'}
-Buffer zone%Property%{'label': 'depends'}
-Buffer zone%Protection%{'label': 'depends'}
-Buffer zone%UNESCO%{'label': 'depends'}
-Buffer zone%World Heritage Education%{'label': 'depends'}
-Bureau%Bureau%{'label': 'depends'}
-Bureau%World Heritage%{'label': 'depends'}
-Bureau%World Heritage Bureau%{'label': 'depends'}
-Deferred%Bureau%{'label': 'depends'}
-Deferred%Committee%{'label': 'depends'}
-Deferred%Deferred%{'label': 'depends'}
-Deferred%Guidelines%{'label': 'depends'}
-Deferred%Inscription%{'label': 'depends'}
-Deferred%List%{'label': 'depends'}
-Deferred%Nomination%{'label': 'depends'}
-Deferred%Operational Guidelines%{'label': 'depends'}
-Deferred%Property%{'label': 'depends'}
-Deferred%States Parties%{'label': 'depends'}
-Deferred%Towns%{'label': 'depends'}
-Deferred%UNESCO%{'label': 'depends'}
-Deferred%World Heritage%{'label': 'depends'}
-Deferred%World Heritage Education%{'label': 'depends'}
-Deferred%World Heritage List%{'label': 'depends'}
-ICOMOS evaluation%Bureau%{'label': 'depends'}
-ICOMOS evaluation%Committee%{'label': 'depends'}
-ICOMOS evaluation%Cultural property%{'label': 'depends'}
-ICOMOS evaluation%Evaluation%{'label': 'depends'}
-ICOMOS evaluation%International Council of Monuments and Sites%{'label': 'depends'}
-ICOMOS evaluation%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-ICOMOS evaluation%IUCN evaluation%{'label': 'depends'}
-ICOMOS evaluation%Nomination%{'label': 'depends'}
-ICOMOS evaluation%Property%{'label': 'depends'}
-ICOMOS evaluation%World Conservation Union%{'label': 'depends'}
-ICOMOS evaluation%World Heritage%{'label': 'depends'}
-ICOMOS evaluation%World Heritage Bureau%{'label': 'depends'}
-Integrity%Bureau%{'label': 'depends'}
-Integrity%Committee%{'label': 'depends'}
-Integrity%Conservation%{'label': 'depends'}
-Integrity%Convention%{'label': 'depends'}
-Integrity%Criteria%{'label': 'depends'}
-Integrity%Criterion%{'label': 'depends'}
-Integrity%Cultural heritage%{'label': 'depends'}
-Integrity%Evaluation%{'label': 'depends'}
-Integrity%Guidelines%{'label': 'depends'}
-Integrity%Identification%{'label': 'depends'}
-Integrity%Integrity%{'label': 'depends'}
-Integrity%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-Integrity%List%{'label': 'depends'}
-Integrity%List of World Heritage in Danger%{'label': 'depends'}
-Integrity%Management%{'label': 'depends'}
-Integrity%Natural%{'label': 'depends'}
-Integrity%Natural heritage%{'label': 'depends'}
-Integrity%Natural heritage criteria%{'label': 'depends'}
-Integrity%Natural property%{'label': 'depends'}
-Integrity%Nomination%{'label': 'depends'}
-Integrity%Operational Guidelines%{'label': 'depends'}
-Integrity%Presentation%{'label': 'depends'}
-Integrity%Property%{'label': 'depends'}
-Integrity%Sites%{'label': 'depends'}
-Integrity%UNESCO%{'label': 'depends'}
-Integrity%World Conservation Union%{'label': 'depends'}
-Integrity%World Heritage%{'label': 'depends'}
-Integrity%World Heritage Bureau%{'label': 'depends'}
-Integrity%World Heritage Convention%{'label': 'depends'}
-Integrity%World Heritage Education%{'label': 'depends'}
-Integrity%World Heritage List%{'label': 'depends'}
-Natural area%Bureau%{'label': 'depends'}
-Natural area%Committee%{'label': 'depends'}
-Natural area%Criteria%{'label': 'depends'}
-Natural area%Evaluation%{'label': 'depends'}
-Natural area%Management%{'label': 'depends'}
-Natural area%Natural%{'label': 'depends'}
-Natural area%Natural area%{'label': 'depends'}
-Natural area%Nomination%{'label': 'depends'}
-Natural area%Sites%{'label': 'depends'}
-Natural area%UNESCO%{'label': 'depends'}
-Natural area%World Heritage%{'label': 'depends'}
-Natural area%World Heritage Bureau%{'label': 'depends'}
-Natural area%World Heritage Education%{'label': 'depends'}
-Outstanding universal value%Bureau%{'label': 'depends'}
-Outstanding universal value%Committee%{'label': 'depends'}
-Outstanding universal value%Convention%{'label': 'depends'}
-Outstanding universal value%Criteria%{'label': 'depends'}
-Outstanding universal value%Evaluation%{'label': 'depends'}
-Outstanding universal value%Guidelines%{'label': 'depends'}
-Outstanding universal value%List%{'label': 'depends'}
-Outstanding universal value%Natural%{'label': 'depends'}
-Outstanding universal value%Natural heritage%{'label': 'depends'}
-Outstanding universal value%Nomination%{'label': 'depends'}
-Outstanding universal value%Outstanding universal value%{'label': 'depends'}
-Outstanding universal value%Protection%{'label': 'depends'}
-Outstanding universal value%Sites%{'label': 'depends'}
-Outstanding universal value%UNESCO%{'label': 'depends'}
-Outstanding universal value%World Heritage%{'label': 'depends'}
-Outstanding universal value%World Heritage Bureau%{'label': 'depends'}
-Outstanding universal value%World Heritage List%{'label': 'depends'}
-Outstanding universal value%World Heritage value%{'label': 'depends'}
-Referral%Bureau%{'label': 'depends'}
-Referral%Committee%{'label': 'depends'}
-Referral%Nomination%{'label': 'depends'}
-Referral%UNESCO%{'label': 'depends'}
-Referral%World Heritage Education%{'label': 'depends'}
-Rules of Procedure%Bureau%{'label': 'depends'}
-Rules of Procedure%Committee%{'label': 'depends'}
-Rules of Procedure%Convention%{'label': 'depends'}
-Rules of Procedure%Rules of Procedure%{'label': 'depends'}
-Rules of Procedure%UNESCO%{'label': 'depends'}
-Rules of Procedure%World Heritage%{'label': 'depends'}
-Rules of Procedure%World Heritage Bureau%{'label': 'depends'}
-Rules of Procedure%World Heritage Committee%{'label': 'depends'}
-Secretariat%Bureau%{'label': 'depends'}
-Secretariat%Centre%{'label': 'depends'}
-Secretariat%Committee%{'label': 'depends'}
-Secretariat%Convention%{'label': 'depends'}
-Secretariat%Implementation%{'label': 'depends'}
-Secretariat%Management%{'label': 'depends'}
-Secretariat%Secretariat%{'label': 'depends'}
-Secretariat%UNESCO%{'label': 'depends'}
-Secretariat%World Heritage%{'label': 'depends'}
-Secretariat%World Heritage Centre%{'label': 'depends'}
-Secretariat%World Heritage Committee%{'label': 'depends'}
-World Heritage Bureau%Bureau%{'label': 'depends'}
-World Heritage Bureau%Committee%{'label': 'depends'}
-World Heritage Bureau%States Parties%{'label': 'depends'}
-World Heritage Bureau%UNESCO%{'label': 'depends'}
-World Heritage Bureau%World Heritage%{'label': 'depends'}
-World Heritage Bureau%World Heritage Bureau%{'label': 'depends'}
-World Heritage Bureau%World Heritage Committee%{'label': 'depends'}
-Canal%Canal%{'label': 'depends'}
-Canal%Cultural property%{'label': 'depends'}
-Canal%Outstanding universal value%{'label': 'depends'}
-Canal%Property%{'label': 'depends'}
-Centre%Centre%{'label': 'depends'}
-Centre%Secretariat%{'label': 'depends'}
-Centre%UNESCO%{'label': 'depends'}
-Centre%UNESCO World Heritage Centre%{'label': 'depends'}
-Centre%World Heritage%{'label': 'depends'}
-Centre%World Heritage Centre%{'label': 'depends'}
-Data sheets%Centre%{'label': 'depends'}
-Data sheets%Conservation%{'label': 'depends'}
-Data sheets%Data sheets%{'label': 'depends'}
-Data sheets%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-Data sheets%Natural%{'label': 'depends'}
-Data sheets%Natural property%{'label': 'depends'}
-Data sheets%Nomination%{'label': 'depends'}
-Data sheets%Property%{'label': 'depends'}
-Data sheets%World Conservation Monitoring Centre%{'label': 'depends'}
-Data sheets%World Conservation Union%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Centre%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Committee%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Conservation%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Convention%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%International Centre for the Study of the Preservation and Restoration of Cultural Property%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%List%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Rome Centre%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Training%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%UNESCO%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%World Heritage%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%World Heritage List%{'label': 'depends'}
-Identification number%Centre%{'label': 'depends'}
-Identification number%Identification%{'label': 'depends'}
-Identification number%Identification number%{'label': 'depends'}
-Identification number%Nomination%{'label': 'depends'}
-Identification number%Nomination form%{'label': 'depends'}
-Identification number%Property%{'label': 'depends'}
-Identification number%World Heritage%{'label': 'depends'}
-Identification number%World Heritage Centre%{'label': 'depends'}
-Inhabited historic towns%Centre%{'label': 'depends'}
-Inhabited historic towns%Groups of urban buildings%{'label': 'depends'}
-Inhabited historic towns%Guidelines%{'label': 'depends'}
-Inhabited historic towns%Historic towns%{'label': 'depends'}
-Inhabited historic towns%Inhabited historic towns%{'label': 'depends'}
-Inhabited historic towns%List%{'label': 'depends'}
-Inhabited historic towns%Natural%{'label': 'depends'}
-Inhabited historic towns%Operational Guidelines%{'label': 'depends'}
-Inhabited historic towns%Property%{'label': 'depends'}
-Inhabited historic towns%Towns%{'label': 'depends'}
-Inhabited historic towns%UNESCO%{'label': 'depends'}
-Joint nomination%Centre%{'label': 'depends'}
-Joint nomination%Guidelines%{'label': 'depends'}
-Joint nomination%International Council of Monuments and Sites%{'label': 'depends'}
-Joint nomination%Joint nomination%{'label': 'depends'}
-Joint nomination%List%{'label': 'depends'}
-Joint nomination%Nomination%{'label': 'depends'}
-Joint nomination%Operational Guidelines%{'label': 'depends'}
-Joint nomination%Property%{'label': 'depends'}
-Joint nomination%Series%{'label': 'depends'}
-Joint nomination%UNESCO%{'label': 'depends'}
-Joint nomination%World Heritage%{'label': 'depends'}
-Joint nomination%World Heritage Education%{'label': 'depends'}
-Joint nomination%World Heritage List%{'label': 'depends'}
-Mixed property%Centre%{'label': 'depends'}
-Mixed property%Guidelines%{'label': 'depends'}
-Mixed property%International Council of Monuments and Sites%{'label': 'depends'}
-Mixed property%List%{'label': 'depends'}
-Mixed property%Natural%{'label': 'depends'}
-Mixed property%Natural features%{'label': 'depends'}
-Mixed property%Operational Guidelines%{'label': 'depends'}
-Mixed property%Outstanding universal value%{'label': 'depends'}
-Mixed property%States Parties%{'label': 'depends'}
-Mixed property%UNESCO%{'label': 'depends'}
-Mixed property%World Heritage%{'label': 'depends'}
-Nomination form%Centre%{'label': 'depends'}
-Nomination form%List%{'label': 'depends'}
-Nomination form%Nomination%{'label': 'depends'}
-Nomination form%Nomination form%{'label': 'depends'}
-Nomination form%States Parties%{'label': 'depends'}
-Nomination form%UNESCO%{'label': 'depends'}
-Nomination form%UNESCO World Heritage Centre%{'label': 'depends'}
-Nomination form%World Heritage%{'label': 'depends'}
-Nomination form%World Heritage Centre%{'label': 'depends'}
-Nomination form%World Heritage Education%{'label': 'depends'}
-Nomination form%World Heritage List%{'label': 'depends'}
-Rome Centre%Centre%{'label': 'depends'}
-Rome Centre%Cultural property%{'label': 'depends'}
-Rome Centre%International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%{'label': 'depends'}
-Rome Centre%Preservation%{'label': 'depends'}
-Rome Centre%Property%{'label': 'depends'}
-United Nations Educational, Scientific and Cultural Organization%Centre%{'label': 'depends'}
-United Nations Educational, Scientific and Cultural Organization%Committee%{'label': 'depends'}
-United Nations Educational, Scientific and Cultural Organization%Convention%{'label': 'depends'}
-United Nations Educational, Scientific and Cultural Organization%Fund%{'label': 'depends'}
-United Nations Educational, Scientific and Cultural Organization%Secretariat%{'label': 'depends'}
-United Nations Educational, Scientific and Cultural Organization%UNESCO%{'label': 'depends'}
-United Nations Educational, Scientific and Cultural Organization%World Heritage%{'label': 'depends'}
-United Nations Educational, Scientific and Cultural Organization%World Heritage Committee%{'label': 'depends'}
-World Conservation Monitoring Centre%Centre%{'label': 'depends'}
-World Conservation Monitoring Centre%Conservation%{'label': 'depends'}
-World Conservation Monitoring Centre%Convention%{'label': 'depends'}
-World Conservation Monitoring Centre%Fund%{'label': 'depends'}
-World Conservation Monitoring Centre%Implementation%{'label': 'depends'}
-World Conservation Monitoring Centre%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-World Conservation Monitoring Centre%UNESCO%{'label': 'depends'}
-World Conservation Monitoring Centre%World Conservation Monitoring Centre%{'label': 'depends'}
-World Conservation Monitoring Centre%World Conservation Union%{'label': 'depends'}
-World Conservation Monitoring Centre%World Heritage%{'label': 'depends'}
-World Heritage List%Centre%{'label': 'depends'}
-World Heritage List%Convention%{'label': 'depends'}
-World Heritage List%Criteria%{'label': 'depends'}
-World Heritage List%Guidelines%{'label': 'depends'}
-World Heritage List%International Council of Monuments and Sites%{'label': 'depends'}
-World Heritage List%List%{'label': 'depends'}
-World Heritage List%Natural%{'label': 'depends'}
-World Heritage List%Natural heritage%{'label': 'depends'}
-World Heritage List%Outstanding universal value%{'label': 'depends'}
-World Heritage List%UNESCO%{'label': 'depends'}
-World Heritage List%World Heritage%{'label': 'depends'}
-World Heritage List%World Heritage List%{'label': 'depends'}
-Young People's Participation in World Heritage Preservation and Promotion%Centre%{'label': 'depends'}
-Young People's Participation in World Heritage Preservation and Promotion%Preservation%{'label': 'depends'}
-Young People's Participation in World Heritage Preservation and Promotion%UNESCO%{'label': 'depends'}
-Young People's Participation in World Heritage Preservation and Promotion%UNESCO World Heritage Centre%{'label': 'depends'}
-Young People's Participation in World Heritage Preservation and Promotion%World Heritage%{'label': 'depends'}
-Young People's Participation in World Heritage Preservation and Promotion%World Heritage Centre%{'label': 'depends'}
-Young People's Participation in World Heritage Preservation and Promotion%World Heritage Education%{'label': 'depends'}
-Young People's Participation in World Heritage Preservation and Promotion%see World Heritage Youth Forum/Fora%{'label': 'depends'}
-Young People's Participation in World Heritage Preservation and Promotion%Youth Forum%{'label': 'depends'}
-Clearly defined landscape%Clearly defined landscape%{'label': 'depends'}
-Clearly defined landscape%Committee%{'label': 'depends'}
-Clearly defined landscape%Cultural landscapes%{'label': 'depends'}
-Clearly defined landscape%Guidelines%{'label': 'depends'}
-Clearly defined landscape%Operational Guidelines%{'label': 'depends'}
-Clearly defined landscape%UNESCO%{'label': 'depends'}
-Clearly defined landscape%World Heritage%{'label': 'depends'}
-Clearly defined landscape%World Heritage Committee%{'label': 'depends'}
-Designed landscape%Clearly defined landscape%{'label': 'depends'}
-CNPPA%CNPPA%{'label': 'depends'}
-CNPPA%Commission on National Parks and Protected Areas%{'label': 'depends'}
-CNPPA%Conservation%{'label': 'depends'}
-CNPPA%Evaluation%{'label': 'depends'}
-CNPPA%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-CNPPA%IUCN - The World Conservation Union%{'label': 'depends'}
-CNPPA%IUCN evaluation%{'label': 'depends'}
-CNPPA%List%{'label': 'depends'}
-CNPPA%Management%{'label': 'depends'}
-CNPPA%World Conservation Union%{'label': 'depends'}
-Commission on National Parks and Protected Areas%CNPPA%{'label': 'depends'}
-Commission on National Parks and Protected Areas%Commission on National Parks and Protected Areas%{'label': 'depends'}
-IUCN evaluation%CNPPA%{'label': 'depends'}
-IUCN evaluation%Commission on National Parks and Protected Areas%{'label': 'depends'}
-IUCN evaluation%Committee%{'label': 'depends'}
-IUCN evaluation%Data sheets%{'label': 'depends'}
-IUCN evaluation%Evaluation%{'label': 'depends'}
-IUCN evaluation%International Council of Monuments and Sites%{'label': 'depends'}
-IUCN evaluation%ICOMOS evaluation%{'label': 'depends'}
-IUCN evaluation%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-IUCN evaluation%List%{'label': 'depends'}
-IUCN evaluation%Natural%{'label': 'depends'}
-IUCN evaluation%Natural property%{'label': 'depends'}
-IUCN evaluation%Nomination%{'label': 'depends'}
-IUCN evaluation%Property%{'label': 'depends'}
-IUCN evaluation%World Conservation Union%{'label': 'depends'}
-IUCN evaluation%World Heritage%{'label': 'depends'}
-IUCN evaluation%World Heritage Committee%{'label': 'depends'}
-IUCN evaluation%World Heritage List%{'label': 'depends'}
-Committee%Committee%{'label': 'depends'}
-Committee%World Heritage%{'label': 'depends'}
-Committee%World Heritage Committee%{'label': 'depends'}
-Delisting%Committee%{'label': 'depends'}
-Delisting%Corrective measures%{'label': 'depends'}
-Delisting%Deletion%{'label': 'depends'}
-Delisting%Delisting%{'label': 'depends'}
-Delisting%Guidelines%{'label': 'depends'}
-Delisting%List%{'label': 'depends'}
-Delisting%Operational Guidelines%{'label': 'depends'}
-Delisting%Property%{'label': 'depends'}
-Delisting%UNESCO%{'label': 'depends'}
-Delisting%World Heritage%{'label': 'depends'}
-Delisting%World Heritage Education%{'label': 'depends'}
-Delisting%World Heritage List%{'label': 'depends'}
-Groups of urban buildings%Committee%{'label': 'depends'}
-Groups of urban buildings%Convention%{'label': 'depends'}
-Groups of urban buildings%Groups of urban buildings%{'label': 'depends'}
-Groups of urban buildings%Guidelines%{'label': 'depends'}
-Groups of urban buildings%Historic towns%{'label': 'depends'}
-Groups of urban buildings%Inhabited historic towns%{'label': 'depends'}
-Groups of urban buildings%List%{'label': 'depends'}
-Groups of urban buildings%Operational Guidelines%{'label': 'depends'}
-Groups of urban buildings%Towns%{'label': 'depends'}
-Groups of urban buildings%UNESCO%{'label': 'depends'}
-Groups of urban buildings%World Heritage%{'label': 'depends'}
-Groups of urban buildings%World Heritage Committee%{'label': 'depends'}
-Groups of urban buildings%World Heritage List%{'label': 'depends'}
-Harmonization%Committee%{'label': 'depends'}
-Harmonization%Convention%{'label': 'depends'}
-Harmonization%Guidelines%{'label': 'depends'}
-Harmonization%Harmonization%{'label': 'depends'}
-Harmonization%List%{'label': 'depends'}
-Harmonization%Natural%{'label': 'depends'}
-Harmonization%Tentative list%{'label': 'depends'}
-Harmonization%UNESCO%{'label': 'depends'}
-Harmonization%World Heritage%{'label': 'depends'}
-Harmonization%World Heritage List%{'label': 'depends'}
-International Council of Monuments and Sites%Committee%{'label': 'depends'}
-International Council of Monuments and Sites%Convention%{'label': 'depends'}
-International Council of Monuments and Sites%Evaluation%{'label': 'depends'}
-International Council of Monuments and Sites%International Council of Monuments and Sites%{'label': 'depends'}
-International Council of Monuments and Sites%Inscription%{'label': 'depends'}
-International Council of Monuments and Sites%List%{'label': 'depends'}
-International Council of Monuments and Sites%Secretariat%{'label': 'depends'}
-International Council of Monuments and Sites%UNESCO%{'label': 'depends'}
-International Council of Monuments and Sites%World Heritage%{'label': 'depends'}
-Intergovernmental Committee for the Protection of the World Cultural and Natural Heritage%Committee%{'label': 'depends'}
-Intergovernmental Committee for the Protection of the World Cultural and Natural Heritage%World Heritage%{'label': 'depends'}
-Intergovernmental Committee for the Protection of the World Cultural and Natural Heritage%World Heritage Committee%{'label': 'depends'}
-Inventory of property%Committee%{'label': 'depends'}
-Inventory of property%Convention%{'label': 'depends'}
-Inventory of property%Guidelines%{'label': 'depends'}
-Inventory of property%Indicative list%{'label': 'depends'}
-Inventory of property%Inventory of property%{'label': 'depends'}
-Inventory of property%List%{'label': 'depends'}
-Inventory of property%Natural%{'label': 'depends'}
-Inventory of property%Natural heritage%{'label': 'depends'}
-Inventory of property%Property%{'label': 'depends'}
-Inventory of property%States Parties%{'label': 'depends'}
-Inventory of property%Tentative list%{'label': 'depends'}
-Inventory of property%UNESCO%{'label': 'depends'}
-Inventory of property%World Heritage%{'label': 'depends'}
-Inventory of property%World Heritage List%{'label': 'depends'}
-IUCN - The World Conservation Union%Committee%{'label': 'depends'}
-IUCN - The World Conservation Union%Conservation%{'label': 'depends'}
-IUCN - The World Conservation Union%Convention%{'label': 'depends'}
-IUCN - The World Conservation Union%Evaluation%{'label': 'depends'}
-IUCN - The World Conservation Union%Integrity%{'label': 'depends'}
-IUCN - The World Conservation Union%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-IUCN - The World Conservation Union%IUCN evaluation%{'label': 'depends'}
-IUCN - The World Conservation Union%List%{'label': 'depends'}
-IUCN - The World Conservation Union%Natural%{'label': 'depends'}
-IUCN - The World Conservation Union%State of conservation%{'label': 'depends'}
-IUCN - The World Conservation Union%UNESCO%{'label': 'depends'}
-IUCN - The World Conservation Union%World Conservation Union%{'label': 'depends'}
-IUCN - The World Conservation Union%World Heritage%{'label': 'depends'}
-IUCN - The World Conservation Union%World Heritage Committee%{'label': 'depends'}
-IUCN - The World Conservation Union%World Heritage List%{'label': 'depends'}
-Mixed site%Committee%{'label': 'depends'}
-Mixed site%Conservation%{'label': 'depends'}
-Mixed site%Guidelines%{'label': 'depends'}
-Mixed site%List%{'label': 'depends'}
-Mixed site%Operational Guidelines%{'label': 'depends'}
-Mixed site%Reactive monitoring%{'label': 'depends'}
-Mixed site%Reporting%{'label': 'depends'}
-Mixed site%Systematic monitoring and reporting%{'label': 'depends'}
-Mixed site%UNESCO%{'label': 'depends'}
-Mixed site%World Heritage%{'label': 'depends'}
-Mixed site%World Heritage List%{'label': 'depends'}
-Movable property%Committee%{'label': 'depends'}
-Movable property%Guidelines%{'label': 'depends'}
-Movable property%Immovable property%{'label': 'depends'}
-Movable property%List%{'label': 'depends'}
-Movable property%Movable property%{'label': 'depends'}
-Movable property%Nomination%{'label': 'depends'}
-Movable property%Operational Guidelines%{'label': 'depends'}
-Movable property%Property%{'label': 'depends'}
-Movable property%UNESCO%{'label': 'depends'}
-Movable property%World Heritage%{'label': 'depends'}
-Systematic monitoring and reporting%Committee%{'label': 'depends'}
-Systematic monitoring and reporting%Conservation%{'label': 'depends'}
-Systematic monitoring and reporting%Guidelines%{'label': 'depends'}
-Systematic monitoring and reporting%List%{'label': 'depends'}
-Systematic monitoring and reporting%Operational Guidelines%{'label': 'depends'}
-Systematic monitoring and reporting%Reactive monitoring%{'label': 'depends'}
-Systematic monitoring and reporting%Reporting%{'label': 'depends'}
-Systematic monitoring and reporting%Sites%{'label': 'depends'}
-Systematic monitoring and reporting%State of conservation%{'label': 'depends'}
-Systematic monitoring and reporting%Systematic monitoring and reporting%{'label': 'depends'}
-Systematic monitoring and reporting%UNESCO%{'label': 'depends'}
-Systematic monitoring and reporting%World Heritage%{'label': 'depends'}
-Systematic monitoring and reporting%World Heritage List%{'label': 'depends'}
-World Heritage emblem%Committee%{'label': 'depends'}
-World Heritage emblem%Emblem%{'label': 'depends'}
-World Heritage emblem%Guidelines%{'label': 'depends'}
-World Heritage emblem%Natural%{'label': 'depends'}
-World Heritage emblem%Operational Guidelines%{'label': 'depends'}
-World Heritage emblem%Protection%{'label': 'depends'}
-World Heritage emblem%UNESCO%{'label': 'depends'}
-World Heritage emblem%World Heritage%{'label': 'depends'}
-World Heritage emblem%World Heritage Education%{'label': 'depends'}
-World Heritage emblem%World Heritage emblem%{'label': 'depends'}
-Comparative assessments%Comparative assessments%{'label': 'depends'}
-Comparative assessments%Comparative evaluations%{'label': 'depends'}
-Comparative assessments%Evaluation%{'label': 'depends'}
-Comparative assessments%Guidelines%{'label': 'depends'}
-Comparative assessments%Harmonization%{'label': 'depends'}
-Comparative assessments%List%{'label': 'depends'}
-Comparative assessments%Nomination%{'label': 'depends'}
-Comparative assessments%Operational Guidelines%{'label': 'depends'}
-Comparative assessments%Tentative list%{'label': 'depends'}
-Comparative assessments%UNESCO%{'label': 'depends'}
-Comparative assessments%World Heritage%{'label': 'depends'}
-Comparative evaluations%Comparative assessments%{'label': 'depends'}
-Comparative evaluations%Comparative evaluations%{'label': 'depends'}
-Comparative evaluations%Cultural property%{'label': 'depends'}
-Comparative evaluations%Evaluation%{'label': 'depends'}
-Comparative evaluations%Guidelines%{'label': 'depends'}
-Comparative evaluations%Harmonization%{'label': 'depends'}
-Comparative evaluations%International Council of Monuments and Sites%{'label': 'depends'}
+Cultural landscapes%Protection%{'label': 'depends'}
+Cultural landscapes%Canal%{'label': 'depends'}
+Cultural landscapes%List%{'label': 'depends'}
+Cultural landscapes%Committee%{'label': 'depends'}
+Cultural landscapes%World Heritage%{'label': 'depends'}
+Cultural landscapes%Natural%{'label': 'depends'}
+Cultural landscapes%Cultural landscapes%{'label': 'depends'}
+Cultural landscapes%World Heritage List%{'label': 'depends'}
+Cultural landscapes%UNESCO%{'label': 'depends'}
+Cultural landscapes%Clearly defined landscape%{'label': 'depends'}
+Cultural landscapes%Guidelines%{'label': 'depends'}
+Cultural landscapes%Outstanding universal value%{'label': 'depends'}
+Cultural landscapes%Operational Guidelines%{'label': 'depends'}
+Cultural landscapes%Heritage route%{'label': 'depends'}
+Cultural landscapes%Convention%{'label': 'depends'}
+Cultural landscapes%Associative cultural landscape%{'label': 'depends'}
+Cultural landscapes%Organically evolved landscape%{'label': 'depends'}
 Comparative evaluations%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
 Comparative evaluations%List%{'label': 'depends'}
+Comparative evaluations%Cultural property%{'label': 'depends'}
+Comparative evaluations%Harmonization%{'label': 'depends'}
 Comparative evaluations%Natural%{'label': 'depends'}
-Comparative evaluations%Nomination%{'label': 'depends'}
-Comparative evaluations%Operational Guidelines%{'label': 'depends'}
-Comparative evaluations%Property%{'label': 'depends'}
-Comparative evaluations%Tentative list%{'label': 'depends'}
+Comparative evaluations%Comparative evaluations%{'label': 'depends'}
+Comparative evaluations%Comparative assessments%{'label': 'depends'}
 Comparative evaluations%UNESCO%{'label': 'depends'}
-Comparative evaluations%World Conservation Union%{'label': 'depends'}
+Comparative evaluations%Evaluation%{'label': 'depends'}
+Comparative evaluations%International Council of Monuments and Sites%{'label': 'depends'}
+Comparative evaluations%Guidelines%{'label': 'depends'}
+Comparative evaluations%Operational Guidelines%{'label': 'depends'}
+Comparative evaluations%Nomination%{'label': 'depends'}
 Comparative evaluations%World Heritage Education%{'label': 'depends'}
-Identification%Conservation%{'label': 'depends'}
-Identification%Convention%{'label': 'depends'}
-Identification%Guidelines%{'label': 'depends'}
-Identification%Identification%{'label': 'depends'}
-Identification%List%{'label': 'depends'}
-Identification%Natural%{'label': 'depends'}
-Identification%Natural heritage%{'label': 'depends'}
-Identification%Nomination%{'label': 'depends'}
-Identification%Nomination form%{'label': 'depends'}
-Identification%Operational Guidelines%{'label': 'depends'}
-Identification%Presentation%{'label': 'depends'}
-Identification%Protection%{'label': 'depends'}
-Identification%States Parties%{'label': 'depends'}
-Identification%Transmission%{'label': 'depends'}
-Identification%UNESCO%{'label': 'depends'}
-Identification%World Heritage%{'label': 'depends'}
-Identification%World Heritage Convention%{'label': 'depends'}
-Identification%World Heritage List%{'label': 'depends'}
-International Union for the Conservation of Nature and Natural Resources%Conservation%{'label': 'depends'}
-International Union for the Conservation of Nature and Natural Resources%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-International Union for the Conservation of Nature and Natural Resources%World Conservation Union%{'label': 'depends'}
-National protection%Conservation%{'label': 'depends'}
-National protection%Convention%{'label': 'depends'}
-National protection%Identification%{'label': 'depends'}
-National protection%International protection%{'label': 'depends'}
-National protection%National protection%{'label': 'depends'}
-National protection%Natural%{'label': 'depends'}
-National protection%Natural heritage%{'label': 'depends'}
-National protection%Presentation%{'label': 'depends'}
-National protection%Protection%{'label': 'depends'}
-National protection%Transmission%{'label': 'depends'}
-National protection%UNESCO%{'label': 'depends'}
-National protection%World Heritage%{'label': 'depends'}
-Natural heritage%Conservation%{'label': 'depends'}
-Natural heritage%Convention%{'label': 'depends'}
-Natural heritage%Geological and physiographical formations%{'label': 'depends'}
-Natural heritage%Natural%{'label': 'depends'}
-Natural heritage%Natural area%{'label': 'depends'}
-Natural heritage%Natural features%{'label': 'depends'}
-Natural heritage%Natural heritage%{'label': 'depends'}
-Natural heritage%Natural sites%{'label': 'depends'}
+Comparative evaluations%World Conservation Union%{'label': 'depends'}
+Comparative evaluations%Tentative list%{'label': 'depends'}
+Comparative evaluations%Property%{'label': 'depends'}
+Promotional activities%Preservation%{'label': 'depends'}
+Promotional activities%Implementation%{'label': 'depends'}
+Promotional activities%World Heritage%{'label': 'depends'}
+Promotional activities%Natural%{'label': 'depends'}
+Promotional activities%Assistance%{'label': 'depends'}
+Promotional activities%Promotional activities%{'label': 'depends'}
+Promotional activities%Conservation%{'label': 'depends'}
+Promotional activities%Fund%{'label': 'depends'}
+Promotional activities%International assistance%{'label': 'depends'}
+Promotional activities%Convention%{'label': 'depends'}
+Promotional activities%UNESCO%{'label': 'depends'}
+Promotional activities%World Heritage Fund%{'label': 'depends'}
+Inscription%List%{'label': 'depends'}
+Inscription%World Heritage%{'label': 'depends'}
+Inscription%Inscription%{'label': 'depends'}
+Inscription%Property%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Protection%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%List%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Committee%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%World Heritage%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Natural%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Assistance%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%World Heritage Fund%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Conservation%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Fund%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Natural heritage%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Outstanding universal value%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%States Parties%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Identification%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Convention%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%Cultural heritage%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%World Heritage Committee%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%World Heritage List%{'label': 'depends'}
+Convention concerning the protection of the world cultural and natural heritage%UNESCO%{'label': 'depends'}
+Delisting%Deletion%{'label': 'depends'}
+Delisting%List%{'label': 'depends'}
+Delisting%Committee%{'label': 'depends'}
+Delisting%World Heritage%{'label': 'depends'}
+Delisting%World Heritage Education%{'label': 'depends'}
+Delisting%Delisting%{'label': 'depends'}
+Delisting%Guidelines%{'label': 'depends'}
+Delisting%Corrective measures%{'label': 'depends'}
+Delisting%Operational Guidelines%{'label': 'depends'}
+Delisting%World Heritage List%{'label': 'depends'}
+Delisting%UNESCO%{'label': 'depends'}
+Delisting%Property%{'label': 'depends'}
 Natural heritage%Outstanding universal value%{'label': 'depends'}
+Natural heritage%Natural area%{'label': 'depends'}
 Natural heritage%Sites%{'label': 'depends'}
+Natural heritage%Natural heritage%{'label': 'depends'}
+Natural heritage%Convention%{'label': 'depends'}
+Natural heritage%Natural%{'label': 'depends'}
 Natural heritage%UNESCO%{'label': 'depends'}
-Presentation%Conservation%{'label': 'depends'}
-Presentation%Convention%{'label': 'depends'}
-Presentation%Guidelines%{'label': 'depends'}
-Presentation%Identification%{'label': 'depends'}
-Presentation%Natural%{'label': 'depends'}
-Presentation%Natural heritage%{'label': 'depends'}
-Presentation%Operational Guidelines%{'label': 'depends'}
-Presentation%Presentation%{'label': 'depends'}
-Presentation%Protection%{'label': 'depends'}
-Presentation%States Parties%{'label': 'depends'}
-Presentation%Transmission%{'label': 'depends'}
-Presentation%UNESCO%{'label': 'depends'}
-Presentation%World Heritage%{'label': 'depends'}
-Presentation%World Heritage Convention%{'label': 'depends'}
-Preservation%Conservation%{'label': 'depends'}
-Preservation%Convention%{'label': 'depends'}
-Preservation%Guidelines%{'label': 'depends'}
-Preservation%Operational Guidelines%{'label': 'depends'}
-Preservation%Preservation%{'label': 'depends'}
-Preservation%Protection%{'label': 'depends'}
-Preservation%Safeguarding%{'label': 'depends'}
-Preservation%World Heritage%{'label': 'depends'}
-Preservation%World Heritage Convention%{'label': 'depends'}
-Protection%Conservation%{'label': 'depends'}
-Protection%Convention%{'label': 'depends'}
-Protection%Guidelines%{'label': 'depends'}
-Protection%Identification%{'label': 'depends'}
-Protection%International protection%{'label': 'depends'}
-Protection%National protection%{'label': 'depends'}
-Protection%Natural%{'label': 'depends'}
-Protection%Natural heritage%{'label': 'depends'}
-Protection%Operational Guidelines%{'label': 'depends'}
-Protection%Presentation%{'label': 'depends'}
-Protection%Preservation%{'label': 'depends'}
-Protection%Protection%{'label': 'depends'}
-Protection%Safeguarding%{'label': 'depends'}
-Protection%Transmission%{'label': 'depends'}
-Protection%UNESCO%{'label': 'depends'}
-Protection%World Heritage%{'label': 'depends'}
-Protection%World Heritage Convention%{'label': 'depends'}
-Rehabilitation%Conservation%{'label': 'depends'}
-Rehabilitation%Convention%{'label': 'depends'}
-Rehabilitation%Guidelines%{'label': 'depends'}
-Rehabilitation%Identification%{'label': 'depends'}
-Rehabilitation%Natural%{'label': 'depends'}
-Rehabilitation%Natural heritage%{'label': 'depends'}
-Rehabilitation%Presentation%{'label': 'depends'}
-Rehabilitation%Protection%{'label': 'depends'}
-Rehabilitation%Rehabilitation%{'label': 'depends'}
-Rehabilitation%States Parties%{'label': 'depends'}
-Rehabilitation%UNESCO%{'label': 'depends'}
-Rehabilitation%World Heritage%{'label': 'depends'}
-Rehabilitation%World Heritage Convention%{'label': 'depends'}
-Safeguarding%Conservation%{'label': 'depends'}
-Safeguarding%Convention%{'label': 'depends'}
-Safeguarding%Guidelines%{'label': 'depends'}
-Safeguarding%Preservation%{'label': 'depends'}
-Safeguarding%Protection%{'label': 'depends'}
-Safeguarding%Safeguarding%{'label': 'depends'}
-Spirit of the Convention%Conservation%{'label': 'depends'}
-Spirit of the Convention%Convention%{'label': 'depends'}
-Spirit of the Convention%Cultural heritage%{'label': 'depends'}
-Spirit of the Convention%International protection%{'label': 'depends'}
-Spirit of the Convention%National protection%{'label': 'depends'}
-Spirit of the Convention%Natural%{'label': 'depends'}
-Spirit of the Convention%Outstanding universal value%{'label': 'depends'}
-Spirit of the Convention%Protection%{'label': 'depends'}
-Spirit of the Convention%Spirit of the Convention%{'label': 'depends'}
-Transmission%Conservation%{'label': 'depends'}
-Transmission%Convention%{'label': 'depends'}
-Transmission%Guidelines%{'label': 'depends'}
-Transmission%Identification%{'label': 'depends'}
-Transmission%Natural%{'label': 'depends'}
-Transmission%Natural heritage%{'label': 'depends'}
-Transmission%Presentation%{'label': 'depends'}
-Transmission%Protection%{'label': 'depends'}
-Transmission%Transmission%{'label': 'depends'}
-Transmission%UNESCO%{'label': 'depends'}
-Transmission%World Heritage%{'label': 'depends'}
-Transmission%World Heritage Convention%{'label': 'depends'}
-World Conservation Union%Conservation%{'label': 'depends'}
-World Conservation Union%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-World Conservation Union%World Conservation Union%{'label': 'depends'}
-Convention%Convention%{'label': 'depends'}
-Convention%Natural%{'label': 'depends'}
-Convention%Natural heritage%{'label': 'depends'}
+Natural heritage%Conservation%{'label': 'depends'}
+Natural heritage%Natural features%{'label': 'depends'}
+Natural heritage%Geological and physiographical formations%{'label': 'depends'}
+Natural heritage%Natural sites%{'label': 'depends'}
+Natural heritage criteria%List%{'label': 'depends'}
+Natural heritage criteria%World Heritage List%{'label': 'depends'}
+Natural heritage criteria%World Heritage%{'label': 'depends'}
+Natural heritage criteria%Natural%{'label': 'depends'}
+Natural heritage criteria%Integrity%{'label': 'depends'}
+Natural heritage criteria%Guidelines%{'label': 'depends'}
+Natural heritage criteria%Natural heritage%{'label': 'depends'}
+Natural heritage criteria%Natural heritage criteria%{'label': 'depends'}
+Natural heritage criteria%Criteria%{'label': 'depends'}
+Natural heritage criteria%Property%{'label': 'depends'}
+Natural heritage criteria%UNESCO%{'label': 'depends'}
+Natural heritage criteria%Natural property%{'label': 'depends'}
+Preparatory assistance%Preparatory assistance%{'label': 'depends'}
+Preparatory assistance%Operational Guidelines%{'label': 'depends'}
+Preparatory assistance%Centre%{'label': 'depends'}
+Preparatory assistance%World Heritage%{'label': 'depends'}
+Preparatory assistance%UNESCO%{'label': 'depends'}
+Preparatory assistance%Assistance%{'label': 'depends'}
+Preparatory assistance%World Heritage Fund%{'label': 'depends'}
+Preparatory assistance%International assistance%{'label': 'depends'}
+Preparatory assistance%Fund%{'label': 'depends'}
+Preparatory assistance%Guidelines%{'label': 'depends'}
+Reactive monitoring%List%{'label': 'depends'}
+Reactive monitoring%Committee%{'label': 'depends'}
+Reactive monitoring%Sites%{'label': 'depends'}
+Reactive monitoring%World Heritage%{'label': 'depends'}
+Reactive monitoring%States Parties%{'label': 'depends'}
+Reactive monitoring%List of World Heritage in Danger%{'label': 'depends'}
+Reactive monitoring%UNESCO%{'label': 'depends'}
+Reactive monitoring%Conservation%{'label': 'depends'}
+Reactive monitoring%Guidelines%{'label': 'depends'}
+Reactive monitoring%State of conservation%{'label': 'depends'}
+Reactive monitoring%Systematic monitoring and reporting%{'label': 'depends'}
+Reactive monitoring%Deletion%{'label': 'depends'}
+Reactive monitoring%Advisory bodies%{'label': 'depends'}
+Reactive monitoring%Reactive monitoring%{'label': 'depends'}
+Reactive monitoring%Centre%{'label': 'depends'}
+Reactive monitoring%World Heritage Centre%{'label': 'depends'}
+Reactive monitoring%Operational Guidelines%{'label': 'depends'}
+Reactive monitoring%Reporting%{'label': 'depends'}
+Reactive monitoring%Bureau%{'label': 'depends'}
+Reactive monitoring%World Heritage List%{'label': 'depends'}
+Identification%Protection%{'label': 'depends'}
+Identification%Transmission%{'label': 'depends'}
+Identification%List%{'label': 'depends'}
+Identification%Operational Guidelines%{'label': 'depends'}
+Identification%World Heritage%{'label': 'depends'}
+Identification%Natural%{'label': 'depends'}
+Identification%World Heritage List%{'label': 'depends'}
+Identification%Nomination%{'label': 'depends'}
+Identification%Conservation%{'label': 'depends'}
+Identification%Guidelines%{'label': 'depends'}
+Identification%Natural heritage%{'label': 'depends'}
+Identification%States Parties%{'label': 'depends'}
+Identification%Identification%{'label': 'depends'}
+Identification%Convention%{'label': 'depends'}
+Identification%Presentation%{'label': 'depends'}
+Identification%World Heritage Convention%{'label': 'depends'}
+Identification%Nomination form%{'label': 'depends'}
+Identification%UNESCO%{'label': 'depends'}
+Mixed property%Outstanding universal value%{'label': 'depends'}
+Mixed property%Operational Guidelines%{'label': 'depends'}
+Mixed property%List%{'label': 'depends'}
+Mixed property%Centre%{'label': 'depends'}
+Mixed property%UNESCO%{'label': 'depends'}
+Mixed property%World Heritage%{'label': 'depends'}
+Mixed property%Natural%{'label': 'depends'}
+Mixed property%States Parties%{'label': 'depends'}
+Mixed property%Natural features%{'label': 'depends'}
+Mixed property%International Council of Monuments and Sites%{'label': 'depends'}
+Mixed property%Guidelines%{'label': 'depends'}
 Convention%Protection%{'label': 'depends'}
-Convention for the protection of the world cultural and natural heritage%Convention%{'label': 'depends'}
-Convention for the protection of the world cultural and natural heritage%Natural%{'label': 'depends'}
-Convention for the protection of the world cultural and natural heritage%Natural heritage%{'label': 'depends'}
+Convention%Natural heritage%{'label': 'depends'}
+Convention%Natural%{'label': 'depends'}
+Convention%Convention%{'label': 'depends'}
+Deferral%Deferred%{'label': 'depends'}
+Criteria%Protection%{'label': 'depends'}
+Criteria%List%{'label': 'depends'}
+Criteria%Committee%{'label': 'depends'}
+Criteria%World Heritage%{'label': 'depends'}
+Criteria%Natural%{'label': 'depends'}
+Criteria%Test of authenticity%{'label': 'depends'}
+Criteria%List of World Heritage in Danger%{'label': 'depends'}
+Criteria%Integrity%{'label': 'depends'}
+Criteria%Guidelines%{'label': 'depends'}
+Criteria%Natural heritage%{'label': 'depends'}
+Criteria%Management%{'label': 'depends'}
+Criteria%Authenticity%{'label': 'depends'}
+Criteria%Cultural heritage criteria%{'label': 'depends'}
+Criteria%Operational Guidelines%{'label': 'depends'}
+Criteria%Convention%{'label': 'depends'}
+Criteria%Cultural heritage%{'label': 'depends'}
+Criteria%World Heritage Committee%{'label': 'depends'}
+Criteria%Criteria%{'label': 'depends'}
+Criteria%World Heritage List%{'label': 'depends'}
+Criteria%UNESCO%{'label': 'depends'}
+Criteria%Property%{'label': 'depends'}
+ID No%Identification%{'label': 'depends'}
+ID No%Identification number%{'label': 'depends'}
+World Heritage List%List%{'label': 'depends'}
+World Heritage List%Centre%{'label': 'depends'}
+World Heritage List%World Heritage%{'label': 'depends'}
+World Heritage List%Natural%{'label': 'depends'}
+World Heritage List%International Council of Monuments and Sites%{'label': 'depends'}
+World Heritage List%Guidelines%{'label': 'depends'}
+World Heritage List%Natural heritage%{'label': 'depends'}
+World Heritage List%Outstanding universal value%{'label': 'depends'}
+World Heritage List%Convention%{'label': 'depends'}
+World Heritage List%Criteria%{'label': 'depends'}
+World Heritage List%World Heritage List%{'label': 'depends'}
+World Heritage List%UNESCO%{'label': 'depends'}
+Tentative list%List%{'label': 'depends'}
+Tentative list%Committee%{'label': 'depends'}
+Tentative list%UNESCO%{'label': 'depends'}
+Tentative list%Inscription%{'label': 'depends'}
+Tentative list%Natural%{'label': 'depends'}
+Tentative list%States Parties%{'label': 'depends'}
+Tentative list%World Heritage List%{'label': 'depends'}
+Tentative list%Integrity%{'label': 'depends'}
+Tentative list%Guidelines%{'label': 'depends'}
+Tentative list%Outstanding universal value%{'label': 'depends'}
+Tentative list%Authenticity%{'label': 'depends'}
+Tentative list%Nomination%{'label': 'depends'}
+Tentative list%Convention%{'label': 'depends'}
+Tentative list%Operational Guidelines%{'label': 'depends'}
+Tentative list%Criteria%{'label': 'depends'}
+Tentative list%Inventory of property%{'label': 'depends'}
+Tentative list%Property%{'label': 'depends'}
+Tentative list%Tentative list%{'label': 'depends'}
+Tentative list%World Heritage%{'label': 'depends'}
+Tentative list%Justification%{'label': 'depends'}
 Convention for the protection of the world cultural and natural heritage%Protection%{'label': 'depends'}
-Cultural heritage%Convention%{'label': 'depends'}
-Cultural heritage%Cultural heritage%{'label': 'depends'}
-Cultural heritage%Groups of buildings%{'label': 'depends'}
-Cultural heritage%Inscription%{'label': 'depends'}
-Cultural heritage%Monuments%{'label': 'depends'}
-Cultural heritage%Outstanding universal value%{'label': 'depends'}
-Cultural heritage%Sites%{'label': 'depends'}
-Cultural heritage%UNESCO%{'label': 'depends'}
-Geological and physiographical formations%Convention%{'label': 'depends'}
-Geological and physiographical formations%Geological and physiographical formations%{'label': 'depends'}
-Geological and physiographical formations%Natural%{'label': 'depends'}
-Geological and physiographical formations%Natural heritage%{'label': 'depends'}
-Geological and physiographical formations%UNESCO%{'label': 'depends'}
-General Assembly of States Parties to the Convention%Convention%{'label': 'depends'}
-General Assembly of States Parties to the Convention%States Parties%{'label': 'depends'}
-General Assembly of States Parties to the Convention%UNESCO%{'label': 'depends'}
-Groups of buildings%Convention%{'label': 'depends'}
-Groups of buildings%Cultural heritage%{'label': 'depends'}
-Groups of buildings%Groups of buildings%{'label': 'depends'}
-Groups of buildings%UNESCO%{'label': 'depends'}
-Guidelines%Convention%{'label': 'depends'}
-Guidelines%Guidelines%{'label': 'depends'}
-Guidelines%Implementation%{'label': 'depends'}
-Guidelines%Operational Guidelines%{'label': 'depends'}
-Implementation%Convention%{'label': 'depends'}
-Implementation%Implementation%{'label': 'depends'}
-Immovable property%Convention%{'label': 'depends'}
-Immovable property%Immovable property%{'label': 'depends'}
-Immovable property%Movable property%{'label': 'depends'}
-Immovable property%Nomination%{'label': 'depends'}
-Immovable property%Property%{'label': 'depends'}
-Immovable property%UNESCO%{'label': 'depends'}
-Indicative list%Convention%{'label': 'depends'}
-Indicative list%Guidelines%{'label': 'depends'}
-Indicative list%Indicative list%{'label': 'depends'}
-Indicative list%Inventory of property%{'label': 'depends'}
-Indicative list%List%{'label': 'depends'}
-Indicative list%Operational Guidelines%{'label': 'depends'}
-Indicative list%Property%{'label': 'depends'}
-Indicative list%Tentative list%{'label': 'depends'}
-Management plan%Convention%{'label': 'depends'}
-Management plan%Integrity%{'label': 'depends'}
-Management plan%List%{'label': 'depends'}
-Management plan%Management%{'label': 'depends'}
-Management plan%Management plan%{'label': 'depends'}
-Management plan%Natural%{'label': 'depends'}
-Management plan%Natural property%{'label': 'depends'}
-Management plan%Property%{'label': 'depends'}
-Management plan%Protection%{'label': 'depends'}
-Management plan%States Parties%{'label': 'depends'}
-Management plan%UNESCO%{'label': 'depends'}
-Management plan%World Heritage%{'label': 'depends'}
-Management plan%World Heritage List%{'label': 'depends'}
-Monuments%Convention%{'label': 'depends'}
-Monuments%Cultural heritage%{'label': 'depends'}
-Monuments%Monuments%{'label': 'depends'}
-Monuments%UNESCO%{'label': 'depends'}
-Natural features%Convention%{'label': 'depends'}
-Natural features%Natural%{'label': 'depends'}
-Natural features%Natural features%{'label': 'depends'}
-Natural features%Natural heritage%{'label': 'depends'}
-Natural features%UNESCO%{'label': 'depends'}
-Natural sites%Convention%{'label': 'depends'}
-Natural sites%Natural%{'label': 'depends'}
-Natural sites%Natural heritage%{'label': 'depends'}
-Natural sites%Natural sites%{'label': 'depends'}
-Natural sites%Sites%{'label': 'depends'}
-Natural sites%UNESCO%{'label': 'depends'}
-Nomination%Convention%{'label': 'depends'}
-Nomination%Guidelines%{'label': 'depends'}
+Convention for the protection of the world cultural and natural heritage%Natural heritage%{'label': 'depends'}
+Convention for the protection of the world cultural and natural heritage%Natural%{'label': 'depends'}
+Convention for the protection of the world cultural and natural heritage%Convention%{'label': 'depends'}
+Renomination%Operational Guidelines%{'label': 'depends'}
+Renomination%List%{'label': 'depends'}
+Renomination%Nomination%{'label': 'depends'}
+Renomination%World Heritage%{'label': 'depends'}
+Renomination%Convention%{'label': 'depends'}
+Renomination%World Heritage Education%{'label': 'depends'}
+Renomination%Criteria%{'label': 'depends'}
+Renomination%Renomination%{'label': 'depends'}
+Renomination%Evaluation%{'label': 'depends'}
+Renomination%Guidelines%{'label': 'depends'}
+Renomination%Property%{'label': 'depends'}
+Justification%Preservation%{'label': 'depends'}
+Justification%List%{'label': 'depends'}
+Justification%Nomination%{'label': 'depends'}
+Justification%World Heritage%{'label': 'depends'}
+Justification%Natural%{'label': 'depends'}
+Justification%States Parties%{'label': 'depends'}
+Justification%World Heritage Education%{'label': 'depends'}
+Justification%UNESCO%{'label': 'depends'}
+Justification%Evaluation%{'label': 'depends'}
+Justification%Guidelines%{'label': 'depends'}
+Justification%Authenticity%{'label': 'depends'}
+Justification%Operational Guidelines%{'label': 'depends'}
+Justification%World Heritage List%{'label': 'depends'}
+Justification%Cultural heritage%{'label': 'depends'}
+Justification%Criteria%{'label': 'depends'}
+Justification%Nomination form%{'label': 'depends'}
+Justification%Property%{'label': 'depends'}
+Justification%Natural property%{'label': 'depends'}
+Canal%Outstanding universal value%{'label': 'depends'}
+Canal%Canal%{'label': 'depends'}
+Canal%Cultural property%{'label': 'depends'}
+Canal%Property%{'label': 'depends'}
 Nomination%List%{'label': 'depends'}
 Nomination%Nomination%{'label': 'depends'}
-Nomination%Nomination form%{'label': 'depends'}
-Nomination%Property%{'label': 'depends'}
-Nomination%UNESCO%{'label': 'depends'}
 Nomination%World Heritage%{'label': 'depends'}
-Nomination%World Heritage Education%{'label': 'depends'}
+Nomination%Convention%{'label': 'depends'}
 Nomination%World Heritage List%{'label': 'depends'}
-Operational Guidelines%Convention%{'label': 'depends'}
-Operational Guidelines%Guidelines%{'label': 'depends'}
-Operational Guidelines%Implementation%{'label': 'depends'}
-Operational Guidelines%Operational Guidelines%{'label': 'depends'}
-Organization of World Heritage Cities%Convention%{'label': 'depends'}
-Organization of World Heritage Cities%Implementation%{'label': 'depends'}
+Nomination%World Heritage Education%{'label': 'depends'}
+Nomination%Nomination form%{'label': 'depends'}
+Nomination%UNESCO%{'label': 'depends'}
+Nomination%Guidelines%{'label': 'depends'}
+Nomination%Property%{'label': 'depends'}
+Harmonization%List%{'label': 'depends'}
+Harmonization%Committee%{'label': 'depends'}
+Harmonization%Harmonization%{'label': 'depends'}
+Harmonization%Natural%{'label': 'depends'}
+Harmonization%Convention%{'label': 'depends'}
+Harmonization%UNESCO%{'label': 'depends'}
+Harmonization%World Heritage List%{'label': 'depends'}
+Harmonization%Tentative list%{'label': 'depends'}
+Harmonization%Guidelines%{'label': 'depends'}
+Harmonization%World Heritage%{'label': 'depends'}
+Training%List%{'label': 'depends'}
+Training%Committee%{'label': 'depends'}
+Training%Implementation%{'label': 'depends'}
+Training%Training%{'label': 'depends'}
+Training%Natural%{'label': 'depends'}
+Training%Assistance%{'label': 'depends'}
+Training%UNESCO%{'label': 'depends'}
+Training%Conservation%{'label': 'depends'}
+Training%Guidelines%{'label': 'depends'}
+Training%States Parties%{'label': 'depends'}
+Training%Convention%{'label': 'depends'}
+Training%World Heritage Convention%{'label': 'depends'}
+Training%International assistance%{'label': 'depends'}
+Training%World Heritage%{'label': 'depends'}
+States Parties%States Parties%{'label': 'depends'}
+States Parties%UNESCO%{'label': 'depends'}
+States Parties%Convention%{'label': 'depends'}
+Serial site%Series%{'label': 'depends'}
+Serial site%Serial property%{'label': 'depends'}
+Serial site%Property%{'label': 'depends'}
+Inhabited historic towns%UNESCO%{'label': 'depends'}
+Inhabited historic towns%Operational Guidelines%{'label': 'depends'}
+Inhabited historic towns%List%{'label': 'depends'}
+Inhabited historic towns%Centre%{'label': 'depends'}
+Inhabited historic towns%Groups of urban buildings%{'label': 'depends'}
+Inhabited historic towns%Natural%{'label': 'depends'}
+Inhabited historic towns%Inhabited historic towns%{'label': 'depends'}
+Inhabited historic towns%Towns%{'label': 'depends'}
+Inhabited historic towns%Historic towns%{'label': 'depends'}
+Inhabited historic towns%Guidelines%{'label': 'depends'}
+Inhabited historic towns%Property%{'label': 'depends'}
+Towns%Towns%{'label': 'depends'}
+Towns%Groups of urban buildings%{'label': 'depends'}
+Conservation%Preservation%{'label': 'depends'}
+Conservation%World Heritage%{'label': 'depends'}
+Conservation%Natural%{'label': 'depends'}
+Conservation%Cultural landscapes%{'label': 'depends'}
+Conservation%World Heritage List%{'label': 'depends'}
+Conservation%Natural heritage%{'label': 'depends'}
+Conservation%Safeguarding%{'label': 'depends'}
+Conservation%Authenticity%{'label': 'depends'}
+Conservation%Nomination%{'label': 'depends'}
+Conservation%World Heritage Committee%{'label': 'depends'}
+Conservation%Convention%{'label': 'depends'}
+Conservation%Presentation%{'label': 'depends'}
+Conservation%Operational Guidelines%{'label': 'depends'}
+Conservation%Nara Document on Authenticity%{'label': 'depends'}
+Conservation%UNESCO%{'label': 'depends'}
+Conservation%Protection%{'label': 'depends'}
+Conservation%Management%{'label': 'depends'}
+Conservation%List%{'label': 'depends'}
+Conservation%Committee%{'label': 'depends'}
+Conservation%Conservation%{'label': 'depends'}
+Conservation%Guidelines%{'label': 'depends'}
+Conservation%State of conservation%{'label': 'depends'}
+Conservation%States Parties%{'label': 'depends'}
+Conservation%Identification%{'label': 'depends'}
+Conservation%Cultural heritage%{'label': 'depends'}
+Conservation%World Heritage Convention%{'label': 'depends'}
+Conservation%Transmission%{'label': 'depends'}
+Emergency assistance%List%{'label': 'depends'}
+Emergency assistance%Centre%{'label': 'depends'}
+Emergency assistance%World Heritage%{'label': 'depends'}
+Emergency assistance%Natural%{'label': 'depends'}
+Emergency assistance%Assistance%{'label': 'depends'}
+Emergency assistance%World Heritage Fund%{'label': 'depends'}
+Emergency assistance%Emergency assistance%{'label': 'depends'}
+Emergency assistance%Fund%{'label': 'depends'}
+Emergency assistance%States Parties%{'label': 'depends'}
+Emergency assistance%International assistance%{'label': 'depends'}
+Emergency assistance%UNESCO World Heritage Centre%{'label': 'depends'}
+Emergency assistance%World Heritage Centre%{'label': 'depends'}
+Emergency assistance%UNESCO%{'label': 'depends'}
+Deletion%Deletion%{'label': 'depends'}
+Deletion%List%{'label': 'depends'}
+Deletion%Operational Guidelines%{'label': 'depends'}
+Deletion%World Heritage%{'label': 'depends'}
+Deletion%List of World Heritage in Danger%{'label': 'depends'}
+Deletion%World Heritage Education%{'label': 'depends'}
+Deletion%Property%{'label': 'depends'}
+Deletion%UNESCO%{'label': 'depends'}
+Deletion%Delisting%{'label': 'depends'}
+Deletion%World Heritage List%{'label': 'depends'}
+Deletion%Guidelines%{'label': 'depends'}
+Preservation%Protection%{'label': 'depends'}
+Preservation%Preservation%{'label': 'depends'}
+Preservation%Operational Guidelines%{'label': 'depends'}
+Preservation%World Heritage%{'label': 'depends'}
+Preservation%Convention%{'label': 'depends'}
+Preservation%World Heritage Convention%{'label': 'depends'}
+Preservation%Conservation%{'label': 'depends'}
+Preservation%Safeguarding%{'label': 'depends'}
+Preservation%Guidelines%{'label': 'depends'}
+Itineraries%Heritage route%{'label': 'depends'}
+Monuments%Monuments%{'label': 'depends'}
+Monuments%UNESCO%{'label': 'depends'}
+Monuments%Convention%{'label': 'depends'}
+Monuments%Cultural heritage%{'label': 'depends'}
+Management plan%Protection%{'label': 'depends'}
+Management plan%List%{'label': 'depends'}
+Management plan%World Heritage List%{'label': 'depends'}
+Management plan%World Heritage%{'label': 'depends'}
+Management plan%Natural%{'label': 'depends'}
+Management plan%Integrity%{'label': 'depends'}
+Management plan%Management%{'label': 'depends'}
+Management plan%States Parties%{'label': 'depends'}
+Management plan%Management plan%{'label': 'depends'}
+Management plan%Convention%{'label': 'depends'}
+Management plan%Natural property%{'label': 'depends'}
+Management plan%UNESCO%{'label': 'depends'}
+Management plan%Property%{'label': 'depends'}
+Management%Management%{'label': 'depends'}
+Management%List%{'label': 'depends'}
+Management%Operational Guidelines%{'label': 'depends'}
+Management%World Heritage%{'label': 'depends'}
+Management%World Heritage List%{'label': 'depends'}
+Management%UNESCO%{'label': 'depends'}
+Management%Guidelines%{'label': 'depends'}
+Management%Property%{'label': 'depends'}
+Cultural heritage%Outstanding universal value%{'label': 'depends'}
+Cultural heritage%Monuments%{'label': 'depends'}
+Cultural heritage%Convention%{'label': 'depends'}
+Cultural heritage%Inscription%{'label': 'depends'}
+Cultural heritage%Cultural heritage%{'label': 'depends'}
+Cultural heritage%Groups of buildings%{'label': 'depends'}
+Cultural heritage%Sites%{'label': 'depends'}
+Cultural heritage%UNESCO%{'label': 'depends'}
+World Heritage Convention%Protection%{'label': 'depends'}
+World Heritage Convention%Natural heritage%{'label': 'depends'}
+World Heritage Convention%Natural%{'label': 'depends'}
+World Heritage Convention%Convention%{'label': 'depends'}
+Nomination form%States Parties%{'label': 'depends'}
+Nomination form%List%{'label': 'depends'}
+Nomination form%Nomination%{'label': 'depends'}
+Nomination form%World Heritage%{'label': 'depends'}
+Nomination form%Centre%{'label': 'depends'}
+Nomination form%UNESCO World Heritage Centre%{'label': 'depends'}
+Nomination form%World Heritage List%{'label': 'depends'}
+Nomination form%World Heritage Education%{'label': 'depends'}
+Nomination form%Nomination form%{'label': 'depends'}
+Nomination form%UNESCO%{'label': 'depends'}
+Nomination form%World Heritage Centre%{'label': 'depends'}
+Serial nomination%Series%{'label': 'depends'}
+Serial nomination%Serial property%{'label': 'depends'}
+Serial nomination%Property%{'label': 'depends'}
+OWHC%Organization of World Heritage Cities%{'label': 'depends'}
+OWHC%World Heritage%{'label': 'depends'}
+Fund%World Heritage Fund%{'label': 'depends'}
+Fund%Fund%{'label': 'depends'}
+Fund%World Heritage%{'label': 'depends'}
+General Assembly of States Parties to the Convention%States Parties%{'label': 'depends'}
+General Assembly of States Parties to the Convention%UNESCO%{'label': 'depends'}
+General Assembly of States Parties to the Convention%Convention%{'label': 'depends'}
+Referral%Nomination%{'label': 'depends'}
+Referral%Committee%{'label': 'depends'}
+Referral%Bureau%{'label': 'depends'}
+Referral%UNESCO%{'label': 'depends'}
+Referral%World Heritage Education%{'label': 'depends'}
+World Heritage%Protection%{'label': 'depends'}
+World Heritage%List%{'label': 'depends'}
+World Heritage%Operational Guidelines%{'label': 'depends'}
+World Heritage%World Heritage%{'label': 'depends'}
+World Heritage%Natural%{'label': 'depends'}
+World Heritage%Guidelines%{'label': 'depends'}
+World Heritage%Natural heritage%{'label': 'depends'}
+World Heritage%Outstanding universal value%{'label': 'depends'}
+World Heritage%Convention%{'label': 'depends'}
+World Heritage%Cultural heritage%{'label': 'depends'}
+World Heritage%World Heritage Convention%{'label': 'depends'}
+World Heritage%World Heritage List%{'label': 'depends'}
+World Heritage%UNESCO%{'label': 'depends'}
+Biogeographic(al) provinces%Series%{'label': 'depends'}
+Biogeographic(al) provinces%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+Biogeographic(al) provinces%List%{'label': 'depends'}
+Biogeographic(al) provinces%Nomination%{'label': 'depends'}
+Biogeographic(al) provinces%World Heritage%{'label': 'depends'}
+Biogeographic(al) provinces%Natural%{'label': 'depends'}
+Biogeographic(al) provinces%Tentative list%{'label': 'depends'}
+Biogeographic(al) provinces%Evaluation%{'label': 'depends'}
+Biogeographic(al) provinces%Guidelines%{'label': 'depends'}
+Biogeographic(al) provinces%Operational Guidelines%{'label': 'depends'}
+Biogeographic(al) provinces%World Heritage Education%{'label': 'depends'}
+Biogeographic(al) provinces%World Conservation Union%{'label': 'depends'}
+Biogeographic(al) provinces%World Heritage List%{'label': 'depends'}
+Biogeographic(al) provinces%UNESCO%{'label': 'depends'}
 Organization of World Heritage Cities%Management%{'label': 'depends'}
-Organization of World Heritage Cities%Monuments%{'label': 'depends'}
 Organization of World Heritage Cities%Organization of World Heritage Cities%{'label': 'depends'}
-Organization of World Heritage Cities%OWHC%{'label': 'depends'}
-Organization of World Heritage Cities%Sites%{'label': 'depends'}
+Organization of World Heritage Cities%Monuments%{'label': 'depends'}
+Organization of World Heritage Cities%Implementation%{'label': 'depends'}
 Organization of World Heritage Cities%World Heritage%{'label': 'depends'}
-Precisely delineated [natural] areas%Convention%{'label': 'depends'}
-Precisely delineated [natural] areas%Natural%{'label': 'depends'}
+Organization of World Heritage Cities%Convention%{'label': 'depends'}
+Organization of World Heritage Cities%Sites%{'label': 'depends'}
+Organization of World Heritage Cities%OWHC%{'label': 'depends'}
+Serial property%Series%{'label': 'depends'}
+Serial property%List%{'label': 'depends'}
+Serial property%Operational Guidelines%{'label': 'depends'}
+Serial property%World Heritage%{'label': 'depends'}
+Serial property%Serial property%{'label': 'depends'}
+Serial property%World Heritage List%{'label': 'depends'}
+Serial property%UNESCO%{'label': 'depends'}
+Serial property%Guidelines%{'label': 'depends'}
+Serial property%Property%{'label': 'depends'}
 Precisely delineated [natural] areas%Natural heritage%{'label': 'depends'}
 Precisely delineated [natural] areas%Precisely delineated [natural] areas%{'label': 'depends'}
 Precisely delineated [natural] areas%UNESCO%{'label': 'depends'}
+Precisely delineated [natural] areas%Natural%{'label': 'depends'}
+Precisely delineated [natural] areas%Convention%{'label': 'depends'}
+Evaluation%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+Evaluation%UNESCO%{'label': 'depends'}
+Evaluation%ICOMOS evaluation%{'label': 'depends'}
+Evaluation%Natural%{'label': 'depends'}
+Evaluation%Cultural landscapes%{'label': 'depends'}
+Evaluation%Nomination%{'label': 'depends'}
+Evaluation%Evaluation%{'label': 'depends'}
+Evaluation%Conditions of authenticity%{'label': 'depends'}
+Evaluation%Authenticity%{'label': 'depends'}
+Evaluation%Operational Guidelines%{'label': 'depends'}
+Evaluation%World Heritage Committee%{'label': 'depends'}
+Evaluation%Criteria%{'label': 'depends'}
+Evaluation%Sites%{'label': 'depends'}
+Evaluation%Bureau%{'label': 'depends'}
+Evaluation%Timetable%{'label': 'depends'}
+Evaluation%Committee%{'label': 'depends'}
+Evaluation%Technical evaluations%{'label': 'depends'}
+Evaluation%Integrity%{'label': 'depends'}
+Evaluation%Conservation%{'label': 'depends'}
+Evaluation%International Council of Monuments and Sites%{'label': 'depends'}
+Evaluation%Guidelines%{'label': 'depends'}
+Evaluation%States Parties%{'label': 'depends'}
+Evaluation%Monuments%{'label': 'depends'}
+Evaluation%World Heritage Education%{'label': 'depends'}
+Evaluation%World Conservation Union%{'label': 'depends'}
+Evaluation%World Heritage%{'label': 'depends'}
+Designed landscape%Clearly defined landscape%{'label': 'depends'}
+Conditions of authenticity%Authenticity%{'label': 'depends'}
+Outstanding universal value%Protection%{'label': 'depends'}
+Outstanding universal value%List%{'label': 'depends'}
+Outstanding universal value%Nomination%{'label': 'depends'}
+Outstanding universal value%World Heritage%{'label': 'depends'}
+Outstanding universal value%Natural%{'label': 'depends'}
+Outstanding universal value%World Heritage List%{'label': 'depends'}
+Outstanding universal value%UNESCO%{'label': 'depends'}
+Outstanding universal value%Evaluation%{'label': 'depends'}
+Outstanding universal value%Guidelines%{'label': 'depends'}
+Outstanding universal value%Natural heritage%{'label': 'depends'}
+Outstanding universal value%Outstanding universal value%{'label': 'depends'}
+Outstanding universal value%Committee%{'label': 'depends'}
+Outstanding universal value%Convention%{'label': 'depends'}
+Outstanding universal value%Criteria%{'label': 'depends'}
+Outstanding universal value%World Heritage Bureau%{'label': 'depends'}
+Outstanding universal value%Sites%{'label': 'depends'}
+Outstanding universal value%Bureau%{'label': 'depends'}
+Outstanding universal value%World Heritage value%{'label': 'depends'}
+Advisory bodies%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+Advisory bodies%Centre%{'label': 'depends'}
+Advisory bodies%World Heritage%{'label': 'depends'}
+Advisory bodies%Natural%{'label': 'depends'}
+Advisory bodies%Preservation%{'label': 'depends'}
+Advisory bodies%Advisory bodies%{'label': 'depends'}
+Advisory bodies%Cultural property%{'label': 'depends'}
+Advisory bodies%Convention%{'label': 'depends'}
+Advisory bodies%World Heritage Committee%{'label': 'depends'}
+Advisory bodies%Sites%{'label': 'depends'}
+Advisory bodies%UNESCO%{'label': 'depends'}
+Advisory bodies%Property%{'label': 'depends'}
+Advisory bodies%Committee%{'label': 'depends'}
+Advisory bodies%Implementation%{'label': 'depends'}
+Advisory bodies%International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%{'label': 'depends'}
+Advisory bodies%Conservation%{'label': 'depends'}
+Advisory bodies%International Council of Monuments and Sites%{'label': 'depends'}
+Advisory bodies%Guidelines%{'label': 'depends'}
+Advisory bodies%Operational Guidelines%{'label': 'depends'}
+Advisory bodies%Monuments%{'label': 'depends'}
+Advisory bodies%World Heritage Convention%{'label': 'depends'}
+Advisory bodies%World Conservation Union%{'label': 'depends'}
+Global Strategy%List%{'label': 'depends'}
+Global Strategy%Global Strategy%{'label': 'depends'}
+Global Strategy%World Heritage%{'label': 'depends'}
+Global Strategy%Natural%{'label': 'depends'}
+Global Strategy%Cultural landscapes%{'label': 'depends'}
+Global Strategy%Bureau%{'label': 'depends'}
+Global Strategy%Natural heritage%{'label': 'depends'}
+Global Strategy%Outstanding universal value%{'label': 'depends'}
+Global Strategy%Authenticity%{'label': 'depends'}
+Global Strategy%Committee%{'label': 'depends'}
+Global Strategy%Cultural heritage%{'label': 'depends'}
+Global Strategy%World Heritage Committee%{'label': 'depends'}
+Global Strategy%World Heritage Bureau%{'label': 'depends'}
+Global Strategy%World Heritage List%{'label': 'depends'}
+Global Strategy%UNESCO%{'label': 'depends'}
+Groups of urban buildings%List%{'label': 'depends'}
+Groups of urban buildings%Operational Guidelines%{'label': 'depends'}
+Groups of urban buildings%World Heritage%{'label': 'depends'}
+Groups of urban buildings%Inhabited historic towns%{'label': 'depends'}
+Groups of urban buildings%Towns%{'label': 'depends'}
+Groups of urban buildings%Historic towns%{'label': 'depends'}
+Groups of urban buildings%Guidelines%{'label': 'depends'}
+Groups of urban buildings%Committee%{'label': 'depends'}
+Groups of urban buildings%Groups of urban buildings%{'label': 'depends'}
+Groups of urban buildings%Convention%{'label': 'depends'}
+Groups of urban buildings%World Heritage Committee%{'label': 'depends'}
+Groups of urban buildings%World Heritage List%{'label': 'depends'}
+Groups of urban buildings%UNESCO%{'label': 'depends'}
+Timetable%Nomination%{'label': 'depends'}
+Timetable%Evaluation%{'label': 'depends'}
+Timetable%UNESCO%{'label': 'depends'}
+Timetable%Guidelines%{'label': 'depends'}
+Timetable%Timetable%{'label': 'depends'}
+Groups of buildings%Groups of buildings%{'label': 'depends'}
+Groups of buildings%UNESCO%{'label': 'depends'}
+Groups of buildings%Convention%{'label': 'depends'}
+Groups of buildings%Cultural heritage%{'label': 'depends'}
+Nara Document on Authenticity%Authenticity%{'label': 'depends'}
+World Conservation Monitoring Centre%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+World Conservation Monitoring Centre%Centre%{'label': 'depends'}
+World Conservation Monitoring Centre%Implementation%{'label': 'depends'}
+World Conservation Monitoring Centre%World Heritage%{'label': 'depends'}
+World Conservation Monitoring Centre%Convention%{'label': 'depends'}
+World Conservation Monitoring Centre%World Conservation Union%{'label': 'depends'}
+World Conservation Monitoring Centre%Conservation%{'label': 'depends'}
+World Conservation Monitoring Centre%UNESCO%{'label': 'depends'}
+World Conservation Monitoring Centre%Fund%{'label': 'depends'}
+World Conservation Monitoring Centre%World Conservation Monitoring Centre%{'label': 'depends'}
+Safeguarding%Protection%{'label': 'depends'}
+Safeguarding%Preservation%{'label': 'depends'}
+Safeguarding%Convention%{'label': 'depends'}
+Safeguarding%Conservation%{'label': 'depends'}
+Safeguarding%Safeguarding%{'label': 'depends'}
+Safeguarding%Guidelines%{'label': 'depends'}
+Property%World Heritage%{'label': 'depends'}
 Property%Convention%{'label': 'depends'}
-Property%Cultural heritage%{'label': 'depends'}
-Property%Guidelines%{'label': 'depends'}
 Property%Natural%{'label': 'depends'}
-Property%Natural heritage%{'label': 'depends'}
-Property%Property%{'label': 'depends'}
+Property%Cultural heritage%{'label': 'depends'}
+Property%World Heritage Convention%{'label': 'depends'}
 Property%Sites%{'label': 'depends'}
 Property%UNESCO%{'label': 'depends'}
-Property%World Heritage%{'label': 'depends'}
-Property%World Heritage Convention%{'label': 'depends'}
-Renomination%Convention%{'label': 'depends'}
-Renomination%Criteria%{'label': 'depends'}
-Renomination%Evaluation%{'label': 'depends'}
-Renomination%Guidelines%{'label': 'depends'}
-Renomination%List%{'label': 'depends'}
-Renomination%Nomination%{'label': 'depends'}
-Renomination%Operational Guidelines%{'label': 'depends'}
-Renomination%Property%{'label': 'depends'}
-Renomination%Renomination%{'label': 'depends'}
-Renomination%World Heritage%{'label': 'depends'}
-Renomination%World Heritage Education%{'label': 'depends'}
-Sites%Convention%{'label': 'depends'}
-Sites%Cultural heritage%{'label': 'depends'}
-Sites%Guidelines%{'label': 'depends'}
-Sites%Operational Guidelines%{'label': 'depends'}
-Sites%Property%{'label': 'depends'}
-Sites%Sites%{'label': 'depends'}
-Sites%UNESCO%{'label': 'depends'}
-States Parties%Convention%{'label': 'depends'}
-States Parties%States Parties%{'label': 'depends'}
-States Parties%UNESCO%{'label': 'depends'}
-World Heritage%Convention%{'label': 'depends'}
-World Heritage%Cultural heritage%{'label': 'depends'}
-World Heritage%Guidelines%{'label': 'depends'}
-World Heritage%List%{'label': 'depends'}
-World Heritage%Natural%{'label': 'depends'}
-World Heritage%Natural heritage%{'label': 'depends'}
-World Heritage%Operational Guidelines%{'label': 'depends'}
-World Heritage%Outstanding universal value%{'label': 'depends'}
-World Heritage%Protection%{'label': 'depends'}
-World Heritage%UNESCO%{'label': 'depends'}
-World Heritage%World Heritage%{'label': 'depends'}
-World Heritage%World Heritage Convention%{'label': 'depends'}
-World Heritage%World Heritage List%{'label': 'depends'}
-World Heritage Convention%Convention%{'label': 'depends'}
-World Heritage Convention%Natural%{'label': 'depends'}
-World Heritage Convention%Natural heritage%{'label': 'depends'}
-World Heritage Convention%Protection%{'label': 'depends'}
-Criterion%Criteria%{'label': 'depends'}
-Natural heritage criteria%Criteria%{'label': 'depends'}
-Natural heritage criteria%Guidelines%{'label': 'depends'}
-Natural heritage criteria%Integrity%{'label': 'depends'}
-Natural heritage criteria%List%{'label': 'depends'}
-Natural heritage criteria%Natural%{'label': 'depends'}
-Natural heritage criteria%Natural heritage%{'label': 'depends'}
-Natural heritage criteria%Natural heritage criteria%{'label': 'depends'}
-Natural heritage criteria%Natural property%{'label': 'depends'}
-Natural heritage criteria%Property%{'label': 'depends'}
-Natural heritage criteria%UNESCO%{'label': 'depends'}
-Natural heritage criteria%World Heritage%{'label': 'depends'}
-Natural heritage criteria%World Heritage List%{'label': 'depends'}
-Natural property%Criteria%{'label': 'depends'}
-Natural property%Integrity%{'label': 'depends'}
+Property%Guidelines%{'label': 'depends'}
+Property%Natural heritage%{'label': 'depends'}
+Property%Property%{'label': 'depends'}
+Committee%World Heritage Committee%{'label': 'depends'}
+Committee%Committee%{'label': 'depends'}
+Committee%World Heritage%{'label': 'depends'}
+Secretariat%Management%{'label': 'depends'}
+Secretariat%Committee%{'label': 'depends'}
+Secretariat%Implementation%{'label': 'depends'}
+Secretariat%Convention%{'label': 'depends'}
+Secretariat%Centre%{'label': 'depends'}
+Secretariat%World Heritage Committee%{'label': 'depends'}
+Secretariat%UNESCO%{'label': 'depends'}
+Secretariat%World Heritage Centre%{'label': 'depends'}
+Secretariat%Bureau%{'label': 'depends'}
+Secretariat%Secretariat%{'label': 'depends'}
+Secretariat%World Heritage%{'label': 'depends'}
+United Nations Educational, Scientific and Cultural Organization%Convention%{'label': 'depends'}
+United Nations Educational, Scientific and Cultural Organization%Committee%{'label': 'depends'}
+United Nations Educational, Scientific and Cultural Organization%Secretariat%{'label': 'depends'}
+United Nations Educational, Scientific and Cultural Organization%Centre%{'label': 'depends'}
+United Nations Educational, Scientific and Cultural Organization%World Heritage Committee%{'label': 'depends'}
+United Nations Educational, Scientific and Cultural Organization%UNESCO%{'label': 'depends'}
+United Nations Educational, Scientific and Cultural Organization%Fund%{'label': 'depends'}
+United Nations Educational, Scientific and Cultural Organization%World Heritage%{'label': 'depends'}
+Data sheets%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+Data sheets%Property%{'label': 'depends'}
+Data sheets%Centre%{'label': 'depends'}
+Data sheets%World Conservation Monitoring Centre%{'label': 'depends'}
+Data sheets%Natural%{'label': 'depends'}
+Data sheets%Data sheets%{'label': 'depends'}
+Data sheets%World Conservation Union%{'label': 'depends'}
+Data sheets%Nomination%{'label': 'depends'}
+Data sheets%Conservation%{'label': 'depends'}
+Data sheets%Natural property%{'label': 'depends'}
+Deferred%List%{'label': 'depends'}
+Deferred%Operational Guidelines%{'label': 'depends'}
+Deferred%UNESCO%{'label': 'depends'}
+Deferred%World Heritage%{'label': 'depends'}
+Deferred%Inscription%{'label': 'depends'}
+Deferred%Deferred%{'label': 'depends'}
+Deferred%Nomination%{'label': 'depends'}
+Deferred%Towns%{'label': 'depends'}
+Deferred%Guidelines%{'label': 'depends'}
+Deferred%States Parties%{'label': 'depends'}
+Deferred%Committee%{'label': 'depends'}
+Deferred%World Heritage Education%{'label': 'depends'}
+Deferred%World Heritage List%{'label': 'depends'}
+Deferred%Bureau%{'label': 'depends'}
+Deferred%Property%{'label': 'depends'}
+Integrity%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+Integrity%Conservation%{'label': 'depends'}
+Integrity%UNESCO%{'label': 'depends'}
+Integrity%World Heritage%{'label': 'depends'}
+Integrity%Natural%{'label': 'depends'}
+Integrity%List of World Heritage in Danger%{'label': 'depends'}
+Integrity%World Heritage Education%{'label': 'depends'}
+Integrity%Evaluation%{'label': 'depends'}
+Integrity%Natural heritage%{'label': 'depends'}
+Integrity%Natural heritage criteria%{'label': 'depends'}
+Integrity%Management%{'label': 'depends'}
+Integrity%World Heritage Convention%{'label': 'depends'}
+Integrity%Nomination%{'label': 'depends'}
+Integrity%Convention%{'label': 'depends'}
+Integrity%Presentation%{'label': 'depends'}
+Integrity%Criteria%{'label': 'depends'}
+Integrity%Sites%{'label': 'depends'}
+Integrity%Bureau%{'label': 'depends'}
+Integrity%Property%{'label': 'depends'}
+Integrity%List%{'label': 'depends'}
+Integrity%Committee%{'label': 'depends'}
+Integrity%Integrity%{'label': 'depends'}
+Integrity%Criterion%{'label': 'depends'}
+Integrity%Guidelines%{'label': 'depends'}
+Integrity%Operational Guidelines%{'label': 'depends'}
+Integrity%Identification%{'label': 'depends'}
+Integrity%World Heritage List%{'label': 'depends'}
+Integrity%Cultural heritage%{'label': 'depends'}
+Integrity%World Conservation Union%{'label': 'depends'}
+Integrity%World Heritage Bureau%{'label': 'depends'}
+Integrity%Natural property%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%List%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Committee%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%World Heritage%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Training%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Conservation%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Rome Centre%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Centre%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%Convention%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%World Heritage List%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%UNESCO%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%International Centre for the Study of the Preservation and Restoration of Cultural Property%{'label': 'depends'}
+Natural features%UNESCO%{'label': 'depends'}
+Natural features%Natural heritage%{'label': 'depends'}
+Natural features%Natural features%{'label': 'depends'}
+Natural features%Natural%{'label': 'depends'}
+Natural features%Convention%{'label': 'depends'}
+Cultural heritage criteria%Protection%{'label': 'depends'}
+Cultural heritage criteria%List%{'label': 'depends'}
+Cultural heritage criteria%Cultural property%{'label': 'depends'}
+Cultural heritage criteria%World Heritage%{'label': 'depends'}
+Cultural heritage criteria%Natural%{'label': 'depends'}
+Cultural heritage criteria%Integrity%{'label': 'depends'}
+Cultural heritage criteria%Guidelines%{'label': 'depends'}
+Cultural heritage criteria%Natural heritage%{'label': 'depends'}
+Cultural heritage criteria%Natural heritage criteria%{'label': 'depends'}
+Cultural heritage criteria%Management%{'label': 'depends'}
+Cultural heritage criteria%Authenticity%{'label': 'depends'}
+Cultural heritage criteria%Cultural heritage criteria%{'label': 'depends'}
+Cultural heritage criteria%Operational Guidelines%{'label': 'depends'}
+Cultural heritage criteria%Cultural heritage%{'label': 'depends'}
+Cultural heritage criteria%Criteria%{'label': 'depends'}
+Cultural heritage criteria%World Heritage List%{'label': 'depends'}
+Cultural heritage criteria%UNESCO%{'label': 'depends'}
+Cultural heritage criteria%Property%{'label': 'depends'}
+Geological and physiographical formations%Natural%{'label': 'depends'}
+Geological and physiographical formations%Natural heritage%{'label': 'depends'}
+Geological and physiographical formations%UNESCO%{'label': 'depends'}
+Geological and physiographical formations%Geological and physiographical formations%{'label': 'depends'}
+Geological and physiographical formations%Convention%{'label': 'depends'}
+Operational Guidelines%Operational Guidelines%{'label': 'depends'}
+Operational Guidelines%Implementation%{'label': 'depends'}
+Operational Guidelines%Guidelines%{'label': 'depends'}
+Operational Guidelines%Convention%{'label': 'depends'}
+Identification number%Identification%{'label': 'depends'}
+Identification number%Identification number%{'label': 'depends'}
+Identification number%Centre%{'label': 'depends'}
+Identification number%Nomination%{'label': 'depends'}
+Identification number%Nomination form%{'label': 'depends'}
+Identification number%World Heritage Centre%{'label': 'depends'}
+Identification number%World Heritage%{'label': 'depends'}
+Identification number%Property%{'label': 'depends'}
+Authorization form%Nomination form%{'label': 'depends'}
+Authorization form%Nomination%{'label': 'depends'}
+Authorization form%UNESCO%{'label': 'depends'}
+Authorization form%Authorization form%{'label': 'depends'}
+World Heritage Bureau%States Parties%{'label': 'depends'}
+World Heritage Bureau%Committee%{'label': 'depends'}
+World Heritage Bureau%World Heritage%{'label': 'depends'}
+World Heritage Bureau%World Heritage Committee%{'label': 'depends'}
+World Heritage Bureau%UNESCO%{'label': 'depends'}
+World Heritage Bureau%World Heritage Bureau%{'label': 'depends'}
+World Heritage Bureau%Bureau%{'label': 'depends'}
+Transmission%Protection%{'label': 'depends'}
+Transmission%World Heritage%{'label': 'depends'}
+Transmission%Natural%{'label': 'depends'}
+Transmission%Conservation%{'label': 'depends'}
+Transmission%Guidelines%{'label': 'depends'}
+Transmission%Natural heritage%{'label': 'depends'}
+Transmission%Identification%{'label': 'depends'}
+Transmission%Convention%{'label': 'depends'}
+Transmission%Presentation%{'label': 'depends'}
+Transmission%World Heritage Convention%{'label': 'depends'}
+Transmission%Transmission%{'label': 'depends'}
+Transmission%UNESCO%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%List%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Nomination%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Implementation%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%World Heritage%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Natural%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Assistance%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%World Heritage Fund%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Evaluation%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Fund%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Guidelines%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Operational Guidelines%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Committee%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Convention%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%World Heritage Convention%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%World Heritage Committee%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Criteria%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%World Heritage List%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%UNESCO%{'label': 'depends'}
+Operational Guidelines for the Implementation of the World Heritage Convention%Timetable%{'label': 'depends'}
 Natural property%List%{'label': 'depends'}
-Natural property%Natural%{'label': 'depends'}
-Natural property%Natural heritage%{'label': 'depends'}
 Natural property%World Heritage%{'label': 'depends'}
+Natural property%Natural%{'label': 'depends'}
+Natural property%Integrity%{'label': 'depends'}
+Natural property%Criteria%{'label': 'depends'}
 Natural property%World Heritage List%{'label': 'depends'}
-Thematic studies%Cultural landscapes%{'label': 'depends'}
-Thematic studies%Global Strategy%{'label': 'depends'}
-Thematic studies%List%{'label': 'depends'}
-Thematic studies%Natural%{'label': 'depends'}
-Thematic studies%Natural heritage%{'label': 'depends'}
-Thematic studies%Outstanding universal value%{'label': 'depends'}
-Thematic studies%UNESCO%{'label': 'depends'}
-Thematic studies%World Heritage%{'label': 'depends'}
-Thematic studies%World Heritage List%{'label': 'depends'}
-Deferral%Deferred%{'label': 'depends'}
-Deletion%Deletion%{'label': 'depends'}
-Deletion%Delisting%{'label': 'depends'}
-Deletion%Guidelines%{'label': 'depends'}
-Deletion%List%{'label': 'depends'}
-Deletion%List of World Heritage in Danger%{'label': 'depends'}
-Deletion%Operational Guidelines%{'label': 'depends'}
-Deletion%Property%{'label': 'depends'}
-Deletion%UNESCO%{'label': 'depends'}
-Deletion%World Heritage%{'label': 'depends'}
-Deletion%World Heritage Education%{'label': 'depends'}
-Deletion%World Heritage List%{'label': 'depends'}
+Natural property%Natural heritage%{'label': 'depends'}
+International protection%Protection%{'label': 'depends'}
+International protection%States Parties%{'label': 'depends'}
+International protection%Convention%{'label': 'depends'}
+International protection%Natural%{'label': 'depends'}
+International protection%International protection%{'label': 'depends'}
+International protection%World Heritage Education%{'label': 'depends'}
+International protection%Assistance%{'label': 'depends'}
+International protection%National protection%{'label': 'depends'}
+International protection%UNESCO%{'label': 'depends'}
+International protection%Natural heritage%{'label': 'depends'}
+Rules of Procedure%World Heritage Committee%{'label': 'depends'}
+Rules of Procedure%Committee%{'label': 'depends'}
+Rules of Procedure%World Heritage%{'label': 'depends'}
+Rules of Procedure%Convention%{'label': 'depends'}
+Rules of Procedure%Rules of Procedure%{'label': 'depends'}
+Rules of Procedure%Bureau%{'label': 'depends'}
+Rules of Procedure%World Heritage Bureau%{'label': 'depends'}
+Rules of Procedure%UNESCO%{'label': 'depends'}
+Historic towns%Towns%{'label': 'depends'}
+Historic towns%Groups of urban buildings%{'label': 'depends'}
+Movable property%Operational Guidelines%{'label': 'depends'}
+Movable property%List%{'label': 'depends'}
+Movable property%Committee%{'label': 'depends'}
+Movable property%World Heritage%{'label': 'depends'}
+Movable property%Immovable property%{'label': 'depends'}
+Movable property%Nomination%{'label': 'depends'}
+Movable property%Property%{'label': 'depends'}
+Movable property%UNESCO%{'label': 'depends'}
+Movable property%Movable property%{'label': 'depends'}
+Movable property%Guidelines%{'label': 'depends'}
+Emblem%World Heritage emblem%{'label': 'depends'}
 Emblem%Emblem%{'label': 'depends'}
 Emblem%World Heritage%{'label': 'depends'}
-Emblem%World Heritage emblem%{'label': 'depends'}
-World Heritage logo%Emblem%{'label': 'depends'}
-World Heritage logo%World Heritage%{'label': 'depends'}
-World Heritage logo%World Heritage emblem%{'label': 'depends'}
-Biogeographic(al) provinces%Evaluation%{'label': 'depends'}
-Biogeographic(al) provinces%Guidelines%{'label': 'depends'}
-Biogeographic(al) provinces%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-Biogeographic(al) provinces%List%{'label': 'depends'}
-Biogeographic(al) provinces%Natural%{'label': 'depends'}
-Biogeographic(al) provinces%Nomination%{'label': 'depends'}
-Biogeographic(al) provinces%Operational Guidelines%{'label': 'depends'}
-Biogeographic(al) provinces%Series%{'label': 'depends'}
-Biogeographic(al) provinces%Tentative list%{'label': 'depends'}
-Biogeographic(al) provinces%UNESCO%{'label': 'depends'}
-Biogeographic(al) provinces%World Conservation Union%{'label': 'depends'}
-Biogeographic(al) provinces%World Heritage%{'label': 'depends'}
-Biogeographic(al) provinces%World Heritage Education%{'label': 'depends'}
-Biogeographic(al) provinces%World Heritage List%{'label': 'depends'}
-Technical evaluations%Evaluation%{'label': 'depends'}
-Technical evaluations%International Council of Monuments and Sites%{'label': 'depends'}
-Technical evaluations%ICOMOS evaluation%{'label': 'depends'}
-Technical evaluations%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
-Technical evaluations%World Conservation Union%{'label': 'depends'}
-Timetable%Evaluation%{'label': 'depends'}
-Timetable%Guidelines%{'label': 'depends'}
-Timetable%Nomination%{'label': 'depends'}
-Timetable%Timetable%{'label': 'depends'}
-Timetable%UNESCO%{'label': 'depends'}
-Fund%Fund%{'label': 'depends'}
-Fund%World Heritage%{'label': 'depends'}
-Fund%World Heritage Fund%{'label': 'depends'}
-Fund for the Protection of the World Cultural and Natural Heritage%Fund%{'label': 'depends'}
-Fund for the Protection of the World Cultural and Natural Heritage%World Heritage%{'label': 'depends'}
-Fund for the Protection of the World Cultural and Natural Heritage%World Heritage Fund%{'label': 'depends'}
-Global Strategy for the Implementation of the World Heritage Convention%Global Strategy%{'label': 'depends'}
-Historic towns%Groups of urban buildings%{'label': 'depends'}
-Historic towns%Towns%{'label': 'depends'}
-Towns%Groups of urban buildings%{'label': 'depends'}
-Towns%Towns%{'label': 'depends'}
-Management%Guidelines%{'label': 'depends'}
-Management%List%{'label': 'depends'}
-Management%Management%{'label': 'depends'}
-Management%Operational Guidelines%{'label': 'depends'}
-Management%Property%{'label': 'depends'}
-Management%UNESCO%{'label': 'depends'}
-Management%World Heritage%{'label': 'depends'}
-Management%World Heritage List%{'label': 'depends'}
-Serial property%Guidelines%{'label': 'depends'}
-Serial property%List%{'label': 'depends'}
-Serial property%Operational Guidelines%{'label': 'depends'}
-Serial property%Property%{'label': 'depends'}
-Serial property%Series%{'label': 'depends'}
-Serial property%Serial property%{'label': 'depends'}
-Serial property%UNESCO%{'label': 'depends'}
-Serial property%World Heritage%{'label': 'depends'}
-Serial property%World Heritage List%{'label': 'depends'}
-Heritage route%Heritage route%{'label': 'depends'}
-Heritage route%Routes%{'label': 'depends'}
-Itineraries%Heritage route%{'label': 'depends'}
+Systematic monitoring and reporting%List%{'label': 'depends'}
+Systematic monitoring and reporting%Operational Guidelines%{'label': 'depends'}
+Systematic monitoring and reporting%Sites%{'label': 'depends'}
+Systematic monitoring and reporting%World Heritage%{'label': 'depends'}
+Systematic monitoring and reporting%World Heritage List%{'label': 'depends'}
+Systematic monitoring and reporting%Conservation%{'label': 'depends'}
+Systematic monitoring and reporting%Guidelines%{'label': 'depends'}
+Systematic monitoring and reporting%State of conservation%{'label': 'depends'}
+Systematic monitoring and reporting%Systematic monitoring and reporting%{'label': 'depends'}
+Systematic monitoring and reporting%Reactive monitoring%{'label': 'depends'}
+Systematic monitoring and reporting%Committee%{'label': 'depends'}
+Systematic monitoring and reporting%Reporting%{'label': 'depends'}
+Systematic monitoring and reporting%UNESCO%{'label': 'depends'}
+Guidelines%Operational Guidelines%{'label': 'depends'}
+Guidelines%Implementation%{'label': 'depends'}
+Guidelines%Guidelines%{'label': 'depends'}
+Guidelines%Convention%{'label': 'depends'}
+Corrective measures%List%{'label': 'depends'}
+Corrective measures%Action Plan for the Future%{'label': 'depends'}
+Corrective measures%World Heritage%{'label': 'depends'}
+Corrective measures%List of World Heritage in Danger%{'label': 'depends'}
+Corrective measures%Integrity%{'label': 'depends'}
+Corrective measures%Conditions of authenticity%{'label': 'depends'}
+Corrective measures%Guidelines%{'label': 'depends'}
+Corrective measures%Corrective measures%{'label': 'depends'}
+Corrective measures%Authenticity%{'label': 'depends'}
+Corrective measures%Operational Guidelines%{'label': 'depends'}
+Corrective measures%World Heritage Education%{'label': 'depends'}
+Corrective measures%Criteria%{'label': 'depends'}
+Corrective measures%UNESCO%{'label': 'depends'}
+Corrective measures%Property%{'label': 'depends'}
+Authenticity%World Heritage Convention%{'label': 'depends'}
+Authenticity%Cultural property%{'label': 'depends'}
+Authenticity%Cultural landscapes%{'label': 'depends'}
+Authenticity%World Heritage List%{'label': 'depends'}
+Authenticity%World Heritage Education%{'label': 'depends'}
+Authenticity%Conditions of authenticity%{'label': 'depends'}
+Authenticity%Management%{'label': 'depends'}
+Authenticity%Authenticity%{'label': 'depends'}
+Authenticity%Nomination%{'label': 'depends'}
+Authenticity%Groups of urban buildings%{'label': 'depends'}
+Authenticity%Information sources%{'label': 'depends'}
+Authenticity%Convention%{'label': 'depends'}
+Authenticity%Criteria%{'label': 'depends'}
+Authenticity%Nara Document on Authenticity%{'label': 'depends'}
+Authenticity%UNESCO%{'label': 'depends'}
+Authenticity%Property%{'label': 'depends'}
+Authenticity%List%{'label': 'depends'}
+Authenticity%Committee%{'label': 'depends'}
+Authenticity%Test of authenticity%{'label': 'depends'}
+Authenticity%Conservation%{'label': 'depends'}
+Authenticity%International Council of Monuments and Sites%{'label': 'depends'}
+Authenticity%Guidelines%{'label': 'depends'}
+Authenticity%Operational Guidelines%{'label': 'depends'}
+Authenticity%Cultural heritage%{'label': 'depends'}
+Authenticity%Justification%{'label': 'depends'}
+Authenticity%Nomination form%{'label': 'depends'}
+Authenticity%World Heritage%{'label': 'depends'}
+Spirit of the Convention%Outstanding universal value%{'label': 'depends'}
+Spirit of the Convention%Protection%{'label': 'depends'}
+Spirit of the Convention%Spirit of the Convention%{'label': 'depends'}
+Spirit of the Convention%Natural%{'label': 'depends'}
+Spirit of the Convention%Convention%{'label': 'depends'}
+Spirit of the Convention%International protection%{'label': 'depends'}
+Spirit of the Convention%Cultural heritage%{'label': 'depends'}
+Spirit of the Convention%National protection%{'label': 'depends'}
+Spirit of the Convention%Conservation%{'label': 'depends'}
+Action Plan for the Future%Outstanding universal value%{'label': 'depends'}
+Action Plan for the Future%List%{'label': 'depends'}
+Action Plan for the Future%Action Plan for the Future%{'label': 'depends'}
+Action Plan for the Future%World Heritage%{'label': 'depends'}
+Action Plan for the Future%Cultural landscapes%{'label': 'depends'}
+Action Plan for the Future%Nomination%{'label': 'depends'}
+Action Plan for the Future%Management%{'label': 'depends'}
+Action Plan for the Future%States Parties%{'label': 'depends'}
+Action Plan for the Future%Identification%{'label': 'depends'}
+Action Plan for the Future%World Heritage Committee%{'label': 'depends'}
+Action Plan for the Future%Committee%{'label': 'depends'}
+Action Plan for the Future%World Heritage List%{'label': 'depends'}
+Action Plan for the Future%UNESCO%{'label': 'depends'}
 Routes%Heritage route%{'label': 'depends'}
-International Centre for the Study of the Preservation and Restoration of Cultural Property%International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%{'label': 'depends'}
-ID No%Identification%{'label': 'depends'}
-ID No%Identification number%{'label': 'depends'}
-Inscription%Inscription%{'label': 'depends'}
-Inscription%List%{'label': 'depends'}
-Inscription%Property%{'label': 'depends'}
-Inscription%World Heritage%{'label': 'depends'}
-List%List%{'label': 'depends'}
-List%List of World Heritage in Danger%{'label': 'depends'}
-List%World Heritage%{'label': 'depends'}
-List%World Heritage List%{'label': 'depends'}
-Series%List%{'label': 'depends'}
-Series%Natural%{'label': 'depends'}
-Series%Nomination%{'label': 'depends'}
-Series%Property%{'label': 'depends'}
-Series%Series%{'label': 'depends'}
-Series%Serial property%{'label': 'depends'}
-Series%UNESCO%{'label': 'depends'}
-Series%World Heritage%{'label': 'depends'}
-Series%World Heritage List%{'label': 'depends'}
-Natural%Natural%{'label': 'depends'}
-Natural%Natural area%{'label': 'depends'}
-OWHC%Organization of World Heritage Cities%{'label': 'depends'}
-OWHC%World Heritage%{'label': 'depends'}
-World Heritage value%Outstanding universal value%{'label': 'depends'}
+Mixed site%Reporting%{'label': 'depends'}
+Mixed site%List%{'label': 'depends'}
+Mixed site%Operational Guidelines%{'label': 'depends'}
+Mixed site%World Heritage%{'label': 'depends'}
+Mixed site%Reactive monitoring%{'label': 'depends'}
+Mixed site%World Heritage List%{'label': 'depends'}
+Mixed site%Committee%{'label': 'depends'}
+Mixed site%Conservation%{'label': 'depends'}
+Mixed site%UNESCO%{'label': 'depends'}
+Mixed site%Guidelines%{'label': 'depends'}
+Mixed site%Systematic monitoring and reporting%{'label': 'depends'}
+National protection%Protection%{'label': 'depends'}
+National protection%World Heritage%{'label': 'depends'}
+National protection%Natural%{'label': 'depends'}
+National protection%International protection%{'label': 'depends'}
+National protection%Conservation%{'label': 'depends'}
+National protection%Natural heritage%{'label': 'depends'}
+National protection%Identification%{'label': 'depends'}
+National protection%Convention%{'label': 'depends'}
+National protection%Presentation%{'label': 'depends'}
+National protection%National protection%{'label': 'depends'}
+National protection%Transmission%{'label': 'depends'}
+National protection%UNESCO%{'label': 'depends'}
+Sites%Operational Guidelines%{'label': 'depends'}
+Sites%Convention%{'label': 'depends'}
+Sites%Cultural heritage%{'label': 'depends'}
+Sites%Sites%{'label': 'depends'}
+Sites%UNESCO%{'label': 'depends'}
+Sites%Guidelines%{'label': 'depends'}
+Sites%Property%{'label': 'depends'}
+International assistance%Fund%{'label': 'depends'}
+International assistance%Technical co-operation%{'label': 'depends'}
+International assistance%UNESCO%{'label': 'depends'}
+International assistance%World Heritage%{'label': 'depends'}
+International assistance%Natural%{'label': 'depends'}
+International assistance%Promotional activities%{'label': 'depends'}
+International assistance%Emergency assistance%{'label': 'depends'}
+International assistance%Preparatory assistance%{'label': 'depends'}
+International assistance%Operational Guidelines%{'label': 'depends'}
+International assistance%Convention%{'label': 'depends'}
+International assistance%Presentation%{'label': 'depends'}
+International assistance%World Heritage Committee%{'label': 'depends'}
+International assistance%Bureau%{'label': 'depends'}
+International assistance%Property%{'label': 'depends'}
+International assistance%Protection%{'label': 'depends'}
+International assistance%Committee%{'label': 'depends'}
+International assistance%Implementation%{'label': 'depends'}
+International assistance%Training%{'label': 'depends'}
+International assistance%Rehabilitation%{'label': 'depends'}
+International assistance%Assistance%{'label': 'depends'}
+International assistance%Conservation%{'label': 'depends'}
+International assistance%Guidelines%{'label': 'depends'}
+International assistance%States Parties%{'label': 'depends'}
+International assistance%International assistance%{'label': 'depends'}
+International assistance%World Heritage Fund%{'label': 'depends'}
+International assistance%Natural property%{'label': 'depends'}
+Natural sites%Convention%{'label': 'depends'}
+Natural sites%Natural%{'label': 'depends'}
+Natural sites%Sites%{'label': 'depends'}
+Natural sites%UNESCO%{'label': 'depends'}
+Natural sites%Natural heritage%{'label': 'depends'}
+Natural sites%Natural sites%{'label': 'depends'}
+Commission on National Parks and Protected Areas%CNPPA%{'label': 'depends'}
+Commission on National Parks and Protected Areas%Commission on National Parks and Protected Areas%{'label': 'depends'}
+Cultural property%Authenticity%{'label': 'depends'}
+Cultural property%Cultural heritage criteria%{'label': 'depends'}
+Cultural property%Test of authenticity%{'label': 'depends'}
+Cultural property%Mixed property%{'label': 'depends'}
+Cultural property%Natural%{'label': 'depends'}
+Cultural property%Cultural heritage%{'label': 'depends'}
+Cultural property%Criteria%{'label': 'depends'}
+Cultural property%World Heritage List%{'label': 'depends'}
+Cultural property%List%{'label': 'depends'}
+Cultural property%World Heritage%{'label': 'depends'}
+Cultural property%Property%{'label': 'depends'}
+Implementation%Implementation%{'label': 'depends'}
+Implementation%Convention%{'label': 'depends'}
+Rehabilitation%Protection%{'label': 'depends'}
+Rehabilitation%World Heritage%{'label': 'depends'}
+Rehabilitation%Natural%{'label': 'depends'}
+Rehabilitation%Rehabilitation%{'label': 'depends'}
+Rehabilitation%Conservation%{'label': 'depends'}
+Rehabilitation%Guidelines%{'label': 'depends'}
+Rehabilitation%Natural heritage%{'label': 'depends'}
+Rehabilitation%States Parties%{'label': 'depends'}
+Rehabilitation%Identification%{'label': 'depends'}
+Rehabilitation%Convention%{'label': 'depends'}
+Rehabilitation%Presentation%{'label': 'depends'}
+Rehabilitation%World Heritage Convention%{'label': 'depends'}
+Rehabilitation%UNESCO%{'label': 'depends'}
+World Heritage Education%Youth Forum%{'label': 'depends'}
 World Heritage Education%Preservation%{'label': 'depends'}
 World Heritage Education%World Heritage%{'label': 'depends'}
 World Heritage Education%see World Heritage Youth Forum/Fora%{'label': 'depends'}
-World Heritage Education%Youth Forum%{'label': 'depends'}
-see World Heritage Youth Forum/Fora%Preservation%{'label': 'depends'}
-see World Heritage Youth Forum/Fora%World Heritage%{'label': 'depends'}
-see World Heritage Youth Forum/Fora%World Heritage Education%{'label': 'depends'}
-see World Heritage Youth Forum/Fora%Youth Forum%{'label': 'depends'}
-World Heritage Youth Project%Preservation%{'label': 'depends'}
-World Heritage Youth Project%World Heritage%{'label': 'depends'}
-World Heritage Youth Project%see World Heritage Youth Forum/Fora%{'label': 'depends'}
-World Heritage Youth Project%Youth Forum%{'label': 'depends'}
-Youth Forum%Preservation%{'label': 'depends'}
-Youth Forum%World Heritage%{'label': 'depends'}
-Youth Forum%see World Heritage Youth Forum/Fora%{'label': 'depends'}
-Youth Forum%Youth Forum%{'label': 'depends'}
+Bureau%World Heritage Bureau%{'label': 'depends'}
+Bureau%Bureau%{'label': 'depends'}
+Bureau%World Heritage%{'label': 'depends'}
+Criterion%Criteria%{'label': 'depends'}
+International Council of Monuments and Sites%List%{'label': 'depends'}
+International Council of Monuments and Sites%Committee%{'label': 'depends'}
+International Council of Monuments and Sites%Convention%{'label': 'depends'}
+International Council of Monuments and Sites%Inscription%{'label': 'depends'}
+International Council of Monuments and Sites%UNESCO%{'label': 'depends'}
+International Council of Monuments and Sites%Evaluation%{'label': 'depends'}
+International Council of Monuments and Sites%International Council of Monuments and Sites%{'label': 'depends'}
+International Council of Monuments and Sites%Secretariat%{'label': 'depends'}
+International Council of Monuments and Sites%World Heritage%{'label': 'depends'}
+Rome Centre%Preservation%{'label': 'depends'}
+Rome Centre%International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%{'label': 'depends'}
+Rome Centre%Centre%{'label': 'depends'}
+Rome Centre%Cultural property%{'label': 'depends'}
+Rome Centre%Property%{'label': 'depends'}
+Thematic studies%Outstanding universal value%{'label': 'depends'}
+Thematic studies%List%{'label': 'depends'}
+Thematic studies%Global Strategy%{'label': 'depends'}
+Thematic studies%World Heritage%{'label': 'depends'}
+Thematic studies%Natural%{'label': 'depends'}
+Thematic studies%Cultural landscapes%{'label': 'depends'}
+Thematic studies%World Heritage List%{'label': 'depends'}
+Thematic studies%UNESCO%{'label': 'depends'}
+Thematic studies%Natural heritage%{'label': 'depends'}
+Reporting%Reactive monitoring%{'label': 'depends'}
+Reporting%Reporting%{'label': 'depends'}
+World Heritage logo%World Heritage emblem%{'label': 'depends'}
+World Heritage logo%Emblem%{'label': 'depends'}
+World Heritage logo%World Heritage%{'label': 'depends'}
+Immovable property%Nomination%{'label': 'depends'}
+Immovable property%Convention%{'label': 'depends'}
+Immovable property%Immovable property%{'label': 'depends'}
+Immovable property%UNESCO%{'label': 'depends'}
+Immovable property%Movable property%{'label': 'depends'}
+Immovable property%Property%{'label': 'depends'}
+World Conservation Union%World Conservation Union%{'label': 'depends'}
+World Conservation Union%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+World Conservation Union%Conservation%{'label': 'depends'}
+Youth Project%Youth Forum%{'label': 'depends'}
 Youth Project%Preservation%{'label': 'depends'}
 Youth Project%World Heritage%{'label': 'depends'}
 Youth Project%see World Heritage Youth Forum/Fora%{'label': 'depends'}
-Youth Project%Youth Forum%{'label': 'depends'}
-Serial nomination%Property%{'label': 'depends'}
-Serial nomination%Series%{'label': 'depends'}
-Serial nomination%Serial property%{'label': 'depends'}
-Serial site%Property%{'label': 'depends'}
-Serial site%Series%{'label': 'depends'}
-Serial site%Serial property%{'label': 'depends'}
-Reporting%Reactive monitoring%{'label': 'depends'}
-Reporting%Reporting%{'label': 'depends'}
+Youth Forum%Youth Forum%{'label': 'depends'}
+Youth Forum%Preservation%{'label': 'depends'}
+Youth Forum%World Heritage%{'label': 'depends'}
+Youth Forum%see World Heritage Youth Forum/Fora%{'label': 'depends'}
+World Heritage value%Outstanding universal value%{'label': 'depends'}
+Heritage route%Heritage route%{'label': 'depends'}
+Heritage route%Routes%{'label': 'depends'}
+see World Heritage Youth Forum/Fora%Youth Forum%{'label': 'depends'}
+see World Heritage Youth Forum/Fora%Preservation%{'label': 'depends'}
+see World Heritage Youth Forum/Fora%World Heritage%{'label': 'depends'}
+see World Heritage Youth Forum/Fora%World Heritage Education%{'label': 'depends'}
+IUCN - The World Conservation Union%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+IUCN - The World Conservation Union%List%{'label': 'depends'}
+IUCN - The World Conservation Union%Committee%{'label': 'depends'}
+IUCN - The World Conservation Union%IUCN evaluation%{'label': 'depends'}
+IUCN - The World Conservation Union%Natural%{'label': 'depends'}
+IUCN - The World Conservation Union%Integrity%{'label': 'depends'}
+IUCN - The World Conservation Union%Evaluation%{'label': 'depends'}
+IUCN - The World Conservation Union%Conservation%{'label': 'depends'}
+IUCN - The World Conservation Union%State of conservation%{'label': 'depends'}
+IUCN - The World Conservation Union%World Heritage Committee%{'label': 'depends'}
+IUCN - The World Conservation Union%Convention%{'label': 'depends'}
+IUCN - The World Conservation Union%World Conservation Union%{'label': 'depends'}
+IUCN - The World Conservation Union%World Heritage List%{'label': 'depends'}
+IUCN - The World Conservation Union%UNESCO%{'label': 'depends'}
+IUCN - The World Conservation Union%World Heritage%{'label': 'depends'}
+Natural area%Natural area%{'label': 'depends'}
+Natural area%Nomination%{'label': 'depends'}
+Natural area%World Heritage%{'label': 'depends'}
+Natural area%Natural%{'label': 'depends'}
+Natural area%Bureau%{'label': 'depends'}
+Natural area%Evaluation%{'label': 'depends'}
+Natural area%Management%{'label': 'depends'}
+Natural area%Committee%{'label': 'depends'}
+Natural area%World Heritage Education%{'label': 'depends'}
+Natural area%Criteria%{'label': 'depends'}
+Natural area%World Heritage Bureau%{'label': 'depends'}
+Natural area%Sites%{'label': 'depends'}
+Natural area%UNESCO%{'label': 'depends'}
+Centre%Centre%{'label': 'depends'}
+Centre%World Heritage%{'label': 'depends'}
+Centre%Secretariat%{'label': 'depends'}
+Centre%UNESCO World Heritage Centre%{'label': 'depends'}
+Centre%UNESCO%{'label': 'depends'}
+Centre%World Heritage Centre%{'label': 'depends'}
+ICOMOS evaluation%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+ICOMOS evaluation%Nomination%{'label': 'depends'}
+ICOMOS evaluation%Cultural property%{'label': 'depends'}
+ICOMOS evaluation%Evaluation%{'label': 'depends'}
+ICOMOS evaluation%International Council of Monuments and Sites%{'label': 'depends'}
+ICOMOS evaluation%Committee%{'label': 'depends'}
+ICOMOS evaluation%World Conservation Union%{'label': 'depends'}
+ICOMOS evaluation%World Heritage Bureau%{'label': 'depends'}
+ICOMOS evaluation%IUCN evaluation%{'label': 'depends'}
+ICOMOS evaluation%Bureau%{'label': 'depends'}
+ICOMOS evaluation%World Heritage%{'label': 'depends'}
+ICOMOS evaluation%Property%{'label': 'depends'}
+Natural%Natural area%{'label': 'depends'}
+Natural%Natural%{'label': 'depends'}
+Test of authenticity%Authenticity%{'label': 'depends'}
+List of World Heritage in Danger%List%{'label': 'depends'}
+List of World Heritage in Danger%Operational Guidelines%{'label': 'depends'}
+List of World Heritage in Danger%World Heritage%{'label': 'depends'}
+List of World Heritage in Danger%Natural%{'label': 'depends'}
+List of World Heritage in Danger%List of World Heritage in Danger%{'label': 'depends'}
+List of World Heritage in Danger%Assistance%{'label': 'depends'}
+List of World Heritage in Danger%Conservation%{'label': 'depends'}
+List of World Heritage in Danger%Delisting%{'label': 'depends'}
+List of World Heritage in Danger%Guidelines%{'label': 'depends'}
+List of World Heritage in Danger%Deletion%{'label': 'depends'}
+List of World Heritage in Danger%Committee%{'label': 'depends'}
+List of World Heritage in Danger%Convention%{'label': 'depends'}
+List of World Heritage in Danger%World Heritage Education%{'label': 'depends'}
+List of World Heritage in Danger%World Heritage List%{'label': 'depends'}
+List of World Heritage in Danger%UNESCO%{'label': 'depends'}
+List of World Heritage in Danger%Property%{'label': 'depends'}
+Fund for the Protection of the World Cultural and Natural Heritage%World Heritage Fund%{'label': 'depends'}
+Fund for the Protection of the World Cultural and Natural Heritage%Fund%{'label': 'depends'}
+Fund for the Protection of the World Cultural and Natural Heritage%World Heritage%{'label': 'depends'}
+World Heritage Fund%Technical co-operation%{'label': 'depends'}
+World Heritage Fund%World Heritage%{'label': 'depends'}
+World Heritage Fund%Training%{'label': 'depends'}
+World Heritage Fund%Assistance%{'label': 'depends'}
+World Heritage Fund%Promotional activities%{'label': 'depends'}
+World Heritage Fund%Emergency assistance%{'label': 'depends'}
+World Heritage Fund%Fund%{'label': 'depends'}
+World Heritage Fund%Preparatory assistance%{'label': 'depends'}
+World Heritage Fund%International assistance%{'label': 'depends'}
+World Heritage Fund%Convention%{'label': 'depends'}
+World Heritage Fund%World Heritage Convention%{'label': 'depends'}
+World Heritage Fund%UNESCO%{'label': 'depends'}
+World Heritage Fund%World Heritage Fund%{'label': 'depends'}
+Clearly defined landscape%Operational Guidelines%{'label': 'depends'}
+Clearly defined landscape%World Heritage%{'label': 'depends'}
+Clearly defined landscape%Cultural landscapes%{'label': 'depends'}
+Clearly defined landscape%World Heritage Committee%{'label': 'depends'}
+Clearly defined landscape%Committee%{'label': 'depends'}
+Clearly defined landscape%Clearly defined landscape%{'label': 'depends'}
+Clearly defined landscape%UNESCO%{'label': 'depends'}
+Clearly defined landscape%Guidelines%{'label': 'depends'}
+Global Strategy for the Implementation of the World Heritage Convention%Global Strategy%{'label': 'depends'}
+State of conservation%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+State of conservation%List%{'label': 'depends'}
+State of conservation%Committee%{'label': 'depends'}
+State of conservation%World Heritage%{'label': 'depends'}
+State of conservation%Natural%{'label': 'depends'}
+State of conservation%List of World Heritage in Danger%{'label': 'depends'}
+State of conservation%Conservation%{'label': 'depends'}
+State of conservation%International Council of Monuments and Sites%{'label': 'depends'}
+State of conservation%State of conservation%{'label': 'depends'}
+State of conservation%World Heritage Centre%{'label': 'depends'}
+State of conservation%Advisory bodies%{'label': 'depends'}
+State of conservation%Reactive monitoring%{'label': 'depends'}
+State of conservation%Centre%{'label': 'depends'}
+State of conservation%World Heritage Committee%{'label': 'depends'}
+State of conservation%World Conservation Union%{'label': 'depends'}
+State of conservation%Reporting%{'label': 'depends'}
+State of conservation%Bureau%{'label': 'depends'}
+Information sources%Authenticity%{'label': 'depends'}
+Information sources%Nara Document on Authenticity%{'label': 'depends'}
+Information sources%Information sources%{'label': 'depends'}
+Information sources%Cultural heritage%{'label': 'depends'}
+World Heritage Youth Project%Youth Forum%{'label': 'depends'}
+World Heritage Youth Project%Preservation%{'label': 'depends'}
+World Heritage Youth Project%World Heritage%{'label': 'depends'}
+World Heritage Youth Project%see World Heritage Youth Forum/Fora%{'label': 'depends'}
+Presentation%Protection%{'label': 'depends'}
+Presentation%Operational Guidelines%{'label': 'depends'}
+Presentation%World Heritage%{'label': 'depends'}
+Presentation%Natural%{'label': 'depends'}
+Presentation%Conservation%{'label': 'depends'}
+Presentation%Guidelines%{'label': 'depends'}
+Presentation%Natural heritage%{'label': 'depends'}
+Presentation%States Parties%{'label': 'depends'}
+Presentation%Identification%{'label': 'depends'}
+Presentation%Convention%{'label': 'depends'}
+Presentation%Presentation%{'label': 'depends'}
+Presentation%World Heritage Convention%{'label': 'depends'}
+Presentation%Transmission%{'label': 'depends'}
+Presentation%UNESCO%{'label': 'depends'}
+World Heritage Committee%Protection%{'label': 'depends'}
+World Heritage Committee%List%{'label': 'depends'}
+World Heritage Committee%Nomination%{'label': 'depends'}
+World Heritage Committee%World Heritage%{'label': 'depends'}
+World Heritage Committee%Natural%{'label': 'depends'}
+World Heritage Committee%States Parties%{'label': 'depends'}
+World Heritage Committee%Assistance%{'label': 'depends'}
+World Heritage Committee%World Heritage Fund%{'label': 'depends'}
+World Heritage Committee%Conservation%{'label': 'depends'}
+World Heritage Committee%Fund%{'label': 'depends'}
+World Heritage Committee%State of conservation%{'label': 'depends'}
+World Heritage Committee%Guidelines%{'label': 'depends'}
+World Heritage Committee%Outstanding universal value%{'label': 'depends'}
+World Heritage Committee%Operational Guidelines%{'label': 'depends'}
+World Heritage Committee%Committee%{'label': 'depends'}
+World Heritage Committee%Convention%{'label': 'depends'}
+World Heritage Committee%World Heritage Convention%{'label': 'depends'}
+World Heritage Committee%World Heritage Committee%{'label': 'depends'}
+World Heritage Committee%World Heritage List%{'label': 'depends'}
+World Heritage Committee%UNESCO%{'label': 'depends'}
+Joint nomination%Series%{'label': 'depends'}
+Joint nomination%List%{'label': 'depends'}
+Joint nomination%Operational Guidelines%{'label': 'depends'}
+Joint nomination%World Heritage%{'label': 'depends'}
+Joint nomination%Nomination%{'label': 'depends'}
+Joint nomination%International Council of Monuments and Sites%{'label': 'depends'}
+Joint nomination%Guidelines%{'label': 'depends'}
+Joint nomination%Centre%{'label': 'depends'}
+Joint nomination%World Heritage Education%{'label': 'depends'}
+Joint nomination%Joint nomination%{'label': 'depends'}
+Joint nomination%World Heritage List%{'label': 'depends'}
+Joint nomination%UNESCO%{'label': 'depends'}
+Joint nomination%Property%{'label': 'depends'}
+Associative cultural landscape%List%{'label': 'depends'}
+Associative cultural landscape%Operational Guidelines%{'label': 'depends'}
+Associative cultural landscape%World Heritage%{'label': 'depends'}
+Associative cultural landscape%Natural%{'label': 'depends'}
+Associative cultural landscape%Cultural landscapes%{'label': 'depends'}
+Associative cultural landscape%World Heritage List%{'label': 'depends'}
+Associative cultural landscape%Clearly defined landscape%{'label': 'depends'}
+Associative cultural landscape%International Council of Monuments and Sites%{'label': 'depends'}
+Associative cultural landscape%Guidelines%{'label': 'depends'}
+Associative cultural landscape%Committee%{'label': 'depends'}
+Associative cultural landscape%World Heritage Committee%{'label': 'depends'}
+Associative cultural landscape%Associative cultural landscape%{'label': 'depends'}
+Associative cultural landscape%UNESCO%{'label': 'depends'}
 UNESCO World Heritage Centre%Secretariat%{'label': 'depends'}
+Technical evaluations%World Conservation Union%{'label': 'depends'}
+Technical evaluations%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+Technical evaluations%Evaluation%{'label': 'depends'}
+Technical evaluations%International Council of Monuments and Sites%{'label': 'depends'}
+Technical evaluations%ICOMOS evaluation%{'label': 'depends'}
+Protection%Protection%{'label': 'depends'}
+Protection%Preservation%{'label': 'depends'}
+Protection%Operational Guidelines%{'label': 'depends'}
+Protection%World Heritage%{'label': 'depends'}
+Protection%Natural%{'label': 'depends'}
+Protection%International protection%{'label': 'depends'}
+Protection%Conservation%{'label': 'depends'}
+Protection%Guidelines%{'label': 'depends'}
+Protection%Natural heritage%{'label': 'depends'}
+Protection%Safeguarding%{'label': 'depends'}
+Protection%Identification%{'label': 'depends'}
+Protection%Convention%{'label': 'depends'}
+Protection%Presentation%{'label': 'depends'}
+Protection%World Heritage Convention%{'label': 'depends'}
+Protection%National protection%{'label': 'depends'}
+Protection%Transmission%{'label': 'depends'}
+Protection%UNESCO%{'label': 'depends'}
+Intergovernmental Committee for the Protection of the World Cultural and Natural Heritage%World Heritage Committee%{'label': 'depends'}
+Intergovernmental Committee for the Protection of the World Cultural and Natural Heritage%Committee%{'label': 'depends'}
+Intergovernmental Committee for the Protection of the World Cultural and Natural Heritage%World Heritage%{'label': 'depends'}
+List%List of World Heritage in Danger%{'label': 'depends'}
+List%List%{'label': 'depends'}
+List%World Heritage List%{'label': 'depends'}
+List%World Heritage%{'label': 'depends'}
+International Centre for the Study of the Preservation and Restoration of Cultural Property%International Centre for the Study of the Preservation and Restoration of Cultural Property (Rome Centre%{'label': 'depends'}
+IUCN evaluation%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+IUCN evaluation%List%{'label': 'depends'}
+IUCN evaluation%Committee%{'label': 'depends'}
+IUCN evaluation%ICOMOS evaluation%{'label': 'depends'}
+IUCN evaluation%Natural%{'label': 'depends'}
+IUCN evaluation%Data sheets%{'label': 'depends'}
+IUCN evaluation%World Heritage List%{'label': 'depends'}
+IUCN evaluation%Evaluation%{'label': 'depends'}
+IUCN evaluation%International Council of Monuments and Sites%{'label': 'depends'}
+IUCN evaluation%Commission on National Parks and Protected Areas%{'label': 'depends'}
+IUCN evaluation%CNPPA%{'label': 'depends'}
+IUCN evaluation%Nomination%{'label': 'depends'}
+IUCN evaluation%World Heritage Committee%{'label': 'depends'}
+IUCN evaluation%World Conservation Union%{'label': 'depends'}
+IUCN evaluation%Property%{'label': 'depends'}
+IUCN evaluation%World Heritage%{'label': 'depends'}
+IUCN evaluation%Natural property%{'label': 'depends'}
+Comparative assessments%Operational Guidelines%{'label': 'depends'}
+Comparative assessments%List%{'label': 'depends'}
+Comparative assessments%Nomination%{'label': 'depends'}
+Comparative assessments%Harmonization%{'label': 'depends'}
+Comparative assessments%World Heritage%{'label': 'depends'}
+Comparative assessments%UNESCO%{'label': 'depends'}
+Comparative assessments%Comparative evaluations%{'label': 'depends'}
+Comparative assessments%Tentative list%{'label': 'depends'}
+Comparative assessments%Evaluation%{'label': 'depends'}
+Comparative assessments%Comparative assessments%{'label': 'depends'}
+Comparative assessments%Guidelines%{'label': 'depends'}
+Young People's Participation in World Heritage Preservation and Promotion%Preservation%{'label': 'depends'}
+Young People's Participation in World Heritage Preservation and Promotion%Centre%{'label': 'depends'}
+Young People's Participation in World Heritage Preservation and Promotion%World Heritage%{'label': 'depends'}
+Young People's Participation in World Heritage Preservation and Promotion%UNESCO World Heritage Centre%{'label': 'depends'}
+Young People's Participation in World Heritage Preservation and Promotion%Youth Forum%{'label': 'depends'}
+Young People's Participation in World Heritage Preservation and Promotion%World Heritage Education%{'label': 'depends'}
+Young People's Participation in World Heritage Preservation and Promotion%see World Heritage Youth Forum/Fora%{'label': 'depends'}
+Young People's Participation in World Heritage Preservation and Promotion%UNESCO%{'label': 'depends'}
+Young People's Participation in World Heritage Preservation and Promotion%World Heritage Centre%{'label': 'depends'}
+World Heritage emblem%Protection%{'label': 'depends'}
+World Heritage emblem%World Heritage emblem%{'label': 'depends'}
+World Heritage emblem%Operational Guidelines%{'label': 'depends'}
+World Heritage emblem%World Heritage%{'label': 'depends'}
+World Heritage emblem%Natural%{'label': 'depends'}
+World Heritage emblem%World Heritage Education%{'label': 'depends'}
+World Heritage emblem%Committee%{'label': 'depends'}
+World Heritage emblem%Emblem%{'label': 'depends'}
+World Heritage emblem%UNESCO%{'label': 'depends'}
+World Heritage emblem%Guidelines%{'label': 'depends'}
+CNPPA%Management%{'label': 'depends'}
+CNPPA%CNPPA%{'label': 'depends'}
+CNPPA%List%{'label': 'depends'}
+CNPPA%Conservation%{'label': 'depends'}
+CNPPA%IUCN evaluation%{'label': 'depends'}
+CNPPA%International Union for the Conservation of Nature and Natural Resources%{'label': 'depends'}
+CNPPA%World Conservation Union%{'label': 'depends'}
+CNPPA%IUCN - The World Conservation Union%{'label': 'depends'}
+CNPPA%Evaluation%{'label': 'depends'}
+CNPPA%Commission on National Parks and Protected Areas%{'label': 'depends'}
 World Heritage Centre%Secretariat%{'label': 'depends'}
+Indicative list%List%{'label': 'depends'}
+Indicative list%Operational Guidelines%{'label': 'depends'}
+Indicative list%Convention%{'label': 'depends'}
+Indicative list%Inventory of property%{'label': 'depends'}
+Indicative list%Tentative list%{'label': 'depends'}
+Indicative list%Guidelines%{'label': 'depends'}
+Indicative list%Indicative list%{'label': 'depends'}
+Indicative list%Property%{'label': 'depends'}
+Assistance%Assistance%{'label': 'depends'}
+Assistance%International assistance%{'label': 'depends'}
+Assistance%Emergency assistance%{'label': 'depends'}
+Assistance%Training%{'label': 'depends'}
+Inventory of property%List%{'label': 'depends'}
+Inventory of property%Committee%{'label': 'depends'}
+Inventory of property%World Heritage%{'label': 'depends'}
+Inventory of property%Natural%{'label': 'depends'}
+Inventory of property%UNESCO%{'label': 'depends'}
+Inventory of property%Guidelines%{'label': 'depends'}
+Inventory of property%Natural heritage%{'label': 'depends'}
+Inventory of property%States Parties%{'label': 'depends'}
+Inventory of property%Convention%{'label': 'depends'}
+Inventory of property%Inventory of property%{'label': 'depends'}
+Inventory of property%World Heritage List%{'label': 'depends'}
+Inventory of property%Tentative list%{'label': 'depends'}
+Inventory of property%Indicative list%{'label': 'depends'}
+Inventory of property%Property%{'label': 'depends'}
+Organically evolved landscape%Operational Guidelines%{'label': 'depends'}
+Organically evolved landscape%Committee%{'label': 'depends'}
+Organically evolved landscape%World Heritage%{'label': 'depends'}
+Organically evolved landscape%Natural%{'label': 'depends'}
+Organically evolved landscape%Cultural landscapes%{'label': 'depends'}
+Organically evolved landscape%World Heritage Committee%{'label': 'depends'}
+Organically evolved landscape%UNESCO%{'label': 'depends'}
+Organically evolved landscape%Associative cultural landscape%{'label': 'depends'}
+Organically evolved landscape%Organically evolved landscape%{'label': 'depends'}
+Organically evolved landscape%Guidelines%{'label': 'depends'}
+Balance%Preservation%{'label': 'depends'}
+Balance%UNESCO%{'label': 'depends'}
+Balance%World Heritage%{'label': 'depends'}
+Balance%Natural%{'label': 'depends'}
+Balance%World Heritage List%{'label': 'depends'}
+Balance%Evaluation%{'label': 'depends'}
+Balance%Natural heritage%{'label': 'depends'}
+Balance%Fund%{'label': 'depends'}
+Balance%Bureau%{'label': 'depends'}
+Balance%Spirit of the Convention%{'label': 'depends'}
+Balance%Nomination%{'label': 'depends'}
+Balance%Convention%{'label': 'depends'}
+Balance%Criteria%{'label': 'depends'}
+Balance%Sites%{'label': 'depends'}
+Balance%International assistance%{'label': 'depends'}
+Balance%List%{'label': 'depends'}
+Balance%Committee%{'label': 'depends'}
+Balance%Implementation%{'label': 'depends'}
+Balance%Assistance%{'label': 'depends'}
+Balance%Conservation%{'label': 'depends'}
+Balance%Guidelines%{'label': 'depends'}
+Balance%Operational Guidelines%{'label': 'depends'}
+Balance%Cultural heritage%{'label': 'depends'}
+Balance%Balance%{'label': 'depends'}
+Buffer zone%Protection%{'label': 'depends'}
+Buffer zone%Operational Guidelines%{'label': 'depends'}
+Buffer zone%Property%{'label': 'depends'}
+Buffer zone%Nomination%{'label': 'depends'}
+Buffer zone%Natural%{'label': 'depends'}
+Buffer zone%World Heritage Education%{'label': 'depends'}
+Buffer zone%Conservation%{'label': 'depends'}
+Buffer zone%UNESCO%{'label': 'depends'}
+Buffer zone%Guidelines%{'label': 'depends'}
+Buffer zone%Buffer zone%{'label': 'depends'}
+Buffer zone%Natural property%{'label': 'depends'}
