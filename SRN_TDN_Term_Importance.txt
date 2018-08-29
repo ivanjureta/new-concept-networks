@@ -1,0 +1,17 @@
+| Term                    |   Used in |
+|:------------------------|----------:|
+| Shop Display            |         5 |
+| Point of Purchase       |         5 |
+| SRN                     |         3 |
+| Field Merchandiser      |         3 |
+| SDM                     |         2 |
+| Basic Shop Display      |         2 |
+| POP Data                |         1 |
+| Report                  |         0 |
+| Analyst                 |         0 |
+| Administrator           |         0 |
+| Shop Display Identifier |         0 |
+| Complex Shop Display    |         0 |
+| Shop Display Supplier   |         0 |
+| POP Personnel           |         0 |
+| Key Account             |         0 |

@@ -1,0 +1,6 @@
+Field Merchandiser is used in 3 terms.
+| Term               | Uses               |
+|:-------------------|:-------------------|
+| Field Merchandiser | Field Merchandiser |
+| POP Data           | Field Merchandiser |
+| Key Account        | Field Merchandiser |

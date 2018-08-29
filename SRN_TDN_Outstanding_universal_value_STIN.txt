@@ -1,0 +1,3 @@
+Outstanding universal value is used in 0 terms.
+| Term   | Uses   |
+||
