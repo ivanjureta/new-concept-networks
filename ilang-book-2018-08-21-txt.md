@@ -40,7 +40,7 @@ Discussions of definitions:
     - http://www.untag-smd.ac.id/files/Perpustakaan_Digital_1/CORRUPTION%20The%20political%20economy%20of%20corruption.pdf#page=24
 -->
 
-## Technical Languages for Innovation
+## 1 Technical Languages for Innovation
 
 This book is an instructions manual, on how to make technical languages during, and to support innovation. 
 
@@ -60,7 +60,7 @@ In short, I am arguing that it makes sense to be rigorous about language that ta
 
 I will use the term "innovation language" for the kind of technical languages that this book is about. They are very much alike technical languages in general, but depart in one key respect. An innovation language is a rough technical language, imperfect in many ways, capturing and conveying unstable knowledge. If the outcomes of innovation are useful, if they become relevant, then the innovation language eventually graduates to a technical one.
 
-## Outline
+## 2 Outline
 
 This book combines two narratives.
 
@@ -68,7 +68,7 @@ One focuses on the practicalities of how to make and maintain innovation languag
 
 The other narrative takes an academic angle. It is about why we should want to make innovation languages, how much of it helps or hinders innovation, and how this relates to established work on the creation of informal and formal languages. I discuss the relationship of innovation languages to basic notions in epistemology (data, information, belief, knowledge, among others), knowledge representation, problem solving and decision making, and ontology engineering. The aim is not only to provide arguments to support the instructions I provide in the practical narrative, but also to give a broader picture in which innovation languages and their production fit. This also points you to literature and results in various research fields, to content that is good to be aware of, when making and maintaining innovation languages.
 
-## Innovation vs Chaos
+## 3 Innovating Out of Chaos
 
 What could innovation languages possibly be and do? There are so many kinds already - natural languages, technical languages, planned languages, constructed languages, programming languages, domain-specific programming languages, formal and informal specification languages, and so on. With so many types of languages already there, how is this new, and why it matters?
 
@@ -92,7 +92,7 @@ The point so far, is that we innovate our way out of chaos into order, and to do
 
 Why does this matter?
 
-## Learning Order in Chaos
+## 4 Learning from Chaos
 
 If there is one aspect, a process woven into all those experiences, all instances of innovation processes that I have been involved in, it is learning. And I mean this in the usual, casual sense, "the acquisition of knowledge or skills through study, experience, or being taught" as it says in the online Oxford English Dictionary. [OED: Learning](https://en.oxforddictionaries.com/definition/learning)
 
@@ -128,7 +128,7 @@ They will speak, of course, English, French, Mandarin, Swahili, or any natural l
 
 That is what innovation languages are. This book is about how to make them, perhaps more accurately, how to record and analyze them, since they are there anyway. Recording and analysis have a simple aim, which is to generate more value for the team, over the long run. How and why exactly will is a topic interwoven through the coming chapters.
 
-## What Language Has to Do with Innovation
+## 5 What Language Has to Do with Innovation
 
 When working on something new, you need a way to speak, write, and more generally communicate your ideas about it, so that you can coordinate your work with others, understand what they think and want to do about it, agree and disagree, and act, plan, and learn together.
 
@@ -152,7 +152,7 @@ Where I was able to observe the use of innovation languages, it became simpler t
 
 Over the last decade, I worked with dozens of teams which built up their innovation languages. That led to this book.
 
-## What an Innovation Language Is
+## 6 What an Innovation Language Is
 
 You and I learned to use one or more natural languages while growing up, and then through basic education. English, French, Dutch, German, Swahili, Mandarin, Hindu, are only some among some 5-7,000 languages considered as ordinary live languages in use.
 
@@ -174,7 +174,7 @@ At the same time, we would know what needs to be further defined and worked on -
 
 In more abstract terms, having a team make and maintain a innovation language forces its participants into creating explicit conventions on at least two fronts: one is how they cut up the problem and solution spaces in the work they are doing, because they need to decide on terms and therefore categories that matter to them (in academic terms, they are making decisions related to ontology), and the other is that they adhere to a common vocabulary, so as to remove some of the synonymy and ambiguity that reflects the lack of stable and structured knowledge of the problem and solution space.
 
-## What an Innovation Language Looks Like
+## 7 What an Innovation Language Looks Like
 
 The simplest innovation languages look like lists of terms, with a definition of each.
 
@@ -261,7 +261,7 @@ Rule 8 is not the only one leading to this question. Rule 10 says when a Retaine
 
 To the extent that each rule restricts the interpretation of a term, it must be part of the definition of that term. If that is the case, then would everything written in the innovation language somehow constitute that language? I return to this later, in Chapter XX.
 
-## Four Core Ideas
+## 8 Four Core Ideas
 
 The book is grounded in four simple ideas. 
 
@@ -344,7 +344,7 @@ If we need to be precise in software code, to make sure it does what we want it 
 
 The language becomes the backbone for task descriptions, later in software specification documents. The software itself used these terms, not only in its user interface, but in code, as classes, relationships, methods designed into the software followed the innovation language.
 
-## New Ideas Use both Old and New Words
+## 9 New Ideas Use both Old and New Words
 *Chapter summary: On the relationship between new words and old words in a innovation language, how old words build up definitions of new ones.*
 
 How to explain a satellite to a child? How about using one of these definitions:
@@ -432,7 +432,7 @@ Going back to takeaways, these examples illustrated how a definition, even of a 
 
 New ideas need new words. At the same time, new words are anchored in old ones.
 
-## Definitions Record Choices
+## 10 Definitions Record Choices
 
 *Chapter summary: How the design of a innovation language reflects our problem-solving and decision-making.*
 
@@ -513,7 +513,7 @@ As he puts it, the term "globalization" links the old and the new (label [A] in 
 
 > "Through its various connotations, the concept of globalization functions as [A: a mediating link between the modern world with its crusty social ontology and the brave new world that remains inaccessible and unintelligible not only to the subscribers to that ontology but also to the believers in global change as well]. Not only is globalization a moving target for social inquiry, but it also [B: signifies the movement of that inquiry itself]. The concept of globalization thus makes modern political experience meaningful while simultaneously releasing political expectation from the strictures that the very meaningfulness of this experience has imposed on political imagination. It does so through a double gesture: by [C: projecting expectations onto the global while simultaneously making those expectations constitutive of globality as a point of reference and convergence]. In this respect, the logic of the concept of globalization resembles that of the concepts of civilization and revolution as they were shaped before and during the French Revolution: [D: these concepts also lacked stable referents, but functioned as vehicles of social change by signifying change in its purest, most necessary and irreversible form: change as the condition of possible objects and possible identities in a possible future]. And like these concepts, globalization does not represent a mere prognosis for the future, but a prophecy in quest for self-fulfillment. So far from being here to stay, the metaphors of globalization will perhaps die when the concept has fulfilled its destabilizing task, that is, [E: when globalization has become something that goes without saying and therefore no longer stands in need of being spoken about]." [[Bartelson, Jens. "Three concepts of globalization." International Sociology 15.2 (2000): 180-196.]](http://journals.sagepub.com/doi/abs/10.1177/0268580900015002003)
 
-## Definitions Make Choices
+## 11 Definitions Make Choices
 _Chapter summary: On how definitions make it easy do do some things, and hard to do others._
 
 If you commit to a definition, meaning you choose one definition of a term over others, then you also take additional commitments. It is yet another case of buying one and getting more than you asked for. How much of this more do you know? Do you want this additional baggage? These are the two central questions.
@@ -639,7 +639,7 @@ These three dimensions are orthogonal. Your level on one has no relationship to 
 
 But what if choices in one definition are linked to choices in others? That requires a different view of an innovation language, presented in the next Chapter.
 
-## Language as Network
+## 12 Language as Network
 _Chapter summary: On relationships between definitions in an innovation language, how they lead to a network representation of the language, and why that is useful._
 
 This Chapter elaborates a simple idea, of relating a term A to a term B if the definition of A mentions B, and looking at what to do with these relationships.
@@ -690,7 +690,7 @@ Here is a summary of how definitions depend on other terms in the innovation lan
 
 The Figure below shows the dependencies as a graph, called the term dependency network. It has 15 nodes and 21 edges.
 
-![](ilang-book-images/srn_term_dependency_network.png?raw=true)
+![](ilang-book-images/SRN_TDN_graph.png?raw=true)
 
 How does this diagram help? One way to read it, is that it shows dependencies. A term's definition depends on another's. This dependency view of an innovation language gives three types of nodes: inner, stops, and outer.
 
@@ -742,7 +742,7 @@ With large dependency networks, only interactive visualization can be of any use
 * [[Bastian, Mathieu, Sebastien Heymann, and Mathieu Jacomy. "Gephi: an open source software for exploring and manipulating networks." Icwsm 8.2009 (2009): 361-362.]](http://www.aaai.org/ocs/index.php/ICWSM/09/paper/download/154/1009), and
 * [[Shannon, Paul, et al. "Cytoscape: a software environment for integrated models of biomolecular interaction networks." Genome research 13.11 (2003): 2498-2504.]](https://genome.cshlp.org/content/13/11/2498.short)
 
-## Evaluating a Term's Importance
+## 13 Evaluating a Term's Importance
 Are all terms in a language equally important? Some are more frequently used than others. Use, here, can be measured by the number of times a term is mentioned in definitions of other terms in the language. An alternative is to look at the number of times a term gets mentioned in artifacts that use the innovation language, such as technical specifications, recorded communication between team members, and so on.
 
 Here, we will assume that a term's importance is directly proportional to the number of times it is mentioned in definitions of other terms in the innovation language. The rationale is that, if a term is frequently mentioned in definitions, then your understanding of those definitions hinges on your understanding of that term. If you misunderstood it, that may transfer to your understanding of definitions which use it.
@@ -781,7 +781,7 @@ For analyses of this definition's merits and limitations, see:
 * [[Pocock, Douglas. "Some reflections on world heritage." Area 29.3 (1997): 260-268.]](https://rgs-ibg.onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4762.1997.tb00028.x), and 
 * [[Labadi, Sophia. "World Heritage, authenticity and post-authenticity: international and national perspectives." Heritage and globalisation. Routledge, 2010. 80-98.]](https://www.taylorfrancis.com/books/e/9781136965272/chapters/10.4324%2F9780203850855-12).
 
-## Evaluating a Term's Sensitivity to Change
+## 14 Evaluating a Term's Sensitivity to Change
 If a term X depends on many others in an innovation language, their changes will affect how X is understood, even if the definition of X remains syntactically the same.
 
 We can evaluate a term's sensitivity to change of other terms, by looking at the number of terms it depends on.
@@ -824,7 +824,7 @@ Low or high sensitivity are not inherently good or bad. They are signals that tr
 
 If a term has low sensitivity, it sits at the boundary of the innovation language. It uses little from that language. A boundary term begs questions of scope, of the innovation language, which we look at later. If a term has high sensitivity, it leans substantially on the rest of the terms of that innovation language.
 
-## Importance and Change Sensitivity Together
+## 15 Importance and Change Sensitivity Together
 We can focus on a specific term, and look at its importance and change sensitivity. In the Glossary of World Heritage Terms, "Cultural heritage" is used in 18 terms, listed in the table below. The table shows which terms need to be reviewed, when "Cultural heritage" definition changes. The review should ensure that changes to "Cultural heritage" do not produce inconsistency with the definitions of these notions.
 
 | Term                                                                            | Uses              |
@@ -935,19 +935,112 @@ This variant was published in "Operational Guidelines for the Implementation of 
 
 <!-- Stopped here on Aug 27 -->
 
-## Blowing Definitions Up
+## 16 Blowing Definitions Up
 
 An interesting analysis to do with dependencies is to blow up the definition of each term.
 
-For the sake of clarity, let's call internal terms, all the terms in the innovation language, which have their own definitions. All others are called external terms. In the example above, POP is an internal term, while 'product' and 'location' are external terms.
+For the sake of clarity, let's call "internal terms", all the terms in the innovation language, which have their own definitions. All others will be called "external terms". In the following definitions from the Smart Retail Network case, POP is an internal term, while 'product' and 'location' are external terms.
 
-The blowup of a term works as follows. You count the number of times each external term appears in definitions of all internal terms. You then look at the most frequent external terms, and decide if they should be added to the language, that is, if they need to have a definition you want to control and agree on in the innovation team, or if there is no need for control and agreement.
+> Point of Purchase (POP): location (shop) where products are being sold.
 
-Visually, this means adding most frequent external terms as new nodes in the graph, then deciding if they should stay as new nodes or not. 
+Term blow up works as follows. Count the number of times each external term appears in definitions of all internal terms. You then look at the most frequent external terms, and decide if they should be added to the language, that is, if they need to have a definition you want to control and agree on in the innovation team, or if there is no need for control and agreement.
 
-You thereby identify terms which are often depended on, but not part of the innovation language, and decide if they are candidates to become included as new outer terms. 
+We can do this for the Glossary of Worldh Heritage Terms, and show only external terms which appear more than 40 times in all the definiens of all internal terms. We get the following table. The threshold is set at 40 for space reasons, there may be interesting terms that got cut off.
 
-This blowup is an approach to manage the scope of the language in a guided way. The aim is to include important terms in the language, rather then leave them defined outside of it. Importance depends on two dimensions at least, frequency and potential for misunderstanding. Frequency is the count of times the external term appears in definitions of internal ones. Potential for misunderstanding means what it says, that the term has no shared and accepted definition, or if it does, that it is not clear, precise, or accurate enough.
+| External Term  |   Count |
+|:---------------|--------:|
+| heritage       |     348 |
+| world          |     278 |
+| unesco         |     193 |
+| cultural       |     144 |
+| 1996           |     143 |
+| see            |     126 |
+| list           |     126 |
+| natural        |     122 |
+| guidelines     |     120 |
+| operational    |     114 |
+| convention     |     112 |
+| february       |     110 |
+| properties     |      96 |
+| conservation   |      87 |
+| property       |      85 |
+| paragraph      |      83 |
+| committee      |      73 |
+| states         |      58 |
+| assistance     |      54 |
+| protection     |      51 |
+| international  |      48 |
+| article        |      44 |
+| inclusion      |      43 |
+| parties        |      41 |
+
+Notice that "heritage" does appear as sub-term in internal terms, World Heritage in particular. If we consider that any sub-term of an Internal Term is also an Internal Term (and this may not always be a good choice), then we can remove all such terms from External Terms, and get the following updated table.
+
+| External Term   |   Count |
+|:----------------|--------:|
+| 1996            |     143 |
+| february        |     110 |
+| paragraph       |      83 |
+| article         |      44 |
+| inclusion       |      43 |
+
+When you inspect the Glossary, "february" and "1996" appear frequently, in references to the following citation:
+
+> UNESCO  February 1996  Operational Guidelines for the Implementation of the World Heritage Convention.  Intergovernmental Committee for the Protection of the World Cultural and Natural Heritage.  WHC/2/Revised.  UNESCO, Paris, France.
+
+It is clear what they are used for. "Paragraph" and "article" are also not questionable. They are frequent because of references to parts of documents cited in the Glossary. They are also unambiguous. This is a sample use of "article":
+
+> "..._Article_ 8(3) of the World Heritage Convention establishes the International Centre for the Study of the Preservation and Restoration of Cultural Property".
+
+Consider "inclusion" now. Here are a few cases where this word appears in definiens:
+
+* Criteria: "...In accordance with Article 11 of the Convention, the World Heritage Committee have established criteria for the **inclusion** of cultural properties and natural properties in the World Heritage List."
+* Cultural landscapes: "...included guidelines concerning their **inclusion** in the World Heritage List".
+* Deferred: "When the Bureau and Committee examine nominations of properties for **inclusion** in the World Heritage List they classify their decisions into those they choose to inscribe, those they decide not to inscribe, those referred back to States Parties for further information, and those whose consideration is deferred (UNESCO February 1996: 23-25, Paragraph 65)."
+
+And the following table lists all internal terms which depend on "inclusion".
+
+| Internal Term                                                                  | External Term   |
+|:-------------------------------------------------------------------------------|:----------------|
+| Associative cultural landscape                                                 | inclusion       |
+| Authenticity                                                                   | inclusion       |
+| Corrective measures                                                            | inclusion       |
+| Criteria                                                                       | inclusion       |
+| Cultural landscapes                                                            | inclusion       |
+| Deferred                                                                       | inclusion       |
+| Deletion                                                                       | inclusion       |
+| Delisting                                                                      | inclusion       |
+| Emergency assistance                                                           | inclusion       |
+| Groups of urban buildings                                                      | inclusion       |
+| Harmonization                                                                  | inclusion       |
+| Identification                                                                 | inclusion       |
+| Integrity                                                                      | inclusion       |
+| Inventory of property                                                          | inclusion       |
+| IUCN - The World Conservation Union                                            | inclusion       |
+| IUCN evaluation                                                                | inclusion       |
+| Justification                                                                  | inclusion       |
+| List of World Heritage in Danger                                               | inclusion       |
+| Management                                                                     | inclusion       |
+| Management plan                                                                | inclusion       |
+| Movable property                                                               | inclusion       |
+| Nomination                                                                     | inclusion       |
+| Nomination form                                                                | inclusion       |
+| Operational Guidelines for the Implementation of the World Heritage Convention | inclusion       |
+| Series                                                                         | inclusion       |
+| Tentative list                                                                 | inclusion       |
+| Thematic studies                                                               | inclusion       |
+
+"Inclusion" seems to refer to the adding of a property into the World Heritage List. But, as the excerpt from Deferred shows, inclusion is not a simple act of adding an item to a list. Rather, it is a process, where a property can go through different stages, with different outcomes; it may be nominated for inclusion, under evaluation for inclusion, and if it is so decided, be included in the list. 
+
+By doing the above, you identify terms which are often depended on, but not part of the innovation language, and decide if they are candidates to become included as new outer terms. 
+
+Visually, this means adding most frequent external terms as new nodes in the graph, then deciding if they should stay as new nodes or not. The following subgraph plots all internal terms which depend on "inclusion".
+
+![](ilang-book-images/UN_GWHT_TDN_inclusion_XTDN.png?raw=true)
+
+## 17 Managing Language Scope
+
+Term blowup is useful when deciding the scope of the innovation language. The aim is to include important terms in the language, rather then leave them defined outside of it. Importance depends on two dimensions at least, frequency and potential for misunderstanding. Frequency is the count of times the external term appears in definitions of internal ones. Potential for misunderstanding means what it says, that the term has no shared and accepted definition, or if it does, that it is not clear, precise, or accurate enough.
 
 With blow up, you widen the scope of the language by including external terms which are frequent and prone to misinterpretation.
 
@@ -963,11 +1056,9 @@ Strongly connected components can also be quite different. One may be more dense
 
 This helps with two kinds of decisions during innovation. Have we looked well enough at a specific part of the problem and solution? Or why have we not looked more into this or that part of the problem and solution? Underdeveloped strongly connected components are those to consider when asking these questions. Then, there is the always hard question of identifying the smallest part of the solution to push out of the innovation process as mature enough for validation against a target audience. This is often called the minimum viable product. The defnet is not going to say what that is, but it should correspond to well developed connected components of the defnet.
 
+## 18 Distributed Definitions
 
-
-XIV Distributed Definitions
-
-So far, a defnet was a network made from term and definition pairs. What if we now make descriptions of how things work, and mention these terms? Where do we fit these? Are they part of the innovation language? Are they something to put in a defnet? Why do that at all?
+So far, a term dependency network was made from term and definition pairs. What if we now make descriptions of how things work, and mention these terms? Where do we fit these? Are they part of the innovation language? Are they something to put in a defnet? Why do that at all?
 
 These are questions about how an innovation language is related to descriptions, explanations, predictions, and prescriptions which use its terms. Is a description of some aspect of the innovation, a definition of that innovation, a part of that definition, or something else altogether, detached from the language? 
 
