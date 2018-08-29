@@ -1,0 +1,29 @@
+| Internal Term                                                                  | External Term   |
+|:-------------------------------------------------------------------------------|:----------------|
+| Associative cultural landscape                                                 | inclusion       |
+| Authenticity                                                                   | inclusion       |
+| Corrective measures                                                            | inclusion       |
+| Criteria                                                                       | inclusion       |
+| Cultural landscapes                                                            | inclusion       |
+| Deferred                                                                       | inclusion       |
+| Deletion                                                                       | inclusion       |
+| Delisting                                                                      | inclusion       |
+| Emergency assistance                                                           | inclusion       |
+| Groups of urban buildings                                                      | inclusion       |
+| Harmonization                                                                  | inclusion       |
+| Identification                                                                 | inclusion       |
+| Integrity                                                                      | inclusion       |
+| Inventory of property                                                          | inclusion       |
+| IUCN - The World Conservation Union                                            | inclusion       |
+| IUCN evaluation                                                                | inclusion       |
+| Justification                                                                  | inclusion       |
+| List of World Heritage in Danger                                               | inclusion       |
+| Management                                                                     | inclusion       |
+| Management plan                                                                | inclusion       |
+| Movable property                                                               | inclusion       |
+| Nomination                                                                     | inclusion       |
+| Nomination form                                                                | inclusion       |
+| Operational Guidelines for the Implementation of the World Heritage Convention | inclusion       |
+| Series                                                                         | inclusion       |
+| Tentative list                                                                 | inclusion       |
+| Thematic studies                                                               | inclusion       |
