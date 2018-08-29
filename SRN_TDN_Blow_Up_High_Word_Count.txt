@@ -1,2 +1,22 @@
-| External Term   | Count   |
-||
+| External Term   |   Count |
+|:----------------|--------:|
+| pop             |       8 |
+| shop            |       7 |
+| data            |       6 |
+| display         |       4 |
+| products        |       3 |
+| individual      |       3 |
+| fmr             |       3 |
+| srn             |       3 |
+| software        |       2 |
+| used            |       2 |
+| displays        |       2 |
+| generated       |       2 |
+| sdm             |       2 |
+| bsd             |       2 |
+| sold            |       2 |
+| visiting        |       2 |
+| andor           |       2 |
+| presentation    |       2 |
+| employee        |       2 |
+| interested      |       2 |
