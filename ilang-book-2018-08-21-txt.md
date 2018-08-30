@@ -1090,7 +1090,7 @@ Term blowup is useful when deciding the scope of the innovation language. The ai
 
 With blow up, you widen the scope of the language by including external terms which are frequent and prone to misinterpretation.
 
-![](ilang-book-images/UN_GWHT_TDN_BUTDN_graph.png?raw=true)
+![](ilang-book-images/SRN_TDN_BUTDN_graph.png?raw=true)
 
 Managing scope also means taking terms out of the language. Here is a simple approach which works in that opposite way. 
 
