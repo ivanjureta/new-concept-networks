@@ -1038,11 +1038,59 @@ Visually, this means adding most frequent external terms as new nodes in the gra
 
 ![](ilang-book-images/UN_GWHT_TDN_inclusion_XTDN.png?raw=true)
 
+We can go back to the Smart Retail Network case, for a smaller sized example. The following table shows the frequency of external terms.
+
+| External Term   |   Count |
+|:----------------|--------:|
+| pop             |       8 |
+| shop            |       7 |
+| data            |       6 |
+| display         |       4 |
+| products        |       3 |
+| individual      |       3 |
+| fmr             |       3 |
+| srn             |       3 |
+| software        |       2 |
+| used            |       2 |
+| displays        |       2 |
+| generated       |       2 |
+| sdm             |       2 |
+| bsd             |       2 |
+| sold            |       2 |
+| visiting        |       2 |
+| andor           |       2 |
+| presentation    |       2 |
+| employee        |       2 |
+| interested      |       2 |
+
+Removing Internal Terms and their sub-terms, we get the following.
+
+| External Term   |   Count |
+|:----------------|--------:|
+| products        |       3 |
+| individual      |       3 |
+| software        |       2 |
+| used            |       2 |
+| displays        |       2 |
+| generated       |       2 |
+| sold            |       2 |
+| visiting        |       2 |
+| and/or          |       2 |
+| presentation    |       2 |
+| employee        |       2 |
+| interested      |       2 |
+
+
+
+
+
 ## 17 Managing Language Scope
 
 Term blowup is useful when deciding the scope of the innovation language. The aim is to include important terms in the language, rather then leave them defined outside of it. Importance depends on two dimensions at least, frequency and potential for misunderstanding. Frequency is the count of times the external term appears in definitions of internal ones. Potential for misunderstanding means what it says, that the term has no shared and accepted definition, or if it does, that it is not clear, precise, or accurate enough.
 
 With blow up, you widen the scope of the language by including external terms which are frequent and prone to misinterpretation.
+
+![](ilang-book-images/UN_GWHT_TDN_BUTDN.png?raw=true)
 
 Managing scope also means taking terms out of the language. Here is a simple approach which works in that opposite way. 
 
