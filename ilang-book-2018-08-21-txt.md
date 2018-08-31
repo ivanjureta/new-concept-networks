@@ -1266,27 +1266,47 @@ The practical implication of this, is that you will have a rather poor innovatio
 
 In this Chapter, I ascribe a structure to innovation languages. I describe that structure and discuss it. I start from the simplest ones, present their structure, and explain why richer structures are needed, and what they look like. I discuss how these structures are related to established ideas in knowledge representation.
 
-The simplest innovation languages are sets of definitions. Each definition has two parts, the definiendum, which is the term being defined, and the definiens, which is the definition. The purpose of a definition, is to tell its user how to recognize instances of the defined term.
+The simplest innovation languages are sets of definitions. Each definition has two parts, the definiendum, which is the term being defined, and the definiens, which is the definition. The purpose of a definition, is to tell its user how to recognize instances of the defined term. Let, then, L be the innovation language, and make it a set of term and its definition tuples.
 
-In a summary, the structure of a simple innovation language corresponds to a set. Each member is a tuple (t, d), t being the definiendum and d the definiens. 
+    T = {(t,d), such that t is a definiendum and d is the definiens of t}
 
-A definition can be a combination of an intensional and an extensional definition, or either of these. Respectively, it may define by pointing to properties an instance should have, or by pointing to instances that the user can observe, or otherwise can experience or has experienced. 
+We can represent the structure described so far as a directed labeled graph that has the following nodes, edges and labeling functions:
 
-So in a (t, d), d can be intensional, extensional, or a combination thereof. 
+* Nodes and node labels:
 
-This was good enough, until we needed to analyze the scope of an innovation language. We took individual definitions, blew them up to identify potential candidate terms for inclusion in, or exclusion from the innovation language. 
+    * For each tuple in T:
+        * One node for t, labeled "t";
+        * One node for d, labeled "d";
+    * One node for the class Definiendum (a.k.a. Term), labeled "Definiendum"; we will use this to say that each t in a tuple is an instance of Definiendum;
+    * One node for the class Definiens, labeled "Definiens"; this will be used to say that each d in a tuple is an instance of the class Definiens;
+* Edges and edge labels:
+    * For each tuple in T, one edge, directed from d to t, and labeled "Defines";
+    * For each Definiendum instance node t, an edge from t to the Definiendum class node, labeled "Is a";
+    * For each Definiens instance node d, an edge from d to the Definiens class node, labeled "Is a".
 
-Blowing up meant that we turn each term in each definiens, into a member of the set. If there is a term (t,d) in the set, and d includes terms t1,�,t4, then we add (t1,d1),�,(t4,d4) to the set; and we do the same to terms in d1,�,d4, and so on.
+
+
+
+
+
+
+In a summary, the structure of a simple innovation language corresponds to a set. Each member is a tuple (t, d), t being the definiendum and d the definiens.
+
+A definition can be a combination of an intensional and an extensional definition, or either of these. Respectively, it may define by pointing to properties an instance should have, or by pointing to instances that the user can observe, or otherwise can experience or has experienced.
+
+So in a (t, d), d can be intensional, extensional, or a combination thereof.
+
+This was good enough, until we needed to analyze the scope of an innovation language. We took individual definitions, blew them up to identify potential candidate terms for inclusion in, or exclusion from the innovation language.
+
+Blowing up meant that we turn each term in each definiens, into a member of the set. If there is a term (t,d) in the set, and d includes terms t1,...,t4, then we add (t1,d1),...,(t4,d4) to the set; and we do the same to terms in d1,...,d4, and so on.
 
 We blow terms up, in order to identify how the definition of each depends on the others. A set which only has (t,d) tuples will not include this information. The set needs to include a new set of tuples, of the form (tX, tY), where tX is the term which appears in the definition of tY.
 
-Let that set be X. It has by now two partitions, T and S, where T includes the terminology, i.e., all tuples of definiendum and definiens, and D includes dependencies.
+Let that set be X. By now, it has two partitions, T and S, where T includes the terminology, i.e., all tuples of definiendum and definiens, and D includes dependencies.
 
-X = T union S
+    T = { (t,d) such that t is a definiendum and d is the definiens }
 
-T = { (t,d) such that t is a definiendum and d is the definiens }
-
-S = { (tX,tY) such that tX is a term that appears in the definiens of tY, and tY is a term in a tuple in T }
+    S = { (tX,tY) such that tX is a term that appears in the definiens of tY, and tY is a term in a tuple in T }
 
 Let T1 be the set of all terms in T. Then, T1 and S together are a directed graph over terms, also called a definition network. Each node is labeled by a term, and each tuple from S defines a directed edge between terms.
 
