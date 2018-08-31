@@ -1085,141 +1085,174 @@ Removing Internal Terms and their sub-terms, we get the following.
 
 
 ## 17 Managing Language Scope
+_This Chapter is about deciding which external terms to promote into the innovation language._ 
 
-Term blowup is useful when deciding the scope of the innovation language. The aim is to include important terms in the language, rather then leave them defined outside of it. Importance depends on two dimensions at least, frequency and potential for misunderstanding. Frequency is the count of times the external term appears in definitions of internal ones. Potential for misunderstanding means what it says, that the term has no shared and accepted definition, or if it does, that it is not clear, precise, or accurate enough.
+Term blowup is useful when deciding the scope of the innovation language. The aim is to include important terms in the language, rather then leave them defined outside. Importance depends on two dimensions at least, frequency and potential for misunderstanding. Frequency is the count of times the external term appears in definitions of internal ones, a measure we reviewed in the previous Chapter. Potential for misunderstanding means what it says, that the term has no shared and accepted definition, or if it does, that it is not clear, precise, or accurate enough for your purposes.
 
-With blow up, you widen the scope of the language by including external terms which are frequent and prone to misinterpretation.
+With blow up, you widen the scope of the language by including external terms which are frequent and prone to misinterpretation. The following Figure shows two sets of nodes - those in light grey are internal terms of the Smart Retail Network innovation language (Shop Display Identifier, SRN, POP Data, and so on), while those in white are external terms (displays, products, used, individual, among others).  Arrows point from internal terms to external terms, so that if an arrow goes from "software" to "SRN", this means that the definiens of SRN includes the term "software".
 
 ![](ilang-book-images/SRN_TDN_BUTDN_graph.png?raw=true)
 
+Should "products" be included inside the innovation language? Should "individual"? How about "visiting"?
+
+There is no general rule for answering these questions. It is not something to decide only by counting occurrences of external terms in definiens of each internal term. Rather, the crux of these questions is risk. If you let every user of the language decide themselves what "products", "individual" and "visiting" each mean, then you run the risk that they disagree. That disagreement is not an issue, if they have no need to decide and act together in ways which, to be successful, require agreement. In such a case, you can accept the risk that this latent disagreement is there, but that its effects will not matter - either will never manifest themselves, or if they do, it makes no difference. But if the manifestations of disagreement can be disruptive, if the effects of disagreement becoming apparent will matter, then this risk needs to be managed. One approach to doing so is to seek explicit agreement on the reading of any one, or all of the said terms. And that means taking an external term, giving it a definiens, and thereby including it in the innovation language. 
+
+During the innovation process, in the Smart Retail Network case, we did decide to define "product" and "visiting", and thereby promote them into the innovation language. While their generic, that is dictionary definitions worked early on, this was only because we did not look into the potential consequences of remaining with such definitions; once we did, it became clear these terms had to be promoted into the innovation language. 
+
+"Product" is important, because when a SRN user visits a point of purchase, she needs to collect data for a set of products that are assigned to her. Now, that point of purchase does not necessarily carry only those products, that are made by the business which owns SRN. It follows that our definition of "product" is closely related to the scope of the work that a SRN user will be doing. SRN user will not be asked to collect data on all products in a POP, or for products outside a POP. She will only be asked to collect data on some of the products in the POP, and all these products will always be made by the SRN owner. Products, then, were defined as only that which is made and commercialized in any POP by the business which owns SRN.
+
+"Visiting" depends on one's understanding of a visit, and a visit is critical for the design of the SRN, since all data which goes into the SRN, is collected during visits. OED's generic definition of visit, as going "to see and spend time with (someone) socially" cannot work. In the context of SRN, a visit's purpose is data collection, about specific products. Moreover, visits can be of different quality, something that we looked into much later during innovation, when we started looking into average visit durations, depending on POP size, number of products in the POP, and so on. In short, an SRN visit can be, needs to be read in a much more constrained way than a generic definition. Notice how this influences other innovation, and subsequent engineering activities. SRN needs to hold data about visits, so keeping a generic visit definition would lead us to design an SRN which does not hold (or only accidentaly does) the data we need to compare, and improve visits over time.
+
 Managing scope also means taking terms out of the language. Here is a simple approach which works in that opposite way. 
 
-If you look at the graph, you can see terms which are weakly connected or disconnected from others. If the graph is large, you would not so much look, but list nodes by the number of links they are on. Nodes of most interest are those with no links at all. Why are they internal? Why are they not connected to others? Disconnect suggests that they are conveying ideas which are unrelated to the rest that the innovation language is meant to convey. Is their isolation due to isolation of ideas? If not, are they isolated simply because we have not yet added terms that connect them to the rest of the language?
+If you look at the number of internal dependency edges going into an internal term, you can see terms which are weakly connected or disconnected from others. Nodes of most interest now, as candidates for demotion from the innovation language, are those with no incoming links at all. Check why they are internal. Why are they not connected to others? Disconnect suggests that they are conveying ideas which are unrelated to the rest that the innovation language is meant to convey. Is their isolation due to isolation of ideas? If not, are they isolated simply because we have not yet added terms that connect them to the rest of the language?
 
-Several terms can also be isolated, even if well connected between them. Notice how SRN is connected to Administrator and Analyst, but none of these is connected to the rest. In such cases, you cannot see isolation by looking for disconnected terms. You need to search for strongly connected components in the graph, then look at connections between the connected components, instead of those between individual nodes.
+The following table shows the importance of the internal terms in a version of the SRN innovation language. Shop display is mentioned in definitions of five other terms in the innovation language, five too for Point of Purchase, and so on. Report, Analyst, Administrator, and others, are not used in other definitions in that innovation language. 
+
+| Internal Term           |   Used in |   Uses |
+|:------------------------|----------:|-------:|
+| Shop Display            |         5 |      2 |
+| Point of Purchase       |         5 |      0 |
+| SRN                     |         3 |      0 |
+| Field Merchandiser      |         3 |      2 |
+| SDM                     |         2 |      1 |
+| Basic Shop Display      |         2 |      1 |
+| POP Data                |         1 |      2 |
+| Report                  |         0 |      4 |
+| Analyst                 |         0 |      1 |
+| Administrator           |         0 |      1 |
+| Shop Display Identifier |         0 |      2 |
+| Complex Shop Display    |         0 |      2 |
+| Shop Display Supplier   |         0 |      1 |
+| POP Personnel           |         0 |      1 |
+| Key Account             |         0 |      1 |
+
+But we do need Report, for example, in the language because demoting it would mean reverting to a generic definition, or more loosely, to everyone's own definition of a report. Another count to look at, is change sensitivity discussed earlier, or the number of internal terms that a given term uses. This is shown in the third column, in the table above.
+
+We see that, while Report is not used in other definitions, it uses several other internal terms, and it follows that Report is a term that is already specific to the innovation language. 
+
+Administrator, Analyst, and others who have low counts in the table on both Used in and Uses, need to be looked into more closely. These, at least in the SRN case, are underdeveloped terms. They require more work, and so will become more connected as innovation progresses. This is because it was decided that SRN should offer different functionality to Administrators, Analysts, Key Accounts, and Field Merchandisers. As that functionality gets designed, these roles get assigned rights to access it, and thus details get added to their definitions. 
+
+<!-- Several terms can also be isolated, even if well connected between them. Notice how SRN is connected to Administrator and Analyst, but none of these is connected to the rest. In such cases, you cannot see isolation by looking for disconnected terms. You need to search for strongly connected components in the graph, then look at connections between the connected components, instead of those between individual nodes.
 
 Strongly connected components are interesting for another reason. The innovation language is made for communication about something new that a team is designing. If there are strongly connected components in the definition network, the question to ask is this: do connected components reflect some meaningful partitioning of the thing that is being designed? 
 
 Strongly connected components can also be quite different. One may be more dense than another, with more nodes and, or links among nodes inside. Such differences can suggest differences in complexity of the corresponding problem and solution parts, or in the depth and maturity of thinking that went into each part.
 
-This helps with two kinds of decisions during innovation. Have we looked well enough at a specific part of the problem and solution? Or why have we not looked more into this or that part of the problem and solution? Underdeveloped strongly connected components are those to consider when asking these questions. Then, there is the always hard question of identifying the smallest part of the solution to push out of the innovation process as mature enough for validation against a target audience. This is often called the minimum viable product. The defnet is not going to say what that is, but it should correspond to well developed connected components of the defnet.
+This helps with two kinds of decisions during innovation. Have we looked well enough at a specific part of the problem and solution? Or why have we not looked more into this or that part of the problem and solution? Underdeveloped strongly connected components are those to consider when asking these questions. Then, there is the always hard question of identifying the smallest part of the solution to push out of the innovation process as mature enough for validation against a target audience. This is often called the minimum viable product. The defnet is not going to say what that is, but it should correspond to well developed connected components of the defnet. -->
 
 ## 18 Distributed Definitions
 
-So far, a term dependency network was made from term and definition pairs. What if we now make descriptions of how things work, and mention these terms? Where do we fit these? Are they part of the innovation language? Are they something to put in a defnet? Why do that at all?
+So far, a term dependency network was made from term and definition pairs. What if we now make descriptions of how things work, and mention these terms? Where do we fit the information from these descriptions, if information adds to or changes the definition? Are they part of the innovation language? Are they something to put in a term dependency network? 
 
-These are questions about how an innovation language is related to descriptions, explanations, predictions, and prescriptions which use its terms. Is a description of some aspect of the innovation, a definition of that innovation, a part of that definition, or something else altogether, detached from the language? 
+These are questions about how an innovation language is related to descriptions, explanations, predictions, and prescriptions which use its terms. Is a description of some aspect of the innovation, a definition of that innovation, a part of that definition, or something else altogether, detached from the language?
 
-Let's rephrase that with examples, to make it clearer. Is the specification of an algorithm for search, part of the definition of the term "search result"? Is the law that uses the term "terrorism" and its definition part of the definition of the term "terrorism"? Can we, in other words, ignore how the term "terrorism" is used in about terrorism law, when we try to define the term "terrorism" in that law? Does it matter to know the details of a search algorithm, to know what a "search result" is?
+Let's illustrate that with examples, to make it clearer. Is the specification of an algorithm for search, part of the definition of the term "search result"? Is the law that uses the term "terrorism" and its definition part of the definition of the term "terrorism"? Can we, in other words, ignore how the term "terrorism" is used in law on terrorism, when we try to define the term "terrorism" in that law? Does it matter to know the details of a search algorithm, to know what a "search result" is?
 
 There is neither a simple, nor a generally satisfactory answer to these questions.
 
 It should depend on the kinds of decisions you need to make, and if knowing or not all I mentioned makes a difference in what you would decide to do. Not terribly helpful, is it?
 
-Despite possibilities, for various ways to go about this, a simple approach is to think of it all as of Lego bricks, and of things you make by putting them together. You have some basic, simplest pieces, those you cannot break further. Then, there are things you make by putting many of those together. So you have some basic pieces, and all the rest. 
+Despite various ways to go about this, a simple approach is to think of it all as of Lego bricks, and of things you make by putting them together. You have some basic, simplest pieces, those you cannot break further. Then, there are things you make by putting many of those together. So you have some basic pieces, and all the rest. 
 
-For a simple example, let's think of giraffes. There is, in English, the term "giraffe" and its plural. That term is part of the English language (roughly speaking, since there are many variants of English, but that does not make a difference in this example). Is the definition of "giraffe", and which, also part of English, the natural language? If that definition is written using terms which are already part of English, and is written according to English grammar, then giraffe's definition can be written in English, but is it part of the language? 
+For a simple example, let's think of giraffes. There is, in English, the term "giraffe" and its plural. That term is part of the English language (roughly speaking, since there are  variants of English, but that does not make a difference in this example). Is the definition of "giraffe", and which, also part of English, the natural language? If that definition is written using terms which are already part of English, and is written according to English grammar, then giraffe's definition can be written in English, but is it part of the language? 
 
 Let's suppose that the definition of giraffe cannot be conveyed using English, but that instead, you need to add new terms to English. Do you consider the technical languages of biological taxonomy, genetics, and so on, part of English? If yes, then English has the building blocks to make the definition of giraffe. If not, then it has to be enriched with new terms.
 
 This gets us to the need to distinguish, however roughly, names from that which they are meant to refer to. In technical terms, and in formal languages, this is the question of reference.
 
-In innovation languages, you have the same as in natural languages. In the simplest case, you have a term, and you have its definition. The definition helps you, its user, identify instances of that term, the ideas and things that this term is used to designate. That designation is needed so that you can be involved in communication about those designated ideas and things. In that sense, a definition is an instruction for how to identify, distinguish from everything else you have access to, instances of the thing that is defined.
+You can look at innovation languages in the same way. In the simplest case, you have a term, and you have its definition. The definition helps you, its user, identify instances of that term, the ideas and things that this term is used to designate. That designation is needed so that you can be involved in communication about those designated ideas and things. In that sense, a definition is an instruction for how to identify, distinguish from everything else you have access to, instances of the thing that is defined.
 
-So far, definitions I used, were a mix of plain English and terms specific to the innovation language. So you define terms by putting together other terms, either from the innovation language itself, or from one or more natural or technical languages that that the innovation language leans on. It is important to understand, then, that you do not define terms of the innovation language necessarily using only another language, but a mix of those and of the innovation language. 
-
-Visually, you can picture this as the following difference. On the left, every term in the innovation language L1 is defined using exclusively terms from another language L2 � e.g., English, some technical language that uses English, or something else. On the right, the only difference is that terms in the innovation language L1 are defined not only by L2 but also with terms from L1 itself. 
-
-
+So far, definitions I used, were a mix of plain English and terms specific to the innovation language. A definiens could include both external and internal terms. You define terms by putting together other terms, either from the innovation language itself (internal), or from one or more natural or technical languages that that the innovation language leans on (external). It is important to understand, then, that you do not define terms of the innovation language necessarily using only another language, but a mix of those and of the innovation language.
 
 Now, that may seem like a minor point, an insignificant difference. It is not. The fact that you can use terms of the innovation language to define other terms of that innovation language, and the fact that you can use these terms in explanations, descriptions, predictions, and so on, also means that the term's definition is no longer simply that one or few sentences you gave, but also all that you wrote as well, which involves that term. The understanding of that term hinges on understanding all its uses, and while this is elusive for natural language terms, it is not for innovation language terms - the whole point is, with innovation languages, to add new terms, new names for new ideas and things, and to define them. It is just that the definition is no longer simply one or few sentences given for that term, but the whole set of statements that uses this term. 
 
 Here is a first example. Recall that a Basic Shop Display was defined as follows.
 
-Basic Shop Display (BSD): a Shop Display which cannot itself be subdivided.
+* Basic Shop Display (BSD): a Shop Display which cannot itself be subdivided.
 
 Shop Display had the following definition.
 
-Shop Display: object installed at a POP, which is used to promote products; Shop Display is synonym with Fixture.
+* Shop Display: object installed at a POP, which is used to promote products; Shop Display is synonym with Fixture.
 
-As the team progressed, they identified the requirement that the software should hold up to date data about BSDs. This made it necessary to decide which data would be held about a BSD. They had the following.
+As the team progressed in the innovation process, they identified the requirement that the software should hold up to date data about BSDs. This made it necessary to decide which data would be held about a BSD. They had the following.
 
-A BSD is defined with the following attributes:
-- SDID;
-- Unique name;
-- Description;
-- Type: e.g., Experience zone, Wall display, End cap, etc.; SDM should allow the Analyst users to add/change/remove type of BSD;
-- Product category, from a list of Product categories defined by the Administrator;
-- Dimensions (Width, Height, Depth);
-- If this is a BSD, and if it is part of CSD, then the Unique name of one or more CSDs which this BSD is part of;
-- Photo;
-- Documentation, which is a set of files (examples include PDF, Word document, but should not be limited to these); it should be possible to upload one or more files, and for each file to input a file description (non-rich text);
-- Production date;
-- Shop Display Supplier unique identifier; Shop Display Supplier name, address, city, contact email and phone should be shown to Analysts when viewing the data about this BSD;
-- Status, being one of the following:
-- Active: currently used at a POP;
-- Out of order: currently at a POP, but not in use (i.e., not visible to customers);
-- Damaged: currently at a POP, but not in use because it has been marked as damaged;
-- Out for delivery: dispatched by Shop Display Supplier for delivery to POP;
-- Ready for delivery: at Shop Display Supplier, but not yet dispatched to a POP;
-- POP: unique identifier of the POP at which the BSD is used or should be used, if it is not yet delivered; POP name, address, city, contact email, phone and link to displaying the POP on a Google Map should be shown to Analysts when viewing the data about this BSD;
-- Position on POP floor plan; this amounts to an attached file which should show a drawing of the floor plan and the position of the BSD marked on the drawing; SDM should allow only the upload of the file, without visualizing the content of the uploaded file;
-- Location, such as Warehouse, POP, etc.; SDM should allow the Analyst users to add/change/remove types of BSD Location;
-- Capacity, being the number of products that the BSD can hold.
+> A BSD is defined with the following attributes:
+> - SDID;
+> - Unique name;
+> - Description;
+> - Type: e.g., Experience zone, Wall display, End cap, etc.; SDM should allow the Analyst users to add/change/remove type of BSD;
+> - Product category, from a list of Product categories defined by the Administrator;
+> - Dimensions (Width, Height, Depth);
+> - If this is a BSD, and if it is part of CSD, then the Unique name of one or more CSDs which this BSD is part of;
+> - Photo;
+> - Documentation, which is a set of files (examples include PDF, Word document, but should not be limited to these); it should be possible to upload one or more files, and for each file to input a file description (non-rich text);
+> - Production date;
+> - Shop Display Supplier unique identifier; Shop Display Supplier name, address, city, contact email and phone should be shown to Analysts when viewing the data about this BSD;
+> - Status, being one of the following:
+> - Active: currently used at a POP;
+> - Out of order: currently at a POP, but not in use (i.e., not visible to customers);
+> - Damaged: currently at a POP, but not in use because it has been marked as damaged;
+> - Out for delivery: dispatched by Shop Display Supplier for delivery to POP;
+> - Ready for delivery: at Shop Display Supplier, but not yet dispatched to a POP;
+> - POP: unique identifier of the POP at which the BSD is used or should be used, if it is not yet delivered; POP name, address, city, contact email, phone and link to displaying the POP on a Google Map should be shown to Analysts when viewing the data about this BSD;
+> - Position on POP floor plan; this amounts to an attached file which should show a drawing of the floor plan and the position of the BSD marked on the drawing; SDM should allow only the upload of the file, without visualizing the content of the uploaded file;
+> - Location, such as Warehouse, POP, etc.; SDM should allow the Analyst users to add/change/remove types of BSD Location;
+> - Capacity, being the number of products that the BSD can hold.
 
 The question for you is this: how do these attributes of a BSD relate to the earlier definition of the BSD? 
 
-A digression is necessary before we answer that question. There are, generally speaking, two ways to define, and they can be combined. One is called extensional definition, and you use it when you define a term by giving its examples, any number of them. To be precise, you are giving the instances of the class or catgory that this term designates. This means that if I want to define a tree for you, I should show you trees, give you examples of kinds of trees, and so on. The other kind is the intensional definition, where I am defining a term by listing the necessary and sufficient properties or attributes each of its instances should have. Typically, we would say an instance of class, not of a term, but this is a detail that makes no difference here. This is what the Oxford English Dictionary does, when it defines a tree as follows.
+A digression is necessary before we answer that question. There are, generally speaking, two ways to define, and they can be combined. One is called _extensional definition_, and you use it when you define a term by giving its examples, any number of them. To be precise, you are giving the instances of the class or category that this term designates. This means that if I want to define a tree for you, I should show you trees, give you examples of kinds of trees, and so on. The other kind is the _intensional definition_, where I am defining a term by listing the necessary and sufficient properties or attributes each of its instances should have. Typically, we would say an instance of class, not of a term, but this is a detail that makes no difference here. This is what the Oxford English Dictionary does, when it defines a tree as follows.
 
-Tree: A woody perennial plant, typically having a single stem or trunk growing to a considerable height and bearing lateral branches at some distance from the ground.
+> Tree: A woody perennial plant, typically having a single stem or trunk growing to a considerable height and bearing lateral branches at some distance from the ground. [[OED: Tree]](https://en.oxforddictionaries.com/definition/tree)
 
 What attributes or properties does this mention? That a tree is a woody plant, that it has a single stem or trunk, that it has lateral branches, and so on.
 
-With intensional and extensional definition in mind, we go back to the lowly Basic Shop Display. What should we make of the relationship between its earlier, one-sentence definition, and the list of its attributes?
+With intensional and extensional definition in mind, we go back to the Basic Shop Display. What should we make of the relationship between its earlier, one-sentence definition, and the list of its attributes?
 
-Consider what these two accounts of BSD are for. The earlier one, simple one-sentence definition, is likely to be good enough for any lightweight communication about BSDs, during innovation. If you encountered the term Basic Shop Display, and did not need to know a lot about them, that initial definition would probably be good enough. 
+Consider what these two accounts of BSD are for. The earlier one, the one-sentence definition, is likely to be good enough for any lightweight communication about BSDs, during innovation. If you encountered the term Basic Shop Display, and did not need to know a lot about them, that initial definition would probably be useful.
 
 But if you had to design a database, or part of a broader database, which should hold data about BSDs, then the list of attributes is critical; you would fail if you freely chose attributes, which is what you could in fact do, if you thought that the initial definition was the only definition of BSD. But it isn�t, and there is that list of attributes.
 
-Consider this, now, from a different perspective. Suppose that there was no one-sentence definition of BSD. You only had the list of attributes. Would that count as a definition of BSD? Clearly the list of attributes wold be good enough as an intensional definition of BSD.
+Let's take a different perspective. Suppose that you did not have that one-sentence definition of BSD. You only had the list of attributes. Would that count as a definition of BSD? Clearly the list of attributes wold be good enough as an intensional definition of BSD.
 
 In conclusion, we have two definitions of BSD. Both are intensional, and they only overlap on one property, that BSD is set up at a specific POP.
 
 This, then, seems to be an easy case. The second definition adds properties to, and is not in conflict with the first. One is short, the other longer, and both can be kept. You use the short one, until or unless more details are needed.
 
-One thing to be careful about, is to be sure both definitions are about the same extension, about the same set of instances. It is easy to mix the real and the virtual. The first definition could be read both as being about actual BSDs, the shelves or such, which are tangible things, to be found at points of sale. The second definition could also be read as an intensional definition of tangible BSDs. Both definitions could also be read as being about representations of BSDs, that will exist not as tangible objects, but as data recorded in a database. 
+One thing to be careful about, is to be sure both definitions are about the same extension, about the same set of instances. It is easy to mix the real and the virtual. The first definition could be read both as being about actual BSDs, the shelves or such, which are tangible things, to be found at points of sale. The second definition could also be read as an intensional definition of tangible BSDs. Both definitions could also be read as being about representations of BSDs, that will exist not as tangible objects, but as data recorded in a database.
 
-Is the second definition still an extension of the first? If you carefully read the definition of Shop Display, it says that a Shop Display is an object at a POP, not a representation of that object. Could all properties in the second definition be properties of Shop Displays as objects, not representations? It seems so; even the status can be written down on the actual shop display, on a sticker placed on that display. But notice that the second definition is written as a requirement for a system that manages data about actual shop displays; it follows that the second definition is not one of shop displays as objects, but of their representations in or by software. 
+Is the second definition still an extension of the first? If you carefully read the definition of Shop Display, it says that a Shop Display is an object at a POP, not a representation of that object. Could all properties in the second definition be properties of Shop Displays as objects, not representations? It seems so; even the status can be written down on the actual shop display, on a sticker placed on that display. But notice that the second definition is written as a requirement for a system that manages data about actual shop displays; it follows that the second definition is not one of shop displays as objects, but of their representations in or by software.
  
 This distinction, of one definition being about objects and the other about their representations, needs to be clear. It follows that terms should not be identical. There is a Basic Shop Display, and its definition is the short one, and there is a Basic Shop Display Representation, or Basic Shop Display Record, which is what that list of attributes defines. 
 
-Clarifying this is important. There is no need to confuse actual shop displays with the data which represents them. The data will usually be only about some physical properties of the objects, such as dimensions, but not all physical properties, and there will be properties which are meaningful only through object use and purpose, and are not observable on any particular instance. Examples of the latter, for a Basic Shop Display, are the photo, and the position on the floor of a point of purchase, if that position is the desired one (the actual is observable, and it could differ from the intended one). 
+Clarifying this is important. There is no need to confuse actual shop displays with the data which represents them. The data will usually be only about some physical properties of the objects, such as dimensions, but not all physical properties, and there will be properties which are meaningful only through object use and purpose, and are not observable on any particular instance. Examples of the latter, for a Basic Shop Display, are the photo, and the position on the floor of a point of purchase, if that position is the desired one (the actual is observable, and it could differ from the intended one).
 
-Sometime after the initial attributes of BSDs were identified, it seemed useful to have, on each BSD, a machine readable marker, such as a barcode or QR code. Anyone with the appropriate scanning device, and secure connection to the database of BSD Representations, would be able to scan the marker and retrieve the attributes of the BSD Representation associated with that BSD. Specifically, the following requirement was added.
+Sometime after the initial attributes of BSDs were identified, it seemed useful to have, on each BSD, a machine readable marker - a barcode or QR code. Anyone with the appropriate scanning device, and secure connection to the database of BSD Representations, would be able to scan the marker and retrieve the attributes of the BSD Representation associated with that BSD. Specifically, the following requirement was added.
 
-When adding (and, as relevant, changing) the BSD data, a QR code should be automatically generated and be downloadable by the relevant Shop Display Supplier as an image, so that it can be printed. The image containing the generated QR code should also - when created - be automatically emailed to the Shop Display Supplier.
+> "When adding (and, as relevant, changing) the BSD data, a QR code should be automatically generated and be downloadable by the relevant Shop Display Supplier as an image, so that it can be printed. The image containing the generated QR code should also - when created - be automatically emailed to the Shop Display Supplier."
 
 How does this change the earlier definition of a BSD Representation? What is clear, is that it mentions a new attribute, the QR code for the instance. Further, it introduces images showing QR codes, says that they need to be automatically made, downloadable, and emailed to specific roles. While the attribute, identifying the QR code, is one more of BSD Representation�s attributes, the rest are not attributes. They are properties of another representation, for QR codes associated to BSD representations. But they do provide more details on BSD Representations � it is not the same to know only that a BSD Representation has a QR code, without knowing how a QR code is used, and to know how that QR code is used. 
 
-This is what I mean by a distributed definition. We have one definition of BSD Representation, the earlier list of attributes. We then added one more attribute via a requirement for the software that manages BSD Representations. Furthermore, that requirement described what the QR code is to be made, and what it should be used for. Overall, we have more about BSD Representations, and the practical question is how to update the original BSD Representation�s definition to accommodate the new information.
+This is what I mean by a _distributed definition_. We have one definition of BSD Representation, the earlier list of attributes. We then added one more attribute via a requirement for the software that manages BSD Representations. Furthermore, that requirement described what the QR code is to be made, and what it should be used for. Overall, we have more about BSD Representations, and the practical question is how to update the original BSD Representation�s definition to accommodate the new information.
 
 One approach is to try to rewrite the original definition, and include all new information in it. This is clearly impractical, because there is no guarantee that we know, by this point, all there is to know and that is relevant for BSD Representations. Instead, we can have more changes, attributes removed, new ones added, and more information about what is to be done with BSD Representations. Consider the following description of how a BSD Representation should be added.
 
-Steps:
-* The Shop Display Supplier can access SDM only through the Web interface of SRN; the Shop Display Supplier logs into the SRN;
-* The Shop Display Supplier clicks on the link Add new BSD;
-* SDM shows the list of BSD templates; Shop Display Supplier can choose one or none of the BSD templates;
-* SDM shows the input fields (filled out and editable in case the Shop Display Supplier chose a BSD template) needed to record the following attributes (unless specified otherwise, the fields are mandatory):
-a. Unique name;
-b. Description (free non-rich text);
-c. Dimensions (Width, Height, Depth);
-d. Documentation [optional field];
-e. Status;
-f. Location;
-g. Product category;
-* SDM generates and displays:
-a. The QR code for the BSD; the Shop Display Supplier can download the QR code in the JPG format;
-b. The SDID for the BSD.
+> Steps:
+> * The Shop Display Supplier can access SDM only through the Web interface of SRN; the Shop Display Supplier logs into the SRN;
+> * The Shop Display Supplier clicks on the link Add new BSD;
+> * SDM shows the list of BSD templates; Shop Display Supplier can choose one or none of the BSD templates;
+> * SDM shows the input fields (filled out and editable in case the Shop Display Supplier chose a BSD template) needed to record the following attributes (unless specified otherwise, the fields are mandatory):
+>   * Unique name;
+>   * Description (free non-rich text);
+>   * Dimensions (Width, Height, Depth);
+>   * Documentation [optional field];
+>   * Status;
+>   * Location;
+>   * Product category;
+> * SDM generates and displays:
+>   * The QR code for the BSD; the Shop Display Supplier can download the QR code in the JPG format;
+>   * The SDID for the BSD.
 
 With this, we discover that there are templates for BSD Representations, that some data about a BSD Representation must be provided when it is created (that data is mandatory), that BSD Representations can be added by Shop Display Suppliers. None of this is in the original definition, yet tells us more about BSD Representations.
 
@@ -1229,12 +1262,9 @@ If innovation languages were formal languages (which they are not), I would have
 
 The practical implication of this, is that you will have a rather poor innovation language if it looks simply like a terminology. It is a richer structure, which is the topic for the next Chapter.
 
+## 19 Structuring Innovation Languages
 
-
-
-XV Structuring Innovation Languages
-
-In this Chapter, I ascribe a structure to innovation languages. I describe and discuss it. I start from the simplest ones, present their structure, and explain why richer structures are needed, and what they look like. I discuss how these structures are related to established ideas in knowledge representation.
+In this Chapter, I ascribe a structure to innovation languages. I describe that structure and discuss it. I start from the simplest ones, present their structure, and explain why richer structures are needed, and what they look like. I discuss how these structures are related to established ideas in knowledge representation.
 
 The simplest innovation languages are sets of definitions. Each definition has two parts, the definiendum, which is the term being defined, and the definiens, which is the definition. The purpose of a definition, is to tell its user how to recognize instances of the defined term.
 
