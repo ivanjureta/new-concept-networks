@@ -1517,11 +1517,18 @@ Strongly connected components can also be quite different. One may be more dense
 
 This helps with two kinds of decisions during innovation. Have we looked well enough at a specific part of the problem and solution? Or why have we not looked more into this or that part of the problem and solution? Underdeveloped strongly connected components are those to consider when asking these questions. Then, there is the always hard question of identifying the smallest part of the solution to push out of the innovation process as mature enough for validation against a target audience. This is often called the minimum viable product. The defnet is not going to say what that is, but it should correspond to well developed connected components of the defnet. -->
 
-
 ## 18 Distributed Definitions
 
+So far, a term dependency network was made from term and definition pairs. This corresponds to what we usually take definitions to be, a definiendum and definiens pair. The expectation is that the definiens is sufficient to have a clear enough understanding of what definiendum designates. 
 
-So far, a term dependency network was made from term and definition pairs. What if we now make descriptions of how things work, and mention these terms? Where do we fit the information from these descriptions, if information adds to or changes the definition? Are they part of the innovation language? Are they something to put in a term dependency network? 
+Can a definition hold all there is to say about the definiendum, especially if that adds to the definiens? There are two cases to think about. Either the definition is all there is to say about the term it defines, or there is a definition and there is more being said, outside the definiens, about the definiendum. 
+
+Definitions of abbreviations are in the first case. UN stands for United Nations, USA for United States of America, and so on. It applies, more generally, when the definiendum can be replaced, without any loss, by the definiens. But it is likely to work well only when the definition establishes equivalence at the level'of syntax. 
+
+The second case is 
+
+
+What if we now make descriptions of how things work, and mention these terms? Where do we fit the information from these descriptions, if information adds to or changes the definition? Are they part of the innovation language? Are they something to put in a term dependency network? 
 
 
 These are questions about how an innovation language is related to descriptions, explanations, predictions, and prescriptions which use its terms. Is a description of some aspect of the innovation, a definition of that innovation, a part of that definition, or something else altogether, detached from the language?
