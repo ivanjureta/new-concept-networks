@@ -1,5 +1,0 @@
-Field Merchandiser uses 2 terms.
-| Term               | Uses               |
-|:-------------------|:-------------------|
-| Field Merchandiser | Point of Purchase  |
-| Field Merchandiser | Field Merchandiser |

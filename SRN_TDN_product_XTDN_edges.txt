@@ -1,6 +1,0 @@
-| Internal Term      | External Term   |
-|:-------------------|:----------------|
-| Shop Display       | product         |
-| Point of Purchase  | product         |
-| Field Merchandiser | product         |
-| POP Personnel      | product         |

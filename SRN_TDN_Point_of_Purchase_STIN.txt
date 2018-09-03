@@ -1,8 +1,0 @@
-Point of Purchase is used in 5 terms.
-| Term               | Uses              |
-|:-------------------|:------------------|
-| Report             | Point of Purchase |
-| Shop Display       | Point of Purchase |
-| Field Merchandiser | Point of Purchase |
-| POP Personnel      | Point of Purchase |
-| POP Data           | Point of Purchase |
