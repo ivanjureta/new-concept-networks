@@ -1519,28 +1519,27 @@ This helps with two kinds of decisions during innovation. Have we looked well en
 
 ## 18 Distributed Definitions
 
-So far, a term dependency network was made from term and definition pairs. This corresponds to what we usually take definitions to be, a definiendum and definiens pair. The expectation is that the definiens is sufficient to have a clear enough understanding of what definiendum designates. 
+So far, a term dependency network was made from term and definition pairs. This corresponds to how definitions look like in encyclopedia and technical literature. Taken as a whole such a definition should be enough to get some understanding of what the definiendum designates.
 
-Can a definition hold all there is to say about the definiendum, especially if that adds to the definiens? There are two cases to think about. Either the definition is all there is to say about the term it defines, or there is a definition and there is more being said, outside the definiens, about the definiendum. 
+Can a definition hold all there is to say about the definiendum, especially if that adds to the definiens? There are two cases to think about. Either the definition is all there is to say about the definiendum, or there is a definition and there is more information, which is outside the definition, but which tells us more about the definiendum. 
 
-Definitions of abbreviations are in the first case. UN stands for United Nations, USA for United States of America, and so on. It applies, more generally, when the definiendum can be replaced, without any loss, by the definiens. But it is likely to work well only when the definition establishes equivalence at the level'of syntax. 
+Definitions of abbreviations are an example from the first case. UN stands for United Nations, USA for United States of America, and so on. This applies, more generally, when the definiendum can be replaced, without any loss, by the definiens. But it is likely to work well only when the definition establishes equivalence of two strings of symbols, that is, when the ambition of the definition is to equate at the level of syntax. It could be argued that those equivalences are not definitions, at least not those we talked about so far.
 
-The second case is 
+The second case is one where the definiendum is described by the definiens. Both intensional and extensional definition can be in this case. The extensional approach, unless the definition enumerates all examples there are, is going to involve instances which are not listed in the definiens. The more instances there can be, the less likely will they be enumerated. If the intensional approach fails to identify all properties, if some properties are attributed to the definiendum outside the definition, then we are in that second case again.
 
-
-What if we now make descriptions of how things work, and mention these terms? Where do we fit the information from these descriptions, if information adds to or changes the definition? Are they part of the innovation language? Are they something to put in a term dependency network? 
-
+What if we now make descriptions of how things work, and mention terms we defined? Where do we fit the information from these descriptions, if information adds to or changes the definition? Are they part of the innovation language? Are they something to put in a term dependency network? 
 
 These are questions about how an innovation language is related to descriptions, explanations, predictions, and prescriptions which use its terms. Is a description of some aspect of the innovation, a definition of that innovation, a part of that definition, or something else altogether, detached from the language?
 
-
-Let's illustrate that with examples, to make it clearer. Is the specification of an algorithm for search, part of the definition of the term "search result"? Is the law that uses the term "terrorism" and its definition part of the definition of the term "terrorism"? Can we, in other words, ignore how the term "terrorism" is used in law on terrorism, when we try to define the term "terrorism" in that law? Does it matter to know the details of a search algorithm, to know what a "search result" is?
-
+Let's rephrase these questions. Is the specification of an algorithm for search, part of the definition of the term "search result"? Is the law that uses the term "terrorism" and its definition part of the definition of the term "terrorism"? Can we, in other words, ignore how the term "terrorism" is used in law on terrorism, when we try to define the term "terrorism" in that law? Does it matter to know the details of a search algorithm, to know what a "search result" is?
 
 There is neither a simple, nor a generally satisfactory answer to these questions.
 
 
+
 It should depend on the kinds of decisions you need to make, and if knowing or not all I mentioned makes a difference in what you would decide to do. Not terribly helpful, is it?
+
+
 
 
 Despite various ways to go about this, a simple approach is to think of it all as of Lego bricks, and of things you make by putting them together. You have some basic, simplest pieces, those you cannot break further. Then, there are things you make by putting many of those together. So you have some basic pieces, and all the rest. 
