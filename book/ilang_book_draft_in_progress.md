@@ -2120,5 +2120,5 @@ The relationship �in� can be used whenever we need to look at part of the co
 3. If POPP know products better, POPP will sell them better.
 4. If POPP use SRN to learn more about products, then POPP will sell products better.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTkxODM5NF19
+eyJoaXN0b3J5IjpbLTIwMjU5Mjc3OTZdfQ==
 -->
