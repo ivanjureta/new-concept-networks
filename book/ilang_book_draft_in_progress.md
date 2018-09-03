@@ -690,7 +690,7 @@ Here is a summary of how definitions depend on other terms in the innovation lan
 
 The Figure below shows the dependencies as a graph, called the term dependency network. It has 15 nodes and 21 edges.
 
-![](ilang-book-images/SRN_TDN_graph.png?raw=true)
+![](book_images/SRN_TDN_graph.png?raw=true)
 
 How does this diagram help? One way to read it, is that it shows dependencies. A term's definition depends on another's. This dependency view of an innovation language gives three types of nodes: inner, stops, and outer.
 
@@ -736,7 +736,7 @@ Doing the same analysis as above, the term dependency network has 157 nodes, one
 
 The following Figure shows one possible visualization of the term depednency network, for the Glossary of World Heritage Terms.
 
-![](ilang-book-images/UN_GWHT_tdn.png?raw=true)
+![](book_images/UN_GWHT_tdn.png?raw=true)
 
 With large dependency networks, only interactive visualization can be of any use, and tools such as Gephi and Cytoscape are relevant. See: 
 * [[Bastian, Mathieu, Sebastien Heymann, and Mathieu Jacomy. "Gephi: an open source software for exploring and manipulating networks." Icwsm 8.2009 (2009): 361-362.]](http://www.aaai.org/ocs/index.php/ICWSM/09/paper/download/154/1009), and
@@ -1036,7 +1036,7 @@ By doing the above, you identify terms which are often depended on, but not part
 
 Visually, this means adding most frequent external terms as new nodes in the graph, then deciding if they should stay as new nodes or not. The following subgraph plots all internal terms which depend on "inclusion".
 
-![](ilang-book-images/UN_GWHT_TDN_inclusion_XTDN.png?raw=true)
+![](book_images/UN_GWHT_TDN_inclusion_XTDN.png?raw=true)
 
 We can go back to the Smart Retail Network case, for a smaller sized example. The following table shows the frequency of external terms.
 
@@ -1091,7 +1091,7 @@ Term blowup is useful when deciding the scope of the innovation language. The ai
 
 With blow up, you widen the scope of the language by including external terms which are frequent and prone to misinterpretation. The following Figure shows two sets of nodes - those in light grey are internal terms of the Smart Retail Network innovation language (Shop Display Identifier, SRN, POP Data, and so on), while those in white are external terms (displays, products, used, individual, among others).  Arrows point from internal terms to external terms, so that if an arrow goes from "software" to "SRN", this means that the definiens of SRN includes the term "software".
 
-![](ilang-book-images/SRN_TDN_BUTDN_graph.png?raw=true)
+![](book_images/SRN_TDN_BUTDN_graph.png?raw=true)
 
 Should "products" be included inside the innovation language? Should "individual"? How about "visiting"?
 
