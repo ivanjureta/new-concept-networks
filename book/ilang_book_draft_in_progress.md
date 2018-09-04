@@ -430,7 +430,7 @@ The fourth important idea is that there are benefits to having draft, or rough t
 This is really the only difference between a technical and a innovation language. Innovation languages include terms which are not necessarily a reflection of agreed or stable knowledge. A innovation language looks like a rough, draft technical language, something that can become, or has parts which can become a technical language.
 
 
-## Why Innovation Languages are Interesting Now
+## 9 Why Innovation Languages are Interesting Now
 
 
 Technical languages have been around as long as there was a need to convey complex ideas in a precise, accurate and clear way. Medical knowledge in Ancient Greece developed its own language. It is hard to argue against the need to make and the practicality of using technical languages. Would they have been around for that long, if there were no strong merits?
@@ -490,7 +490,7 @@ If we need to be precise in software code, to make sure it does what we want it 
 The language becomes the backbone for task descriptions, later in software specification documents. The software itself used these terms, not only in its user interface, but in code, as classes, relationships, methods designed into the software followed the innovation language.
 
 
-## 9 New Ideas Use both Old and New Words
+## 10 New Ideas Use both Old and New Words
 *Chapter summary: On the relationship between new words and old words in a innovation language, how old words build up definitions of new ones.*
 
 
