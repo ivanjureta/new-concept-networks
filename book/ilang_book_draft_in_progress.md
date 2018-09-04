@@ -619,7 +619,7 @@ Going back to takeaways, these examples illustrated how a definition, even of a 
 New ideas need new words. At the same time, new words are anchored in old ones.
 
 
-## 10 Definitions Record Choices
+## 11 Definitions Record Choices
 
 
 *Chapter summary: How the design of a innovation language reflects our problem-solving and decision-making.*
@@ -737,7 +737,7 @@ As he puts it, the term "globalization" links the old and the new (label [A] in 
 > "Through its various connotations, the concept of globalization functions as [A: a mediating link between the modern world with its crusty social ontology and the brave new world that remains inaccessible and unintelligible not only to the subscribers to that ontology but also to the believers in global change as well]. Not only is globalization a moving target for social inquiry, but it also [B: signifies the movement of that inquiry itself]. The concept of globalization thus makes modern political experience meaningful while simultaneously releasing political expectation from the strictures that the very meaningfulness of this experience has imposed on political imagination. It does so through a double gesture: by [C: projecting expectations onto the global while simultaneously making those expectations constitutive of globality as a point of reference and convergence]. In this respect, the logic of the concept of globalization resembles that of the concepts of civilization and revolution as they were shaped before and during the French Revolution: [D: these concepts also lacked stable referents, but functioned as vehicles of social change by signifying change in its purest, most necessary and irreversible form: change as the condition of possible objects and possible identities in a possible future]. And like these concepts, globalization does not represent a mere prognosis for the future, but a prophecy in quest for self-fulfillment. So far from being here to stay, the metaphors of globalization will perhaps die when the concept has fulfilled its destabilizing task, that is, [E: when globalization has become something that goes without saying and therefore no longer stands in need of being spoken about]." [[Bartelson, Jens. "Three concepts of globalization." International Sociology 15.2 (2000): 180-196.]](http://journals.sagepub.com/doi/abs/10.1177/0268580900015002003)
 
 
-## 11 Definitions Make Choices
+## 12 Definitions Make Choices
 _Chapter summary: On how definitions make it easy do do some things, and hard to do others._
 
 
@@ -912,7 +912,7 @@ These three dimensions are orthogonal. Your level on one has no relationship to 
 But what if choices in one definition are linked to choices in others? That requires a different view of an innovation language, presented in the next Chapter.
 
 
-## 12 Language as Network
+## 13 Language as Network
 _Chapter summary: On relationships between definitions in an innovation language, how they lead to a network representation of the language, and why that is useful._
 
 
@@ -1037,7 +1037,7 @@ With large dependency networks, only interactive visualization can be of any use
 * [[Shannon, Paul, et al. "Cytoscape: a software environment for integrated models of biomolecular interaction networks." Genome research 13.11 (2003): 2498-2504.]](https://genome.cshlp.org/content/13/11/2498.short)
 
 
-## 13 Evaluating a Term's Importance
+## 14 Evaluating a Term's Importance
 Are all terms in a language equally important? Some are more frequently used than others. Use, here, can be measured by the number of times a term is mentioned in definitions of other terms in the language. An alternative is to look at the number of times a term gets mentioned in artifacts that use the innovation language, such as technical specifications, recorded communication between team members, and so on.
 
 
@@ -1084,7 +1084,7 @@ For analyses of this definition's merits and limitations, see:
 * [[Labadi, Sophia. "World Heritage, authenticity and post-authenticity: international and national perspectives." Heritage and globalisation. Routledge, 2010. 80-98.]](https://www.taylorfrancis.com/books/e/9781136965272/chapters/10.4324%2F9780203850855-12).
 
 
-## 14 Evaluating a Term's Sensitivity to Change
+## 15 Evaluating a Term's Sensitivity to Change
 If a term X depends on many others in an innovation language, their changes will affect how X is understood, even if the definition of X remains syntactically the same.
 
 
@@ -1134,7 +1134,7 @@ Low or high sensitivity are not inherently good or bad. They are signals that tr
 If a term has low sensitivity, it sits at the boundary of the innovation language. It uses little from that language. A boundary term begs questions of scope, of the innovation language, which we look at later. If a term has high sensitivity, it leans substantially on the rest of the terms of that innovation language.
 
 
-## 15 Importance and Change Sensitivity Together
+## 16 Importance and Change Sensitivity Together
 We can focus on a specific term, and look at its importance and change sensitivity. In the Glossary of World Heritage Terms, "Cultural heritage" is used in 18 terms, listed in the table below. The table shows which terms need to be reviewed, when "Cultural heritage" definition changes. The review should ensure that changes to "Cultural heritage" do not produce inconsistency with the definitions of these notions.
 
 
@@ -1263,7 +1263,7 @@ This variant was published in "Operational Guidelines for the Implementation of 
 <!-- Stopped here on Aug 27 -->
 
 
-## 16 Blowing Definitions Up
+## 17 Blowing Definitions Up
 
 
 An interesting analysis to do with dependencies is to blow up the definition of each term.
@@ -1441,7 +1441,7 @@ Removing Internal Terms and their sub-terms, we get the following.
 
 
 
-## 17 Managing Language Scope
+## 18 Managing Language Scope
 _This Chapter is about deciding which external terms to promote into the innovation language._ 
 
 
@@ -1517,47 +1517,33 @@ Strongly connected components can also be quite different. One may be more dense
 
 This helps with two kinds of decisions during innovation. Have we looked well enough at a specific part of the problem and solution? Or why have we not looked more into this or that part of the problem and solution? Underdeveloped strongly connected components are those to consider when asking these questions. Then, there is the always hard question of identifying the smallest part of the solution to push out of the innovation process as mature enough for validation against a target audience. This is often called the minimum viable product. The defnet is not going to say what that is, but it should correspond to well developed connected components of the defnet. -->
 
-## 18 Distributed Definitions
+## 19 Distributed Definitions
 
 If a definition is a pair made of a definiendum and definiens, then consider this simple question: Does the definiens always amount to a few sentences, perhaps paragraphs? Can we always say enough about the definiendum, in a self-contained, neatly packaged definiens, which looks like an encyclopedia entry? The answer is indeed the negative, but what are the implications of that negative? How do you decide where the definiens starts and stops, and what is in, and what lays outside of it?
 
-What I call a "distributed definition" in this chapter, is a definition where a definiendum is defined accross varius artefacts, in different places. The definiens thus is not a tidy whole. There is no way, in a distributed definition, to synthesize the definiens into a few lines, as we want to do in glossaries for example. Instead, if you want the definiens, you need to piece it together across various locations, so to speak. 
+What I call a _distributed definition_ in this chapter, is a definition where the definiendum is in pieces, and these are across varius artefacts. Parts of the definiendum are in one place, parts are elsewhere. The definition is not a tidy whole. There is no way, in a distributed definition, to synthesize the definiens into a few lines, as we want to do in glossaries for example. Instead, if you want the definiens, you need to piece it together across various locations, so to speak.
 
-So far, a term dependency network was made from term and definition pairs. This corresponds to how definitions look like in encyclopedia and technical literature. Taken as a whole such a definition should be enough to get some understanding of what the definiendum designates.
+So far, a term dependency network was made from term and definition pairs. This corresponds to how definitions usually look like, in glossaries, encyclopedia, technical literature, among others.
 
-Can a definition hold all there is to say about the definiendum, especially if that adds to the definiens? There are two cases to think about. Either the definition is all there is to say about the definiendum, or there is a definition and there is more information, which is outside the definition, but which tells us more about the definiendum. 
+Can a definition hold all there is to say about the definiendum, especially if that adds to the definiens? There are two cases to think about. Either the definition is all there is to say about the definiendum, or there is a definition and there is more information, which is outside the definition, but which tells us more about the definiendum.
 
 Definitions of abbreviations are an example from the first case. UN stands for United Nations, USA for United States of America, and so on. It is not that the abbreviation describes or tells you much more about what UN or USA are. This applies, more generally, when the definiendum can be replaced, without any loss, by the definiens. But it is likely to work well only when the definition establishes equivalence of two strings of symbols, that is, when the ambition of the definition is to equate at the level of syntax. We could even argue that those equivalences are not definitions, at least not those we talked about so far.
 
-The second case is one where the definiendum is described by the definiens. In an extensional definition, unless the definition enumerates all instances there are, there are going to be instances which are left out. The more instances there can be, the less likely for all of them to be enumerated. As we said before, the extensional definition is going to give a sample of instances, not list them all. 
+The second case is one where the definiendum is described by the definiens. In an extensional definition, unless the definition enumerates all instances there are, there are going to be instances which are left out. The more instances there can be, the less likely for all of them to be enumerated. As we said before, the extensional definition is going to give a sample of instances, not list them all.
 
 If the intensional approach fails to identify all properties, if some properties are attributed to the definiendum outside the definition, then we are in that second case again.
 
-But this problem of distributed definitions is not only about practicality - that we do not want to list all instances, or all properties. There is more to it. A term's use defines it, and that thought has quite some ramifications. 
+But this problem of distributed definitions is not only about practicality - that we do not want to list all instances, or all properties. There is more to it. A term's use defines it, and that thought has quite some ramifications.
 
-What if we have a glossary that has a short definition of "internal combusion engine", and then we have a detailed description of how internal combustion engines work in general? Is that description of how they work part of the definition? Where do we fit the information from these descriptions, if information adds to or changes the definition? Are they part of the innovation language? Are they something to put in a term dependency network? 
+What if we have a glossary that has a short definition of "internal combusion engine", and then we have a detailed description of how internal combustion engines work in general? Is that description of how they work part of the definition? Where do we fit the information from these descriptions, if information adds to or changes the definition? Are they part of the innovation language? Are they something to put in a term dependency network?
 
 These are questions about how an innovation language is related to descriptions, explanations, predictions, and prescriptions which use its terms. Is a description of some aspect of the innovation, a definition of that innovation, a part of that definition, or something else altogether, detached from the language?
 
 Let's rephrase these questions. Is the specification of an algorithm for search, part of the definition of the term "search result"? Is the law that uses the term "terrorism" and its definition part of the definition of the term "terrorism"? Can we, in other words, ignore how the term "terrorism" is used in law on terrorism, when we try to define the term "terrorism" in that law? Does it matter to know the details of a search algorithm, to know what a "search result" is?
 
-There is no simple answer. Two ideas are important - one, that 
+There is no simple answer. 
 
-
-
-
-
-
-
-It should depend on the kinds of decisions you need to make, and if knowing or not all I mentioned makes a difference in what you would decide to do. Not terribly helpful, is it?
-
-
-
-
-Despite various ways to go about this, a simple approach is to think of it all as of Lego bricks, and of things you make by putting them together. You have some basic, simplest pieces, those you cannot break further. Then, there are things you make by putting many of those together. So you have some basic pieces, and all the rest. 
-
-
-For a simple example, let's think of giraffes. There is, in English, the term "giraffe" and its plural. That term is part of the English language (roughly speaking, since there are  variants of English, but that does not make a difference in this example). Is the definition of "giraffe", and which, also part of English, the natural language? If that definition is written using terms which are already part of English, and is written according to English grammar, then giraffe's definition can be written in English, but is it part of the language? 
+Take giraffes for illustration. There is, in English, the term "giraffe" and its plural. That term is part of English (roughly speaking, since there are variants of English, but that does not make a difference in this example). Now, is the definition of "giraffe", and which, also part of English, the natural language? If that definition is written using terms which are already part of English, and is written according to English grammar, then giraffe's definition can be written in English, but is it part of the language?
 
 
 Let's suppose that the definition of giraffe cannot be conveyed using English, but that instead, you need to add new terms to English. Do you consider the technical languages of biological taxonomy, genetics, and so on, part of English? If yes, then English has the building blocks to make the definition of giraffe. If not, then it has to be enriched with new terms.
@@ -1699,7 +1685,7 @@ If innovation languages were formal languages (which they are not), I would have
 The practical implication of this, is that you will have a rather poor innovation language if it looks simply like a terminology. It is a richer structure, which is the topic for the next Chapter.
 
 
-## 19 Structuring Innovation Languages
+## 20 Structuring Innovation Languages
 
 
 In this Chapter, I ascribe a structure to innovation languages. I describe that structure and discuss it. I start from the simplest ones, present their structure, and explain why richer structures are needed, and what they look like. I discuss how these structures are related to established ideas in knowledge representation.
