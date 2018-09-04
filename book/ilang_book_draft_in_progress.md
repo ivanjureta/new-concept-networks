@@ -1519,21 +1519,33 @@ This helps with two kinds of decisions during innovation. Have we looked well en
 
 ## 18 Distributed Definitions
 
+If a definition is a pair made of a definiendum and definiens, then consider this simple question: Does the definiens always amount to a few sentences, perhaps paragraphs? Can we always say enough about the definiendum, in a self-contained, neatly packaged definiens, which looks like an encyclopedia entry? The answer is indeed the negative, but what are the implications of that negative? How do you decide where the definiens starts and stops, and what is in, and what lays outside of it?
+
+What I call a "distributed definition" in this chapter, is a definition where a definiendum is defined accross varius artefacts, in different places. The definiens thus is not a tidy whole. There is no way, in a distributed definition, to synthesize the definiens into a few lines, as we want to do in glossaries for example. Instead, if you want the definiens, you need to piece it together across various locations, so to speak. 
+
 So far, a term dependency network was made from term and definition pairs. This corresponds to how definitions look like in encyclopedia and technical literature. Taken as a whole such a definition should be enough to get some understanding of what the definiendum designates.
 
 Can a definition hold all there is to say about the definiendum, especially if that adds to the definiens? There are two cases to think about. Either the definition is all there is to say about the definiendum, or there is a definition and there is more information, which is outside the definition, but which tells us more about the definiendum. 
 
-Definitions of abbreviations are an example from the first case. UN stands for United Nations, USA for United States of America, and so on. This applies, more generally, when the definiendum can be replaced, without any loss, by the definiens. But it is likely to work well only when the definition establishes equivalence of two strings of symbols, that is, when the ambition of the definition is to equate at the level of syntax. It could be argued that those equivalences are not definitions, at least not those we talked about so far.
+Definitions of abbreviations are an example from the first case. UN stands for United Nations, USA for United States of America, and so on. It is not that the abbreviation describes or tells you much more about what UN or USA are. This applies, more generally, when the definiendum can be replaced, without any loss, by the definiens. But it is likely to work well only when the definition establishes equivalence of two strings of symbols, that is, when the ambition of the definition is to equate at the level of syntax. We could even argue that those equivalences are not definitions, at least not those we talked about so far.
 
-The second case is one where the definiendum is described by the definiens. Both intensional and extensional definition can be in this case. The extensional approach, unless the definition enumerates all examples there are, is going to involve instances which are not listed in the definiens. The more instances there can be, the less likely will they be enumerated. If the intensional approach fails to identify all properties, if some properties are attributed to the definiendum outside the definition, then we are in that second case again.
+The second case is one where the definiendum is described by the definiens. In an extensional definition, unless the definition enumerates all instances there are, there are going to be instances which are left out. The more instances there can be, the less likely for all of them to be enumerated. As we said before, the extensional definition is going to give a sample of instances, not list them all. 
 
-What if we now make descriptions of how things work, and mention terms we defined? Where do we fit the information from these descriptions, if information adds to or changes the definition? Are they part of the innovation language? Are they something to put in a term dependency network? 
+If the intensional approach fails to identify all properties, if some properties are attributed to the definiendum outside the definition, then we are in that second case again.
+
+But this problem of distributed definitions is not only about practicality - that we do not want to list all instances, or all properties. There is more to it. A term's use defines it, and that thought has quite some ramifications. 
+
+What if we have a glossary that has a short definition of "internal combusion engine", and then we have a detailed description of how internal combustion engines work in general? Is that description of how they work part of the definition? Where do we fit the information from these descriptions, if information adds to or changes the definition? Are they part of the innovation language? Are they something to put in a term dependency network? 
 
 These are questions about how an innovation language is related to descriptions, explanations, predictions, and prescriptions which use its terms. Is a description of some aspect of the innovation, a definition of that innovation, a part of that definition, or something else altogether, detached from the language?
 
 Let's rephrase these questions. Is the specification of an algorithm for search, part of the definition of the term "search result"? Is the law that uses the term "terrorism" and its definition part of the definition of the term "terrorism"? Can we, in other words, ignore how the term "terrorism" is used in law on terrorism, when we try to define the term "terrorism" in that law? Does it matter to know the details of a search algorithm, to know what a "search result" is?
 
-There is neither a simple, nor a generally satisfactory answer to these questions.
+There is no simple answer. Two ideas are important - one, that 
+
+
+
+
 
 
 
