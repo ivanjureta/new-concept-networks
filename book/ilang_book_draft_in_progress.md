@@ -1693,6 +1693,10 @@ The practical implication of this, is that you will have a rather poor innovatio
 ## 20 Structuring Innovation Languages
 
 
+If definitions are distributed, then a set of definitions is a poor way to think of a structure of an innovation language. One richer structure was to relate definitions with dependencies, which gave us term dependency networks, and ensuing interpretation of basic graph statistics in the context of innovation languages.
+
+The aim in this chapter is to be more precise about a structure that can be used to describe 
+
 In this Chapter, I ascribe a structure to innovation languages. I describe that structure and discuss it. I start from the simplest ones, present their structure, and explain why richer structures are needed, and what they look like. I discuss how these structures are related to established ideas in knowledge representation.
 
 
