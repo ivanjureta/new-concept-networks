@@ -1529,7 +1529,15 @@ Can a definition hold all there is to say about the definiendum, especially if t
 
 Definitions of abbreviations are an example from the first case. UN stands for United Nations, USA for United States of America, and so on. It is not that the abbreviation describes or tells you much more about what UN or USA are. This applies, more generally, when the definiendum can be replaced, without any loss, by the definiens. But it is likely to work well only when the definition establishes equivalence of two strings of symbols, that is, when the ambition of the definition is to equate at the level of syntax. We could even argue that those equivalences are not definitions, at least not those we talked about so far.
 
-The second case is one where the definiendum is described by the definiens. In an extensional definition, unless the definition enumerates all instances there are, there are going to be instances which are left out. The more instances there can be, the less likely for all of them to be enumerated. As we said before, the extensional definition is going to give a sample of instances, not list them all.
+The second case is one where the definiendum is described by the definiens. 
+
+A digression is needed. There are, generally speaking, two ways to define, and they can be combined. One is called _extensional definition_, and you use it when you define a term by giving its examples, any number of them. To be precise, you are giving the instances of the class or category that this term designates. This means that if I want to define a tree for you, I should show you trees, give you examples of kinds of trees, and so on. The other kind is the _intensional definition_, where I am defining a term by listing the necessary and sufficient properties or attributes each of its instances should have. Typically, we would say an instance of class, not of a term, but this is a detail that makes no difference here. This is what the Oxford English Dictionary does, when it defines a tree as follows.
+
+> Tree: A woody perennial plant, typically having a single stem or trunk growing to a considerable height and bearing lateral branches at some distance from the ground. [[OED: Tree]](https://en.oxforddictionaries.com/definition/tree)
+
+What attributes or properties does this mention? That a tree is a woody plant, that it has a single stem or trunk, that it has lateral branches, and so on.
+
+Back to the discussion. In an extensional definition, unless the definition enumerates all instances there are, there are going to be instances which are left out. The more instances there can be, the less likely for all of them to be enumerated. As we said before, the extensional definition is going to give a sample of instances, not list them all.
 
 If the intensional approach fails to identify all properties, if some properties are attributed to the definiendum outside the definition, then we are in that second case again.
 
@@ -1541,40 +1549,65 @@ These are questions about how an innovation language is related to descriptions,
 
 Let's rephrase these questions. Is the specification of an algorithm for search, part of the definition of the term "search result"? Is the law that uses the term "terrorism" and its definition part of the definition of the term "terrorism"? Can we, in other words, ignore how the term "terrorism" is used in law on terrorism, when we try to define the term "terrorism" in that law? Does it matter to know the details of a search algorithm, to know what a "search result" is?
 
-There is no simple answer. 
+There is no simple answer.
 
-Take giraffes for illustration. There is, in English, the term "giraffe" and its plural. That term is part of English (roughly speaking, since there are variants of English, but that does not make a difference in this example). Now, is the definition of "giraffe", and which, also part of English, the natural language? If that definition is written using terms which are already part of English, and is written according to English grammar, then giraffe's definition can be written in English, but is it part of the language?
+Take giraffes for illustration. The word "giraffe" is an English word; its plural is too. But is the definition of "giraffe" also part of English, the natural language?
 
+One way to look at this, is to ask, first, if the definiens of giraffe only includes English words, and can be written using English grammar. If not, then clearly the definiens of giraffe cannot be part of English.
 
-Let's suppose that the definition of giraffe cannot be conveyed using English, but that instead, you need to add new terms to English. Do you consider the technical languages of biological taxonomy, genetics, and so on, part of English? If yes, then English has the building blocks to make the definition of giraffe. If not, then it has to be enriched with new terms.
+But say that you have a definition of giraffe, which does follow English grammar, and uses only English words (it does not matter here which English you are thinking about). Is that definition part of English language, or is English used to write the definition, but the definition is not part of the language?
 
+This seems an easy answer - we certainly use language to make the definition, or better, we communicate the definition using a language. That perspective works, if we reduce language to syntax only.
 
-This gets us to the need to distinguish, however roughly, names from that which they are meant to refer to. In technical terms, and in formal languages, this is the question of reference.
+The problem is, of course, if there you have a definition of giraffe, and then someone else says, still in English, something about giraffes that your definition ignores, yet, seems, or is well justified. For example, it says something about there being a giraffe called April in New York City. Regardless of your original definition being intensional or extensional, this information, even if it is only new to you, gives an additional instance of giraffe. Someone else might tell you that, reticulated giraffes are the most frequently encountered giraffe in zoos worldwide, something you were not aware of. You might learn another fun fact, that female giraffes give birth standing up.
 
+The point is not that you should have known better, before giving an incomplete definition. You could, of course, add the new information to the definition. But that looks like a question of appearance, not substance - if you prefer to accumulate and arrange information in the same place, so to speak, akin to a Wikipedia page, or a manuscript on giraffes. The important point is, rather, that statements about the definiendum, which describe it, can be all over the place, and those making the definition may only be aware of some, and ignore, either willingly or accidentally all others. Needless to say that learning means new information will keep coming in, adding to, or changing what was thought to be appropriate descriptions. So statements about a definiendum are all over the place _and_ across time.
 
-You can look at innovation languages in the same way. In the simplest case, you have a term, and you have its definition. The definition helps you, its user, identify instances of that term, the ideas and things that this term is used to designate. That designation is needed so that you can be involved in communication about those designated ideas and things. In that sense, a definition is an instruction for how to identify, distinguish from everything else you have access to, instances of the thing that is defined.
+Two problems are intertwined so far in this chapter. The last one is about the place and time of pieces of definiens - when making a definition, some of these pieces we have, some we don't, and this could either be because they have not been discovered, or made yet, or because it is us who are not aware of them, while someone else is. A definiens is thus a bunch of pieces, some in, some elsewhere. Definiens, thus, is not only distributed across space, but also time, provided that knowledge of the definiendum changes over time, that learning happens.
 
+The earlier problem was whether a definiens is part of language. And the temporary solution, while I went on about the second problem, was that definiens is not, but that we use language to make it.
 
-So far, definitions I used, were a mix of plain English and terms specific to the innovation language. A definiens could include both external and internal terms. You define terms by putting together other terms, either from the innovation language itself (internal), or from one or more natural or technical languages that that the innovation language leans on (external). It is important to understand, then, that you do not define terms of the innovation language necessarily using only another language, but a mix of those and of the innovation language.
+Let's stick with that for the moment, and consider two cases. In one, definiens includes only words which already are part of the language. For instance, this is the OED definiens for giraffe:
 
+> "A large African mammal with a very long neck and forelegs, having a coat patterned with brown patches separated by lighter lines. It is the tallest living animal." [[OED: giraffe]](https://en.oxforddictionaries.com/definition/giraffe)
 
-Now, that may seem like a minor point, an insignificant difference. It is not. The fact that you can use terms of the innovation language to define other terms of that innovation language, and the fact that you can use these terms in explanations, descriptions, predictions, and so on, also means that the term's definition is no longer simply that one or few sentences you gave, but also all that you wrote as well, which involves that term. The understanding of that term hinges on understanding all its uses, and while this is elusive for natural language terms, it is not for innovation language terms - the whole point is, with innovation languages, to add new terms, new names for new ideas and things, and to define them. It is just that the definition is no longer simply one or few sentences given for that term, but the whole set of statements that uses this term. 
+To simplify, if OED was the universal reference list of all English words, then this definiens is made of English words alone. OED adds the following note, on the origin of the word:
 
+> "Late 16th century: from French girafe, Italian giraffa, or Spanish and Portuguese girafa, based on Arabic zarāfa. The animal was known in Europe in the medieval period, and isolated instances of names for it based on the Arabic are recorded in Middle English, when it was commonly called the camelopard." [[OED: giraffe]](https://en.oxforddictionaries.com/definition/giraffe)
+
+Is this now part of the definition of giraffe? That depends on whether you need it to be - do people who should use the definition know anything about, and agree on the origin of the word, for the decisions and actions they need to make? Let's say that they do, and so make word origin a part of the definiens above it. 
+
+The definition of giraffe is no longer in English only. This translates into innovation languages in a simple way, that if we need additional words, we add them - be they from another used or unused language (in which case we either use or promote them into the innovation language), or we invent new words. Instead of using one language, we use more, or we make them up. Needs for agreement, clarity, precision, and accuracy drive the process, rather than care for conventional boundaries between natural, technical, and other languages.
+
+But as we do that, as we add new terms to the innovation language, what if the meaning we want for these terms, that which the definiens should convey, is new too?
+
+Suppose, to continue with giraffes, that I give you the following definition.
+
+> A giraffe is a camelopard.
+
+Today, we use none of the languages which fall under the name Middle English. Based on that definition alone, could you recognize a giraffe when you saw one? Yes, because regardless of the present discussion, you were taught better defitions, and had better descriptions of, and perhaps saw live giraffes. 
+
+But let's say that we need to agree on the use of the term Alskdjfhg, and that I give you the following definition.
+
+> Alskdjfhg is a Qpwoeiruty.
+
+Since these two, as far as I know, do not exist, you have nothing to anchor them to, and so meaning is absent. That absence, importantly, means that if I ask you to go and get a Alskdjfhg, all you know is that you need to get a Qpwoeiruty, and that is equally useless.
+
+The takeaway is that meaning, whatever exactly it may be, cannot be disociated from the innovation language - it is not only terms and words used in definiens that make it up, it is the whole package, each definiendum and each definiens, at the very least. That was obvious before this chapter; what this chapter does, is that it extends an innovation language to cover not only the list of definitions, or the glossary, but also artifacts in which the terms in the language are used.
+
+That looks like a slippery slope, going from a list of definitions, to cover much more, and in fact, all uses of the terms defined in the list. But it is not clear where to stop on that slippery slope, or why. If meaning is made by use, as Wittgenstein seems to have argued, then this is what that looks like in the context of innovation languages. And this seems less odd, if we recall that the purpose of an innovation language is clear, precise, and accurate communication about new ideas and things - to accomplish it, we cannot only want to influence, or control the glossary. We have to worry about use as well, whenever and wherever use happens. Either because use will revise previous definiens, extend them, add to them, or becuase it will go against them in ways which are not desirable.
+
+The fact that you can use terms of the innovation language to define other terms of that innovation language, and the fact that you can use these terms in explanations, descriptions, predictions, and so on, also means that the term's definition is no longer simply that one or few sentences you gave, but also all that you wrote as well, which involves that term. The understanding of that term hinges on understanding all its uses, and while this is elusive for natural language terms, it is not for innovation language terms - the whole point is, with innovation languages, to add new terms, new names for new ideas and things, and to define them. It is just that the definition is no longer simply one or few sentences given for that term, but the whole set of statements that uses this term.
 
 Here is a first example. Recall that a Basic Shop Display was defined as follows.
 
-
 * Basic Shop Display (BSD): a Shop Display which cannot itself be subdivided.
-
 
 Shop Display had the following definition.
 
-
 * Shop Display: object installed at a POP, which is used to promote products; Shop Display is synonym with Fixture.
 
-
 As the team progressed in the innovation process, they identified the requirement that the software should hold up to date data about BSDs. This made it necessary to decide which data would be held about a BSD. They had the following.
-
 
 > A BSD is defined with the following attributes:
 > - SDID;
@@ -1599,62 +1632,36 @@ As the team progressed in the innovation process, they identified the requiremen
 > - Location, such as Warehouse, POP, etc.; SDM should allow the Analyst users to add/change/remove types of BSD Location;
 > - Capacity, being the number of products that the BSD can hold.
 
-
-The question for you is this: how do these attributes of a BSD relate to the earlier definition of the BSD? 
-
-
-A digression is necessary before we answer that question. There are, generally speaking, two ways to define, and they can be combined. One is called _extensional definition_, and you use it when you define a term by giving its examples, any number of them. To be precise, you are giving the instances of the class or category that this term designates. This means that if I want to define a tree for you, I should show you trees, give you examples of kinds of trees, and so on. The other kind is the _intensional definition_, where I am defining a term by listing the necessary and sufficient properties or attributes each of its instances should have. Typically, we would say an instance of class, not of a term, but this is a detail that makes no difference here. This is what the Oxford English Dictionary does, when it defines a tree as follows.
-
-
-> Tree: A woody perennial plant, typically having a single stem or trunk growing to a considerable height and bearing lateral branches at some distance from the ground. [[OED: Tree]](https://en.oxforddictionaries.com/definition/tree)
-
-
-What attributes or properties does this mention? That a tree is a woody plant, that it has a single stem or trunk, that it has lateral branches, and so on.
-
-
-With intensional and extensional definition in mind, we go back to the Basic Shop Display. What should we make of the relationship between its earlier, one-sentence definition, and the list of its attributes?
-
+The question for you is this: how do these attributes of a BSD relate to the earlier definition of the BSD? What should we make of the relationship between its earlier, one-sentence definition, and the list of its attributes?
 
 Consider what these two accounts of BSD are for. The earlier one, the one-sentence definition, is likely to be good enough for any lightweight communication about BSDs, during innovation. If you encountered the term Basic Shop Display, and did not need to know a lot about them, that initial definition would probably be useful.
-
 
 But if you had to design a database, or part of a broader database, which should hold data about BSDs, then the list of attributes is critical; you would fail if you freely chose attributes, which is what you could in fact do, if you thought that the initial definition was the only definition of BSD. But it isn�t, and there is that list of attributes.
 
 
 Let's take a different perspective. Suppose that you did not have that one-sentence definition of BSD. You only had the list of attributes. Would that count as a definition of BSD? Clearly the list of attributes wold be good enough as an intensional definition of BSD.
 
-
 In conclusion, we have two definitions of BSD. Both are intensional, and they only overlap on one property, that BSD is set up at a specific POP.
-
 
 This, then, seems to be an easy case. The second definition adds properties to, and is not in conflict with the first. One is short, the other longer, and both can be kept. You use the short one, until or unless more details are needed.
 
-
 One thing to be careful about, is to be sure both definitions are about the same extension, about the same set of instances. It is easy to mix the real and the virtual. The first definition could be read both as being about actual BSDs, the shelves or such, which are tangible things, to be found at points of sale. The second definition could also be read as an intensional definition of tangible BSDs. Both definitions could also be read as being about representations of BSDs, that will exist not as tangible objects, but as data recorded in a database.
 
-
 Is the second definition still an extension of the first? If you carefully read the definition of Shop Display, it says that a Shop Display is an object at a POP, not a representation of that object. Could all properties in the second definition be properties of Shop Displays as objects, not representations? It seems so; even the status can be written down on the actual shop display, on a sticker placed on that display. But notice that the second definition is written as a requirement for a system that manages data about actual shop displays; it follows that the second definition is not one of shop displays as objects, but of their representations in or by software.
- 
-This distinction, of one definition being about objects and the other about their representations, needs to be clear. It follows that terms should not be identical. There is a Basic Shop Display, and its definition is the short one, and there is a Basic Shop Display Representation, or Basic Shop Display Record, which is what that list of attributes defines. 
 
+This distinction, of one definition being about objects and the other about their representations, needs to be clear. It follows that terms should not be identical. There is a Basic Shop Display, and its definition is the short one, and there is a Basic Shop Display Representation, or Basic Shop Display Record, which is what that list of attributes defines.
 
 Clarifying this is important. There is no need to confuse actual shop displays with the data which represents them. The data will usually be only about some physical properties of the objects, such as dimensions, but not all physical properties, and there will be properties which are meaningful only through object use and purpose, and are not observable on any particular instance. Examples of the latter, for a Basic Shop Display, are the photo, and the position on the floor of a point of purchase, if that position is the desired one (the actual is observable, and it could differ from the intended one).
 
-
 Sometime after the initial attributes of BSDs were identified, it seemed useful to have, on each BSD, a machine readable marker - a barcode or QR code. Anyone with the appropriate scanning device, and secure connection to the database of BSD Representations, would be able to scan the marker and retrieve the attributes of the BSD Representation associated with that BSD. Specifically, the following requirement was added.
-
 
 > "When adding (and, as relevant, changing) the BSD data, a QR code should be automatically generated and be downloadable by the relevant Shop Display Supplier as an image, so that it can be printed. The image containing the generated QR code should also - when created - be automatically emailed to the Shop Display Supplier."
 
-
 How does this change the earlier definition of a BSD Representation? What is clear, is that it mentions a new attribute, the QR code for the instance. Further, it introduces images showing QR codes, says that they need to be automatically made, downloadable, and emailed to specific roles. While the attribute, identifying the QR code, is one more of BSD Representation�s attributes, the rest are not attributes. They are properties of another representation, for QR codes associated to BSD representations. But they do provide more details on BSD Representations � it is not the same to know only that a BSD Representation has a QR code, without knowing how a QR code is used, and to know how that QR code is used. 
-
 
 This is what I mean by a _distributed definition_. We have one definition of BSD Representation, the earlier list of attributes. We then added one more attribute via a requirement for the software that manages BSD Representations. Furthermore, that requirement described what the QR code is to be made, and what it should be used for. Overall, we have more about BSD Representations, and the practical question is how to update the original BSD Representation�s definition to accommodate the new information.
 
-
 One approach is to try to rewrite the original definition, and include all new information in it. This is clearly impractical, because there is no guarantee that we know, by this point, all there is to know and that is relevant for BSD Representations. Instead, we can have more changes, attributes removed, new ones added, and more information about what is to be done with BSD Representations. Consider the following description of how a BSD Representation should be added.
-
 
 > Steps:
 > * The Shop Display Supplier can access SDM only through the Web interface of SRN; the Shop Display Supplier logs into the SRN;
@@ -1672,9 +1679,7 @@ One approach is to try to rewrite the original definition, and include all new i
 >   * The QR code for the BSD; the Shop Display Supplier can download the QR code in the JPG format;
 >   * The SDID for the BSD.
 
-
 With this, we discover that there are templates for BSD Representations, that some data about a BSD Representation must be provided when it is created (that data is mandatory), that BSD Representations can be added by Shop Display Suppliers. None of this is in the original definition, yet tells us more about BSD Representations.
-
 
 The other approach, is to let a definition be distributed. A term is defined not only with a sentence or a few, but by the artifacts it is mentioned in. Above, these artifacts were specifications of requirements for a system that needed to be built. These artifacts, together with the original definition, act as a single definition of the BSD Representation, a distributed one. It is distributed, in the sense that there is no single sentence or paragraph, that acts as the sole definiendum for the term; it is now a potentially complex network of rules, instructions, descriptions, and so on, which mention that term, and tell us more about it.
 
