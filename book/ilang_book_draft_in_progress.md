@@ -1693,6 +1693,32 @@ The practical implication of this, is that you will have a rather poor innovatio
 ## 20 Structuring Innovation Languages
 
 
+This chapter comes out of two ideas discussed so far. One, we saw that it is possible to generate precisely defined structures, such as graphs, in order to highlight specific properties of an innovation language, then saying something about these properties by analyzing the graphs. Two, we saw that an innovation language does not amount only to a set of definitions - if we see it only as that, then we ignore that definitions, or more specifically, definiens of terms in the language, can be distributed.
+
+The aim in this chapter, is to map an innovation language to a richer structure, which lets us analyze more properties of the language than what we did in prior chapters. This is interesting not only because we want to do additional kinds of analysis, i.e., ask more questions and be able to answer them by computation over that richer structure. Having a precise structure, and procedures - algorithms - for its analysis, is in many cases the only way to say something abour relationships across terms in a complex innovation, or technical language; we saw that even something that looks manageable, like the 150+ term Glossary of World Heritage Terms, involves almost ten times more dependency relationships. A related benefit of a formal structure, is that it tells us how to organize (at a conceptual level) digital storage of an innovation language.
+
+The richer structure in question, is still a directed labeled graph. The difference now, relative to a term dependency network, is that there will be more relationship and node types, and from there, new things to say about the language by computing and looking at the graph's properties.
+
+The chapter works as follows. The first section maps a set of defnitions to a simple directed labeled graph. Each subsequent section adds new relationships and node types, shows how to map the content of the definition set to labeled edges and nodes, and which questions this helps us answer, and how about an innovation language.
+
+
+### 20.1 Defnition Network
+
+
+Suppose that you have a set of definitions. Each definition includes two parts, definiendum and definiens. This is the simplest structure. We will later look at how to deal with other items that can be found in glossaries, such as abbreviations of a definiendum, notes meant to complement the definiens, pointers to references outside the glossary, and so on. For now, we stick to the simplest case.
+
+A definition network is made by having, for each definiens and definiendum a node, 
+
+
+
+
+
+
+
+
+
+
+
 If definitions are distributed, then a set of definitions is a poor way to think of a structure of an innovation language. One richer structure was to relate definitions with dependencies, which gave us term dependency networks, and ensuing interpretation of basic graph statistics in the context of innovation languages.
 
 The aim in this chapter is to be more precise about a structure that can be used to describe 
