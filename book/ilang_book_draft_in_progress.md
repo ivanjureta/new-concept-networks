@@ -1702,15 +1702,27 @@ The richer structure in question, is still a directed labeled graph. The differe
 The chapter works as follows. The first section maps a set of defnitions to a simple directed labeled graph. Each subsequent section adds new relationships and node types, shows how to map the content of the definition set to labeled edges and nodes, and which questions this helps us answer, and how about an innovation language.
 
 
-### 20.1 Defnition Network
+### 20.1 Definition Networks
 
 
 Suppose that you have a set of definitions. Each definition includes two parts, definiendum and definiens. This is the simplest structure. We will later look at how to deal with other items that can be found in glossaries, such as abbreviations of a definiendum, notes meant to complement the definiens, pointers to references outside the glossary, and so on. For now, we stick to the simplest case.
 
-A definition network is made by having, for each definiens and definiendum a node, 
+A definition network is a directed graph that holds information that answers the following questions:
+* Which terms are defined? Or, in other words, which definienda are in the glossary?
+* For any defined term, what is its definition? That is, get the definiens of a given definiendum?
 
+The definintion network needs to be a directed graph, where:
+* For labels, we have:
+    * **Definienda** is the set of labels, each element is a definiendum;
+    * **Definientia** is the set of definiens labels, each element is a definiens;
+    * The Define relationship relates a definiens to its definiendum; for it, we need a label **Defines**, to be put on edges that instantiate the definition relationship, from a definiens to the corresponding definiendum;
+    * A single label **Definiendum**, on the node which represents the Term class, each definiendum being its instance;
+    * A single label **Definiens**, on the node which represents the Definiens class, each definiens being its instance;
+    * A single label **Is-a**, for edges which relate an instance node to the class node it instantiates.
+* There is a set **Nodes** of nodes which will carry labels;
+* There is a set of **Edges**, of edges to carry labels.
 
-
+A definition network is different than a term dependency network. The former simply captures, in a graph, the relationships between each definiens and definiendum, not across definientia or definienda. It is, however, a connected graph, as each definiens (instance) is going to be related to the Term class, and each definiendum to the Definiendum class.
 
 
 
