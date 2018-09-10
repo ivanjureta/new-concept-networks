@@ -1722,7 +1722,7 @@ The definintion network needs to be a directed graph, where:
 * There is a set **Nodes** of nodes which will carry labels;
 * There is a set of **Edges**, of edges to carry labels.
 
-A definition network is different than a term dependency network. The former simply captures, in a graph, the relationships between each definiens and definiendum, not across definientia or definienda. It is, however, a connected graph, as each definiens (instance) is going to be related to the Term class, and each definiendum to the Definiendum class.
+A definition network is different than a term dependency network. The former simply captures, in a graph, the relationships between each definiens and definiendum, not across definientia or definienda. It is a connected graph, as each definiens instance is going to be related to the Definiens class, and each definiendum to the Definiendum class.
 
 
 
