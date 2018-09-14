@@ -116,7 +116,7 @@ def format_node_labels(graph, sd, original_attribute, line_length, total_length)
                 fl[sd[i][original_attribute]] = shorten_string(add_line_breaks(sd[i][original_attribute], line_length), total_length)
     return fl
 
-# Offset node labels.
+# Offset positions of node labels, relative to node positions.
 # In: Node positions, offset_x and offset_y to add to x and y of each node's position.
 # Out: Offset positions dict.
 def offset_node_labels(node_pos, offset_x, offset_y):
@@ -151,3 +151,17 @@ def color_edge_by_target_node(graph, node_colors_dict):
     for o, d in graph.edges():
         edge_colors.append(node_colors_dict[d])
     return edge_colors
+
+# Draw a Relationship Network.
+def draw_rel_net(graph, node_positions, node_labels, node_colors, edge_labels, edge_colors, fig_w = 10, fig_h = 10, dpi_val = 90, fig_margin = 0.15):
+    import networkx as nx
+    import matplotlib
+    import matplotlib.pyplot as plt
+    from matplotlib.pyplot import figure
+    plt.figure(num=None, figsize=(fig_w, fig_h), dpi=dpi_val, facecolor='w')
+    plt.margins(fig_margin)
+    plt.axis('off')
+    nx.draw_networkx_nodes(graph, node_positions, node_color = list(node_colors.values()), node_shape = 'o', node_size = 20)
+    nx.draw_networkx_labels(graph, pos = pos_node_labels, labels = node_labels, font_size = 8)
+    nx.draw_networkx_edges(graph, node_positions, edge_color = edge_colors)
+    nx.draw_networkx_edge_labels(graph, node_positions, edge_labels = edge_labels, font_size = 8)
