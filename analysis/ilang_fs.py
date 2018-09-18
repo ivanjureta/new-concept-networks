@@ -153,7 +153,7 @@ def color_edge_by_target_node(graph, node_colors_dict):
     return edge_colors
 
 # Draw a Relationship Network.
-def draw_rel_net(graph, node_positions, node_labels, node_colors, edge_labels, edge_colors, fig_w = 10, fig_h = 10, dpi_val = 90, fig_margin = 0.15):
+def draw_rel_net(graph, node_positions, node_labels, node_label_positions, node_colors, edge_labels, edge_colors, fig_w = 10, fig_h = 10, dpi_val = 90, fig_margin = 0.15):
     import networkx as nx
     import matplotlib
     import matplotlib.pyplot as plt
@@ -162,6 +162,7 @@ def draw_rel_net(graph, node_positions, node_labels, node_colors, edge_labels, e
     plt.margins(fig_margin)
     plt.axis('off')
     nx.draw_networkx_nodes(graph, node_positions, node_color = list(node_colors.values()), node_shape = 'o', node_size = 20)
-    nx.draw_networkx_labels(graph, pos = pos_node_labels, labels = node_labels, font_size = 8)
+    nx.draw_networkx_labels(graph, pos = node_label_positions, labels = node_labels, font_size = 8)
     nx.draw_networkx_edges(graph, node_positions, edge_color = edge_colors)
     nx.draw_networkx_edge_labels(graph, node_positions, edge_labels = edge_labels, font_size = 8)
+    return
