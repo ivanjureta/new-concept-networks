@@ -1719,6 +1719,67 @@ To answer these questions, we need the definintion network to be a directed grap
 * There is a set **Nodes** of nodes which will carry labels;
 * There is a set of **Edges**, of edges to carry labels.
 
+The following figure shows the Definition Network for the Smart Retail Network case.
+
+![](book_images/SRN_definition_network_w10_h10_300dpi.png?raw=true)
+
+In the Figure, there is no Definiendum which is defined by more than one Definiens, and vice-versa. This corresponds to what we would expect, that there is, for a given Definiendum, exactly one Definiens. But this is not always the case, which can be confusing. 
+
+In the Glossary of World Heritage Terms, the structure of the Glossary is such that there are cases of a Definiens defining more than one Definiendum. This can be identified by looking at the numbers of incoming and outgoing edges in the Definition Network. In the said Glossary, one node has more than one incoming edge, namely "International Council of Monuments and Sites".
+
+| Definiendum                                  |   Defined by |
+|:---------------------------------------------|-------------:|
+| International Council of Monuments and Sites |            2 |
+
+The following nodes have more than one outgoing edge.
+
+| Definiens                                                      |   Defines |
+|:---------------------------------------------------------------|----------:|
+| see Authenticity                                               |         4 |
+| see Convention concerning the protection of the world cultural |         3 |
+| and natural heritage                                           |           |
+| see Groups of urban buildings, Inhabited historic              |         2 |
+| towns                                                          |           |
+| see Heritage route                                             |         2 |
+| see Operational Guidelines for the Implementation of the World |         2 |
+| Heritage Convention                                            |           |
+| see Secretariat                                                |         2 |
+| see World Heritage Committee                                   |         2 |
+| see World Heritage Fund                                        |         2 |
+| see World Heritage Youth Forum/Fora, Young People's            |         2 |
+| Participation in World Heritage Preservation and Promotion     |           |
+| see World Heritage emblem                                      |         2 |
+
+The tables suggest something odd in the Glossary, and leads to inspect all nodes above.
+
+The node named "International Council of Monuments and Sites" is a Definiendum, and it has two incoming edges, from a node named "ICOMOS", and another named "Article 8 (3) of the Convention requires that a representative of ICOMOS attend meetings of the Committee...". The second is in fact the Definiens, while ICOMOS is an abbreviation. The incoming edges are a consequence of how the Glossary is structured, where both a term and its abbreviation are treated as two Definienda, and the equivalence between them is conveyed by having two definitions, one for "International Council of Monuments and Sites", and another for "ICOMOS". 
+
+What is defined by "see Authenticity"?
+
+| Definiens        | Defines                                                                      |
+|:-----------------|:-----------------------------------------------------------------------------|
+| see Authenticity | Conditions of authenticity                                                   |
+| see Authenticity | Nara Conference on Authenticity in Relation to the World Heritage Convention |
+| see Authenticity | Nara Document on Authenticity                                                |
+| see Authenticity | Test of authenticity                                                         |
+
+Table below shows the terms defined by "see Convention concerning the protection of the world cultural...".
+
+| Definiens                                                      | Defines                                                                  |
+|:---------------------------------------------------------------|:-------------------------------------------------------------------------|
+| see Convention concerning ... | Convention                                                               |
+| see Convention concerning ... | Convention for the protection of the world cultural and natural heritage |
+| see Convention concerning ... | World Heritage Convention                                                |
+
+According to the above, all four terms defined by "see Authenticity" are defined under or in close relation to Authenticity. Since these four terms lack other definitions in the Glossary, the said relationships can also be seen as suggesting a Glossary that is either incomplete, or where Authenticity has an overloaded meaning.
+
+In a summary, even a structure as simple as a Definition Network, can be used to answer a number of questions:
+- Which terms are defined in the data? 
+- For each term that is defined, what defines it? 
+- Are there terms (Definienda) which have more than one definition?
+- Are there Definientia that define more than one Definiendum?
+
+The last two questions, as we saw above, can signal the need to make changes to the underlying set of definitions, to avoid ambiguity and reduce incompleteness.
 
 
 ### 20.2 Classification Networks

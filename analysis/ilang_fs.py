@@ -1,3 +1,23 @@
+# Print a table of nodes, by in degrees higher than threshold.
+def tabulate_in_degrees(graph, in_degree_threshold, first_column_title, second_column_title):
+    in_degrees_table = list()
+    for n in graph.nodes():
+        if graph.in_degree()[n] > in_degree_threshold: 
+            in_degrees_table.append((n, graph.in_degree()[n]))
+    in_degrees_table.sort()
+    from tabulate import tabulate
+    print(tabulate(in_degrees_table, headers = [first_column_title, second_column_title], tablefmt="pipe"))
+
+# Print a table of nodes, by out degrees higher than threshold.
+def tabulate_out_degrees(graph, out_degree_threshold, first_column_title, second_column_title):
+    out_degrees_table = list()
+    for n in graph.nodes():
+        if graph.out_degree()[n] > out_degree_threshold: 
+            out_degrees_table.append((n, graph.out_degree()[n]))
+    out_degrees_table.sort()
+    from tabulate import tabulate
+    print(tabulate(out_degrees_table, headers = [first_column_title, second_column_title], tablefmt="pipe"))
+
 # Print to text file.
 def print_to_txt(file_content, project_name, content_description, save_to_project_dir = False):
     import os
@@ -31,6 +51,13 @@ def add_line_breaks(x, max_chars):
             cc = 0
             y = y + '\n'
     return y
+
+# Remove line breaks '\n' in a string.
+def remove_line_breaks(s):
+    s1 = str()
+    for w in s.split():
+        s1 = s1 + ' ' + w.replace("\n"," ")
+    return s1
 
 # Setup project name and directory.
 ## Project name is a global variable, and will prefix all output files.
@@ -105,6 +132,15 @@ def make_rel_net(d, rel_from, rel_to):
             if j == (rel_from, rel_to): 
                 rel_net.add_edge(d[i]['relationships'][j][0], d[i]['relationships'][j][1])
     return rel_net
+
+# Return all relationships from strucured data (produced by structure_raw_data()), where the matching_attribute is equal to the matching_value.
+def return_all_relationships(structured_data, matching_attribute, matching_value, rel_from, rel_to, first_column_title, second_column_title):
+    output_table = list()
+    for n in structured_data:
+        if structured_data[n][matching_attribute] == matching_value:
+            output_table.append(structured_data[n]['relationships'][rel_from, rel_to])
+    from tabulate import tabulate
+    print(tabulate(output_table, headers = [first_column_title, second_column_title], tablefmt="pipe"))
 
 # Position nodes, with x value function of in_degrees of each node.
 # In: Graph whose nodes need positions.
