@@ -133,12 +133,23 @@ def make_rel_net(d, rel_from, rel_to):
                 rel_net.add_edge(d[i]['relationships'][j][0], d[i]['relationships'][j][1])
     return rel_net
 
-# Return all relationships from strucured data (produced by structure_raw_data()), where the matching_attribute is equal to the matching_value.
-def return_all_relationships(structured_data, matching_attribute, matching_value, rel_from, rel_to, first_column_title, second_column_title):
+# Return all relationships from strucured data, where the matching_attribute is equal to the matching_value.
+def return_matching_relationship_instances(structured_data, matching_attribute, matching_value, rel_from, rel_to, first_column_title, second_column_title):
     output_table = list()
     for n in structured_data:
         if structured_data[n][matching_attribute] == matching_value:
             output_table.append(structured_data[n]['relationships'][rel_from, rel_to])
+    from tabulate import tabulate
+    print(tabulate(output_table, headers = [first_column_title, second_column_title], tablefmt="pipe"))
+
+# Return all relationships instances from strucured data, of the relationship specified by (rel_from, rel_to).
+def tabulate_all_relationship_instances(structured_data, rel_from, rel_to, first_column_title, second_column_title):
+    output_table = list()
+    for n in structured_data:
+        try:
+            output_table.append((shorten_string(remove_line_breaks(structured_data[n]['relationships'][rel_from, rel_to][0]), 25), shorten_string(remove_line_breaks(structured_data[n]['relationships'][rel_from, rel_to][1]), 75)))
+        except KeyError:
+            None
     from tabulate import tabulate
     print(tabulate(output_table, headers = [first_column_title, second_column_title], tablefmt="pipe"))
 
