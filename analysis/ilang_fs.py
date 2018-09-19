@@ -1,9 +1,43 @@
+# Print to text file.
+def print_to_txt(file_content, project_name, content_description, save_to_project_dir = False):
+    import os
+    from tabulate import tabulate
+    output_file_name = project_name + '_' + content_description + '.txt'
+    if save_to_project_dir == False:
+        with open(output_file_name, "w") as text_file:
+            print(tabulate(file_content, tablefmt="pipe"), file=text_file)
+    else: 
+        os.chdir(project_name)
+        with open(output_file_name, "w") as text_file:
+            print(file_content, file=text_file)
+        os.chdir('..')
+
+# Shorten input string to n characters and ellipsis '...'.
+def shorten_string(string, n):
+    if len(string) < n: return string
+    else: return string[0:n] + '...'
+
+# Add line breaks to long string.
+## In: String x and number of characters to add line breaks at.
+## Out: String y with a line break every max_chars of x.
+def add_line_breaks(x, max_chars):
+    import math
+    y = str()
+    cc = 0
+    for i in x.split(): 
+        cc = cc + len(i)
+        y = y + ' ' + i
+        if cc > max_chars:
+            cc = 0
+            y = y + '\n'
+    return y
+
 # Setup project name and directory.
 ## Project name is a global variable, and will prefix all output files.
 ## Project name directory is created within current directory.
 def setup_project(name, create_subdirectory = False):
-    if create_subdirectory == True: 
-        import os
+    import os
+    if create_subdirectory == True and os.path.isdir(name) == False: 
         os.mkdir(os.path.expanduser(name))
     global project_name
     project_name = name
@@ -26,26 +60,6 @@ def raw_data_from_CSV(csv_file, delimiter_character):
                     raw_data[j-1][attribute_names[k]] = i[k]
             j = j + 1
     return { 'Attributes': attribute_names, 'Content': raw_data }
-
-# Shorten input string to n characters and ellipsis '...'.
-def shorten_string(string, n):
-    if len(string) < n: return string
-    else: return string[0:n] + '...'
-
-# Add line breaks to long string.
-## In: String x and number of characters to add line breaks at.
-## Out: String y with a line break every max_chars of x.
-def add_line_breaks(x, max_chars):
-    import math
-    y = str()
-    cc = 0
-    for i in x.split(): 
-        cc = cc + len(i)
-        y = y + ' ' + i
-        if cc > max_chars:
-            cc = 0
-            y = y + '\n'
-    return y
 
 # Structure raw data.
 ## In: raw, which is the output of raw_data_from_CSV.
@@ -136,13 +150,17 @@ def make_color_list(number_of_colors):
 # Color nodes with random colors, roots are of same color (#DDDDDD by default).
 def color_nodes(graph, color_list, root_color = '#DDDDDD'):
     node_colors = dict()
-    c = 0
+    c = 1
     for n in graph.nodes():
         if graph.in_degree()[n] == 0: 
             node_colors[n] = root_color
         else:
-            node_colors[n] = color_list[c]
-            c = c + 1
+            if c <= len(color_list) - 1: 
+                node_colors[n] = color_list[c]
+                c = c + 1
+            else:
+                node_colors[n] = color_list[0]
+                c = 1
     return node_colors
 
 # Color edge with target node color.
@@ -153,7 +171,7 @@ def color_edge_by_target_node(graph, node_colors_dict):
     return edge_colors
 
 # Draw a Relationship Network.
-def draw_rel_net(graph, node_positions, node_labels, node_label_positions, node_colors, edge_labels, edge_colors, fig_w = 10, fig_h = 10, dpi_val = 90, fig_margin = 0.15):
+def draw_rel_net(graph, node_positions, node_labels, node_label_positions, node_colors, edge_labels, edge_colors, fig_w = 10, fig_h = 10, dpi_val = 90, fig_margin = 0.15, save_to_project_dir = False, image_description = 'figure'):
     import networkx as nx
     import matplotlib
     import matplotlib.pyplot as plt
@@ -165,4 +183,13 @@ def draw_rel_net(graph, node_positions, node_labels, node_label_positions, node_
     nx.draw_networkx_labels(graph, pos = node_label_positions, labels = node_labels, font_size = 8)
     nx.draw_networkx_edges(graph, node_positions, edge_color = edge_colors)
     nx.draw_networkx_edge_labels(graph, node_positions, edge_labels = edge_labels, font_size = 8)
+    # Save figure as PNG file.
+    image_file_name = project_name + '_' + image_description + '_' + 'w' + str(fig_w) + '_' + 'h' + str(fig_h) + '_' + str(dpi_val) + 'dpi' + '.png'
+    if save_to_project_dir == False:
+        plt.savefig(image_file_name)
+    else: 
+        import os
+        os.chdir(project_name)
+        plt.savefig(image_file_name)
+        os.chdir('..')
     return
