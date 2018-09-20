@@ -59,6 +59,28 @@ def remove_line_breaks(s):
         s1 = s1 + ' ' + w.replace("\n"," ")
     return s1
 
+# Remove punctuation
+def return_clean_string(string):
+    import unicodedata
+    clean_string = str()
+    normalized_string = str()
+    for w in string.split():
+        w = w.replace(".","")
+        w = w.replace(",","")
+        w = w.replace(":","")
+        w = w.replace("\"","")
+        w = w.replace("!","")
+        w = w.replace("â€œ","")
+        w = w.replace("â€˜","")
+        w = w.replace("*","")
+        w = w.replace("(","")
+        w = w.replace(")","")
+        w = w.replace("/","")
+        w = w.replace("\n"," ")
+        clean_string = clean_string + ' ' + w
+    normalized_string = unicodedata.normalize("NFKD", clean_string.casefold())
+    return normalized_string
+
 # Setup project name and directory.
 ## Project name is a global variable, and will prefix all output files.
 ## Project name directory is created within current directory.

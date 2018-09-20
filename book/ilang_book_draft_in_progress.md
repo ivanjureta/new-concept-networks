@@ -1784,7 +1784,7 @@ These questions can easily be answered in small Definition Networks. Small is re
 The last two questions, as we saw above, can signal the need to make changes to the underlying set of definitions. Changes should avoid incompleteness, as in the case of Authenticity which indirectly defines several other terms. This begs, of course, the question of what an indirect definition may be, and why it makes the innovation language incomplete. To look more closely into that, we need an additional set of tools, for the classification of items in the set of definitions we started with.
 
 
-### 20.2 Classification Networks
+### 20.2 Dependency Networks
 
 In a set of definitions, we would expect to know what defines what, that is, we know which items are definienda, and which definientia. It happens, however, that it is hard to provide a self-contained definition of a definiendum, and its understanding requires you to understand, or more practically, read more than its definiens alone. An example of what this looks like, is when the set of definitions, typically in some of definientia, includes pointers to other definienda, such as "see X", "also see Y". This is not necessarily a bad practice. It can help relate terms; sometimes, a term X will be used in a definition of another term Y, in which case they are directly interdependent (something we went through in earlier Chapters), but in other cases, reading X's definition may simply help get a better grasp of Y, even if Y's definiens does not need to mention X. 
 
@@ -1819,9 +1819,19 @@ All four are mentioned in the definiens of Authenticity. Below, I took each and 
 
 > Test of authenticity: [...] The text concerning groups of urban buildings included in the Operational Guidelines also refers to the need to meet the **test of authenticity** (UNESCO February 1996: 8, Paragraph 27). 
 
+Does the Glossary of World Heritage Terms define the terms "Condition of authenticity", "Nara Conference on Authenticity in Relation to the World Heritage Convention", "Nara Document on Authenticity", and "Test of authenticity"? 
+
+These terms do appear in the Glossary, and they are presented as being defined, i.e., each a definiendum, with the definiens "see Authenticity". But when we see Authenticity, and see the four terms mentioned, those mentions do not define them in any relevant way. They only mention them. One way to think of this, is that it is an error in the construction of the Glossary. 
+
+If this is an error, then correction can happen in two ways. One is to remove the four terms, not from the definiens of Authenticity, but from the set of definienda. Otherwise, and following earlier Chapters on the scope of an innovation language, we may want to give these terms their own definiens, thus including them in the scope of the language. 
+
+But what kind of error is this? The Glossary is carefully constructed, so this cannot be a gross error of including, then forgetting about the need to define several terms. Instead, we can see them not as being in the language and defined by Authenticity, but as being highlighted in the language, depending on Authenticity, yet remaining without own definientia.
 
 
 
+
+
+### 20.3 Classification Networks
 
 * A single label **Definiendum**, on the node which represents the Term class, each definiendum being its instance;
 * A single label **Definiens**, on the node which represents the Definiens class, each definiens being its instance;
