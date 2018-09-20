@@ -240,3 +240,11 @@ def draw_rel_net(graph, node_positions, node_labels, node_label_positions, node_
         plt.savefig(image_file_name)
         os.chdir('..')
     return
+
+# Given attribute attribute_to_searh_in and (part of) value in string_to_find, return values of attribute_to_return, of the matching item.
+def return_matching_case_sensitive(structured_data, attribute_to_searh_in, string_to_find, attribute_to_return):
+    o = list()
+    for i in structured_data:
+        if string_to_find in structured_data[i][attribute_to_searh_in]:
+            o.append(structured_data[i][attribute_to_return])
+    return o

@@ -1779,10 +1779,49 @@ In a summary, even a structure as simple as a Definition Network, can be used to
 - Are there terms (Definienda) which have more than one definition?
 - Are there Definientia that define more than one Definiendum?
 
-The last two questions, as we saw above, can signal the need to make changes to the underlying set of definitions, to avoid ambiguity and reduce incompleteness.
+These questions can easily be answered in small Definition Networks. Small is relative, and just how big it can get, to still allow visual inspection, depends on the capability of the procedures that position nodes, to produce a view of the network, in which you can count, by looking, the incoming and outgoing edges of a node. This is the case for the Smart Retail Network case. But as soon as a visualization gets unclear, and the network is not small enough, it is more practical to compute the numbers of incoming and outgoind edges on each node, and only look at those where either of the values is not one or less.
+
+The last two questions, as we saw above, can signal the need to make changes to the underlying set of definitions. Changes should avoid incompleteness, as in the case of Authenticity which indirectly defines several other terms. This begs, of course, the question of what an indirect definition may be, and why it makes the innovation language incomplete. To look more closely into that, we need an additional set of tools, for the classification of items in the set of definitions we started with.
 
 
 ### 20.2 Classification Networks
+
+In a set of definitions, we would expect to know what defines what, that is, we know which items are definienda, and which definientia. It happens, however, that it is hard to provide a self-contained definition of a definiendum, and its understanding requires you to understand, or more practically, read more than its definiens alone. An example of what this looks like, is when the set of definitions, typically in some of definientia, includes pointers to other definienda, such as "see X", "also see Y". This is not necessarily a bad practice. It can help relate terms; sometimes, a term X will be used in a definition of another term Y, in which case they are directly interdependent (something we went through in earlier Chapters), but in other cases, reading X's definition may simply help get a better grasp of Y, even if Y's definiens does not need to mention X. 
+
+Consider the following example, from the Glossary of World Heritage Terms.
+
+> Authenticity
+> 
+> Paragraph 24 of the Operational Guidelines requires that a cultural property nominated for inclusion in the World Heritage List be considered for inclusion only if it meets one or more of the cultural heritage criteria and the test of authenticity. Paragraph 24 (b) (i) of the Operational Guidelines as reproduced below refers to the test of authenticity. 
+>  
+>  24. ... (b) (i) meet the test of authenticity in design, material, workmanship or setting and in the case of cultural landscapes their distinctive character and components (the Committee stressed the reconstruction is only acceptable if it is carried out on the basis of complete and detailed documentation on the original and to no extent on conjecture) (UNESCO February 1996: 7). 
+> 
+> The text concerning groups of urban buildings included in the Operational Guidelines also refers to the need to meet the test of authenticity (UNESCO February 1996: 8, Paragraph 27). Paragraphs 57 and 58 of the Operational Guidelines state that cultural properties nominated for inclusion in the World Heritage List should satisfy the conditions of authenticity and that the determination as to whether these conditions are met will be carried out by ICOMOS (UNESCO February 1996: 18). Paragraph 64 (e) of the Operational Guidelines states that "indications as to the authenticity of the property" should be included in the completed nomination form under the heading of "Justification for inclusion in the World Heritage List" (UNESCO February 1996: 20). Paragraphs 64 (f) (iv) and 78 of the Operational Guidelines refer to the undefined concept of "historical authenticity" (UNESCO February 1996: 20 and 28). It is generally acknowledged that the concept of authenticity is a vague one and may be subject to different cultural and social interpretations. Authenticity and its application in relation to the World Heritage Convention was the subject of a conference held in Nara, Japan in November 1994 (Nara Conference on Authenticity in Relation to the World Heritage Convention). A preparatory workshop was held in Bergen in Norway from 31 January to 2 February 1994. The proceedings of the preliminary workshop are published in Larson and Marstein (1994). The Nara Conference resulted in the adoption of a declaration known as The Nara Document on Authenticity. The proceedings of the Nara Conference and the Nara Document on Authenticity are published in Larson (1995). In March 1996 an Inter-American Symposium on Authenticity in the Conservation and Management of Cultural Heritage was held in San Antonio Texas, U.S.A. The Symposium was co-sponsored by US/ICOMOS, the Getty Cosnervation Institute and the San Antonio Conservation Society. 
+> 
+> see Conservation, Information sources
+
+As we saw in a previous Chapter, four other definienda are defined simply by asking the glossary user to see Authenticity.
+
+ Definiens        | Defines                                                                      |
+|:-----------------|:-----------------------------------------------------------------------------|
+| see Authenticity | Conditions of authenticity                                                   |
+| see Authenticity | Nara Conference on Authenticity in Relation to the World Heritage Convention |
+| see Authenticity | Nara Document on Authenticity                                                |
+| see Authenticity | Test of authenticity                                                         |
+
+All four are mentioned in the definiens of Authenticity. Below, I took each and gave the corresponding excerpt from the Authenticity definiens.
+
+> Conditions of authenticity: [...] Paragraphs 57 and 58 of the Operational Guidelines state that cultural properties nominated for inclusion in the World Heritage List should satisfy the **conditions of authenticity** and that the determination as to whether these conditions are met will be carried out by ICOMOS (UNESCO February 1996: 18). [...]
+
+> Nara Conference on Authenticity in Relation to the World Heritage Convention: [...] Authenticity and its application in relation to the World Heritage Convention was the subject of a conference held in Nara, Japan in November 1994 (**Nara Conference on Authenticity in Relation to the World Heritage Convention**). [...]
+
+> Nara Document on Authenticity: [...] The Nara Conference resulted in the adoption of a declaration known as The **Nara Document on Authenticity**. The proceedings of the Nara Conference and the **Nara Document on Authenticity** are published in Larson (1995). [...]
+
+> Test of authenticity: [...] The text concerning groups of urban buildings included in the Operational Guidelines also refers to the need to meet the **test of authenticity** (UNESCO February 1996: 8, Paragraph 27). 
+
+
+
+
 
 * A single label **Definiendum**, on the node which represents the Term class, each definiendum being its instance;
 * A single label **Definiens**, on the node which represents the Definiens class, each definiens being its instance;
