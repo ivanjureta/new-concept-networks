@@ -1825,10 +1825,22 @@ These terms do appear in the Glossary, and they are presented as being defined, 
 
 If this is an error, then correction can happen in two ways. One is to remove the four terms, not from the definiens of Authenticity, but from the set of definienda. Otherwise, and following earlier Chapters on the scope of an innovation language, we may want to give these terms their own definiens, thus including them in the scope of the language. 
 
-But what kind of error is this? The Glossary is carefully constructed, so this cannot be a gross error of including, then forgetting about the need to define several terms. Instead, we can see them not as being in the language and defined by Authenticity, but as being highlighted in the language, depending on Authenticity, yet remaining without own definientia.
+But what kind of error is this? The Glossary is carefully constructed, so this cannot be a naïve error of including, then forgetting about the need to define several terms. Instead, we can see them not as being in the language and defined by Authenticity, but as being highlighted in the language, depending on Authenticity, yet remaining without own definientia.
+
+These kinds of issues can be hinted at by building a Definition Network, and computing, for each node, its incoming and outgoing edges. To detect them, rather than only work on hints, we need to create another view of the set of definitions, called the Dependency Network, and discussed already in earlier Chapters. 
+
+A dependency network is a directed graph, where:
+* For labels, we have:
+    * **Definienda** is the set of labels, each element is a definiendum.
+    * **Definientia** is the set of definiens labels, each element is a definiens.
+    * The Dependency relationship relates a Definiendum X to a Definiendum Y, if the definiens of X mentions Y. For this relationship, we need a label **depends on**, to be put on edges that instantiate the dependency relationship, in the direction from the definiendum whose definiens mentions the target.
+* There is a set **Nodes** of nodes which will carry labels;
+* There is a set of **Edges**, of edges to carry labels.
+
+For a given set of definitions, the dependency and definition networks will share nodes, but will include different edges.
 
 
-
+                                              
 
 
 ### 20.3 Classification Networks
