@@ -25,7 +25,7 @@ def print_to_txt(file_content, project_name, content_description, save_to_projec
     output_file_name = project_name + '_' + content_description + '.txt'
     if save_to_project_dir == False:
         with open(output_file_name, "w") as text_file:
-            print(tabulate(file_content, tablefmt="pipe"), file=text_file)
+            print(file_content, file=text_file)
     else: 
         os.chdir(project_name)
         with open(output_file_name, "w") as text_file:
@@ -270,3 +270,77 @@ def return_matching_case_sensitive(structured_data, attribute_to_searh_in, strin
         if string_to_find in structured_data[i][attribute_to_searh_in]:
             o.append(structured_data[i][attribute_to_return])
     return o
+
+
+### DEPENDENCY NETWORK functions.
+
+# Structure data that can be used to make a Dependency Network.
+# In: Output of structure_raw_data
+# Out: Dict with uid, definiendum, definiens, and cleaned up definiendum and definiens (used to find Internal and External Dependency relationship instances)
+def structure_dependency_network_data(structured_data):
+    dn_structured_data = dict()
+    for i in structured_data:
+        if structured_data[i]['instance_of'] == 'Definiendum':
+            dn_structured_data[i] = { 'uid': structured_data[i]['uid'], 
+                                    'definiendum': structured_data[i]['full_name'], 
+                                    'clean_definiendum': return_clean_string(structured_data[i]['full_name']), 
+                                    'definiens': structured_data[i]['relationships']['Definiendum', 'Definiens'][1],
+                                    'clean_definiens': return_clean_string(structured_data[i]['relationships']['Definiendum', 'Definiens'][1])
+                                }
+    return dn_structured_data
+
+# Find Internal Dependency relationship instances.
+# In: Output of structure_dependency_network_data
+# Out: Dict of Internal Dependency relationship instances
+def find_internal_dependencies(x_dependency_data):
+    x_dependency_relationships = dict()
+    c = 0
+    for i in x_dependency_data:
+        for j in x_dependency_data:
+            if i != j and x_dependency_data[i]['clean_definiendum'] in x_dependency_data[j]['clean_definiens']:
+                x_dependency_relationships[c] = { 'definiendum': x_dependency_data[j]['definiendum'],
+                                            'depends_on': x_dependency_data[i]['definiendum'] }
+                c = c + 1
+    return x_dependency_relationships
+
+# Create a graph to hold the Internal Dependency Network.
+# In: Output of find_internal_dependencies
+# Out: Networkx MultiDiGraph with only all intenrnal Dependency Relationships.
+def make_internal_dependency_network(x_dependency_relationships):
+    import networkx as nx
+    dpn = nx.MultiDiGraph()
+    for i in x_dependency_relationships:
+        dpn.add_edge(x_dependency_relationships[i]['definiendum'], x_dependency_relationships[i]['depends_on'])
+    return dpn
+
+# Compute stats of an Internal Dependency Network
+# In: Output of make_internal_dependency_network
+# Out: internal_dependency_stats, where:
+# - depended_by is the count of terms that depend on term X
+# - depends_on is the count of terms that X depends on
+# - depended_by_weight is the proportion of other terms' dependence on X, in the total number of internal dependencies
+# - depends_on_weight is the proportion of X's dependencies on other terms, in the total number of internal dependencies
+# - depended_by_list is the list of terms which depend on X
+# - depends_on_list is the list of terms which X depends on
+def compute_internal_dependency_stats(internal_dependency_network):
+    internal_dependency_stats = dict()
+    internal_dependency_count = len(internal_dependency_network.edges())
+    for i in internal_dependency_network.nodes():
+        depended_by_list = list()
+        depends_on_list = list()
+        for o,d in internal_dependency_network.edges():
+            if o == i:
+                depends_on_list.append(d)
+            if d == i:
+                depended_by_list.append(o)
+        internal_dependency_stats[i] = { 
+        'depended_by': internal_dependency_network.in_degree()[i],
+        'depends_on': internal_dependency_network.out_degree()[i],
+        'depended_by_weight': round(internal_dependency_network.in_degree()[i] / internal_dependency_count, 4),
+        'depends_on_weight': round(internal_dependency_network.out_degree()[i] / internal_dependency_count, 4),
+        'depended_by_list': depended_by_list,
+        'depends_on_list': depends_on_list
+        }
+        del(depended_by_list)
+        del(depends_on_list)
+    return internal_dependency_stats

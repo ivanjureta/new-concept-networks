@@ -51,7 +51,6 @@ Discussions of definitions:
 
 ## 1 Technical Languages for Innovation
 
-
 This book is an instructions manual, on how to make technical languages during, and to support innovation. 
 
 
