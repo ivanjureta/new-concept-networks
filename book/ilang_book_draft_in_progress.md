@@ -1783,7 +1783,7 @@ These questions can easily be answered in small Definition Networks. Small is re
 The last two questions, as we saw above, can signal the need to make changes to the underlying set of definitions. Changes should avoid incompleteness, as in the case of Authenticity which indirectly defines several other terms. This begs, of course, the question of what an indirect definition may be, and why it makes the innovation language incomplete. To look more closely into that, we need an additional set of tools, for the classification of items in the set of definitions we started with.
 
 
-### 20.2 Dependency Networks
+### 20.2 Internal Dependency Networks
 
 In a set of definitions, we would expect to know what defines what, that is, we know which items are definienda, and which definientia. It happens, however, that it is hard to provide a self-contained definition of a definiendum, and its understanding requires you to understand, or more practically, read more than its definiens alone. An example of what this looks like, is when the set of definitions, typically in some of definientia, includes pointers to other definienda, such as "see X", "also see Y". This is not necessarily a bad practice. It can help relate terms; sometimes, a term X will be used in a definition of another term Y, in which case they are directly interdependent (something we went through in earlier Chapters), but in other cases, reading X's definition may simply help get a better grasp of Y, even if Y's definiens does not need to mention X. 
 
@@ -1826,9 +1826,9 @@ If this is an error, then correction can happen in two ways. One is to remove th
 
 But what kind of error is this? The Glossary is carefully constructed, so this cannot be a naïve error of including, then forgetting about the need to define several terms. Instead, we can see them not as being in the language and defined by Authenticity, but as being highlighted in the language, depending on Authenticity, yet remaining without own definientia.
 
-These kinds of issues can be hinted at by building a Definition Network, and computing, for each node, its incoming and outgoing edges. To detect them, rather than only work on hints, we need to create another view of the set of definitions, called the Dependency Network, and discussed already in earlier Chapters. 
+These kinds of issues can be hinted at by building an Internal Dependency Network, and computing, for each node, its incoming and outgoing edges. To detect them, rather than only work on hints, we need to create another view of the set of definitions, called the Dependency Network, and discussed already in earlier Chapters.
 
-A dependency network is a directed graph, where:
+A internal dependency network is a directed graph, where:
 * For labels, we have:
     * **Definienda** is the set of labels, each element is a definiendum.
     * **Definientia** is the set of definiens labels, each element is a definiens.
@@ -1836,11 +1836,31 @@ A dependency network is a directed graph, where:
 * There is a set **Nodes** of nodes which will carry labels;
 * There is a set of **Edges**, of edges to carry labels.
 
-For a given set of definitions, the dependency and definition networks will share nodes, but will include different edges.
+For a given set of definitions, the internal dependency and definition networks will share nodes, but will include different edges.
 
+The internal dependency network gives us five statistics for each term, say X, in a set of definitions:
+* Out Count: The number of terms that depend on X, that is, the number of terms whose definientia mention X. 
+* Out Share: Out Count divided by the total number of edges in the internal dependency network, i.e., a value which quantifies the contribution of X to all internal dependencies. This gives a relative measure of each term's use in definientia of other terms in the same internal dependency network.
+* In Count: The number of terms X depends on, that is, the number of terms that are mentioned in the definiens of X.
+* In Share: Relative measure of X's dependency on other terms in the internal dependency network.
+* Total Share: Sum of the Out Share and In Share of a term, the total contribution of X to internal dependencies.
 
-                                              
+The following table shows these stats, for 10 terms which contribute most to the internal dependency network made from the Glossary of World Heritage Terms.
 
+| Term                         |   Depended by |   Out Share |   Depends on |   In Share |   Total Share |
+|:-----------------------------|--------------:|------------:|-------------:|-----------:|--------------:|
+| Conservation                 |            34 |       0.025 |           27 |      0.02  |         0.045 |
+| Integrity                    |             8 |       0.006 |           27 |      0.02  |         0.026 |
+| International assistance     |             9 |       0.007 |           25 |      0.019 |         0.026 |
+| Authenticity                 |            14 |       0.01  |           26 |      0.019 |         0.029 |
+| Advisory bodies              |             2 |       0.001 |           24 |      0.018 |         0.019 |
+| Balance                      |             0 |       0     |           24 |      0.018 |         0.018 |
+| Operational Guidelines fo... |             2 |       0.001 |           22 |      0.016 |         0.017 |
+| Criteria                     |            17 |       0.013 |           21 |      0.016 |         0.029 |
+| Evaluation                   |            16 |       0.012 |           21 |      0.016 |         0.028 |
+| Tentative list               |             6 |       0.004 |           21 |      0.016 |         0.02  |
+
+Total share tells us that Conservation contributes most to internal dependencies. It is used in the definiens of 34 other terms, and its own definiens uses 27 terms defined in the Glossary. Its total share is 4.5 percent, a signal that the Glossary has no terms that heavily contribute to internal dependencies. 
 
 ### 20.3 Classification Networks
 

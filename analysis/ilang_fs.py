@@ -333,14 +333,36 @@ def compute_internal_dependency_stats(internal_dependency_network):
                 depends_on_list.append(d)
             if d == i:
                 depended_by_list.append(o)
+        depended_by_weight = round(internal_dependency_network.in_degree()[i] / internal_dependency_count, 3)
+        depends_on_weight = round(internal_dependency_network.out_degree()[i] / internal_dependency_count, 3)
         internal_dependency_stats[i] = { 
         'depended_by': internal_dependency_network.in_degree()[i],
         'depends_on': internal_dependency_network.out_degree()[i],
-        'depended_by_weight': round(internal_dependency_network.in_degree()[i] / internal_dependency_count, 4),
-        'depends_on_weight': round(internal_dependency_network.out_degree()[i] / internal_dependency_count, 4),
+        'depended_by_weight': depended_by_weight,
+        'depends_on_weight': depends_on_weight,
+        'total_weight': round(depended_by_weight + depends_on_weight, 4),
         'depended_by_list': depended_by_list,
         'depends_on_list': depends_on_list
         }
         del(depended_by_list)
         del(depends_on_list)
     return internal_dependency_stats
+
+# Show data content in readable format.
+def show_data(data):
+    import pprint
+    pp = pprint.PrettyPrinter(indent=4)
+    pp.pprint(data)
+
+# Display and save internal dependency stats.
+def show_internal_dependency_stats(internal_dependency_stats):
+    internal_dependency_stats_print = list()
+    for i in internal_dependency_stats:
+        internal_dependency_stats_print.append((shorten_string(i,25), internal_dependency_stats[i]['depended_by'], internal_dependency_stats[i]['depended_by_weight'], internal_dependency_stats[i]['depends_on'], internal_dependency_stats[i]['depends_on_weight'], internal_dependency_stats[i]['total_weight']))
+    # sort by total_weight descending
+    from operator import itemgetter
+    internal_dependency_stats_print.sort(key = itemgetter(4), reverse = True)
+    # show on screen
+    from tabulate import tabulate
+    print(tabulate(internal_dependency_stats_print, headers = ['Term', 'Depended by', 'Out Share', 'Depends on', 'In Share', 'Total Share'], tablefmt="pipe"))
+
