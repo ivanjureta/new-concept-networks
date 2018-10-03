@@ -364,5 +364,5 @@ def show_internal_dependency_stats(internal_dependency_stats):
     internal_dependency_stats_print.sort(key = itemgetter(4), reverse = True)
     # show on screen
     from tabulate import tabulate
-    print(tabulate(internal_dependency_stats_print, headers = ['Term', 'Depended by', 'Out Share', 'Depends on', 'In Share', 'Total Share'], tablefmt="pipe"))
+    print(tabulate(internal_dependency_stats_print, headers = ['Term', 'In Count', 'In Share', 'Out Count', 'Out Share', 'Total Share'], tablefmt="pipe"))
 
