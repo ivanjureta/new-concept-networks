@@ -272,7 +272,7 @@ def return_matching_case_sensitive(structured_data, attribute_to_searh_in, strin
     return o
 
 
-### DEPENDENCY NETWORK functions.
+### INTERNAL DEPENDENCY NETWORK functions.
 
 # Structure data that can be used to make a Dependency Network.
 # In: Output of structure_raw_data
@@ -335,12 +335,14 @@ def compute_internal_dependency_stats(internal_dependency_network):
                 depended_by_list.append(o)
         depended_by_weight = round(internal_dependency_network.in_degree()[i] / internal_dependency_count, 3)
         depends_on_weight = round(internal_dependency_network.out_degree()[i] / internal_dependency_count, 3)
+        internal_dependency_balance = round(depended_by_weight - depends_on_weight, 4)
         internal_dependency_stats[i] = { 
         'depended_by': internal_dependency_network.in_degree()[i],
         'depends_on': internal_dependency_network.out_degree()[i],
         'depended_by_weight': depended_by_weight,
         'depends_on_weight': depends_on_weight,
         'total_weight': round(depended_by_weight + depends_on_weight, 4),
+        'internal_dependency_balance': internal_dependency_balance,
         'depended_by_list': depended_by_list,
         'depends_on_list': depends_on_list
         }
@@ -355,14 +357,14 @@ def show_data(data):
     pp.pprint(data)
 
 # Display and save internal dependency stats.
-def show_internal_dependency_stats(internal_dependency_stats):
+def show_internal_dependency_stats(internal_dependency_stats, sort_by_item):
     internal_dependency_stats_print = list()
     for i in internal_dependency_stats:
-        internal_dependency_stats_print.append((shorten_string(i,25), internal_dependency_stats[i]['depended_by'], internal_dependency_stats[i]['depended_by_weight'], internal_dependency_stats[i]['depends_on'], internal_dependency_stats[i]['depends_on_weight'], internal_dependency_stats[i]['total_weight']))
+        internal_dependency_stats_print.append((shorten_string(i,25), internal_dependency_stats[i]['depended_by'], internal_dependency_stats[i]['depended_by_weight'], internal_dependency_stats[i]['depends_on'], internal_dependency_stats[i]['depends_on_weight'], internal_dependency_stats[i]['total_weight'], internal_dependency_stats[i]['internal_dependency_balance']))
     # sort by total_weight descending
     from operator import itemgetter
-    internal_dependency_stats_print.sort(key = itemgetter(4), reverse = True)
+    internal_dependency_stats_print.sort(key = itemgetter(sort_by_item), reverse = True)
     # show on screen
     from tabulate import tabulate
-    print(tabulate(internal_dependency_stats_print, headers = ['Term', 'In Count', 'In Share', 'Out Count', 'Out Share', 'Total Share'], tablefmt="pipe"))
+    print(tabulate(internal_dependency_stats_print, headers = ['Term', 'In Count', 'In Share', 'Out Count', 'Out Share', 'Total Share', 'Balance'], tablefmt="pipe"))
 

@@ -1847,23 +1847,55 @@ The internal dependency network gives us five statistics for each term, say X, i
 
 The following table shows these stats, for 10 terms which contribute most to the internal dependency network made from the Glossary of World Heritage Terms.
 
-| Term                         |   In Count |   In Share |   Out Count |   Out Share |   Total Share |
-|:-----------------------------|-----------:|-----------:|------------:|------------:|--------------:|
-| Conservation                 |         34 |      0.025 |          27 |       0.02  |         0.045 |
-| Integrity                    |          8 |      0.006 |          27 |       0.02  |         0.026 |
-| International assistance     |          9 |      0.007 |          25 |       0.019 |         0.026 |
-| Authenticity                 |         14 |      0.01  |          26 |       0.019 |         0.029 |
-| Advisory bodies              |          2 |      0.001 |          24 |       0.018 |         0.019 |
-| Balance                      |          0 |      0     |          24 |       0.018 |         0.018 |
-| Operational Guidelines fo... |          2 |      0.001 |          22 |       0.016 |         0.017 |
-| Criteria                     |         17 |      0.013 |          21 |       0.016 |         0.029 |
-| Evaluation                   |         16 |      0.012 |          21 |       0.016 |         0.028 |
-| Tentative list               |          6 |      0.004 |          21 |       0.016 |         0.02  |
+| Term                         |   In Count |   In Share |   Out Count |   Out Share |   Total Share |   Balance |
+|:-----------------------------|-----------:|-----------:|------------:|------------:|--------------:|----------:|
+| Conservation                 |         34 |      0.025 |          27 |       0.02  |         0.045 |     0.005 |
+| Integrity                    |          8 |      0.006 |          27 |       0.02  |         0.026 |    -0.014 |
+| International assistance     |          9 |      0.007 |          25 |       0.019 |         0.026 |    -0.012 |
+| Authenticity                 |         14 |      0.01  |          26 |       0.019 |         0.029 |    -0.009 |
+| Advisory bodies              |          2 |      0.001 |          24 |       0.018 |         0.019 |    -0.017 |
+| Balance                      |          0 |      0     |          24 |       0.018 |         0.018 |    -0.018 |
+| Operational Guidelines fo... |          2 |      0.001 |          22 |       0.016 |         0.017 |    -0.015 |
+| Criteria                     |         17 |      0.013 |          21 |       0.016 |         0.029 |    -0.003 |
+| Evaluation                   |         16 |      0.012 |          21 |       0.016 |         0.028 |    -0.004 |
+| Tentative list               |          6 |      0.004 |          21 |       0.016 |         0.02  |    -0.012 |
 
-Total share tells us that Conservation contributes most to internal dependencies. It is used in the definiens of 34 other terms, and its own definiens uses 27 terms defined in the Glossary. Its total share is 4.5 percent, a signal that the Glossary has no terms that heavily contribute to internal dependencies. 
+Total share tells us that Conservation contributes most to internal dependencies. It is used in the definiens of 34 other terms, and its own definiens uses 27 terms defined in the Glossary. Its total share is 4.5 percent, a signal that the Glossary has no terms that heavily contribute to internal dependencies.
 
-The terms with highest total share are interesting, because they appear in many places; a reader's understanding of the terms in the Glossary depends considerably on her understanding of these terms. At the same time, any changes of these terms' definientia also mean changes in the understanding of all terms counted in Out Count.
+Total share is an indicator of a term's importance in the set of definitions. The higher it is, the more that term contributes to internal dependencies. The greater its In Share, the more it is important for the understanding of other terms, as their definitions rely on it. The higher its Out Share, the more its definition leans on other terms in the terminology.
 
+In the table, Balance is the result of subtracting Out Share from In Share. If positive, then the term is used in more other definitions than it uses. If negative, the term leans more on the glossary than the rest of the glossary does on it. If we sort by decreasing Balance, top ten terms are different. Unsurprisingly, the understanding of the Glossary hinges on the understanding of World Heritage, UNESCO, the Convention, and World Heritage List Terms. 
+
+| Term                         |   In Count |   In Share |   Out Count |   Out Share |   Total Share |   Balance |
+|:-----------------------------|-----------:|-----------:|------------:|------------:|--------------:|----------:|
+| World Heritage               |         98 |      0.073 |          12 |       0.009 |         0.082 |     0.064 |
+| UNESCO                       |         91 |      0.067 |           1 |       0.001 |         0.068 |     0.066 |
+| Convention                   |         63 |      0.047 |           4 |       0.003 |         0.05  |     0.044 |
+| World Heritage List          |         53 |      0.039 |          12 |       0.009 |         0.048 |     0.03  |
+| Guidelines                   |         60 |      0.044 |           6 |       0.004 |         0.048 |     0.04  |
+| Operational Guidelines       |         60 |      0.044 |           6 |       0.004 |         0.048 |     0.04  |
+| Conservation                 |         34 |      0.025 |          27 |       0.02  |         0.045 |     0.005 |
+| Natural                      |         60 |      0.044 |           1 |       0.001 |         0.045 |     0.043 |
+| List                         |         57 |      0.042 |           3 |       0.002 |         0.044 |     0.04  |
+| World Heritage Committee     |         29 |      0.021 |          20 |       0.015 |         0.036 |     0.006 |
+
+
+### 20.3 Internal Dependency Paths
+
+
+
+
+
+### 20.4 External Dependency Networks
+
+
+### 20.5 External Dependency Paths
+
+
+### 20.6 Mixed Dependency Networks
+
+
+### 20.7 Mixed Dependency Paths
 
 
 ### 20.3 Classification Networks
