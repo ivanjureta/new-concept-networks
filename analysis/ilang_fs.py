@@ -272,7 +272,9 @@ def return_matching_case_sensitive(structured_data, attribute_to_searh_in, strin
     return o
 
 
+#############################################
 ### INTERNAL DEPENDENCY NETWORK functions.
+#############################################
 
 # Structure data that can be used to make a Dependency Network.
 # In: Output of structure_raw_data
@@ -356,7 +358,7 @@ def show_data(data):
     pp = pprint.PrettyPrinter(indent=4)
     pp.pprint(data)
 
-# Display and save internal dependency stats.
+# Display internal dependency stats.
 def show_internal_dependency_stats(internal_dependency_stats, sort_by_item):
     internal_dependency_stats_print = list()
     for i in internal_dependency_stats:
@@ -368,3 +370,47 @@ def show_internal_dependency_stats(internal_dependency_stats, sort_by_item):
     from tabulate import tabulate
     print(tabulate(internal_dependency_stats_print, headers = ['Term', 'In Count', 'In Share', 'Out Count', 'Out Share', 'Total Share', 'Balance'], tablefmt="pipe"))
 
+
+#############################################
+### INTERNAL DEPENDENCY PATHS functions.
+#############################################
+
+# Find definition trees For each node in an internal dependency network.
+# In: internal_dependency_network.
+# Out: definition_trees, which is a dict, in which each item is a NetworkX graph, of a tree rooted in a given node of internal_dependency_network and obtained via depth first search. 
+def find_definition_trees(internal_dependency_network):
+    import networkx as nx
+    definition_trees = dict()
+    for i in internal_dependency_network:
+        l = str()
+        definition_trees[i] = nx.dfs_tree(internal_dependency_network, source=i)
+        for j in definition_trees[i].nodes():
+            if l is '': l = j
+            else: l = l + ' --> ' + j
+        if len(l) == len(i): l = j
+        print(l + '\n')
+        del(l)
+    return(definition_trees)
+
+# Compute definition trees stats.
+def compute_defintion_trees_stats(definition_trees):
+    definition_trees_stats = dict()
+    term_count = len(definition_trees)
+    for i in definition_trees:
+        definition_trees_stats[i] = { 
+        'size': len(definition_trees[i].nodes()),
+        'coverage': round(len(definition_trees[i].nodes()) / term_count, 3)
+        }
+    return definition_trees_stats
+
+# Display definition trees stats.
+def show_definition_trees_stats(definition_trees_stats, sort_by_item):
+    definition_trees_stats_print = list()
+    for i in definition_trees_stats:
+        definition_trees_stats_print.append((shorten_string(i,25), definition_trees_stats[i]['size'], definition_trees_stats[i]['coverage']))
+    # sort by total_weight descending
+    from operator import itemgetter
+    definition_trees_stats_print.sort(key = itemgetter(sort_by_item), reverse = True)
+    # show on screen
+    from tabulate import tabulate
+    print(tabulate(definition_trees_stats_print, headers = ['Term', 'Size', 'Coverage'], tablefmt="pipe"))

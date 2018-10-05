@@ -1879,11 +1879,87 @@ In the table, Balance is the result of subtracting Out Share from In Share. If p
 | List                         |         57 |      0.042 |           3 |       0.002 |         0.044 |     0.04  |
 | World Heritage Committee     |         29 |      0.021 |          20 |       0.015 |         0.036 |     0.006 |
 
+Internal dependency statistics get more relevant with the size and connectivity of the internal dependency network. They are somewhat less interesting for small and sparse dependency networks, as we see from the table above, for the Smart Retail Network case.
 
-### 20.3 Internal Dependency Paths
+| Term                    |   In Count |   In Share |   Out Count |   Out Share |   Total Share |   Balance |
+|:------------------------|-----------:|-----------:|------------:|------------:|--------------:|----------:|
+| Report                  |          0 |      0     |           3 |       0.273 |         0.273 |    -0.273 |
+| Complex Shop Display    |          0 |      0     |           2 |       0.182 |         0.182 |    -0.182 |
+| Analyst                 |          0 |      0     |           1 |       0.091 |         0.091 |    -0.091 |
+| Administrator           |          0 |      0     |           1 |       0.091 |         0.091 |    -0.091 |
+| Shop Display Identifier |          0 |      0     |           1 |       0.091 |         0.091 |    -0.091 |
+| SDM                     |          2 |      0.182 |           1 |       0.091 |         0.273 |     0.091 |
+| Basic Shop Display      |          1 |      0.091 |           1 |       0.091 |         0.182 |     0     |
+| Shop Display Supplier   |          0 |      0     |           1 |       0.091 |         0.091 |    -0.091 |
+| SRN                     |          3 |      0.273 |           0 |       0     |         0.273 |     0.273 |
+| Shop Display            |          4 |      0.364 |           0 |       0     |         0.364 |     0.364 |
+| POP Data                |          1 |      0.091 |           0 |       0     |         0.091 |     0.091 |
 
+While we can do the same reading of statistics in all three tables above, there is not much to learn from the table for the SRN case. Visual inspection of the internal dependency network tells the same story.
 
+### 20.3 Definition Trees
+Given a set of definitions, and one term X defined in it, how many definitions in the set do I need to read, in order to understand the definition of X? Reading X alone would be enough only if X's Out Share is null, that is, if it depends on no other terms in the set. Otherwise, I need to read the definiens of X, then the definiens of each term which is used in the definiens of X, and so on, until there are no outgoing internal dependencies to traverse. 
 
+The answer can be computed from an internal dependency network, by exploring all paths that start in X. For example, to understand the definition of Report in the Smart Retail Network case, we need to read through five definitions: Report, SRN, SDM, Shop Display, and POP Data. The following list shows the definition trees for each term in the set, in the SRN case. SRN, Shop Display, and POP Data use none of the otehr terms in their definientia.
+
+- Report --> SRN --> SDM --> Shop Display --> POP Data,
+- SRN,
+- Analyst --> SRN,
+- Administrator --> SRN,
+- Shop Display Identifier --> SDM --> Shop Display,
+- SDM --> Shop Display,
+- Shop Display,
+- Basic Shop Display --> Shop Display,
+- Complex Shop Display --> Shop Display --> Basic Shop Display,
+- Shop Display Supplier --> Shop Display,
+- POP Data.
+
+Things are very different for a larger and more connected set of definitions, as in the Glossary of World Heritage Terms. The following is the partial definition tree for the term Reactive monitoring:
+
+Reactive monitoring --> Advisory bodies --> Centre --> Secretariat --> Bureau --> World Heritage --> Convention --> Convention concerning the protection of the world cultural and natural heritage --> Assistance --> Emergency assistance --> Fund --> World Heritage Fund --> International assistance --> Committee --> ...
+
+The definition tree has 113 nodes, meaning that there are 113 definitions to go through, if we want to be rigorous about understanding Reactive monitoring. Two simple statistics can be computed, to get an idea of the definition trees in a dependency network:
+- size of the defition tree, i.e., its number of nodes, and
+- coverage, which is the size divided by the number of nodes in the dependency network.
+
+Coverage indicates how much of the dependency network we need to know, in order to understand the definition of a given term. The table below shows these stats for the SRN case.
+
+| Term                    |   Size |   Coverage |
+|:------------------------|-------:|-----------:|
+| Report                  |      5 |      0.455 |
+| Shop Display Identifier |      3 |      0.273 |
+| Complex Shop Display    |      3 |      0.273 |
+| Analyst                 |      2 |      0.182 |
+| Administrator           |      2 |      0.182 |
+| SDM                     |      2 |      0.182 |
+| Basic Shop Display      |      2 |      0.182 |
+| Shop Display Supplier   |      2 |      0.182 |
+| SRN                     |      1 |      0.091 |
+| Shop Display            |      1 |      0.091 |
+| POP Data                |      1 |      0.091 |
+
+The table below shows the top ten terms in the Glossary of Worldh Heritage Terms, with greatest size on top, and five smallest size terms at bottom.
+
+| Term                         |   Size |   Coverage |
+|:-----------------------------|-------:|-----------:|
+| Comparative evaluations      |    122 |      0.772 |
+| Comparative assessments      |    122 |      0.772 |
+| Harmonization                |    120 |      0.759 |
+| Tentative list               |    119 |      0.753 |
+| Biogeographic(al) provinc... |    119 |      0.753 |
+| Inventory of property        |    119 |      0.753 |
+| Indicative list              |    119 |      0.753 |
+| Joint nomination             |    116 |      0.734 |
+| World Heritage logo          |    116 |      0.734 |
+| Serial nomination            |    116 |      0.734 |
+| ...                          |    ... |      ...   |
+| UNESCO World Heritage Cen... |    113 |      0.715 |
+| World Heritage Centre        |    113 |      0.715 |
+| UNESCO                       |    113 |      0.715 |
+| Fossil landscape             |      1 |      0.006 |
+| International Centre for ... |      1 |      0.006 |
+
+Notice, in the second table, that coverage is high for all but two terms in the Glossary. This suggests that the Glossary requires a careful reading throughout, as all definitions seem to be well connected.
 
 
 ### 20.4 External Dependency Networks
