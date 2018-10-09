@@ -1900,23 +1900,23 @@ While we can do the same reading of statistics in all three tables above, there 
 ### 20.3 Definition Trees
 Given a set of definitions, and one term X defined in it, how many definitions in the set do I need to read, in order to understand the definition of X? Reading X alone would be enough only if X's Out Share is null, that is, if it depends on no other terms in the set. Otherwise, I need to read the definiens of X, then the definiens of each term which is used in the definiens of X, and so on, until there are no outgoing internal dependencies to traverse. 
 
-The answer can be computed from an internal dependency network, by exploring all paths that start in X. For example, to understand the definition of Report in the Smart Retail Network case, we need to read through five definitions: Report, SRN, SDM, Shop Display, and POP Data. The following list shows the definition trees for each term in the set, in the SRN case. SRN, Shop Display, and POP Data use none of the otehr terms in their definientia.
+The answer can be computed from an internal dependency network, by exploring all paths that start in X. For example, to understand the definition of Report in the Smart Retail Network case, we need to read through five definitions: Report, SRN, SDM, Shop Display, and POP Data. The following list gives, for each first term, those which are in its definition tree, in the SRN case. SRN, Shop Display, and POP Data use none of the other terms in their definientia.
 
-- Report --> SRN --> SDM --> Shop Display --> POP Data,
-- SRN,
-- Analyst --> SRN,
-- Administrator --> SRN,
-- Shop Display Identifier --> SDM --> Shop Display,
-- SDM --> Shop Display,
-- Shop Display,
-- Basic Shop Display --> Shop Display,
-- Complex Shop Display --> Shop Display --> Basic Shop Display,
-- Shop Display Supplier --> Shop Display,
+- Report, SRN, SDM, Shop Display, POP Data.
+- SRN.
+- Analyst, SRN.
+- Administrator, SRN.
+- Shop Display Identifier, SDM, Shop Display.
+- SDM, Shop Display.
+- Shop Display.
+- Basic Shop Display, Shop Display.
+- Complex Shop Display, Shop Display, Basic Shop Display.
+- Shop Display Supplier, Shop Display.
 - POP Data.
 
 Things are very different for a larger and more connected set of definitions, as in the Glossary of World Heritage Terms. The following is the partial definition tree for the term Reactive monitoring:
 
-Reactive monitoring --> Advisory bodies --> Centre --> Secretariat --> Bureau --> World Heritage --> Convention --> Convention concerning the protection of the world cultural and natural heritage --> Assistance --> Emergency assistance --> Fund --> World Heritage Fund --> International assistance --> Committee --> ...
+Reactive monitoring, Advisory bodies, Centre, Secretariat, Bureau, World Heritage, Convention, Convention concerning the protection of the world cultural and natural heritage, Assistance, Emergency assistance, ...
 
 The definition tree has 113 nodes, meaning that there are 113 definitions to go through, if we want to be rigorous about understanding Reactive monitoring. Two simple statistics can be computed, to get an idea of the definition trees in a dependency network:
 - size of the defition tree, i.e., its number of nodes, and
@@ -1961,6 +1961,10 @@ The table below shows the top ten terms in the Glossary of Worldh Heritage Terms
 
 Notice, in the second table, that coverage is high for all but two terms in the Glossary. This suggests that the Glossary requires a careful reading throughout, as all definitions seem to be well connected.
 
+### 20.4 Definition Tree Similarity
+How different are any two terms? There are different ways to do this. One is to compare their definientia, and increase similarity for every shared term. Another, which relies on the internal dependency network, is to count the successors they share in the network, and increase similarity with each shared successor. But that ignores the structure of the definition tree, and any similarity or difference there, even when successors are shared.  
+
+The first approach is overly simplistic, so let's use the second one first. A similarity score for any pair of terms, in a dependency network, is the sum of the terms shared across their dependency trees. 
 
 ### 20.4 External Dependency Networks
 

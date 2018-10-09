@@ -372,7 +372,7 @@ def show_internal_dependency_stats(internal_dependency_stats, sort_by_item):
 
 
 #############################################
-### INTERNAL DEPENDENCY PATHS functions.
+### DEFINITION TREE functions.
 #############################################
 
 # Find definition trees For each node in an internal dependency network.
@@ -386,9 +386,9 @@ def find_definition_trees(internal_dependency_network):
         definition_trees[i] = nx.dfs_tree(internal_dependency_network, source=i)
         for j in definition_trees[i].nodes():
             if l is '': l = j
-            else: l = l + ' --> ' + j
+            else: l = l + ', ' + j
         if len(l) == len(i): l = j
-        print(l + '\n')
+        print(l)
         del(l)
     return(definition_trees)
 
@@ -414,3 +414,4 @@ def show_definition_trees_stats(definition_trees_stats, sort_by_item):
     # show on screen
     from tabulate import tabulate
     print(tabulate(definition_trees_stats_print, headers = ['Term', 'Size', 'Coverage'], tablefmt="pipe"))
+
