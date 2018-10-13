@@ -415,3 +415,39 @@ def show_definition_trees_stats(definition_trees_stats, sort_by_item):
     from tabulate import tabulate
     print(tabulate(definition_trees_stats_print, headers = ['Term', 'Size', 'Coverage'], tablefmt="pipe"))
 
+
+#############################################
+### DEFINITION TREE SIMILARITY functions.
+#############################################
+
+# Take a list of lists of strings, and return a flat list of strings. Note recursion.
+# Before calling, define an empty list to pass as l (second parameter) to flatten_lls.
+def flatten_lls(d, l):
+    for v in d:
+        try:
+            iter(d[v])
+        except TypeError:
+            l.append(v)
+        else:
+            if isinstance(d[v], str):
+                l.append(d[v])
+            else:
+                flatten_lls(d[v], l)
+
+# For each pair of terms, compute number of terms which appear in both of their definition trees.
+def compute_successor_similarity(internal_dependency_network):
+    import networkx as nx
+    term_successors = dict()
+    for i in internal_dependency_network.nodes():
+        term_successors[i] = nx.dfs_successors(internal_dependency_network, i)
+    sml = dict()
+    for i in internal_dependency_network.nodes():
+        for j in internal_dependency_network.nodes():
+            sml[i,j] = 0
+    for i,j in sml:
+        if i != j:
+            for k in term_successors[i]:
+                for l in term_successors[j]:
+                    if l in k:
+                        sml[i,j] = sml[i,j] + 1
+    return sml
