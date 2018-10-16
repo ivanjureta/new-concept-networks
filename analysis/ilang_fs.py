@@ -443,7 +443,8 @@ def compute_successor_similarity(internal_dependency_network):
     sml = dict()
     for i in internal_dependency_network.nodes():
         for j in internal_dependency_network.nodes():
-            sml[i,j] = 0
+            if i != j:
+                sml[i,j] = 0
     for i,j in sml:
         if i != j:
             for k in term_successors[i]:
@@ -451,3 +452,78 @@ def compute_successor_similarity(internal_dependency_network):
                     if l in k:
                         sml[i,j] = sml[i,j] + 1
     return sml
+
+# Show list of top (if top = True) or bottom (otherwise) term pairs, by successor similarity.
+def compute_successor_similarity_stats(internal_dependency_network, successor_similarity, show = 50, top = True):
+    lss = list()
+    for t1,t2 in successor_similarity:
+        lss.append((t1,t2,successor_similarity[t1,t2]))
+    from operator import itemgetter
+    if top == True:
+        lss.sort(key = itemgetter(2), reverse = True)
+    if top == False:
+        lss.sort(key = itemgetter(2), reverse = False)
+    total = len(internal_dependency_network.nodes())
+    terms_to_show = list()
+    c = 1
+    for i in lss:
+        if c < show:
+            terms_to_show.append((shorten_string(i[0], 30), shorten_string(i[1], 30), i[2], round(i[2] / total, 2)))
+        c = c + 1
+    return terms_to_show
+
+# Take two terms, find their definition trees, and count shared nodes and edges of these trees.
+def compute_definition_tree_similarity(internal_dependency_network, term1, term2):
+    import networkx as nx
+    g1 = nx.dfs_tree(internal_dependency_network, source = term1)
+    g2 = nx.dfs_tree(internal_dependency_network, source = term2)
+    shared_nodes = 0
+    for n1 in g1.nodes():
+        for n2 in g2.nodes():
+            if n1 == n2:
+                shared_nodes = shared_nodes + 1
+    shared_edges = 0
+    for o1,d1 in g1.edges():
+        for o2,d2 in g2.edges():
+            if o1 == o2 and d1 == d2:
+                shared_edges = shared_edges + 1
+    say = term1 + ' and ' + term2 + ' share ' + str(shared_nodes) + ' shared nodes, and ' + str(shared_edges) + ' shared edges.'
+    return say
+
+#############################################
+### EXTERNAL DEPENDENCY NETWORK functions.
+#############################################
+
+# Produce the list of most frequent words in all definientia in structured_dependency_network_data.
+def external_term_candidates(structured_dependency_network_data, conservative = True, descending = True):
+    stopwords = ['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', "you're", "you've", "you'll", "you'd", 'your', 'yours', 'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', "she's", 'her', 'hers', 'herself', 'it', "it's", 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what', 'which', 'who', 'whom', 'this', 'that', "that'll", 'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an', 'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by', 'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before', 'after', 'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don', "don't", 'should', "should've", 'now', 'd', 'll', 'm', 'o', 're', 've', 'y', 'ain', 'aren', "aren't", 'couldn', "couldn't", 'didn', "didn't", 'doesn', "doesn't", 'hadn', "hadn't", 'hasn', "hasn't", 'haven', "haven't", 'isn', "isn't", 'ma', 'mightn', "mightn't", 'mustn', "mustn't", 'needn', "needn't", 'shan', "shan't", 'shouldn', "shouldn't", 'wasn', "wasn't", 'weren', "weren't", 'won', "won't", 'wouldn', "wouldn't"]
+    stopterms = list()
+    if conservative == True:
+        for i in structured_dependency_network_data:
+            stopterms.append(structured_dependency_network_data[i]['clean_definiendum'])
+    if conservative == False:
+        for i in structured_dependency_network_data:
+            for w in structured_dependency_network_data[i]['clean_definiendum'].split():
+                if w not in stopwords:
+                    stopterms.append(w)
+    wordcount = dict()
+    for i in structured_dependency_network_data:
+        for word in structured_dependency_network_data[i]['clean_definiens'].lower().split():
+            if word not in stopwords:
+                if word not in stopterms:
+                    if word not in wordcount:
+                        wordcount[word] = 1
+                    else:
+                        wordcount[word] = wordcount[word] + 1
+    wordlist = list()
+    for i in wordcount:
+        wordlist.append((i, wordcount[i]))
+    from operator import itemgetter
+    if descending == True:
+        wordlist.sort(key = itemgetter(1), reverse = True)
+    if descending == False:
+        wordlist.sort(key = itemgetter(1), reverse = False)
+    
+    from tabulate import tabulate
+    print(tabulate(wordlist, headers = ['Word', 'Mentions'], tablefmt="pipe"))
+    return wordlist

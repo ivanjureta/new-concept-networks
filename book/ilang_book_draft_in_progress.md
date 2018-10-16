@@ -1575,15 +1575,27 @@ The table below shows the top ten terms in the Glossary of Worldh Heritage Terms
 Notice, in the second table, that coverage is high for all but two terms in the Glossary. This suggests that the Glossary requires a careful reading throughout, as all definitions seem to be well connected.
 
 ### 24 Definition Tree Similarity
-How different are any two terms? There are different ways to do this. One is to compare their definientia, and increase similarity for every shared term. Another, which relies on the internal dependency network, is to count the successors they share in the network, and increase similarity with each shared successor. And the third accounts for the internal dependency relationships and compares definition trees; this addresses the drawback of the second approach, which ignores any similarity or difference of definition trees of terms which share many successors.  
+How similar are any two terms in a set of definitions? There are different ways to do this. One is to compare their definientia, and increase similarity for every shared term. Another, which relies on the internal dependency network, is to count the successors they share in the network, and increase similarity with each shared successor. And the third accounts for the internal dependency relationships and compares definition trees; this addresses the drawback of the second approach, which ignores any similarity or difference of definition trees of terms which share many successors.  
 
-The first approach is overly simplistic, so let's start with the second. A similarity score for any pair of terms, in a dependency network, is the sum of the terms shared across their dependency trees.
+The first approach is overly simplistic, so let's start with the second. A similarity score for any pair of terms, in a dependency network, is the sum of the terms shared across their dependency trees. To compute this, we take two terms to compare, identify the successors of each in their respective definition trees, and count those which are shared across the two trees. The following table shows the top and bottom five term pairs.
 
+| Term                              | Term                  |   Shared |   Share Score |
+|:----------------------------------|:----------------------|---------:|--------------:|
+| World Heritage logo               | Emblem                |      116 |          0.73 |
+| Fund for the Protection of the... | Fund                  |      116 |          0.73 |
+| World Heritage logo               | World Heritage Bureau |      115 |          0.73 |
+| World Heritage logo               | World Heritage        |      115 |          0.73 |
+| World Heritage Bureau             | World Heritage        |      114 |          0.72 |
+| ...                   | ...                               | ...      | ...           |
+| State of conservation | Fossil landscape                  |        0 |             0 |
+| State of conservation | International Centre for the S... |        0 |             0 |
+| Balance               | Fossil landscape                  |        0 |             0 |
+| Balance               | International Centre for the S... |        0 |             0 |
+| Assistance            | Fossil landscape                  |        0 |             0 |
 
+The table says that the definiens of "World Heritage logo" shares 116 terms, all of them defined in the Glossary of World Heritage Terms, with the definiens of "Emblem". Share Score for the same pair says that they share 73% of all terms defined in the Glossary. In contrast, "Assistance" and "Fossil landscape" share no common terms. This underlines the observation I made earlier, that the Glossary is well connected internally, which is to say that each term depends on many other terms.
 
-
-
-
+The other non-trivial approach to computing similary consists of accounting for shared edges of two term's definition networks. So now, we not only count the nodes two definition networks share, but also the edges. For example, "World Heritage logo" and "Emblem" share 116 nodes and 114 edges, "World Heritage Bureau" and "World Heritage" share 114 nodes and 109 edges.
 
 ### 20.4 External Dependency Networks
 
