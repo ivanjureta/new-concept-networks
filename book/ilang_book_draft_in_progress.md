@@ -1597,7 +1597,40 @@ The table says that the definiens of "World Heritage logo" shares 116 terms, all
 
 The other non-trivial approach to computing similary consists of accounting for shared edges of two term's definition networks. So now, we not only count the nodes two definition networks share, but also the edges. For example, "World Heritage logo" and "Emblem" share 116 nodes and 114 edges, "World Heritage Bureau" and "World Heritage" share 114 nodes and 109 edges.
 
-### 20.4 External Dependency Networks
+### 25 External Dependency Networks
+An external dependency network is used to analyze the scope of the innovation language. The aim of the analysis is to answer the following questions:
+
+# Which terms are frequent in definientia, but are not among definiens? These are called External Terms.
+# Which Internal Terms (all terms which are among definienda) depend on each frequent External Term?
+# Should an External Term be turned into an Internal Term, that is, obtain a definition local to the given set of definitions? Doing this increases the scope of the innovation language.
+
+In the Glossary of World Heritage Terms, the following are the top 20 External Terms, identified by counting their occurrences in all definientia there. Concrete implementations for the search of these terms can vary; the one used here counts only single words, ignores all defined terms (definienda), as well as indexicals ("you", "I", and so on) and frequent verbs (e.g., to be). 
+
+| Word         |   Mentions |
+|:-------------|-----------:|
+| heritage     |        348 |
+| world        |        278 |
+| unesco       |        193 |
+| cultural     |        144 |
+| 1996         |        143 |
+| see          |        126 |
+| list         |        126 |
+| natural      |        122 |
+| guidelines   |        120 |
+| operational  |        114 |
+| convention   |        112 |
+| february     |        110 |
+| properties   |         96 |
+| conservation |         87 |
+| property     |         85 |
+| paragraph    |         83 |
+| committee    |         73 |
+| states       |         58 |
+| assistance   |         54 |
+| protection   |         51 |
+
+The table answers the first question, of identifying frequent External Terms. Next thing to know is which Internal Terms use these frequent External Terms; this gives an alternative ranking, not in number of mentions, but in number of affected Internal Terms. 
+
 
 
 ### 20.5 External Dependency Paths
