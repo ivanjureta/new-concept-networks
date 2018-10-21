@@ -1575,62 +1575,17 @@ The table below shows the top ten terms in the Glossary of Worldh Heritage Terms
 Notice, in the second table, that coverage is high for all but two terms in the Glossary. This suggests that the Glossary requires a careful reading throughout, as all definitions seem to be well connected.
 
 ### 24 Definition Tree Similarity
-How similar are any two terms in a set of definitions? There are different ways to do this. One is to compare their definientia, and increase similarity for every shared term. Another, which relies on the internal dependency network, is to count the successors they share in the network, and increase similarity with each shared successor. And the third accounts for the internal dependency relationships and compares definition trees; this addresses the drawback of the second approach, which ignores any similarity or difference of definition trees of terms which share many successors.  
+How different are any two terms? There are several ways to answer this. One is to compare their definientia, and increase similarity for every shared term. Another, which relies on the internal dependency network, is to count the successors they share in the network, and increase similarity with each shared successor. And the third accounts for the internal dependency relationships and compares definition trees; this addresses the drawback of the second approach, which ignores any similarity or difference of definition trees of terms which share many successors.  
 
-The first approach is overly simplistic, so let's start with the second. A similarity score for any pair of terms, in a dependency network, is the sum of the terms shared across their dependency trees. To compute this, we take two terms to compare, identify the successors of each in their respective definition trees, and count those which are shared across the two trees. The following table shows the top and bottom five term pairs.
+The first approach is overly simplistic, so let's start with the second. A similarity score for any pair of terms, in a dependency network, is the sum of the terms shared across their dependency trees.
 
-| Term                              | Term                  |   Shared |   Share Score |
-|:----------------------------------|:----------------------|---------:|--------------:|
-| World Heritage logo               | Emblem                |      116 |          0.73 |
-| Fund for the Protection of the... | Fund                  |      116 |          0.73 |
-| World Heritage logo               | World Heritage Bureau |      115 |          0.73 |
-| World Heritage logo               | World Heritage        |      115 |          0.73 |
-| World Heritage Bureau             | World Heritage        |      114 |          0.72 |
-| ...                   | ...                               | ...      | ...           |
-| State of conservation | Fossil landscape                  |        0 |             0 |
-| State of conservation | International Centre for the S... |        0 |             0 |
-| Balance               | Fossil landscape                  |        0 |             0 |
-| Balance               | International Centre for the S... |        0 |             0 |
-| Assistance            | Fossil landscape                  |        0 |             0 |
 
-The table says that the definiens of "World Heritage logo" shares 116 terms, all of them defined in the Glossary of World Heritage Terms, with the definiens of "Emblem". Share Score for the same pair says that they share 73% of all terms defined in the Glossary. In contrast, "Assistance" and "Fossil landscape" share no common terms. This underlines the observation I made earlier, that the Glossary is well connected internally, which is to say that each term depends on many other terms.
 
-The other non-trivial approach to computing similary consists of accounting for shared edges of two term's definition networks. So now, we not only count the nodes two definition networks share, but also the edges. For example, "World Heritage logo" and "Emblem" share 116 nodes and 114 edges, "World Heritage Bureau" and "World Heritage" share 114 nodes and 109 edges.
 
-### 25 External Dependency Networks
-An external dependency network is used to analyze the scope of the innovation language. The aim of the analysis is to answer the following questions:
 
-# Which terms are frequent in definientia, but are not among definiens? These are called External Terms.
-# Which Internal Terms (all terms which are among definienda) depend on each frequent External Term?
-# Should an External Term be turned into an Internal Term, that is, obtain a definition local to the given set of definitions? Doing this increases the scope of the innovation language.
 
-In the Glossary of World Heritage Terms, the following are the top 20 External Terms, identified by counting their occurrences in all definientia there. Concrete implementations for the search of these terms can vary; the one used here counts only single words, ignores all defined terms (definienda), as well as indexicals ("you", "I", and so on) and frequent verbs (e.g., to be). 
 
-| Word         |   Mentions |
-|:-------------|-----------:|
-| heritage     |        348 |
-| world        |        278 |
-| unesco       |        193 |
-| cultural     |        144 |
-| 1996         |        143 |
-| see          |        126 |
-| list         |        126 |
-| natural      |        122 |
-| guidelines   |        120 |
-| operational  |        114 |
-| convention   |        112 |
-| february     |        110 |
-| properties   |         96 |
-| conservation |         87 |
-| property     |         85 |
-| paragraph    |         83 |
-| committee    |         73 |
-| states       |         58 |
-| assistance   |         54 |
-| protection   |         51 |
-
-The table answers the first question, of identifying frequent External Terms. Next thing to know is which Internal Terms use these frequent External Terms; this gives an alternative ranking, not in number of mentions, but in number of affected Internal Terms. 
-
+### 20.4 External Dependency Networks
 
 
 ### 20.5 External Dependency Paths
