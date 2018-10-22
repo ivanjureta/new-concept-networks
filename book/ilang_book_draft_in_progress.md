@@ -1577,15 +1577,48 @@ Notice, in the second table, that coverage is high for all but two terms in the 
 ### 24 Definition Tree Similarity
 How different are any two terms? There are several ways to answer this. One is to compare their definientia, and increase similarity for every shared term. Another, which relies on the internal dependency network, is to count the successors they share in the network, and increase similarity with each shared successor. And the third accounts for the internal dependency relationships and compares definition trees; this addresses the drawback of the second approach, which ignores any similarity or difference of definition trees of terms which share many successors.  
 
-The first approach is overly simplistic, so let's start with the second. A similarity score for any pair of terms, in a dependency network, is the sum of the terms shared across their dependency trees.
+The first approach is overly simplistic, the second ignores edges, so let's follow the third. A similarity score for any pair of terms, in a dependency network, is described by two values:
+* the sum of the terms, and
+* the sum of edges shared across their dependency trees. 
 
+The following table shows the top 15 and bottom 15 pairs of terms, ordered from those pairs which share the most terms in their definition trees, to those that share the least. The column "Shared Terms" gives the number of terms that the two terms in a pair share in their respective definition trees. Shared Dependencies is the count of internal dependency relations that their definition trees share.
 
+| Term                              | Term                              |   Shared Terms |   Term Share |   Shared Dependencies |   Dependency Share |
+|:----------------------------------|:----------------------------------|---------------:|-------------:|----------------------:|-------------------:|
+| Biogeographic(al) provinces       | Comparative evaluations           |            119 |         0.75 |                   116 |               0.09 |
+| Harmonization                     | Inventory of property             |            119 |         0.75 |                   116 |               0.09 |
+| Inventory of property             | Harmonization                     |            119 |         0.75 |                   116 |               0.09 |
+| Comparative evaluations           | Biogeographic(al) provinces       |            119 |         0.75 |                   116 |               0.09 |
+| Tentative list                    | Comparative assessments           |            119 |         0.75 |                   114 |               0.08 |
+| Comparative assessments           | Tentative list                    |            119 |         0.75 |                   114 |               0.08 |
+| Emblem                            | World Heritage logo               |            115 |         0.73 |                   114 |               0.08 |
+| World Heritage logo               | Emblem                            |            115 |         0.73 |                   114 |               0.08 |
+| Global Strategy                   | Global Strategy for the Implem... |            114 |         0.72 |                   113 |               0.08 |
+| Deferred                          | Deferral                          |            114 |         0.72 |                   113 |               0.08 |
+| Organization of World Heritage... | OWHC                              |            115 |         0.73 |                   113 |               0.08 |
+| Deferral                          | Deferred                          |            114 |         0.72 |                   113 |               0.08 |
+| Global Strategy for the Implem... | Global Strategy                   |            114 |         0.72 |                   113 |               0.08 |
+| OWHC                              | Organization of World Heritage... |            115 |         0.73 |                   113 |               0.08 |
+| ...                               | ...                               |            ... |          ... |                   ... |                ... |
+| Reactive monitoring               | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Reactive monitoring               | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| Advisory bodies                   | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Advisory bodies                   | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| State of conservation             | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| State of conservation             | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| Balance                           | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Balance                           | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| Assistance                        | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Assistance                        | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| Convention concerning the prot... | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Convention concerning the prot... | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| Emergency assistance              | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Emergency assistance              | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
 
+Another interesting statistic is the proportion of shared terms in all terms in the internal dependency network. Its values are under "Term Share". For example, the pair "Biogeographic(al) provinces" and "Comparative evaluations" shares 119 terms, which is 75% of all terms in the internal dependency network built from The Glossary of World Heritage Terms. "Dependency Share" is an analogous statistic, over edges in the internal dependency network. It gives the proportion of internal dependency relationships that a term pair shares, over the total number of such dependencies in the internal dependency network. Term Share suggests the extent to which a term pair is related in depth, so to speak. The higher it is, the more both terms are similar in their dependence on the innovation language; the lower it is, the more independent they are from one another, and from the rest of the innovation language. Notice the high Term Share for the first term pair, and its low Dependency Share. This suggests that, while the pair depends on many terms in the Glossary, it captures little of the overall internal dependency in it. 
 
+## 20.5 External Dependency Networks
 
-
-
-### 20.4 External Dependency Networks
 
 
 ### 20.5 External Dependency Paths

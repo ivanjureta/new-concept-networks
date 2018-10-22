@@ -490,6 +490,54 @@ def compute_definition_tree_similarity(internal_dependency_network, term1, term2
     say = term1 + ' and ' + term2 + ' share ' + str(shared_nodes) + ' shared nodes, and ' + str(shared_edges) + ' shared edges.'
     return say
 
+# For each pair of terms in an internal dependency network, compute the number of nodes and edges that their definition trees share.
+def compute_defintion_tree_similarity_all_pairs(internal_dependency_network):
+    import networkx as nx
+    dfs_stats = list()
+    for i in internal_dependency_network.nodes():
+        for j in internal_dependency_network.nodes():
+            if i != j:
+                g1 = nx.dfs_tree(internal_dependency_network, source = i)
+                g2 = nx.dfs_tree(internal_dependency_network, source = j)
+                shared_nodes = 0
+                for n1 in g1.nodes():
+                    for n2 in g2.nodes():
+                        if n1 == n2:
+                            shared_nodes = shared_nodes + 1
+                shared_edges = 0
+                for o1,d1 in g1.edges():
+                    for o2,d2 in g2.edges():
+                        if o1 == o2 and d1 == d2:
+                            shared_edges = shared_edges + 1
+                dfs_stats.append((shorten_string(i, 30), shorten_string(j, 30), shared_nodes, shared_edges))
+    return dfs_stats
+
+# Show list of top (if top = True) or bottom (otherwise) term pairs, by number of shared nodes (if sort_by_shared_nodes = True) or shared edges (if sort_by_shared_nodes = False).
+def show_definition_tree_similarity_stats(dfs_stats, internal_dependency_network, show = 50, top = True, sort_by_shared_nodes = True):
+    out = list()
+    for i in dfs_stats:
+        out.append((i[0], i[1], i[2], i[3]))
+    from operator import itemgetter
+    if top == True:
+        if sort_by_shared_nodes == True:
+            out.sort(key = itemgetter(3), reverse = True)
+        if sort_by_shared_nodes == False:
+            out.sort(key = itemgetter(4), reverse = True)
+    if top == False:
+        if sort_by_shared_nodes == True:
+            out.sort(key = itemgetter(3), reverse = False)
+        if sort_by_shared_nodes == False:
+            out.sort(key = itemgetter(4), reverse = False)
+    stats_to_show = list()
+    total_nodes = len(internal_dependency_network.nodes())
+    total_edges = len(internal_dependency_network.edges())
+    c = 1
+    for i in out:
+        if c < show:
+            stats_to_show.append((shorten_string(i[0], 30), shorten_string(i[1], 30), i[2], round(i[2] / total_nodes, 2), i[3], round(i[3] / total_edges, 2)))
+        c = c + 1
+    return stats_to_show
+
 #############################################
 ### EXTERNAL DEPENDENCY NETWORK functions.
 #############################################
