@@ -1617,300 +1617,108 @@ The following table shows the top 15 and bottom 15 pairs of terms, ordered from 
 
 Another interesting statistic is the proportion of shared terms in all terms in the internal dependency network. Its values are under "Term Share". For example, the pair "Biogeographic(al) provinces" and "Comparative evaluations" shares 119 terms, which is 75% of all terms in the internal dependency network built from The Glossary of World Heritage Terms. "Dependency Share" is an analogous statistic, over edges in the internal dependency network. It gives the proportion of internal dependency relationships that a term pair shares, over the total number of such dependencies in the internal dependency network. Term Share suggests the extent to which a term pair is related in depth, so to speak. The higher it is, the more both terms are similar in their dependence on the innovation language; the lower it is, the more independent they are from one another, and from the rest of the innovation language. Notice the high Term Share for the first term pair, and its low Dependency Share. This suggests that, while the pair depends on many terms in the Glossary, it captures little of the overall internal dependency in it. 
 
-## 20.5 External Dependency Networks
+## 25 External Dependency Networks
 
+An External Dependency Network is used to identify terms which are important in the definientia, in an innovation language, but are not themselves defined in the language, i.e., are not among definienda there. Such terms are called External Terms, and their importance is evaluated over two dimensions: 
+* the number of times an External Term appears in all definientia in a given innovation language, called Definientia Appearances, and
+* the number of Internal Terms, whose definientia mention that External Term, called Crossing Dependencies.
 
+Computing these two statistics requires the identification of External Terms, a task which involves a number of choices, all of which influence the statistics' values. For example: What counts as an External Term? Do we count composite terms as External Terms? Do we remove common verbs, and which ones do we remove? What about indexicals? Removing punctuation can also lead to identifying many irrelevant words as External Terms. For example, here are the top 10 External Terms in the Glossary of World Heritage Terms, if sorting by Crossing Dependencies.
 
-### 20.5 External Dependency Paths
+| External Term            |   Definientia Appearances |   Crossing Dependencies |
+|:-------------------------|--------------------------:|------------------------:|
+| e                        |                         2 |                     159 |
+| c                        |                         2 |                     145 |
+| h                        |                         1 |                     142 |
+| g                        |                         1 |                     139 |
+| f                        |                         3 |                     133 |
+| see                      |                       126 |                     120 |
+| heritage                 |                       348 |                     118 |
+| al                       |                        11 |                     118 |
+| v                        |                         2 |                     118 |
+| en                       |                         1 |                     118 |
 
+Are single letters also External Terms? Closer inspection of the Glossary shows that e, c, h, and so on, are due to them appearing in references to laws and regulations, such as "(e)", "e)", and so on, and because External Term statistics are counted on definientia which exclude punctuation, parentheses, and so on. Sorting from highest Definientia Appearances, we get the following top 10.
 
-### 20.6 Mixed Dependency Networks
+| External Term            |   Definientia Appearances |   Crossing Dependencies |
+|:-------------------------|--------------------------:|------------------------:|
+| heritage                 |                       348 |                     118 |
+| world                    |                       278 |                     107 |
+| unesco                   |                       193 |                      91 |
+| cultural                 |                       144 |                      65 |
+| 1996                     |                       143 |                      65 |
+| see                      |                       126 |                     120 |
+| list                     |                       126 |                      60 |
+| natural                  |                       122 |                      61 |
+| guidelines               |                       120 |                      61 |
+| operational              |                       114 |                      61 |
 
+As discussed earlier, External Terms with high Definientia Appearances and, or Crossing Dependencies, are candidates for promotion into the innovation language. High values of these statistics indicate that your understanding of the innovation language depends significantly on how you understand them, and if we want to influence that, then they need to become Internal Terms, and each get a specific Definiens.
 
-### 20.7 Mixed Dependency Paths
-
-
-### 20.3 Classification Networks
+## 26 Classification Networks
 
 * A single label **Definiendum**, on the node which represents the Term class, each definiendum being its instance;
 * A single label **Definiens**, on the node which represents the Definiens class, each definiens being its instance;
 * A single label **Is-a**, for edges which relate an instance node to the class node it instantiates.
 
+## 27 Distributed Definition Networks
 
 
+## 28 Epistemology of an Innovation Language
 
-
-
-
-
-If definitions are distributed, then a set of definitions is a poor way to think of a structure of an innovation language. One richer structure was to relate definitions with dependencies, which gave us term dependency networks, and ensuing interpretation of basic graph statistics in the context of innovation languages.
-
-The aim in this chapter is to be more precise about a structure that can be used to describe 
-
-In this Chapter, I ascribe a structure to innovation languages. I describe that structure and discuss it. I start from the simplest ones, present their structure, and explain why richer structures are needed, and what they look like. I discuss how these structures are related to established ideas in knowledge representation.
-
-
-The simplest innovation languages are sets of definitions. Each definition has two parts, the definiendum, which is the term being defined, and the definiens, which is the definition. The purpose of a definition, is to tell its user how to recognize instances of the defined term. Let, then, L be the innovation language, and make it a set of term and its definition tuples.
-
-
-    T = {(t,d), such that t is a definiendum and d is the definiens of t}
-
-
-We can represent the structure described so far as a directed labeled graph that has the following nodes, edges and labeling functions:
-
-
-* Nodes and node labels:
-
-
-    * For each tuple in T:
-        * One node for t, labeled "t";
-        * One node for d, labeled "d";
-    * One node for the class Definiendum (a.k.a. Term), labeled "Definiendum"; we will use this to say that each t in a tuple is an instance of Definiendum;
-    * One node for the class Definiens, labeled "Definiens"; this will be used to say that each d in a tuple is an instance of the class Definiens;
-* Edges and edge labels:
-    * For each tuple in T, one edge, directed from d to t, and labeled "Defines";
-    * For each Definiendum instance node t, an edge from t to the Definiendum class node, labeled "Is a";
-    * For each Definiens instance node d, an edge from d to the Definiens class node, labeled "Is a".
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-In a summary, the structure of a simple innovation language corresponds to a set. Each member is a tuple (t, d), t being the definiendum and d the definiens.
-
-
-A definition can be a combination of an intensional and an extensional definition, or either of these. Respectively, it may define by pointing to properties an instance should have, or by pointing to instances that the user can observe, or otherwise can experience or has experienced.
-
-
-So in a (t, d), d can be intensional, extensional, or a combination thereof.
-
-
-This was good enough, until we needed to analyze the scope of an innovation language. We took individual definitions, blew them up to identify potential candidate terms for inclusion in, or exclusion from the innovation language.
-
-
-Blowing up meant that we turn each term in each definiens, into a member of the set. If there is a term (t,d) in the set, and d includes terms t1,...,t4, then we add (t1,d1),...,(t4,d4) to the set; and we do the same to terms in d1,...,d4, and so on.
-
-
-We blow terms up, in order to identify how the definition of each depends on the others. A set which only has (t,d) tuples will not include this information. The set needs to include a new set of tuples, of the form (tX, tY), where tX is the term which appears in the definition of tY.
-
-
-Let that set be X. By now, it has two partitions, T and S, where T includes the terminology, i.e., all tuples of definiendum and definiens, and D includes dependencies.
-
-
-    T = { (t,d) such that t is a definiendum and d is the definiens }
-
-
-    S = { (tX,tY) such that tX is a term that appears in the definiens of tY, and tY is a term in a tuple in T }
-
-
-Let T1 be the set of all terms in T. Then, T1 and S together are a directed graph over terms, also called a definition network. Each node is labeled by a term, and each tuple from S defines a directed edge between terms.
-
-
-Any measure that you compute on a definition network tells you only about the structure of that network. It cannot tell you if a term has a good or bad definiens, if it can be improved, how, and so on. Measures I mentioned in earlier chapters, do reflect the content of definitions, but those reflections are crude. This remains an important caveat, when analyzing a terminology by doing computations over its definition network.
-
-
-Blowing up a definition into terms is different from identifying properties mentioned in it if the definition is intensional, or examples if it is extensional.
-
-
-Let�s say that a definiens assigns at least one property, and/or identifies at least one instance of the term. Let p denote an arbitrary property, and c an arbitrary term instance. With that, for every (t,d) in the terminology, we now have one set for properties mentioned in d and another set of instances mentioned too. Either, but not both of these sets can be empty � what would a definition even be, if both were? 
-
-
-For a given (t,d), we now have a set P_t of properties, and C_t of references to sample instances. A property is conveyed by a statement (or can be rewritten as a statement), such as �color is green� or �temperature is 95 centigrade�. A member of C_t is also a statement, or more than kne, for example, �BestBuy on West 4th Street is an example of a POP�, as long as that one or many statements are necessary to point to an identifiable instance of the term t.
-
-
-If you take, then, only one (t,d), and its P_t and C_t, you still need to add something that captures, in the structure of the language, that each member of P_t is a property of t, and each member of C_t an instance of t. This can be done by adding two sets, one that puts a directed edge from each property in P_t to t, and another which does the same from each instance in C_t to t. 
-
-
-For each (t,d), we now have two graphs. One graph includes, as nodes, t and all members in P_t, and has edges connecting the latter to the former. The second includes t and all members of C_t, with edges from each of the latter, to t. That is, you have, for each (t,d) a tree rooted in t, with leaves being, respectively, members of P_t and C_t. 
-
-
-In a summary, for every (t,d) in T, such that there are a set P_t or properties conveyed by d, and a set C_t of instances identified by C_t, there are:
-- A tree G(P_t), rooted in t, with directed edges from every member of P_t to t; this is called a property tree of t;
-- A tree G(C_t), rooted in t, with a directed edge from every member of C_t to t; this is called a sample tree of t.
-
-
-We add this to X, which gives a more complicated structure for an innovation language, namely
-
-
-X = T union S union T_P union T_C, 
-
-
-Where T_P is the set of property trees, of all terms in T, and T_C is the set of all sample trees of all terms in T.
-
-
-An alternative way to look at this structure, is to see it all as a single labeled graph. 
-
-
-Let there be a tuple (N, E, L, Lab_N, Lab_E), where 
-- N is a set whose items are called nodes, 
-- E is a set of items called edges, 
-- L is a set of items called labels, 
-- Lab_N is a function that maps a member of N to a member L,
-- Lab_E is a function that maps a member of E to one in L.
-
-
-Lab_N and Lab_E are called, respectively, the node and edge labeling functions. 
-
-
-The idea is simple, that every node in every graph in X, becomes a node in N, and that we label nodes and edges so as to preserve all information which X has or would have for an innovation language.
-
-
-To have in G the information in the terminology T, consider what we need for a single (t,d) tuple:
-- A node n1 labeled �t�;
-- A node n2 labeled �term�;
-- An edge from n1 to n2, labeled �is a�, to say that n1 is an instance of n2;
-- A node n3 labeled �d�;
-- A node n4 labeled �definiens�;
-- An edge from n3 to n4 labeled �is a�;
-- An edge from n3 to n1 labeled �defines�, to say that the definiens on n3 defines the term on n1.
-
-
-This looks as follows.
-
-
-
-
-
-
-We can now add dependencies between definitions of terms, to capture the information that was in the set S earlier. Recall that there was an edge in S, directed from t1 to t2 if the definiens of t1 mentioned the term t2. Suppose, for simplicity, that our innovation language has only one term, (t,d), that d mentions a term t1, and that we want to add t1 in the language. Let d1 be the definition we made for t1. We get the following graph. 
-
-
-
-
-The relationship �depends on� relates d to t1, to represent that t1 is mentioned in d. In contrast to edges in S, dependency is now between a definiens which uses the term, and the term it depends on. In general, every definiens which mentions a term, also depends on that term. As d defines t, t depends on t1. 
-
-
-Next, we need to represent properties and sample instances. Let d assign t the properties p1 and p2, and d1 assign t1 the properties p3 and p4. Moreover, say that d mentions sample case c1, and d1 mention c2. We get the following graph.
-
-
-
-
-
-
-
-
-
-
-With this graph, we represent the same information as in The structure X defined earlier. We do not have the property and sample trees as they were defined earlier, but these can be obtained with simple transformations from the graph above. In the next Figure, the green boundary marks the information needed to make the property tree for t, and the blue boundary to define the sample tree for t1.
-
-
-Let�s return to the Smart Retail Network case. The following Figure shows that language as a network of term and definition nodes, with is-a and defines relationships.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The next Figure shows the same innovation language, now with dependencies, in orange, shown between definitions and terms they use. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-XVI Epistemology of an Innovation Language
-On the relationship between knowledge, intentional states and ideas conveyed in definitions in an innovation language.
-
+This and next Chapters focus on the relationship between knowledge, intentional states and ideas conveyed in definitions in an innovation language.
 
 Is the definition of a term, its definiens, knowledge or assumption? Is it a reflection of something that you are sure about? Does it have to be? These questions are closely related with time. Does the term refer to something that does not exist now? Is it about something that is already there? Or, perhaps about something that should not happen at all? This is not only tied to time; it relates to observation, experience, experiment, and prediction as well.
 
-
-Why do these questions matter?�
-
+Why do these questions matter?
 
 An innovation language develops as a team progresses through an innovation process. Regardless of how their innovation process is structured, or who does it, it will involve people making assumptions, transposing their experiences to new situations, trying, sometimes succeeding to close the gap with expectations, often failing. Some of what they learn along the way can be called knowledge, some of it remain assumptions. But their actions are not driven by assumptions or knowledge alone; they innovate because of motives to change what they know already, and intentions to do so.
 
+How are, then, intentions, assumptions, and knowledge tied to an innovation language? 
 
-How are, then, intentions, assumptions, and knowledge tied to an innovation language? The short story is this: intentions lead to the formation of assumptions about what the problem is, and how to resolve it, assumptions need to be validated through experience, and this happens through trial and error, which in turn lead us to observe evidence about the validity and relevance of assumptions, and from there, some of the conclusions can be called knowledge. As this learning process goes on, its outcomes will determine the scope of the innovation language and its content - the terms and their definitions.
-
+The short story is this: intentions lead to the formation of assumptions about what the problem is, and how to resolve it, assumptions need to be validated through experience, and this happens through trial and error, which in turn lead us to observe evidence about the validity and relevance of assumptions, and from there, some of the conclusions can be called knowledge. As this learning process goes on, its outcomes will determine the scope of the innovation language and its content - the terms and their definitions.
 
 But the innovation language is one of artifacts that will reflect and help the innovation process. It is neither its only artifact, nor the main one. So while it may not be central to learning that happens through innovation, we can keep track what, in definitions, are expectations, assumptions, knowledge. This makes a difference in two ways. One, put bluntly, is that it lets you have a judgment about the innovation language - there may be something to worry about if it is all assumptions and wishful thinking, late in the innovation process. In other words, you may want to have less speculation in definitions, as innovation matures. Two, it is a way to use the innovation language as that on which you track progress in learning.
 
-
 Doing that means doing more analysis of the innovation language. Now, however, the structure we established in prior Chapters is not enough. The analysis has to be concerned with content, with how statements announced in definitions fit observation and experience, if they fit the present or if they tell us how to tailor the future, and how much evidence, if any, and how we got it, to support our claims that some definitions are built on solid grounds.
 
+Let's again go back to one of the examples used so far, the lightweight case of the smart retail network. The first task is to distinguish content describing the present from that which describes future. The definienda of the latter are emphasized.
 
-Let's again go back to one of the examples used so far, the lightweight case of the smart retail network. The first task is to distinguish content describing the present from that which describes future.�The former are in green, the latter in red.
 
-
-SRN: Smart Retail Network software.
-SDM: Shop Display Management software.
-Shop Display: object installed at a POP, which is used to promote products; Shop Display is synonym with Fixture.
-Basic Shop Display (BSD): a Shop Display which cannot itself be subdivided.
-Complex Shop Display (CSD): a Shop Display made from two or more Basic Shop Displays.
-Shop Display Identifier (SDID): unique numeric identifier generated by SDM for each BSD, used to identify a BSD when a QR code scanner is not available.
-Shop Display Supplier: representative of the company supplying Shop Displays.
-Point of Purchase (POP): location (shop) where products are being sold.
-Field Merchandiser (FMR): an individual visiting a POP and collecting data about the POP; an FMR typically gets a list of POP to visit, and upon visiting collects data about products being sold at POP, the characteristics of a POP, and any other data of use.
-POP personnel (POPP): an individual employed at a POP and involved in the selling of, and/or presentation of Samsung products to customers.
-Key Account (KA): an individual supervising one or more FMR.
-POP data: data (text, measurements, images) collected at a POP by an FMR.
-Report: a table, chart, or Excel or PowerPoint presentation file generated by SRN or SDM to facilitate the understanding of POP data.
-Analyst: employee interested in analyzing the data stored in SRN.
-Administrator: employee interested in changing the settings and/or performing maintenance of SRN.
-
+* **SRN**: Smart Retail Network software.
+* **SDM**: Shop Display Management software.
+* Shop Display: object installed at a POP, which is used to promote products; Shop Display is synonym with Fixture.
+* Basic Shop Display (BSD): a Shop Display which cannot itself be subdivided.
+* Complex Shop Display (CSD): a Shop Display made from two or more Basic Shop Displays.
+* **Shop Display Identifier (SDID)**: unique numeric identifier generated by SDM for each BSD, used to identify a BSD when a QR code scanner is not available.
+* Shop Display Supplier: representative of the company supplying Shop Displays.
+* Point of Purchase (POP): location (shop) where products are being sold.
+* Field Merchandiser (FMR): an individual visiting a POP and collecting data about the POP; an FMR typically gets a list of POP to visit, and upon visiting collects data about products being sold at POP, the characteristics of a POP, and any other data of use.
+* POP personnel (POPP): an individual employed at a POP and involved in the selling of, and/or presentation of Samsung products to customers.
+* Key Account (KA): an individual supervising one or more FMR.
+* POP data: data (text, measurements, images) collected at a POP by an FMR.
+* **Report**: a table, chart, or Excel or PowerPoint presentation file generated by SRN or SDM to facilitate the understanding of POP data.
+* **Analyst**: employee interested in analyzing the data stored in SRN.
+* **Administrator**: employee interested in changing the settings and/or performing maintenance of SRN.
 
 There already exist shop displays, basic and complex, there are field merchandisers, staff at points of purchase. There are key accounts, and in general, there is staff interested in using SRN and SDM. But since these systems do not exist now, anything which describes STN and SDM is about a future in which they are expected to exist and run. 
 
-
 You can think of this as two murky pictures, both rough and partial, one of the present, the other of a potential future. Several things are missing, and the innovation process needs to produce them. A more complete picture of the present is needed, alongside a more elaborate one of the future. There needs to be an account of how to transition from the former to the latter. 
-
 
 What to do after you have the distinction between present and future? The decision to make is if you want to improve them, and if so, then when and how. That decision is closely tied to another distinction, between assumptions and knowledge.
 
+You have two options.
 
-You have two options. 
+One is to stop improving the innovation language. This would be a fair choice if there are no more resources to do so, or if you know no way to do it. Does this also mean that you stop the innovation process? It could; if not, then you are continuing innovation, but disconnecting it from the innovation language.
 
-
-One is to stop improving the innovation language. This would be a fair choice if there are no more resources to do so, or if you know no way to do it. Does this also mean that you stop the innovation process? It could; if not, then you are continuing innovation, but disconnecting it from the innovation language. 
-
-
-Two is to continue the innovation process, and to keep the innovation language up to date. The latter cannot happen without the former. The language will get updates, terms and definitions will change, be added and removed. 
-
+Two is to continue the innovation process, and to keep the innovation language up to date. The latter cannot happen without the former. The language will get updates, terms and definitions will change, be added and removed.
 
 How do you decide which definitions to work on, and how? If the innovation language is only used as a record, then language changes will not be decided because, or be driven by an analysis of the language. But the language can do more. It can help the innovation process, by pointing to terms that require more attention, and that, as we will see below, can even suggest next steps for innovation.
 
-
 Having distinguished present and future, the task now is to distinguish assumptions and knowledge. For that, we need  working definitions of these two.
 
-
-Usually, it takes the following three conditions for you to know something [SEP], let�s call that X:
-- X is true, and is so in the metaphysical sense, so to speak. So X fits actual conditions in the world, and it really does not matter if you observed or otherwise established that X indeed does fit the world. Someone else might have observed the opposite, for example, and tried to convince you X is not true, but that has nothing to do with X being true � that�s, broadly speaking, the metaphysical part of X being true. It may be true that a white eagle landed just now on a rooftop of some house on Whistler, in British Columbia; I haven�t seen this, and no one may have seen it really, but this does not preclude it from being true. This also means that you can say that you know X, but in fact have no way of assuring that X is true in this sense. It means, in addition, that you may say that you know X, but if it is not true, than you are making a false statement.
+Usually, it takes the following three conditions for you to know something [SEP], let's call that X:
+- X is true, and is so in the metaphysical sense, so to speak. So X fits actual conditions in the world, and it really does not matter if you observed or otherwise established that X indeed does fit the world. Someone else might have observed the opposite, for example, and tried to convince you X is not true, but that has nothing to do with X being true - that is, broadly speaking, the metaphysical part of X being true. It may be true that a white eagle landed just now on a rooftop of some house on Whistler, in British Columbia; I haven't seen this, and no one may have seen it really, but this does not preclude it from being true. This also means that you can say that you know X, but in fact have no way of assuring that X is true in this sense. It means, in addition, that you may say that you know X, but if it is not true, than you are making a false statement.
 - You believe X, but not in the lightweight sense of being confident that X is true. You need to believe X in the sense of being committed to it being true; this is not only being certain in its truth. It is also that you would defend it being true from arguments against it, and more generally, your choices and actions would be consistent with your belief that X is true (you would not choose and act as if X was not true).
 - You need to have a justification for your belief that X is true. So you cannot choose, for no reason, to believe that X is true. You need reasons, and these reasons need to support your belief that X is true. A simple way to think about this is that you can explain why you believe that X is true; what exactly counts as a good explanation is a separate issue.
 
