@@ -50,259 +50,177 @@ Discussions of definitions:
 
 
 ## 1 Technical Languages for Innovation
+Theer are three aims for this book. First, to introduce, motivate, and explain the notion of "innovation language". Second, to show how to analyze innovation languages of various sizes. Finally, to discuss when and how to make and maintain innovation languages.
 
+An innovation language is an unstable technical language, made in order to support communication and coordination in teams which do innovation.
 
-This book is an instructions manual, on how to make technical languages during, and to support innovation. 
+A technical language is a set of terms that represent knowledge accumulated within a specific domain of knowledge, itself developed around a related set of problems, and in order to facilitate the resolution of these problems; the technical language is one of the ways that such specialist knowledge is preserved and transferred.
 
+An innovation language is an unstable technical language because it is made for and when doing innovation. Instability means that the terms and definitions, which constitute the language, keep changing, until the outcomes of innovation are such that a subset of the innovation language becomes stable enough to be considered a technical language on its own. 
 
-Why do that? Isn't it a fool's errand?
+Instability and innovation go hand in hand. Innovation processes involve making, working with, including abandoning imprecise, inaccurate, unclear assumptions, working to understand which andare right, and which wrong, and why.
 
+But does it make sense to invest in making innovation languages, given the instability in innovation? 
 
-Technical languages represent stable knowledge, ideas that are recognized and agreed upon by many, in a community of experts. Such languages reflect the community's agreement on which terms to use, their definitions, and how to use them. Medicine, law, engineering, and their many specialties all have technical languages. We learn them through training and participation in the appropriate community.
-
+Technical languages represent stable knowledge, ideas that are recognized and agreed upon by many, in a community of experts. Such languages reflect the community's agreement on which terms to use, their definitions, and how to use them. Medicine, law, engineering, and their many specialties have technical languages. We learn them through training and participation in the appropriate community.
 
 Innovation, on the other hand, by definition involves uncertainty. We innovate when we create new ideas and things that turn out to be useful.
 
-
-When we do this, we start from chaos in some sense, from disorder and confusion which do not fit our motives. We work to find and make patterns in chaos, to produce order, to change the environment we are in, so that it is less different that what we want it to be. Innovation also involves discovery. It starts with one set of motives, one rough understanding of how things are, and we learn along the way, new preferences, new facts, new misbeliefs, we change direction, often in unpredictable ways.
-
+When we do this, we start from chaos in some sense, from disorder and confusion which do not fit our motives. We work to find and make patterns, change the environment we are in, so that it is less different that what we want it to be. Innovation also involves discovery. It starts with one set of motives, one rough understanding of how things are, and we learn along the way, new preferences, new facts, new misbeliefs, we change direction, often in unpredictable ways.
 
 Does it make sense, then, to create technical languages when innovating? Shouldn't we wait until the outcomes of innovation are tried and tested, accepted, stable enough to warrant effort in producing rigorous representations of what we know about these innovations? If we can only make good technical languages when knowledge is stable, why invest that effort when we only have imperfect information, vague ideas, and repeatedly shed, through trial and error, our mistaken assumptions?
 
+I argue in this book that this does make sense. There is a long story to tell, but the crux of the argument is that people who are doing innovation are creating a new language as they innovate, they do this anyway, and when we capture that language, when we represent it explicitly, when we write down the new words and definitions for new ideas and things, rather than leave them implicit, we are also capturing knowledge generated through innovation. 
 
-I argue in this book that this does make sense. There is a long story to tell, but the crux of the argument is that people who are doing innovation are creating a new language as they innovate, they do this anyway, and when we capture that language, when we represent it explicitly, when we write down the new words and definitions for new ideas and things, rather than leave them implicit, we are also capturing knowledge generated through innovation, however imperfect and unstable it may be. By doing this, I argue, we support the innovation process - we make communication and coordination easier in the team that does innovation, this helps go through trial and error faster, it makes it easier to grow that team, to convey outcomes of innovation to others, and to build a solid foundation for a future technical language that will grow around innovation outcomes and relate these outcomes to existing bodies of knowledge, communities of experts, and natural language of those who benefit and those who lose out from innovation, but are not interested in understanding its intricacies.
+By doing this, I argue, we support the innovation process - we make communication and coordination easier in the team that does innovation, this helps go through trial and error faster, it makes it easier to grow that team, to convey outcomes of innovation to others, and to build a solid foundation for a future technical language that will grow around innovation outcomes and relate these outcomes to existing bodies of knowledge, communities of experts, and natural language of those who benefit and those who lose out from innovation, but are not interested in understanding its intricacies.
 
-
-In short, I am arguing that it makes sense to be rigorous about language that takes shape informally and early on when generating new ideas, and to worry about this as soon as the innovation process kicks off. This can be done without impeding that innovation process, as long as expectations are realistic, the team that does innovation knows how to do this, and how much. The balance is not easy to strike. Being too rigorous can impede innovation, rather than support it.
-
+In short, I am arguing that it makes sense to be rigorous about language that takes shape informally and early on when generating new ideas, and to worry about this as soon as the innovation process kicks off. This can be done without causing friction in that innovation process, but only as long as expectations are realistic, the team that does innovation knows how to do this, and how much. The balance is not easy to strike. Being too rigorous can impede innovation, rather than support it.
 
 I will use the term "innovation language" for the kind of technical languages that this book is about. They are very much alike technical languages in general, but depart in one key respect. An innovation language is a rough technical language, imperfect in many ways, capturing and conveying unstable knowledge. If the outcomes of innovation are useful, if they become relevant, then the innovation language eventually graduates to a technical one.
 
-
 ## 2 Outline
-
 
 This book combines two narratives.
 
-
-One focuses on the practicalities of how to make and maintain innovation languages. It is directed towards anyone who is involved in innovation, and is interested in capturing relevant information used and generated during innovation processes.
-
+One focuses on the practicalities of how to make, maintain, and analyze innovation languages. It is directed towards anyone who is involved in innovation, and is interested in capturing relevant information used and generated during innovation processes.
 
 The other narrative takes an academic angle. It is about why we should want to make innovation languages, how much of it helps or hinders innovation, and how this relates to established work on the creation of informal and formal languages. I discuss the relationship of innovation languages to basic notions in epistemology (data, information, belief, knowledge, among others), knowledge representation, problem solving and decision making, and ontology engineering. The aim is not only to provide arguments to support the instructions I provide in the practical narrative, but also to give a broader picture in which innovation languages and their production fit. This also points you to literature and results in various research fields, to content that is good to be aware of, when making and maintaining innovation languages.
 
-
 ## 3 Innovating Out of Chaos
+There are various kinds of languages - natural, technical, planned, constructed, general and domain-specific programming, formal and informal specification languages, and so on. What is different in innovation languages?
 
+An innovation langugae changes frequently, and if it stops changing, it has become a technical language. It is the change that makes the difference, and has implications on how an ilang is made, maintained, and analyzed.
 
-What could innovation languages possibly be and do? There are so many kinds already - natural languages, technical languages, planned languages, constructed languages, programming languages, domain-specific programming languages, formal and informal specification languages, and so on. With so many types of languages already there, how is this new, and why it matters?
-
-
-Chaos, when used colloquially, denotes confusion and a complete absence of order. Innovation starts with people motivated to bring order to chaos.
-
-
-As they do this, as they go on to find patterns, understand opportunities and problems, overcome confusion and see through disorder, produce new intangible ideas and new tangible things, they create new words, terms, new rules for communicating about these problems and solution, throughout the innovation process that produces order from chaos. They create new languages, even if these lean on natural languages they may be using, and technical languages they may mobilize as they draw on established, expert knowledge.
-
+Chaos, when used colloquially, denotes confusion and a complete absence of order. Innovation starts with people motivated to bring order to chaos. As they do this, as they go on to understand opportunities and problems, overcome confusion and see through disorder, produce new ideas and things, they create new words, terms, new rules for communicating about these problems and solution. They create a new language, even if it leans on natural languages they use anyway, and technical languages they may mobilize as they draw on established, expert knowledge.
 
 This language that they create, through which they make the process and outcomes of innovation their own, which they communicate with to coordinate in their collaboration, is what an innovation language is.
 
-
 Innovation languages are created by teams making something new - new businesses, new products and services, academic research, R&D projects. Those are only some of many settings, environments, in which innovation happens.
-
 
 No one in the team did it before and no one has a ready-made answer. They see outlines of an opportunity or a problem. There is some partial, vague, imprecise, inaccurate information that there is a problem, and there is enough of a motive to solve it. But neither is the problem sharply defined, nor is there a ready made solution.
 
-
 Within that chaos, the team sets out to understand what is there, what could be done, decide what to do, how to do it, towards a solution. I participated in a dozen such cases over the last decade, and these chaotic situations sometimes took months to be shaped into problems, then months and years of trial and error, of abandoned solutions, refinement, iterations, and overall, learning about what gives desired results. Sometimes this ended successfully, often not.
-
 
 Turning chaos into some appearance of order is hard. It uses substantial intellectual effort, draws on various kinds of knowledge, requires careful observation, and much trial and error. It requires coordination, despite little being known. It involves many people. It takes a lot of time. Even when it looks quick from afar, many I have worked with say that one year doing this feels about the same as a few years doing known things, solving again, in the same way, problems that have already been solved before. Doing this means living with risks that are hard to evaluate and manage. 
 
-
 Thinking that there is a silver bullet, a method that works every time, is naive at best, and damaging otherwise. If there was such a thing, then there would be, for example, flawless entrepreneurs and venture capital businesses, there would be no need to worry about risk of failure when funding research and development, or even basic research. None of this is the case.
-
 
 The point so far, is that we innovate our way out of chaos into order, and to do this, we have to communicate about the process and outcomes -new ideas and things - created through the innovation process. Since these are new things, we need, at the very least, new names for them, and these new names are part of the nascent innovation language, which is specific to the innovation we are involved in.
 
-
-Why does this matter?
-
-
 ## 4 Learning from Chaos
-
+Why does this matter?
 
 If there is one aspect, a process woven into all those experiences, all instances of innovation processes that I have been involved in, it is learning. And I mean this in the usual, casual sense, "the acquisition of knowledge or skills through study, experience, or being taught" as it says in the online Oxford English Dictionary. [OED: Learning](https://en.oxforddictionaries.com/definition/learning)
 
-
-A problem with doing something new, is that you learn most from experience, via trial and error. Studying helps, as does being taught, or at least I am convinced of those from teaching students, but it only goes so far. It helps guide the trial and error, it helps select what to trial, and set up the test in the first place, but - again, because we are talking about new things, new ideas arising out of confusion and disorder - it does not give good predictions, and certainly cannot substitute to actually experiencing the errors and successes of the trials, then tirelessly predicting, generalizing, extrapolating from small samples of past outcomes, until results of some next trial bring down the last seemingly stable observation.
-
+A problem with doing something new, is that you learn most from experience, via trial and error. Studying helps, as does being taught, or at least I am convinced of those from teaching students, but it only goes so far. It helps guide trial and error, to select what to trial, and set up the test in the first place, but - again, because we are talking about new things, new ideas - it does not give good predictions, and certainly cannot substitute to actually experiencing the errors and successes of the trials, then tirelessly predicting, generalizing, extrapolating from small samples of past outcomes, until results of some next trial bring down the last seemingly stable observation.
 
 Much has been written on learning, of humans and machines, and this book does not add more there.
 
-
 Instead, I take learning as a given phenomenon, a complex set of processes that happen, and it does not matter much if it is good or bad, if it can be better, or how. At least not this early in the book.
 
-
-What I am interested in, is how to capture what was learned about the chaos as team progresses with innovation, so that it does not get forgotten, and that it serves as a foundation on which to continue learning and building value. And I see the need for capturing language, for documenting and structuring it, as central to this.
-
+What I am interested in, is how to capture what was learned as team progresses with innovation, so that it does not get forgotten, and that it serves as a foundation on which to continue learning and building value. And I see the need for capturing language, for documenting and structuring it, as central to this.
 
 Specifically, I argue in this book that we should carefully observe and preserve the specific language that gets developed, as people on the team, who are doing innovation in their progress against chaos, describe, discuss, and in general communicate about what they are doing and creating, about their understanding of the problems to solve, of solutions, and of how to get to make and use these solutions.
 
-
-You fight chaos with innovation. To quote OED again, innovation is synonymous apparently with all of the following: 
-
+To quote OED again, innovation is synonymous apparently with all of the following: 
 
 > "change, alteration, revolution, upheaval, transformation, metamorphosis, reorganization, restructuring, rearrangement, recasting, remodelling, renovation, restyling, variation, new measures, new methods, new devices, novelty, newness, unconventionality, modernization, modernism, a break with tradition, a shift of emphasis, a departure, a change of direction". [OED:Synonyms of innovation]
 
-
 OED's imprecision is not due to, but certainly mirrors difficulties in research on innovation. We do not understand it well. In research on innovation in businesses, for example, it is that elusive process from ideas to new or improved products, services, organizations themselves even, in order to generate more economic value. 
-
 
 > "Creativity is the production of novel and useful ideas by an individual or small group of individuals working together. [...] Organizational innovation is the successful implementation of creative ideas within an organization." [Amabile, 1988] 
 
-
 In a broader context, outputs and aims differ will, but the start is generally recognized to be ideas.
-
-
-This lack of understanding is not strange, however, since if innovation does go against chaos, it goes against that which, by definition, eludes understanding. 
-
 
 For the rest of this book, there is no need to get into debates of what innovation exactly is, or is not. What matters, is that learning is the process to find and make some order in chaos, and as that happens, and especially if it gives good results, we call that process innovation. If innovation was successful, then it is simply that the learning that went on in that process, gave results that we recognized as useful.
 
-
 Learning happens in various ways, different individuals will learn differently, and that variety only grows as we look at how teams innovation, or, as I argued above, collectively learn order in chaos.
-
 
 My central assumption, grounded in anecdotal observation and participation in innovation processes over the last decade, is that however a team learns, whatever the motive that initiated their innovation process, whichever idea it started from, the team will create their own language to talk about the new, to describe - all in order to collaborate - on the structures they find and make in the chaos that they are working against.
 
-
-They will speak, of course, English, French, Mandarin, Swahili, or any natural language they choose. But because they are making, having, talking about, working on, extending, and changing new intangible ideas and tangible things, they will create new words, new terms, new rules on how to communicate about these new ideas. Telephone was a new word, even if long time ago, just as genetic mutation was more recently; neither were part of the hunter-gatherer vocabulary. The next time you sign up for insurance, for example, of any kind, look up a section typically called Glossary, Terminology, or Definitions, and you will see a language on its own, understandable to some extent through the natural language it uses in definitions of terms, but different from it. Those outlines of a technical language itself grew out of innovation, that time in how to generate economic value while managing risks for others.
-
+They will speak, of course, English, French, Mandarin, Swahili, or any natural language they prefer. But because they are making, having, talking about, working on, extending, and changing new intangible ideas and tangible things, they will create new words, new terms, new rules on how to communicate about these new ideas. "Telephone" was a new word, even if long time ago, just as genetic mutation was more recently; neither were part of the hunter-gatherer vocabulary. The next time you sign up for insurance, for example, of any kind, look up a section typically called Glossary, Terminology, or Definitions, and you will see a language on its own, understandable to some extent through the natural language it uses in definitions of terms, but different from it. Those outlines of a technical language itself grew out of innovation, that time in how to generate economic value while managing risks for others.
 
 That is what innovation languages are. This book is about how to make them, perhaps more accurately, how to record and analyze them, since they are there anyway. Recording and analysis have a simple aim, which is to generate more value for the team, over the long run. How and why exactly will is a topic interwoven through the coming chapters.
 
-
 ## 5 What Language Has to Do with Innovation
-
-
 When working on something new, you need a way to speak, write, and more generally communicate your ideas about it, so that you can coordinate your work with others, understand what they think and want to do about it, agree and disagree, and act, plan, and learn together.
-
 
 New ideas need new names, to distinguish and not confuse them with what is already there. Those names, the words you choose to use, how you use them, and what you want and agree for them to mean, make up an innovation language.
 
-
 As coordination is necessary, communication is too, and teams consequently invent their own terms, phrases, ultimately their own language to talk about, to explain, and define innovations that they create.
-
 
 Even if teams will inevitable make a new language as they go along, such a language is rarely documented, its terms and phrases are seldom precisely defined, and much hinges on everyone's personal history with the team - you understand only if you were around when ideas are communicated, new terms introduced, and old ones discarded. Much of it is informal.
 
-
 While informality may look faster and easier to everyone involved, it is also a waste. You can see that speed and ease, that you prefer early on, as an accumulation of debt  to repay later, especially if the innovation is successful, that is, needs to spread outside the team.
 
-
-The informal innovation language grows and becomes more complex as the underlying innovation and knowledge develops. At some point, innovation starts being relevant beyond the team itself, needs to be described, explained, justified, its mechanisms presented, so that it can be accessible to others. At that time, the team's innovation language needs to be learned by others, and its relationships with natural language clarified. One typical reality check for such teams, is when they interact with legal experts, for example, to check the regulatory compliance of their new business model, product, service, or other; at that time, they need to start repaying the debt I mentioned above, as they need to explain the innovation to experts who have their own languages, without an established translation to the team's.
-
+The informal innovation language grows and becomes more complex as the underlying innovation and knowledge develops. At some point, innovation starts being relevant beyond the team itself, needs to be described, explained, justified, its mechanisms presented, so that it can be accessible to others. At that time, the team's innovation language needs to be learned by others, and its relationships with natural language clarified. One typical reality check for such teams, is when they interact with legal experts, for example, to check the regulatory compliance of their new business model, product and service designs, or other; at that time, they need to start repaying the debt I mentioned above, as they need to explain the innovation to experts who have their own languages, without an established translation to the team's.
 
 The notion of innovation language comes from my experience and research on how to capture and maintain knowledge in teams that work on unstructured problems. Innovation often starts from unstructured problems and opportunities.
 
-
-About a decade ago, when I started doing fieldwork in teams that worked on innovations, I did something unusual. As soon as we would start working, even when even brainstorming was going into many directions, I insisted on writing down keywords, key terms that popped up in those sessions, and more generally in all team communication, and sending my definitions of these terms to the team, expecting their feedback. Most were surprised, and many saw this as futile, given how fast ideas were changing. And it was true that many terms were thrown away, and that many definitions changed along the way. But I insisted on keeping even a simple lexicon, or terminology available to all, and asking for all to know it and voice any disagreements at any time.
-
+About a decade ago, when I started doing fieldwork in teams that worked on innovations, I did something they thought was unusual. As soon as we would start working, even when even brainstorming was going into many directions, I insisted on writing down keywords, key terms that popped up in those sessions, and more generally in all team communication, and sending my definitions of these terms to the team, expecting their feedback. Most were surprised, and many saw this as futile, given how fast ideas were changing. And it was true that many terms were thrown away, and that many definitions changed along the way. But I insisted on keeping even a simple lexicon, or terminology available to all, and asking for all to know it and voice any disagreements at any time.
 
 Value grew over time, to the point that in many businesses where I did fieldwork, this became an accepted practice. I no longer had to promote it. Design, engineering, technical and other documentation started including pointers to a centralized terminology, which was actively maintained and commented. Most interestingly to me, this looked like a sticky tool, something that people accepted without formal requests to do so. It became the backbone for knowledge management. I certainly did not discover the value of glossaries, terminologies, and dictionaries of technical terms; their worth is clear in established disciplines, and many businesses, especially those with a long history and a complicated and large set of products and services, know how important it is to be careful about their internal technical language.
 
-
 Where I was able to observe the use of innovation languages, it became simpler to talk about teams' innovations with interested parties, lawyers, future users, marketers, and any stakeholder group which started interacting with the team over the lifecycle of the innovation.
-
 
 Over the last decade, I worked with dozens of teams which built up their innovation languages. That led to this book.
 
-
 ## 6 What an Innovation Language Is
-
-
 You and I learned to use one or more natural languages while growing up, and then through basic education. English, French, Dutch, German, Swahili, Mandarin, Hindu, are only some among some 5-7,000 languages considered as ordinary live languages in use.
-
 
 It is said that a natural language develops through use, without it being designed, or its use planned.
 
-
 A technical language, in contrast, is designed to enable communication about a specific body of knowledge. Medicine has its own technical language; law too. There is a technical language in any field of inquiry which has been around for some time, and where a body of specialized knowledge is built up, maintained, and developed further.
-
 
 An innovation language is a kind of technical language, in which the underlying body of knowledge is unstable, partial, limited, or otherwise deficient. Even if that knowledge is limited, new, and exploratory, an innovation language is intended to push those involved in growing and improving that knowledge, to be precise, accurate, and clear in communication, even when they are communicating about imprecise, inaccurate, and unclear knowledge.
 
-
 With an innovation language, you try to impose precision, accuracy, and clarity in communication much earlier than what you know is anywhere near those benchmarks, while what you know is imprecise, inaccurate, and unclear.
-
 
 This only sounds counterintuitive.
 
-
 Suppose that you and I are tasked with creating a tool that predicts stock index values, e.g., the value of the S&P index (Standard & Poor's 500). The typical approach would be to fit a model to historical data, and so we need a source of that data. Our innovation language already needs to include at least three terms: Predicted Value, Historical Data, Prediction Model.
-
 
 At this time, we do not know much about the Predicted Value, other than it will be the output of the Prediction Model; we do not know if that value is a single value, a range of values, if it is for a specific time unit, or for a time range, and so on. We have the same issues with Historical Data, which may be only data over a few years, or a few decades, if it will be better to have all decades or only the recent ones; and for the Model, we really have no idea which type of statistical model this could or should be. In the end, most is unknown, but by agreeing on the definitions of the three terms, we would agree not to call the Prediction Model a "predictive model" in some communication, a "prediction function" in others, to use "historical data" in all communication, instead of only "data" in some, "statistical data" in others. We would agree not to casually use synonyms, at least.
 
-
 At the same time, we would know what needs to be further defined and worked on - specifically, we need to work on identifying, finding, understanding the specifics of available Historical Data, and we could agree equally well on how to approach work on the Prediction Model, and understand what kinds of Predicted Values that model needs to produce. Inevitably, since so little is known that early on, the perspective on the problem and its solutions may change substantially, words thrown out, definitions revised, perhaps to the point of restarting a new innovation language. The potential for those is inevitable.
-
 
 In more abstract terms, having a team make and maintain a innovation language forces its participants into creating explicit conventions on at least two fronts: one is how they cut up the problem and solution spaces in the work they are doing, because they need to decide on terms and therefore categories that matter to them (in academic terms, they are making decisions related to ontology), and the other is that they adhere to a common vocabulary, so as to remove some of the synonymy and ambiguity that reflects the lack of stable and structured knowledge of the problem and solution space.
 
-
 ## 7 What an Innovation Language Looks Like
-
-
 The simplest innovation languages look like lists of terms, with a definition of each.
-
 
 Let's look at an example.
 
-
 In 2017, a team that combined business consultants, product designers, and software engineers, was asked to invent a process which speeds up the negotiation of simple business consultancy contracts. They focused on contracts involving two parties, a consultant and a client, who need to agree on a set of deliverables, dates for the delivery of each, and price. The blueprint of the process would then serve for the production of a software, which would support clients and consultants to negotiate such contracts.
-
 
 The default way to negotiate such a contract, is for the consultant and client to hold meetings, and communicate in other ways, until the client was confident enough to want to invest, and the consultant was clear enough on what needs to be done, by when, and within which budget. It is a common, but unstructured process, thus hard to repeat, measure, and improve. It can take varying amounts of time, and end in no contract at all.
 
-
 The team needed specific terms for the parties in this process, the roles they can have, and the object of their negotiations. This gave the following terms.
-
 
 * Client: Party which is interested in having a Service completed by a Consultant.
 * Consultant: Party which performs a Service for a Client.
 * Service: The collaboration of one specific Consultant and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.
 
-
 Definitions embed design decisions. A Client is not necessarily someone or something that has agreed to have a service delivered, but anyone who shows interest. If Client were defined, instead, as something that exists only if a Service exists, then one obvious implication is that we need one more term, for that party in negotiations which is interested in getting the Service.
-
 
 Who can be a Client, and who a Consultant? Can a party which is in one Service a Client, be a Consultant in another Service? Answers to these questions influence the design of the process, that is, are part of decisions that shape the negotiation process.
 
-
 Notice how a plain definition, one in a natural language dictionary, of client no longer works for this team. If a client is by default "a person or organization using the services of a lawyer or other professional person or company" [Google] then not every client is a Client, since the default definition seems to require a contract to be in place. How else would the person or organization be using services?
-
 
 The point is not to debate if client or Client are better for this team, in relation to the problem they are solving. The point is, instead, that once the term Client is defined by that team, then their communication about Clients requires everyone to know that definition. If not, then there will be misunderstandings.
 
-
 So far, the innovation language of this team has three terms. None of them shows how we decided to speed up that unstructured negotiation process. Our approach was to add constraints to it, to make it more specific by taking the following assumption seriously: negotiation can be sped up if it is clear what needs to be negotiated, i.e., which parameters of the Service, and if negotiations can only last a fixed amount of time. We introduced the notion of Negotiation Phase.
-
 
 * Negotiation Phase: Part of the negotiation process which has a fixed duration and a structured set of Negotiation Phase Outputs.
 
-
 Having decided that the negotiation process would have some unknown number of Negotiation Phases, we had to decide which phases it could have. The first that seemed appropriate, was a phase during which the Consultant and Client would set goals of their collaboration. This led us to introduce the Goal Setting Phase, as a type of Negotiation Phase, and to define Goal Setting Outputs.
-
 
 * Goal Setting Phase: A Negotiation Phase, which lasts up to 14 calendar days, whose aim is for the Consultant and Client to approve a nonempty set of Service Goals.
 * Goal Setting Outputs: A statement of goals of a Service.
 
-
 This language quickly grew to a few dozen terms, and their definitions embedded our decisions in designing the negotiation process. As we progressed in the design, terms were revised, changed, some were removed.
 
-
 One of the changes involved introducing the notion of Project, as a type of Service, defined as follows.
-
 
 * Project: Service in which:
     * Client's Key Expectation is to have the Consultant achieve specific Goals on each of the agreed Targets;
@@ -310,18 +228,13 @@ One of the changes involved introducing the notion of Project, as a type of Serv
     * To receive Consultant Project Fee, AND
     * To create Accounts, which, if the Consultant manages (during the Tail) to convert into Deals, will yield the Consultant the payment of the Deal Commission.
 
-
 Note the additional terms this involves, namely Key Expectation, Target, Account, Tail, Deal, Consultant Project Fee, and Deal Commission. I leave them undefined here.
-
 
 What I want to illustrate with the Project term, is how terms are used to write rules about the artifact being designed, and how this influences the definitions of these same terms.
 
-
 As we were progressing in the design of the negotiation process, the scope of the problem widened. The team was tasked to propose a process which covered structuring and monitoring of a Consultant's execution of a Project for the Client. In other words, when contract is signed, execution starts, and we wanted to look at how to improve the monitoring of that execution. The motive was that we wanted to use that monitoring to evaluate the reputation of both the Client and Consultant, then use these for future recommendations of Consultants to Companies, and vice-versa.
 
-
 At some point in the design, we converged to the following structure of Project Phases.
-
 
 * Project Phases are:
     * Call For Help, in which a Client posts an Opportunity;
@@ -331,9 +244,7 @@ At some point in the design, we converged to the following structure of Project 
     * Approval, in which the Client confirms that Goals are met and Project is completed, and provides feedback on the Consultant;
     * Continuation, in which the Client decides if and how to continue collaboration with the Consultant.
 
-
 We grew the set of terms, refined it and their definitions, while deciding how the processes should work. That "how" means setting rules the process should satisfy. We used the terms to define the rules. Here is a sample, on Project execution.
-
 
 1. In Call For Help and Proposal Project Phases, Matching Consultants are shown to Client only in an anonymized format, so that their full name and contact information cannot be known to the Client.
 2. Contracting Phase lasts one week, with the possibility on demand to extend this by one or more increments of two calendar days each. 
@@ -353,320 +264,205 @@ We grew the set of terms, refined it and their definitions, while deciding how t
 9. Client should be able to provide feedback and ratings on all Projects.
 10. Retainer as a mechanism for extending Services should only be available to Client and Consultants who are involved already for several months in an ongoing Service.
 
-
 These rules show how the terms become building blocks of the artifacts that the team is designing. In turn, rules placed further constraints on the meaning we wanted the terms to have. Rule 8, for example, tells us that an Opportunity Response must specify Effort Estimate and Hourly Price, without these it is not an Opportunity Response. 
-
 
 This gets us to an interesting question, if rules are part of the language, or are something else, something built through language use. How, in other words, do we separate the innovation language from the ideas it is used to create, the artifacts it is used to make?
 
-
 Rule 8 is not the only one leading to this question. Rule 10 says when a Retainer can be used. Should Rule 10 be part of a definition of Retainer? Rule 3 defines the allowed duration of a Project, isn't it, then part of the definition of Project?
-
 
 To the extent that each rule restricts the interpretation of a term, it must be part of the definition of that term. If that is the case, then would everything written in the innovation language somehow constitute that language? I return to this later, in Chapter XX.
 
-
 ## 8 Four Core Ideas
+The book is grounded in four straightforward ideas. 
 
-
-The book is grounded in four simple ideas. 
-
-
-### Language Reflects Knowledge
-
-
-The first idea is that language reflects knowledge, which means this: languages you use say a lot about what you do and do not know. 
-
+### 8.1 Language Reflects Knowledge
+The first idea is that language reflects knowledge in the following sense: languages you use say a lot about what you do and do not know. 
 
 Try explaining to someone else what cancer is; if you are an oncologist, your terms and phrases will reflect a more sophisticated, more elaborate, and hopefully more accurate, precise, and clear set of ideas about what cancer may be, than what I might say, not being an oncologist, or a medical professional at all. I will come back later to why this may be, but the point should be clear and is hardly controversial.
 
-
 The important consequence of language being a reflection of knowledge, is that if you do want to convey what you know to others, and you want to do it in a precise, accurate, and clear way, then you need a technical language to do so, a language which can convey potentially complex relationships and dynamics between a myriad of ideas which are not in the world, so to speak, but in minds of people in the community which grows that knowledge. 
-
 
 That is, ideas are not there, separate from these people, for others to inspect, but exist to the extent that they put them there; and putting them there involves communication, with language being a critical tool. How else would that knowledge be exchanged?
 
-
-### Technical Languages for Specialist Knowledge
-
-
+### 8.2 Technical Languages for Specialist Knowledge
 The second central idea is that general-purpose natural languages, such as English, French, Mandarin or Swahili, at least those parts which most of us learn through basic education, are not good enough to capture the nuances needed for being precise, accurate, and clear when communicating ideas that convey deep, specialist knowledge.
-
 
 Law has its own specific language for speaking about legal entities for example, and while such terms as "limited company" may hardly be new, they have been introduced to language because it was necessary to designate specific abstractions, invented at some period in history, which did not exist before that.
 
-
 <!-- Here is a sample from the British Company Act of 2006 [Source], on company types. -->
 
-
 There are two important implications of this second idea:
-
 
 1. Technical languages are not accidental creations, but artifacts designed with specific purposes in mind. Therefore, there must be good practices to follow when doing that design. 
 2. The number of technical languages out there does not depend on some intrinsic property of any natural language, such as English or German, but on the varieties of bodies of knowledge that expert communities develop over time.
 
+### 8.3 Technical Languages Can Be Cheap to Grow
+If there are thousands of natural languages, there are many more technical languages, any one of which borrows from live or dead natural languages, but adds its own flair.
 
-### Technical Languages Can Be Cheap to Grow
+Think of specialties in medicine, many of which use some of the dead Latin, and much from a variety of live natural languages.
 
+While the design of technical languages is common in some disciplines, such as law, medicine, and engineering, even there it looks like a painful and expensive experience. My aim is to show that it is not, provided that it starts early, and proceeds incrementally through dedicated routines, to mirror the growth of the knowledge that the relevant community is exchanging.
 
-If there are thousands of natural languages, there are many more technical languages, any one of which borrows from live or dead natural languages, but adds its own flair. 
-
-
-Think of specialties in medicine, many of which use some of the dead Latin, and much from a variety of live natural languages. 
-
-
-The title of this book is a vague prediction, that soon there will be a billion new languages, not of any kind, but technical languages that are cheap to build and grow, and serve teams of specialists to convey, agree on, preserve, and collectively expand abstractions that make up deep, specialized knowledge accumulated and carefully grown over time. 
-
-
-While the design of specialized languages is common in some disciplines, such as law, medicine, and engineering, even there it looks like a painful and expensive experience. My aim is to show that it is not, provided that it starts early, and proceeds incrementally through dedicated routines, to mirror the growth of the knowledge that the relevant community is exchanging. 
-
-
-### Innovation language Are Draft Technical Languages
-
-
+### 8.4 Innovation language Are Draft Technical Languages
 The fourth important idea is that there are benefits to having draft, or rough technical languages, where terms and phrases convey new and immature ideas. This contrasts to technical languages, where the language is made to capture mature ideas.
 
+This is really the key difference between a technical and a innovation language. Innovation languages include terms which are not necessarily a reflection of agreed or stable knowledge. And this is because, or perhaps it is the other way around, that innovation languages differ from technical languages in stability, being less stable. 
 
-This is really the only difference between a technical and a innovation language. Innovation languages include terms which are not necessarily a reflection of agreed or stable knowledge. A innovation language looks like a rough, draft technical language, something that can become, or has parts which can become a technical language.
+## 9 Why Innovation Languages are Especially Interesting Today
+Technical languages have been around as long as there was a need to convey complex ideas in a precise, accurate and clear way. Medical knowledge in Ancient Greece developed its own language. 
 
+It is hard to argue against the need to make and the practicality of using technical languages. Would they have been around for that long, if there were no strong merits?
 
-## 9 Why Innovation Languages are Interesting Now
-
-
-Technical languages have been around as long as there was a need to convey complex ideas in a precise, accurate and clear way. Medical knowledge in Ancient Greece developed its own language. It is hard to argue against the need to make and the practicality of using technical languages. Would they have been around for that long, if there were no strong merits?
-
-
-But this book is not about any type of technical language. It is about immature technical languages, made along the way, as we solve unstructured and complicated problems. These are proto-technical languages. They may look as-if they are technical languages, but reflect and are used to communicate about much less developed, and less table knowledge than a typical contemporary technical language does.
-
-
-Now, a technical language itself cannot come out of thin air, but has to develop over time and in response to the maturing of, and change in the underlying body of knowledge. All technical languages had to start somewhere, somehow, and they were - then and there - also grounded in immature knowledge, looking perhaps much like innovation languages.
-
+A technical language itself cannot come out of thin air, but has to develop over time and in response to the maturing of, and change in the underlying body of knowledge. All technical languages had to start somewhere, somehow, and they were - then and there - also grounded in immature knowledge, looking perhaps much like innovation languages.
 
 Why is now any different from any of the past times, for thinking more about how to make Innovation languages? Or, in other words, to think more about how to make proto-technical languages?
 
-
 Three factors stand out.
 
-
-### Knowledge Assets
-
-
+### 9.1 Knowledge Assets
 One factor that favors cheaper and faster production of Innovation languages, is the increasing emphasis on an old idea, that people in organizations acquire, hold, apply, and grow knowledge, and that they have incentives to do this in a systematic way.
-
 
 A systematic approach is needed to manage risks, if only of that knowledge disappearing too easily. 
 
-
 Systematically maintaining a innovation language, as one of the records of the specific organizational knowledge, can generate value. It facilitates seeking protection under intellectual property laws, even if it does guarantee that this will be successful.
 
+Having even the simplest innovation language, helps at the very least the communication with legal experts, and the identification of prior innovations, which may already benefit from legal protections.
 
-Having even the simplest innovation language for innovations, helps at the very least the communication with legal experts, and the identification of prior innovations, which may already benefit from legal protections.
-
-
-### How and Why Work Is Automated
-
-
-The enduring interest to automate work, and how we do that, are the second and third factors which favor the creation of Innovation languages.
-
+### 9.2 How and Why Work Is Automated
+The enduring interest to automate work, and how we do so, are the second and third factors which favor the creation of Innovation languages.
 
 To automate work, you need to break it down into simpler tasks, and then automate these. To automate a task, you need a combination of data about past executions of that tasks and their outcomes, knowledge to distinguish good from bad executions, and knowledge about how to perform that task. 
 
-
 In some cases, such as the matching of people's names to their faces in photos, the task is easier to automate by having an algorithm learn from training data, where faces and names are already correctly matched. At least in part, this is due to our inability to make explicit, to document and explain how people recognize faces in images.
-
 
 In the majority of cases still today, data about past executions is neither available, nor good enough for automated learning. We fall back to explicit rules, and to building task-specific software according to these rules.
 
-
-To build the software, then, we need to describe the task and its execution. Just like we did for the consulting contract process in Chapter 2, which was subsequently automated. 
-
+To build the software, then, we need to describe the task and its execution. Just like we did for the consulting contract process in an earler Chapter, which was subsequently automated. 
 
 Since we are automating by building software, we need to be precise about the operations that the software needs to perform, and the data it needs to perform them on. 
 
-
-If we need to be precise in software code, to make sure it does what we want it to do, then we also need to be precise in the specifications of that software, and finally, in the way that these specifications ensure that the software will automate the task. A innovation language moves across these artifacts, being present in the specifications and in code. 
-
+If we need to be precise in software code, to make sure it does what we want it to do, then we also need to be precise in the specifications of that software, and finally, in the way that these specifications ensure that the software will automate the task. An innovation language moves across these artifacts, being present in the specifications and in code. 
 
 The language becomes the backbone for task descriptions, later in software specification documents. The software itself used these terms, not only in its user interface, but in code, as classes, relationships, methods designed into the software followed the innovation language.
 
-
 ## 10 New Ideas Use both Old and New Words
-*Chapter summary: On the relationship between new words and old words in a innovation language, how old words build up definitions of new ones.*
-
+This is a Chapter on the relationship between new words and old words in a innovation language, how old words build up definitions of new ones.
 
 How to explain a satellite to a child? How about using one of these definitions:
 
-
 > Satellite: "An artificial body placed in orbit round the earth or moon or another planet in order to collect information or for communication." [[OED: Satellite]](https://en.oxforddictionaries.com/definition/satellite)
-
 
 > "In the context of spaceflight, a satellite is an artificial object which has been intentionally placed into orbit. Such objects are sometimes called artificial satellites to distinguish them from natural satellites such as Earth's Moon." [[Wikipedia: Satellite]](https://en.wikipedia.org/wiki/Satellite)
 
-
 If a child already has an idea of artificial bodies, orbit, earth, planet, of what collecting information and communication are about in relation to these notions, then the first definition might be a good start. It is not an explanation, but we will come back later to the differences between definitions and explanations.
-
 
 How about this, which NASA says is for children ages 10+?
 
-
 > "A satellite is a moon, planet or machine that orbits a planet or star. For example, Earth is a satellite because it orbits the sun. Likewise, the moon is a satellite because it orbits Earth. Usually, the word "satellite" refers to a machine that is launched into space and moves around Earth or another body in space." [[NASA Knows! (Grades 5-8)]](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-a-satellite-58.html)
 
-
 Or this version, from NASA too, for a slightly younger audience:
-
 
 > "A satellite is an object that moves around a larger object. Earth is a satellite because it moves around the sun. The moon is a satellite because it moves around Earth. Earth and the moon are called "natural" satellites.
 But usually when someone says "satellite," they are talking about a "man-made" satellite. Man-made satellites are machines made by people. These machines are launched into space and orbit Earth or another body in space." [[NASA Knows! (Grades K-4)]](https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-satellite-k4.html)
 
-
 If you had to choose one, which one would it be? Are either of the first two good candidates?
-
 
 You can think of these questions by looking at definitions backwards, from the definiens (which defines) to the definiendum (the term being defined). 
 
-
 Take the Wikipedia Satellite definition again. Notice it mentions the term context, a complicated term, an abstraction that bears multiple precise definitions, which are likely to vary across specific disciplines; i.e., context has a different definition in different technical languages. For example, Wikipedia gives this, for context in computer science:
-
 
 > "In computer science, a task context is the minimal set of data used by a task (which may be a process or thread) that must be saved to allow a task to be interrupted, and later continued from the same point." [[Wikipedia: Context (computing)](https://en.wikipedia.org/wiki/Context_(computing))
 
-
 This is certainly not a unique or conventional understanding of the notion of context in computer science altogether. There are specific, and substantially different definitions of context in, e.g., knowledge representation, requirements engineering, mobile computing, and so on. Here is a definition from mobile computing research:
-
 
 > "Context is any information that can be used to characterize the situation of an entity. An entity is a person, place, or object that is considered relevant to the interaction between a user and an application, including the user and applications themselves." [[Abowd, Gregory D., et al. "Towards a better understanding of context and context-awareness." International symposium on handheld and ubiquitous computing. Springer, Berlin, Heidelberg, 1999.]](https://link.springer.com/chapter/10.1007%2F3-540-48157-5_29)
 
-
 In short, context has a definition that varies between technical languages. In philosophy, the relationship between context and knowledge is an ongoing and longstanding debate, see Epistemic Contextualism for one of lines of argument [[SEP: Epistemic contextualism]](https://plato.stanford.edu/entries/contextualism-epistemology/). The Oxford English Dictionary gives this generalist definition:
-
 
 "The circumstances that form the setting for an event, statement, or idea, and in terms of which it can be fully understood." [Oxford English Dictionary: Context]
 
-
 Being twisted in this way, context is a not a term to use, when defining or explaining a satellite to children.
 
-
 The important takeaway here, is not that it is hard to explain a satellite to a child, but that how you define a term depends on two things:
-
 
 * what you assume the user of that definition already knows, and 
 * what they may want to do, once they learn the definition or explanation you give them.
 
-
 You may, sometimes in error, assume that the child does not know enough for you to use the Oxford English Dictionary definition. If you also think the child needs it simply out of curiosity, then perhaps either of the two NASA definitions will do.
-
 
 But what if an astrophysicist asks an engineer for a definition of "satellite", not out of curiosity, but because they are working together on the design of a new satellite, and they are trying to align their ideas. None of the definitions above might work; perhaps their definition would speak of gravitationally bound objects in orbits, or use other technical terms more appropriate to their background knowledge and the task at hand.
 
-
 This gets us to the second and third takeaway:
-
 
 * it makes little sense to think about one term and its definition in isolation from everything else, and 
 * a technical language leans on natural language to some extent, even if only by using terms from natural language in definitions of technical terms.
 
-
 The following illustrates how the Satellite definition from the Oxford English Dictionary presumably leans on other natural language terms. Some are emphasized below.
-
 
 > Satellite: "An **artificial body** placed in **orbit** round the **earth** or **moon** or another **planet** in order to **collect information** or for **communication**." [Oxford English Dictionary: Satellite]
 
-
 Each emphasized word (and others) is a plain English word, so to speak, that is, it is a part of English. If we take it that the Oxford English Dictionary provides good definitions for many words that make a large subset of English language, then this Satellite definition leans on the dictionary as the guideline for how to read each of the words in the definition.
-
 
 But that definition of Satellite is taken from the Oxford English Dictionary, so by design, it leans on other words from there.
 
-
 We go to a different example now, where some words in the definiens are not in the Oxford English Dictionary.
-
 
 > "Biosafety: The prevention of large-scale loss of biological integrity, focusing both on ecological and human health. Set of measures or actions addressing the safety aspects related to the application of biotechnologies and to the release into the environment of transgenic plants and organisms, particularly microorganisms, that could negatively affect plant genetic resources, plant, animal or human health, or the environment." [[UNDP: Biosafety]](http://www.undp.org/content/sdfinance/en/home/glossary.html)
 
-
 This definition of Biosafety comes from the United Nations Development Programme (UNDP), in a glossary for documentation on sustainable development. Below, terms set in bold are not defined in the Oxford English Dictionary, and so for all practical purposes here, not part of natural language. At the same time, these terms are not defined in that UNDP glossary; terms set in italics are not part of natural language, but are defined in the glossary. The rest of the terms are part of natural language.
-
 
 > "Biosafety: The prevention of **large-scale loss** of **biological integrity**, focusing both on ecological and human health. Set of measures or actions addressing the safety aspects related to the application of biotechnologies and to the release into the environment of transgenic plants and organisms, particularly microorganisms, that could negatively affect plant genetic resources, plant, animal or human health, or the environment."
 
-
 To summarize, in the Biosafety definition above, there are two terms outside natural language and outside the glossary itself ("large-scale loss" and "biological integrity"), and only "Biosafety is itself defined in the glossary, no other term from the definiens is.
-
 
 Is that a good definition?
 
-
-This is hard to say, as "good definition" itself is an open topic, to which I return in Chapter XX. It is clear, however, that there are several things to think about here:
-
+This is hard to say, as "good definition" itself is an open topic, one that spans most of this book. It is clear, however, that there are several things to think about here:
 
 * "Biosafety" is defined independently from the rest of the glossary,
 * "Large-scale loss" is undefined within the topic of the glossary, i.e., the glossary does not help reduce the vagueness of that term in any way, and
 * "Biological integrity" is undefined in the glossary, and since it is not part of natural language, the authors in the glossary must have leaned on a technical language, but did not point to it in the glossary. 
 
-
 If these look like quibbles, they are not. Here is a sample of the activity around getting to and agreeing on a technical definition of "biological integrity":
-
 
 > "[United States Environmental Protection Agency] convened a symposium [...] on the integrity of water soon after passage of PL 92-500 [Federal Water Pollution Control Act], but no clear definition of biotic integrity emerged. Many authors advocated the use of a holistic perspective. Karr and Dudley [...] argued that the "integrity" objective encompasses all factors affecting the ecosystem and developed a now widely quoted definition of biological integrity as the ability to support and maintain 'a balanced, integrated, adaptive community of organisms having a species composition, diversity, and functional organization comparable to that of natural habitat of the region.' A more recent paper defined ecological health (an umbrella goal, the maintenance of which motivates virtually all environmental legislation) as follows: 'a biological system...can be considered healthy when its inherent potential is realized, its condition is stable, its capacity for self-repair when perturbed is preserved, and minimal external support for management is needed'[...]." [[Karr, James R. "Biological integrity: a long‐neglected aspect of water resource management." Ecological applications 1.1 (1991): 66-84.]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1941848)
 
-
 Disagreement is common when specialists work on definitions. The problem is not disagreement, but disconnect, which happens if the discussion involves parallel monologues, each pushing its own definition, and no dialogue where there is convergence to an agreement on the definition of each debated term. 
-
 
 Going back to takeaways, these examples illustrated how a definition, even of a new technical term, depends on natural language and therefore of old terms and their readings accepted as part of natural language, however unclear they may be. As long as your technical language leans on natural language, which is not bad in itself, you are building something that is intended to be more precise, accurate, and clear from pieces which may not be that at all. In the worst case, you are simply changing where vagueness, ambiguity, and other deficiencies are coming from.
 
-
 New ideas need new words. At the same time, new words are anchored in old ones.
 
-
 ## 11 Definitions Record Choices
-
-
-*Chapter summary: How the design of a innovation language reflects our problem-solving and decision-making.*
-
+This Chapter is on how the design of a innovation language reflects our problem-solving and decision-making.
 
 A technical language is a record of past decisions. This is a simple idea with significant consequences.
 
-
 Let's start with a simple example, from the consulting contract case introduced earlier. We had the following definition.
-
 
 * Service: The collaboration of one specific Consultant and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.
 
-
 Consider these alternative definitions. Differences from the original one above are emphasized.
-
 
 * Service1: The collaboration of one **or more** specific Consultants and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.
 
-
 Service1 allows any number of Consultants to work for a Client under the same Service Contract. This may be better or worse than the original, but in either case, it can only be so if we decided that it should be so. In other words, the original definition excludes this possibility, because we decided to exclude that possibility. The main reason was that it would require coordination between Consultants, and that could have an impact on the speed at which we get to an agreed Service Contract.
-
 
 Service2 below, is another alternative.
 
-
 * Service2: The collaboration of one specific Consultant and one specific Client.
-
 
 Service2 is less specific than either Service and Service1. You can see it as a less mature variant of each of these. It fails to mention the contract as the framework for collaboration. By doing that, it fails to say how we go from negotiation to collaboration, the transition which happens because there is agreement on a contract.
 
-
 The point here, is that definitions, especially about new things, and especially if these new things are abstractions, ideas, are not given somehow to us. We make them, and as a result, we define them.
-
 
 To clarify that given/made distinction, here is the Oxford English Dictionary definition of giraffe.
 
-
 > Giraffe: "A large African mammal with a very long neck and forelegs, having a coat patterned with brown patches separated by lighter lines. It is the tallest living animal." [[OED: Giraffe]](https://en.oxforddictionaries.com/definition/giraffe)
-
 
 This definition conveys what one generally sees, when looking at the animal called giraffe. Giraffes, in other words, are given - it is not man-made, but a product of evolutionary processes. Alternatively, if we used a definition that lists a different set of properties, as below, we are still in the same case: a giraffe has these properties not because we made them so, i.e., the definition is not a reflection of our design of giraffes, but of our observation of giraffes.
 
-
 Giraffe [[African Wildlife Foundation: Giraffe]](https://www.awf.org/wildlife-conservation/giraffe):
-
-
 - "Scientific name: Giraffa camelopardalis
 - Weight: Males: 1,930 kilograms (4,254 pounds) Females: 1,180 kilograms (2,601 pounds)
 - Size: 5.7 meters tall from the ground to their horns (18.7 feet)
@@ -676,82 +472,56 @@ Giraffe [[African Wildlife Foundation: Giraffe]](https://www.awf.org/wildlife-co
 - Gestation: Between 13 and 15 months
 - Predators: Humans, lions, leopards, hyenas, crocodiles"
 
-
 But things are very different for our Service term above, since it refers to an abstraction, one we fully designed - a team chose its properties and from there followed its definition.
-
 
 There are also in-between cases, where the definition is of an observed complex process. "Globalization" is an interesting case, and below are four definitions that the United Nations Economic and Social Council cites in their [[Compendium of basic United Nations terminology in governance and public administration.]](https://publicadministration.un.org/publications/content/PDFs/E-Library%20Archives/2008%20CEPA_Compendium%20of%20Basic%20UN%20Terminology.pdf)
 
-
 > "Globalization is increased global integration and interdependence. It has a multidimensional character: economic, political, social and cultural. It is characterized by unprecedentedly rapid flows of goods and services: private capital; circulation of ideas and tendencies; and the emergence of new social and political movements [...]
-
 
 > The process through which an increasingly free flow of ideas, people, goods, services and capital leads to the integration of economies and societies. Major factors in the spread of globalization have been increased trade liberalization and advances in communication technology [...]
 
-
 > Globalization describes the growth in international exchange and interdependence. With growing flows of trade and capital investment, there is the possibility of moving beyond an international economy (where 'the principle entities are national economies') to a 'stronger' version of the globalized economy in which 'distinct national economies are subsumed and rearticulated into the system by international processes and transactions' [...]
-
 
 > Globalization can be defined as universalization. In this use, 'global' is used in the sense of being 'worldwide' and 'globalization' is 'the process of spreading various objects and experiences to people at all corners of the earth'. A classic example of this would be the spread of computing, television etc."
 
-
 The World Bank definition looks more abstract than the others, in that it defines globalization as a type of universalization (which I leave undefined here), while the other three definitions talk of integration and interdependence.
-
 
 Below is another definition of "globalization", as it appears in the United Nations UNTERM, "a multilingual terminology database maintained jointly by the main duty stations and regional commissions of the United Nations system."
 
-
 >"Expansion of global linkages, organization of social life on global scale and growth of global consciousness, hence consolidation of world society. Most particularly (per Friedman), the term is used to refer to the seemingly "inexorable integration of markets, nation-states and technologies to a degree never witnessed before -- in a way that is enabling individuals, corporations and nation-states to reach around the world farther, faster, deeper and cheaper than ever before." This phenomenon also involves the spread of the gospel and forms of market capitalism to virtually every country in the world." [[UNTERM:Globalization]](https://unterm.un.org/UNTERM/portal/welcome)
-
 
 Is any of these, or is there, at all, the definition of globalization?
 
-
 It is a complex process, which we do not know how to measure. There is disagreement on when, where and how it started. We do not know what cues to look for, which data is representative of it. We do not know if it has reached a peak, what reaching a peak means anyway, and we have few ideas on how globalization might end.
-
 
 > "Today few doubt the reality of globalization, yet no one seems to know with any certainty what makes globalization real. So while there is no agreement about what globalization is, the entire discourse on globaliz- ation is founded on a quite solid agreement that globalization is. Behind the current and confusing debates about its ultimate causes and con- sequences, we find a wide yet largely tacit acceptance of the factuality of globalization as such, as a process of change taking place 'out there': even otherwise constructivistically minded scholars tend to regard globaliz- ation as an undeniable and inescapable part of contemporary experience" [[Bartelson, Jens. "Three concepts of globalization." International Sociology 15.2 (2000): 180-196.]](http://journals.sagepub.com/doi/abs/10.1177/0268580900015002003)
 
-
 Which of these would you choose?
-
 
 This question depends on what, if anything you want to do about, with, or in relation to the phenomenon that is defined.
 
-
 More specifically, a choice between definitions depends on the extent to which their differences make a difference in your decision-making and problem-solving.
-
 
 Going back to our small-scale consulting contract case, the choice of one of those three definitions given earlier (Service, Service1, and Service2) does make a difference. "Service" requires a different negotiation process than "Service1", and both can involve different processes than "Service2". 
 
-
 Definitions indeed record choices. If they define what is given and easily observable, such as giraffes, then definitions are more a record of choices of properties to pay attention to, among all potential (and perhaps unknown) properties of giraffes. If, instead, they define abstractions which we fully imagined and designed, then the definition reflects our choices of properties to give to these abstractions. And in many cases, we will be creating abstractions to communicate about potentially complicated combinations of phenomena, as we saw for globalization, where properties reflect, again, what we see through observation, but perhaps too, some wishful thinking, what we want these phenomena to be.
-
 
 A definition is the bridge of the new to the old, we piece together the new from old notions. The new, by being there, by being defined, becomes a tool or vehicle for change, for moving not only ideas from old to new, but also learning to make new choices and act differently than before. Conceptualizations of "globalization", its definitions, work the same way, embodying observations, choices, mashing them up with expectations, making it a vehicle, not a simple reflection of what seems to be a shared experience. Bertelson's summary, of his discussion of the concept of "globalization" nicely sums up the multiple roles a definition can have, especially for complex phenomena, which lend themselves to analysis from different angles, and through tools from various bodies of knowledge.
 
-
 As he puts it, the term "globalization" links the old and the new (label [A] in the quote below), denotes the interest in the phenomenon itself [B], tells us about what can be [C] and when it will be [E], and points to a vague reality [D], i.e., does not refer to something tangible or otherwise easily accessible, for which you and I could rapidly come to same or similar enough observations.
-
 
 > "Through its various connotations, the concept of globalization functions as [A: a mediating link between the modern world with its crusty social ontology and the brave new world that remains inaccessible and unintelligible not only to the subscribers to that ontology but also to the believers in global change as well]. Not only is globalization a moving target for social inquiry, but it also [B: signifies the movement of that inquiry itself]. The concept of globalization thus makes modern political experience meaningful while simultaneously releasing political expectation from the strictures that the very meaningfulness of this experience has imposed on political imagination. It does so through a double gesture: by [C: projecting expectations onto the global while simultaneously making those expectations constitutive of globality as a point of reference and convergence]. In this respect, the logic of the concept of globalization resembles that of the concepts of civilization and revolution as they were shaped before and during the French Revolution: [D: these concepts also lacked stable referents, but functioned as vehicles of social change by signifying change in its purest, most necessary and irreversible form: change as the condition of possible objects and possible identities in a possible future]. And like these concepts, globalization does not represent a mere prognosis for the future, but a prophecy in quest for self-fulfillment. So far from being here to stay, the metaphors of globalization will perhaps die when the concept has fulfilled its destabilizing task, that is, [E: when globalization has become something that goes without saying and therefore no longer stands in need of being spoken about]." [[Bartelson, Jens. "Three concepts of globalization." International Sociology 15.2 (2000): 180-196.]](http://journals.sagepub.com/doi/abs/10.1177/0268580900015002003)
 
-
 ## 12 Definitions Make Choices
-_Chapter summary: On how definitions make it easy do do some things, and hard to do others._
-
+This Chapter is on how definitions make it easy do do some things, and hard to do others. They impose constraints on future choices.
 
 If you commit to a definition, meaning you choose one definition of a term over others, then you also take additional commitments. It is yet another case of buying one and getting more than you asked for. How much of this more do you know? Do you want this additional baggage? These are the two central questions.
 
-
 Law is an interesting domain when thinking about definitions. This is for two reasons: one, it insists on using terms in a precise and consistent way, and two, how these terms are used has substantial effects on people's lives.
-
 
 Consider the hard case, of "terrorism". How would you define it? 
 
-
 Here is how terrorism is defined in the United Kingdom Terrorism Act. The version below is from 2018. Read the colors as follows: blue text is the original definition, and it was included in law in 2000; text labeled [A] was added to the original definition in 2006, and the updated definition was published in the Terrorism Act 2006; text labeled [B] was added in 2008, and published in Counter-Terrorism Act 2008.
-
 
 > "Terrorism: interpretation.
 > * (1) In this Act 'terrorism' means the use or threat of action where
@@ -772,93 +542,64 @@ Here is how terrorism is defined in the United Kingdom Terrorism Act. The versio
 >   * (d) 'the government' means the government of the United Kingdom, of a Part of the United Kingdom or of a country other than the United Kingdom.
 > * (5) In this Act a reference to action taken for the purposes of terrorism includes a reference to action taken for the benefit of a proscribed organisation." [[UK Terrorism Act 2000]](https://www.legislation.gov.uk/ukpga/2000/11/section/1#commentary-c16756551)
 
-
 This is a complicated, but carefully made definition of a complex and important phenomenon. It is a poorly understood phenomenon. Any definition, therefore, however attentively made, will have limitations.
 
-
 One of the possible consequences of applying this definition is that some acts, which normally do not look like cases of terrorism, still could be categorized as terrorism.
-
 
 > "Civil disobedience, public protest and industrial action are among the activities that could fall within the definition. These types of activities should be excluded from any definition of terrorism. [...] Unlike the definition in the Australian Criminal Code (and its State equivalents), the New Zealand Terrorism Suppression Act, the Canadian Criminal Code and the 2003 South African Anti-Terrorism Bill, the United Kingdom definition does not contain an exception in favour of advocacy, protest or industrial action. The legislation simply requires the purported terrorist to have committed an act (such as endangering a person's life, or seriously damaging property), and to have committed that act in furtherance of a political, religious or ideological cause with the aim of influencing the government or intimidating the public (or a section thereof). This encompasses groups whose methods are generally non-violent and who do not aim to intimidate or to coerce the government or the public.
 For example, a long-running nurse's industrial dispute where staffing levels in public hospitals have been seriously reduced could 'create a serious risk to the health or safety of the public', within the meaning of s 1(2)(d) (as could the industrial actions of other essential services, such as fire officers, police, and so forth). If the strike were directed towards convincing the government to increase pay and conditions in public hospitals then this could also satisfy both the 'political cause' and the 'influencing government' requirements, in s1. Similarly, a mass student protest against the deregulation of university fees by the British Government could also fall within the definition of terrorism." [[Golder, Ben, and Williams George. "What is Terrorism-Problems of Legal Definition." UNSWLJ 27 (2004): 270.]](http://www.unswlawjournal.unsw.edu.au/wp-content/uploads/2017/09/27-2-12.pdf)
 
-
 Theses are interesting potential consequence, regardless of intentions that led to the definition.
-
 
 Going back to less complicated topics, and more in the context of innovation languages, your choice of one definition over another has consequences on the structure of the problem space, of the solution space, and on the innovation process. This means that how you define something has an impact on what problem you are going to be solving - that is the problem space part - the potential ways you will be looking at to solve it - the solution space part - and on how you go through the formulation of the problem and its resolution - the innovation process part. In other words, it can affect really all that goes on during innovation.
 
-
 In an earlier Chapter, I introduced the case where we were designing a process for contract negotiation. One of the issues that was highlighted early on, was that such contract negotiation tends to take an unpredictable amount of time. They can last long, and if they last too long, they may simply not lead to the contract at all. So one of the aims that was taken for granted, was that the process should shorten the time to contract, or more broadly, to the decision to sign or not.
 
-
 How do these early assumptions shape the problem space? Consider two potential definitions for the contract negotiation process.
-
 
 * Contract Negotiation 1: Process in which parties agree on terms of collaboration.
 * Contract Negotiation 2: Process in which a party that needs to have assignments performed communicates with potential parties that can execute these assignments, until she has either agreed with one on terms for collaboration towards the execution of these assignments, or has agreed with none of the considered parties.
 * Contract Negotiation 3: Process in which parties agree on terms of collaboration within two calendar weeks from the time the asking party requested a proposal from the supplying party.
 
-
 The first definition is the least constraining. It leaves a lot open. Nothing is said about how many parties can be involved, how much time they can take, what they can collaborate on. The second definition is clear about the number of parties that can be involved, and how the process ends. Only the third definition mentions the duration of the process, and is precise about it, but is open regarding the number of participants.
-
 
 If the innovation team adopts the third definition, they still need to decide on the number of participants, among others. But can they allow any number of participants? Does allowing fewer participants make two weeks a long time for negotiations? Is two weeks too short, when there are many participants? Does the number of participants influence duration? Is it the other way around, does the duration limit the number of participants? Should the process differ in maximal duration if it has many participants? Which numbers would require which durations?
 
-
 If the team does indeed adopt the third definition, and makes it immutable, then this affects substantially the possible designs of the negotiation process. And it does so in ways which may not be easy to see as early on in the innovation process. We did, in fact adopt a definition which included a time limit. Because of this, we had to restrict communication between the parties. If we left it open, letting them freely communicate, we believed that they would not converge to a go/no go decision quickly enough. This, in turn, required that we provide template contracts, where it was clear which exact parameters could be negotiated. And that, then, required that we restrict communication between parties only to the negotiation of values of those parameters. Yet another unanticipated consequence of this, is that it can work only for highly structured contracts, where these negotiable parameters are few and well known. For example, a monthly retainer amount and a price per hour, together with the list of tasks. That is a far reaching consequence, because it affects the size of the potential market for the process, and the software that was to be made to support that process.
-
 
 This does not mean that a more open, i.e., less constraining definition is better. If the team takes seriously the first definition instead, then it may ignore the relationship of duration to outcome, and more specifically that the duration of negotiations influences negotiation success.
 
-
 All these issues seem obvious as you read this text, but they are hard to see and analyze when you are involved in the innovation process. It is often only in retrospect that their merits and drawbacks become clear.
-
 
 In that respect, you can see a definition as a bundle of predictions. In the case I mentioned, these are that two weeks are a good duration for contract negotiation, that the number of participants needs to be two or more, and so on. These are predictions about what will make the outcomes of innovation useful.
 
-
 An analysis to do, that helps understand the implications of a definition on the problem and solution spaces, is to identify choices in the definition, and identify at least one other option for each. I did it below on the three definitions.
-
 
 * Contract Negotiation 1: Process in which _(one, two, more parties)_ _(agree, disagree, cancel negotiations)_ on terms of _(delegation, collaboration)_.
 
-
 I identified three choices in the first definition. One is the number of parties, with four options (either one of the three, and all three as the fourth). The second is the outcome of negotiations, with four options as well. The final is the object of negotiations, with two options. You could have gotten other choices and other options for each. What the analysis highlights, is that the first definition commits to one out of 4 \* 4 \* 3 possible combinations; the problem space is restricted to the chosen options in each choice, and any solution will have to solve a problem in that part of the problem space.
-
 
 Consider now the second definition.
 
-
 * Contract Negotiation 2: Process in which a party that needs to have _(one, more assignments)_ performed communicates with _(one, more than one potential parties)_ that can execute _(all, subset of these assignments)_, until she has either agreed with _(none, one, more than one party)_ on terms for collaboration towards the execution of _(all, subset of these assignments)_.
-
 
 Above, I highlighted five choices, and a problem space of 3 \* 3 \* 3 \* 3 \* 3 combinations. You could easily enlarge this problem space, by allowing participants to make their own decisions. That would look like this.
 
-
 * Contract Negotiation 4: Process in which a party that needs to have _(one, more assignments, party's own choice of number of assignments)_ performed communicates with (one, more than one potential parties, the number of parties decided for that contract) that can execute _(all, subset of these assignments, a minimum set by the asking party)_, until she has either agreed with _(none, one, more than one party, number chosen by the asking party)_ on terms for collaboration towards the execution of _(all, subset of these assignments, minimal set required for the asking party to accept the contract)_.
-
 
 And this is only for a rough definition of a single term. You can imagine how this becomes complicated to think about, if we start looking at choices in two, three, or more realistically, innovation languages with a few dozen, and sometimes hundreds of terms. Even if you dedicated effort to the analysis of this kind, to each definition alone, you would still have to do this for interactions of choices which are in definitions of different terms, but depend on each other.
 
-
 Same analysis is now applied to the third definition.
-
 
 * Contract Negotiation 3: Process in which _(two, more than two, number st by asking party)_ parties agree on terms of collaboration within _(one, two, custom number chosen by asking party)_ calendar weeks _(from the time the asking party requested a proposal from the supplying party, from the time the first supplying party responded to the request for proposal, either of these as st by asking party)_.
 
-
 Again, notice how a seemingly simple definition can cause headache, as the number of choices and options in each start to multiply.
-
 
 Let's take a step back. What goes on in this analysis? I said I was identifying choices. In abstract terms, these are assignments of values to variables. I took easy examples in these definitions, because it is straightforward to think about, e.g., the number of participants as a variable that can take different numerical values, positive integers. But this is less apparent in the third definition, for the choice of trigger that starts the negotiation timer, where I had the choice "two calendar weeks from the time the asking party requested a proposal from the supplying party".
 
-
 In simple terms, choices are all items in a definition that you could change. A choice in a definition is something that can or could be different.
 
-
 A choice is not necessarily easy to identify in the definition. It could be straightforward, like in the cases I had above, or much harder, as in the following example.
-
 
 * Shippable: A Shippable Unit (a.k.a. "Shippable" only) satisfies all the following conditions:
     * It involves one or more software functionality;
@@ -867,63 +608,44 @@ A choice is not necessarily easy to identify in the definition. It could be stra
     * Prior to its release to UAT Environment, it has been tested by Vibe to ensure that this software functionality operates in accordance to its Product Specification;
     * Its Product Specification has been approved, prior to the commitment of development resources to its implementation, i.e., prior to its User Story being introduced for the first time in a Sprint.
 
-
 This comes from a terminology made by a software engineering team that was adopting for its own work style a general purpose development method. You might recognize that they were adopting and adapting for themselves, a variant of the Scrum method for software development. A first choice, which is hard to see in this definition, is that a shippable should involve pieces of functionality; it was only when the team started dedicating more resources to analysis tasks, which do not produce functionality, but do produce designs of future functionality, that they recognized that outcomes of these analyses cannot be presented as shippables, which skewed data on team's performance, and caused problems when performance assessments started being done by a third party. This was, in fact not a conscious choice, because the team was already - when the definition was made and approved - involved for months in developing functionality which was well specified up front, and there was no analysis effort to do. That option was not considered, and when no options are considered, this part of the Shippable definition seems, at that time, as immutable, it is not a choice at all, even if this turned out to be a mistake.
-
 
 Another issue is the last item, where the Product Specification needs to be approved up front. This turned out to be a problem, because if we had to follow it rigorously, it would delay a number of decisions to change minor aspects of the product, decisions which we ended up taking anyway, without having the approved specification. However, when the definition was being made and approved, it seemed like the only option.
 
-
 It can, in short, be hard to see that something in a definition is a choice in the first place. But even in the hard example above, choices were still items, parts of the definition.
-
 
 It can be harder still, as when the definition itself is a choice, and taking another option would lead you to throw away that definition altogether.
 
-
 In the Shippables example above, the notion of a shippable is associated, as are notions of User Stories, Sprints, and so on, with the Scrum method for software development. The choice of going along with that method, of aligning to it, is in fact a choice like any other. If we wanted a different method, there may not be a notion of Shippable there at all.
-
 
 This highlights the fact that you need to worry about choices that led to the introduction of the term to the innovation language, then about choices captured in the definition itself, and the choices that are implicit, which you only learn through experience.
 
-
 Troubles do not end there. I have a rather different understanding of options and choices when I am analyzing definitions that I create, as opposed to those that others made. Indeed, a term's definition is simply an outcome of the thinking and communication that led to it (including one's specific experience and expertise accumulated up to that point). If you did not participate in, or do that thinking, then your analysis of choices in a definition will be only on the definition itself, and the rest of the innovation language.
-
 
 But even if I had to make a definition of Shippable, I can still know little about Scrum, or software development altogether. Your analysis, in other words, inevitably leans on the knowledge you have.
 
-
 And even if I knew a lot about software engineering methods, it would be more appropriate to know specifics of that team, who will be using the definition, than if my knowledge was generic.
-
 
 The bottom line is that the less you know and the more indirect that knowledge is, the more difficult it is to anticipate the effects of choices in the definitions you make, or are handed over.
 
-
 I mentioned three parameters so far, which play into your ability to predict effects of choices in a definition. They are:
-
 
 * If your knowledge is direct or indirect; it is direct if you have expertise and experience on phenomena at hand; it is not if they are new to you, and much of what you can think of these phenomena is, thus, speculation based on, for example, analogy;
 * How extensive your knowledge on the phenomenon is. The less extensive it is, the more likely it is that many choices in the definition will remain implicit to you;
 * If you are an author of the definition, or only its recipient, in which case you did not participate in whichever explicit choices were made when that definition was designed.
 
-
-These three dimensions are orthogonal. Your level on one has no relationship to your level on another. With this in mind, your wors case is being a recipient of a definition, while having low indirect knowledge of the phenomenon that the definition is about. 
-
+These three dimensions are orthogonal. Your level on one has no relationship to your level on another. With this in mind, your wors case is being a recipient of a definition, while having low indirect knowledge of the phenomenon that the definition is about.
 
 But what if choices in one definition are linked to choices in others? That requires a different view of an innovation language, presented in the next Chapter.
 
-
 ## 13 Language as Network
-_Chapter summary: On relationships between definitions in an innovation language, how they lead to a network representation of the language, and why that is useful._
+This Chapter is on relationships between definitions in an innovation language, how they lead to a network representation of the language, and why that is useful.
 
+There is an obvious relationship between terms in an innovation language: a term A is defined by mentioning a term B, as well as other terms; this lets us draw up a network of how terms depend on each other in an innovation language.
 
-This Chapter elaborates a simple idea, of relating a term A to a term B if the definition of A mentions B, and looking at what to do with these relationships.
-
-
-Why do it? Because any term in an innovation language is not isolated. It is one among others in a language, it co-exists with other terms there. Said differently, ideas in a language are intertwined, and so are the notions to convey with the innovation language.
-
+Why do it? Because any term in an innovation language is not isolated. Ideas in a language are intertwined, and so are the notions to convey with the innovation language.
 
 Consider the following simple innovation language, made in a project to create software that should help collect data about how products are sold at points of sale. The data is subsequently used to help decision making in marketing and sales at a large electronics manufacturer.
-
 
 * SRN: Smart Retail Network software.
 * SDM: Shop Display Management software.
@@ -941,9 +663,7 @@ Consider the following simple innovation language, made in a project to create s
 * Analyst: employee interested in analyzing the data stored in SRN.
 * Administrator: employee interested in changing the settings and/or performing maintenance of SRN.
 
-
 Here is a summary of how definitions depend on other terms in the innovation language. Writing A <- B says that the definition of A mentions B, and so we say that A depends on B.
-
 
 * Analyst --depends on-> SRN
 * Administrator --depends on-> SRN
@@ -967,33 +687,23 @@ Here is a summary of how definitions depend on other terms in the innovation lan
 * Shop Display Identifier --depends on-> Basic Shop Display
 * Shop Display Supplier --depends on-> Shop Display
 
-
 The Figure below shows the dependencies as a graph, called the term dependency network. It has 15 nodes and 21 edges.
-
 
 ![](book_images/SRN_TDN_graph.png?raw=true)
 
-
 How does this diagram help? One way to read it, is that it shows dependencies. A term's definition depends on another's. This dependency view of an innovation language gives three types of nodes: inner, stops, and outer.
-
 
 Outer nodes depend on no term in the innovation language. The definition of an outer node depends entirely on terms defined in other languages, be they natural, technical, or other. That makes them outer, they are at the border with other languages, where the innovation language ends or begins. This is also a node which opens the innovation language most open to interpretation as it make it rely on definitions controlled outside the language, those definitions which are outside its scope.
 
-
 Stop nodes are on paths between outer and inner nodes. They both depend on other nodes and are mentioned in definitions of other nodes.
-
 
 Inner nodes depend on other nodes, but are not used to define terms.
 
-
 The term dependency network can be large, and its visualization impractical. We can take an existing technical language for illustration. [[UNESCO Glossary of World Heritage Terms]](http://whc.unesco.org/archive/gloss96.htm) has 157 terms. Here is a preamble to that terminology:
-
 
 > "This Glossary of World Heritage Terms has been prepared in accordance with the request of the World Heritage Committee at its nineteenth session in December 1995. The Committee requested that the Glossary be a separate document, independent from, but referring to, the Operational Guidelines for the Implementation of the World Heritage Convention and to reports of relevant expert meetings. [...] The Glossary of World Heritage Terms has been prepared primarily by extracting terms and their definitions and interpretations from the World Heritage Convention, the Operational Guidelines and to reports of relevant expert meetings."
 
-
 Here is a sample definition, for the term "Cultural heritage":
-
 
 > "Cultural heritage is defined in Article 1 of the Convention as shown below:
 >
@@ -1004,9 +714,7 @@ Here is a sample definition, for the term "Cultural heritage":
 architecture, their homogeneity or their place in the landscape, are of outstanding universal value from the point of view of history, art or science;
 > * sites: works of man or the combined works of nature and man, and areas including archaeological sites which are of outstanding universal value from the historical, aesthetic, ethnological or anthropological point of view (UNESCO 1972)."
 
-
 Doing the same analysis as above, the term dependency network has 157 nodes, one for each term, and 1423 edges, for each dependency between terms. Here is a small sample of the network:
-
 
 * Action Plan for the Future --depends on-> Action Plan for the Future
 * Corrective measures --depends on-> Action Plan for the Future
@@ -1025,30 +733,23 @@ Doing the same analysis as above, the term dependency network has 157 nodes, one
 * Heritage Convention --depends on-> Assistance
 * ...and many more edges.
 
-
 The following Figure shows one possible visualization of the term depednency network, for the Glossary of World Heritage Terms.
-
 
 ![](book_images/UN_GWHT_tdn.png?raw=true)
 
-
-With large dependency networks, only interactive visualization can be of any use, and tools such as Gephi and Cytoscape are relevant. See: 
+With large dependency networks, only interactive visualization can be of any use, if visual inspection is necessary in the first place. Tools such as Gephi and Cytoscape are relevant. See: 
 * [[Bastian, Mathieu, Sebastien Heymann, and Mathieu Jacomy. "Gephi: an open source software for exploring and manipulating networks." Icwsm 8.2009 (2009): 361-362.]](http://www.aaai.org/ocs/index.php/ICWSM/09/paper/download/154/1009), and
 * [[Shannon, Paul, et al. "Cytoscape: a software environment for integrated models of biomolecular interaction networks." Genome research 13.11 (2003): 2498-2504.]](https://genome.cshlp.org/content/13/11/2498.short)
 
-
 ## 14 Evaluating a Term's Importance
+
 Are all terms in a language equally important? Some are more frequently used than others. Use, here, can be measured by the number of times a term is mentioned in definitions of other terms in the language. An alternative is to look at the number of times a term gets mentioned in artifacts that use the innovation language, such as technical specifications, recorded communication between team members, and so on.
 
-
-Here, we will assume that a term's importance is directly proportional to the number of times it is mentioned in definitions of other terms in the innovation language. The rationale is that, if a term is frequently mentioned in definitions, then your understanding of those definitions hinges on your understanding of that term. If you misunderstood it, that may transfer to your understanding of definitions which use it.
-
+I assume in this Chapter that a term's importance is directly proportional to the number of times it is mentioned in definitions of other terms in the innovation language. The rationale is that, if a term is frequently mentioned in definitions, then your understanding of those definitions hinges on your understanding of that term. If you misunderstood it, that may transfer to your understanding of definitions which use it.
 
 The following table shows the number of incoming edges to a node, in the term dependency network of the Glossary of World Heritage Terms. Given the number of terms (nodes), only those which are called in 30 or more other terms are shown. Each term in the table, is mentioned in the definitions of at least 30 other terms in the technical language. 
 
-
 Following our convention on what a term's importance means, this becomes a table of the most important terms, those whose understanding influences your understanding of many others in the same language. The cutoff at 30 is arbitrary - the count matters only to the extent that it shows relative importance of a term. The more often a term is mentioned in definitions of other terms, the more important is to be careful about its definition.
-
 
 | Term                                                                                                     |   Used in |
 |:---------------------------------------------------------------------------------------------------------|---------------:|
@@ -1066,16 +767,13 @@ Following our convention on what a term's importance means, this becomes a table
 | UNESCO                                                                                                   |             91 |
 | World Heritage                                                                                           |             96 |
 
-
 Even if all terms need to be carefully defined, the most frequently mentioned ones command special attention. Basic statistical analysis above suggests that the World Heritage term is what the language overall leams most on. This is its definition.
-
 
 > "World Heritage may best be defined with reference to the Preamble to the World Heritage Convention which states that:
 > > ... parts of the cultural or natural heritage are of outstanding interest and therefore need to be preserved as part of the world heritage of mankind as a whole (UNESCO 1972: Preamble).
-> 
+>
 > Paragraph 1 of the Operational Guidelines refers to the World Heritage (cultural heritage and natural heritage) as being
 > > ... among the priceless and irreplaceable possessions, not only of each nation, but of mankind as a whole. The loss, through deterioration or disappearance, of any of these most prized possessions constitutes an impoverishment of the heritage of all the peoples in the world. Parts of that heritage, because of their exceptional qualities, can be considered to be of outstanding universal value and as such worthy of special protection against the dangers which increasingly threaten them (UNESCO February 1996: 1)."
-
 
 For analyses of this definition's merits and limitations, see:
 * [[Francioni, Francesco, and Federico Lenzerini (eds.). The 1972 World Heritage Convention. A commentary. Oxford, 2008.]](https://global.oup.com/academic/product/the-1972-world-heritage-convention-9780199291694?cc=rs&lang=en&), 
@@ -1083,19 +781,15 @@ For analyses of this definition's merits and limitations, see:
 * [[Pocock, Douglas. "Some reflections on world heritage." Area 29.3 (1997): 260-268.]](https://rgs-ibg.onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4762.1997.tb00028.x), and 
 * [[Labadi, Sophia. "World Heritage, authenticity and post-authenticity: international and national perspectives." Heritage and globalisation. Routledge, 2010. 80-98.]](https://www.taylorfrancis.com/books/e/9781136965272/chapters/10.4324%2F9780203850855-12).
 
-
 ## 15 Evaluating a Term's Sensitivity to Change
-If a term X depends on many others in an innovation language, their changes will affect how X is understood, even if the definition of X remains syntactically the same.
 
+If a term X depends on many others in an innovation language, their changes will affect how X is understood, even if the definition of X remains syntactically the same.
 
 We can evaluate a term's sensitivity to change of other terms, by looking at the number of terms it depends on.
 
-
-The following table shows, for a given term, the number of other terms its definition uses. All terms are in the same innovation language. 
-
+The following table shows, for a given term, the number of other terms its definition uses. All terms are in the same innovation language.
 
 The fewer terms a term uses, the less sensitive it is to the change of these terms' definitions. The more terms it uses, the more sensitive it is. The table is cut, to show the least and most sensitive terms only. As earlier, cutoff values are arbitrary, the motive here being to save space.
-
 
 | Term                                                                                                     |   Uses |
 |:---------------------------------------------------------------------------------------------------------|-------------:|
@@ -1127,16 +821,13 @@ The fewer terms a term uses, the less sensitive it is to the change of these ter
 | Conservation                                                                                             |           27 |
 | Integrity                                                                                                |           31 |
 
-
 Low or high sensitivity are not inherently good or bad. They are signals that trigger questions.
-
 
 If a term has low sensitivity, it sits at the boundary of the innovation language. It uses little from that language. A boundary term begs questions of scope, of the innovation language, which we look at later. If a term has high sensitivity, it leans substantially on the rest of the terms of that innovation language.
 
-
 ## 16 Importance and Change Sensitivity Together
-We can focus on a specific term, and look at its importance and change sensitivity. In the Glossary of World Heritage Terms, "Cultural heritage" is used in 18 terms, listed in the table below. The table shows which terms need to be reviewed, when "Cultural heritage" definition changes. The review should ensure that changes to "Cultural heritage" do not produce inconsistency with the definitions of these notions.
 
+We can focus on a specific term, and look at its importance and change sensitivity. In the Glossary of World Heritage Terms, "Cultural heritage" is used in 18 terms, listed in the table below. The table shows which terms need to be reviewed, when "Cultural heritage" definition changes. The review should ensure that changes to "Cultural heritage" do not produce inconsistency with the definitions of these notions.
 
 | Term                                                                            | Uses              |
 |:--------------------------------------------------------------------------------|:------------------|
@@ -1159,9 +850,7 @@ We can focus on a specific term, and look at its importance and change sensitivi
 | Sites                                                                           | Cultural heritage |
 | World Heritage                                                                  | Cultural heritage |
 
-
-Sensitivity of "Cultural heritage" is shown with the following table. It lists all eight terms which are used in the definition of "Cultural heritage". 
-
+Sensitivity of "Cultural heritage" is shown with the following table. It lists all eight terms which are used in the definition of "Cultural heritage".
 
 | Term              | Uses                        |
 |:------------------|:----------------------------|
@@ -1174,41 +863,32 @@ Sensitivity of "Cultural heritage" is shown with the following table. It lists a
 | Cultural heritage | Sites                       |
 | Cultural heritage | UNESCO                      |
 
-
 Notice self-reference in the definition. Both the importance and sensitivity tables include a row where Cultural heritage uses itself, so to speak. This is due to the style of writing in the glossary, where the definition of each term includes, typically at the very start, the term itself. 
 
-
 When looking at importance and sensitivity, the question to ask is if the term can be made more independent from others. The definition of Cultural heritage references the Convention twice, and each time in a different way: 
-
 
 * "...in Article 1 of the Convention as...", by mentioning the term Convention from the same Glossary, and
 * "...(UNESCO 1973)..." where it cites the World Heritage Convention publication.
 
-
 This can be solved by removing one of the two references in the definition itself. To enforce consistent referencing to the Convention, and thus eliminate further superfluous interdependencies, it would be necessary to introduce a rule on how to reference the Convention in all terms.
-
 
 There are two aims, when trying the make a term less dependent on the innovation language. One is cleanup, the elimination of superfluous mentions, as above. 
 
-
 The second is to check if the term can be rewritten to depend less on others, not because it does not depend on them upon careful reading, but because it depends on them for unclear reasons. For illustration, consider the term "Outstanding universal value" from the same Glossary.
 
-
 > "Outstanding universal value is referred to in several places in the Convention and the Operational Guidelines without specific definition. Parts of the cultural and natural heritage, 
-> 
+>
 > > 'because of their exceptional qualities, can be considered to be of outstanding universal value, and as such worthy of special protection against the dangers which increasingly threaten them' (UNESCO February 1996: 1, Paragraph 1).
 >
 > Outstanding universal value is sometimes simply referred to as World Heritage value.
-> 
+>
 > At the 'Expert Meeting on Evaluation of general principles and criteria for nominations of natural World Heritage sites' held at the Parc national de la Vanoise, France on 22 to 24 March 1996,
-> 
+>
 > > The expert group recalled that different interpretations have been made of the term outstanding universal value which is a key to the establishment of a selective World Heritage List.  In a number of cases the term has been also interpreted as implying best of its kind.  The expert group stressed that the notion of outstanding universal value has been constructed over time and may be interpreted as a concept incorporating both uniqueness and representativeness (UNESCO 15 April 1996: 1).
-> 
+>
 > The World Heritage Bureau and Committee will consider the substance of the report of the Expert Meeting at their twentieth sessions in 1996."
 
-
 Here are its dependencies lists. It is used in 15 and uses 17 terms, if we remove self-reference.
-
 
 | Term                                                                            | Uses                        |
 |:--------------------------------------------------------------------------------|:----------------------------|
@@ -1227,7 +907,6 @@ Here are its dependencies lists. It is used in 15 and uses 17 terms, if we remov
 | World Heritage                                                                  | Outstanding universal value |
 | Thematic studies                                                                | Outstanding universal value |
 | World Heritage value                                                            | Outstanding universal value |
-
 
 | Term                        | Uses                        |
 |:----------------------------|:----------------------------|
@@ -1249,37 +928,24 @@ Here are its dependencies lists. It is used in 15 and uses 17 terms, if we remov
 | Outstanding universal value | World Heritage List         |
 | Outstanding universal value | World Heritage value        |
 
-
-If, instead, the following definition was used, dependencies would be substiantially reduced. 
-
+If, instead, the following definition was used, dependencies would be substiantially reduced.
 
 > "Outstanding universal value means cultural and/or natural significance which is so exceptional as to transcend national boundaries and to be of common importance for present and future generations of all humanity. As such, the permanent protection of this heritage is of the highest importance to the international community as a whole. The Committee defines the criteria for the inscription of properties on the World Heritage List. [...] To be deemed of outstanding universal value, a property
 must also meet the conditions of integrity and/or authenticity and must have an adequate protection and management system to ensure its safeguarding." [[World Heritage Committee. Operational Guidelines for the Implementation of the World Heritage Convention. UNESCO, 2005.]](https://whc.unesco.org/en/guidelines/) 
 
-
 This variant was published in "Operational Guidelines for the Implementation of the World Heritage Convention", made after the glossary mentioned here. It has been argued that the newer definition above is also an improvement on former variants. For a discussion, see [[Jokilehto, Jukka (2008) The World Heritage List. What is OUV? Defining the Outstanding Universal Value of Cultural World Heritage Properties. Technical Report. hendrik Bäßler verlag, Berlin, 111p. Monuments & Sites (2001-), Vol. XVI. ISBN 978-3-930388-51-6.]](http://openarchive.icomos.org/435/)
-
-
-<!-- Stopped here on Aug 27 -->
-
 
 ## 17 Blowing Definitions Up
 
-
 An interesting analysis to do with dependencies is to blow up the definition of each term.
-
 
 For the sake of clarity, let's call "internal terms", all the terms in the innovation language, which have their own definitions. All others will be called "external terms". In the following definitions from the Smart Retail Network case, POP is an internal term, while 'product' and 'location' are external terms.
 
-
 > Point of Purchase (POP): location (shop) where products are being sold.
 
-
-Term blow up works as follows. Count the number of times each external term appears in definitions of all internal terms. You then look at the most frequent external terms, and decide if they should be added to the language, that is, if they need to have a definition you want to control and agree on in the innovation team, or if there is no need for control and agreement.
-
+"Term blowup" works as follows. Count the number of times each external term appears in definitions of all internal terms. You then look at the most frequent external terms, and decide if they should be added to the language, that is, if they need to have a definition you want to control and agree on in the innovation team, or if there is no need for control and agreement.
 
 We can do this for the Glossary of Worldh Heritage Terms, and show only external terms which appear more than 40 times in all the definiens of all internal terms. We get the following table. The threshold is set at 40 for space reasons, there may be interesting terms that got cut off.
-
 
 | External Term  |   Count |
 |:---------------|--------:|
@@ -1308,9 +974,7 @@ We can do this for the Glossary of Worldh Heritage Terms, and show only external
 | inclusion      |      43 |
 | parties        |      41 |
 
-
 Notice that "heritage" does appear as sub-term in internal terms, World Heritage in particular. If we consider that any sub-term of an Internal Term is also an Internal Term (and this may not always be a good choice), then we can remove all such terms from External Terms, and get the following updated table.
-
 
 | External Term   |   Count |
 |:----------------|--------:|
@@ -1320,29 +984,21 @@ Notice that "heritage" does appear as sub-term in internal terms, World Heritage
 | article         |      44 |
 | inclusion       |      43 |
 
-
 When you inspect the Glossary, "february" and "1996" appear frequently, in references to the following citation:
-
 
 > UNESCO  February 1996  Operational Guidelines for the Implementation of the World Heritage Convention.  Intergovernmental Committee for the Protection of the World Cultural and Natural Heritage.  WHC/2/Revised.  UNESCO, Paris, France.
 
-
 It is clear what they are used for. "Paragraph" and "article" are also not questionable. They are frequent because of references to parts of documents cited in the Glossary. They are also unambiguous. This is a sample use of "article":
-
 
 > "..._Article_ 8(3) of the World Heritage Convention establishes the International Centre for the Study of the Preservation and Restoration of Cultural Property".
 
-
 Consider "inclusion" now. Here are a few cases where this word appears in definiens:
-
 
 * Criteria: "...In accordance with Article 11 of the Convention, the World Heritage Committee have established criteria for the **inclusion** of cultural properties and natural properties in the World Heritage List."
 * Cultural landscapes: "...included guidelines concerning their **inclusion** in the World Heritage List".
 * Deferred: "When the Bureau and Committee examine nominations of properties for **inclusion** in the World Heritage List they classify their decisions into those they choose to inscribe, those they decide not to inscribe, those referred back to States Parties for further information, and those whose consideration is deferred (UNESCO February 1996: 23-25, Paragraph 65)."
 
-
 And the following table lists all internal terms which depend on "inclusion".
-
 
 | Internal Term                                                                  | External Term   |
 |:-------------------------------------------------------------------------------|:----------------|
@@ -1374,21 +1030,15 @@ And the following table lists all internal terms which depend on "inclusion".
 | Tentative list                                                                 | inclusion       |
 | Thematic studies                                                               | inclusion       |
 
-
 "Inclusion" seems to refer to the adding of a property into the World Heritage List. But, as the excerpt from Deferred shows, inclusion is not a simple act of adding an item to a list. Rather, it is a process, where a property can go through different stages, with different outcomes; it may be nominated for inclusion, under evaluation for inclusion, and if it is so decided, be included in the list. 
-
 
 By doing the above, you identify terms which are often depended on, but not part of the innovation language, and decide if they are candidates to become included as new outer terms. 
 
-
 Visually, this means adding most frequent external terms as new nodes in the graph, then deciding if they should stay as new nodes or not. The following subgraph plots all internal terms which depend on "inclusion".
-
 
 ![](book_images/UN_GWHT_TDN_inclusion_XTDN.png?raw=true)
 
-
 We can go back to the Smart Retail Network case, for a smaller sized example. The following table shows the frequency of external terms.
-
 
 | External Term   |   Count |
 |:----------------|--------:|
@@ -1413,9 +1063,7 @@ We can go back to the Smart Retail Network case, for a smaller sized example. Th
 | employee        |       2 |
 | interested      |       2 |
 
-
 Removing Internal Terms and their sub-terms, we get the following.
-
 
 | External Term   |   Count |
 |:----------------|--------:|
@@ -1432,51 +1080,31 @@ Removing Internal Terms and their sub-terms, we get the following.
 | employee        |       2 |
 | interested      |       2 |
 
-
-
-
-
-
-
-
-
-
 ## 18 Managing Language Scope
-_This Chapter is about deciding which external terms to promote into the innovation language._ 
 
+How do you decide if an external term should be promoted into the innovation language?
 
 Term blowup is useful when deciding the scope of the innovation language. The aim is to include important terms in the language, rather then leave them defined outside. Importance depends on two dimensions at least, frequency and potential for misunderstanding. Frequency is the count of times the external term appears in definitions of internal ones, a measure we reviewed in the previous Chapter. Potential for misunderstanding means what it says, that the term has no shared and accepted definition, or if it does, that it is not clear, precise, or accurate enough for your purposes.
 
-
 With blow up, you widen the scope of the language by including external terms which are frequent and prone to misinterpretation. The following Figure shows two sets of nodes - those in light grey are internal terms of the Smart Retail Network innovation language (Shop Display Identifier, SRN, POP Data, and so on), while those in white are external terms (displays, products, used, individual, among others).  Arrows point from internal terms to external terms, so that if an arrow goes from "software" to "SRN", this means that the definiens of SRN includes the term "software".
-
 
 ![](book_images/SRN_TDN_BUTDN_graph.png?raw=true)
 
-
 Should "products" be included inside the innovation language? Should "individual"? How about "visiting"?
 
+There is no general rule for answering these questions. It is not something to decide only by counting occurrences of external terms in definiens of each internal term. Rather, the crux of these questions is risk. If you let every user of the language decide themselves what "products", "individual" and "visiting" each mean, then you run the risk that they disagree. That disagreement is not an issue, if they have no need to decide and act together in ways which, to be successful, require agreement. In such a case, you can accept the risk that this latent disagreement is there, but that its effects will not matter - either will never manifest themselves, or if they do, it makes no difference. But if the manifestations of disagreement can be disruptive, if the effects of disagreement becoming apparent will matter, then this risk needs to be managed. One approach to doing so is to seek explicit agreement on the reading of any one, or all of the said terms. And that means taking an external term, giving it a definiens, and thereby including it in the innovation language.
 
-There is no general rule for answering these questions. It is not something to decide only by counting occurrences of external terms in definiens of each internal term. Rather, the crux of these questions is risk. If you let every user of the language decide themselves what "products", "individual" and "visiting" each mean, then you run the risk that they disagree. That disagreement is not an issue, if they have no need to decide and act together in ways which, to be successful, require agreement. In such a case, you can accept the risk that this latent disagreement is there, but that its effects will not matter - either will never manifest themselves, or if they do, it makes no difference. But if the manifestations of disagreement can be disruptive, if the effects of disagreement becoming apparent will matter, then this risk needs to be managed. One approach to doing so is to seek explicit agreement on the reading of any one, or all of the said terms. And that means taking an external term, giving it a definiens, and thereby including it in the innovation language. 
-
-
-During the innovation process, in the Smart Retail Network case, we did decide to define "product" and "visiting", and thereby promote them into the innovation language. While their generic, that is dictionary definitions worked early on, this was only because we did not look into the potential consequences of remaining with such definitions; once we did, it became clear these terms had to be promoted into the innovation language. 
-
+During the innovation process, in the Smart Retail Network case, we did decide to define "product" and "visiting", and thereby promote them into the innovation language. While their generic, that is dictionary definitions worked early on, this was only because we did not look into the potential consequences of remaining with such definitions; once we did, it became clear these terms had to be promoted into the innovation language.
 
 "Product" is important, because when a SRN user visits a point of purchase, she needs to collect data for a set of products that are assigned to her. Now, that point of purchase does not necessarily carry only those products, that are made by the business which owns SRN. It follows that our definition of "product" is closely related to the scope of the work that a SRN user will be doing. SRN user will not be asked to collect data on all products in a POP, or for products outside a POP. She will only be asked to collect data on some of the products in the POP, and all these products will always be made by the SRN owner. Products, then, were defined as only that which is made and commercialized in any POP by the business which owns SRN.
 
-
 "Visiting" depends on one's understanding of a visit, and a visit is critical for the design of the SRN, since all data which goes into the SRN, is collected during visits. OED's generic definition of visit, as going "to see and spend time with (someone) socially" cannot work. In the context of SRN, a visit's purpose is data collection, about specific products. Moreover, visits can be of different quality, something that we looked into much later during innovation, when we started looking into average visit durations, depending on POP size, number of products in the POP, and so on. In short, an SRN visit can be, needs to be read in a much more constrained way than a generic definition. Notice how this influences other innovation, and subsequent engineering activities. SRN needs to hold data about visits, so keeping a generic visit definition would lead us to design an SRN which does not hold (or only accidentaly does) the data we need to compare, and improve visits over time.
 
-
-Managing scope also means taking terms out of the language. Here is a simple approach which works in that opposite way. 
-
+Managing scope also means taking terms out of the language. Here is a simple approach which works in that opposite way.
 
 If you look at the number of internal dependency edges going into an internal term, you can see terms which are weakly connected or disconnected from others. Nodes of most interest now, as candidates for demotion from the innovation language, are those with no incoming links at all. Check why they are internal. Why are they not connected to others? Disconnect suggests that they are conveying ideas which are unrelated to the rest that the innovation language is meant to convey. Is their isolation due to isolation of ideas? If not, are they isolated simply because we have not yet added terms that connect them to the rest of the language?
 
-
 The following table shows the importance of the internal terms in a version of the SRN innovation language. Shop display is mentioned in definitions of five other terms in the innovation language, five too for Point of Purchase, and so on. Report, Analyst, Administrator, and others, are not used in other definitions in that innovation language. 
-
 
 | Internal Term           |   Used in |   Uses |
 |:------------------------|----------:|-------:|
@@ -1496,32 +1124,17 @@ The following table shows the importance of the internal terms in a version of t
 | POP Personnel           |         0 |      1 |
 | Key Account             |         0 |      1 |
 
-
 But we do need Report, for example, in the language because demoting it would mean reverting to a generic definition, or more loosely, to everyone's own definition of a report. Another count to look at, is change sensitivity discussed earlier, or the number of internal terms that a given term uses. This is shown in the third column, in the table above.
 
+We see that, while Report is not used in other definitions, it uses several other internal terms, and it follows that Report is a term that is already specific to the innovation language.
 
-We see that, while Report is not used in other definitions, it uses several other internal terms, and it follows that Report is a term that is already specific to the innovation language. 
-
-
-Administrator, Analyst, and others who have low counts in the table on both Used in and Uses, need to be looked into more closely. These, at least in the SRN case, are underdeveloped terms. They require more work, and so will become more connected as innovation progresses. This is because it was decided that SRN should offer different functionality to Administrators, Analysts, Key Accounts, and Field Merchandisers. As that functionality gets designed, these roles get assigned rights to access it, and thus details get added to their definitions. 
-
-
-<!-- Several terms can also be isolated, even if well connected between them. Notice how SRN is connected to Administrator and Analyst, but none of these is connected to the rest. In such cases, you cannot see isolation by looking for disconnected terms. You need to search for strongly connected components in the graph, then look at connections between the connected components, instead of those between individual nodes.
-
-
-Strongly connected components are interesting for another reason. The innovation language is made for communication about something new that a team is designing. If there are strongly connected components in the definition network, the question to ask is this: do connected components reflect some meaningful partitioning of the thing that is being designed? 
-
-
-Strongly connected components can also be quite different. One may be more dense than another, with more nodes and, or links among nodes inside. Such differences can suggest differences in complexity of the corresponding problem and solution parts, or in the depth and maturity of thinking that went into each part.
-
-
-This helps with two kinds of decisions during innovation. Have we looked well enough at a specific part of the problem and solution? Or why have we not looked more into this or that part of the problem and solution? Underdeveloped strongly connected components are those to consider when asking these questions. Then, there is the always hard question of identifying the smallest part of the solution to push out of the innovation process as mature enough for validation against a target audience. This is often called the minimum viable product. The defnet is not going to say what that is, but it should correspond to well developed connected components of the defnet. -->
+Administrator, Analyst, and others who have low counts in the table on both Used in and Uses, need to be looked into more closely. These, at least in the SRN case, are underdeveloped terms. They require more work, and so will become more connected as innovation progresses. This is because it was decided that SRN should offer different functionality to Administrators, Analysts, Key Accounts, and Field Merchandisers. As that functionality gets designed, these roles get assigned rights to access it, and thus details get added to their definitions.
 
 ## 19 Distributed Definitions
 
 If a definition is a pair made of a definiendum and definiens, then consider this simple question: Does the definiens always amount to a few sentences, perhaps paragraphs? Can we always say enough about the definiendum, in a self-contained, neatly packaged definiens, which looks like an encyclopedia entry? The answer is indeed the negative, but what are the implications of that negative? How do you decide where the definiens starts and stops, and what is in, and what lays outside of it?
 
-What I call a _distributed definition_ in this chapter, is a definition where the definiendum is in pieces, and these are across varius artefacts. Parts of the definiendum are in one place, parts are elsewhere. The definition is not a tidy whole. There is no way, in a distributed definition, to synthesize the definiens into a few lines, as we want to do in glossaries for example. Instead, if you want the definiens, you need to piece it together across various locations, so to speak.
+What I call a "distributed definition" in this chapter, is a definition where the definiendum is in pieces, and these are across varius artefacts. Parts of the definiendum are in one place, parts are elsewhere. The definition is not a tidy whole. There is no way, in a distributed definition, to synthesize the definiens into a few lines, as we want to do in glossaries for example. Instead, if you want the definiens, you need to piece it together across various locations, so to speak.
 
 So far, a term dependency network was made from term and definition pairs. This corresponds to how definitions usually look like, in glossaries, encyclopedia, technical literature, among others.
 
@@ -1529,7 +1142,7 @@ Can a definition hold all there is to say about the definiendum, especially if t
 
 Definitions of abbreviations are an example from the first case. UN stands for United Nations, USA for United States of America, and so on. It is not that the abbreviation describes or tells you much more about what UN or USA are. This applies, more generally, when the definiendum can be replaced, without any loss, by the definiens. But it is likely to work well only when the definition establishes equivalence of two strings of symbols, that is, when the ambition of the definition is to equate at the level of syntax. We could even argue that those equivalences are not definitions, at least not those we talked about so far.
 
-The second case is one where the definiendum is described by the definiens. 
+The second case is one where the definiendum is described by the definiens.
 
 A digression is needed. There are, generally speaking, two ways to define, and they can be combined. One is called _extensional definition_, and you use it when you define a term by giving its examples, any number of them. To be precise, you are giving the instances of the class or category that this term designates. This means that if I want to define a tree for you, I should show you trees, give you examples of kinds of trees, and so on. The other kind is the _intensional definition_, where I am defining a term by listing the necessary and sufficient properties or attributes each of its instances should have. Typically, we would say an instance of class, not of a term, but this is a detail that makes no difference here. This is what the Oxford English Dictionary does, when it defines a tree as follows.
 
@@ -1683,31 +1296,31 @@ With this, we discover that there are templates for BSD Representations, that so
 
 The other approach, is to let a definition be distributed. A term is defined not only with a sentence or a few, but by the artifacts it is mentioned in. Above, these artifacts were specifications of requirements for a system that needed to be built. These artifacts, together with the original definition, act as a single definition of the BSD Representation, a distributed one. It is distributed, in the sense that there is no single sentence or paragraph, that acts as the sole definiendum for the term; it is now a potentially complex network of rules, instructions, descriptions, and so on, which mention that term, and tell us more about it.
 
-
 If innovation languages were formal languages (which they are not), I would have said that a term is a predicate, and the definition of the predicate is the theory in which it is used.
-
 
 The practical implication of this, is that you will have a rather poor innovation language if it looks simply like a terminology. It is a richer structure, which is the topic for the next Chapter.
 
-
 ## 20 Structuring Innovation Languages
 
+We discussed two important ideas so far.
 
-This chapter comes out of two ideas discussed so far. One, we saw that it is possible to generate precisely defined structures, such as graphs, in order to highlight specific properties of an innovation language, then saying something about these properties by analyzing the graphs. Two, we saw that an innovation language does not amount only to a set of definitions - if we see it only as that, then we ignore that definitions, or more specifically, definiens of terms in the language, can be distributed.
+One, we saw that it is possible to generate precisely defined structures, such as graphs, in order to highlight specific properties of an innovation language, then saying something about these properties by analyzing the graphs.
 
-The aim in this chapter, is to map an innovation language to a richer structure, which lets us analyze more properties of the language than what we did in prior chapters. This is interesting not only because we want to do additional kinds of analysis, i.e., ask more questions and be able to answer them by computation over that richer structure. Having a precise structure, and procedures - algorithms - for its analysis, is in many cases the only way to say something abour relationships across terms in a complex innovation, or technical language; we saw that even something that looks manageable, like the 150+ term Glossary of World Heritage Terms, involves almost ten times more dependency relationships. A related benefit of a formal structure, is that it tells us how to organize (at a conceptual level) digital storage of an innovation language.
+Two, we saw that an innovation language does not amount only to a set of definitions - if we see it only as that, then we ignore that definitions, or more specifically, definiens of terms in the language, can be distributed.
+
+The aim in subsequent chapters, is to map an innovation language to a richer structure, which lets us analyze more properties of the language than what we did in prior chapters. This is interesting not only because we want to do additional kinds of analysis, i.e., ask more questions and be able to answer them by computation over that richer structure. It is possibly the only practical way of analyzing innovation languages with more than two or three dozen terms.
+
+Having a precise structure, and procedures - algorithms - for its analysis, is in many cases the only way to say something abour relationships across terms in a complex innovation, or technical language; we saw that even something that looks manageable, like the 150+ term Glossary of World Heritage Terms, involves almost ten times more dependency relationships. A related benefit of a formal structure, is that it tells us how to organize (at a conceptual level) digital storage of an innovation language.
 
 The richer structure in question, is still a directed labeled graph. The difference now, relative to a term dependency network, is that there will be more relationship and node types, and from there, new things to say about the language by computing and looking at the graph's properties.
 
 The chapter works as follows. The first section maps a set of defnitions to a simple directed labeled graph. Each subsequent section adds new relationships and node types, shows how to map the content of the definition set to labeled edges and nodes, and which questions this helps us answer, and how about an innovation language.
 
-
-### 20.1 Definition Networks
-
+## 21 Definition Networks
 
 Suppose that you have a set of definitions. Each definition includes two parts, definiendum and definiens. This is the simplest structure. We will later look at how to deal with other items that can be found in glossaries, such as abbreviations of a definiendum, notes meant to complement the definiens, pointers to references outside the glossary, and so on.
 
-A Definition Network is used to answer the following questions, and do so without anyone having to visually inspect the underlying data: 
+A Definition Network is used to answer the following questions, and do so without anyone having to visually inspect the underlying data:
 - Which terms are defined in the data? 
 - For each term that is defined, what defines it? 
 
@@ -1719,9 +1332,305 @@ To answer these questions, we need the definintion network to be a directed grap
 * There is a set **Nodes** of nodes which will carry labels;
 * There is a set of **Edges**, of edges to carry labels.
 
+The following figure shows the Definition Network for the Smart Retail Network case.
+
+![](book_images/SRN_definition_network_w10_h10_300dpi.png?raw=true)
+
+In the Figure, there is no Definiendum which is defined by more than one Definiens, and vice-versa. This corresponds to what we would expect, that there is, for a given Definiendum, exactly one Definiens. But this is not always the case, which can be confusing. 
+
+In the Glossary of World Heritage Terms, the structure of the Glossary is such that there are cases of a Definiens defining more than one Definiendum. This can be identified by looking at the numbers of incoming and outgoing edges in the Definition Network. In the said Glossary, one node has more than one incoming edge, namely "International Council of Monuments and Sites".
+
+| Definiendum                                  |   Defined by |
+|:---------------------------------------------|-------------:|
+| International Council of Monuments and Sites |            2 |
+
+The following nodes have more than one outgoing edge.
+
+| Definiens                                                      |   Defines |
+|:---------------------------------------------------------------|----------:|
+| see Authenticity                                               |         4 |
+| see Convention concerning the protection of the world cultural |         3 |
+| and natural heritage                                           |           |
+| see Groups of urban buildings, Inhabited historic              |         2 |
+| towns                                                          |           |
+| see Heritage route                                             |         2 |
+| see Operational Guidelines for the Implementation of the World |         2 |
+| Heritage Convention                                            |           |
+| see Secretariat                                                |         2 |
+| see World Heritage Committee                                   |         2 |
+| see World Heritage Fund                                        |         2 |
+| see World Heritage Youth Forum/Fora, Young People's            |         2 |
+| Participation in World Heritage Preservation and Promotion     |           |
+| see World Heritage emblem                                      |         2 |
+
+The tables suggest something odd in the Glossary, and leads to inspect all nodes above.
+
+The node named "International Council of Monuments and Sites" is a Definiendum, and it has two incoming edges, from a node named "ICOMOS", and another named "Article 8 (3) of the Convention requires that a representative of ICOMOS attend meetings of the Committee...". The second is in fact the Definiens, while ICOMOS is an abbreviation. The incoming edges are a consequence of how the Glossary is structured, where both a term and its abbreviation are treated as two Definienda, and the equivalence between them is conveyed by having two definitions, one for "International Council of Monuments and Sites", and another for "ICOMOS". 
+
+What is defined by "see Authenticity"?
+
+| Definiens        | Defines                                                                      |
+|:-----------------|:-----------------------------------------------------------------------------|
+| see Authenticity | Conditions of authenticity                                                   |
+| see Authenticity | Nara Conference on Authenticity in Relation to the World Heritage Convention |
+| see Authenticity | Nara Document on Authenticity                                                |
+| see Authenticity | Test of authenticity                                                         |
+
+Table below shows the terms defined by "see Convention concerning the protection of the world cultural...".
+
+| Definiens                                                      | Defines                                                                  |
+|:---------------------------------------------------------------|:-------------------------------------------------------------------------|
+| see Convention concerning ... | Convention                                                               |
+| see Convention concerning ... | Convention for the protection of the world cultural and natural heritage |
+| see Convention concerning ... | World Heritage Convention                                                |
+
+According to the above, all four terms defined by "see Authenticity" are defined under or in close relation to Authenticity. Since these four terms lack other definitions in the Glossary, the said relationships can also be seen as suggesting a Glossary that is either incomplete, or where Authenticity has an overloaded meaning.
+
+In a summary, even a structure as simple as a Definition Network, can be used to answer a number of questions:
+- Which terms are defined in the data? 
+- For each term that is defined, what defines it? 
+- Are there terms (Definienda) which have more than one definition?
+- Are there Definientia that define more than one Definiendum?
+
+These questions can easily be answered in small Definition Networks. Small is relative, and just how big it can get, to still allow visual inspection, depends on the capability of the procedures that position nodes, to produce a view of the network, in which you can count, by looking, the incoming and outgoing edges of a node. This is the case for the Smart Retail Network case. But as soon as a visualization gets unclear, and the network is not small enough, it is more practical to compute the numbers of incoming and outgoind edges on each node, and only look at those where either of the values is not one or less.
+
+The last two questions, as we saw above, can signal the need to make changes to the underlying set of definitions. Changes should avoid incompleteness, as in the case of Authenticity which indirectly defines several other terms. This begs, of course, the question of what an indirect definition may be, and why it makes the innovation language incomplete. To look more closely into that, we need an additional set of tools, for the classification of items in the set of definitions we started with.
+
+### 22 Internal Dependency Networks
+
+In a set of definitions, we would expect to know what defines what, that is, we know which items are definienda, and which definientia. It happens, however, that it is hard to provide a self-contained definition of a definiendum, and its understanding requires you to understand, or more practically, read more than its definiens alone. An example of what this looks like, is when the set of definitions, typically in some of definientia, includes pointers to other definienda, such as "see X", "also see Y". This is not necessarily a bad practice. It can help relate terms; sometimes, a term X will be used in a definition of another term Y, in which case they are directly interdependent (something we went through in earlier Chapters), but in other cases, reading X's definition may simply help get a better grasp of Y, even if Y's definiens does not need to mention X. 
+
+Consider the following example, from the Glossary of World Heritage Terms.
+
+> Authenticity
+> 
+> Paragraph 24 of the Operational Guidelines requires that a cultural property nominated for inclusion in the World Heritage List be considered for inclusion only if it meets one or more of the cultural heritage criteria and the test of authenticity. Paragraph 24 (b) (i) of the Operational Guidelines as reproduced below refers to the test of authenticity. 
+>  
+>  24. ... (b) (i) meet the test of authenticity in design, material, workmanship or setting and in the case of cultural landscapes their distinctive character and components (the Committee stressed the reconstruction is only acceptable if it is carried out on the basis of complete and detailed documentation on the original and to no extent on conjecture) (UNESCO February 1996: 7). 
+> 
+> The text concerning groups of urban buildings included in the Operational Guidelines also refers to the need to meet the test of authenticity (UNESCO February 1996: 8, Paragraph 27). Paragraphs 57 and 58 of the Operational Guidelines state that cultural properties nominated for inclusion in the World Heritage List should satisfy the conditions of authenticity and that the determination as to whether these conditions are met will be carried out by ICOMOS (UNESCO February 1996: 18). Paragraph 64 (e) of the Operational Guidelines states that "indications as to the authenticity of the property" should be included in the completed nomination form under the heading of "Justification for inclusion in the World Heritage List" (UNESCO February 1996: 20). Paragraphs 64 (f) (iv) and 78 of the Operational Guidelines refer to the undefined concept of "historical authenticity" (UNESCO February 1996: 20 and 28). It is generally acknowledged that the concept of authenticity is a vague one and may be subject to different cultural and social interpretations. Authenticity and its application in relation to the World Heritage Convention was the subject of a conference held in Nara, Japan in November 1994 (Nara Conference on Authenticity in Relation to the World Heritage Convention). A preparatory workshop was held in Bergen in Norway from 31 January to 2 February 1994. The proceedings of the preliminary workshop are published in Larson and Marstein (1994). The Nara Conference resulted in the adoption of a declaration known as The Nara Document on Authenticity. The proceedings of the Nara Conference and the Nara Document on Authenticity are published in Larson (1995). In March 1996 an Inter-American Symposium on Authenticity in the Conservation and Management of Cultural Heritage was held in San Antonio Texas, U.S.A. The Symposium was co-sponsored by US/ICOMOS, the Getty Cosnervation Institute and the San Antonio Conservation Society. 
+> 
+> see Conservation, Information sources
+
+As we saw in a previous Chapter, four other definienda are defined simply by asking the glossary user to see Authenticity.
+
+ Definiens        | Defines                                                                      |
+|:-----------------|:-----------------------------------------------------------------------------|
+| see Authenticity | Conditions of authenticity                                                   |
+| see Authenticity | Nara Conference on Authenticity in Relation to the World Heritage Convention |
+| see Authenticity | Nara Document on Authenticity                                                |
+| see Authenticity | Test of authenticity                                                         |
+
+All four are mentioned in the definiens of Authenticity. Below, I took each and gave the corresponding excerpt from the Authenticity definiens.
+
+> Conditions of authenticity: [...] Paragraphs 57 and 58 of the Operational Guidelines state that cultural properties nominated for inclusion in the World Heritage List should satisfy the **conditions of authenticity** and that the determination as to whether these conditions are met will be carried out by ICOMOS (UNESCO February 1996: 18). [...]
+
+> Nara Conference on Authenticity in Relation to the World Heritage Convention: [...] Authenticity and its application in relation to the World Heritage Convention was the subject of a conference held in Nara, Japan in November 1994 (**Nara Conference on Authenticity in Relation to the World Heritage Convention**). [...]
+
+> Nara Document on Authenticity: [...] The Nara Conference resulted in the adoption of a declaration known as The **Nara Document on Authenticity**. The proceedings of the Nara Conference and the **Nara Document on Authenticity** are published in Larson (1995). [...]
+
+> Test of authenticity: [...] The text concerning groups of urban buildings included in the Operational Guidelines also refers to the need to meet the **test of authenticity** (UNESCO February 1996: 8, Paragraph 27). 
+
+Does the Glossary of World Heritage Terms define the terms "Condition of authenticity", "Nara Conference on Authenticity in Relation to the World Heritage Convention", "Nara Document on Authenticity", and "Test of authenticity"? 
+
+These terms do appear in the Glossary, and they are presented as being defined, i.e., each a definiendum, with the definiens "see Authenticity". But when we see Authenticity, and see the four terms mentioned, those mentions do not define them in any relevant way. They only mention them. One way to think of this, is that it is an error in the construction of the Glossary. 
+
+If this is an error, then correction can happen in two ways. One is to remove the four terms, not from the definiens of Authenticity, but from the set of definienda. Otherwise, and following earlier Chapters on the scope of an innovation language, we may want to give these terms their own definiens, thus including them in the scope of the language. 
+
+But what kind of error is this? The Glossary is carefully constructed, so this cannot be a naïve error of including, then forgetting about the need to define several terms. Instead, we can see them not as being in the language and defined by Authenticity, but as being highlighted in the language, depending on Authenticity, yet remaining without own definientia.
+
+These kinds of issues can be hinted at by building an Internal Dependency Network, and computing, for each node, its incoming and outgoing edges. To detect them, rather than only work on hints, we need to create another view of the set of definitions, called the Dependency Network, and discussed already in earlier Chapters.
+
+A internal dependency network is a directed graph, where:
+* For labels, we have:
+    * **Definienda** is the set of labels, each element is a definiendum.
+    * **Definientia** is the set of definiens labels, each element is a definiens.
+    * The Dependency relationship relates a Definiendum X to a Definiendum Y, if the definiens of X mentions Y. For this relationship, we need a label **depends on**, to be put on edges that instantiate the dependency relationship, in the direction from the definiendum whose definiens mentions the target.
+* There is a set **Nodes** of nodes which will carry labels;
+* There is a set of **Edges**, of edges to carry labels.
+
+For a given set of definitions, the internal dependency and definition networks will share nodes, but will include different edges.
+
+The internal dependency network gives us five statistics for each term, say X, in a set of definitions:
+* In Count: The number of terms that depend on X, that is, the number of terms whose definientia mention X. 
+* In Share: In Count divided by the total number of edges in the internal dependency network, i.e., a value which quantifies the contribution of X to all internal dependencies. This gives a relative measure of each term's use in definientia of other terms in the same internal dependency network.
+* Out Count: The number of terms X depends on, that is, the number of terms that are mentioned in the definiens of X.
+* Out Share: Relative measure of X's dependency on other terms in the internal dependency network.
+* Total Share: Sum of the Out Share and In Share of a term, the total contribution of X to internal dependencies.
+
+The following table shows these stats, for 10 terms which contribute most to the internal dependency network made from the Glossary of World Heritage Terms.
+
+| Term                         |   In Count |   In Share |   Out Count |   Out Share |   Total Share |   Balance |
+|:-----------------------------|-----------:|-----------:|------------:|------------:|--------------:|----------:|
+| Conservation                 |         34 |      0.025 |          27 |       0.02  |         0.045 |     0.005 |
+| Integrity                    |          8 |      0.006 |          27 |       0.02  |         0.026 |    -0.014 |
+| International assistance     |          9 |      0.007 |          25 |       0.019 |         0.026 |    -0.012 |
+| Authenticity                 |         14 |      0.01  |          26 |       0.019 |         0.029 |    -0.009 |
+| Advisory bodies              |          2 |      0.001 |          24 |       0.018 |         0.019 |    -0.017 |
+| Balance                      |          0 |      0     |          24 |       0.018 |         0.018 |    -0.018 |
+| Operational Guidelines fo... |          2 |      0.001 |          22 |       0.016 |         0.017 |    -0.015 |
+| Criteria                     |         17 |      0.013 |          21 |       0.016 |         0.029 |    -0.003 |
+| Evaluation                   |         16 |      0.012 |          21 |       0.016 |         0.028 |    -0.004 |
+| Tentative list               |          6 |      0.004 |          21 |       0.016 |         0.02  |    -0.012 |
+
+Total share tells us that Conservation contributes most to internal dependencies. It is used in the definiens of 34 other terms, and its own definiens uses 27 terms defined in the Glossary. Its total share is 4.5 percent, a signal that the Glossary has no terms that heavily contribute to internal dependencies.
+
+Total share is an indicator of a term's importance in the set of definitions. The higher it is, the more that term contributes to internal dependencies. The greater its In Share, the more it is important for the understanding of other terms, as their definitions rely on it. The higher its Out Share, the more its definition leans on other terms in the terminology.
+
+In the table, Balance is the result of subtracting Out Share from In Share. If positive, then the term is used in more other definitions than it uses. If negative, the term leans more on the glossary than the rest of the glossary does on it. If we sort by decreasing Balance, top ten terms are different. Unsurprisingly, the understanding of the Glossary hinges on the understanding of World Heritage, UNESCO, the Convention, and World Heritage List Terms. 
+
+| Term                         |   In Count |   In Share |   Out Count |   Out Share |   Total Share |   Balance |
+|:-----------------------------|-----------:|-----------:|------------:|------------:|--------------:|----------:|
+| World Heritage               |         98 |      0.073 |          12 |       0.009 |         0.082 |     0.064 |
+| UNESCO                       |         91 |      0.067 |           1 |       0.001 |         0.068 |     0.066 |
+| Convention                   |         63 |      0.047 |           4 |       0.003 |         0.05  |     0.044 |
+| World Heritage List          |         53 |      0.039 |          12 |       0.009 |         0.048 |     0.03  |
+| Guidelines                   |         60 |      0.044 |           6 |       0.004 |         0.048 |     0.04  |
+| Operational Guidelines       |         60 |      0.044 |           6 |       0.004 |         0.048 |     0.04  |
+| Conservation                 |         34 |      0.025 |          27 |       0.02  |         0.045 |     0.005 |
+| Natural                      |         60 |      0.044 |           1 |       0.001 |         0.045 |     0.043 |
+| List                         |         57 |      0.042 |           3 |       0.002 |         0.044 |     0.04  |
+| World Heritage Committee     |         29 |      0.021 |          20 |       0.015 |         0.036 |     0.006 |
+
+Internal dependency statistics get more relevant with the size and connectivity of the internal dependency network. They are somewhat less interesting for small and sparse dependency networks, as we see from the table above, for the Smart Retail Network case.
+
+| Term                    |   In Count |   In Share |   Out Count |   Out Share |   Total Share |   Balance |
+|:------------------------|-----------:|-----------:|------------:|------------:|--------------:|----------:|
+| Report                  |          0 |      0     |           3 |       0.273 |         0.273 |    -0.273 |
+| Complex Shop Display    |          0 |      0     |           2 |       0.182 |         0.182 |    -0.182 |
+| Analyst                 |          0 |      0     |           1 |       0.091 |         0.091 |    -0.091 |
+| Administrator           |          0 |      0     |           1 |       0.091 |         0.091 |    -0.091 |
+| Shop Display Identifier |          0 |      0     |           1 |       0.091 |         0.091 |    -0.091 |
+| SDM                     |          2 |      0.182 |           1 |       0.091 |         0.273 |     0.091 |
+| Basic Shop Display      |          1 |      0.091 |           1 |       0.091 |         0.182 |     0     |
+| Shop Display Supplier   |          0 |      0     |           1 |       0.091 |         0.091 |    -0.091 |
+| SRN                     |          3 |      0.273 |           0 |       0     |         0.273 |     0.273 |
+| Shop Display            |          4 |      0.364 |           0 |       0     |         0.364 |     0.364 |
+| POP Data                |          1 |      0.091 |           0 |       0     |         0.091 |     0.091 |
+
+While we can do the same reading of statistics in all three tables above, there is not much to learn from the table for the SRN case. Visual inspection of the internal dependency network tells the same story.
+
+## 23 Definition Trees
+Given a set of definitions, and one term X defined in it, how many definitions in the set do I need to read, in order to understand the definition of X? Reading X alone would be enough only if X's Out Share is null, that is, if it depends on no other terms in the set. Otherwise, I need to read the definiens of X, then the definiens of each term which is used in the definiens of X, and so on, until there are no outgoing internal dependencies to traverse. 
+
+The answer can be computed from an internal dependency network, by exploring all paths that start in X. For example, to understand the definition of Report in the Smart Retail Network case, we need to read through five definitions: Report, SRN, SDM, Shop Display, and POP Data. The following list gives, for each first term, those which are in its definition tree, in the SRN case. SRN, Shop Display, and POP Data use none of the other terms in their definientia.
+
+- Report, SRN, SDM, Shop Display, POP Data.
+- SRN.
+- Analyst, SRN.
+- Administrator, SRN.
+- Shop Display Identifier, SDM, Shop Display.
+- SDM, Shop Display.
+- Shop Display.
+- Basic Shop Display, Shop Display.
+- Complex Shop Display, Shop Display, Basic Shop Display.
+- Shop Display Supplier, Shop Display.
+- POP Data.
+
+Things are very different for a larger and more connected set of definitions, as in the Glossary of World Heritage Terms. The following is the partial definition tree for the term Reactive monitoring:
+
+Reactive monitoring, Advisory bodies, Centre, Secretariat, Bureau, World Heritage, Convention, Convention concerning the protection of the world cultural and natural heritage, Assistance, Emergency assistance, ...
+
+The definition tree has 113 nodes, meaning that there are 113 definitions to go through, if we want to be rigorous about understanding Reactive monitoring. Two simple statistics can be computed, to get an idea of the definition trees in a dependency network:
+- size of the defition tree, i.e., its number of nodes, and
+- coverage, which is the size divided by the number of nodes in the dependency network.
+
+Coverage indicates how much of the dependency network we need to know, in order to understand the definition of a given term. The table below shows these stats for the SRN case.
+
+| Term                    |   Size |   Coverage |
+|:------------------------|-------:|-----------:|
+| Report                  |      5 |      0.455 |
+| Shop Display Identifier |      3 |      0.273 |
+| Complex Shop Display    |      3 |      0.273 |
+| Analyst                 |      2 |      0.182 |
+| Administrator           |      2 |      0.182 |
+| SDM                     |      2 |      0.182 |
+| Basic Shop Display      |      2 |      0.182 |
+| Shop Display Supplier   |      2 |      0.182 |
+| SRN                     |      1 |      0.091 |
+| Shop Display            |      1 |      0.091 |
+| POP Data                |      1 |      0.091 |
+
+The table below shows the top ten terms in the Glossary of Worldh Heritage Terms, with greatest size on top, and five smallest size terms at bottom.
+
+| Term                         |   Size |   Coverage |
+|:-----------------------------|-------:|-----------:|
+| Comparative evaluations      |    122 |      0.772 |
+| Comparative assessments      |    122 |      0.772 |
+| Harmonization                |    120 |      0.759 |
+| Tentative list               |    119 |      0.753 |
+| Biogeographic(al) provinc... |    119 |      0.753 |
+| Inventory of property        |    119 |      0.753 |
+| Indicative list              |    119 |      0.753 |
+| Joint nomination             |    116 |      0.734 |
+| World Heritage logo          |    116 |      0.734 |
+| Serial nomination            |    116 |      0.734 |
+| ...                          |    ... |      ...   |
+| UNESCO World Heritage Cen... |    113 |      0.715 |
+| World Heritage Centre        |    113 |      0.715 |
+| UNESCO                       |    113 |      0.715 |
+| Fossil landscape             |      1 |      0.006 |
+| International Centre for ... |      1 |      0.006 |
+
+Notice, in the second table, that coverage is high for all but two terms in the Glossary. This suggests that the Glossary requires a careful reading throughout, as all definitions seem to be well connected.
+
+### 24 Definition Tree Similarity
+How different are any two terms? There are several ways to answer this. One is to compare their definientia, and increase similarity for every shared term. Another, which relies on the internal dependency network, is to count the successors they share in the network, and increase similarity with each shared successor. And the third accounts for the internal dependency relationships and compares definition trees; this addresses the drawback of the second approach, which ignores any similarity or difference of definition trees of terms which share many successors.  
+
+The first approach is overly simplistic, the second ignores edges, so let's follow the third. A similarity score for any pair of terms, in a dependency network, is described by two values:
+* the sum of the terms, and
+* the sum of edges shared across their dependency trees. 
+
+The following table shows the top 15 and bottom 15 pairs of terms, ordered from those pairs which share the most terms in their definition trees, to those that share the least. The column "Shared Terms" gives the number of terms that the two terms in a pair share in their respective definition trees. Shared Dependencies is the count of internal dependency relations that their definition trees share.
+
+| Term                              | Term                              |   Shared Terms |   Term Share |   Shared Dependencies |   Dependency Share |
+|:----------------------------------|:----------------------------------|---------------:|-------------:|----------------------:|-------------------:|
+| Biogeographic(al) provinces       | Comparative evaluations           |            119 |         0.75 |                   116 |               0.09 |
+| Harmonization                     | Inventory of property             |            119 |         0.75 |                   116 |               0.09 |
+| Inventory of property             | Harmonization                     |            119 |         0.75 |                   116 |               0.09 |
+| Comparative evaluations           | Biogeographic(al) provinces       |            119 |         0.75 |                   116 |               0.09 |
+| Tentative list                    | Comparative assessments           |            119 |         0.75 |                   114 |               0.08 |
+| Comparative assessments           | Tentative list                    |            119 |         0.75 |                   114 |               0.08 |
+| Emblem                            | World Heritage logo               |            115 |         0.73 |                   114 |               0.08 |
+| World Heritage logo               | Emblem                            |            115 |         0.73 |                   114 |               0.08 |
+| Global Strategy                   | Global Strategy for the Implem... |            114 |         0.72 |                   113 |               0.08 |
+| Deferred                          | Deferral                          |            114 |         0.72 |                   113 |               0.08 |
+| Organization of World Heritage... | OWHC                              |            115 |         0.73 |                   113 |               0.08 |
+| Deferral                          | Deferred                          |            114 |         0.72 |                   113 |               0.08 |
+| Global Strategy for the Implem... | Global Strategy                   |            114 |         0.72 |                   113 |               0.08 |
+| OWHC                              | Organization of World Heritage... |            115 |         0.73 |                   113 |               0.08 |
+| ...                               | ...                               |            ... |          ... |                   ... |                ... |
+| Reactive monitoring               | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Reactive monitoring               | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| Advisory bodies                   | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Advisory bodies                   | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| State of conservation             | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| State of conservation             | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| Balance                           | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Balance                           | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| Assistance                        | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Assistance                        | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| Convention concerning the prot... | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Convention concerning the prot... | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+| Emergency assistance              | Fossil landscape                  |              1 |         0.01 |                     0 |                  0 |
+| Emergency assistance              | International Centre for the S... |              1 |         0.01 |                     0 |                  0 |
+
+Another interesting statistic is the proportion of shared terms in all terms in the internal dependency network. Its values are under "Term Share". For example, the pair "Biogeographic(al) provinces" and "Comparative evaluations" shares 119 terms, which is 75% of all terms in the internal dependency network built from The Glossary of World Heritage Terms. "Dependency Share" is an analogous statistic, over edges in the internal dependency network. It gives the proportion of internal dependency relationships that a term pair shares, over the total number of such dependencies in the internal dependency network. Term Share suggests the extent to which a term pair is related in depth, so to speak. The higher it is, the more both terms are similar in their dependence on the innovation language; the lower it is, the more independent they are from one another, and from the rest of the innovation language. Notice the high Term Share for the first term pair, and its low Dependency Share. This suggests that, while the pair depends on many terms in the Glossary, it captures little of the overall internal dependency in it. 
+
+## 20.5 External Dependency Networks
 
 
-### 20.2 Classification Networks
+
+### 20.5 External Dependency Paths
+
+
+### 20.6 Mixed Dependency Networks
+
+
+### 20.7 Mixed Dependency Paths
+
+
+### 20.3 Classification Networks
 
 * A single label **Definiendum**, on the node which represents the Term class, each definiendum being its instance;
 * A single label **Definiens**, on the node which represents the Definiens class, each definiens being its instance;

@@ -1,0 +1,1 @@
+[('Report', 'SRN'), ('Report', 'SDM'), ('Report', 'POP Data'), ('Analyst', 'SRN'), ('Administrator', 'SRN'), ('Shop Display Identifier', 'SDM'), ('SDM', 'Shop Display'), ('Basic Shop Display', 'Shop Display'), ('Complex Shop Display', 'Shop Display'), ('Complex Shop Display', 'Basic Shop Display'), ('Shop Display Supplier', 'Shop Display')]
