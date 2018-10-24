@@ -1665,8 +1665,13 @@ As discussed earlier, External Terms with high Definientia Appearances and, or C
 
 
 ## 28 Epistemology of an Innovation Language
+The main question in this and next Chapters is this: 
 
-This and next Chapters focus on the relationship between knowledge, intentional states and ideas conveyed in definitions in an innovation language.
+Given a set of definitions, in an innovation language, which ones will likely to be stable, and why? 
+
+This is closely related to questions of epistemology. Roughly speaking, if the innovation language conveys knowledge, we would expect it to be stable; if it reflects assumptions, or parts of it do, then we should expect it to change more frequently, until it stabilizes.
+
+Epistmology of an innovation language is, as I will discuss below, concerned with the properties of the justifications available for the content of an innovation language. The stronger these justifications are (and we need to define what that strenght may be), the more stable we can expect them to be. To put this simply, if there is a strong case for a definiens to be as it is, then we can take it to be stable, and have confidence in using it, and thus, work on other, weaker ones in the innovation language, to make them stronger. How exactly we can build a strong case, a strong justification, is another key question.
 
 Is the definition of a term, its definiens, knowledge or assumption? Is it a reflection of something that you are sure about? Does it have to be? These questions are closely related with time. Does the term refer to something that does not exist now? Is it about something that is already there? Or, perhaps about something that should not happen at all? This is not only tied to time; it relates to observation, experience, experiment, and prediction as well.
 
@@ -1674,16 +1679,29 @@ Why do these questions matter?
 
 An innovation language develops as a team progresses through an innovation process. Regardless of how their innovation process is structured, or who does it, it will involve people making assumptions, transposing their experiences to new situations, trying, sometimes succeeding to close the gap with expectations, often failing. Some of what they learn along the way can be called knowledge, some of it remain assumptions. But their actions are not driven by assumptions or knowledge alone; they innovate because of motives to change what they know already, and intentions to do so.
 
-How are, then, intentions, assumptions, and knowledge tied to an innovation language? 
+How are, then, intentions, assumptions, and knowledge tied to an innovation language?
 
 The short story is this: intentions lead to the formation of assumptions about what the problem is, and how to resolve it, assumptions need to be validated through experience, and this happens through trial and error, which in turn lead us to observe evidence about the validity and relevance of assumptions, and from there, some of the conclusions can be called knowledge. As this learning process goes on, its outcomes will determine the scope of the innovation language and its content - the terms and their definitions.
 
-But the innovation language is one of artifacts that will reflect and help the innovation process. It is neither its only artifact, nor the main one. So while it may not be central to learning that happens through innovation, we can keep track what, in definitions, are expectations, assumptions, knowledge. This makes a difference in two ways. One, put bluntly, is that it lets you have a judgment about the innovation language - there may be something to worry about if it is all assumptions and wishful thinking, late in the innovation process. In other words, you may want to have less speculation in definitions, as innovation matures. Two, it is a way to use the innovation language as that on which you track progress in learning.
+But the innovation language is one of artifacts that will reflect and help the innovation process. It is neither its only artifact, nor the main one. While it may not be the central artifact to learning through innovation, we can keep track what, in definitions, are expectations, assumptions, knowledge. This record keeping makes a difference in two ways.
+
+One, put bluntly, is that it lets you have a judgment about the innovation language - there may be something to worry about if it is all assumptions and wishful thinking, late in the innovation process. In other words, you may want to have less speculation in definitions, as outcomes of innovation mature.
+
+Two, it is a way to use the innovation language as a record of learning accomplishments, through the innovation process.
 
 Doing that means doing more analysis of the innovation language. Now, however, the structure we established in prior Chapters is not enough. The analysis has to be concerned with content, with how statements announced in definitions fit observation and experience, if they fit the present or if they tell us how to tailor the future, and how much evidence, if any, and how we got it, to support our claims that some definitions are built on solid grounds.
 
-Let's again go back to one of the examples used so far, the lightweight case of the smart retail network. The first task is to distinguish content describing the present from that which describes future. The definienda of the latter are emphasized.
+## 29 Past, Present, Future in Definitions
 
+A basic distinction that matters when thinking about the stability of definitions, is if the content of a definiens describes situations that may have have held in the past, may hold now, and/or may hold in the future. This is because we can justify the truth of those about the past or present by observations actually made in the past or being made in the present. We cannot do so for predictions - any observation of what is true in these predictions will be possible only in the future, at the time to which these predictions apply.
+
+Notice that conditions **may** have held in the past, or **may** hold now. I can claim to know something about the past, or merely assumptions about it. And same applies to the present. But I cannot say the same about the future, namely, I cannot know the future, except if we equate very strongly justified statements, such as that many regularities which have been consistently observed in the past will also be observed tomorrow (e.g., what we usually call physical laws), or that social constructions, such as laws and regulations, which have a high cost of change, will, too, remain the same tomorrow. Really the key difference here is **observability**: I could have observed something in the past, or can observe something about the present, but there is nothing I can observe today, about the future - we need to wait for today's future to become the present, for any observation to happen.
+
+The practical implication of this past, present, and future distinction, is to categorize definienda, and so be one among other signals of their stability.
+
+We will also see that this categorization lets us distinguish innovation languages from technical languages.
+
+Consider the Smart Retail Network case. Below, I emphasized the definienda which are about something that is not the case in the present, and has not been the case in the past. 
 
 * **SRN**: Smart Retail Network software.
 * **SDM**: Shop Display Management software.
@@ -1701,7 +1719,25 @@ Let's again go back to one of the examples used so far, the lightweight case of 
 * **Analyst**: employee interested in analyzing the data stored in SRN.
 * **Administrator**: employee interested in changing the settings and/or performing maintenance of SRN.
 
-There already exist shop displays, basic and complex, there are field merchandisers, staff at points of purchase. There are key accounts, and in general, there is staff interested in using SRN and SDM. But since these systems do not exist now, anything which describes STN and SDM is about a future in which they are expected to exist and run. 
+There already exist shop displays, basic and complex, there are field merchandisers, staff at points of purchase. There are key accounts, and in general, there is staff interested in using SRN and SDM. But since these systems do not exist now, anything which describes STN and SDM is about a future in which they are expected to exist and run.
+
+The innovation language for the SRN, includes both terms about something new, yet to be made and used. The rest is about what is already the case,  assumed or known.
+
+In contrast, most of the Glossary of World Heritage Terms seems to be about what was already assumed or known about the past. The Glossary made in the 1990s, published in December 1996. Several terms refer to the future, including the apparent "Action Plan for the Future".
+
+The problem is that distinguishing past, present, and future in a set of definitions can be hard to do. In the SRN case, do we have clear criteria to say if SRN software is there, or is not? This may seem a simple question, but isn't - suppose that we have two software systems, which share most, but not all features or functionality. Let's call them two versions of SRN software; for some, some people will say that it is the SRN, for instance, those people who expected the functionality which is covered by that version. But others, who expected more, or different functionality, may disagree. So establishing whether we have the SRN software or not, suddenly becomes a complicated issue on its own. This is another case of the age-old problem of agreeing if what you expected, and contracted someone to make or do, is indeed made or done. In most cases, a contract will specify as much as needed such conditions, and it is thus the contract (perhaps its appendices, but that's merely a formatting issue) which defines the deliverable. The distributed definition would ideally give clear, unambiguous, and verifiable conditions, a procedure perhaps to validate these conditions, and that would allow us to say with more confidence something about the presence or absence of instances of a definiendum, and thus about their definientia referring to the past, present, and/or future.
+
+It looks like, then, that we need to carefully read through the innovation language, and perhaps do more (validate presence or absence through tests and/or observation) to categorize a definiens as referring to the past, present, and/or future. Some guidance can be provided automatically, by looking for words and tense referring to the past, present, or future in definientia.
+
+
+
+
+
+
+
+
+
+
 
 You can think of this as two murky pictures, both rough and partial, one of the present, the other of a potential future. Several things are missing, and the innovation process needs to produce them. A more complete picture of the present is needed, alongside a more elaborate one of the future. There needs to be an account of how to transition from the former to the latter. 
 
