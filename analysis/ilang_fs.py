@@ -610,11 +610,13 @@ def internal_to_external_dependencies(structured_dependency_network_data, extern
 
     return out
 
-
-
-def internal_term_candidates(structured_dependency_network_data, conservative = True, descending = True, showcount = 20):
+# For each External Term, count the  number of times it is mentioned in all definientia (Definientia Appearance), and number of Internal Terms which mention it at least once in their definiens (Crossing Dependencies).
+def find_internal_term_candidates(structured_dependency_network_data, conservative = True, descending = True, showcount = 20):
     stopwords = ['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', "you're", "you've", "you'll", "you'd", 'your', 'yours', 'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', "she's", 'her', 'hers', 'herself', 'it', "it's", 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what', 'which', 'who', 'whom', 'this', 'that', "that'll", 'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an', 'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by', 'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before', 'after', 'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don', "don't", 'should', "should've", 'now', 'd', 'll', 'm', 'o', 're', 've', 'y', 'ain', 'aren', "aren't", 'couldn', "couldn't", 'didn', "didn't", 'doesn', "doesn't", 'hadn', "hadn't", 'hasn', "hasn't", 'haven', "haven't", 'isn', "isn't", 'ma', 'mightn', "mightn't", 'mustn', "mustn't", 'needn', "needn't", 'shan', "shan't", 'shouldn', "shouldn't", 'wasn', "wasn't", 'weren', "weren't", 'won', "won't", 'wouldn', "wouldn't"]
     stopterms = list()
+    wordcount = dict()
+    used_in = dict()
+    wordlist = list()
  
     if conservative == True:
         for i in structured_dependency_network_data:
@@ -625,7 +627,6 @@ def internal_term_candidates(structured_dependency_network_data, conservative = 
                 if w not in stopwords:
                     stopterms.append(w)
  
-    wordcount = dict()
     for i in structured_dependency_network_data:
         for word in structured_dependency_network_data[i]['clean_definiens'].lower().split():
             if word not in stopwords:
@@ -635,31 +636,12 @@ def internal_term_candidates(structured_dependency_network_data, conservative = 
                     else:
                         wordcount[word] = wordcount[word] + 1
 
-    used_in = dict()
     for i in wordcount:
-        w = i[0]
+        w = i
         l = list()
         for j in structured_dependency_network_data:
             if w in structured_dependency_network_data[j]['clean_definiens']:
                 l.append(structured_dependency_network_data[j]['definiendum'])
         used_in[w] = { 'used_in_internal_terms_count': len(l), 'used_in_internal_terms': l }
-
-    wordlist = list()
-    for i in wordcount:
-        wordlist.append((i, wordcount[i], used_in[i]['used_in_internal_terms_count']))
-    from operator import itemgetter
-    if descending == True:
-        wordlist.sort(key = itemgetter(1), reverse = True)
-    if descending == False:
-        wordlist.sort(key = itemgetter(1), reverse = False)
     
-    shortwordlist = list()
-    for i in range(0,showcount):
-        shortwordlist.append(wordlist[i])
-
-    from tabulate import tabulate
-    print(tabulate(shortwordlist, headers = ['Word', 'Mentions'], tablefmt="pipe"))
-    
-    out = { 'wordcount': wordcount, 'used_in': used_in }
-    
-    return out
+    return {'crossing_dependencies_stats': wordcount, 'definientia_appearances_stats': used_in}
