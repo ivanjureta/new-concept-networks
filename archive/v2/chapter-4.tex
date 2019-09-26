@@ -1,0 +1,280 @@
+\chapter{What are plastic definitions, and how different are they?}
+\label{c4}
+\chaptermark{What are plastic definitions, and how different are they?}
+
+\abstract{The design of an innovation language involves the making and revision of definitions of a particular kind, called plastic definitions. In this chapter, I discuss the plasticity of a definition, and relate it to well-known discussions of what makes a good definition, from Kant, Belnap, and Kripke.}
+
+
+\section{What is a plastic definition?}
+\label{c4:s1}
+A plastic definition is a precise, clear, and accurate definition which you make for someone else to change, by inviting five kinds of actions: 
+\begin{itemize}
+	\item to \text{keep} what they agree with, in that definition,
+	\item \textit{refine} what they can make more precise, accurate, and clear,
+	\item \textit{add} what they are convinced in missing,
+	\item \textit{remove} what they disagree with, and
+	\item \textit{choose} among options which you were indecisive on.
+\end{itemize}
+
+Expectation of change is an essential property of plastic definitions. This is what ''plastic'' in ''plastic definition'' is meant to convey: these definitions are open to debate and change completion, revision, or other kinds of changes we might want to make. Their plasticity is intended to underline that they are malleable, rather than immutable.
+
+The relationship between definitions in general, and plastic definitions is not an easy one. Just from the name, you might think a plastic definition is a kind of definition, that of all definitions, some are plastic, others not. But this depends on what definitions are, in general, that is, how you define a definition, a big question on its own.
+
+I do want to spend time in this chapter, however, to flush out the relationship between plastic definitions and key ideas about definitions in general. This should help clear out some of the many potential misunderstandings, and pre-empt some of the many expectations you may have from this book, and which I did not want to realize at all.
+
+\section{Kant's Theory of Definition}
+\label{c4:s2}
+For Kant, to define is to identify all primitive properties of that which you are trying to define, whereby that set of properties allows you, me, others, to unambiguously distinguish the thing from others. It is important that all these properties in the set, i.e., properties which together make up the definition, are primitive. 
+
+Primitive means that there is no one among them, which you can conclude from knowing only the others. Each one is necessary, none can be removed, and together they are sufficient for you to make the distinction, none is missing.\cite{kant1999critique,kant2004lectures,beck1956kant} 
+
+Still for Kant, a definition can be analytic or synthetic. It is analytic if it is defining something which is a given. That which is being defined is already there, independently from its definition, and its definition identifies only the necessary and sufficient primitive properties needed to distinguish that given thing from everything else. 
+
+A definition is synthetic, if it creates the thing it defines. The thing that is being defined is not there, and starts being there by virtue of us producing its definition. The definition contains the necessary and sufficient primitive properties for us to introduce the thing and make it unambiguously distinct from all else.
+
+Then, there is a distinction between nominal and real definitions. 
+
+A real definition will be such that, at least some properties it identifies are grounded in experience of reality. 
+
+A nominal definition will identify properties which do not have to be grounded in such experience, for you to accept that the thing being defined exists. 
+
+Peano axioms, for example, seem to be a nominal definition of natural numbers if you take them to exist as abstractions in the framework of mathematics. They do not define what a natural number refers to, but define the relationships which we must stand between instances of natural number - it does not matter if you or I have ever had experiences of actual things which we would reasonably call natural numbers. In more technical terms,
+
+\begin{quote}
+''Kant is saying that in a real definition we do not merely equate a word with a logical product of arbitrarily chosen logical predicates, but we make at least a problematical existential judgment and state the conditions under which this judgment could be verified so that the definiendum [i.e., name of that which is being defined] will be seen to have 'objective reference.' There must be, in the definiens [the statement of properties, defining the definiendum], some determination or compound of determinations that can be 'cashed' in possible sensible (intuitive) experience.'' \cite{beck1956kant}
+\end{quote}
+
+Analytic/synthetic and nominal/real are orthogonal, independent distinctions, combining into four kinds of definitions: analytic nominal, analytic real, synthetic nominal, and synthetic real.
+
+How does this relate to plastic definitions? 
+
+I said earlier that a plastic definition is open to change, and it needs to be precise, clear, and accurate, because that makes it easier to change. 
+
+The analytic/synthetic distinction has nothing to do with either of these - there is no reason why an analytic or a synthetic definition cannot change. If you do take that distinction seriously, then note that the plasticity of an analytic definition reflects the acquisition of more information about the properties of the given thing being defined; the plasticity of a synthetic definition means going from defining and making one thing, and when the definition changes, the thing being made changes too, as when, for example, one software specification, a synthetic definition of the software product to make, leads to one release of that product, and then a change in the specification leads to a next release, of a different software product. 
+
+Plasticity is also independent from the nominal/real distinction. Nominal definitions can change, if the abstraction they define changes - this could be because you know more than you did when you defined it initially, you thought it through more, you discussed it with others, and so on. These changes will amount to adding or removing of, the properties appearing in the definition. Same applies to real definitions, in which case that change reflects again the change in what we know or assume about the actual thing being defined.
+
+If a plastic definition stops changing, if it graduated to a stable definition, then it may be analytic or synthetic, and nominal or real. 
+
+That independence from Kant's dimensions of definitions is a first useful observation so far in this Chapter. It consequently does not matter if you do, or don't take Kant's distinctions relevant. 
+
+A second observation has to do with the economy of definition, specifically that a good definition only identifies primitive properties. If a property can somehow be derived from primitive properties, then it shouldn't be mentioned in the definition. 
+
+But how do you derive these other properties? What does it mean, in practice, to derive properties? 
+
+These questions matter, because what you answer decides if you care at all about the distinction between primitive and derived properties. If you don't, it is one less complication to think of, when making and changing plastic definitions.
+
+A property is derived, if you can take the definition, and by applying some procedure, find that derived property of the thing being defined. So you do not need to have those derived properties written in the definition, as long as you know the primitive ones, and the procedure.
+
+We need to distinguish two cases: Is the procedure well defined, or not? 
+
+Mathematical logic has well-defined procedures. Primitive properties need to be stated by grounded well-formed formulas of your logic of choice, and the logical closure over these formulas will include all derived properties. Same goes for statistics. If you have a dataset that describes, thus defines some sample of a population, a mean of a variable in there is a derived property, to be derived by computing the trivial, but well defined formula. 
+
+What if the reasoning procedure is not well defined? This is the realm of personal, subjective, biased, ordinary, everyday reasoning procedures, those which might be partly accounted for by Walton's informal logic \cite{walton1989informal},  behavioral economics \cite{mullainathan2000behavioral}, starting with Tversky and Kahneman \cite{kahneman2013prospect}, or other, but certainly not well defined procedures, procedures which you and I, if we applied them, would consistently lead us to the same conclusions. In those cases, if there is no guarantee that you and I will derive the same conclusions, from the same definition, is the primitive and derived distinction useful?
+
+It remains useful, but in a restricted sense: there is no need for synonyms in a definition, for example.
+
+For plastic definitions in particular, the primitive/derived distinction loses its appeal. Plastic definitions are used when working with new ideas, when trying to make them precise, clear, and accurate, so as to prepare them for others to change. It is more important to do that, than to worry about a plastic definition stating the obvious, which is the worry that the economy of derivation promotes. Better for the content of a plastic definition to be obvious to all, than missed by some. 
+
+Does this argument apply even when the reasoning procedure is well defined? I cannot compute the mean of a categorical variable, we all know that. I also cannot derive a formula with a predicate which did not occur somewhere in the premises.\footnote{Unless I am drawing conclusions from an inconsistent set of formulas, and doing so under a procedure which is explosive (as in classical propositional or classical first-order logic, for example). But in that case, I can only conclude anything, same as you, and we may disagree, then. In other words, since you and I can conclude anything from inconsistency, how likely is it that we will come to the same conclusions? So my point holds for paraconsistent logics too.} 
+
+A well defined reasoning procedure ensures that both you and I, and anyone else, starting from the same explicit, written down premises or inputs, will compute the same conclusions. We will compute the same mean of the same variable, if we both have the same dataset. We will compute the same grounded formulas from the same premises, if we apply the same reasoning procedure. But while we will get the same formulas, or the same numbers, what we read from this, the references we make, can be different, and there is nothing the well defined reasoning procedure can do about that. So even if the procedure is well defined, it is you and I who read the conclusions, and when we do it, we end up applying our individual procedures which are not well defined, and are inevitably different.
+
+Ultimately, then, there's no need to worry if your plastic definitions only talk of primitive properties, or if they fail the economy of derivation. In practice, this translates into plastic definitions which repeat the same things, in different ways, trying to clarify the important ideas they are being designed and changed to convey.
+
+This closes the discussion of Kant's theory of definition and its relationship to plastic definitions. The short summary is that we can leave Kant's remarks aside when making and changing plastic definitions in innovation languages.
+
+
+\section{Belnap's Rigorous Definitions}
+\label{c4:s3}
+Belnap is less concerned with categories of definitions, than with the ''good'' properties of definitions. For him, like for us here, a definition tries to explain the meaning of a word or phrase.
+
+\begin{quote}
+''I consider [definitions] only in the sense of explanations of the meanings of words or other bits of language. (I use 'explanation' as a word from common speech, with no philosophical encumbrances.) As a further limitation I consider definitions only in terms of well-understood forms of rigor. Prominent on the agenda will be the two standard 'criteria' - eliminability and conservativeness - and the standard 'rules'.'' \cite{belnap1993rigorous}
+\end{quote}
+
+A definition explains by relating the new word or phrase, that which it defines, with words and phrases you may know already. I can only explain X to you by using something which you already know. I cannot, of course, know what you know, but I can make assumptions, and adapt my definition through our communication. 
+
+The idea that a definition explains by relating to prior knowledge is an important one, and is the basis for various analyses I present in later chapters. 
+
+Belnap wants to be more precise about what qualifies an explanation for a definition:
+
+\begin{quote}
+''Under the concept of a definition as explanatory, (1) a definition of a word should explain all the meaning a word has, and (2) it should do only this and nothing more. That the definition should (1) explain all the meaning of a word leads to the criterion of eliminability. That a definition should (2) only explain the meaning of the word leads to the criterion of conservativeness.'' \cite{belnap1993rigorous}
+\end{quote}
+
+A definition satisfies the criterion of eliminability, if you can replace the term it defines by the definition, anytime you use that term, and this would change nothing to your and others' understanding of what you are or were trying to say. In other words, if some term T is defined by D, with D being a sentence, a few of them, or anything else that you consider being the definition of T, then T:D satisfies eliminability if you can use D anytime you used T, and it would change nothing at all.
+
+Let's illustrate this with a definition of ''giraffe''. 
+
+\begin{svgraybox}
+Giraffe: ''a large African mammal with a very long neck and forelegs, having a coat patterned with brown patches separated by lighter lines. It is the tallest living animal.'' \cite{def-giraffe}
+\end{svgraybox}
+
+I need a convention to make writing easier. Above, ''giraffe'' is called definiendum, the term being defined, and the sentences which define it are called definiens.
+
+What eliminability requires, is that anytime you, I or anyone else uses the term ''giraffe'', we can replace that term, in that context in which she or he used it, with the definiens above, and this replacement would change nothing (relative to using the term ''giraffe''). Which is to say that eliminability requires definiendum and definiens to be interchangeable at all times, everywhere, without effect on what is being understood, in any context where either is used. Continuing the illustration, if you define ''giraffe'' as above, then the following sentence, and the subsequent paragraphs need to have the exact same meaning, if the definition above satisfies eliminability.
+
+\begin{quote}
+''Okapis are very different in their ecology and behavior from giraffes.''
+\end{quote}
+
+\begin{quote}
+''Okapis are very different in their ecology and behavior from large African mammals with a very long neck and forelegs, having a coat patterned with brown patches separated by lighter lines, they are the tallest living animals.''
+\end{quote}
+
+Even for simple examples, as above, it is a stretch to claim that the definiens and definiendum are such that nothing changes if you change one for the other. If anything, the mood of the statement changes - imagine we talk, and I tell you that okapis and giraffes are different in ecology and behavior; then try to imagine the same conversation, where I'm giving you the definition of giraffe at length. And the definition above is a simplistic one; what if I were instead using the following one:
+
+\begin{svgraybox}
+''The giraffe (Giraffa) is a genus of African even-toed ungulate mammals, the tallest living terrestrial animals and the largest ruminants. The genus currently consists of one species, Giraffa camelopardalis, the type species. Seven other species are extinct, prehistoric species known from fossils. Taxonomic classifications of one to eight extant giraffe species have been described, based upon research into the mitochondrial and nuclear DNA, as well as morphological measurements of Giraffa, but the IUCN currently recognises only one species with nine subspecies.'' \cite{wikipedia-giraffe}
+\end{svgraybox}
+
+You could argue I am caricaturing. Would anyone do this replacement, except for irony, sarcasm, or comedy? 
+
+But the ''why'' does not matter much, the point is that the very notion of preserving meaning probably makes little sense if you take seriously - as I did in chapter 1 - that you and I cannot have the same ideas in mind, regardless of how same the things we say or write. So there is no perfect preservation, and eliminability can only be something to want, but which you cannot have.\footnote{This is probably fine to say for natural language, but is too pessimistic for formal languages. In a mathematical logic, eliminability makes perfect sense, since we can - provided it is computable - determine if there is preservation of meaning, when meaning means all logical consequences. So you can take eliminability seriously, but only if you put many constraints on the language you use to make definitions. But innovation languages are in the realm of natural language.}
+
+In the context of innovation languages, eliminability remains a useful idea. Remember that we want to be precise, clear, and accurate, in the specific sense I discussed in Chapter 2. So if you replace definiendum with its definiens, and this leads you to easily draw conclusions which make ideas less precise, clear, and accurate, then this needs to be looked into. Again, there is a limit to how useful this eliminability idea is, since it is defined with a counterfactual: should I have replaced it, we would have had something else; but if I do not, then I cannot know that it would. Despite flaws, it remains a sanity check. 
+
+What about conservativeness? Eliminability was about having the definition explain every meaning, or meaning in all contexts, of the defined term. In innovation languages, I suggested settling with eliminability as a reminder to check what might be concluded when definiendum replaces definiens, especially if conclusions go against precision, clarity, and accuracy. Conservativeness is about a definition doing not more than explaining meaning. 
+
+Consider the following example, where I have two definitions of soccer.
+
+\begin{svgraybox}
+Soccer: ''Association football, more commonly known as football or soccer, is a team sport played with a spherical ball between two teams of eleven players. […] The game is played on a rectangular field called a pitch with a goal at each end. The object of the game is to score by moving the ball beyond the goal line into the opposing goal.'' \cite{wikipedia-association-football}
+\end{svgraybox}
+
+\begin{svgraybox}
+Soccer: ''Association football, more commonly known as football or soccer, is a team sport played with a spherical ball between two teams of eleven players. It is played by 250 million players in over 200 countries and dependencies, making it the world's most popular sport. The game is played on a rectangular field called a pitch with a goal at each end. The object of the game is to score by moving the ball beyond the goal line into the opposing goal.'' \cite{wikipedia-association-football}
+\end{svgraybox}
+
+If I wanted a definition which remains neutral on how this sport is or is not popular, or widely played, then the first definition is conservative, and the second is not. I can conclude nothing about popularity from the first, but I can from the second. 
+
+It might seem that conservativeness has an obvious and hard problem. Namely, it is relative to the purpose of the definition, or intention of the maker of the definition. Or, it is relative to the meaning intended by the maker of the definition. If I was making a definition of ''soccer'', I might think it necessary to say something about popularity, while someone else would not. So this is not about what soccer is, in the context of, say, a foundational ontology. If it is my intent that sets meaning, then it is me who draws the line between success or failure to satisfy conservativeness. And this is a problem, because if it is up to intentions, it is up to something inaccessible. I cannot, as I emphasized several times by now, see or otherwise access directly your intentions, since they are ideas ''in your mind''. So again, just like for eliminability, conservativeness is easiest to precisely define if we are making definitions in a formal language, such as some mathematical logic. There, a definition is conservative if replacing definiendum with definiens leads to the same conclusions.
+
+There is a way to approach this, which without giving too much attention to either eliminability or conservativeness, and in the context of natural language, as I argue next.
+
+
+\section{Carey's Origin of Concepts}
+\label{c4:s4}
+When you define something, where did your idea of that thing come from? And where does your definition of it come from?
+
+You saw it, you sensed it, you thought it, it occurred to you. And so on. Many verbs and phrases, to say variations of the same thing: you learned it, and you wanted to share what you learned with others.
+
+According to Carey \cite{carey2009origin,carey2011precis}, learning itself is always some variation of hypothesis testing.
+
+\begin{quote}
+''Ultimately learning requires adjusting expectations, representations, and actions to data. Abstractly, all of these learning mechanisms are variants of hypothesis testing algorithms. The representations most consistent with the available data are strengthened; those hypotheses are accepted.'' \cite{carey2011precis}
+\end{quote}
+
+Does that work with new concepts? No, you don't know what to test. You need to have some variables, to have some categories to think about, so you can hypothesise their relationships, and test, that is, see what survives. Innovation involves what Carey calls developmental discontinuities.
+
+\begin{quote}
+''However, in cases of developmental discontinuity, the learner does not initially have the representational resources to state the hypotheses that will be tested, to represent the variables that could be associated or could be input to a Bayesian learning algorithm. Quinian bootstrapping is one learning process that can create new representational machinery, new concepts that articulate hypotheses previously unstatable. In Quinian bootstrapping episodes, mental symbols are established that correspond to newly coined or newly learned explicit symbols. These are initially placeholders, getting whatever meaning they have from their interrelations with other explicit symbols. As is true of all word learning, newly learned symbols must necessarily be initially interpreted in terms of concepts already available. But at the onset of a bootstrapping episode, these interpretations are only partial — the learner (child or scientist) does not yet have the capacity to formulate the concepts the symbols will come to express. The bootstrapping process involves modeling the phenomena in the domain, represented in terms of whatever concepts the child or scientist has available, in terms of the set of interrelated symbols in the placeholder structure. Both structures provide constraints, some only implicit and instantiated in the computations defined over the representations. These constraints are respected as much as possible in the course of the modeling activities, which include analogy construction and monitoring, limiting case analyses, thought experiments, and inductive inference.'' \cite{carey2011precis}
+\end{quote}
+
+Besides children being somewhat like scientists and the other way around, the idea to keep is that new concepts are anchored in old. Hard to escape what you already know. That is, when speaking of definitions, the definition of something new will lean on concepts you already know how to define. 
+
+The new concepts, those playing a role in the explanation of your inventions in innovation, themselves come from your work on the placeholders. The placeholders, in turn, come from the distinctions, the differences from what you observe or think do or should exist. Simplifying, there's an apple with seeds, and you want it without, so there is a placeholder for a seedless apple, waiting to be thought out more - which other properties, other than the absence of seeds (the difference from the observed) you want? The further you think it through, the more substance in the placeholder, so to speak, and the less it is a placeholder. If something in what you know is not how you think things are, then creating a placeholder is about deciding what exactly should be different, so that it would turn out how you think it should. 
+
+\begin{quote}
+''The process of construction involved positing placeholder structures and involved modeling processes which aligned the placeholders with the new phenomena. For Kepler, the hypothesis that the sun was somehow causing the motion of the planets was a placeholder until the analogies with light and magnetism allowed him to formulate /textit{vis motrix}. For Darwin, the source analogies were artificial selection and Mathus' analysis of implications of a population explosion for the earth's capacity to sustain human beings. For Maxwell, a much more elaborate placeholder structure was given by the mathematics of Newtonian forces in a fluid medium. These placeholders were formulated in external symbols -- natural language, mathematical language, and diagrams.'' \cite{carey2011precis}
+\end{quote}
+
+
+
+\section{Kripke' Naming and Necessity}
+\label{c4:s5}
+When you try to define something, that thing -- be it concrete or abstract, chairs or thoughts -- is what your definition is about. If there is exactly one, unique such thing, your definition should, ideally, unequivocally identify it. If I were to learn that definition, I would know exactly what it is that you defined. There would be no doubt about it. I would not mistake it for something else.
+
+In ''Naming and Necessity'' \cite{kripke1972naming}, Kripke discusses the relationship between the name, a proper name of the thing or person, and that thing or person it names. Inevitably, this has a lot to do with definitions. The definition should relate the name to the thing or person. How does that happen? How could a definition do this? How should a definition be, to successfully do it?
+
+One thing Kripke does, which is interesting here, is summarize a common view, still, on how a name refers to what it names. You can see this as an account of how a definition defines the thing being named.
+
+\begin{quote}
+''...a theory of naming which is given by a number of theses…[as follows:]
+\begin{itemize}
+\item To every name or designating expression X, there corresponds a cluster of properties, namely the family of those properties P such that A believes P(X) [i.e., it is true to say that X has properties P].
+\item One of the properties, or some conjointly, are believed by A to pick out some individual uniquely.
+\item If most, or a weighted most, of the properties P are satisfied by one unique object y, then y is the referent of X.
+\item If the vote yields no unique object, X does not refer.
+\item The statement, 'If X exists, then X has most of the [properties] P' is known a priori by the speaker.
+\item The statement, 'If X exists, then X has most of the [properties] P' expresses a necessary truth (in the idiolect of the speaker).
+\end{itemize}
+For any successful theory, the account must not be circular. The properties which are used in the vote must not themselves involve the notion of reference in such a way that it is ultimately impossible to eliminate.'' \cite{kripke1972naming}
+\end{quote}
+
+Reference, according to the above, works by selecting properties which uniquely distinguish the named individual. To define, then, the individual, is to identify such properties at least, or all properties - those included - which describe the individual. It is to provide a description which only fits that individual.
+
+Kripke argues this is not how reference works. The crux of his argument, to my understanding, is that people do refer to individuals, they believe and act as if they referred uniquely, yet in many cases they use names and believe reference without being able to satisfy all conditions listed above. I agree with his conclusion, but for somewhat different reasons than those he focuses on. For one, many properties are hard to specify precisely enough, for them to be relevant in distinguishing an individual (object, person, thought) from others. Being red is a property, but there are many nuances of red, and picking the right red for the red object you are naming and defining, is a complicated matter. Not everyone sees reds in the same way, and not all red objects will consistently be observed as being red in the same way, in all conditions. So there is a practical difficulty in picking properties that distinguish. Another way to put this, is that just as we have trouble defining the thing by its properties, we have substantial difficulties defining those properties themselves. Second, suppose that there exists, as a matter of metaphysics, the possibility to know all properties of an individual (or the smallest such set which distinguishes that individual from all else). It is unlikely that I will accidentally know them all; if not, then I need to discover, or more generally do something to learn them. There is no single directory where I could learn this easily, some given universal ontology. And so, I would need to invest substantial effort to identify what picks out that individual over others. Think about all the effort that is needed to create and update biological taxonomies, medical ontologies, and really any other knowledge of classification, and it becomes clear that it is probably impractical, i.e., not feasible, for any one of us to know, for all individuals we refer to, the complete set of properties that unequivocally single out those individuals from everything else. Yet we do manage to get by in practice, as Kripke observes. So what if we cannot successfully use properties to refer precisely?
+
+Kripke's proposal is, instead, that naming works through convention, and convention gets passed from person to person. Reference is part of culture, if culture is all non-genetic information passed across generations.
+
+\begin{quote}
+''Someone, let's say, a baby is born; his parents call him by a certain name. They talk about him to their friends. Other people meet him. Through various sorts of talk the name is spread from link to link as if by a chain. A speaker who is on he far end of this chain, who has heard about, say Richard Feynman, in the market place or elsewhere, my be referring to Richard Feynman even if he can't remember from whom he first heard of Feynman or from whom he ever heard of Feynman. He knows that Feynman is a famous physicist. A certain passage of communication reaching ultimately to the man himself does reach the speaker. He hen is referring to Feynman even though he can't identify him uniquely. He doesn't know what the Feynman theory of pair production and annihilation is. Not only that: he'd have trouble distinguishing between Gell-Mann and Feynman. so he doesn't know these things, but, instead, a chain of communication going back to Feynman himself has been established, by virtue of his membership in a community which passed the name on frok link to link, not by ceremony that he makes in private in his study: By 'Feynman' I shall mean the man sho did such and such and such and such.'' \cite{kripke1972naming}
+\end{quote}
+
+This idea of tying reference to historical use, in which conventions pick out the individual, gets us to the following topic, of crowd definitions.
+
+
+\section{Crowds}
+\label{c4:s6}
+There are two ideas which cause trouble when thinking about definitions, and what a good definition may look like.
+
+The first toxic idea is that you can produce a definition which explains all meanings of a term, for everyone, anytime, and everywhere. It is the idea that you can make a successful universal definition.
+
+The second toxic idea, strongly related to the first, is that you can restrict, via the definition, the conclusions which anyone can draw from it. If you think that meaning are the results of all reasoning you can do from the definition, then this second idea is really a facet of the first.
+
+Instead, consider if a definition, or its possible consequences matter to anyone, anytime, everywhere? Probably not. When was the last time you needed to reason from a definition of ''giraffe''? And if you did, what was the stake with that reasoning? Did it matter if you drew different conclusions from the nearest zoologist? This obviously does not apply to all terms, all the time, and everywhere. It is, for example, of significant importance, that customs officials in all countries agree on the definition of ''passport'', as disagreements there will matter to many, frequently, and in many places. But even then, not everyone has something at stake, all the time. 
+
+The point is that the quality of a definition matter at any time only to some, and that they may identify themselves, if doing so can be done at some reasonable cost. 
+
+This is where crowds come into play. Wikipedia is an example of a technology which creates term or topic-specific communities (whereby ''topic'' I mean somehow related sets of terms). It lowers the cost for people who care enough about the quality of definitions of ''soccer'', to debate, update, and extend the definition of that term. It gives anyone in the crowd, so to speak, to come forward and add or remove to a definition of a term, whose meaning they want to say something about. What matters here is not that the term is defined for universal agreement, or fitness to empirical evidence, but for acceptance by the community of those who worry about the phrasing, content, and consequences or implications of the term being defined in some or other way.
+
+And this is important for innovation languages, because the team who does innovation are exactly those concerned with the meaning of the terms they use to describe that which they are coming up with.
+
+With this in mind, a definition is good, or its quality matters only for and within a community - it is its community which promotes desirable, and sanctions undesirable consequences, and judges if it satisfies eliminability or conservativeness. That community, like in many areas of scientific research, may agree on highly specific rules and procedures for producing and validating evidence for something to be in a definition.
+
+The extent to which different communities produce definitions of different quality, can be illustrated by looking at the definition of something recent, with strong emotional content. How about Pikachu?
+
+Editors at OED are apparently not the community to ask about this. Sadly, OED has a definition of Pok\'{e}mon, but not of Pikachu.
+
+\begin{quote}
+''A series of Japanese video games and related media such as trading cards and television programs, featuring cartoon monsters that are captured by players and trained to battle each other.'' \cite{def-pokemon}
+\end{quote}
+
+Editors of the Pikachu page on Wikipedia are a slightly more interested group.
+
+\begin{quote}
+''Pikachu are a species of Pok\'{e}mon, fictional creatures that appear in an assortment of video games, animated television shows and movies, trading card games, and comic books licensed by The Pok\'{e}mon Company, a Japanese corporation. They are yellow rodent-like creatures with powerful electrical abilities. In most vocalized appearances, including the anime and certain video games, they are primarily voiced by Ikue Otani.'' \cite{wikipedia-pikachu}
+\end{quote}
+
+But it all pales in comparison with the community at Bulbapedia, an encyclopedia dedicated to Pok\'{e}mon. This is merely the overview, of the entry on Pikachu, a text of more than 15,000 words.
+
+\begin{quote}
+''Pikachu is an Electric-type Pok\'{e}mon introduced in Generation I.
+It evolves from Pichu when leveled up with high friendship and evolves into Raichu when exposed to a Thunder Stone. However, the starter Pikachu in Pok\'{e}mon Yellow will refuse to evolve into Raichu unless it is traded and evolved on another save file.
+
+In Alola, Pikachu will evolve into Alolan Raichu when exposed to a Thunder Stone.
+Pikachu is popularly known as the mascot of the Pok\'{e}mon franchise and a major representative of Nintendo's collective mascots.
+It is also the game mascot and starter Pok\'{e}mon of Pok\'{e}mon Yellow and Pok\'{e}mon: Let's Go, Pikachu!. It has made numerous appearances on the boxes of spin-off titles. Pikachu is also the starter Pok\'{e}mon in Pok\'{e}mon Rumble Blast and Pok\'{e}mon Rumble World.'' \cite{bulbapedia-pikachu}
+\end{quote}
+
+Pikachu is an example of an innovation, or of part of an innovation (if you take Pok\'{e}mon to be the innovation). It is one of many terms used when talking, or in general communicating about Pok\'{e}mon. 
+
+Pikachu is an interesting example, because it is an abstraction which becomes somewhat more concrete in cartoons, video games, and any other place it appears, in drawn or other format. There is no thing, object, in nature, which was named Pikachu, and so, there are some properties it has, and which anyone who has access to that object can ascertain. There are properties its authors, designers, chose to represent. But as the community formed around it, the definition will be a reflection of what they see in it. Is there a unique, universal, objective, or otherwise observer-independent canonical definition of Pikachu? No, and thus we fall back on the interested crowd to tell us what they think about the definition of Pikachu, given the concretizations of Pikachu, the imagination of each member of this crowd, and the persistence of each one of them to promote and defend their own idea of Pikachu.
+
+Now, replace ''Pikachu'' above, with the term ''nuclear weapon'', or ''agricultural subsidy'', and the important point remains, that there is an interested community, which decides the definition. Evidently, the effects of these choices, their gravity, is clearly different for ''Pikachu'' and ''nuclear weapon''.
+
+To see the second important point, consider this question: What do we get by having a community agree on one definition of Pikachu? If differences of opinion on the definition of Pikachu have no bearing on the actions of those who are concerned with that definition, then there is no reason to ever worry about this. In any other case, it is a question of how much their actions matter, and how divergence in opinion, on the definition, affect their actions. So for nuclear weapons, agreement on the definition is critical, since it influences defence policies, and through them, the lives of many, including most directly those in defense industries, in various countries.
+
+The second important point is that agreement on a definition influences coordination, that is, by influencing individual actions of those who agreed, it influences how they act together, and thus the outcomes of their joint actions.
+
+The third important point is that the definition lives and dies with its community. As that community changes - which simply means as it gets new members, loses others, and as they change their minds - so will the definition. For some terms, especially if they refer to things whose properties can be ascertained through repeatable procedures that yield consistent outcomes, these changes may be mild over long periods of time (e.g., ''electricity'', ''magnetic field'', ''atom'', etc.), while they will be more turbulent for others.\footnote{Terms used in relation to controversial issues, for example, offer many examples of changing definitions, driven by crowds. Classical such terms include, e.g., ''socialism'', ''atheism'', ''terrorism'', and so on, with ''Napster'' and ''The Pirate Bay'' being some of many more recent ones.\cite{wikipedia-controversial-issues,yasseri2014most}.}
+
+The fourth important point concerns what a definition looks like. If you are used to printed dictionaries, then the definition looks like a sentence, or a few paragraphs at most, explaining the meaning of a term. Digital resources, however, especially for topics which draw an active community, look nothing like this. They are assemblies of various, more or less structured data, on the term being defined. This is important, because it takes us away from the simplistic one or two sentence definitions, into recognizing that there may be a lot to say about the term, to explain its intended use.
+
+Plastic definitions are made and changed by a community; early in the innovation process, that community numbers only the team tasked with that process, and grows if and as the innovation process becomes successful. At any time, a plastic definition will be a reflection of a temporary consensus on how to read a term, and from there - and more importantly - on what to do about it. It should be precise, clear, and accurate, so as to help others' be, in turn, precise, clear, and accurate about what they agree or disagree with, and stimulate them to act to make changes. Finally, a plastic definition is how the community explains the term. If it satisfies some weak form of eliminability and conservativeness, it does so only to the extent that this does not hinder it being precise, accurate, and clear for those in the community.
+
+
+% Chapter bibliography
+\printbibliography

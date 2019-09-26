@@ -1,0 +1,1071 @@
+\chapter{Why and how to measure an innovation language?}
+\label{c7}
+\chaptermark{Why and how to measure an innovation language?}
+
+\abstract{An innovation language is created and changes during an innovation process. I argue in this chapter that definitions which we thus create reflect the decision-making done during innovation. I argue that definitions record choices we made, as well as embed constraints on our future decision-making. A key idea in this chapter is that new terms we define need to rely on old terms, those whose definitions we do not change during the innovation process; this relationship between new and old terms tells us how the outcomes of the innovation process relate to what was there already.}
+
+\section{Why measure an innovation language?}
+\label{c7:s1}
+In the preceding Chapters, any analysis we did of sample definitions, were done on a \textit{single definition}. Debating the choices made in and with a single definition is easier than doing the same with \textit{several definitions}. 
+
+The reality is, however, that if you change one definition in an innovation language, that change will influence the definitions of other terms there. Why is this so hard?
+
+One, it is hard to assess exactly how a change in some term T should be reflected in the definitions of other terms in the innovation language. 
+
+Two, to even start thinking about the first problem above, we need to know which terms inside an innovation language may be affected, when we change the definition of one term there.
+
+Three, a change in a term T's definition may prove inconsistent, or roughly speaking, conflicting, with the definition of a term which is outside that innovation language, and which was actually consistent with T's definition before the change. This begs a series of questions, one being if we want to live with that inconsistency; if not, that is, if we want to resolve that inconsistency, do we now bring the external term inside the innovation language, and give it a new definition internal to that innovation language, which in turn begs more questions, if changing that term's definition generates more inconsistency inside and outside the innovation language.
+
+All these issues are hard to deal with when all we have is a list of definitions of terms inside the language. 
+
+In response, we can describe an innovation language through measuring some of its properties. And to do that, we need to decide how to represent the innovation language, so that we can do measurements on it. 
+
+
+\section{How to measure an innovation language?}
+\label{c7:s2}
+To measure an innovation language, do we measure each definition? How do we do that? How do we measure the language, that is, all definitions in it?
+
+To make a measure, we need to have a question it should help us answer. 
+
+Consider some term T in an innovation language; it can be any term. How does your understanding of T depend on your understanding of other terms in that language?
+
+To answer that question, the first thing to do is to identify the terms that are mentioned in T's definition. So if T is the definiendum, then look at its definiens, and identify, there, all terms which are also in the innovation language. The result of doing that, is a list of terms from the innovation language, which are in the definiens of T. We can reasonably say that T depends on each of these terms, which suggests that there is a relationship between T and each of these terms.
+
+What else can we say about that relationship? It relates T with other terms \textit{inside} the innovation language, but not with terms which are mentioned in T's definiens, but are \textit{outside} the innovation language. It is also a \textit{directed} relationship, from T to each other internal term that appears in T's definiens. 
+
+Let's call that relationship \textit{internal dependency} then, and we'll return to its complement, the \textit{external dependency} relationship later. 
+
+This is something we can measure. For each term inside the innovation language, or each internal term T, we will want to identify and count other internal terms that are in an internal dependency relationship with T. The count will tell us, even if roughly, how much T leans on other internal terms, and if we count this for all internal terms, we can have an order that reflects the extent of their internal dependency.
+
+As soon as we are interested in a relationship over terms, we should also think about the network that this relationship creates. If the internal term T depends on two other internal terms T1 and T2, then we can represent this in mathematical terms as a graph of three labeled nodes, labels being T, T1, and T2, and two directed edges labeled "internal dependency", one from T to T1, and another from T to T2. In other words, we can, for each relationship, have a labeled directed network (or graph), which represents instances of that relationship over terms. Once we have that, we can measure properties of that network, and reinterpret them in relation to our aims, of making and changing the underlying innovation language. 
+
+The rest of this Chapter focuses on several relationships over terms, why they are interesting, and which measures to compute over instances of these relationships.
+
+
+\section{How to measure internal dependency?}
+\label{c7:s3}
+Given a set of term and definition pairs, how do we identify internal dependencies? As a reminder, let's assume terms A and B are both in the same innovation language. There is an internal dependency from A to B if the definition of A, i.e., the definiens of A mentions B. There is no rule which asks that, if A is internally dependent on B, that B cannot be internally dependent on A; we can have internal dependencies going both ways.
+
+In more general terms, a term A in an innovation language is internally dependent on terms T1,...,Tn, if and only if A and T1,...,Tn are all terms defined in the same innovation language, and the definiens of A mentions all terms T1,...,Tn. It does not matter how many times A's definiendum mentions some term Ti, which is one of T1,...,Tn, as long as it mentions it at least once.
+
+Given the set of definitions in an innovation language, we can compute all internal dependencies.
+
+\subsection{How to make an internal dependency network?}
+\label{c7:s3:ss1}
+We start with a dataset that has two columns, \textit{Term} and \textit{Definition}. Each row is a term of the innovation language, and its corresponding definition. We will use the terms and definitions from Case 1 in Section \ref{c5:s2}. They make up a dataset shown in Table \ref{dataset-case-1}, and we assume this dataset is in a comma-separated values file named \texttt{il\char`_case\char`_1\char`_dataset.csv}.
+
+
+\begin{longtable}{lp{7.5cm}}
+\caption{Case 1 dataset (\texttt{il\char`_case\char`_1\char`_dataset.csv}).}\label{dataset-case-1}\\
+\toprule
+\textbf{Term (Definiendum)}              & \textbf{Definition (Definiens)}                                                                                                                                                                                                                                                                                                                                                       \\* \midrule
+\endfirsthead
+%
+\multicolumn{2}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+\textbf{Term}              & \textbf{Definition}                                                                                                                                                                                                                                                                                                                                                       \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+CompanyX                   & Legal entity which owns the Product.                                                                                                                                                                                                                                                                                                                                      \\
+Product                    & Software that CompanyX makes available to Stakeholders.                                                                                                                                                                                                                                                                                                                   \\
+Platform                   & The Product’s backend.                                                                                                                                                                                                                                                                                                                                                    \\
+Operations Control Center  & Designates all Product functionality which is designed to be used by Staff for managing data and User-accessible functionality of the Product, and monitoring and reporting on Transactions.                                                                                                                                                                              \\
+Product Specification      & Definition of what the Product does, for who, and why.                                                                                                                                                                                                                                                                                                                    \\
+Stakeholder                & An individual, representing oneself or a legal entity, who interacts with the Product.                                                                                                                                                                                                                                                                                    \\
+Visitor                    & Stakeholder who either is not a User, or is a User but is not logged into the Product.                                                                                                                                                                                                                                                                                    \\
+User                       & Stakeholder who is registered to and logged into the Product.                                                                                                                                                                                                                                                                                                             \\
+Expert                     & User who provides expertise of any kind (including sales expertise, business development expertise, etc.) via Services to Companies.                                                                                                                                                                                                                                      \\
+Company User               & User who represents a Company when using a Product.                                                                                                                                                                                                                                                                                                                       \\
+Staff                      & User(s) who have been designated by CompanyX as working on its behalf.                                                                                                                                                                                                                                                                                                    \\
+User Account               & Data which the Product holds and manages about the User, and rights that the Product provides to the User, to use functionality and access data in the Product.                                                                                                                                                                                                           \\
+Company                    & Legal entity whose Company Users request Services and have them delivered via the Product.                                                                                                                                                                                                                                                                                \\
+Business                   & Legal entity which MAY also be a Company on CompanyX, and which is identified as the legal entity to which a Lead is associated. For example, if Lead is John Smith, who works at Verizon, then Verizon is the Business.                                                                                                                                                  \\
+Lead                       & Specific person at a Business. A Lead is NOT a User of CompanyX.                                                                                                                                                                                                                                                                                                          \\
+Company Lead               & Lead whom the Company is in contact with and whom the Company added to its CompanyX Company Account. Company Lead by definition defines a Target, because it must identify the Business.                                                                                                                                                                                  \\
+Expert Lead                & Lead whom the Expert is in contact with, and whom the Expert added to her CompanyX Account.                                                                                                                                                                                                                                                                               \\
+Service                    & Designates the collaboration of one specific Expert and one specific Company using the Product, and under the rules and guidelines set out by CompanyX and accepted by Expert and Company Users.                                                                                                                                                                          \\
+Key Expectation            & Indicates the principal reason why a Stakeholder participates in a Service using the Product. That is, designates that which one party (Company or Expert) expects to receive from the counterparty (Expert or Company) in the Service that they participate in.                                                                                                          \\
+Project                    & Service in which:Company’s Key Expectation is to have the Expert achieve specific Goals on each of the agreed Targets;Expert’s Key Expectations are:To receive Expert Project Fee, ANDTo create Accounts, which, if the Expert manages (during the Tail) to convert into Deals, will yield the Expert the payment of the Deal Commission.                                 \\
+Deal                       & A Service which CAN ONLY be done between a Company and an Expert which the Company had initiated and/or completed at least one Project, AND in which:Company’s Key Expectation is to have the Expert convert an Account into a Deal;Expert’s Key Expectation is to receive Expert Deal Fee for converting an Account into a Deal for the Company.                         \\
+Matching Expert            & Expert identified by Product to be shown to Company Users, as Expert who is capable of addressing an Request posted by the Company.                                                                                                                                                                                                                                       \\
+Anonymized Matching Expert & Matching Expert shown to Company User without showing that Expert’s identifiable information.                                                                                                                                                                                                                                                                             \\
+Target                     & Legal entity which MAY also be a Company on CompanyX, and to which Experts can connect Companies with, and Company Users may want to have their Companies connected with.                                                                                                                                                                                                 \\
+Goal                       & Designates that which a Company User wants to achieve by purchasing Services.                                                                                                                                                                                                                                                                                             \\
+Task                       & Work performed by an Expert in order to achieve Goals.                                                                                                                                                                                                                                                                                                                    \\
+Timeline                   & Defines date and time when each Task in a Project needs to be satisfied.                                                                                                                                                                                                                                                                                                  \\
+Deal Assistant             & A real time communication space in the Product for the Expert to interact with Company User(s) to agree on and deliver the Service.                                                                                                                                                                                                                                       \\
+Request                    & A Company User’s definition of the Project that the Company wants to have executed by Experts.                                                                                                                                                                                                                                                                            \\
+Proposal                   & Response of an Expert to an Request.                                                                                                                                                                                                                                                                                                                                      \\
+Checkpoint                 & A moment, during a Service, when the Product asks Company User for feedback on the collaboration with the Expert in the given Service, and asks the Expert for feedback on the collaboration with the Company in the given Service.                                                                                                                                       \\
+Account                    & A Target which satisfies the following conditions:A Company User has approved that IF the Target is converted into a Deal, THEN Expert can claim her Expert Deal Fee to CompanyX, AND CompanyX can claim the Deal Fee to the Company;There is a Tail approved by the Company User and Expert User;There is a Deal Fee approved by the Company User and Expert User.       \\
+Tail                       & Tail of an Account is the period of time such that:It starts on date-time, called Tail Start, when a Company User approves the creation of that Account;It ends on date-time, called Tail End, which is either (whichever date-time comes first):Date-time when Account was converted into a Deal;Date-time when Tail Duration ends, after being counted from Tail Start. \\
+Tail Duration              & Number of time units (hours or days or months, depending on context of use) during which an Account Exists.                                                                                                                                                                                                                                                               \\
+Rating                     & Synthetic description of the quality of service that a party has been providing in past Services.                                                                                                                                                                                                                                                                         \\
+Testimonial                & Feedback that one party in a completed Service provides about the other party in that Service, about the experience of that Service.                                                                                                                                                                                                                                      \\
+Testimonial Response       & Reply to a Testimonial, provided by the party who received the Testimonial.                                                                                                                                                                                                                                                                                               \\
+Deal Fee                   & Fee that a Company pays to CompanyX for a completed Deal on CompanyX. Deal Fee includes:CompanyX Deal Fee, kept by CompanyX;Expert Deal Fee, that CompanyX pays to the Expert.                                                                                                                                                                                            \\
+Retainer                   & Service which is continuously renewed by the Company User with the same Expert.                                                                                                                                                                                                                                                                                           \\* \bottomrule
+\end{longtable}
+
+We import the file that holds the dataset, and move its contents into \verb|il_dataset|, a Python dictionary of dictionaries; it has as many dictionaries as term-definition (definiendum-definiens) pairs, and each pair is a two-item dictionary itself, where the term has the zeroth position, and the corresponding definiens holds the first position.
+
+\begin{pycode}
+import csv
+il_dataset = {}
+j = 1
+with open('il_case_1_dataset.csv') as file:
+    csv_content = csv.reader(file, delimiter = ',')
+    for i in csv_content:
+        il_dataset[j] = { 0: i[0], 1: i[1] }
+        j = j + 1
+\end{pycode}
+
+The number of items in \verb|il_dataset| gives the size of the innovation language, i.e., its number of terms. Below, we get the size of 39 terms, and for illustration show the first two items in \verb|il_dataset|.
+
+\begin{pycode}
+print(len(il_dataset))
+print(il_dataset[1])
+print(il_dataset[2])
+\end{pycode}
+
+\begin{lstlisting}[breaklines]
+39
+{0: 'CompanyX', 1: 'Legal entity which owns the Product.'}
+{0: 'Product', 1: 'Software that CompanyX makes available to Stakeholders.'}
+\end{lstlisting}
+
+For each term in \verb|il_dataset\|, we need to find all terms mentioned in its definiens. If we find, for some term A, that its definiens mentions terms B, C, and D, but only B and C are defined in the innovation language, then this gives us two internal dependencies, one from A to B, and the other from A to C; A to D is not an internal dependency, since I said that D is not defined in the innovation language (we'll return to these cases with external dependencies).
+
+Before we look at which internal terms are mentioned in each term's definiens, there is some cleanup to do. Spefically, I remove punctuation, parentheses, line breaks, and make every word lowercase. Cleanup will be needed in subsequent analyses, so it is defined as a function we'll call again later; the function is called \verb|return_clean_string|.
+
+\begin{pycode}
+def return_clean_string(string):
+    import unicodedata
+    clean_string = str()
+    normalized_string = str()
+    for w in string.split():
+        w = w.replace(".","")
+        w = w.replace(",","")
+        w = w.replace(":","")
+        w = w.replace("\"","")
+        w = w.replace("!","")
+        w = w.replace("â€œ","")
+        w = w.replace("â€˜","")
+        w = w.replace("*","")
+        w = w.replace("(","")
+        w = w.replace(")","")
+        w = w.replace("/","")
+        w = w.replace("\n"," ")
+        clean_string = clean_string + ' ' + w
+    normalized_string = unicodedata.normalize("NFKD", clean_string.casefold())
+    return normalized_string
+\end{pycode}
+
+I add the cleaned up terms and definitions to \verb|il_dataset|. Each item there will include
+\begin{itemize}
+	\item the original term (definiendum) in the 0th position, i.e., the term before cleanup,
+	\item the original definition of the term (definiens) in the 1st position,
+	\item the cleaned up term in the 2nd position, and
+	\item the cleaned up definiens in the 3rd position.
+\end{itemize}
+
+\begin{pycode}
+for i in il_dataset:
+    il_dataset[i] = { 
+        0: il_dataset[i][0],
+        1: il_dataset[i][1],
+        2: return_clean_string(il_dataset[i][0]),
+        3: return_clean_string(il_dataset[i][1])
+        }
+\end{pycode}
+
+For illustration, here are the first two items in \verb|il_dataset| after it was updated with cleaned up definienda and definientia.
+
+\begin{pycode}
+print(il_dataset[1])
+print(il_dataset[2])
+\end{pycode}
+
+\begin{lstlisting}[breaklines]
+{0: 'CompanyX', 1: 'Legal entity which owns the Product.', 2: ' companyx', 3: ' legal entity which owns the product'}
+{0: 'Product', 1: 'Software that CompanyX makes available to Stakeholders.', 2: ' product', 3: ' software that companyx makes available to stakeholders'}
+\end{lstlisting}
+
+The next step is to go through each definiens, and find all internal terms mentioned in it. For each item in \verb|il_dataset|, the procedure takes the clean definiens, and checks which of the clean definientia appear in it. The procedure works as follows: given the clean definiens of a term T, it iterates over all other terms in \verb|il_definiens| (i.e., all other items), and if some other term Ti is mentioned in T's definiens, the procedure adds one instance of the dependency relationship, from T to Ti, to say that T internally depends on Ti.
+
+\begin{pycode}
+internal_dependencies = {}
+d = 1
+for i in il_dataset:
+    for j in il_dataset:
+        if i != j and il_dataset[j][2] in il_dataset[i][3]:
+            internal_dependencies[d] = {
+                'from': il_dataset[i][2], 'to': il_dataset[j][2]
+            }
+            d = d + 1
+\end{pycode}
+
+The result is another Python dictionary, where each item is an instance of the internal dependency relationship. In each item, the first position is labeled 'from' and the second 'to'; the former gives the source of the internal dependency, i.e., the term which internally depends on another, and the second, labeled 'to' is the destination of the internal dependency, the term which is mentioned in the definiens of the first and which is being depended on by the first.
+
+For example, here are the first ten items in \verb|internal_dependencies| computed above.
+
+\begin{pycode}
+for i in range(1,10): print(internal_dependencies[i])
+\end{pycode}
+
+\begin{lstlisting}[breaklines]
+{'from': ' companyx', 'to': ' product'}
+{'from': ' product', 'to': ' companyx'}
+{'from': ' product', 'to': ' stakeholder'}
+{'from': ' product', 'to': ' company'}
+{'from': ' platform', 'to': ' product'}
+{'from': ' operations control center', 'to': ' product'}
+{'from': ' operations control center', 'to': ' user'}
+{'from': ' operations control center', 'to': ' staff'}
+{'from': ' product specification', 'to': ' product'}
+\end{lstlisting}
+
+The number of items in \verb|internal_dependencies| is the number of instances of the internal dependency relationship in the given innovation language. There are 147 such relationship instances in the innovation language in Case 1.
+
+Having identified all internal dependencies, the following questions are in order:
+\begin{enumerate}
+	\item Which internal terms depend least on other internal terms?
+	\item Which internal terms depend most on other internal terms?
+	\item What is the average number of internal dependencies a term is in?
+	\item What is the contribution of each term to all internal dependencies in an innovation language?
+\end{enumerate}
+
+Answers to these questions are computed on the so-called \textit{internal dependency network}, a graph where each node is an internal term, and each edge is an instance of internal dependency. 
+
+The network is built in the straightforward way, by having all internal terms as nodes, and a directed edge for each item in \verb|internal_dependencies|, originating in the term labeled 'from' and ending in the term labeled 'to'.
+
+Below, we generate that network and call it \verb|i_d_n|.
+
+\begin{pycode}
+import networkx as nx
+i_d_n = nx.MultiDiGraph()
+for i in internal_dependencies:
+    i_d_n.add_edge(internal_dependencies[i]['from'], internal_dependencies[i]['to'])
+\end{pycode}
+
+Given the internal dependency network, we can answer all questions raised above using only the in-degree and out-degree of each node. The in-degree of a node T is the number of edges to T, and here, we read it as the number of internal terms which depend on T. The out-degree is the number of edges from T, and it is the number of internal terms that T depends on.
+
+For example, there are 15 internal terms which depend on the term 'product', which we get from its in-degree. The same term 'product' depends on 3 other internal terms.
+
+\begin{pycode}
+print(i_d_n.in_degree()[' product'])
+print(i_d_n.out_degree()[' product'])
+\end{pycode}
+
+\begin{lstlisting}[breaklines]
+15
+3
+\end{lstlisting}
+
+
+\subsection{What is the internal sensitivity of a term?}
+\label{c7:s3:ss2}
+To answer the first two questions, we need to compute the out-degree of all terms in the internal dependency network, and sort it from highest to lowest. 
+
+\begin{pycode}
+idn_out_degrees = {}
+idn_out_degrees['Term'] = []
+idn_out_degrees['Sensitivity'] = []
+for n in i_d_n.nodes():
+    idn_out_degrees['Term'].append(n)
+    idn_out_degrees['Sensitivity'].append(i_d_n.out_degree[n]) 
+\end{pycode}
+
+Above, we first create an empty dictionary for \verb|idn_out_degrees|, where the aim is to have the number of edges which exit the node. This gives us the number of internal terms any given internal term depends on. This is shown in Table \ref{case-1-internal-sensitivity}, and we see at the top the terms which depend most on other internal terms, and at the bottom those which are involved in the least number of internal dependencies. 
+
+\begin{pycode}
+import pandas as pd
+idn_term_sensitivity = pd.DataFrame(idn_out_degrees)
+idn_term_sensitivity.sort_values(by=['Sensitivity'], ascending = False)
+\end{pycode}
+
+
+\begin{longtable}{@{}llll@{}}
+\caption{Internal sensitivity of terms in Case 1.}\label{case-1-internal-sensitivity}\\
+\toprule
+\textbf{Term}                       & \textbf{Internal sensitivity} & \textbf{Term}                  & \textbf{Internal sensitivity} \\* \midrule
+\endfirsthead
+%
+\multicolumn{4}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+Term                       & Internal sensitivity & Term                  & Internal sensitivity \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+account                    & 9                    & company user          & 3                    \\
+project                    & 9                    & business              & 3                    \\
+deal                       & 7                    & product               & 3                    \\
+checkpoint                 & 6                    & expert                & 3                    \\
+deal assistant             & 6                    & visitor               & 3                    \\
+matching expert            & 6                    & staff                 & 3                    \\
+tail                       & 6                    & task                  & 2                    \\
+service                    & 6                    & proposal              & 2                    \\
+company lead               & 6                    & timeline              & 2                    \\
+request                    & 5                    & user account          & 2                    \\
+anonymized matching expert & 5                    & user                  & 2                    \\
+key expectation            & 5                    & platform              & 1                    \\
+expert lead                & 5                    & product specification & 1                    \\
+target                     & 5                    & stakeholder           & 1                    \\
+retainer                   & 5                    & tail duration         & 1                    \\
+company                    & 5                    & rating                & 1                    \\
+goal                       & 4                    & testimonial           & 1                    \\
+deal fee                   & 4                    & testimonial response  & 1                    \\
+lead                       & 4                    & companyx              & 1                    \\
+operations control center  & 3                    &                       &                      \\* \bottomrule
+\end{longtable}
+
+Why compute the number of terms a given term depends on? If an internal term T1 depends on a single other internal term, and another term T2 depends on 9 such terms, then there is a greater probability that T2's meaning will change as we change the rest of the innovation language.
+
+We can reinterpret the first and second questions as focusing on the sensitivity of an internal term.
+
+If a term T depends on many others in an innovation language, their changes will affect how T is understood, even if the definiens of T remains syntactically the same. T is sensitive to changes in all the terms it uses, and counting these terms gives an indication of its relative sensitivity to other internal terms.
+
+
+\subsection{What is the average internal dependency of a term?}
+\label{c7:s3:ss3}
+The third question, which asks for the average number of internal dependencies of a term, is computed by taking the mean of internal sensitivity, or equivalently by dividing the total number of internal dependencies with the number of internal terms. In Case 1, this average is about 3.8.
+
+\begin{pycode}
+import statistics as stat
+stat.mean(idn_out_degrees['Sensitivity'])
+\end{pycode}
+
+\begin{lstlisting}[breaklines]
+3.769230769230769
+\end{lstlisting}
+
+Standard deviation tells us how out-degree values cluster around the mean number of terms a given term depends on. In Case 1, standard deviation is 2.2. It can be computed as follows. We first make a list of all out-degree values, called \verb|out_degrees_values| below, and compute the standard deviation on data in that list. In Case 1, the conclusion is that most terms depend on 1.6 to 6 terms; in other words, standard deviation is high in Case 1.
+
+\begin{pycode}
+stat.stdev(idn_out_degrees['Sensitivity'])
+\end{pycode}
+
+\begin{lstlisting}[breaklines]
+2.2178882614056485
+\end{lstlisting}
+
+
+\subsection{How much does a term contribute to internal dependency?}
+\label{c7:s3:ss4}
+The fourth question was about the contribution of a given term's internal dependencies to the overall number of internal dependencies in an internal dependency network. For example, if an internal term T depends on 5 other internal terms, and 10 other internal terms depend on T, and the internal dependency network has 100 edges, then T's contribution to internal dependencies is $15/100$, i.e., T accounts for 15\% of all internal dependencies. These contributions can be computed as follows, for all terms in an innovation language. Values are stored in the dictionary \verb|idn_contributions| and shown in Table \ref{case-1-contributions-to-internal-dependency}.
+
+\begin{pycode}
+idn_contributions = {}
+idn_contributions['Term'] = []
+idn_contributions['Contribution to internal dependencies'] = []
+internal_dependencies_count = len(i_d_n.edges())
+for n in i_d_n.nodes():
+    idn_contributions['Term'].append(n)
+    in_deg = i_d_n.in_degree[n]
+    out_deg = i_d_n.out_degree[n]
+    contribution = (in_deg + out_deg) / internal_dependencies_count
+    idn_contributions['Contribution to internal dependencies'].append(contribution) 
+import pandas as pd
+idn_contribution = pd.DataFrame(idn_contributions)
+idn_contribution.sort_values(by=['Contribution to internal dependencies'], ascending = False)
+\end{pycode}
+
+\begin{longtable}{@{}llll@{}}
+\caption{Contributions to internal dependency of terms in Case 1.}\label{case-1-contributions-to-internal-dependency}\\
+\toprule
+Term            & Contribution & Term                       & Contribution \\* \midrule
+\endfirsthead
+%
+\multicolumn{4}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+Term            & Contribution & Term                       & Contribution \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+company         & 0.183673                              & company lead               & 0.040816                              \\
+user            & 0.142857                              & deal fee                   & 0.040816                              \\
+expert          & 0.129252                              & anonymized matching expert & 0.034014                              \\
+product         & 0.122449                              & retainer                   & 0.034014                              \\
+service         & 0.115646                              & stakeholder                & 0.034014                              \\
+account         & 0.102041                              & expert lead                & 0.034014                              \\
+company user    & 0.102041                              & staff                      & 0.027211                              \\
+project         & 0.081633                              & operations control center  & 0.020408                              \\
+deal            & 0.07483                               & task                       & 0.020408                              \\
+companyx        & 0.07483                               & visitor                    & 0.020408                              \\
+request         & 0.054422                              & user account               & 0.013605                              \\
+target          & 0.054422                              & timeline                   & 0.013605                              \\
+tail            & 0.054422                              & proposal                   & 0.013605                              \\
+lead            & 0.047619                              & tail duration              & 0.013605                              \\
+matching expert & 0.047619                              & testimonial                & 0.013605                              \\
+key expectation & 0.047619                              & platform                   & 0.006803                              \\
+goal            & 0.040816                              & product specification      & 0.006803                              \\
+business        & 0.040816                              & rating                     & 0.006803                              \\
+checkpoint      & 0.040816                              & testimonial response       & 0.006803                              \\
+deal assistant  & 0.040816                              &                            &                                       \\* \bottomrule
+\end{longtable}
+
+The four questions I mentioned earlier, and answered by this point, are hardly the only ones that we can answer through computations on an internal dependency network.
+
+\subsection{What is the internal importance of a term?}
+\label{c7:s3:ss5}
+Are all terms in a language equally important? Some are more frequently used than others. Importance, here, can be measured by the number of times a term is mentioned in definitions of other terms in the language. An alternative is to look at the number of times a term gets mentioned in artifacts that use the innovation language, such as technical specifications, recorded communication between team members, and so on.
+
+I assume that a term's importance is directly proportional to the number of times it is mentioned in definitions of other terms in the innovation language. The rationale is that, if a term is frequently mentioned in definitions, then your understanding of those definitions hinges on your understanding of that term. If you misunderstood it, that may transfer to your understanding of definitions which use it. This gives a simple importance measure: the importance of an internal term T is equal to the number of other internal terms, in the same innovation language, whose definiens mentions T at least once. This measure is called internal importance of a term.
+
+The following produces a new dictionary \verb|idn_in_degrees| of all terms and their internal importance. Internal importance of a term T is the in-degree of the term's node in the internal dependency network. The result is shown in Table \ref{case-1-term-importance}.
+
+\begin{pycode}
+idn_in_degrees = {}
+idn_in_degrees['Term'] = []
+idn_in_degrees['Importance'] = []
+for n in i_d_n.nodes():
+    idn_in_degrees['Term'].append(n)
+    idn_in_degrees['Importance'].append(i_d_n.in_degree[n]) 
+import pandas as pd
+idn_term_importance = pd.DataFrame(idn_in_degrees)
+idn_term_importance.sort_values(by=['Importance'], ascending = False)
+\end{pycode}
+
+
+\begin{longtable}{@{}llll@{}}
+\caption{Importance of internal terms in Case 1.}\label{case-1-term-importance}\\
+\toprule
+\textbf{Term}            & \textbf{Importance} & \textbf{Term}                       & \textbf{Importance} \\* \midrule
+\endfirsthead
+%
+\multicolumn{4}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+\textbf{Term}            & \textbf{Importance} & \textbf{Term}                       & \textbf{Importance} \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+company         & 22         & matching expert            & 1          \\
+user            & 19         & task                       & 1          \\
+expert          & 16         & tail duration              & 1          \\
+product         & 15         & testimonial                & 1          \\
+company user    & 12         & timeline                   & 0          \\
+service         & 11         & proposal                   & 0          \\
+companyx        & 10         & rating                     & 0          \\
+account         & 6          & testimonial response       & 0          \\
+deal            & 4          & deal assistant             & 0          \\
+stakeholder     & 4          & checkpoint                 & 0          \\
+request         & 3          & product specification      & 0          \\
+lead            & 3          & anonymized matching expert & 0          \\
+target          & 3          & visitor                    & 0          \\
+project         & 3          & expert lead                & 0          \\
+business        & 3          & company lead               & 0          \\
+key expectation & 2          & user account               & 0          \\
+deal fee        & 2          & platform                   & 0          \\
+tail            & 2          & operations control center  & 0          \\
+goal            & 2          & retainer                   & 0          \\
+staff           & 1          &                            &            \\* \bottomrule
+\end{longtable}
+
+While the average number of incoming dependencies remains the same for the given internal dependencies network, the standard deviation is not the same as for outgoing dependencies. That is, internal sensitivity and internal importance of a given term are not the same. 
+
+Standard deviation over term importance is 5.8. However, we see from the internal importance table above, that the first seven terms there are more important than the rest.
+
+\subsection{What are the relative importance and relative sensitivity of a term?}
+\label{c7:s3:ss6}
+Internal importance and internal sensitivity ignore the size of the innovation language. Hence two more measure, called relative importance and relative sensitivity of a term T. They are computed by deviding each by the total number of terms. Table \ref{case-1-relative-importance-and-sensitivity} shows relative importance and sensitivity for internal terms in Case 1.
+
+\begin{pycode}
+idn_rel_impo_sens = {}
+idn_rel_impo_sens['Term'] = []
+idn_rel_impo_sens['Relative importance'] = []
+idn_rel_impo_sens['Relative sensitivity'] = []
+term_count = len(i_d_n.nodes())
+for n in i_d_n.nodes():
+    idn_rel_impo_sens['Term'].append(n)
+    idn_rel_impo_sens['Relative importance'].append(i_d_n.in_degree[n] / term_count) 
+    idn_rel_impo_sens['Relative sensitivity'].append(i_d_n.out_degree[n] / term_count)
+import pandas as pd
+idn_relative_term_importance = pd.DataFrame(idn_rel_impo_sens)
+idn_relative_term_importance.sort_values(by=['Relative importance'], ascending = False)
+import pandas as pd
+idn_relative_term_importance = pd.DataFrame(idn_rel_impo_sens)
+idn_relative_term_importance.sort_values(by=['Relative importance'], ascending = False)
+\end{pycode}
+
+
+\begin{longtable}{@{}lll@{}}
+\caption{Relative importance and sensitivity of internal terms in Case 1.}\label{case-1-relative-importance-and-sensitivity}\\
+\toprule
+\textbf{Term}                       & \textbf{Relative importance} & \textbf{Relative sensitivity} \\* \midrule
+\endfirsthead
+%
+\multicolumn{3}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+\textbf{Term}                       & \textbf{Relative importance} & \textbf{Relative sensitivity} \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+company                    & 0.564103            & 0.128205             \\
+user                       & 0.487179            & 0.051282             \\
+expert                     & 0.410256            & 0.076923             \\
+product                    & 0.384615            & 0.076923             \\
+company user               & 0.307692            & 0.076923             \\
+service                    & 0.282051            & 0.153846             \\
+companyx                   & 0.25641             & 0.025641             \\
+account                    & 0.153846            & 0.230769             \\
+deal                       & 0.102564            & 0.179487             \\
+stakeholder                & 0.102564            & 0.025641             \\
+request                    & 0.076923            & 0.128205             \\
+lead                       & 0.076923            & 0.102564             \\
+target                     & 0.076923            & 0.128205             \\
+project                    & 0.076923            & 0.230769             \\
+business                   & 0.076923            & 0.076923             \\
+key expectation            & 0.051282            & 0.128205             \\
+deal fee                   & 0.051282            & 0.102564             \\
+tail                       & 0.051282            & 0.153846             \\
+goal                       & 0.051282            & 0.102564             \\
+staff                      & 0.025641            & 0.076923             \\
+matching expert            & 0.025641            & 0.153846             \\
+task                       & 0.025641            & 0.051282             \\
+tail duration              & 0.025641            & 0.025641             \\
+testimonial                & 0.025641            & 0.025641             \\
+timeline                   & 0                   & 0.051282             \\
+proposal                   & 0                   & 0.051282             \\
+rating                     & 0                   & 0.025641             \\
+testimonial response       & 0                   & 0.025641             \\
+deal assistant             & 0                   & 0.153846             \\
+checkpoint                 & 0                   & 0.153846             \\
+product specification      & 0                   & 0.025641             \\
+anonymized matching expert & 0                   & 0.128205             \\
+visitor                    & 0                   & 0.076923             \\
+expert lead                & 0                   & 0.128205             \\
+company lead               & 0                   & 0.153846             \\
+user account               & 0                   & 0.051282             \\
+platform                   & 0                   & 0.025641             \\
+operations control center  & 0                   & 0.076923             \\
+retainer                   & 0                   & 0.128205             \\* \bottomrule
+\end{longtable}
+
+
+\subsection{How to use importance and sensitivity?}
+\label{c7:s3:ss7}
+What can we say by looking at a term's importance and sensitivity measures together? The two measures give us four cases:
+
+\begin{itemize}
+	\item Major insensitive term: T has high internal importance and low internal sensitivity. Many internal terms depend on it, but it is at the boundary of the innovation language, being itself defined mostly with terms which are not defined in the language.
+	\item Major sensitive term: T has high internal importance, many internal terms rely on its definition, and has high internal sensitivity, being itself defined via other internal terms.
+	\item Minor insensitive term: T is mentined in the definientia of few other internal terms, and has low internal sensitivity, being at the boundary of the innovation language.
+	\item Minor sensitive term: T has low internal importance, and is sensitive to the definientia of many other internal terms.
+There are no standard thresholds for distinguishing between 'high' and 'low' sensitivity or importance. You decide them, case by case, or you can adopt a rule such as above/below average, or over and under a certain number of standard deviations from the average.
+\end{itemize}
+
+Despite this difficulty, these four categories do have different implications when you are changing an innovation language.
+
+If a major term T's definition is changed, there are more terms to review for implications of these changes, at least all terms which internally depend on T. In addition, changes in a term's definition may require further changes: T's new definition may affect its sensitivity, and for all terms it is sensitive to, we need to check if the new definition does not require changing them too. Consequently, any changes to a major and sensitive term should be made while knowing that it may result in many other changes to the innovation language. In turn, we should look for strong evidence that such a change is necessary.
+
+Changing a minor and insensitive term involves the least risk that there will be changes throughout the innovation language.
+
+Importance and sensitivity signal the effort which we may have to invest, to adapt an innovation language to changes in a term's definition. The greater the term's importance and sensitivity, the more effort we should expect to invest, whent we change that term's definition.
+
+To assess importance and sensitivity, and other measures defined on an internal dependency network, we put them together in \verb|idn_measures| and show it as a table.
+
+\begin{pycode}
+idn_measures = pd.DataFrame(idn_term_sensitivity['Term'])
+idn_measures.insert(1, 'Importance', idn_term_importance['Importance'])
+idn_measures.insert(2, 'Relative importance', idn_rel_impo_sens['Relative importance'])
+idn_measures.insert(3, 'Sensitivity', idn_term_sensitivity['Sensitivity'])
+idn_measures.insert(4, 'Relative sensitivity', idn_rel_impo_sens['Relative sensitivity'])
+idn_measures.insert(5, 'Contribution to internal dependencies', idn_contributions['Contribution to internal dependencies'])
+idn_measures.sort_values(by=['Contribution to internal dependencies'], ascending = False)
+\end{pycode}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{lscape}
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{landscape}
+\begin{longtable}{@{}llllll@{}}
+\toprule
+Term                       & Importance & Relative importance & Sensitivity & Relative sensitivity & Contribution to internal dependencies \\* \midrule
+\endfirsthead
+%
+\multicolumn{6}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+Term                       & Importance & Relative importance & Sensitivity & Relative sensitivity & Contribution to internal dependencies \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+company                    & 22         & 0.564103            & 5           & 0.128205             & 0.183673                              \\
+user                       & 19         & 0.487179            & 2           & 0.051282             & 0.142857                              \\
+expert                     & 16         & 0.410256            & 3           & 0.076923             & 0.129252                              \\
+product                    & 15         & 0.384615            & 3           & 0.076923             & 0.122449                              \\
+service                    & 11         & 0.282051            & 6           & 0.153846             & 0.115646                              \\
+account                    & 6          & 0.153846            & 9           & 0.230769             & 0.102041                              \\
+company user               & 12         & 0.307692            & 3           & 0.076923             & 0.102041                              \\
+project                    & 3          & 0.076923            & 9           & 0.230769             & 0.081633                              \\
+deal                       & 4          & 0.102564            & 7           & 0.179487             & 0.07483                               \\
+companyx                   & 10         & 0.25641             & 1           & 0.025641             & 0.07483                               \\
+request                    & 3          & 0.076923            & 5           & 0.128205             & 0.054422                              \\
+target                     & 3          & 0.076923            & 5           & 0.128205             & 0.054422                              \\
+tail                       & 2          & 0.051282            & 6           & 0.153846             & 0.054422                              \\
+lead                       & 3          & 0.076923            & 4           & 0.102564             & 0.047619                              \\
+matching expert            & 1          & 0.025641            & 6           & 0.153846             & 0.047619                              \\
+key expectation            & 2          & 0.051282            & 5           & 0.128205             & 0.047619                              \\
+goal                       & 2          & 0.051282            & 4           & 0.102564             & 0.040816                              \\
+business                   & 3          & 0.076923            & 3           & 0.076923             & 0.040816                              \\
+checkpoint                 & 0          & 0                   & 6           & 0.153846             & 0.040816                              \\
+deal assistant             & 0          & 0                   & 6           & 0.153846             & 0.040816                              \\
+company lead               & 0          & 0                   & 6           & 0.153846             & 0.040816                              \\
+deal fee                   & 2          & 0.051282            & 4           & 0.102564             & 0.040816                              \\
+anonymized matching expert & 0          & 0                   & 5           & 0.128205             & 0.034014                              \\
+retainer                   & 0          & 0                   & 5           & 0.128205             & 0.034014                              \\
+stakeholder                & 4          & 0.102564            & 1           & 0.025641             & 0.034014                              \\
+expert lead                & 0          & 0                   & 5           & 0.128205             & 0.034014                              \\
+staff                      & 1          & 0.025641            & 3           & 0.076923             & 0.027211                              \\
+operations control center  & 0          & 0                   & 3           & 0.076923             & 0.020408                              \\
+task                       & 1          & 0.025641            & 2           & 0.051282             & 0.020408                              \\
+visitor                    & 0          & 0                   & 3           & 0.076923             & 0.020408                              \\
+user account               & 0          & 0                   & 2           & 0.051282             & 0.013605                              \\
+timeline                   & 0          & 0                   & 2           & 0.051282             & 0.013605                              \\
+proposal                   & 0          & 0                   & 2           & 0.051282             & 0.013605                              \\
+tail duration              & 1          & 0.025641            & 1           & 0.025641             & 0.013605                              \\
+testimonial                & 1          & 0.025641            & 1           & 0.025641             & 0.013605                              \\
+platform                   & 0          & 0                   & 1           & 0.025641             & 0.006803                              \\
+product specification      & 0          & 0                   & 1           & 0.025641             & 0.006803                              \\
+rating                     & 0          & 0                   & 1           & 0.025641             & 0.006803                              \\
+testimonial response       & 0          & 0                   & 1           & 0.025641             & 0.006803                              \\* \bottomrule
+\end{longtable}
+\end{landscape}
+
+
+
+\section{How to measure internal similarity?}
+\label{c7:s4}
+We used the internal dependency network to rank terms by internal importance and sensitivity. While this allowed us to say which term is more important or sensitive than another, we could not distinguish two terms which have similar internal importance and, or sensitivity values.
+
+Given two terms with similar importance (sensitivity), how are their importance (respectively, sensitivity) different?
+
+To answer this, we need a way to compare the importance (sensitvitiy) of any two terms in more details, than simply the number of internal dependencies we counted. To do this, we need similarity measures which take into account the specifics of the terms we counted in the internal dependency network, to get the importance and similarity values of each term.
+
+There are two internal dependency similarity measures, called co-sensitivity and co-importance.
+
+Given two internal terms T1 and T2, suppose that ST1 is the set of internal terms which T1 depends on, and ST2 is the set of terms that T2 depends on. Then, the bigger the intersection of ST1 and ST2, the higher the co-sensitivity of T1 and T2. This simply reflects that T1 and T2 share many of the internal terms that each of them depends on.
+
+Co-importance works in the same way, but over terms which depend on both T1 and T2. If IT1 is the set of all internal terms which depend on T1, and IT2 are all internal terms which depend on T2, then the bigger the intersection of IT1 and IT2, the higher the co-importance of T1 and T2. That is, same terms depend on both T1 and T2.
+
+%Given an innovation language, we start by importing the terms and their definitions.
+%
+%\begin{pycode}
+%import pandas as pd
+%il_dataset = pd.read_csv('il_case_1_dataset.csv', header=None, names = ['Terms', 'Definitions'])
+%
+%clean_terms = []
+%for i in il_dataset['Terms']:
+%    clean_terms.append(return_clean_string(i))
+%    
+%clean_definitions = []
+%for i in il_dataset['Definitions']:
+%    clean_definitions.append(return_clean_string(i))
+%\end{pycode}
+%
+%We add clean terms and definitions to the imported data, which gives us \verb|il_dataset| with both the original and the cleaned up data.
+%
+%\begin{pycode}
+%il_dataset.insert(2, 'Clean terms', clean_terms)
+%il_dataset.insert(3, 'Clean definitions', clean_definitions)
+%\end{pycode}
+%
+%Next, we go through the cleaned up data to identify all internal dependencies.
+%
+%\begin{pycode}
+%term_count = len(il_dataset['Terms'])
+%internal_dependencies = {}
+%d = 0
+%for i in range(0, term_count): 
+%    for j in range(0, term_count):
+%        if i != j and il_dataset['Clean terms'][j] in il_dataset['Clean definitions'][i]:
+%            internal_dependencies[d] = {
+%                'from': il_dataset['Clean terms'][i], 'to': il_dataset['Clean terms'][j]
+%            }
+%            d = d + 1
+%\end{pycode}
+%
+%We can now create the internal dependency network from the internal dependencies identified above.
+%
+%\begin{pycode}
+%import networkx as nx
+%idn = nx.MultiDiGraph()
+%for i in internal_dependencies:
+%    idn.add_edge(internal_dependencies[i]['from'], internal_dependencies[i]['to'])
+%\end{pycode}
+
+\subsection{How to compute co-sensitivity?}
+\label{c7:s4:ss1}
+Co-sensitivity of two terms increases with the increase in the number of same terms that both are sensitive to.
+
+To compute co-sensitivity for all pairs of terms in an innovation language, we start by making the internal dependency network \verb|i_d_n| from data in Case 1 (same as we did in Section \ref{c7:s3}). We then find, for each term T, the set of internal terms T depends on. We put this in the dictionary \verb|term_sensitive_to|, where the item for a term T holds a list of terms that T internally depends on.
+
+\begin{pycode}
+term_sensitive_to = {}
+for t in i_d_n.nodes():
+    term_sensitive_to[t] = []
+    for o, d in i_d_n.edges():
+        if o == t:
+            term_sensitive_to[t].append(d)
+\end{pycode}
+
+We then go through all pairs of terms, and record in \verb|co_sensitivity| all those shared by each pair.
+
+\begin{pycode}
+co_sensitivity = {}
+for t1 in term_sensitive_to:
+    for t2 in term_sensitive_to:
+        co_sensitivity[(t1, t2)] = []
+        if t1 != t2:
+            for t3 in term_sensitive_to[t1]:
+                if t3 in term_sensitive_to[t2]:
+                    co_sensitivity[(t1, t2)].append(t3)
+\end{pycode}
+
+Next, we simply compute, for each pair, the number of terms they are both sensitive to, and display this in a matrix. The matrix highlights maximal values for a given term. The entire matrix is too large to show here, but Table \ref{case-1-co-sensitivity-matrix} shows a part of it.
+
+\begin{pycode}
+co_sensitivity_counts = pd.DataFrame(columns=i_d_n.nodes(), index=i_d_n.nodes())
+for c in i_d_n.nodes():
+    for r in i_d_n.nodes():
+        co_sensitivity_counts[c][r] = len(co_sensitivity[(c,r)])
+co_sensitivity_counts
+\end{pycode}
+
+
+\begin{longtable}{lllllllll}
+\caption{Part of the co-sensitivity matrix for internal terms in Case 1.}\label{case-1-co-sensitivity-matrix}\\
+             & companyx & product & stakeholder & company & platform & operations... & user & ... \\
+\endfirsthead
+%
+\multicolumn{9}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+             & companyx & product & stakeholder & company & platform & operations... & user & ... \\
+\endhead
+%
+companyx      & 0        & 0       & 1           & 1       & 1        & 1             & 1    & ... \\
+product       & 0        & 0       & 0           & 0       & 0        & 0             & 1    & ... \\
+stakeholder   & 1        & 0       & 0           & 1       & 1        & 1             & 1    & ... \\
+company       & 1        & 0       & 1           & 0       & 1        & 2             & 1    & ... \\
+platform      & 1        & 0       & 1           & 1       & 0        & 1             & 1    & ... \\
+operations... & 1        & 0       & 1           & 2       & 1        & 0             & 1    & ... \\
+user          & 1        & 1       & 1           & 1       & 1        & 1             & 0    & ... \\
+...           & ...      & ...     & ...         & ...     & ...      & ...           & ...  & ...
+\end{longtable}
+
+
+\subsection{How to compute co-importance?}
+\label{c7:s4:ss2}
+Coimportance is high for a pair of terms, T1 and T2, if many same terms depend on both T1 and T2. We compute it as follows. The first step is to identify, for each term T, all terms which depend on T, and keep this in \verb|term_used_by|.
+
+\begin{pycode}
+term_used_by = {}
+for t in i_d_n.nodes():
+    term_used_by[t] = []
+    for o, d in i_d_n.edges():
+        if d == t:
+            term_used_by[t].append(o)
+\end{pycode}
+
+The second step is to go through all pairs of terms, and for each record the list of terms that depend on both terms in that pair.
+
+\begin{pycode}
+co_importance = {}
+for t1 in term_used_by:
+    for t2 in term_used_by:
+        co_importance[(t1, t2)] = []
+        if t1 != t2:
+            for t3 in term_used_by[t1]:
+                if t3 in term_used_by[t2]:
+                    co_importance[(t1, t2)].append(t3)
+\end{pycode}
+
+Finally, we make a matrix where, for each pair, we have the number of terms which depend on both members of that pair. The matrix highlights maximal values for a given term.
+
+\begin{pycode}
+co_importance_counts = pd.DataFrame(columns=i_d_n.nodes(), index=i_d_n.nodes())
+for c in i_d_n.nodes():
+    for r in i_d_n.nodes():
+        co_importance_counts[c][r] = len(co_importance[(c,r)])
+\end{pycode}
+
+
+
+\begin{longtable}{lllllllll}
+\caption{Part of the co-importance matrix for internal terms in Case 1.}\label{case-1-co-importance}\\
+x & companyx & product & stakeholder & company & platform & operations... & user & ... \\ 
+\endfirsthead
+%
+\multicolumn{9}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\hline
+x & companyx & product & stakeholder & company & platform & operations... & user & ... \\ \hline
+\endhead
+%
+\hline
+\endfoot
+%
+\endlastfoot
+%
+companyx & 0 & 1 & 1 & 10 & 0 & 0 & 5 & ... \\
+product & 1 & 0 & 3 & 6 & 0 & 0 & 9 & ... \\
+stakeholder & 1 & 3 & 0 & 2 & 0 & 0 & 1 & ... \\
+company & 10 & 6 & 2 & 0 & 0 & 0 & 14 & ... \\
+platform & 0 & 0 & 0 & 0 & 0 & 0 & 0 & ... \\
+operations... & 0 & 0 & 0 & 0 & 0 & 0 & 0 & ... \\
+user & 5 & 9 & 1 & 14 & 0 & 0 & 0 & ... \\
+... & ... & ... & ... & ... & ... & ... & ... & ... \\ 
+\end{longtable}
+
+
+\subsection{What are co-sensitivity and co-importance used for?}
+\label{c7:s4:ss3}
+The two kinds of similarity defined above give you an indication of which terms to look into for potential changes, if you change a specific term.
+
+Say that you change a term T, and it has high co-importance or co-sensitivity with two other terms T1 and T2. Since they are similar in importance and/or sensitivity, their definitions use similar internal terms, and are used in similar other internal terms. While this is hardly enough to say that T1 and T2 have similar meaning as T, they share internal dependencies, and so if we change T, we should review if these changes have an impact on definitions of T1 and T2.
+
+In short, co-importance and co-sensitivity provide us with signals on how changes to a term may need to be propagated through the innovation language.
+
+In practice, since there are many pairs of terms to consider, it is likely that we want to know the top pairs by co-sensitivity or co-importance.
+
+For co-sensitivity, we make a new dictionary which now holds only pairs which have non-null co-sensitivity. In addition, since similarity of two terms has no direction, if T1 and T2 have co-sensitivity of X, we only record the pair (T1,T2), not (T2,T1).
+
+\begin{pycode}
+co_sensitivity_ranking = {}
+co_sensitivity_ranking['Term pairs'] = []
+co_sensitivity_ranking['Sensitivity similarity'] = []
+added_pairs = []
+for t1 in idn.nodes():
+    for t2 in idn.nodes():
+        if co_sensitivity_counts[t1][t2] > 0 and (t1,t2) not in added_pairs:
+                co_sensitivity_ranking['Term pairs'].append((t1,t2))
+                added_pairs.append((t1,t2))
+                added_pairs.append((t2,t1))
+                co_sensitivity_ranking['Sensitivity similarity'].append(co_sensitivity_counts[t1][t2])
+\end{pycode}
+
+Let's say we define a minimal co-sensitivity we are interested in, as one standard deviation above the mean sensitivity similarity over the pairs which have non-null values.
+
+\begin{pycode}
+print(stat.mean(co_sensitivity_ranking['Sensitivity similarity']))
+print(stat.stdev(co_sensitivity_ranking['Sensitivity similarity']))
+\end{pycode}
+
+\begin{lstlisting}[breaklines]
+1.9111617312072893
+1.0995384124070609
+\end{lstlisting}
+
+Given the above, we can look only at pairs with co-sensitivity of 3 and more. As there are many of these to list here, Table \ref{case-1-sensitivity-similarity} shows the top 20 pairs.
+
+\begin{pycode}
+co_sensitivity_ranking_df = pd.DataFrame(sensitivity_similarity_ranking)
+sensitivity_similarity_ranking_df.sort_values(by=['Sensitivity similarity'], ascending = False)[:20]
+\end{pycode}
+
+
+\begin{longtable}{@{}ll@{}}
+\caption{Twenty internal terms in Case 1 with highest sensitivity similarity.}\label{case-1-sensitivity-similarity}\\
+\toprule
+\textbf{Term pairs}                                     & \textbf{Sensitivity similarity} \\* \midrule
+\endfirsthead
+%
+\multicolumn{2}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+\textbf{Term pairs}                                     & \textbf{Sensitivity similarity} \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+( deal assistant, checkpoint)                  & 6                      \\
+( deal assistant, retainer)                    & 5                      \\
+( project, deal)                               & 5                      \\
+( service, checkpoint)                         & 5                      \\
+( checkpoint, retainer)                        & 5                      \\
+( target, account)                             & 5                      \\
+( service, target)                             & 5                      \\
+( matching expert, checkpoint)                 & 5                      \\
+( service, account)                            & 5                      \\
+( service, matching expert)                    & 5                      \\
+( service, deal assistant)                     & 5                      \\
+( matching expert, deal assistant)             & 5                      \\
+( account, project)                            & 5                      \\
+( request, target)                             & 4                      \\
+( key expectation, checkpoint)                 & 4                      \\
+( request, account)                            & 4                      \\
+( company, matching expert)                    & 4                      \\
+( matching expert, retainer)                   & 4                      \\
+( matching expert, anonymized matching expert) & 4                      \\
+( goal, checkpoint)                            & 4                      \\* \bottomrule
+\end{longtable}
+
+We now do the same for co-importance, in the same way with obvious changes in computations. Table \ref{case-1-co-importance} shows twenty terms in Case 1 with highest co-importance.
+
+\begin{pycode}
+co_importance_ranking = {}
+co_importance_ranking['Term pairs'] = []
+co_importance_ranking['Importance similarity'] = []
+added_pairs = []
+for t1 in i_d_n.nodes():
+    for t2 in i_d_n.nodes():
+        if co_importance_counts[t1][t2] > 0 and (t1,t2) not in added_pairs:
+                co_importance_ranking['Term pairs'].append((t1,t2))
+                added_pairs.append((t1,t2))
+                added_pairs.append((t2,t1))
+                co_importance_ranking['Importance similarity'].append(co_importance_counts[t1][t2])
+print(stat.mean(co_importance_ranking['Importance similarity']))
+print(stat.stdev(co_importance_ranking['Importance similarity']))
+\end{pycode}
+
+\begin{lstlisting}[breaklines]
+2.475
+2.681911083317926
+\end{lstlisting}
+
+\begin{pycode}
+cutoff_co_importance_ranking = {}
+cutoff_co_importance_ranking['Term pairs'] = []
+cutoff_co_importance_ranking['Importance similarity'] = []
+for i in range(0, len(co_importance_ranking['Importance similarity'])):
+    if co_importance_ranking['Importance similarity'][i] > 4:
+            cutoff_co_importance_ranking['Term pairs'].append(co_importance_ranking['Term pairs'][i])
+            cutoff_co_importance_ranking['Importance similarity'].append(co_importance_ranking['Importance similarity'][i]) 
+cutoff_co_importance_ranking = pd.DataFrame(cutoff_co_importance_ranking)
+cutoff_co_importance_ranking.sort_values(by=['Importance similarity'], ascending = False)  
+\end{pycode}
+
+
+\begin{longtable}{@{}lll@{}}
+\caption{Twenty internal terms in Case 1 with highest importance similarity.}\label{case-1-co-importance}\\
+\toprule
+Term pairs               & Importance similarity \\* \midrule
+\endfirsthead
+%
+\multicolumn{2}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+Term pairs               & Importance similarity \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+( company, expert)       & 14                    \\
+( company, user)         & 14                    \\
+( user, company user)    & 12                    \\
+( company, company user) & 11                    \\
+( companyx, company)     & 10                    \\
+( expert, company user)  & 9                     \\
+( product, user)         & 9                     \\
+( user, expert)          & 9                     \\
+( company, service)      & 7                     \\
+( user, service)         & 6                     \\
+( product, company)      & 6                     \\
+( expert, service)       & 6                     \\
+( companyx, user)        & 5                     \\
+( product, company user) & 5                     \\
+( company, account)      & 5                     \\
+( product, expert)       & 5                     \\
+( companyx, expert)      & 5                     \\
+( service, company user) & 5                     \\* \bottomrule
+\end{longtable}
+
+
+\section{Indirect internal dependency}
+\label{c7:s5}
+All measures defined so far on an internal dependency network were based only on direct dependencies. If a term T was represented by a node N, then all measures on that term took into account only the edges that this node is in - those where N is either the origin or the destination.
+
+The aim now is to see what we can learn from looking at indirect internal dependencies of a term. The overall question is: If T depends on T1, and T1 depends on T2, then what does this tell us about T?
+
+\subsection{What to learn from cycles of internal dependencies?}
+\label{c7:s5:ss1}
+A simple cycle is a path which starts and ends in the same node, and where no nodes show up more than once.
+
+Suppose that there is a simple cycle in an internal dependency network of an innovation language. Let that cycle be term T1 to T2 to T3 and back to T1. This tells us that T1's definition mentions T2, T2's mentions T3's, and T3's mentions T1.
+
+A cycle over two terms, where T1 depends on T2 and T2 on T1, may seem like an error: T1 is defined using T2, and T2 using T1. But this may be a result of necessity, rather than error. It indicates that the meaning intended for T1 and T2 is closely related, i.e., that you cannot understand one without the other, and therefore, that changing one is likely to require changes to the other.
+
+To illustrate, I identify below all simple cycles in the internal dependency network. The first step is to have the internal dependency network.
+
+\begin{pycode}
+import internal_dependency_network_functions as idnf
+idn = idnf.make_idn('il_case_1_dataset.csv')
+\end{pycode}
+
+The following function takes the internal dependency network, identifies all simple cycles, and returns a table where in each row, there is a simple cycle (specifically, the nodes of the internal dependency network which make that simple cycle), and the size of the cycle, i.e., the number of nodes in it.
+
+\begin{pycode}
+def get_all_simple_cycles_in_idn(idn):
+    import pandas as pd
+    import networkx as nx
+    idn_sc = nx.simple_cycles(idn)
+    idn_simple_cycles = {}
+    idn_simple_cycles['Simple cycles'] = []
+    idn_simple_cycles['Cycle size'] = []
+    for c in idn_sc:
+        idn_simple_cycles['Simple cycles'].append(c)
+        idn_simple_cycles['Cycle size'].append(len(c))
+    idn_simple_cycles_df = pd.DataFrame(idn_simple_cycles)
+    return idn_simple_cycles_df
+\end{pycode}
+
+Call this function to return all simple cycles and their sizes, and show all cycles with 2 nodes only.
+
+\begin{pycode}
+idn_sc = get_all_simple_cycles_in_idn(idn)
+idn_sc.where(idn_sc['Cycle size'] == 2).dropna()
+\end{pycode}
+
+Below 
+are the definitions of deal fee and deal:
+
+Deal Fee: Fee that a Company pays to CompanyX for a completed Deal on CompanyX. Deal Fee includes:
+CompanyX Deal Fee, kept by CompanyX;
+Expert Deal Fee, that CompanyX pays to the Expert.
+Deal: A Service which CAN ONLY be done between a Company and an Expert which the Company had initiated and/or completed at least one Project, AND in which:
+Company’s Key Expectation is to have the Expert convert an Account into a Deal;
+Expert’s Key Expectation is to receive Expert Deal Fee for converting an Account into a Deal for the Company.
+The definitions show that the cycle is not an error. Try to remove the term deal from the definition of deal fee, or to remove deal from deal fee's definition. This can be done, of course, but breaking the relationship of these two does not improve either of them. If deal fee is defined without reference to the deal, it is not clear what the fee compensates, and so deal fee would have to be redefined to pertain to another type of service. If deal fee is removed from deal, then expert's key expectation needs to be changed to say what else the expert expects from the transaction.
+
+
+
+% Chapter bibliography
+\printbibliography

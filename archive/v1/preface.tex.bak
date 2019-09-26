@@ -1,0 +1,39 @@
+%%%%%%%%%%%%%%%%%%%%%%preface.tex%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% sample preface
+%
+% Use this file as a template for your own input.
+%
+%%%%%%%%%%%%%%%%%%%%%%%% Springer %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\preface
+
+%% Please write your preface here
+This book is motivated by a simple observation: when people innovate, they create new words and phrases to talk about new ideas and things that they are creating. They create their innovation language as a tool for communication and coordination. This makes an innovation language a key artifact of an innovation process. It is a reflection of people's intentions, assumptions, and knowledge about the new ideas and things they work on, and relationships with the old, telling us what is and is not new in the outcomes of innovation processes. 
+
+However, innovation languages remain informal and undocumented, and are not subject to rigorous analysis, design and improvement. This creates substantial risks for innovation-driven businesses, whose future growth relies on generating and preserving intellectual property. 
+
+Over the past six years, I have been leading and participating in high-risk innovation processes, in software product startups based in USA, UK, Denmark, Belgium, Israel, and Serbia, where we systematically recorded, documented, designed, and improved innovation languages, used them with everyone involved - investors, lawyers, product designers, product managers, software architects, software engineers, and non-technical staff - in all aspects of business, from corporate strategy and finance, marketing and sales, production, business operations, research and development, delivery, maintenance. Benefits went beyond facilitated communication and teamwork, for local and remote team members. The innovation language became a core asset for preserving, analyzing, improving, and documenting intellectual property, spanning business documentation, requirements and software specifications, marketing and sales material, as well as serving legal professionals who assisted the assessment and protection of intellectual property.
+
+This book has three parts. The first part motivates the need for documenting, analyzing, and improving innovation languages, introduces key concepts needed to do so, shows samples of actual innovation languages, and discusses how and why these languages evolved. The second part of the book shows how innovation languages can be measured, and how measuring them guides their analysis and improvement; this part includes a step-by-step tutorial, on an actual innovation language, with Python code. The third part of the book focuses on the hard problem of evaluating the credibility in an innovation language, which is critical for its adoption and use throughout the lifecycle of the intellectual property it is made to support.
+
+
+
+%This book is motivated by a simple observation: when people do innovation, they create new words and phrases to talk about new ideas and things that they are creating. They create their innovation language for two reasons at least; one, it is a tool for communication, and therefore is critical for their coordination, and in turn, it must influence how innovation processes unfold; two, it reflects these people's intentions, assumptions, and knowledge about the new ideas and things they work on, and relationships with old ideas and things, telling us about what is, and is not new in the outcomes of innovation. The book develops the notion of innovation language and proposes a practical approach to how to specify and analyze an innovation language. The proposal is illustrated with several case studies from actual innovation projects in industry; `and analyses are implemented in Python, with the source code included and commented.
+
+
+%Use the template \emph{preface.tex} together with the document class SVMono (monograph-type books) or SVMult (edited books) to style your preface.
+%
+%A preface\index{preface} is a book's preliminary statement, usually written by the \textit{author or editor} of a work, which states its origin, scope, purpose, plan, and intended audience, and which sometimes includes afterthoughts and acknowledgments of assistance. 
+%
+%When written by a person other than the author, it is called a foreword. The preface or foreword is distinct from the introduction, which deals with the subject of the work.
+%
+%Customarily \textit{acknowledgments} are included as last part of the preface.
+ 
+
+\vspace{\baselineskip}
+\begin{flushright}\noindent
+Belgrade, Copenhagen, London, Namur, New York City, Vancouver, Whistler\hfill {\it Ivan  Jureta}\\
+May 2019\hfill {\it }\\
+\end{flushright}
+
+

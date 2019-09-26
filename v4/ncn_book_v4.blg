@@ -1,0 +1,15 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'ncn_book_v4.blg'
+[43] biber-darwin:315> INFO - === Thu Sep 26, 2019, 23:16:33
+[65] Biber.pm:371> INFO - Reading 'ncn_book_v4.bcf'
+[152] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[152] Biber.pm:889> INFO - Found 0 citekeys in bib section 1
+[152] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[152] Biber.pm:889> INFO - Found 0 citekeys in bib section 2
+[152] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[153] Biber.pm:889> INFO - Found 17 citekeys in bib section 3
+[153] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[182] Biber.pm:4093> INFO - Processing section 3
+[192] Biber.pm:4254> INFO - Looking for bibtex format file 'ilang-bib.bib' for section 3
+[363] Utils.pm:209> ERROR - Cannot find 'ilang-bib.bib'!
+[363] Biber.pm:114> INFO - ERRORS: 1

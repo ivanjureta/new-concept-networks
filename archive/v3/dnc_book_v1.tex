@@ -1,0 +1,568 @@
+\documentclass[graybox,envcountchap,sectrefs]{svmono}
+
+% choose options for [] as required from the list
+% in the Reference Guide
+
+%\usepackage{mathptmx}
+%\usepackage{helvet}
+%\usepackage{courier}
+%
+\usepackage{type1cm}         
+
+\usepackage{makeidx}         % allows index generation
+\usepackage{graphicx}        % standard LaTeX graphics tool
+                             % when including figure files
+\usepackage{multicol}        % used for the two-column index
+\usepackage[bottom]{footmisc}% places footnotes at page bottom
+
+\usepackage{newtxtext}       % 
+\usepackage{newtxmath}       % selects Times Roman as basic font
+
+% additional, on top of Springer's default packages
+\usepackage{microtype}
+\usepackage{hyphenat}
+\usepackage{hyperref}
+\usepackage{url}
+%\usepackage{minted} % source code formatting
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{lscape}
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+}
+% 
+\usepackage[refsection=chapter]{biblatex}
+\addbibresource{ilang-bib.bib}
+
+
+% see the list of further useful packages
+% in the Reference Guide
+
+\makeindex             % used for the subject index
+                       % please use the style svind.ist with
+                       % your makeindex program
+
+% custom commands and environments
+\newenvironment{pycode}{\VerbatimEnvironment\begin{minted}[linenos,tabsize=2,breaklines]{python}}{\end{minted}}
+\newcommand{\ncn}{NCN}
+\newcommand{\ncnf}{New Concept Network}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%% TITLE PAGE
+\author{Ivan Jureta}
+\title{\ncnf s}
+\subtitle{How to Rapidly Evolve New Ideas during Innovation}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% FRONT MATTER
+\frontmatter
+
+%% DEDICATION
+%\include{dedication}
+\begin{dedication}
+For Khione, who lead me to appreciate paradoxes.
+\end{dedication}
+
+%% FOREWORD - EMPTY
+%\include{foreword}
+
+%% PREFACE - EMPTY
+%\include{preface}
+\preface
+Innovation stands for various actions we take to create something new and useful. To prove novelty, we have to explain how the outcomes of all that effort -- the invention -- relates, and specifically differs, from all that's already available, so-called prior art. To prove usefullness, we have to produce evidence that it is being used by our target audience. 
+
+To show \textit{both} novelty and usefulness, we have to define the invention. Its definition, as long as it precisely, accurately, and clearly identifies its properties, will help us identify comparable ideas, artifacts, products, services, and from there let us build an explanation of novelty. The invention's definition is crucial to generating evidence for (and against) usefulness: to build, deliver, and see if and how it is used, we must define it. 
+
+How and when do you make a definition of an invention? A patent specification, an integral part of a patent application, is an example of an exhaustive definition of the invention. However, a patent specification is made after the ideas around the invention are stable, when the inventors are ready to submit a patent application. That moment is only the end of an innovation process, during which inventors came up with new ideas, researched prior art, prototyped (parts of) the invention to try it out with a sample of their target audience, collected feedback, changed their ideas, and performed many such iterations over and over, to build confidence that the invention will in fact become an innovation, once it goes to market. 
+
+This book starts from a simple observation: during innovation, inventors have to describe new ideas in order to communicate about them, and they have to do this well before these ideas are stable enough to justify the effort of producing their exhaustive specifications, or detailed and structured definitions. These descriptions are necessary for coordination -- how else can we agree on what to prototype, make, deliver, and get feedback on?
+
+If innovators have to produce descriptions of their new ideas throughout their innovation process, because they have to communicate and coordinate with others about them, and if we eventually want to have an exhaustive definition, or specification of the invention when ideas on it are mature enough, then we should consider the following question.
+
+What if we wanted to have precise, accurate, and clear definitions of invention during the innovation process, from its earliest moments, and not only at its end? 
+
+This question motivated my efforts when working with inventors over the past ten years, and eventually led to this book. I wanted to understand if producing precise, accurate and clear definitions throughout innovationimpedes innovation, or if it can be done in a way which is helpful. 
+
+It is non-controversial to say that we want to innovate faster rather than slower. We want to rapidly go from early new ideas to more mature new ideas, since the faster we go to market, the earlier we will see the invention in all its glory (or see it fail). But first new ideas are rarely the same as last new ideas an innovation process: an innovation process will rarely stabilize the earliest new ideas; instead, there will be disagreement about the new ideas, learning about what works and what doesn't, ideas will be confronted with the behavior and expectations of a sample target audience. Innovation can involve many iterations, during which new ideas will give place to newer ones, that is, the invention itself will be changing. 
+
+If change is the constant of innovation, then why invest an additional effort into producing precise, accurate, and clear definitions of ideas which we know will change, and can change very quickly? Why not go through the chaos of innovation with low quality descriptions, and wait for there to be enough confidence to be bothered with precision, accuracy, and clarity of the invention's definition?
+
+I argue in this book that we should invest effort to produce precise, accurate, and clear definitions of new ideas during innovation, even if we reject them immediately after producing such defintions. In other words, I argue that innovation processes should embrace the paradox of wanting to be precise, accurate, and clear about unstable ideas. 
+
+The reason to embrace the paradox turns out to be simple. During innovation, new ideas change through confrontation: innovators confront each other on how to change the invention to improve it, they confront the realities of the environment in which the invention is expected to be used, they confront expectations and existing behaviors of their target audience, and so on. In absence of confrontation, why change the earliest new ideas? Why have them in the first place? If confrontation is central to progress through new ideas in an innovation process, and if we want faster innovation, then we should generate confrontations more more rapidly. This is where definition comes in: if one is imprecise, vague, ambiguous about one's new ideas, then it is harder to find what to confront them on. Instead, if one is precise, accurate, and clear, then it is easier for others to identify what they disagree with. In other words, being precise, accurate and clear about new ideas in innovation, is an open invitation for disagreement, one which is easier to accept and act on for others. 
+
+Over the past ten years, I have been leading and participating in innovation processes in companies in USA, UK, Denmark, Belgium, and Israel, where we invented new software products and services, and eventually helped build new organizations around them. We dedicated substantial effort to make precise, accurate, and clear definitions of new ideas from the very start of each innovation process, when new ideas were changing daily. 
+
+These definitions were related, as each used terms from others. Definitions and their relationships formed what I call ''\ncnf'' in this book; as we will see, this is neither a terminology, nor an ontology, but can be a precursor to either. 
+
+We recorded, documented, designed, and improved an \ncn\ in each innovation process. They were available to everyone involved: inventors, investors, lawyers, product designers, product managers, software architects, software engineers, and non-technical staff. It was relevant in all topics, from corporate strategy and finance, marketing and sales, production, business operations, research and development, delivery, maintenance. Benefits went beyond facilitated communication and teamwork, for local and remote team members. The NDN became a core asset for preserving, analyzing, improving, and documenting intellectual property, spanning business documentation, requirements and software specifications, marketing and sales material, as well as serving legal professionals who assisted the assessment and protection of intellectual property.
+
+The book has three parts.
+\begin{itemize}
+  \item Part \ref{pt-1} is a tutorial on how to make an \ncn. I look back on five actual \ncn s made between 2010 and 2019, mention new ideas that they were trying to define, and show how and why each \ncn\ evolved. I close this part by outlining a general approach to creating and evolving an \ncn.
+  \item Part \ref{pt-2} outlines my rationale for proposing \ncn s, and how \ncn s build on and differ from established work on definition in philosophy, terminology in lingistics, ontology and formal specification in computer science.
+  \item Part \ref{pt-3} deals with the practical problem of making and using \ncn s which include dozens of definitions. Using basic natural language processing techniques, we can define various measures on an \ncn, and use measurements as indicators to change individual definitions, or the structure of the \ncn. 
+\end{itemize}
+
+
+
+% This book is motivated by a simple observation: when people innovate, they create new words and phrases to talk about new ideas and things that they are creating. They create their innovation language as a tool for communication and coordination. This makes an innovation language a key artifact of an innovation process. It is a reflection of people's intentions, assumptions, and knowledge about the new ideas and things they work on, and relationships with the old, telling us what is and is not new in the outcomes of innovation processes. 
+
+% However, innovation languages remain informal and undocumented, and are not subject to rigorous analysis, design and improvement. This creates substantial risks for innovation-driven businesses, whose future growth relies on generating and preserving intellectual property. 
+
+% This book has three parts. The first part motivates the need for documenting, analyzing, and improving innovation languages, introduces key concepts needed to do so, shows samples of actual innovation languages, and discusses how and why these languages evolved. The second part of the book shows how innovation languages can be measured, and how measuring them guides their analysis and improvement; this part includes a step-by-step tutorial, on an actual innovation language, with Python code. The third part of the book focuses on the hard problem of evaluating the credibility in an innovation language, which is critical for its adoption and use throughout the lifecycle of the intellectual property it is made to support.
+
+% This book is motivated by a simple observation: when people do innovation, they create new words and phrases to talk about new ideas and things that they are creating. They create their innovation language for two reasons at least; one, it is a tool for communication, and therefore is critical for their coordination, and in turn, it must influence how innovation processes unfold; two, it reflects these people's intentions, assumptions, and knowledge about the new ideas and things they work on, and relationships with old ideas and things, telling us about what is, and is not new in the outcomes of innovation. The book develops the notion of innovation language and proposes a practical approach to how to specify and analyze an innovation language. The proposal is illustrated with several case studies from actual innovation projects in industry; `and analyses are implemented in Python, with the source code included and commented.
+
+
+%Use the template \emph{preface.tex} together with the document class SVMono (monograph-type books) or SVMult (edited books) to style your preface.
+%
+%A preface\index{preface} is a book's preliminary statement, usually written by the \textit{author or editor} of a work, which states its origin, scope, purpose, plan, and intended audience, and which sometimes includes afterthoughts and acknowledgments of assistance. 
+%
+%When written by a person other than the author, it is called a foreword. The preface or foreword is distinct from the introduction, which deals with the subject of the work.
+%
+%Customarily \textit{acknowledgments} are included as last part of the preface.
+ 
+
+\vspace{\baselineskip}
+\begin{flushright}\noindent
+\hfill {\it Ivan  Jureta}\\
+September 2019\hfill {\it }\\
+\end{flushright}
+
+
+
+
+
+%% ACKNOWLEDGMENT - EMPTY
+%\include{acknowledgement}
+
+%% TABLE OF CONTENTS
+\tableofcontents
+
+%% ACRONYMS - EMPTY
+%\include{acronym}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% MAIN MATTER
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PART I 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{partbacktext}
+\part{Design of \ncnf s}
+\label{pt-1}
+\end{partbacktext}
+
+\chapter{Appreciating Disagreement over New Ideas}
+\label{c:introduction}
+%\chaptermark{}
+
+%\abstract{}
+
+\section{Loads or Shipments? Truckload or LTL?}
+%\label{}
+''Why is it a problem to have stops? Stops are common. We should be able to add them to a live load.'' He was insisting.
+ 
+This made no sense to me.
+ 
+''You mean a shipment, right? The load becomes a shipment once matched.'' I waited for his confirmation. It wasn't happening.
+
+This got me thinking about what it means to add stops for loads too. What was this about live loads? We'd have to change how matching algorithms work. This already took months to research, design, redesign, and have everyone align on. My next meeting with design, engineering, and quality teams will not go well. I can't keep revising the short-term roadmap, nothing will get done.
+ 
+''That's what I meant. Was it truckload only? We did say LTL too?'' He was one of the founders, and an important investor.
+
+''No. We said truckload, and we agreed at the time that this was full truckload only. LTL is a different business altogether. You know it. You built a business in FTL before, and I don't think you did LTL. Different customer needs, suppliers, service, technology. We'd have to do new research. Do you want to wait for another year? Differentiators are different. Everything is different.'' I was Head of Product at the time, which meant that I was responsible for aligning everyone on what the product \textit{is}, what it \textit{could be}, and getting everyone to agree what it \textit{should} be. In this venture, the initial ideas came from investors, what one might call a ''product vision''. It was also on me to make sure the product satisfies everyone, from customers to engineers who make, release, maintain, and improve it. 
+
+''Can we stick to truckload only for now? We know it’s a big opportunity, we're early, and it's complicated enough.'' I hoped this would stop him, or at least postpone this.
+
+He was silent. I continued. ''So, there's no such thing as 'live load'. I know someone may be calling freight that's moveing a 'live load', but we aren't. Remember, the load is what the customer asks us to move, and it stays a load until it's matched to a carrier; at that point, it becomes a shipment. Loads and shipments are described in a different way, the information about the load is only some of the information we then need to have and keep a record of, about a shipment.'' 
+
+It might have been the tenth or 20th time we had essentially the same issue; I lost count. It wasn't specific to the two of us. We had been working together for a while. There were no bad intentions. It was happening frequently and in our other teams. It was in conversations, brainstorming, planning. What we used to communicate didn't make much difference -- emails, chats, remote or live meetings. It was faster to resolve in live meetings, but that lasted only until the end of the meeting, or at most until the next one.
+
+\section{Unpacking Disagreement}
+\label{s:unpacking-disagreement}
+At some times, we used the same names for different new ideas, and at others, we used different names for similar new ideas. We disagreed frequently. Even when we might have agreed quickly, we couldn't. If the same words stand for different ideas, and if these ideas are new (and therefore, do not come with an established definition), you are never sure if you agree or not. 
+
+Disagreements we had over ''load'', ''shipment'', ''truckload'' and ''LTL'' were an insignificantly small sample of confrontations we had over four years when I was involved in the logistics venture. Innovation there was never-ending. As our customers changed their minds about what worked best for them, as we acquired new customers with new expectations conventions, constraints, practices, we kept coming up with new ideas internally for how to change our organization, products, services, systems, in response.
+
+In such an environment, it is more useful to develop an appreciation for disagreement, than to prefer stability. This is not only to accept it as a frequent phenomenon, but also to learn to analyze it, so you can then better decide how to address it. 
+
+Part of the problem with ''load'' and ''shipment'' was that we used same words for different new ideas. The cure for polysemy is obvious if we could pick one of a few available definitions for ''load'' and ''shipment'': we should review available ones and agree on one for each word. 
+
+Disagreement over new concepts is more subtle, of course, for three reasons. 
+
+Firstly, it is na\"{i}ve to expect to reach the agreement easily -- disagreement is not simply over which definition we will pick among a few, it is over the scope of the system, product, service to design, build, run, manage, and improve. There are significant ramifications of adopting a definition of a new concept; the definition affects where we want to go, how we will get there, and what resources we will need. If we defined ''load'' as being anyting fitting in a dry van, this would not remove the possibility of shipping smaller loads for different customers on the same truck (the same trailer), and would lead us to LTL. 
+
+Secondly, disagreement over ''load'' may not be local to the definition of ''load''. What we agree for ''load'' may lead us to have to change our definition of ''shipment'', ''customer'', and others. New concepts depend on each other, in that the meaning of one will be tied to the meaning of others. If definitions ought to represent some of that meaning, then changing the definition of one new concepts will affect definitions of other concepts, where the former is mentioned. If the definition of X mentions Y, then changing the definition of Y may require us to change the definition of X.\footnote{Part \ref{pt-3} focuses on such relationships between definitions, and how we can use them.}
+
+Thirdly, we were creating \textit{new} ideas, and the first version of a new idea is rarely the best.\footnote{Why am I talking about ''new ideas'', and not ''new concepts'' or ''new terms'' or ''neologisms''? This is because I will need one definition of ''concept'' and ''term'' later, when more precise relationships between concept, term, idea, neologism, and others, starts to matter.} It wasn't that we disagreed over \textit{general-purpose} or even \textit{established specialized definitions} of ''load'' and ''shipment'' -- we used these words in new ways, specific to inventions we were coming up with, within the local context of the innovation process we were involved in. Even if he had a specialized, industry-standard definition in mind for ''load'', it didn't matter, since I was looking for an idea of load which was new, and which fitted \textit{our} aims and \textit{our} constraints and the innovation \textit{we} wanted to get to.\footnote{It could be argued that it's bad practice to use words with established definitions to denote new ideas, and instead have a neologism; we will return to this later, via a detour in lexicography.} The problem that the novelty of an idea introduces, is that disagreement we have now is not going to be the only disagreement we will have: the new idea will go through many changes, which will be motivated by various disagreements over time. 
+
+Disagreement over new ideas is a problem that intensifies over time and with more people. The more successful the venture became, the more this problem become pronounced, and costed more to solve. If communication leads to disagreement over meaning of words, how can you tell that the teams are in sync? How could you possibly assess and manage the risk of planning one thing, then being delivered another? 
+
+Disagreement about who meant what, while working on new ideas, may seem a straightforward issue to solve. Let's get together and talk it through. But you first need to detect disagreement, then spend time solving it. You might detect it late, after damage is done. Handling it means more communication, not less. Could you have avoided this? 
+
+When you know that there is a risk for this kind of disagreement to occur, how do you detect it? Moreover, how do you detect it early, when it involves fewer people, before more is invested, and may only have affected inconsequential decisions? How can you make detection and correction part of a routine, instead of just hoping it will all go well?
+
+\section{Is Disagreement an Anomaly?}
+This book has ''new'' in its title. The focus is on new concepts, those which are invented to fit specific purposes when we design and build new products, services, systems. 
+
+The problem with disagreement about new concepts is quite different from disagreement established concepts. When we disagree  on established concepts, there is a reference that we can look up, to settle our differences and reach a common understanding. This could be a dictionary, an encyclopedia, a terminology accepted in a domain -- something that we can both accept, along with others, as an authoritative source. 
+
+However, when we disagree on \textit{new concepts}, then there will be no authoritative source, someone other than the two of us, or a passive source -- a book, database, knowledge base, or otherwise -- which we can both go to. 
+
+Instead, \textit{we have to create and define the new concept}. This is exactly what was done in the logistics venture, where we had a new and our own ''load'' and ''shipment'' concepts, among many others.
+
+The same happened in other businesses I was involved in during the last decade: I was in teams which were tasked with inventing, creating, testing, delivering, and running new products, services, systems which targeted specific opportunities and problems in various industries. We were coming up with new concepts, and had to make specific definitions for them -- part of it was so that we can agree internally on what to do with and about them, the other part being that we have to be clear how our innovation differed from what was already available.
+
+Disagreement over established concepts and disagreement over new concepts are two different kinds of anomalies. The former signals the need to point everyone to the authoritative reference, which provides the agreed-upon concept. The latter begs a different question: Is disagreement a signal that the concept in question should change? And if so, how do we change it so as to avoid disagreement later? 
+
+The key point is that disagreement over established concepts signals an anomaly, something to detect and correct without changing the concept, while disagreement over new concepts is part of their formation, that is, is a step in the creation of such concepts, and in their maturing up to the moment when they become accepted by, and thereby established in a community. At that point, there is an authoritative source, an accepted definition, and disagreement is an anomaly.
+
+
+\section{Did Disagreement come only from Synonymy and Ambiguity of Nouns?}
+If two different words stand for the same idea, they are synonyms. A single word is ambiguous if it can stand for different ideas. 
+
+The examples I used so far are all nouns; \textit{truckload}, \textit{FTL} abbreviates \textit{full truckload}, \textit{LTL} is for \textit{less than truckload}, and there were \textit{loads} and \textit{shipments}. It is quite obvious that a noun can be ambiguous, or that two (or more) of them can be synonyms. 
+
+Same applies to verbs. One important verb in that logistics venture was ''to match''. We wanted to build an online marketplace for freight transportation; if I grossly oversimplify, the marketplace is software which is used both by those who have freight and need to have it transported, and they are the demand side, and there is the supply side, those whose business is to transport freight. What a marketplace should do, is to match supply with demand, which is to say, make sure that as many businesses as possible from the demand side find someone on the supply side to move their freight.
+
+When we started thinking about the market, we had to say how exactly we want demand to match to supply. ''Matching'' became a word we used hundreds of times daily,  for months. It meant very different things to different people on the various teams. Very early on, when only six of us were involved in designing this market and its marketplace, I was responsible for proposing and analyzing different ways that ''matching'' could work. At the very first meeting on this, I remember laying out a few dozen ways matching could be accomplished, each with its own pros and cons; and this was actually a small subset of what can be done. There is a field in academic economics research focused on so-called \textit{market design}\footnote{''Economists have lately been called upon not only to analyze markets, but to design them. Market design involves a responsibility for detail, a need to deal with all of a market's complications, not just its principle features. Designers therefore cannot work only with the simple conceptual models used for theoretical insights into the general working of markets. Instead, market design calls for an engineering approach.'' \cite{roth2002economist} Ours was exactly an engineering approach, informed by economic theory (especially Alvin Roth's work \cite{roth2002economist}, including that with Marilda Sotomayor \cite{roth1992two} and Axel Ockenfels \cite{roth2002last}) and business practices in the logistics industry.} which deals, among other, exactly with this kind of problem.
+
+Is ''matching'' an ambiguous verb? It isn't in general: in daily informal, general-purpose usage, it is probably not. Another way to think of it, is that it is not ambiguous enough to cause trouble, so you don't think much about all it could possibly mean. But when we had to design the marketplace, the meaning it had for the people involved was critical, since we were all wanting to build the marketplace to work exactly according to one single idea of matching.\footnote{Keep in mind that there was no place where we could look for an established idea of matching, of how matching should work in our specific marketplace. That is, it's not that we were failing to agree on some given definition of ''to match'', but we had to make a new definition for it, and agree.} If one of us thought it should work in one way, another in another way, and this disagreement remained opaque when each of us used the verb ''to match'', then any agreement we thought we had was creating risks as we continued designing and building that marketplace.
+
+What about adjectives? In their case, issues can come from vagueness. Gradable adjectives are vague; big, small, tall, fast, easy, high, low, and so on, are all vague. Such adjectives imply an ill-defined scale, whose units have no standard, universal definition, and there is no generally agreed upon threshold which cuts that scale up: I might think this car is big, but you could say it isn't, and we could both have good reasons to stand by what we thought. Is a car big if it is longer than some specified length? Is it heavy because it goes over some specified weight? There are no such specifications in general; have a look at an encyclopedia, Wikipedia included, if you disagree -- that's where it would normally show up. Does it?
+
+One of our goals was to make matching ''transparent'' for our users. We spent a long time trying to agree what that \textit{should} mean. Should it mean that we show the budget available on the demand side to the supply side? Does it mean showing the name of the supplier to the customer? Notice the complexity behind just these two questions: they touch directly the business model, and more specifically how the operator of this marketplace -- that was us -- make money from managing it.  
+
+We were disagreeing with each other in the logistics venture, sometimes substantially, on nouns, verbs, and adjectives. As we build sentences over these, problems of the pieces we put together wouldn't go away. In those sentences, adverbs, pronouns, determiners, prepositions, and conjunctions wouldn't -- just by being added in a mix -- remove ambiguity, synonymy, or vaguness.
+
+
+\section{What's Wrong with Ambiguity, Synonymy, and Vagueness?}
+There is nothing wrong \textit{per se} with ambiguity, synonymy, and vagueness. They cause risks, and if you accept to live with those risks, then there's no need to worry. In fact, I live with many such risks daily; when my daugther says she'll return her toys in place soon, I might wonder when exactly, i.e., she's being vague. But her not returning toys in place is not much of an issue; so while there is a non-null probability she will not do it, any negative consequences of this are, at least for me, negligeable, and I'm simply ignoring that risk; I am overthikning this one here, but the point should be clear. Other, also quite frequent risks, are not negligable; if there's a delay on a flight I should take, it is not the same if that delay remains unspecified by the airline, or if it is clearly communicated, i.e., it is not the same to see a message that says ''flight delayed'' and ''flight delayed by 2 hours'' -- each implies different decision options and different criteria; the former takes me to speak with ground staff, and what I'd like there is to have an idea of the delay, while the second may lead me to ask for a rebooking of my next flight on the same day.
+
+% If I disagree with an investor over the meaning of some frequently used words (be they nouns, verbs, or adjectives), or even phrases, I might end up guiding teams to deliver something that is disconnected from that investors were asking for. There, the risk is significant, because it is very different to design software for handling truckload shipments or LTL shipments. 
+
+Here is one example where we failed to appreciate the risk and suffered eventually. So-called ''onboarding'' of carriers is about how to bring (and again, I'm oversimplifying) trucking companies to the supply side of the marketplace. The software was initially designed and delivered with a simple carrier onboarding process, the assumption being that the shorter it takes to the carrier, the better. It turned out that this was too optimistic; fraudulent carriers passed the process alongside trustworthy ones, and this caused issues for our customers and us. It took us months to regain trust with some of our pilot customers, and the launch of the software on the market also had to wait for repairs to relationships and code to be done. Besides the time of investors, management, engineering, and other teams, it was also a hit to morale, an aspect that does not lend itself easily to quantification.
+
+Disagreement over the meaning of ''scalable'' is another example. Investors kept insisting on having a scalable marketplace; we ended up designing and delivering software which could, based on simulations at least, scale to support all transactions in logistics in the North American market. But that was an unrealistic scale, one which no-one in this market could ever achieve (if only because of anti-trust regulation). Supporting that volume of transactions required a complex system, which was costly to change. 
+
+Ambiguity, synonymy, and vegueness create risks which we should be aware of, and even better, which we should proactively identify, estimate, and manage. 
+
+
+\section{Standardization or Progress?}
+\label{s:useful-disagreement}
+We can live with risks that come from ambiguity (polysemy), synonymy, and vagueness. Should we? 
+
+If you are proposing a new term and its definition, then it also makes sense to want to be precise, accurate, and clear about the meaning you are trying to give it with that definition. This seems a straightforward motive --  you simply want to make sure \textit{you} are understood as \textit{you} intended, regardless of what comes next, that is, if you will meet agreement or confrontation within the community you are proposing that term to.
+
+Efficiency in communication seems a straightforward motive for precision, accuract, clarity of a definition. 
+%It is a major reason for investing in the development of terminologies.
+
+There is a more subtle question, however: What exactly are you trying to accomplish when proposing a definition of a new term? Are you proposing the new term's definition for standardization as-is? By standardization, I mean that the definition gets the status as being the right one for use in the community, and that any other interpretation of the term becomes an error. Or are you proposing it for discussion, before and independently from standardization? 
+
+There was a rather technical debate in ecology research, on the definition of the term ''ecosystem engineer''. It is interesting here not for its contributions to ecology, but for other reasons. One, it was a proposal of a new term and its definition. Two, the proposal led to a debate, which went through a few iterations. Three, the proposed definition was picked up in a different debate, on whether such proposals help or harm the development of technical, specialized knowledge in a discipline. Four, it was not clear if the authors of the new term wanted to standardize their definition immediately, and that specific point was also subsequently debated. Overall, it is an example that touches on many topics discussed so far.
+
+In 1994, Clive G. Jones, John H. Lawton and Moshe Shachak, three scientists working on ecosystem change, proposed the term ''ecosystem engineer''. They offered the following definition.
+
+\begin{quote}
+  ''Ecosystem engineers are organisms that directly or indirectly modulate the availability of resources (other than themselves) to other species, by causing physical state changes in biotic or abiotic materials. In so doing they modify, maintain and/or create habitats. 
+  
+  Autogenic engineers change the environment via their own physical structures i.e., their living and dead tissues. Allogenic engineers change the environment by transforming living or non-living materials from one physical state to another, via mechanical or other means.'' \cite{jones1994organisms}
+\end{quote}
+Beavers, according to them, qualify as ecosystem engieers:
+\begin{quote}
+  ''That is they are allogenic engineers, taking materials in the environment (in this case trees, but in the more general case it can be any living or non-living material) and turning them (engineering them) from physical state 1 (living trees) into physical state 2 (dead trees in a beaver dam). This act of engineering then createsa pond, and it is the pond which has profound effects on a whole series of resource-flows used by other organisms. The critical step in this process is the transformation of trees from state 1 (living) to state 2 (a dam). This transformation modulates the supply of other resources, particularly water, but also sediments, nutrients etc.'' 
+\end{quote} 
+
+In a later article \cite{flecker1996ecosystem}, Alexander Flecker preseted research on how a fish, \textit{Prichilodus mariae}, modifies its environment by ingesting sediment, and this in turn changes algal and invertebrate assemblages. He argued that \textit{Prichilodus} is an ecosystem engineer. 
+
+Commenting on that work from Flecker, Mary Power argued that ''ecosystem engineer'' is a value-ladden term. For her, it subsumes intent \cite{power1997estimating}. Since intent to modify habitat is hard to attribute to \textit{Prichilodus}, she aruged that this was a case of ''habitat modification'' instead. \textit{Prichilodus mariae} isn't an ecosystem engineer for her, and the definition of ''ecosystem engineer'' is failing to be clear on the need for intent to be present.
+
+Jones, Lawton and Shachak replied to Power, arguing against her interpretation of their definition for ''ecosystem engineer''.
+
+\begin{quote}
+''First, our definition of ecosystem engineering is not value-laden, and does not imply intent. Whether or not humans perceive intent when an organism (such as a beaver or a human) physically modifies the environment is not a scientific issue. It becomes the subject of scientific enquiry if questions are asked about feedbacks to the engineer. 
+
+Engineering does not require a feedback, even though this often occurs. We made the explicit distinction between engineering that affects the fitness of the engineer ('extended phenotype engineering'; e.g. the effect of beaver dam on beaver) -- which is what we construe Power meant by purpose -- and 'accidental engineering' (e.g. a cow hoof print that probably has no feedback effects on the cow).
+
+Second, the term 'habitat modification', if used to mean either a process or an outcome, is a much broader term, than ecosystem engineering by organisms. For example, habitats are often modified by abiotic forces. We see little point in being less precise when precise terms exist. It is also worth noting that our definition considers engineering to be a process, and thus any habitat modification / maintenance / creation / destruction that occurs is an outcome.'' \cite{jones1997ecosystem}
+\end{quote}
+
+Two things stand out in the debate so far. Power raised an issue with the applicability, or scope of the definition, by arguing that the fish in question does not qualify as an instance of ecosystem engineer. In addition, her argument comes her understanding of the term ''engineer'', in which purposeful intent is a must. The defense from Jones, Lawton and Shachak is that they have a different understanding of the term ''engineering'', and so of ''engineer''. A legitimate question is if this disagreement and debate would have been any different, if  Jones, Lawton and Shachak also gave their definition of ''engineering'' alongside that of ''ecosystem engineer''. This touches on the very important question on the relationship between definitions of established terms, and definitions of new ones, and what to do about it when proposing a definition of a new term. If you are proposing a definition for some new term, and that definition mentions other terms A, B, and C which are not new, but have established definitions already, do you give their definitions alongside the new one, or do something else? I will return to this later. 
+
+Jones, Lawton and Shachak also remarked the following:
+\begin{quote}
+''Last, when we did 'coin the term' ecosystem engineering, adding new 'buzzwords' to the ecological lexicon was certainly not our primary purpose. Many of the interesting questions about the effects of species in ecosystems that were discussed by Power, were also the focus of our papers. Asking and answering interesting and important ecological questions is the primary purpose of our science. However, since many areas of ecology do not yet use unambiguous formal language (unlike the formulas of mathematicians, physicists and chemists), we must pay particular attention to terminology. After all, we cannot have scientifically meaningful dialogue unless we first agree on the definition of what we are studying.''
+\end{quote}
+
+It is still not clear at this point if Jones, Lawton and Shachak were open to revising the definition they proposed. They did not do so in subsequent publications, at least not in response to Mary Power's critique. Absence of clarity on this point, as well as their rejection of Power's critique come back in a different article, where this exchange is used as an example of how to stiffle innovation and growth of knowledge, specifically in ecology research.
+
+Karen Hodges wrote the following in reaction to Jones, Lawton and Shachak's claim that ecology needs to pay particular attention to terminology.
+
+\begin{quote}
+''Polysemy and synonymy may stimulate rapid growth in a field, vague terms are not necessarily problematic, and creating rigid definitions and standardized terminology too early may stunt the growth of a field. [...] Strongly demarcated definitions and classificatory decisions can [...] have serious negative effects on a discipline by constraining inquiry.'' \cite{hodges2008defining}
+\end{quote}
+
+It is surprising to assume that to grow knowledge, you should stimulate polysemy and synonymy. Proposing a definition early, and making it precise, accurate, and clear, will stiffle the development of new knowledg only if this definition comes with the constraint that it cannot change, that it is the standard. It is only if its authors refuse to remain open to criticism, or simply ignore it, that they will in fact stiffle innovation. The definition alone cannot do this. The benefit of making it precise, accurate, and clear, is that it will be easier to debate. This is not a tradeoff between precision and innovation, it is between premature standardization and opennes to change the definition in light of new arguments and information. 
+
+The example, especially the reply from Hodges, suggest that it is important to be clear about what you want to accomplish when proposing a definition: Do you propose it as definite, and thus want to see it accepted as-is, or is it to advance debate towards a more stable definition? In either case, being precise, accurate, and clear should help, not harm.
+
+
+\section{Why not Use a Dictionary, or an Encyclopedia?}
+If there is reason to worry about the shared understanding of words, the natural reaction is to go and have this settled with a dictionary. 
+
+\begin{quote}
+''Dictionaries are often perceived as authoritative records of how people 'ought to' use language, and they are regularly invoked for guidance on 'correct' usage.'' \cite{atkins2008oxford}
+\end{quote}
+
+It should be obvious that this won't work here. There are two reasons neither a dictionary, nor an ancyclopedia will solve the disagreement around the naming and defining of new ideas.
+
+One, if we were debating what \textit{load} or \textit{shipment} should be defined as, \textit{in general-purpose communication}, then a dictionary would be good enough. But when doing the design of something new, which turns out to require its own, local meaning for a common word, we need a definition which suits its specific use for that particular purpose. It is useful, as we will see later, to look at how this specific definition relates to the general-purpose one, but the former will replace the latter in this context of innovation that we were dealing with. So, one reason is that dictionaries and encyclopedias will provide a general-purpose definition for a word, yet we need a specific definition suitable to the innovation we are working on; in other words, we need to create a definition which fits the ideas we came up with, and made decisions about, in our innovation process.
+
+Two, specificity is only part of the story: innovation means new ideas, and whichever words we choose to name these new ideas, the ideas are still new -- that's why we are talking about innovation in the first place. So, we musn't assume in an innovation process that a common word can keep its \textit{old} definition, even if it is a specific one. This is precisely because we look for novelty. 
+
+The error of taking an old word to have its old definition, all the while knowing this word to be central in an innovation process (such as our \textit{load}, \textit{shipment}, \textit{to match}, and many more), is easier to avoid if we go for neologisms, rather than old words. But the difficult problem is not naming, it's definition. If we invent a new word, we still have to make a definition for it, which again disqualifies dictionaries and encyclopedias as solutions. 
+
+
+\section{Is a Terminology the Solution?}\label{s:terminology-1}
+If a general-purpose dictionary or encyclopedia cannot solve the disagreement over loads, shipments, and matching, then the next candidate to consider are more specialized definitions of these words. That candidate is a terminology applicable to, say, freight transportation, logistics, or some such area.
+
+In the Oxford English Dictionarries \cite{oed-load}, ''load'' gets the following definition:
+
+\begin{quote}
+    ''A heavy or bulky thing that is being carried or is about to be carried.''
+\end{quote}
+
+One among many options for getting more specific about ''load'' is the Iowa Department of Transportation's glossary. It has no entry for ''load''; the closest is ''cargo'' \cite{iowa-dot-cargo}:
+
+\begin{quote}
+    ''Anything other than passengers, carried for hire, including both mail and freight.''
+\end{quote}
+
+Next, we could take a definition of ''truckload'' from the terminology at C.H. Robinson, a major freight brokerage company in USA \cite{chrobinson-truckload}:
+
+\begin{quote}
+    ''Truckload is a mode of freight for larger shipments that typically occupy more than half and up to the full capacity of a 48’ or 53’ trailer. This method is commonly used when shippers decide they have enough items to fill a truck, want their shipment in a trailer by itself, the freight is time-sensitive or the shipper decides it’s more cost-effective than other options.''
+\end{quote}
+Another comparable freight broker, XPO Logistics, defines ''truckload'' as follows:
+\begin{quote}
+    ''The ground transportation of cargo provided by a single shipper in an amount that requires the full limit of the trailer, either by dimension or weight. Cargo typically remains on a single vehicle from the point of origin to the destination and is not handled en route.''
+\end{quote}
+Here is one of the many versions of the ''load'' definition in our logistics venture:
+\begin{quote}
+    ''Data held about an actual load which needs to be transported; includes: origin location, destination location, pickup time window, delivery time window, load value, weight, length, height, width, load content, trailer requirements.''
+\end{quote}
+Notice how ''load'' can mean different things. All are more or less for related, seemingly overlapping ideas. But if you had to make sure there was a shared interpretation in a team, then they are about very different ideas.
+
+Standardization of definitions remains the major motivation for developments in terminology as a field, and developments of specific terminologies. The expected benefit is to avoid costly misunderstanding.
+
+
+
+\begin{quote}
+''The first meaning of the word terminology is 'the set of special
+words belonging to a science, an art, an author, or a social entity,'
+for example, the terminology of medicine or the terminology of
+computer specialists.
+ 
+The same term, in a more restrictive sense, means 'the language
+discipline dedicated to the scientific study of the concepts and terms
+used in specialized languages.' General language is that used in
+daily life, while a specialized language is used to facilitate
+unambiguous communication in a particular area of knowledge,
+based on a vocabulary and language usage specific to that area.'' \cite{pavel2001precis}
+\end{quote}
+
+Motives for somehow correcting or improving communication, what Herbert Picht calls ''terminological deficits'', have been central to the development of terminology:
+
+\begin{quote}
+''
+Looking into the historical evidence we can state some central terminological deficits:
+\begin{enumerate}
+    \item Lack of or incorrect conceptual ordering. Linn\'{e} (1707-1778) established
+a systematisation of concepts by his works on taxonomy. The superior
+aim of all later classifications was the ordering of knowledge as expressed
+by terms.
+    \item Confusion caused by excessive synonymy. Beckmann (1739-1811),
+professor of philosophy and economics, criticised the multitude of unnecessary
+and confusing synonyms.
+    \item Lack of terms for the concept in a particular language. Already in the
+Middle Ages the translators of the School of Toledo had to struggle with this problem.
+ \item Unclear and undefined concepts. Clausewitz, the German military
+theorist, wrote: Only when a clarification of the names and concepts has taken place, may one hope to proceed easily and with clarity in the treatment
+of the matter.
+ \item Language planning deficits. D\"{u}rer tried to establish a German terminology
+for mathematical concepts -- although without success. Berthollet,
+de Morveau, Fourcroy and Lavoisier were successful in creating a chemical terminology in the 18th century. Czechoslovakia after 1919, the Baltic States after 1919 and 1990, the Catalans, the Basques and several others had to fight the language planning problem –- a problem which is increasingly acute in many language communities.
+\end{enumerate}
+From this small historical evidence we can deduce that it was first and
+foremost the specialists and language for specific purposes mediators
+(translators) who felt the need to improve professional communication
+by solving basic terminological problems.
+'' \cite{picht2011science}
+\end{quote}
+
+The importance of terminology for effective communication is well-known, being recognized by the International Organization for Standardization; it is worth recalling the central two here, as they are a result of substantial, long-term efforts to agree on what terminology may be, what it is useful for, how specific terminologies should be created, and by whom:
+\begin{itemize}
+    \item \textit{ISO 1087 Terminology work -- Vocabulary} provides ''a systemic description of the concepts in the field of terminology and to clarify the use of the terms in this field'', a terminology for terminologists, in a sense.
+    \item \textit{ISO 704 Terminology work — Principles and
+    methods} aims ''to standardize the essential elements for terminology work'', i.e., how to create and improve terminologies.
+    \item A number of standards and recommendations on storing, organizing, and sharing terminologies in digital format\footnote{For an overview and historical developments, see the work of }.
+\end{itemize}
+
+
+
+, with ISO 704 \cite{iso704}, and consortia, such as Terminology for Large Organizations (TerminOrgs). Here is the latter's position on why terminology matters in large organizations:
+
+\begin{quote}
+''Effective communications is a goal of all organizations that deal with the public, commercially or otherwise. This includes businesses, enterprises, public institutions, NGOs, governments, and any other type of organization. When the organization operates in different linguistic communities, requiring different languages, the goal of effective communication requires a proactive approach that includes terminology management. These types of organizations are characterized as 'global.' [...]
+
+At the research and development stage, the use of different terms for core features or functions can lead to misunderstanding among workers. Errors can occur, and some production tasks may even need to be repeated as a consequence, often at great cost. 
+
+After a product or service has been developed, the informational and marketing content is produced, then translated. There is often a disconnect between the marketing department and the product development department. Each has its own team of writers. Inconsistent and conflicting terminology between marketing and development content concerning the same topic (product or service) is a common problem. A centralized termbase is a tool that helps to ensure consistent and appropriate use of language throughout the organization. Without a termbase, language problems are left to editors to detect based on their own internal knowledge. Many inconsistencies and problems are undetected, and are then repeated unknowingly by translators in the translated versions. Furthermore, the editing stage is the very end of the content production cycle, after nearly all the content for a product has been produced. At this stage, the problems are multiplied many times over and the cost of fixing them is substantial.
+'' \cite{terminorgs2016}
+\end{quote}
+
+Clearly, we should look for principles and methods promoted for the design of terminologies, if we want to reduce risk from misunderstanding in communication.
+
+\section{Terminology for Changing Terms?}
+% (Cite Sowa on meaning changes, language games, find if Wittgenstein wrote on this in relation to meaning change...)
+
+Risk of misunderstanding can be mitigated through precise, accurate, and clear definitions of ideas, in other words, the construction of a terminology which should, ideally, establish clear relationships between names, ideas, and objects. This has been a principle promoted in philosophy since the Greeks, has had many proponents continuously since, and is warmly adopted in contemporary science and engineering, having been converted into international standards for industry (ISO704, ISO12...). 
+
+The economics of terminology are clear when definitions need to be made for ideas which stabilized in the relevant community: the investment in producing precise, accurate, and clear definitions of specialized stable ideas makes sense because these definitions will help reduce future misunderstanding, and critically, they will not have to change frequently: there will be no need to frequently make similar investments again.
+
+What does this mean when ideas are new and expected to change frequently? Does it mean that we should not invest in terminology during innovation? Is the only reasonable implication that we should wait for ideas to stabilize, before investing in creating precise, accurate, and clear definitions thereof? 
+
+The central idea in this book is that terminology of stable ideas and terminology of unstable ideas have fundamentally different purposes. 
+
+The purpose of creating a terminology of stable ideas is to keep them stable and avoid disagreement. This cannot be the purpose of creating a terminology of unstable ideas: instability is due to our search for how to improve these ideas, and it is only if they prove their usefullness that they become stable, and we stop looking for how to improve them.
+
+
+
+
+% Yes, but there are two twists:
+
+
+
+\section{}
+Unless you are working in over-the-road logistics, it is unlikely that you know what I meant above by ''truckload'' or ''less-than-truckload''. It wouldn't be hard to find by searching online. These are widely used terms in logistics. If we had to agree on their \textit{general} definitions, we could do that quickly. The less these definitions matter to what we will do next -- the less they matter in our decisions and for our actions -- the easier it will be to agree on them. If, in other words, it makes no difference what they are, then why disagree?
+
+What if I had my own notion of ''truckload'', which is not the same as the general one? What if the general definition doesn't work for me? What if, in addition, it really did matter what truckload stands for? What if going along my idea of truckload meant a certain cost and time for our future software product, and yours implied different cost and time? Then the definition matters, and agreement will depend on how the definition we are looking into fits your goals and mine.
+
+I bet you were not among the twenty people I worked with in 2016, when we got into that logistics startup. If not, then I'm sure that you and I do not have the same notion of ''load'' and ''shipment''. We had serious difficulties to align internally on what these two mean. It got worse when we started growing faster.
+
+I made a mistake in that startup. It was a mistake I did not make in the ten years before that, while working for various investors to build other software startups, in Belgium, Denmark, Israel, Italy, and the USA.
+ 
+The mistake was this: I did not insist that we create, maintain, improve, and adhere to a precise, clear, and accurate glossary of terms we invented as we built and grew the business, its people, and its technology. We had no written glossary about the innovations we were designing, making, and releasing to customers.
+
+A glossary is a list of terms and their definitions. Most non-fiction books come with a glossary, and technical literature almost always has it, so you probably saw them many times.
+
+The problem with glossaries in startups, is that startups -- at least those I was involved in -- had three characteristics: 
+\begin{itemize}
+    \item They were \textit{new companies}, neither spin-offs of existing ones, nor incubated by existing ones, nor academic spin-offs; they started off without a direct access to early adopting customers, without an already well-oiled team that had worked together in the past.
+    \item Their investors wanted \textit{high returns over short periods of time}: for every dollar invested, the aim was to return 5 or more, ideally above 10, within 2 to 4 years.
+    \item \textit{The only way to achieve these returns was through innovation}; we were tasked with coming up with new ways to solve problems which many of us were trying to understand for the first time.
+\end{itemize}
+ 
+You might be seeing the outlines of the paradox, with wanting to have a glossary in such a setting. This \textit{new definition paradox} is as follows.
+
+To make the glossary, you have to define the new ideas that this new team is coming up with. But they are new ideas, and therefore, they are likely to change substantially as you continue your innovation process. 
+
+Hence the paradox: \textit{you are trying to define new ideas in a precise, accurate, clear way, all the while knowing you will soon be throwing many of these definitions away}. You are, in other words, trying carefully craft something that you know will be short lived.
+
+So, what do you do? Do you invest more time to make and remake the glossary? Or do you ignore it, and hope misunderstandings will be infrequent and quick to resolve. 
+
+The added difficulty in a startup is that \textit{this has to be done by a team which is new}: they have not worked together before, do not use the same terms in similar ways, and they are now asked to do innovation together.
+
+However, here's what makes it worthwhile to think about and try to live with the new definition paradox, instead of ignoring it: 
+\begin{itemize}
+    \item misunderstandings which are caused by the same terms being about different ideas\footnote{In linguistics, such terms are called plurisemantic terms.} are recurrent,
+    \item they are proportional to the number of people involved, and 
+    \item the longer they stay undetected, the more damage they make. 
+\end{itemize}
+
+The only way to stop them from repeating, is to have everyone agree on a definition, and have that definition written down. In other words, by having a glossary. This glossary will keep changing, but it has to be written down and available to all.
+
+Why are they proportional to the number of people involved? 
+
+When we invented the ''load'' and ''shipment'' concepts for the product we were creating, we unfortunately used common words for something that was in fact very specific, that is, different from everyday meaning people may think of when hearing or using these same words. It was not specific in the sense that we went to an existing glossary of, say, terms in logistics, but we had our own meaning for both of these -- and in fact many other common nouns and verbs. Every time we have someone new come to this, or someone who forgets the specifics of our ''load'' and ''shipment'' concepts, we had to go through the ritual of explaining what was the intended meaning of these terms. Each person was bringing, quite expectedly, their own thoughts about what a load or shipment are, in general, or often in their own prior companies and jobs. 
+
+To see the extent to which a ''load'' can mean different things, consider the following sample of definitions. All are more or less for the same term, refer to related, seemingly overlapping ideas. But if you had to make sure there was a shared interpretation in a team, then they are about very different ideas.
+
+\begin{itemize}
+    \item Oxford English Dictionaries \cite{oed-load}: ''A heavy or bulky thing that is being carried or is about to be carried.'' 
+    \item Iowa Department of Transportation's definition of ''cargo'' \cite{iowa-dot-cargo}, the closest concept to ''load'' among the terms defined there: ''Anything other than passengers, carried for hire, including both mail and freight.''
+    \item Sample definition of ''truckload'' from a major logistics company \cite{chrobinson-truckload}; ''truckload'' is the closest to our idea of ''load'': ''Truckload is a mode of freight for larger shipments that typically occupy more than half and up to the full capacity of a 48’ or 53’ trailer. This method is commonly used when shippers decide they have enough items to fill a truck, want their shipment in a trailer by itself, the freight is time-sensitive or the shipper decides it’s more cost-effective than other options.''
+    \item Another major company's definition of ''truckload'' \cite{xpolog-inv-pres-aug-2019}: ''The ground transportation of cargo provided by a single shipper in an amount that requires the full limit of the trailer, either by dimension or weight. Cargo typically remains on a single vehicle from the point of origin to the destination and is not handled en route.''
+    \item One of many versions of our definition of ''load'': ''Data held about an actual load which needs to be transported; includes: origin location, destination location, pickup time window, delivery time window, load value, weight, length, height, width, load content, trailer requirements.''
+\end{itemize}
+
+\noindent Why does a misunderstanding create more damage the longer it stays unresolved? 
+
+When we invented our ''load'' and ''shipment'', and as we kept changing these meanings through our innovation processes, we did this in order to eventually have a software system made, to record, manage, and do some computations on data about our ''loads'' and ''shipments''. If I had one understanding of what ''load'' and ''shipment'' are, an engineer had another, and others had their own, we might superficially agree on what data this system needs to work with, and how, but it would be likely that they would deliver something that I did not expect. How could they, if they are making the software according to their idea of ''load'' and ''shipment'', while I expect it to fit my idea of ''load'' and ''shipment''? If I think that a load can only several pickup locations and one delivery location, and she keeps thinking it can have any number of either of these locations, and the engineering team thinks it can have only one of each of the two locations, we are in trouble: it might take the team months to implement their idea of ''load'', and then more months to change it after they deliver a system which fails to match the varying expectations of its stakeholders.
+
+It is, of course, quite nice to suggest that a team that does innovation should make and improve this fleeting glossary of terms which defines their new ideas. What's difficult is to do this and not waste time in the process. This book is about how to do that.
+
+The book has three parts.
+\begin{itemize}
+    \item Part 1 is about how to make glossaries of new ideas, how to update them, and how to use them. If your innovation glossary is 20 terms or less, or thereabout, and you need a practical guide, then this Part 1 may be all you need to read. 
+    \item Part 2 looks at how to make, change, and use bigger glossaries. The techniques I show there can be used with small glossaries too, but really make a difference as you move past 20 or so terms. We'll see there that it is not really the number of terms that matters, but a certain kind of dependency between them. 
+    \item Making these glossaries actually begs many questions which you might want to consider, especially after making a few of them. When is a definition of a term good enough? How are definitions of new ideas different from definitions of established ideas? How much confidence can you have in definitions of new ideas? How can you be even more precise when creating the glossary of new ideas? These are questions that have received quite some attention in philosophy, especially ontology and epistemology, as well as computer science, namely in knowledge representation and reasoning, ontology engineering, natural language processing, requirements engineering, and formal specification. Part 3 gets technical at times, but should be interesting if you want to go further than Parts 1 and 2.
+\end{itemize}
+
+% Chapter bibliography
+\printbibliography
+
+\begin{partbacktext}
+\part{Rationale for \ncnf s}
+\label{pt-2}
+\end{partbacktext}
+
+\begin{partbacktext}
+\part{Analysis of \ncnf s}
+\label{pt-3}
+\end{partbacktext}
+
+
+
+%% APPENDIX - EMPTY
+%\include{appendix}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% BACK MATTER
+\backmatter
+
+%% GLOSSARY - EMPTY
+%\include{glossary}
+
+%% EXCERCISE SOLUTIONS - EMPTY
+%\include{solutions}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INDEX
+\printindex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+
+
+
+

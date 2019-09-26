@@ -1,0 +1,471 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{3}
+  \datalist[entry]{nty/global//global/global}
+    \entry{iso704}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7079c72c21415131774625ba1d64f4b0}{%
+           family={Anonymous},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Organization for Standardization -- ISO}%
+      }
+      \strng{namehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{fullhash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{bibnamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authorbibnamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authornamehash}{7079c72c21415131774625ba1d64f4b0}
+      \strng{authorfullhash}{7079c72c21415131774625ba1d64f4b0}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO 704:2009(E) Terminology work -- Principles and methods}
+      \field{year}{2009}
+    \endentry
+    \entry{atkins2008oxford}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6ede2a3b2a3f5213b1afb9aa5edd5026}{%
+           family={Atkins},
+           familyi={A\bibinitperiod},
+           given={BT\bibnamedelima Sue},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=70a71a31c0396e697fdb80739563d067}{%
+           family={Rundell},
+           familyi={R\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{ff5209a4fb82e886914c7fcdb9cd5fe4}
+      \strng{fullhash}{ff5209a4fb82e886914c7fcdb9cd5fe4}
+      \strng{bibnamehash}{ff5209a4fb82e886914c7fcdb9cd5fe4}
+      \strng{authorbibnamehash}{ff5209a4fb82e886914c7fcdb9cd5fe4}
+      \strng{authornamehash}{ff5209a4fb82e886914c7fcdb9cd5fe4}
+      \strng{authorfullhash}{ff5209a4fb82e886914c7fcdb9cd5fe4}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Oxford guide to practical lexicography}
+      \field{year}{2008}
+    \endentry
+    \entry{chrobinson-truckload}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{C.H. Robinson FreightQuote}
+      \field{title}{{C.H. Robinson FreightQuote Truckload definition}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.freightquote.com/define/what-is-truckload-freight-shipping
+      \endverb
+      \verb{url}
+      \verb https://www.freightquote.com/define/what-is-truckload-freight-shipping
+      \endverb
+    \endentry
+    \entry{flecker1996ecosystem}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e602e3fcc2f3dcaa9a64b65e08d65980}{%
+           family={Flecker},
+           familyi={F\bibinitperiod},
+           given={Alexander\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{e602e3fcc2f3dcaa9a64b65e08d65980}
+      \strng{fullhash}{e602e3fcc2f3dcaa9a64b65e08d65980}
+      \strng{bibnamehash}{e602e3fcc2f3dcaa9a64b65e08d65980}
+      \strng{authorbibnamehash}{e602e3fcc2f3dcaa9a64b65e08d65980}
+      \strng{authornamehash}{e602e3fcc2f3dcaa9a64b65e08d65980}
+      \strng{authorfullhash}{e602e3fcc2f3dcaa9a64b65e08d65980}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology}
+      \field{number}{6}
+      \field{title}{Ecosystem engineering by a dominant detritivore in a diverse tropical stream}
+      \field{volume}{77}
+      \field{year}{1996}
+      \field{pages}{1845\bibrangedash 1854}
+      \range{pages}{10}
+    \endentry
+    \entry{hodges2008defining}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9dd9f339f15cf4eaa32912532bd708c5}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={Karen\bibnamedelima E},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{9dd9f339f15cf4eaa32912532bd708c5}
+      \strng{fullhash}{9dd9f339f15cf4eaa32912532bd708c5}
+      \strng{bibnamehash}{9dd9f339f15cf4eaa32912532bd708c5}
+      \strng{authorbibnamehash}{9dd9f339f15cf4eaa32912532bd708c5}
+      \strng{authornamehash}{9dd9f339f15cf4eaa32912532bd708c5}
+      \strng{authorfullhash}{9dd9f339f15cf4eaa32912532bd708c5}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Ecology and the Environment}
+      \field{number}{1}
+      \field{title}{Defining the problem: terminology and progress in ecology}
+      \field{volume}{6}
+      \field{year}{2008}
+      \field{pages}{35\bibrangedash 42}
+      \range{pages}{8}
+    \endentry
+    \entry{iowa-dot-cargo}{misc}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IOWA Department of Transportation}
+      \field{title}{{IOWA DOT Cargo definition}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://iowadot.gov/glossary/
+      \endverb
+      \verb{url}
+      \verb https://iowadot.gov/glossary/
+      \endverb
+    \endentry
+    \entry{jones1997ecosystem}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fbe9ba440cccadde2879592dc1d3c2b2}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Clive\bibnamedelima G},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=1039d4c65d9d5dc77d6ae71b66858034}{%
+           family={Lawton},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7a3fcfaf32d2fda626428e50d463aed5}{%
+           family={Shachak},
+           familyi={S\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b2415186dedd240a4d6cf185bc36098f}
+      \strng{fullhash}{b2415186dedd240a4d6cf185bc36098f}
+      \strng{bibnamehash}{b2415186dedd240a4d6cf185bc36098f}
+      \strng{authorbibnamehash}{b2415186dedd240a4d6cf185bc36098f}
+      \strng{authornamehash}{b2415186dedd240a4d6cf185bc36098f}
+      \strng{authorfullhash}{b2415186dedd240a4d6cf185bc36098f}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{number}{7}
+      \field{title}{Ecosystem engineering by organisms: why semantics matters}
+      \field{volume}{12}
+      \field{year}{1997}
+      \field{pages}{275}
+      \range{pages}{1}
+    \endentry
+    \entry{jones1994organisms}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=fbe9ba440cccadde2879592dc1d3c2b2}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Clive\bibnamedelima G},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=1039d4c65d9d5dc77d6ae71b66858034}{%
+           family={Lawton},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7a3fcfaf32d2fda626428e50d463aed5}{%
+           family={Shachak},
+           familyi={S\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b2415186dedd240a4d6cf185bc36098f}
+      \strng{fullhash}{b2415186dedd240a4d6cf185bc36098f}
+      \strng{bibnamehash}{b2415186dedd240a4d6cf185bc36098f}
+      \strng{authorbibnamehash}{b2415186dedd240a4d6cf185bc36098f}
+      \strng{authornamehash}{b2415186dedd240a4d6cf185bc36098f}
+      \strng{authorfullhash}{b2415186dedd240a4d6cf185bc36098f}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ecosystem management}
+      \field{title}{Organisms as ecosystem engineers}
+      \field{year}{1994}
+      \field{pages}{130\bibrangedash 147}
+      \range{pages}{18}
+    \endentry
+    \entry{oed-load}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Oxford Dictionaries}
+      \field{title}{{Load | Definition of Load in English by Oxford Dictionaries}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://en.oxforddictionaries.com/definition/load
+      \endverb
+      \verb{url}
+      \verb http://en.oxforddictionaries.com/definition/load
+      \endverb
+    \endentry
+    \entry{pavel2001precis}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e54bd713003fbec705504a2a805bbf5e}{%
+           family={Pavel},
+           familyi={P\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3f926f9e5d06e30a0f5301b49b811092}{%
+           family={Nolet},
+           familyi={N\bibinitperiod},
+           given={Diane},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c82784753004f46649b4bf2e4569d29}
+      \strng{fullhash}{2c82784753004f46649b4bf2e4569d29}
+      \strng{bibnamehash}{2c82784753004f46649b4bf2e4569d29}
+      \strng{authorbibnamehash}{2c82784753004f46649b4bf2e4569d29}
+      \strng{authornamehash}{2c82784753004f46649b4bf2e4569d29}
+      \strng{authorfullhash}{2c82784753004f46649b4bf2e4569d29}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Adapted into English by Christine Leonhardt. Hull: Public Works and Government Services of Canada}
+      \field{title}{Pr{é}cis de terminologie/The Handbook of Terminology}
+      \field{year}{2001}
+    \endentry
+    \entry{picht2011science}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=9450214af10e76ef941a413c978b9773}{%
+           family={Picht},
+           familyi={P\bibinitperiod},
+           given={Heribert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Lietuvi{ų} Kalbos Institutas}%
+      }
+      \strng{namehash}{8f83719d90ce6012e34b2a4ea42ec720}
+      \strng{fullhash}{8f83719d90ce6012e34b2a4ea42ec720}
+      \strng{bibnamehash}{8f83719d90ce6012e34b2a4ea42ec720}
+      \strng{authorbibnamehash}{8f83719d90ce6012e34b2a4ea42ec720}
+      \strng{authornamehash}{8f83719d90ce6012e34b2a4ea42ec720}
+      \strng{authorfullhash}{8f83719d90ce6012e34b2a4ea42ec720}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Terminologija}
+      \field{number}{18}
+      \field{title}{The science of terminology: History and evolution}
+      \field{year}{2011}
+      \field{pages}{6\bibrangedash 26}
+      \range{pages}{21}
+    \endentry
+    \entry{power1997estimating}{article}{}
+      \name{author}{1}{}{%
+        {{hash=89247781d5ea66d5a01b10f5e3556213}{%
+           family={Power},
+           familyi={P\bibinitperiod},
+           given={Mary\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{89247781d5ea66d5a01b10f5e3556213}
+      \strng{fullhash}{89247781d5ea66d5a01b10f5e3556213}
+      \strng{bibnamehash}{89247781d5ea66d5a01b10f5e3556213}
+      \strng{authorbibnamehash}{89247781d5ea66d5a01b10f5e3556213}
+      \strng{authornamehash}{89247781d5ea66d5a01b10f5e3556213}
+      \strng{authorfullhash}{89247781d5ea66d5a01b10f5e3556213}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in ecology \& evolution}
+      \field{number}{2}
+      \field{title}{Estimating impacts of a dominant detritivore in a neotropical stream}
+      \field{volume}{12}
+      \field{year}{1997}
+      \field{pages}{47\bibrangedash 49}
+      \range{pages}{3}
+    \endentry
+    \entry{roth2002economist}{article}{}
+      \name{author}{1}{}{%
+        {{hash=320ab47af0997a7a69af46760b320783}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Alvin\bibnamedelima E},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{320ab47af0997a7a69af46760b320783}
+      \strng{fullhash}{320ab47af0997a7a69af46760b320783}
+      \strng{bibnamehash}{320ab47af0997a7a69af46760b320783}
+      \strng{authorbibnamehash}{320ab47af0997a7a69af46760b320783}
+      \strng{authornamehash}{320ab47af0997a7a69af46760b320783}
+      \strng{authorfullhash}{320ab47af0997a7a69af46760b320783}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{4}
+      \field{title}{The economist as engineer: Game theory, experimentation, and computation as tools for design economics}
+      \field{volume}{70}
+      \field{year}{2002}
+      \field{pages}{1341\bibrangedash 1378}
+      \range{pages}{38}
+    \endentry
+    \entry{roth2002last}{article}{}
+      \name{author}{2}{}{%
+        {{hash=320ab47af0997a7a69af46760b320783}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Alvin\bibnamedelima E},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f16397f1f47706dc6112aa878498b31c}{%
+           family={Ockenfels},
+           familyi={O\bibinitperiod},
+           given={Axel},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a3fbabe64cc35ff4c393fee66b52b1c}
+      \strng{fullhash}{7a3fbabe64cc35ff4c393fee66b52b1c}
+      \strng{bibnamehash}{7a3fbabe64cc35ff4c393fee66b52b1c}
+      \strng{authorbibnamehash}{7a3fbabe64cc35ff4c393fee66b52b1c}
+      \strng{authornamehash}{7a3fbabe64cc35ff4c393fee66b52b1c}
+      \strng{authorfullhash}{7a3fbabe64cc35ff4c393fee66b52b1c}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American economic review}
+      \field{number}{4}
+      \field{title}{Last-minute bidding and the rules for ending second-price auctions: Evidence from eBay and Amazon auctions on the Internet}
+      \field{volume}{92}
+      \field{year}{2002}
+      \field{pages}{1093\bibrangedash 1103}
+      \range{pages}{11}
+    \endentry
+    \entry{roth1992two}{article}{}
+      \name{author}{2}{}{%
+        {{hash=320ab47af0997a7a69af46760b320783}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Alvin\bibnamedelima E},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=36ec9750dd4bc3fe46ab0c6e35ebc294}{%
+           family={Sotomayor},
+           familyi={S\bibinitperiod},
+           given={Marilda},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{454d2ce231364e892ff43854852b7f04}
+      \strng{fullhash}{454d2ce231364e892ff43854852b7f04}
+      \strng{bibnamehash}{454d2ce231364e892ff43854852b7f04}
+      \strng{authorbibnamehash}{454d2ce231364e892ff43854852b7f04}
+      \strng{authornamehash}{454d2ce231364e892ff43854852b7f04}
+      \strng{authorfullhash}{454d2ce231364e892ff43854852b7f04}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Handbook of game theory with economic applications}
+      \field{title}{Two-sided matching}
+      \field{volume}{1}
+      \field{year}{1992}
+      \field{pages}{485\bibrangedash 541}
+      \range{pages}{57}
+    \endentry
+    \entry{terminorgs2016}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=9d8d0a4db6a2e0156a3de39844a35878}{%
+           family={Warburton},
+           familyi={W\bibinitperiod},
+           given={Kara},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Terminology for Large Organizations (TerminOrgs)}%
+      }
+      \strng{namehash}{9d8d0a4db6a2e0156a3de39844a35878}
+      \strng{fullhash}{9d8d0a4db6a2e0156a3de39844a35878}
+      \strng{bibnamehash}{9d8d0a4db6a2e0156a3de39844a35878}
+      \strng{editorbibnamehash}{9d8d0a4db6a2e0156a3de39844a35878}
+      \strng{editornamehash}{9d8d0a4db6a2e0156a3de39844a35878}
+      \strng{editorfullhash}{9d8d0a4db6a2e0156a3de39844a35878}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Terminology Starter Guide}
+      \field{year}{2016}
+    \endentry
+    \entry{xpolog-inv-pres-aug-2019}{misc}{}
+      \field{sortinit}{X}
+      \field{sortinithash}{b0b62a29ee4a21a0e618fed53a0313cc}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{XPO Logistics}
+      \field{title}{{XPO Logistics Investor Presentation August 2019}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://investors.xpo.com/static-files/7609310e-8657-477f-81af-7f166698924d
+      \endverb
+      \verb{url}
+      \verb http://investors.xpo.com/static-files/7609310e-8657-477f-81af-7f166698924d
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

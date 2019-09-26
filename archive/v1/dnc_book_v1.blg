@@ -1,0 +1,21 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'dnc_book_v1.blg'
+[61] biber-darwin:315> INFO - === Mon Sep 23, 2019, 15:57:16
+[93] Biber.pm:371> INFO - Reading 'dnc_book_v1.bcf'
+[216] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[216] Biber.pm:889> INFO - Found 0 citekeys in bib section 1
+[216] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[216] Biber.pm:889> INFO - Found 0 citekeys in bib section 2
+[217] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[217] Biber.pm:889> INFO - Found 17 citekeys in bib section 3
+[217] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[275] Biber.pm:4093> INFO - Processing section 3
+[293] Biber.pm:4254> INFO - Looking for bibtex format file 'ilang-bib.bib' for section 3
+[298] bibtex.pm:1523> INFO - LaTeX decoding ...
+[428] bibtex.pm:1340> INFO - Found BibTeX data source 'ilang-bib.bib'
+[595] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[595] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[595] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[595] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[627] bbl.pm:636> INFO - Writing 'dnc_book_v1.bbl' with encoding 'UTF-8'
+[633] bbl.pm:739> INFO - Output to dnc_book_v1.bbl
