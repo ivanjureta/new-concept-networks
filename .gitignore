@@ -11,26 +11,23 @@ share
 __pycache__
 *.pyc
 
-# LaTeX temporary files
+# Ignore all latex files except .tex
 *.aux
 *.log
 *.toc
-
-# PDF output
 *.pdf
-
-# Latexmk
 *.fdb_latexmk
-
-# SyncTeX
 *.synctex.gz
-
-# LaTeX Beamer
 *.snm
 *.vrb
 *.nav
 *.out
-
-# BibTeX
 *.bbl
 *.blg
+*.bcf
+*.fls
+*.idx
+*.ilg
+*.ind
+*.run.xml
+*.thm
