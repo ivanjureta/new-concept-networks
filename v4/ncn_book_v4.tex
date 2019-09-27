@@ -108,7 +108,7 @@ We recorded, documented, designed, and improved an \ncn\ in each innovation proc
 
 The book has three parts.
 \begin{itemize}
-  \item Part \ref{pt-1} is a tutorial on how to make an \ncn. I look back on five actual \ncn s made between 2010 and 2019, mention new ideas that they were trying to define, and show how and why each \ncn\ evolved. I close this part by outlining a general approach to creating and evolving an \ncn.
+  \item Part \ref{pt-1} is a tutorial on how to make an \ncn. I look back on five actual \ncn s made between 2010 and 2019, outline new ideas that they were trying to define, and show how and why each \ncn\ evolved. I close this part by outlining a general approach to creating and evolving an \ncn.
   \item Part \ref{pt-2} outlines my rationale for proposing \ncn s, and how \ncn s build on and differ from established work on definition in philosophy, terminology in lingistics, ontology and formal specification in computer science.
   \item Part \ref{pt-3} deals with the practical problem of making and using \ncn s which include dozens of definitions. Using basic natural language processing techniques, we can define various measures on an \ncn, and use measurements as indicators to change individual definitions, or the structure of the \ncn. 
 \end{itemize}
@@ -166,8 +166,7 @@ September 2019\hfill {\it }\\
 \label{pt-1}
 \end{partbacktext}
 
-\chapter{Appreciating Disagreement over New Ideas}
-\label{c:introduction}
+\chapter{Appreciating Disagreement over New Ideas}\label{c:introduction}
 %\chaptermark{}
 
 %\abstract{}
@@ -318,10 +317,529 @@ Karen Hodges wrote the following in reaction to Jones, Lawton and Shachak's clai
 
 It is surprising to assume that to grow knowledge, you should stimulate polysemy and synonymy. Proposing a definition early, and making it precise, accurate, and clear, will stiffle the development of new knowledge only if this definition comes bundled with the constraint that it cannot change, that it should be the standard. It is only if its authors refuse to remain open to criticism, or simply ignore it, that \textit{they} will stiffle innovation. The definition alone cannot do this. The benefit of making it precise, accurate, and clear, is that it will be easier to debate. This is not a tradeoff between precision and innovation, it is between premature standardization and opennes to change the definition in light of new arguments and information. 
 
-The example, especially the reply from Hodges, suggest that it is important to be clear about what you want to accomplish when proposing a definition: Do you propose it as definite, and thus want to see it accepted as-is, or is it to advance debate towards a more stable definition? In either case, being precise, accurate, and clear should help, not harm.
+The example, especially the reply from Hodges, suggest that it is important to be clear about what you want to accomplish when proposing a definition: Are you offering it as final, and thus want to see it accepted as-is, or is it to advance debate towards a more stable definition? In either case, being precise, accurate, and clear should help, not harm.
 
 
-\section{General Dictionaries and Encyclopedia}
+\section{Constructive Disagreement}\label{s:constructive-disagreement}
+The important conclusion of this Chapter is that defining new ideas involves disagreement. But should we then appreciate all disagreement equally? 
+
+The argument I developed in this Chapter is that we should prefer disagreement which arises over definitions of new ideas, whereby such definitions are precise, accurate, and clear. We should prefer it over disagreement which merely signals lack of such qualities in definitions, and where resolution of ambiguity, synonymy, or vagueness would add nothing to the maturity of the new ideas in question. The practical difficulty with this preference, is that it is hard to detect what disagreement came from. We could debate what would have happened if the definition were phrased otherwise, but it wasn't; this kind of speculation takes yet more time, and has unclear and unpredictable benefits.
+
+If we do want to keep that preference, then the definitions of new ideas should be precise, accurate, and clear, \textit{and} any definition should be offered as tentative, instead of final, open for discussion and destruction, rather than as something immutable. If you take that seriously, then definitions of new ideas aim different things than those of established ideas: the former invite destruction, the latter invite adoption. 
+
+
+\chapter{How to Facilitate the Writing of Simple Consulting Contracts?}\label{c:case:consulting-contracts}
+This is the first of five Chapters which walk you through how actual \ncnf s were designed and revised throughout the innovation process. It illustrates many challenges that arise in doing so.
+
+About a decade ago, when I started doing fieldwork in teams that worked on innovations, I did something they thought was unusual. As soon as we would start working, even when even brainstorming was going into many directions, I insisted on writing down keywords, key terms that popped up in those sessions, and more generally in all team communication, and sending my definitions of these terms to the team, expecting their feedback. Most were surprised, and many saw this as futile, given how fast ideas were changing. And it was true that many terms were thrown away, and that many definitions changed along the way. But I insisted on keeping even a simple list available to all, and asking for all to know it and voice any disagreements at any time.
+
+Value grew over time, to the point that in many businesses where I did fieldwork, this became an accepted practice. I no longer needed to promote it. Design, engineering, technical and other documentation started including pointers to a centralized terminology, which was actively maintained and commented. Most interestingly to me, this looked like a sticky tool, something that people accepted without formal requests to do so. It became the backbone for knowledge management. I certainly did not discover the value of glossaries, terminologies, and dictionaries of technical terms; their worth is clear in established disciplines, and many businesses, especially those with a long history and a complicated and large set of products and services, know how important it is to be careful about their internal technical language.
+
+Where I was able to observe the use of such changing terminologies, it became simpler to talk about teams' innovations with interested parties, lawyers, future users, marketers, and any stakeholder group which started interacting with the team over the lifecycle of the innovation.
+
+In 2017, a team that combined business consultants, product designers, and software engineers, was asked to invent a process which speeds up the negotiation of simple business consultancy contracts. They focused on contracts involving two parties, a consultant and a client, who need to agree on a set of deliverables, dates for the delivery of each, and price. The blueprint of the process would then serve for the production of a software, which would support clients and consultants to negotiate such contracts.
+
+The default way to negotiate such a contract, is for the consultant and client to hold meetings, and communicate in other ways, until the client was confident enough to want to invest, and the consultant was clear enough on what needs to be done, by when, and within which budget. It is a common, but unstructured process, thus hard to repeat, measure, and improve. It can take varying amounts of time, and end in no contract at all.
+
+The team needed specific terms for the parties in this process, the roles they can have, and the object of their negotiations. This gave the following terms.
+
+\begin{svgraybox}
+\textbf{Client:} Party which is interested in having a Service completed by a Consultant.
+\end{svgraybox}
+
+\begin{svgraybox}
+\textbf{Consultant:} Party which performs a Service for a Client.
+\end{svgraybox}
+
+\begin{svgraybox}
+\textbf{Service:} The collaboration of one specific Consultant and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.
+\end{svgraybox}
+
+Definitions embed design decisions. A Client is not necessarily someone or something that has agreed to have a service delivered, but anyone who shows interest. If Client were defined, instead, as something that exists only if a Service exists, then one obvious implication is that we need one more term, for that party in negotiations which is interested in getting the Service.
+
+Who can be a Client, and who a Consultant? Can a party which is in one Service a Client, be a Consultant in another Service? Answers to these questions influence the design of the process, that is, are part of decisions that shape the negotiation process.
+
+Notice how a plain definition, one in a natural language dictionary, of client no longer works for this team. If a client is by default ''a person or organization using the services of a lawyer or other professional person or company'' \cite{def-client} then not every client is a Client, since the default definition seems to require a contract to be in place. How else would the person or organization be using services?
+
+The point is not to debate if client or Client are better for this team, in relation to the problem they are solving. The point is, instead, that once the term Client is defined by that team, then their communication about Clients requires everyone to know that definition. If not, then there will be misunderstandings.
+
+So far, the innovation language of this team has three terms. None of them shows how we decided to speed up that unstructured negotiation process. Our approach was to add constraints to it, to make it more specific by taking the following assumption seriously: negotiation can be sped up if it is clear what needs to be negotiated, i.e., which parameters of the Service, and if negotiations can only last a fixed amount of time. We introduced the notion of Negotiation Phase.
+
+\begin{svgraybox}
+\textbf{Negotiation Phase:} Part of the negotiation process which has a fixed duration and a structured set of Negotiation Phase Outputs.
+\end{svgraybox}
+
+Having decided that the negotiation process would have some unknown number of Negotiation Phases, we had to decide which phases it could have. The first that seemed appropriate, was a phase during which the Consultant and Client would set goals of their collaboration. This led us to introduce the Goal Setting Phase, as a type of Negotiation Phase, and to define Goal Setting Outputs.
+
+\begin{svgraybox}
+\textbf{Goal Setting Phase:} A Negotiation Phase, which lasts up to 14 calendar days, whose aim is for the Consultant and Client to approve a nonempty set of Service Goals.
+\end{svgraybox}
+
+\begin{svgraybox}
+\textbf{Goal Setting Outputs:} A statement of goals of a Service.
+\end{svgraybox}
+
+This language quickly grew to a few dozen terms, and their definitions embedded our decisions in designing the negotiation process. As we progressed in the design, terms were revised, changed, some were removed.
+
+One of the changes involved introducing the notion of Project, as a type of Service, defined as follows.
+
+\begin{svgraybox}
+\textbf{Project:} Service in which:
+\begin{itemize}
+\item Client's Key Expectation is to have the Consultant achieve specific Goals on each of the agreed Targets,
+\item Consultant's Key Expectations are:
+\begin{itemize}
+	\item To receive Consultant Project Fee, AND
+	\item To create Accounts, which, if the Consultant manages (during the Tail) to convert into Deals, will yield the Consultant the payment of the Deal Commission.
+\end{itemize}
+\end{itemize}
+\end{svgraybox}
+
+Note the additional terms this involves, namely Key Expectation, Target, Account, Tail, Deal, Consultant Project Fee, and Deal Commission. I leave them undefined here.
+
+What I want to illustrate with the Project term, is how terms are used to write rules about the artifact being designed, and how this influences the definitions of these same terms.
+
+As we were progressing in the design of the negotiation process, the scope of the problem widened. The team was tasked to propose a process which covered structuring and monitoring of a Consultant's execution of a Project for the Client. In other words, when contract is signed, execution starts, and we wanted to look at how to improve the monitoring of that execution. The motive was that we wanted to use that monitoring to evaluate the reputation of both the Client and Consultant, then use these for future recommendations of Consultants to Companies, and vice-versa.
+
+At some point in the design, we converged to the following structure of Project Phases.
+
+\begin{svgraybox}
+\textbf{Project Phases:} Project Phases are:
+\begin{itemize}
+\item Call For Help, in which a Client posts an Opportunity;
+\item Proposal, in which a Consultant responds to the Opportunity;
+\item Contracting, in which the Consultant and Client negotiate the Targets, Goals, Tasks, and Project Fee;
+\item Delivery, in which the Consultant does Tasks to achieve Goals, and creates Accounts for the Client;
+\item Approval, in which the Client confirms that Goals are met and Project is completed, and provides feedback on the Consultant;
+\item Continuation, in which the Client decides if and how to continue collaboration with the Consultant.
+\end{itemize}
+\end{svgraybox}
+
+We grew the set of terms, refined it and their definitions, while deciding how the processes should work. That ''how'' means setting rules the process should satisfy. We used the terms to define the rules. Here is a sample, on Project execution.
+
+\begin{svgraybox}
+\begin{enumerate}
+\item In Call For Help and Proposal Project Phases, Matching Consultants are shown to Client only in an anonymized format, so that their full name and contact information cannot be known to the Client.
+\item Contracting Phase lasts one week, with the possibility on demand to extend this by one or more increments of two calendar days each.
+\item Project duration is one calendar month.
+\item When posting an Opportunity, Client must provide at least one Target, and one Goal for that Target.
+\item Project Agreement includes one or more Approved Tasks.
+\item In an Opportunity Response, Consultant provides, for each Goal in each Target, at least one of the following:
+	\begin{enumerate} 
+		\item Acceptance of Task as-is, that is, as set in the Opportunity;
+		\item Rejection of Task as-is;
+		\item At least one Sub-Task.
+		\item Optionally, number of Man-Hours that the Consultant will dedicate to complete the Task or Sub-Task;
+		\item List of zero or more Accounts that the Consultant; 
+		\item Project Fee.
+	\end{enumerate}
+\item In an Opportunity Response, Consultant can input relevant experience to the Targets, Goals, and Tasks in the Opportunity Response.
+\item An Opportunity Response must include Effort Estimate and Hourly Price.
+\item Client should be able to provide feedback and ratings on all Projects.
+\item Retainer as a mechanism for extending Services should only be available to Client and Consultants who are involved already for several months in an ongoing Service.
+\end{enumerate}
+\end{svgraybox}
+
+These rules show how the terms become building blocks of the artifacts that the team is designing. In turn, rules placed further constraints on the meaning we wanted the terms to have. Rule 8, for example, tells us that an Opportunity Response must specify Effort Estimate and Hourly Price, without these it is not an Opportunity Response. 
+
+This gets us to an interesting question, if rules are part of the language, or are something else, something built through language use. How, in other words, do we separate the innovation language from the ideas it is used to create, the artifacts it is used to make?
+
+Rule 8 is not the only one leading to this question. Rule 10 says when a Retainer can be used. Should Rule 10 be part of a definition of Retainer? Rule 3 defines the allowed duration of a Project, isn't it, then part of the definition of Project?
+
+To the extent that each rule restricts the interpretation of a term, it must be part of the definition of that term. If that is the case, then would everything written in the innovation language somehow constitute that language? I return to this later, in Chapter XX.
+
+
+\section{Case 2: How to match patients to available physicians?}
+\label{c5:s3}
+In 2015, owners of a hospital network were interested into the following problem: specialized equipment (e.g., MR, CT, U/S, X-ray, PET/CT, and so on) was not fully used by the demand within the network, and they were aware that there was demand for more outside of the network. The opportunity they wanted to explore was how to make these resources available for booking to physicians outside their hospital network. A team of analysts, physicians, and product designers was assembled, initially to design a new organization which would focus on matching supply of specialized equipment, that is, its availability, with interested and approved physicians. 
+
+The team saw this as a problem of designing a two-sided marketplace \cite{roson2005two,rochet2006two}, call it X here. Early on, scope increased on the basis of initial data collection, and grew beyond equipment bookings. It was described as follows.
+
+\begin{quote}
+''X is a marketplace where the demand and supply of diagnostic and prognostic care meet at scale, efficiency, and cost which have been out of reach in the past.
+\begin{itemize}
+	\item Supply is the time of human resources and equipment, which are available in X-approved healthcare institutions. These human resources include physicians, but can include other profiles in the healthcare workforce, such as nurses, dentists, etc. 
+	\item Demand is made of:
+	\begin{itemize}
+		\item Referring physicians, who book resources on X for the benefit of their Patients;
+		\item Customers, who book resources on X, without having a Referring physician to approve or otherwise influence that booking.''
+	\end{itemize}
+\end{itemize}
+\end{quote}
+
+The normal process by which demand and supply meet, was described as follows:
+\begin{enumerate}
+	\item Referring physician, previously approved by and registered on X, accesses X software.
+	\item If the Referring physician has not yet added her Patient’s information and contact details, she adds them. 
+	\item Referring physician searches X and finds relevant Supply side resources, which she decides to book for her Patient. X uses Patient information and search input from the Referring physician to recommend best fitting resources in search results to the Referring physician.
+	\item Referring physician makes a tentative booking of the resources. X starts countdown until payment and booking confirmation. If countdown completes before Patient makes the payment, resources are freed up and available to others.
+X notifies Patient that Referring physician has made a tentative booking, and that she needs to accept or refuse that booking. 
+	\item Cases:
+		\begin{enumerate}
+			\item If Patient accepts, Patient makes the payment on X. X notifies the Referring physician and the booked resource of this booking and shares the relevant Patient information with the booked resource.
+			\item If Patient refuses, X notifies the Referred physician, and cancels the tentative booking to free up the tentatively booked resource.
+		\end{enumerate}
+	\item Patient uses the booked resource, meaning the booked consultation or otherwise takes place. X allows the booked resource to add results of the consultation to X. X notifies the Referring physician and the Patient that they can access the results on X.
+	\item X asks Referring patient to give feedback and score the booked resource. X asks Referring physician to rank give feedback on the results which the booked resource posted for the Patient on X. X uses the evaluations to describe the quality or reputation of the booked resource.
+\end{enumerate}
+
+The initial set of terms was the following.
+
+\begin{svgraybox}
+\noindent\textbf{Patient:} An individual who needs an Appointment, and whose Appointment is booked via X. There are two types of Patients:
+Referred Patient: Patient who has a Referring Physician. The Referring Physician books Appointments on behalf of the Patient on X.
+Self-Service Patient: Patient who does not have a Referring Physician outside X. Patient needs to book Appointments by herself on X.
+
+\noindent\textbf{Physician:} Medical professional who holds a valid license to practice medicine. There are the following types of Physician Roles on X:
+Referring Physician: Physician who is not part of X (the business), and uses X to refer the Patient to a Referred Physician.
+Referred Physician: Physician to whom the Patient is being referred via X, and whom the Patient will have an Appointment with. 
+
+\noindent\textbf{Visitor:} Individual who is visiting X and viewing public X material (such as website, mobile app, etc.) and who has not yet registered as a Patient on X.
+
+\noindent\textbf{X Administrators:} An individual employed by X, and who is authorized to make changes to User Rights, Appointments, and more generally any subset of data which X holds.
+
+\noindent\textbf{Appointment:} A limited amount of time with a set start and end, which a Patient purchased from a Physician on X, and during which the Physician is available to provide diagnostic and prognostic care to the Patient.
+
+\noindent\textbf{Appointment Slot:} A limited amount of time with a set start and end, which a Physician offers for sale on X, and during which the Physician will be available to provide diagnostic and prognostic care to one Patient.
+
+\noindent\textbf{Equipment} is any clinic or hospital capital equipment which is available to Physicians for use during their Appointments. Examples are MR, CT, U/S, X-ray, PET/CT, Nuclear Medicine, resources used in Blood and Chemistry tests, tissue pathology, and Genetic Profile Analysis, among others.
+
+\noindent\textbf{Customer} is a synonym for Patient.
+
+\noindent\textbf{X Health Record (XHR)} is the electronic health record of the Patient on X.
+\end{svgraybox}
+
+It turned out that many patients wanted to see physicians without this being initiated by a referring physician. In such cases, it was necessary for X, the business, to provide a referring physician. This also meant refining the definition of Physician, to include so-called X Physician, giving the following new Physician definition.
+
+\begin{svgraybox}
+\textbf{Physician:} Medical professional who holds a valid license to practice medicine. There are the following types of Physician Roles on X:
+\begin{itemize}
+	\item Referring Physician: Physician who is not part of X (the business), and uses X to refer the Patient to a Referred Physician.
+	\item Referred Physician: Physician to whom the Patient is being referred via X, and whom the Patient will have an Appointment with. 
+	\item X Physician: Physician employed by X, and who acts as a Referring Physician for every Self-Service Patient on X.
+\end{itemize}
+\end{svgraybox}
+
+Beyond simple cases such as the above, an interesting question was how to define a physician's specialties and procedures and tests that this physician may be most competent to refer patients to. The definition of Physician, even the refined one above, is not particularly helpful in this respect. 
+
+Each physician thus needed to be described by the medical specialties they were competent in, following standard naming conventions \cite{wikipedia-specialty-medicine}. But this was not enough, if we wanted to allow patients to look for physicians by other means, such as:
+\begin{itemize}
+	\item Procedure or test, such as ''Amniocentesis'';
+	\item Equipment, such as ''PET'';
+	\item Desired Appointment slot, as one or more dates and time ranges;
+	\item Geographical location where the Supply Physician holds appointments, such as a city, ZIP code, address, etc.;
+	\item Maximal distance from Patient’s address.
+\end{itemize}
+
+Adding these properties to the definition of Physician is easy, but choosing the set of procedures and equipment is not. It was important to recognize that these choices could not be made definitely during the innovation process. New equipment and procedures can become available after the initial version of the service is released and used. This led to the need to design functionality that allowed X Administrators to add new procedures and equipment.
+
+So, what if we chose the following properties for Physicians?
+\begin{itemize}
+	\item First name,
+	\item Last name,
+	\item Email address,
+	\item Direct medical messaging address,
+	\item Contact phone,
+	\item National Provider Identifier,
+	\item If physician acts as Supply Physician, Demand Physician, or both on X,
+Medical Licenses.
+\end{itemize}
+
+This depends - if we want these alone, then the relationship of the physician to medical specialties needs to happen via medical licenses, i.e., the definition of medical licenses needs to be done via - among others - via medical specialties. What about equipment? Perhaps it needs to be related to medical procedures in which it can be used. Either way, note how the choice in the definition of one term influences definitions we have to make for others. Note, also, that there may be established definitions of physicians, such as the following one, but in the context of this innovation project, the term Physician needs to be more specific, and not only a refinement of the following definition, but one which has both a different scope and depth, which in turn makes it part of the innovation language, not of the base language.
+
+\begin{svgraybox}
+\textbf{Physician:} A person qualified to practise medicine, especially one who specializes in diagnosis and medical treatment as distinct from surgery. \cite{def-physician}
+\end{svgraybox}
+
+Further work on how physicians would be using such a service, led to the observation that they will most likely delegate many of the responsibilities we expected them to fulfil, such as indicating their availability. It was thus necessary to introduce so-called Physician Staff, as follows.
+
+\begin{svgraybox}
+\textbf{Physician Staff User:} X User who was invited by a Physician to X, and will accomplish tasks (registering Patients, managing Appointment Slots, etc.) on behalf of Physician on X.
+\end{svgraybox}
+
+This was only an early definition, as it left open how delegation happens, that is, how the software can know which Physician Staff is related to which Physician. That in itself was done by defining a process by which the delegation relationship is established. The following is an early draft of the process.
+
+\begin{svgraybox}
+To allow Physician Staff User on X to act on her behalf, a Physician User proceeds as follows
+\begin{enumerate}
+	\item Physician User logs into X.
+	\item Physician User chooses Staff.
+	\item Physician User chooses to invite new Physician Staff Users.
+	\item X asks the Physician User to provide Physician Staff User Registration Properties.
+	\item Physician User fills out the information and clicks to submit it to X.
+	\item X does the following:
+		\begin{enumerate}
+			\item X changes the Physician Staff User’s X Status to Awaiting;
+			\item X sends New Physician Staff Password Setup email to the Physician Staff.
+		\end{enumerate}
+	\item Physician Staff receives the New Physician Staff Password Setup email. 
+Physician Staff clicks on the link in the email.
+	\item X opens in Physician Staff User’s web browser, and asks Physician Staff to enter twice a new password, which Physician Staff User wishes to use to access X.
+	\item Physician Staff User submits the password.
+	\item X checks if the password is strong enough, and if not, requests a new password from Physician Staff User.
+	\item If the chosen password is acceptable to X, X performs the following:
+		\begin{enumerate}
+			\item X registers Physician Staff as a Physician Staff User on X.
+			\item X changes Physician Staff User Status to Active.
+			\item X gives Physician Staff the User Rights chosen by the Physician who invited the Physician Staff User.
+			\item X sends an email to the Physician Staff User, to confirm that she is registered to X.
+			\item X sends an email to the Physician User who invited the Physician Staff User, to notify Physician User that Physician Staff User is registered and Active on X.
+		\end{enumerate}
+\end{enumerate}
+\end{svgraybox}
+
+Notice how processes, such as the one above, extend the scope of the innovation language. The design of such processes signals the need for new functionality and new artefacts that the software should have and manage, such as registration, statuses, email messages, and so on. As we will see in later Chapters, design that proceeds in this way, during the innovation process, literally branches out the innovation language, where by applying the actions on plastic definitions, we identify the need for new terms.
+
+
+\section{Case 3: How to improve a new product development process?}
+\label{c5:s4}
+In 2012, after experiencing success with its initial product, a manufacturer of designer low energy light bulbs wanted to expand its product line. To do so, its owners wanted to get a better understanding of its existing new product design and development process. This would help them plan the investment in, and the design and development of future new products. 
+
+The approach was to document the existing new product design process, which proved successful, before considering any changes. This meant understanding who does what, and how they coordinate, from new ideas to having a definite design sent for manufacturing and distribution. 
+
+To understand how work was done, and why, and so be able to document the existing process, we had to understand the language which they used to speak about that process, and to coordinate throughout that process. It was a new language, partly because the process was specific to the team there, but also because it was invented as they went. Both of these were expected. Design and manufacturing of new products, and in this company's case, of a product widely recognized as highly innovative, involves innovation at the level of the product, but also of the organization which makes that product happen, so to speak, from idea to the customer. 
+
+This is also a case which shows how widely-used terms get a local meaning that makes very much sense to the team, but not necessarily to outsiders. There are few new terms in their innovation language, but definitions aren't standard at all.
+
+Initial interviews led to the following simple set of terms, where many definitions are rather straightforward, and reflect the common-sense understanding of these terms.
+
+\begin{svgraybox}
+\noindent\textbf{Product:} That which Clients purchase from Company X.
+
+\noindent\textbf{New Product:} Product that Company X plans to, but has not yet started selling.
+
+\noindent\textbf{Process:} Sequence of Activities performed to achieve a particular objective.
+
+\noindent\textbf{Activity:} Meaningfully related Steps within a Process (e.g., these Steps realize related tasks in a Process).
+
+\noindent\textbf{Step:} Smallest part of an Activity, defining a task that a single Role needs to accomplish.
+
+\noindent\textbf{Process Guideline:} A recommendation on how to perform Steps in Processes.
+
+\noindent\textbf{Role:} Set of responsibilities that the individual playing the Role has to discharge in one or more Processes.
+
+\noindent\textbf{New Product Prototype:} A preliminary model of the New Product.
+
+\noindent\textbf{New Product Packaging Prototype:} A preliminary model of the packaging for the New Product.
+
+\noindent\textbf{Product Developer:} Individual with expertise in Product design and development.
+
+\noindent\textbf{Product Specifications Designer:} Individual with expertise in making specifications for Product manufacturing.
+
+\noindent\textbf{Product Manufacturer:} Individual representing the company capable of manufacturing the New Product for Company X.
+
+\noindent\textbf{New Product Brief:} Document specifying the requirements that the New Product should satisfy.
+
+\noindent\textbf{New Product Specifications:} Document defining the specifications of the New Product which satisfies the requirements given in the New Product Brief.
+
+\noindent\textbf{Manufacturer Estimate:} Document by which the Product Manufacturer responds to New Product Specifications.
+
+\noindent\textbf{New Product Packaging Design:} Document describing the design of the packaging for the New Product.
+\end{svgraybox}
+
+Subsequent discussions of how the current product was designed, how and why the design changed, and eventually, how it went into manufacturing, led to many changes.
+
+The term New Product Prototype was not precise enough, and was removed. It's role was filled by two new terms, First Sample and Final Sample, defined below.
+
+\begin{svgraybox}
+\noindent\textbf{First Sample:} A first and preliminary model of the New Product.
+
+\noindent\textbf{Final Sample:} A final model of the New Product, accepted by Company X.
+\end{svgraybox}
+
+New Product Packaging Prototype was removed. It was replaced by New Product Packaging Brief and New Product Packaging Design.
+
+\begin{svgraybox}
+\noindent\textbf{New Product Packaging Brief:} Document defining requirements on packaging for the New Product.
+
+\noindent\textbf{New Product Packaging Design:} Document specifying the packaging design for a Product.
+\end{svgraybox}
+
+The Product Developer term changed. It shifted from vaguely pointing to skills needed, to a list of responsibilities in the new product development process.
+
+\begin{svgraybox}
+\textbf{Product Developer:}
+\begin{itemize}
+	\item Produces New Product design concepts;
+	\item Presents design concepts to Creative Director and Managing Director;
+	\item Adapts design concepts until Creative Director and Managing Director approve a concept.
+\end{itemize}
+\end{svgraybox}
+
+This points again, as in Case 1, to the problem of deciding where a definition starts and stops, that is, what is part of a definition, and what isn't. The following is an early account of the initial steps of new product development process.
+
+\begin{svgraybox}
+\begin{enumerate}
+	\item Creative Director and Managing Director discuss New Product ideas.
+	\item Managing Director initiates research on the New Product.
+	\item Creative Director, Managing Director, and Product Developer narrow down the requirements to include in the New Product Brief.
+	\item Managing Director:
+		\begin{enumerate}
+			\item Produces the New Product Brief;
+			\item Obtains from the Creative Director the approval of the New Product Brief;
+			\item Sends the New Product Brief to Product Developer.
+		\end{enumerate}
+	\item Product Developer:
+		\begin{enumerate}
+			\item Produces New Product design concepts;
+			\item Presents design concepts to Creative Director and Managing Director;
+			\item Adapts design concepts until Creative Director and Managing Director approve a concept.
+		\end{enumerate}
+	\item Managing Director updates and sends New Product Brief to Product Manufacturer.
+	\item Product Manufacturer responds to Managing Director on New Product Brief.
+	\item Creative Director, Managing Director, and Product Developer revise, if needed the New Product Brief.
+	\item Managing Director sends revised New Product Brief to Product Manufacturer.
+\end{enumerate}
+
+Steps 8 and 9 are repeated until the Product Manufacturer can provide the Manufacturer Estimate to the Managing Director.
+
+\begin{enumerate}
+\setcounter{enumi}{9}
+	\item Product Manufacturer delivers Manufacturer Estimate to the Managing Director. Manufacturer Estimate includes estimates of:
+		\begin{enumerate}
+			\item Product development cost;
+			\item Product development timeline;
+			\item Minimal order size;
+			\item Estimated unit cost.
+		\end{enumerate}
+	\item Creative Director and Managing Director decide whether to accept the Manufacturer Estimate; 
+		\begin{itemize}
+			\item If no, contact another Product Manufacturer and go back to Step 6;
+			\item If yes, go to next Step.
+		\end{itemize}
+	\item Product Manufacturer:
+		\begin{enumerate}
+			\item Produces First Sample;
+			\item Delivers First Sample to Managing Director.
+		\end{enumerate}
+\end{enumerate}
+\end{svgraybox}
+
+More steps followed. What is interesting, is how the process defines the terms it mentions. Step 5 defines the responsibilities of the Product Developer. Step 10 defines the content of the Manufacturer Estimate.
+
+How does this process description relate, then, to definitions of the terms it mentions? Do we even need to have separate definitions, if we have descriptions of various processes? 
+
+Recall that there are five actions a plastic definition invites - keep, refine, add, remove, choose. Eventually, many of the generic early definitions got refined through the definition of various processes, as above. For example, Product Manufacturer definition does not mention what exactly a Product Manufacturer is responsible for in the new product development process. But the process is more specific, and refines the definition by, for example, saying in Step 10 that a Product Manufacturer is responsible for producing the Manufacturer Estimate. 
+
+In practice, new product development processes are rarely as structured, and steps as clear cut.  This makes it harder to settle on definite definitions, but only emphasizes the need for plasticity. It also highlights that you can never really understand the term, if you do not know where and how it was used, since through usage, or mentions, it gets refined, choices are made, parts are added, or removed. Plasticity cannot only be grasped by looking at snapshots of definitions, as I gave them above, but also through changes of the artifacts which mention the term, as in the partial description of the new product development process above. That is a thorny batch of issues, which will keep coming back throughout this book.
+
+
+\section{Case 4: How to automate running training advice?}
+\label{c5:s5}
+Over two years, from 2011 to 2013, the innovation language in this case went from a dozen or so terms, to about one hundred. Not only was the language used in verbal and written communication, but also in algorithm specifications, software specifications, software code, and marketing material for the service which this software was enabling. It is a rare case where the language was built for completely new ideas, and graduated to be included in most artefacts used and produced by the company who commissioned the underlying innovation.
+
+The aim of the innovation process was to design algorithms which would provide personalized advice to amateur runners, interested in improving their performance, and reaching specific goals, such as running a certain kind of race. There were no such algorithms at the time, and invariably, no software which could provide such advice.
+
+The goal of the innovation process was hard to achieve. Providing running advice cannot be reduced to a machine learning problem. There is not enough historical data on the progression of a given runner, or similar runners, from low to high performance,. There are various ways to improve one's performance, i.e., different training methods that coaches subscribe to. These methods are rarely well documented. The outcome of the innovation process was a combination of expert rules and learning algorithms. Advice is generated on the basis of specific coaching methods, and for an individual runner, that advice was parametrized according to the learning of how that runner responded to advice in the past, and prediction of how she may respond to advice in the future. 
+
+The following is a sample of the more stable terms and their definitions. 
+
+\begin{svgraybox}
+\noindent\textbf{Athlete:} 16 or more years old person wishing to use Running Algorithm X.
+
+\noindent\textbf{Coach:} individual controlling the parameters of Running Algorithm X.
+
+\noindent\textbf{Algorithm:} Running Algorithm X.
+
+\noindent\textbf{Module:} self-contained part of the Algorithm performing a related set of operations.
+
+\noindent\textbf{Session:} period of training associated to exactly one day in the calendar.
+
+\noindent\textbf{Training Plan:} sequence of Sessions.
+
+\noindent\textbf{Athlete Level:} set of Athletes sharing similar Athlete properties and receiving similar training advice.
+
+\noindent\textbf{Athlete Property:} characteristic obtained from the Athlete at registration for Running Algorithm X. Athlete Properties are used to compute the Athlete level.
+
+\noindent\textbf{Test Time:} time Athlete inputs for each Test Distance.
+
+\noindent\textbf{Test Distance:} distance selected by Coach, and for which Athlete should provide Test Time.
+
+\noindent\textbf{Injury Type:} injury that the Athlete selects from the Injury Type List.
+
+\noindent\textbf{Zone:} quantification of the level of intensity to maintain during a Session.
+
+\noindent\textbf{Target Pace:} running speed to achieve and maintain in a Session.
+\end{svgraybox}
+
+In the very first months of this innovation process, few of these terms had stable definitions. Athlete could be anyone, without age restrictions. It was unclear if any tests should be done before a person could use the algorithm, and the notion of Test Time came only later. The role of injuries became critical, but only after normal usage of the algorithm was better understood. 
+
+To help someone improve performance in running, a coach needs to be able to measure performance, plan how to vary future stress, decide how and when to apply planned stress, measure outcomes, and plan subsequent sessions, while taking into account measured outcomes. All this needs to be placed in context of the overall performance gain that this person is aiming for, itself a function of the goal that the person set to herself. Linear increase in stress does not correlate positively with increase in performance. And it does not make sense to do the same thing over and over; it does not produce performance improvements.
+
+For coaches, it is straightforward to think in terms of a ''training plan''. As in the definition above, it is indeed a sequence of sessions. But even if that definition fits the general idea, it is not operational at all - it does not tell you why some sequences of sessions are good training plans for a person, but not for another, for example. When you need to automate the creation of training plans, such questions become central. What are the parts of a training plan? Should sessions be grouped, why, and how?
+
+Eventually, we used the notion of training period. The following is an informal, non-mathematical description of something called the macro-structure of a training plan, itself a new concept.
+
+\begin{svgraybox}
+A Training Plan has the following structure for every Athlete who is neither Injured nor a Starter:
+
+\begin{enumerate}
+	\item A Training Plan is made of Periods, including Periods called: Base training, Race training, Taper and Recovery; each Training Plan is specific to a Training Goal and to the Athlete Level; (an Introduction period can be defined for Athletes with Starter Athlete Level);
+	\item A Period is made of one or more Blocks;
+	\item A Block is made of Sessions. 
+\end{enumerate}
+
+A convenient way to think about the structure of a Training Plan is that a Session is assigned to a day and that a Block corresponds to a week’s worth of training (a Block does not exactly correspond to a calendar Monday-to-Sunday week, because the first Block does not necessarily begin on Monday). The Period can last up to a few months.
+ 
+This Module – the Macro Training Plan Setup Module – allows the Coach to define as many Training Plan structures as she wishes. The Coach defines a new Training Plan by giving it a name, and associating the Training Plan with Athlete Levels and Training Goals for which the Training Plan should apply. This allows the Coach to define different Training Plans for different Training Goal and Athlete Level combinations. In this Module, the Coach can define new Training Plans, and define the Periods of each Training Plan. For each Period, the Coach defines the name of that Period (e.g., Taper) and defines which Period precedes it and which other Period follows that Period in the Training Plan. The Coach uses other Modules to define Blocks.
+\end{svgraybox}
+
+The text was part of an early version of an explanation, for how one of the many modules works, within one of the various algorithms works. The text is filled with capitalized terms, each having its own definition in the innovation language that we were creating. It makes the text hard to understand in absence of definitions. It is an example of how the language becomes an important tool for the team. 
+
+The language then appears in pseudo-code of the algorithm, the database structure, and software code, ensuring consistency across the many artefacts. The following is a piece of pseudo-code from the specification, followed by the definitions of the terms which appear in it.
+
+\small{
+\begin{verbatim}
+IF ( interval_distance(u,s) = 0 ) 
+  THEN { training_load(u,s) <-- empty; }
+ELSE {
+    IF ( interval_time(u,s) = 0 ) 
+      THEN { training_load(u,s) <-- empty; }
+    ELSE {
+        IF ( interval_recovery_pace(u,s)
+                < interval_distance(u,s) 
+                / interval_time(u,s) )
+          THEN {
+            IF ( interval_recovery_pace(u,s) < 0 ) 
+              THEN { training_load(u,s) <-- empty; }
+            ELSE {
+                training_load(u,s) <-- 
+                actual_DTERM(u,s) 
+                * actual_Q(u,s) 
+                * actual_Density(u,s); }
+            }
+        ELSE { training_load(u,s) <-- empty; } 
+        }
+}
+\end{verbatim}}
+
+\begin{svgraybox}
+\noindent\textbf{Interval Distance:} distance in meters to run in an Interval in a Session.
+
+\noindent\textbf{Interval Time:} Time it takes the Athlete to complete a given Interval Distance.
+
+\noindent\textbf{Training Load:} quantification of effort during training. Training Load is function of Zone, Interval Distance and Interval Count. Training Load is computed using the Training Load Module.
+
+\noindent\textbf{Interval Recovery Pace:} pace to run between interval runs.
+\end{svgraybox}
+
+The names \verb|actual_DTERM|, \verb|actual_Q|, \verb|actual_Density| are defined in the remainder of the algorithm specifications, as functions over other variables there.
+
+The example above, even if trivial, illustrates the important idea that an innovation language can be a significant record of the content of the innovation process, and as such appears throughout the various artefacts an innovation process may produce.
+
+
+
+
+
+\newpage
+
+
+\chapter{Defining to Destroy}\label{c:plastic-definition}
+
+
+
+
+\section{Can General Dictionaries and Encyclopedia Help?}
 If there is reason to worry about the shared understanding of words, the natural reaction is to go and have this settled with a dictionary. 
 
 \begin{quote}
