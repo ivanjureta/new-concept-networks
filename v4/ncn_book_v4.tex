@@ -48,6 +48,8 @@
 \newenvironment{pycode}{\VerbatimEnvironment\begin{minted}[linenos,tabsize=2,breaklines]{python}}{\end{minted}}
 \newcommand{\ncn}{NCN}
 \newcommand{\ncnf}{New Concept Network}
+\newcommand{\newterm}[1]{\begin{quote}\textsf{#1}\end{quote}}
+\newcommand{\nterm}[1]{\textsf{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -166,8 +168,8 @@ September 2019\hfill {\it }\\
 \label{pt-1}
 \end{partbacktext}
 
+%%%%%%%%
 \chapter{Appreciating Disagreement over New Ideas}\label{c:introduction}
-%\chaptermark{}
 
 %\abstract{}
 
@@ -338,9 +340,9 @@ I started doing fieldwork in teams tasked with innovation in spring of 2007. Up 
 
 My initial aim with fieldwork was to understand how requirements engineering is done in such contexts. At the time, I was close to completing and defending my doctoral thesis on the notion of quality in requirements engineering. One of the important personal observations that came out of being confronted to predominantly academic discussions on what requirements are, how to elicit, analyze, document, negotiate, verify, and validate them, was that there must be interesting research questions in the field. Moreover, I was convinced that to have a relevant discussion, one has to have experienced hard requirements problems. I thought the hardest ones must be those where requirements are not known up front, where they are formed through the process itself, which means that requirements are unstable, inconsistent, incoherent, and the problem itself, so-called requirements problem, is not a given, but formed thgouth many decisions and iterations. Hence my interest in innovation, and specifically in particularly adverse conditions of low resources, small teams, and ambitious goals, that is, technology startups.
 
-Besides many other interesting questions and results that came from fieldwork, perhaps the most interesting one seems quite simple in retrospect. Twelve years later, this led to the notion of \ncnf s. 
+Besides many other interesting questions and results that came from fieldwork, the most interesting one seems quite simple in retrospect. Twelve years later, this led to the notion of \ncnf s. 
 
-\ncnf s come from a seemingly trivial practice I considered to be basic hygene in innovation processes that I was getting myself into. As soon as we would start working, even when even brainstorming was going into many directions, I insisted on writing down keywords, key terms that popped up in those sessions, and more generally in all team communication, and sending my definitions of these terms to the team, prompting them for feedback. 
+\ncnf s come from a seemingly trivial practice I considered to be basic hygene in innovation processes that I was getting myself into. As soon as we would start working, even when even brainstorming was going into many directions, I insisted on writing down keywords, key terms that popped up in those sessions, and more generally in all team communication, and sharing a tentative definition of each with the team, asking everyone to either accept them or suggest changes. 
 
 Most of the people involved were surprised, but interested, while some saw this as futile, a distraction even. Ideas changed so fast. What good does it to to try to define them? Isn't definition something we should do later? These questions kept coming back.
 
@@ -354,13 +356,18 @@ Where I was able to observe the use of such changing terminologies of new terms,
 
 The next five chapters present data from startups where we were defining new terms for new ideas. Each Chapter is a different innovation process, spanning anywhere between 3 months to 4 years. At the time, these did not benefit fully from the methods outlined in this book, especially those presented in Part \ref{pt-3}. They did, however, involve the writing, revision, rewriting of definitions for terms that were meant to convey new ideas, and as such led to the production of sets of definitions which constitute \ncnf s.
 
+
+%%%%%%%%
 \chapter{Defining New Contracting Processes}\label{c:case:consulting-contracts}
+
+\section{Background}
 In 2017, a team that combined business consultants, product designers, and software engineers, was asked to invent a process and supporting software, which would together speed up the negotiation of simple business consultancy contracts. 
 
 These contracts involve always only two parties, where one delivers intellectual services to the other. The service provider is compensated at an agreed hourly rate. The contracting process goes from how they identify each other, i.e., get matched, through negotiation of deliverables, timelines, and price. The blueprint of the process that we were to invent would serve for the production of a software, which would be used by both sides.
 
 When we started, the default way to negotiate such a contract, is for the service provider, or consultant, and the client to hold meetings, and communicate in other ways, until both parties were confident enough to agree on terms and commit. It is a frequent, but unstructured process. It is hard to repeat, measure, and improve. It can take varying amounts of time, and end in no contract at all.
 
+\section{Challenges}
 The initial discussion session focused on identifying the benefits that the new approach would have for buyers and providers of services. Quickly, many questions arose, key among them being the following:
 \begin{itemize}
 	\item How do we move a complex process, in which key discussions and decisions are made through live communication, to asynchronous communication, where much now needs to happen through writing? 
@@ -376,35 +383,31 @@ We spent the next three months proposing, testing, changing, refining, throwing 
 
 We produced various artefacts during the innovation process. Drawings, diagrams, algorithm specifications, working prototypes of potential pieces of the future software, interview guides to use with pilot buyers and providers are some of them. 
 
-A list of definitions of new terms was the sole artefact which was made in the first days, and remained relevant throughout the innovation process, in that it was used and debated by everyone on the team. It was a notoriously unstable artefact, changing frequently to reflect key design decisions, open questions and dilemmas.
+A list of definitions of new terms was the sole artefact which was made in the first days, and remained relevant throughout the innovation process -- it was indeed used and debated by everyone on the team. It was also a notoriously unstable artefact, changing frequently to reflect key design decisions, open questions and dilemmas.
 
+\section{New Terms and Definitions}
+As soon as we started working, we needed specific terms for the parties in this process, the roles they can have, and the object of their negotiations. We started with ''client'', ''consultant'', and ''service''. The reason for these terms was simple: everyone had some general understanding of these, even if we would end up abandoning those generic definitions in favor of new ones, specific to the challenges we had. 
 
+We started with the following initial definitions for the three terms. 
 
-% STOPPED HERE
+\newterm{Client: Party interested in having a Service completed by a Consultant.}
+\newterm{Consultant: Party which performs a Service for a Client.}
+\newterm{Service: The collaboration of one specific Consultant and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.}
 
+Definitions embed design decisions. A \nterm{Client} is not necessarily someone or something that has agreed to have a service delivered, but anyone who shows interest. It is thus not a ''client'' as defined in Oxford English Dictionaries:
+\begin{quote}
+	''Client: A person or organization using the services of a lawyer or other professional person or company.'' \cite{oed-client}
+\end{quote}
 
+If \nterm{Client} were defined, instead, as something that exists only if a \nterm{Service} exists, then one obvious implication is that we need one more term, for that party in negotiations which is interested in getting the \nterm{Service}. This shouldn't be surprising if you ever were exposed to how marketers think of a marketing funnel; more on that later.
 
-The team needed specific terms for the parties in this process, the roles they can have, and the object of their negotiations. This gave the following terms.
+Who can be a \nterm{Client}, and who a \nterm{Consultant}? Can a party which is in one \nterm{Service} a \nterm{Client}, be a \nterm{Consultant} in another \nterm{Service}? Answers to these questions influence the design of the process, that is, are part of decisions that shape the negotiation process.
 
-\begin{svgraybox}
-\textbf{Client:} Party which is interested in having a Service completed by a Consultant.
-\end{svgraybox}
+Notice how a plain definition, one in a natural language dictionary, of client no longer works for this team. If a client is by default ''a person or organization using the services of a lawyer or other professional person or company'' \cite{oed-client} then not every client is a \nterm{Client}, since the default definition seems to require a contract to be in place. How else would the person or organization be using services?
 
-\begin{svgraybox}
-\textbf{Consultant:} Party which performs a Service for a Client.
-\end{svgraybox}
+The point is not to debate if OED's client or \nterm{Client} are better for this team, in relation to the problem they are solving. The point is, instead, that once the term \nterm{Client} is defined by that team, then their communication about \nterm{Clients} requires everyone to know that definition. If not, then there will be misunderstandings that cause useless disagreements.
 
-\begin{svgraybox}
-\textbf{Service:} The collaboration of one specific Consultant and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.
-\end{svgraybox}
-
-Definitions embed design decisions. A Client is not necessarily someone or something that has agreed to have a service delivered, but anyone who shows interest. If Client were defined, instead, as something that exists only if a Service exists, then one obvious implication is that we need one more term, for that party in negotiations which is interested in getting the Service.
-
-Who can be a Client, and who a Consultant? Can a party which is in one Service a Client, be a Consultant in another Service? Answers to these questions influence the design of the process, that is, are part of decisions that shape the negotiation process.
-
-Notice how a plain definition, one in a natural language dictionary, of client no longer works for this team. If a client is by default ''a person or organization using the services of a lawyer or other professional person or company'' \cite{def-client} then not every client is a Client, since the default definition seems to require a contract to be in place. How else would the person or organization be using services?
-
-The point is not to debate if client or Client are better for this team, in relation to the problem they are solving. The point is, instead, that once the term Client is defined by that team, then their communication about Clients requires everyone to know that definition. If not, then there will be misunderstandings.
+% % % % % STOPPED HERE
 
 So far, the innovation language of this team has three terms. None of them shows how we decided to speed up that unstructured negotiation process. Our approach was to add constraints to it, to make it more specific by taking the following assumption seriously: negotiation can be sped up if it is clear what needs to be negotiated, i.e., which parameters of the Service, and if negotiations can only last a fixed amount of time. We introduced the notion of Negotiation Phase.
 
