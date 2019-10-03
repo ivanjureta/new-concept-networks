@@ -32,6 +32,7 @@
   basicstyle=\ttfamily,
   columns=fullflexible,
 }
+\usepackage[normalem]{ulem} % for strking through text
 % 
 \usepackage[refsection=chapter]{biblatex}
 \addbibresource{book_references.bib}
@@ -420,11 +421,26 @@ We realized already at the very start that the starting point was too generic. I
 
 ''Marketplace'' and \nterm{marketplace} may be the same nouns, but they have significantly different definitions. One  difference is specificity. Another difference is the absence to a market independently of the place, which is software in our case, where the supply and demand would meet. Even if ''marketplace'' is certainly no neologism, we did have a meaning for it that was different from a generic one. At the same time, and to the best of our knowledge, there were no comparable marketplaces available, which might include terms defined in a similar way.  
 
-Specificity was also clear in definitions of the remaining terms \nterm{company}, \nterm{expert}, \nterm{project}, and \nterm{deal}.
+You may disagree with how we defined \nterm{Marketplace}, but the details of that do not matter for the moment; it was useful at that time, and stayed so only for a short while. The interesting question is what we did once we had that first definition. 
 
-\newterm{Experts: Individuals looking for an efficient way to find work for leading companies they can help the most, and which will pay high rates.}
+Figure \ref{fig-steps-1} shows an idealized sequence of next steps we took. I say idealized, because the illustration abstracts away discussions, offline and online, which we did to get through those four steps. 
 
-\newterm{Companies: Mid-size information technology businesses looking for people who are experts in the same technologies, products, services, with real contacts in the markets where the business is interested to establish itself.}
+\begin{figure}[p]
+ \centering
+ \includegraphics[width=\textwidth]{fig-steps-1.pdf}
+ \caption{}
+ \label{fig-steps-1}
+\end{figure}
+
+In the Figure, Step 1 shows the term \nterm{Marketplace} and its definition, same as the one above. Step 2 shows where that definition mentions \nterm{Company} and \nterm{Expert}. We then made a definition for \nterm{Company}, shown in Step 3, and subsequently one for \nterm{Expert}, in Step 4.
+
+Leaving aside the specifics of those definitions, the important observation is that once we have one definition, we can grow a network around it. The network shows how one definition depends on another one, and to some extent how the meaning intended for one concept depends on the meaning of the other.
+
+Returning to specificity, it was also clear in definitions of the remaining terms \nterm{company}, \nterm{expert}, \nterm{project}, and \nterm{deal}. 
+
+\newterm{Expert: Individual looking for an efficient way to find work for leading companies they can help the most, and which will pay high rates.}
+
+\newterm{Company: Mid-size information technology business looking for people who are experts in the same technologies, products, services, with real contacts in the markets where the business is interested to establish itself.}
 
 \newterm{Project: List of deliverables, dates at which deliverables should be provided by expert to company, and budget that the company will pay in return the expert.}
 
@@ -434,70 +450,51 @@ Are these definitions precise, accurate, clear? None of them is.
 
 In the definition of \nterm{marketplace}, at the very least, we have to be precise about what mid-size companies means, as this may be a marketing or a legal category, and if it is the latter, then we need to say what the applicable geography is, namely, which country or countries the software will be available in. The category ''information technology'' also needs a definition, which can start from a generic one, but may also need to be made more specific, or replaced altogether. 
 
-The more general, and important point, is that for each definition, we need to break it down and consider individually each term that it mentions. 
+The more general, and important point, is that for each definition, we need to break it down and consider individually each term that it mentions. Doing that also grows the network. Step 5 in Figure \ref{fig-steps-2} shows more terms, in rectangles, which need definitions, and which are mentioned by \nterm{Marketplace}. We grow the network by assuming each of these should have a general defintion, and then make changes and removals if the team disagrees. This works if the term is not a neologism; if it is, a definition needs to be made for it. Step 6 in that Figure shows just how fast this network will grow, since all terms in rectangles will have need a definition, be it new, or one from a dictionary or a terminology.
 
-Interestingly, \nterm{marketplace} was eventually removed from the \ncn. It was replaced with the term \nterm{product}, which had a simple definition. 
+\begin{figure}[p]
+ \centering
+ \includegraphics[width=\textwidth]{fig-steps-2.pdf}
+ \caption{}
+ \label{fig-steps-2}
+\end{figure}
 
-\newterm{Product: Software offered for use to stakeholders.}
+Notice that \nterm{Deal} and \nterm{Project} do not appear in the definitions in Figures \ref{fig-steps-1} and \ref{fig-steps-2}. We can see this by showing only the terms highlighted in Step 6, and their relationships, as in Figure \ref{fig-steps-3}. 
 
-The terms \nterm{stakeholder} alsow had its own definition in the \ncn. The problem with \nterm{marketplace}, was that it was saying too much about what the software is going to do and who will be using it. As we were deciding what exactly that will be, and how it will work, our commitments about both of these questions became parts of definitions of other terms, which were more specific; eventually, in other words, \nterm{marketplace} became useless because we had more to say about how that marketplace will be working, and whom for. We broke that term down into pieces and defined each piece separately.
+\begin{figure}[]
+ \centering
+ \includegraphics[width=10cm]{fig-steps-3.pdf}
+ \caption{}
+ \label{fig-steps-3}
+\end{figure}
+
+We said at the starting point that \nterm{Companies} are looking for \nterm{Experts} precisely because of the interest in getting new deals signed and projects completed. The network does not reflect this, leading to changed defintions as follows. Removed parts are striked through, new parts are underlined.  
+
+\newterm{Marketplace: Online software which mid-size information technology companies would use to find and contract with business development experts who can help these companies \sout{expand into other territories} \uline{complete projects and get deals signed}.}
+
+Interestingly, \nterm{Marketplace} was eventually removed from the \ncn. It was replaced with the term \nterm{product}, which had a simple definition. 
+
+\newterm{Product: Software offered for use to Stakeholders.}
+
+\nterm{Stakeholder} also had its own definition in the \ncn. \nterm{Product}'s definition looks poorer than the one for \nterm{Marketplace}. The problem with \nterm{Marketplace}, was that it was saying too much too loosely about what the software is going to do and who will be using it. It was not loose at the starting point, but became so as we progressed in deciding what exactly the software will be, and how it will work, our commitments about both of these questions became parts of definitions of other terms, which were more specific, and which together gave a clearer idea of the product; eventually, in other words, \nterm{Marketplace} became useless -- it was removed, \nterm{Product} replaced it, together with many other terms which covered, refined, or changed what we initially had in the definition of \nterm{Marketplace}.
 
 
+\section{Structuring the Contracting Process}
+We now go forward, to the point at which we were concerned with how to speed up the unstructured contracting process. Our approach was to add constraints to it, to make it more specific by taking the following assumption seriously: negotiation can be sped up if it is clear what needs to be negotiated and if negotiations can only last a fixed amount of time. We introduced the notion of \nterm{Negotiation Phase}.
 
-\newpage
+\newterm{Negotiation Phase: Part of the negotiation process which has a fixed duration and a structured set of Negotiation Phase Outputs.}
 
+Having decided that the \nterm{Negotiation Process} would have some unknown number of \nterm{Negotiation Phases}, we had to define its phases. The first that seemed appropriate, was a phase during which the Consultant and Client would set goals of their collaboration. This led us to introduce the Goal Setting Phase, as a type of Negotiation Phase, and to define Goal Setting Outputs.
 
-\newterm{Client: Party interested in having a Service completed by a Consultant.}
-\newterm{Consultant: Party which performs a Service for a Client.}
-\newterm{Service: The collaboration of one specific Consultant and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.}
+\newterm{Goal Setting Phase: A Negotiation Phase, which lasts up to 14 calendar days, whose aim is for the Consultant and Client to approve a nonempty set of Service Goals.}
 
-
-
-we needed specific terms for the parties in this process, the roles they can have, and the object of their negotiations. We started with ''client'', ''consultant'', and ''service''. The reason for these terms was simple: everyone had some general understanding of these, even if we would end up abandoning those generic definitions in favor of new ones, specific to the challenges we had. 
-
-We started with the following initial definitions for the three terms. 
-
-\newterm{Client: Party interested in having a Service completed by a Consultant.}
-\newterm{Consultant: Party which performs a Service for a Client.}
-\newterm{Service: The collaboration of one specific Consultant and one specific Client, and under the rules and guidelines set out by the Service Contract to which they have both agreed.}
-
-Definitions embed design decisions. A \nterm{Client} is not necessarily someone or something that has agreed to have a service delivered, but anyone who shows interest. It is thus not a ''client'' as defined in Oxford English Dictionaries:
-\begin{quote}
-	''Client: A person or organization using the services of a lawyer or other professional person or company.'' \cite{oed-client}
-\end{quote}
-
-If \nterm{Client} were defined, instead, as something that exists only if a \nterm{Service} exists, then one obvious implication is that we need one more term, for that party in negotiations which is interested in getting the \nterm{Service}. This shouldn't be surprising if you ever were exposed to how marketers think of a marketing funnel; more on that later.
-
-Who can be a \nterm{Client}, and who a \nterm{Consultant}? Can a party which is in one \nterm{Service} a \nterm{Client}, be a \nterm{Consultant} in another \nterm{Service}? Answers to these questions influence the design of the process, that is, are part of decisions that shape the negotiation process.
-
-Notice how a plain definition, one in a natural language dictionary, of client no longer works for this team. If a client is by default ''a person or organization using the services of a lawyer or other professional person or company'' \cite{oed-client} then not every client is a \nterm{Client}, since the default definition seems to require a contract to be in place. How else would the person or organization be using services?
-
-The point is not to debate if OED's client or \nterm{Client} are better for this team, in relation to the problem they are solving. The point is, instead, that once the term \nterm{Client} is defined by that team, then their communication about \nterm{Clients} requires everyone to know that definition. If not, then there will be misunderstandings that cause useless disagreements.
-
-% % % % % STOPPED HERE
-
-So far, the innovation language of this team has three terms. None of them shows how we decided to speed up that unstructured negotiation process. Our approach was to add constraints to it, to make it more specific by taking the following assumption seriously: negotiation can be sped up if it is clear what needs to be negotiated, i.e., which parameters of the Service, and if negotiations can only last a fixed amount of time. We introduced the notion of Negotiation Phase.
-
-\begin{svgraybox}
-\textbf{Negotiation Phase:} Part of the negotiation process which has a fixed duration and a structured set of Negotiation Phase Outputs.
-\end{svgraybox}
-
-Having decided that the negotiation process would have some unknown number of Negotiation Phases, we had to decide which phases it could have. The first that seemed appropriate, was a phase during which the Consultant and Client would set goals of their collaboration. This led us to introduce the Goal Setting Phase, as a type of Negotiation Phase, and to define Goal Setting Outputs.
-
-\begin{svgraybox}
-\textbf{Goal Setting Phase:} A Negotiation Phase, which lasts up to 14 calendar days, whose aim is for the Consultant and Client to approve a nonempty set of Service Goals.
-\end{svgraybox}
-
-\begin{svgraybox}
-\textbf{Goal Setting Outputs:} A statement of goals of a Service.
-\end{svgraybox}
+\newterm{Goal Setting Outputs: A statement of goals of a Service.}
 
 This language quickly grew to a few dozen terms, and their definitions embedded our decisions in designing the negotiation process. As we progressed in the design, terms were revised, changed, some were removed.
 
 One of the changes involved introducing the notion of Project, as a type of Service, defined as follows.
 
-\begin{svgraybox}
-\textbf{Project:} Service in which:
+\newterm{Project: Service in which:
 \begin{itemize}
 \item Client's Key Expectation is to have the Consultant achieve specific Goals on each of the agreed Targets,
 \item Consultant's Key Expectations are:
@@ -505,8 +502,7 @@ One of the changes involved introducing the notion of Project, as a type of Serv
 	\item To receive Consultant Project Fee, AND
 	\item To create Accounts, which, if the Consultant manages (during the Tail) to convert into Deals, will yield the Consultant the payment of the Deal Commission.
 \end{itemize}
-\end{itemize}
-\end{svgraybox}
+\end{itemize}}
 
 Note the additional terms this involves, namely Key Expectation, Target, Account, Tail, Deal, Consultant Project Fee, and Deal Commission. I leave them undefined here.
 
@@ -516,8 +512,7 @@ As we were progressing in the design of the negotiation process, the scope of th
 
 At some point in the design, we converged to the following structure of Project Phases.
 
-\begin{svgraybox}
-\textbf{Project Phases:} Project Phases are:
+\newterm{Project Phases: Project Phases are:
 \begin{itemize}
 \item Call For Help, in which a Client posts an Opportunity;
 \item Proposal, in which a Consultant responds to the Opportunity;
@@ -525,12 +520,11 @@ At some point in the design, we converged to the following structure of Project 
 \item Delivery, in which the Consultant does Tasks to achieve Goals, and creates Accounts for the Client;
 \item Approval, in which the Client confirms that Goals are met and Project is completed, and provides feedback on the Consultant;
 \item Continuation, in which the Client decides if and how to continue collaboration with the Consultant.
-\end{itemize}
-\end{svgraybox}
+\end{itemize}}
 
 We grew the set of terms, refined it and their definitions, while deciding how the processes should work. That ''how'' means setting rules the process should satisfy. We used the terms to define the rules. Here is a sample, on Project execution.
 
-\begin{svgraybox}
+\newterm{
 \begin{enumerate}
 \item In Call For Help and Proposal Project Phases, Matching Consultants are shown to Client only in an anonymized format, so that their full name and contact information cannot be known to the Client.
 \item Contracting Phase lasts one week, with the possibility on demand to extend this by one or more increments of two calendar days each.
@@ -551,7 +545,7 @@ We grew the set of terms, refined it and their definitions, while deciding how t
 \item Client should be able to provide feedback and ratings on all Projects.
 \item Retainer as a mechanism for extending Services should only be available to Client and Consultants who are involved already for several months in an ongoing Service.
 \end{enumerate}
-\end{svgraybox}
+}
 
 These rules show how the terms become building blocks of the artifacts that the team is designing. In turn, rules placed further constraints on the meaning we wanted the terms to have. Rule 8, for example, tells us that an Opportunity Response must specify Effort Estimate and Hourly Price, without these it is not an Opportunity Response. 
 
