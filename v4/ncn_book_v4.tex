@@ -484,10 +484,42 @@ Starting from the initial definition of \nterm{Marketplace}, we expanded the net
 
 That initial network evolved in two directions in parallel, the service that the product would be delivering, and the stakeholders involved in that service. In addition, many terms were added to capture various kinds of data and actions of the software which supports service delivery.
 
-An important change in stakeholder-related terms happened when we started making the distinction between stakeholders in the domain and the representation of some of them in the software, i.e., the data that the software holds about them.
+An important change in stakeholder-related terms happened when we started making the distinction between stakeholders in the domain and the representation of some of them in the software, i.e., the data that the software holds about them. 
 
+We saw this as a distinction between domain and in-product stakeholders, leading us to distinguish what an \nterm{Expert} is in the domain, independently of the data we have about them in the product, if at all, and what we consider, in the product, as a representation of any \nterm{Expert}, what we called \nterm{Expert User}. Here are the two definitions.
 
+\newterm{Expert: Individual looking for an efficient way to find work for leading companies they can help the most, and which will pay high rates.}
 
+\newterm{Expert User: Data that the Product holds about an Expert who registered.}
+
+There is a lot to say about the definition of \nterm{Expert User}, and what needs to be changed in it. Before making such changes, observe the following:
+\begin{enumerate}
+	\item The definition does not say which data is held about an \nterm{Expert}. Eventually, we need to be precise about this and define all data that we want it to hold. 
+	\item Data can be about \nterm{Experts} who registered. The definition is silent on data that we may have about experts in the domain who might want to register, but haven't done so yet. One way to put this, is that the \nterm{Product} does not hold marketing data about experts in the domain whom we may want to market the \nterm{Product}. 
+	\item The definition ignores the important distinction between data which the person, the expert provided explicitly, that is, typed in or uploaded to the \nterm{Product}, and data which she generated through the usage of the \nterm{Product}. 
+\end{enumerate}
+
+Let's consider these in turn, since addressing each leads to important changes in the definition of \nterm{Expert User}, but also requires decisions from the team which have much broader effects than the definition itself. 
+
+The first and third point are closely related. A first improvement to the definition would be simply to be clear that \nterm{Expert User} is indeed defined through both user-provided and product-generated data about that user's activities. So a first iteration could be the following.
+
+\newterm{Expert User: Data that the Product holds about an Expert who registered\uline{, which covers both data which the Expert provided when registering and later, by inputting or uploading it herself, and the data which was collected through Expert's use of the Product}.}
+
+This is no small change, since it matters for the design decisions about the \nterm{Product}, its legal compliance, and how the terms and conditions for it are written. 
+
+The second point, which says that the \nterm{Product} holds no data about \nterm{Experts} who did not (but might) register, can be reinforced as follows.
+
+\newterm{Expert User: Data that the Product holds \uline{only about Experts who registered to the Product} \sout{about an Expert who registered}, which covers both data which the Expert provided when registering and later, by inputting or uploading it herself, and the data which was collected through Expert's use of the Product.}
+
+We can continue attacking this definition, and progress through additional iterations. One attack that requires more substantial changes, is to ask which exact data the \nterm{Product} will hold about an \nterm{Expert}.
+
+There are many ways to answer that question, and it can be done at various levels of detail. Just how much detail will be needed depends on the expertise and experience of the team members in designing data stuctures for software products, in general. Let's look at a few iterations.
+
+The first thing to do, to make this easier, is to introduce a new notion, \nterm{Expert User Data}, so that we can now work on that definiton separately from that of \nterm{Expert User}. This led to changing \nterm{EXpert User} to this, where we now have two kinds of data to define separately, \nterm{Expert User Profile Data} and \nterm{Expert User Activity Data}.
+
+\newterm{Expert User: Data that the Product holds only about Experts who registered to the Product, which covers Explicit Expert User Profile Data and Expert User Activity Data. \sout{both data which the Expert provided when registering and later, by inputting or uploading it herself, and the data which was collected through Expert's use of the Product.}}
+
+We then provide a list of data which we want to collect as part of user's profile. 
 
 
 
