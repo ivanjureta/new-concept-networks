@@ -513,14 +513,39 @@ The second point, which says that the \nterm{Product} holds no data about \nterm
 
 We can continue attacking this definition, and progress through additional iterations. One attack that requires more substantial changes, is to ask which exact data the \nterm{Product} will hold about an \nterm{Expert}.
 
-There are many ways to answer that question, and it can be done at various levels of detail. Just how much detail will be needed depends on the expertise and experience of the team members in designing data stuctures for software products, in general. Let's look at a few iterations.
+There are many ways to answer that question, and it can be done at various levels of detail. Just how much detail will be needed depends on the expertise and experience of the team members in designing data stuctures for software products, but more importantly, will also change as they understand better the data they want to get and keep, and why, about \nterm{Experts}. Let's look at a few iterations.
 
-The first thing to do, to make this easier, is to introduce a new notion, \nterm{Expert User Data}, so that we can now work on that definiton separately from that of \nterm{Expert User}. This led to changing \nterm{EXpert User} to this, where we now have two kinds of data to define separately, \nterm{Expert User Profile Data} and \nterm{Expert User Activity Data}.
+The first thing to do, to make this easier, is to introduce new notions for the entities we want to develop in detail and scope further, without putting more weight in the definition of \nterm{Expert User}. We now have two kinds of data to define separately, \nterm{Expert User Profile Data} and \nterm{Expert User Activity Data}.
 
-\newterm{Expert User: Data that the Product holds only about Experts who registered to the Product, which covers Explicit Expert User Profile Data and Expert User Activity Data. \sout{both data which the Expert provided when registering and later, by inputting or uploading it herself, and the data which was collected through Expert's use of the Product.}}
+\newterm{Expert User: Data that the Product holds only about Experts who registered to the Product, which covers Expert User Profile Data and Expert User Activity Data. \sout{both data which the Expert provided when registering and later, by inputting or uploading it herself, and the data which was collected through Expert's use of the Product.}}
 
-We then provide a list of data which we want to collect as part of user's profile. 
+Now, the definition of \nterm{Expert User} depends on two other new terms, which we had no prior definition for. They are new terms. We then provide a list of data which we want to collect as part of user's profile. 
 
+\newterm{Expert User Profile Data: Consists of the following data about an Expert: First name, Last name, Contact phone number, Email address, Scan of the photo page in the passport.
+}
+
+This definition will not last long. At the time, the team argued that the more data we have, the more value we can provide to the \nterm{Expert}; we can better recommend \nterm{Projects} and identify potential \nterm{Deals} that the \nterm{Expert} can be helpful on. Now, it is important to see that such discussions are not remote or disconnected from the definition, and that any decision we make should be reflected in one or other definition. Here is another iteration of the same term's definition.
+
+\newterm{Expert User Profile Data: Consists of the following data about an Expert: 
+\begin{itemize}
+	\item First name
+	\item Last name
+	\item Maiden name
+	\item Location
+	\item Summary
+	\item Email address
+	\item Mobile phone
+	\item Services
+	\item Technology expertise
+	\item Regions
+	\item Industries
+	\item Accounts
+	\item Hourly fee
+	\item Deal Commission
+\end{itemize}
+}
+
+Expecting that most of these will persist future iterations of the definition, each had to get its own definition. Needless to say, the network started growing quite quickly, and was far from covering much of the \nterm{Product}'s scope, let alone that of the \nterm{Service} that the \nterm{Product} was to support.
 
 
 
