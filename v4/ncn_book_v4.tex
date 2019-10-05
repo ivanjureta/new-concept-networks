@@ -545,7 +545,107 @@ This definition will not last long. At the time, the team argued that the more d
 \end{itemize}
 }
 
-Expecting that most of these will persist future iterations of the definition, each had to get its own definition. Needless to say, the network started growing quite quickly, and was far from covering much of the \nterm{Product}'s scope, let alone that of the \nterm{Service} that the \nterm{Product} was to support.
+Expecting that most of these will persist future iterations of the \nterm{Expert User Profile Data}, each had to get its own definition. Needless to say, the network started growing quite quickly, and was far from covering much of the \nterm{Product}'s scope, let alone that of the \nterm{Service} that the \nterm{Product} was to support.
+
+In parallel with finding which data to hold about an \nterm{Expert}, we were considering \textit{how} to get this data; indeed, much of it may simply not be available, or \nterm{Experts} may not go through the trouble of providing it, because they may see no reason for us to have such data about them.
+
+One of the ideas that led to important changes in data definitions, was that much of this data was already provided by \nterm{Experts}, but on other products which may or may not have similar aims as the one we were creating. We identified one such product, called Product-B below, which was open to sharing data as long as the person accepts to have her data shared. 
+
+\newterm{First name: First name, copied from first name on Product-B Profile.}
+\newterm{Last name: Last name, copied from last name from Product-B Profile.}
+\newterm{Maiden name: Maiden name, copied from maiden name on Product-B Profile.}
+\newterm{Current position: Value copied from headline on Product-B Profile.}
+\newterm{Location: Value copied from headline on Product-B Profile.}
+% \newterm{Summary: Summary, prefilled with summary from Product-B Profile (if available via Product-B application programming interface).}
+
+In addition, we had to ask the \nterm{Expert} for the following data, independently from them being available on a different product. While \nterm{Email address}, or \nterm{Mobile phone number} certainly are common terms, they are specific on the \nterm{Product} in terms of where they are provided by the \nterm{Expert}; provenance makes them specific.
+
+\newterm{Email address: Value input email field of Expert contact Form.}
+\newterm{Mobile phone: Value input in mobile phone field of Expert contact Form.}
+\newterm{Services: One or more of the following values, selected in the Expert profile form:
+\begin{itemize}
+	\item Make introductions to clients prospects in your network,
+	\item Help clients move deals along by sharing your expertise,
+	\item Help clients move deals along by sharing your expertise,
+	\item Help clients find resellers or other channel partners,
+	\item Help clients find resellers or other channel partners,
+	\item Educate clients on entering your market of expertise,
+	\item Help clients develop a strategic plan for growth,
+	\item Join a sales team on a contract basis.
+\end{itemize}
+}
+
+We approached in a similar way the definition of other data with which the \nterm{Expert} describes herself, such as \nterm{Technology expertise}.
+
+\newterm{
+	One or more of the following values, selected in the Expert profile form:
+	\begin{itemize}
+		\item CRM \& Sales,
+		\item Marketing,
+		\item Accounting \& Finance,
+		\item Analytics,
+		\item CAD \& PLM,
+		\item Collaboration \& Productivity,
+		\item Content Management,
+		\item Digital Advertising,
+		\item E-Commerce,
+		\item Hosting Services,
+		\item HR,
+		\item IT Infrastructure,
+		\item IT Management,
+		\item Cybersecurity.
+	\end{itemize}
+}
+
+The data above came from asking the \nterm{Expert} for it. In addition, recall that we have \nterm{Expert User Activity Data}, which is what we want the \nterm{Product} to collect about the person's activity in \nterm{Projects} and \nterm{Deals}.
+
+\newterm{
+	Expert User Activity Data: Includes the following data: 
+	\begin{itemize}
+		\item Average time between the datetime when Expert User is notified of an RfP, and the datetime when she submits her Proposal to Company,
+		\item Maximal (longest) of all times between between the datetime when Expert User is notified of an RfP, and the datetime when she submits her Proposal to Company,
+		\item Minimal (shortest) of all times between between the datetime when Expert User is notified of an RfP, and the datetime when she submits her Proposal to Company,
+		\item Total number of Projects completed, since becoming Expert User,
+		\item Average number of Projects completed per Company since becoming Expert User,
+		\item Total number of Successful Projects,
+		\item Testimonials,
+		\item For each Testimonial, the response which Expert provided to that Testimonial,
+		\item Number of Projects in which the Expert is involved and which are not completed,
+		\item Total number of Deals completed, since becoming Expert User,
+		\item Average number of Deals completed per Company since becoming Expert User,
+		\item Total number of Successful Deals,
+		\item Testimonials,
+		\item Number of Deals in which the Expert is involved and which are not completed.
+	\end{itemize}
+}
+
+Here is one iteration of definitions of these terms.
+
+\newterm{Average time to respond to RfP: Average time between the datetime when Expert User is notified of an RfP, and the datetime when she submits her Proposal to Company.}
+\newterm{Longest time to respond to RfP: Maximal (longest) of all times between between the datetime when Expert User is notified of an RfP, and the datetime when she submits her Proposal to Company.}
+\newterm{Shortest time to respond to RfP: Minimal (shortest) of all times between between the datetime when Expert User is notified of an RfP, and the datetime when she submits her Proposal to Company.}
+\newterm{Total number of Projects completed: Total number of Projects completed, since becoming Expert User.}
+\newterm{Average number of Projects completed per Company: Average number of Projects completed per Company since becoming Expert User.}
+\newterm{Total number of successfully completed Projects: Total number of Successful Projects.}
+\newterm{All Project Testimonials received since becoming Expert User: Testimonials.}
+\newterm{For each Testimonial, a Testimonial Respose: For each Testimonial, the response which Expert provided to that Testimonial.}
+\newterm{Ongoing Projects: Number of Projects in which the Expert is involved and which are not completed.}
+\newterm{Total number of Deals completed: Total number of Deals completed, since becoming Expert User.}
+\newterm{Average number of Deals completed per Company: Average number of Deals completed per Company since becoming Expert User.}
+\newterm{Total number of successfully completed Deals: Total number of Successful Deals.}
+\newterm{All Deals Testimonials received since becoming Expert User: Testimonials.}
+\newterm{Ongoing Deals: Number of Deals in which the Expert is involved and which are not completed.}
+
+Are these definitions precise, accurate, and clear? They are not, and this is probably obvious if you ever had to work with software engineers. Open questions include, for example: Which of this data needs to be validated when it is recorded? What rules should their values be validated against? Which values, for example, cannot be accepted? Which of this data is mandatory, i.e., must be recorded, obtained, or provided by the user in order to register her? Which of this data can be provided once, and never changed again, if any? Is there data which the user provides, but must contact us to change it? And then, there are more technical questions, of database structure, search over this data, its storage, and security, among others. 
+
+If this seems like many new terms, note that this was one of the less complex products that \ncn s were used on. We had about 50 terms that defined the data to hold on an \nterm{Expert}, about 30 terms for data about a \nterm{Company}, and this only kept growing subsequently, as we were considering how the service that the \nterm{Product} supports should be designed. Keep in mind that we also had many additional terms for data about \nterm{Companies}, \nterm{Deals}, \nterm{Projects}, and so on, which took us to a few hundred terms even in the first month or so of the innovation process.
+
+
+\section{Defining the Service, Project, and Deal}
+
+
+
+\section{Defining in and with Data and Process Models}
 
 
 
