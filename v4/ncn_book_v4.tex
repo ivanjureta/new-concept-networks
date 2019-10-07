@@ -526,24 +526,7 @@ Now, the definition of \nterm{Expert User} depends on two other new terms, which
 
 This definition will not last long. At the time, the team argued that the more data we have, the more value we can provide to the \nterm{Expert}; we can better recommend \nterm{Projects} and identify potential \nterm{Deals} that the \nterm{Expert} can be helpful on. Now, it is important to see that such discussions are not remote or disconnected from the definition, and that any decision we make should be reflected in one or other definition. Here is another iteration of the same term's definition.
 
-\newterm{Expert User Profile Data: Consists of the following data about an Expert: 
-\begin{itemize}
-	\item First name
-	\item Last name
-	\item Maiden name
-	\item Location
-	\item Summary
-	\item Email address
-	\item Mobile phone
-	\item Services
-	\item Technology expertise
-	\item Regions
-	\item Industries
-	\item Accounts
-	\item Hourly fee
-	\item Deal Commission
-\end{itemize}
-}
+\newterm{Expert User Profile Data: Consists of the following data about an Expert: First name, Last name, Maiden name, Location, Summary, Email address, Mobile phone, Services, Technology expertise, Regions, Industries, Accounts, Hourly fee, Deal Commission.}
 
 Expecting that most of these will persist future iterations of the \nterm{Expert User Profile Data}, each had to get its own definition. Needless to say, the network started growing quite quickly, and was far from covering much of the \nterm{Product}'s scope, let alone that of the \nterm{Service} that the \nterm{Product} was to support.
 
@@ -577,24 +560,7 @@ In addition, we had to ask the \nterm{Expert} for the following data, independen
 
 We approached in a similar way the definition of other data with which the \nterm{Expert} describes herself, such as \nterm{Technology expertise}.
 
-\newterm{
-	One or more of the following values, selected in the Expert profile form:
-	\begin{itemize}
-		\item CRM \& Sales,
-		\item Marketing,
-		\item Accounting \& Finance,
-		\item Analytics,
-		\item CAD \& PLM,
-		\item Collaboration \& Productivity,
-		\item Content Management,
-		\item Digital Advertising,
-		\item E-Commerce,
-		\item Hosting Services,
-		\item HR,
-		\item IT Infrastructure,
-		\item IT Management,
-		\item Cybersecurity.
-	\end{itemize}
+\newterm{Technology expertise: One or more of the following values, selected in the Expert profile form: CRM \& Sales, Marketing, Accounting \& Finance, Analytics, CAD \& PLM, Collaboration \& Productivity, Content Management, Digital Advertising, E-Commerce, Hosting Services, HR, IT Infrastructure, IT Management, Cybersecurity.
 }
 
 The data above came from asking the \nterm{Expert} for it. In addition, recall that we have \nterm{Expert User Activity Data}, which is what we want the \nterm{Product} to collect about the person's activity in \nterm{Projects} and \nterm{Deals}.
@@ -636,96 +602,132 @@ Here is one iteration of definitions of these terms.
 \newterm{All Deals Testimonials received since becoming Expert User: Testimonials.}
 \newterm{Ongoing Deals: Number of Deals in which the Expert is involved and which are not completed.}
 
-Are these definitions precise, accurate, and clear? They are not, and this is probably obvious if you ever had to work with software engineers. Open questions include, for example: Which of this data needs to be validated when it is recorded? What rules should their values be validated against? Which values, for example, cannot be accepted? Which of this data is mandatory, i.e., must be recorded, obtained, or provided by the user in order to register her? Which of this data can be provided once, and never changed again, if any? Is there data which the user provides, but must contact us to change it? And then, there are more technical questions, of database structure, search over this data, its storage, and security, among others. 
+Are these definitions precise, accurate, and clear? They are not, and this is probably obvious if you ever wrote software and/or worked with software engineers. Open questions include, for example: Which of this data needs to be validated when it is recorded? What rules should their values be validated against? Which values, for example, cannot be accepted? Which of this data is mandatory, i.e., must be recorded, obtained, or provided by the user in order to register her? Which of this data can be provided once, and never changed again, if any? Is there data which the user provides, but must contact us to change it? And then, there are more technical questions, of database structure, search over this data, its storage, and security, among others. 
 
 If this seems like many new terms, note that this was one of the less complex products that \ncn s were used on. We had about 50 terms that defined the data to hold on an \nterm{Expert}, about 30 terms for data about a \nterm{Company}, and this only kept growing subsequently, as we were considering how the service that the \nterm{Product} supports should be designed. Keep in mind that we also had many additional terms for data about \nterm{Companies}, \nterm{Deals}, \nterm{Projects}, and so on, which took us to a few hundred terms even in the first month or so of the innovation process.
 
 
 \section{Defining the Service, Project, and Deal}
+Terms which focused on data about \nterm{Experts} and \nterm{Companies}, while important, are only there to support the service that \nterm{Product} should help deliver. We saw \nterm{Projects} and \nterm{Deals} as types of services that \nterm{Experts} would be delivering to \nterm{Companies}. Hence the following definitions.
 
+\newterm{Service: Designates the collaboration of one specific Expert and one specific Company using the Product, and under the rules and guidelines set out by Product Provider and accepted by Expert and
+Company Users.}
 
+It was important for us early on to capture why we assume \nterm{Experts} and \nterm{Companies} would engage on the \nterm{Product}, that is, what each one expets from participating in \nterm{Service} delivery. This led to the \nterm{Key Expectation} concept.
 
-\section{Defining in and with Data and Process Models}
+\newterm{Key Expectation: Indicates the principal reason why a Stakeholder participates in a Service using the Product. That is, designates that which one party (Company or Expert) expects to receive from the counterparty (Expert or Company) in the Service that they participate in.}
 
-
-
-
-\section{Structuring the Contracting Process}
-We now go forward, to the point at which we were concerned with how to speed up the unstructured contracting process. Our approach was to add constraints to it, to make it more specific by taking the following assumption seriously: negotiation can be sped up if it is clear what needs to be negotiated and if negotiations can only last a fixed amount of time. We introduced the notion of \nterm{Negotiation Phase}.
-
-\newterm{Negotiation Phase: Part of the negotiation process which has a fixed duration and a structured set of Negotiation Phase Outputs.}
-
-Having decided that the \nterm{Negotiation Process} would have some unknown number of \nterm{Negotiation Phases}, we had to define its phases. The first that seemed appropriate, was a phase during which the Consultant and Client would set goals of their collaboration. This led us to introduce the Goal Setting Phase, as a type of Negotiation Phase, and to define Goal Setting Outputs.
-
-\newterm{Goal Setting Phase: A Negotiation Phase, which lasts up to 14 calendar days, whose aim is for the Consultant and Client to approve a nonempty set of Service Goals.}
-
-\newterm{Goal Setting Outputs: A statement of goals of a Service.}
-
-This language quickly grew to a few dozen terms, and their definitions embedded our decisions in designing the negotiation process. As we progressed in the design, terms were revised, changed, some were removed.
-
-One of the changes involved introducing the notion of Project, as a type of Service, defined as follows.
+We used the \nterm{Key Expectation} to distinguish \nterm{Project} from \nterm{Deal}. 
 
 \newterm{Project: Service in which:
-\begin{itemize}
-\item Client's Key Expectation is to have the Consultant achieve specific Goals on each of the agreed Targets,
-\item Consultant's Key Expectations are:
-\begin{itemize}
-	\item To receive Consultant Project Fee, AND
-	\item To create Accounts, which, if the Consultant manages (during the Tail) to convert into Deals, will yield the Consultant the payment of the Deal Commission.
-\end{itemize}
-\end{itemize}}
-
-Note the additional terms this involves, namely Key Expectation, Target, Account, Tail, Deal, Consultant Project Fee, and Deal Commission. I leave them undefined here.
-
-What I want to illustrate with the Project term, is how terms are used to write rules about the artifact being designed, and how this influences the definitions of these same terms.
-
-As we were progressing in the design of the negotiation process, the scope of the problem widened. The team was tasked to propose a process which covered structuring and monitoring of a Consultant's execution of a Project for the Client. In other words, when contract is signed, execution starts, and we wanted to look at how to improve the monitoring of that execution. The motive was that we wanted to use that monitoring to evaluate the reputation of both the Client and Consultant, then use these for future recommendations of Consultants to Companies, and vice-versa.
-
-At some point in the design, we converged to the following structure of Project Phases.
-
-\newterm{Project Phases: Project Phases are:
-\begin{itemize}
-\item Call For Help, in which a Client posts an Opportunity;
-\item Proposal, in which a Consultant responds to the Opportunity;
-\item Contracting, in which the Consultant and Client negotiate the Targets, Goals, Tasks, and Project Fee;
-\item Delivery, in which the Consultant does Tasks to achieve Goals, and creates Accounts for the Client;
-\item Approval, in which the Client confirms that Goals are met and Project is completed, and provides feedback on the Consultant;
-\item Continuation, in which the Client decides if and how to continue collaboration with the Consultant.
-\end{itemize}}
-
-We grew the set of terms, refined it and their definitions, while deciding how the processes should work. That ''how'' means setting rules the process should satisfy. We used the terms to define the rules. Here is a sample, on Project execution.
-
-\newterm{
-\begin{enumerate}
-\item In Call For Help and Proposal Project Phases, Matching Consultants are shown to Client only in an anonymized format, so that their full name and contact information cannot be known to the Client.
-\item Contracting Phase lasts one week, with the possibility on demand to extend this by one or more increments of two calendar days each.
-\item Project duration is one calendar month.
-\item When posting an Opportunity, Client must provide at least one Target, and one Goal for that Target.
-\item Project Agreement includes one or more Approved Tasks.
-\item In an Opportunity Response, Consultant provides, for each Goal in each Target, at least one of the following:
-	\begin{enumerate} 
-		\item Acceptance of Task as-is, that is, as set in the Opportunity;
-		\item Rejection of Task as-is;
-		\item At least one Sub-Task.
-		\item Optionally, number of Man-Hours that the Consultant will dedicate to complete the Task or Sub-Task;
-		\item List of zero or more Accounts that the Consultant; 
-		\item Project Fee.
-	\end{enumerate}
-\item In an Opportunity Response, Consultant can input relevant experience to the Targets, Goals, and Tasks in the Opportunity Response.
-\item An Opportunity Response must include Effort Estimate and Hourly Price.
-\item Client should be able to provide feedback and ratings on all Projects.
-\item Retainer as a mechanism for extending Services should only be available to Client and Consultants who are involved already for several months in an ongoing Service.
-\end{enumerate}
+	\begin{itemize}
+		\item Company’s Key Expectation is to have the Expert achieve specific Goals on each of the agreed Targets;
+		\item Expert’s Key Expectations are:
+		\begin{itemize}
+			\item To receive Expert Project Fee, and
+			\item To create Accounts, which, if the Expert manages 
+			% (during the Tail) 
+			to convert into Deals, will yield the Expert the payment of the Deal Commission.
+		\end{itemize}
+	\end{itemize}
 }
 
-These rules show how the terms become building blocks of the artifacts that the team is designing. In turn, rules placed further constraints on the meaning we wanted the terms to have. Rule 8, for example, tells us that an Opportunity Response must specify Effort Estimate and Hourly Price, without these it is not an Opportunity Response. 
+\newterm{Deal: A Service which can only be done between a Company and an Expert which the Company had initiated and/or completed at least one Project, and in which:
+	\begin{itemize}
+		\item Company’s Key Expectation is to have the Expert convert an Account into a Deal;
+		\item Expert’s Key Expectation is to receive Expert Deal Fee for converting an Account into a Deal for the Company.
+	\end{itemize}
+}
+
+By now, you know that definitions like these grow the network. We had a definition for each capitalized term there. Below, the focus is on the \nterm{Project}. 
+
+\newterm{Target: Legal entity which may also be a Company on the Product, and to which Experts can connect Companies with, and Company Users may want to have their Companies connected with.}
+
+\newterm{Goal: Designates that which a Company User wants to achieve by purchasing Services.}
+
+\newterm{Project Fee: Fee paid by the Company for a completed Project using the Product.}
+
+\nterm{Project Fee} has a na\"{i}ve definition, as it ignores the question of how \nterm{Product Operator} generates revenue. When it was decided that the broker, which owns the \nterm{Product}, takes a margin off the \nterm{Project Fee} and pays the remainder to the \nterm{Expert}, the definition was revised to the following.
+
+\newterm{Project Fee: Fee paid by the Company for a completed Project on the Product. \uline{Project Fee includes:}
+	\begin{itemize}
+		\item \uline{Broker Project Fee , which remunerates the Broker;}
+		\item \uline{Expert Project Fee , which the Broker pays to the Expert.}
+	\end{itemize}
+}
+
+\newterm{Broker: Legal entity which owns the Product.}
+
+A \nterm{Project} involves the creation of \nterm{Accounts}, which can yield additional revenue to \nterm{Experts}, of they are converted into \nterm{Deals}. Hence the following definitions.
+
+\newterm{Account: A Target which satisfies the following conditions:
+\begin{itemize}
+	\item A Company User has approved that if the Target is converted into a Deal, then Expert can claim her Expert Deal Fee to Broker, and Broker can claim the Deal Fee to the Company;
+	\item There is a Tail approved by the Company User and Expert User
+	\item There is a Deal Fee approved by the Company User and Expert User.
+\end{itemize}
+}
+
+\newterm{Deal Commission: Monthly payment to Expert for the first 24 months from the date when the Deal was signed.}
+
+\nterm{Deal Commission} expectedly became much more complicated later. Not every \nterm{Deal} lasts 24 months or more, and it is hard to set and agree on the amount of the payment on the basis of the amount agreed in the \nterm{Deal}. 
+
+Terms such as \nterm{Target}, \nterm{Goal}, \nterm{Project Fee} are relevant at different phases of an overall \nterm{Project} execution process. 
+
+As we progressed in the design of the \nterm{Project} execution process, the scope of the problem widened. The team was tasked to propose a process which covered structuring and monitoring of an \nterm{Expert}'s execution of a \nterm{Project} for the \nterm{Company}. In other words, when contract is signed, execution starts, and we wanted to look at how to improve the monitoring of that execution. The motive was that we wanted to use that monitoring to evaluate the reputation of both the \nterm{Company} and \nterm{Expert}, then use these for future recommendations of \nterm{Experts} to \nterm{Companies}, and vice-versa.
+
+At some point in the design, we converged to the following structure of \nterm{Project Execution Phases}.
+
+\newterm{Project Execution Phases are:
+\begin{itemize}
+\item Call For Help, in which a Company posts an Opportunity;
+\item Proposal, in which a Expert responds to the Opportunity;
+\item Contracting, in which the Expert and Company negotiate the Targets, Goals, Tasks, and Project Fee;
+\item Delivery, in which the Expert does Tasks to achieve Goals, and creates Accounts for the Company;
+\item Approval, in which the Company confirms that Goals are met and Project is completed, and provides feedback on the Expert;
+\item Continuation, in which the Company decides if and how to continue collaboration with the Expert.
+\end{itemize}}
+
+We grew the set of terms, refined it and their definitions, while deciding how the processes should work. That ''how'' means setting rules the process should satisfy. We used the terms to define the rules. Here is a sample, on \nterm{Project} execution.
+
+\begin{enumerate}
+\item In \nterm{Call For Help} and \nterm{Proposal} \nterm{Project Execution Phases}, \nterm{Matching Experts} are shown to \nterm{Company} only in an anonymized format, so that their full name and contact information cannot be known to the \nterm{Company}.
+\item \nterm{Contracting Phase} lasts one week, with the possibility on demand to extend this by one or more increments of two calendar days each.
+\item \nterm{Project} duration is one calendar month.
+\item When posting an \nterm{Opportunity}, \nterm{Client} must provide at least one \nterm{Target}, and one Goal for that \nterm{Target}.
+\item \nterm{Project Agreement} includes one or more \nterm{Approved Tasks}.
+\item In an \nterm{Opportunity Response}, \nterm{Expert} provides, for each \nterm{Goal} in each \nterm{Target}, at least one of the following:
+	\begin{enumerate} 
+		\item Acceptance of \nterm{Task} as-is, that is, as set in the \nterm{Opportunity};
+		\item Rejection of \nterm{Task} as-is;
+		\item At least one \nterm{Sub-Task}.
+		\item Optionally, number of \nterm{Man-Hours} that the \nterm{Expert} will dedicate to complete the \nterm{Task} or \nterm{Sub-Task};
+		\item List of zero or more \nterm{Accounts} of the \nterm{Expert}; 
+		\item \nterm{Project Fee}.
+	\end{enumerate}
+\item In an \nterm{Opportunity Response}, \nterm{Expert} can input relevant experience to the \nterm{Targets}, \nterm{Goals}, and \nterm{Tasks} in the \nterm{Opportunity Response}.
+\item An \nterm{Opportunity Response} must include \nterm{Effort Estimate} and \nterm{Hourly Price}.
+\item \nterm{Client} should be able to provide feedback and ratings on all \nterm{Projects}.
+\item Retainer as a mechanism for extending \nterm{Services} should only be available to \nterm{Client} and \nterm{Experts} who are involved already for several months in an ongoing \nterm{Service}.
+\end{enumerate}
+
+These rules show how the terms become building blocks of the artifacts that the team is designing. In turn, rules placed further constraints on the meaning we wanted the terms to have. Rule 8, for example, tells us that an \nterm{Opportunity Response} must specify \nterm{Effort Estimate} and \nterm{Hourly Price}, without these it is not an \nterm{Opportunity Response}. 
 
 This gets us to an interesting question, if rules are part of the language, or are something else, something built through language use. How, in other words, do we separate the innovation language from the ideas it is used to create, the artifacts it is used to make?
 
-Rule 8 is not the only one leading to this question. Rule 10 says when a Retainer can be used. Should Rule 10 be part of a definition of Retainer? Rule 3 defines the allowed duration of a Project, isn't it, then part of the definition of Project?
+Rule 8 is not the only one leading to this question. Rule 10 says when a \nterm{Retainer} can be used. Should Rule 10 be part of a definition of \nterm{Retainer}? Rule 3 defines the allowed duration of a \nterm{Project}, isn't it, then part of the definition of \nterm{Project}?
 
-To the extent that each rule restricts the interpretation of a term, it must be part of the definition of that term. If that is the case, then would everything written in the innovation language somehow constitute that language? I return to this later, in Chapter XX.
+To the extent that each rule restricts the interpretation of a term, it must be part of the definition of that term. If that is the case, then would everything written in the innovation language somehow constitute that language? 
 
+\section{Defining in and with Software Data and Process Models}
+Software engineering research and practice have produced, over the last five decades at least, a number of approaches, methods, abstractions, rules and procedures for how to define why software should do something, how it will do it, and how to implement it so that it can be verified that it indeed does. The ''why'' question concerns the requirements, goals, constraints on the software, while the ''how'' question concerns the data that the software should manipulate, and procedures it will apply to do so.
+
+If you have produced, or even only read requirements models and specifications, conceptual models, entity-relationship models, class diagrams, statecharts, process models (including, but not limited to workflow models, business process models, and many more), this question probably occurred to you by now: How are \ncnf s related to these existing models and the underlying modeling languages? 
+
+
+
+
+\chapter{Case 2}
 
 \section{Case 2: How to match patients to available physicians?}
 \label{c5:s3}
@@ -882,7 +884,7 @@ This is also a case which shows how widely-used terms get a local meaning that m
 Initial interviews led to the following simple set of terms, where many definitions are rather straightforward, and reflect the common-sense understanding of these terms.
 
 \begin{svgraybox}
-\noindent\textbf{Product:} That which Clients purchase from Company X.
+\noindent\textbf{Product:} That which \nterm{Clients} purchase from Company X.
 
 \noindent\textbf{New Product:} Product that Company X plans to, but has not yet started selling.
 
