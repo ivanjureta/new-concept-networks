@@ -118,13 +118,13 @@ The book has three parts.
 
 
 
-% This book is motivated by a simple observation: when people innovate, they create new words and phrases to talk about new ideas and things that they are creating. They create their innovation language as a tool for communication and coordination. This makes an innovation language a key artifact of an innovation process. It is a reflection of people's intentions, assumptions, and knowledge about the new ideas and things they work on, and relationships with the old, telling us what is and is not new in the outcomes of innovation processes. 
+% This book is motivated by a simple observation: when people innovate, they create new words and phrases to talk about new ideas and things that they are creating. They create their \ncnf as a tool for communication and coordination. This makes an \ncnf a key artifact of an innovation process. It is a reflection of people's intentions, assumptions, and knowledge about the new ideas and things they work on, and relationships with the old, telling us what is and is not new in the outcomes of innovation processes. 
 
-% However, innovation languages remain informal and undocumented, and are not subject to rigorous analysis, design and improvement. This creates substantial risks for innovation-driven businesses, whose future growth relies on generating and preserving intellectual property. 
+% However, \ncnfs remain informal and undocumented, and are not subject to rigorous analysis, design and improvement. This creates substantial risks for innovation-driven businesses, whose future growth relies on generating and preserving intellectual property. 
 
-% This book has three parts. The first part motivates the need for documenting, analyzing, and improving innovation languages, introduces key concepts needed to do so, shows samples of actual innovation languages, and discusses how and why these languages evolved. The second part of the book shows how innovation languages can be measured, and how measuring them guides their analysis and improvement; this part includes a step-by-step tutorial, on an actual innovation language, with Python code. The third part of the book focuses on the hard problem of evaluating the credibility in an innovation language, which is critical for its adoption and use throughout the lifecycle of the intellectual property it is made to support.
+% This book has three parts. The first part motivates the need for documenting, analyzing, and improving \ncnfs, introduces key concepts needed to do so, shows samples of actual \ncnfs, and discusses how and why these languages evolved. The second part of the book shows how \ncnfs can be measured, and how measuring them guides their analysis and improvement; this part includes a step-by-step tutorial, on an actual \ncnf, with Python code. The third part of the book focuses on the hard problem of evaluating the credibility in an \ncnf, which is critical for its adoption and use throughout the lifecycle of the intellectual property it is made to support.
 
-% This book is motivated by a simple observation: when people do innovation, they create new words and phrases to talk about new ideas and things that they are creating. They create their innovation language for two reasons at least; one, it is a tool for communication, and therefore is critical for their coordination, and in turn, it must influence how innovation processes unfold; two, it reflects these people's intentions, assumptions, and knowledge about the new ideas and things they work on, and relationships with old ideas and things, telling us about what is, and is not new in the outcomes of innovation. The book develops the notion of innovation language and proposes a practical approach to how to specify and analyze an innovation language. The proposal is illustrated with several case studies from actual innovation projects in industry; `and analyses are implemented in Python, with the source code included and commented.
+% This book is motivated by a simple observation: when people do innovation, they create new words and phrases to talk about new ideas and things that they are creating. They create their \ncnf for two reasons at least; one, it is a tool for communication, and therefore is critical for their coordination, and in turn, it must influence how innovation processes unfold; two, it reflects these people's intentions, assumptions, and knowledge about the new ideas and things they work on, and relationships with old ideas and things, telling us about what is, and is not new in the outcomes of innovation. The book develops the notion of \ncnf and proposes a practical approach to how to specify and analyze an \ncnf. The proposal is illustrated with several case studies from actual innovation projects in industry; `and analyses are implemented in Python, with the source code included and commented.
 
 
 %Use the template \emph{preface.tex} together with the document class SVMono (monograph-type books) or SVMult (edited books) to style your preface.
@@ -359,7 +359,7 @@ The next five chapters present data from startups where we were defining new ter
 
 
 %%%%%%%%
-\chapter{Defining New Contracting Processes}\label{c:case:consulting-contracts}
+\chapter{Case: Defining New Contracting Processes}\label{c:case:consulting-contracts}
 
 \section{Background}
 In 2017, a team that combined business consultants, product designers, and software engineers, was asked to invent a process and supporting software, which would together speed up the negotiation of simple business consultancy contracts. 
@@ -713,30 +713,77 @@ We grew the set of terms, refined it and their definitions, while deciding how t
 
 These rules show how the terms become building blocks of the artifacts that the team is designing. In turn, rules placed further constraints on the meaning we wanted the terms to have. Rule 8, for example, tells us that an \nterm{Opportunity Response} must specify \nterm{Effort Estimate} and \nterm{Hourly Price}, without these it is not an \nterm{Opportunity Response}. 
 
-This gets us to an interesting question, if rules are part of the language, or are something else, something built through language use. How, in other words, do we separate the innovation language from the ideas it is used to create, the artifacts it is used to make?
+This gets us to an interesting question, if rules are part of the language, or are something else, something built through language use. How, in other words, do we separate the \ncnf from the ideas it is used to create, the artifacts it is used to make?
 
 Rule 8 is not the only one leading to this question. Rule 10 says when a \nterm{Retainer} can be used. Should Rule 10 be part of a definition of \nterm{Retainer}? Rule 3 defines the allowed duration of a \nterm{Project}, isn't it, then part of the definition of \nterm{Project}?
 
-To the extent that each rule restricts the interpretation of a term, it must be part of the definition of that term. If that is the case, then would everything written in the innovation language somehow constitute that language? 
+To the extent that each rule restricts the interpretation of a term, it must be part of the definition of that term. If that is the case, then would everything written in the \ncnf somehow constitute that language? 
 
-\section{Defining in and with Software Data and Process Models}
+\section{Using \ncnf s with Data and Process Models}
 Software engineering research and practice have produced, over the last five decades at least, a number of approaches, methods, abstractions, rules and procedures for how to define why software should do something, how it will do it, and how to implement it so that it can be verified that it indeed does. The ''why'' question concerns the requirements, goals, constraints on the software, while the ''how'' question concerns the data that the software should manipulate, and procedures it will apply to do so.
 
-If you have produced, or even only read requirements models and specifications, conceptual models, entity-relationship models, class diagrams, statecharts, process models (including, but not limited to workflow models, business process models, and many more), this question probably occurred to you by now: How are \ncnf s related to these existing models and the underlying modeling languages? 
+If you have produced, or even only read requirements models and specifications \cite{}, conceptual models \cite{}, entity-relationship models \cite{}, class diagrams \cite{}, statecharts \cite{}, process models (including, but not limited to workflow models \cite{}, business process models \cite{}, and many more \cite{}), this question probably occurred to you by now: \textit{How are \ncnf s related to these existing models and the underlying modeling languages?}
 
+In the case at hand, the team used its own ad-hoc modeling language to represent processes. The language was defined in order to emphasize several ideas which were judged critical, and which we felt -- at the time -- that we could not represent as easily in text and established modeling languages which team members were aware of at the time, such as the Business Process Modeling Language \cite{} and Unified Modeling Language \cite{}. We were specifically concerned with the following mix of topics:
+\begin{itemize}
+	\item Which decisions are we asking a user to make?
+	\item Do we limit the time that the user has to make these decisions?
+	\item What information do we show to the user, for each of these decisions? 
+ 	\item  Which actions are done by the software, independently of the user's involvement, during \nterm{Project execution}? 
+ 	\item Which actions happen on the \nterm{Product}, and are therefore observable by the \nterm{Product} (and so we can record data on them), \textit{versus} actions which we expect to be performed outside the \nterm{Product}?
+ 	\item Do we want to stimulate some actions from the user, by notifying them that they should or can do something at a specific moment in the \nterm{Execution process}?
+\end{itemize}
 
+In parallel with the growth of the \ncn, our discussion of these questions led to rough process models, where we would show sequencing of various actions. These actions mentioned terms defined in the \ncn. Figure \ref{fig-process-early-version} shows an early draft, made with an undefined modeling language. 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textheight,angle=90,origin=c]{fig-process-early-version.pdf}
+	\caption{}
+	\label{fig-process-early-version}
+\end{figure}
 
-\chapter{Case 2}
+Later on, we stuctured both the modeling language and the process we were designing. Primitives of that new language, the elements to combine to create models, are shown in Figure \ref{fig-process-proposal-phase}. Any of the rectangles can stand in the place of ''X'' and ''Y'', that is, be in the relationships shown there. 
 
-\section{Case 2: How to match patients to available physicians?}
-\label{c5:s3}
-In 2015, owners of a hospital network were interested into the following problem: specialized equipment (e.g., MR, CT, U/S, X-ray, PET/CT, and so on) was not fully used by the demand within the network, and they were aware that there was demand for more outside of the network. The opportunity they wanted to explore was how to make these resources available for booking to physicians outside their hospital network. A team of analysts, physicians, and product designers was assembled, initially to design a new organization which would focus on matching supply of specialized equipment, that is, its availability, with interested and approved physicians. 
+Figure \ref{fig-process-proposal-phase} shows the sequence of actions and responsibilities of \nterm{Company Users}, \nterm{Expert Users}, and \nterm{Staff} who represent the \nterm{Broker}. Terms which appear in the instances of the modeling primitives are defined in the \ncnf. They are shown as terms written in the various rectangles in that Figure. Many more models like this one were made, revised, and removed during the innovation process.
 
-The team saw this as a problem of designing a two-sided marketplace \cite{roson2005two,rochet2006two}, call it X here. Early on, scope increased on the basis of initial data collection, and grew beyond equipment bookings. It was described as follows.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textheight,angle=90,origin=c]{fig-process-proposal-phase.pdf}
+	\caption{}
+	\label{fig-process-proposal-phase}
+\end{figure}
+
+The same rationale applies to models used to specify the data that software should record and compute on. Conceptual models, class diagrams, and the like, all mention terms which have, in our cases in this book, natural language definitions. This applies not to terms which appear as concept and entity names, but also to those which name relationships, properties. 
+
+Finally, rules which place constraints on instances of classes or entities, and their relationship, can be written using one of many modeling languages (Object Constraint Language \cite{}, a description logic, a formal specification language such as Z or B come to mind). Propositions written in these languages will mention classes, properties, or more generally will mention terms defined in an \ncnf. For example, the following rules place constraints on who sees what on the \nterm{Product}.
 
 \begin{quote}
-''X is a marketplace where the demand and supply of diagnostic and prognostic care meet at scale, efficiency, and cost which have been out of reach in the past.
+Product only performs blind matching, which means all of the following:
+\begin{itemize}
+	\item Company Users must not be able to browse Experts on Parachute.
+	Experts must not be able to browse Companies on Parachute.
+	\item Company User sees only information about the Company she is associated to.
+	\item Expert has only access to information about Opportunities which the Product delivers to her.
+	\item Expert has only access to Services in which she is involved. 
+\end{itemize}
+\end{quote}
+
+These rules could be rewritten as a theory in first-order logic, and thus is specifiable in various languages mentioned above; what matters in this book, is that an \ncnf{} which defines the capitalized terms will enrich and should make it easier to read and discuss such formal models.
+
+In a summary, an \ncn{} does not, and cannot replace a model or specification which you may want to make as part of the software innovation and engineering processes, using an established, or your own \textit{ad hoc} modeling language. \ncn s are meant to precede, complement, and anchor a formal model, by providing an accessible format to capture the meaning intended for the terms which are mentioned in such models. 
+
+
+\chapter{Case: Matching Physicians to Patients}
+
+\section{Background}
+In 2015, owners of a hospital network in USA were interested into the following problem: specialized equipment (e.g., MR, CT, U/S, X-ray, PET/CT, and so on) was not fully used by the demand within the network, and they were aware that there was demand for more outside of the network. The opportunity they wanted to explore was how to make these resources available for booking to physicians outside their hospital network. A team of analysts, physicians, and product designers was assembled, initially to design a new organization which would focus on matching supply of specialized equipment, that is, its availability, with interested and approved physicians. 
+
+\section{Challenges}
+The team saw this as a problem of designing a two-sided marketplace, call it Market-X here. Early on, scope increased on the basis of initial data collection, and grew beyond equipment bookings. It was described as follows.
+
+\begin{quote}
+''Market-X is a marketplace where the demand and supply of diagnostic and prognostic care meet at scale, efficiency, and cost which have been out of reach in the past.
 \begin{itemize}
 	\item Supply is the time of human resources and equipment, which are available in X-approved healthcare institutions. These human resources include physicians, but can include other profiles in the healthcare workforce, such as nurses, dentists, etc. 
 	\item Demand is made of:
@@ -749,60 +796,65 @@ The team saw this as a problem of designing a two-sided marketplace \cite{roson2
 
 The normal process by which demand and supply meet, was described as follows:
 \begin{enumerate}
-	\item Referring physician, previously approved by and registered on X, accesses X software.
+	\item Referring physician, previously approved by and registered on Market-X, accesses Market-X software.
 	\item If the Referring physician has not yet added her Patient’s information and contact details, she adds them. 
-	\item Referring physician searches X and finds relevant Supply side resources, which she decides to book for her Patient. X uses Patient information and search input from the Referring physician to recommend best fitting resources in search results to the Referring physician.
-	\item Referring physician makes a tentative booking of the resources. X starts countdown until payment and booking confirmation. If countdown completes before Patient makes the payment, resources are freed up and available to others.
-X notifies Patient that Referring physician has made a tentative booking, and that she needs to accept or refuse that booking. 
+	\item Referring physician searches Market-X and finds relevant Supply side resources, which she decides to book for her Patient. Market-X uses Patient information and search input from the Referring physician to recommend best fitting resources in search results to the Referring physician.
+	\item Referring physician makes a tentative booking of the resources. Market-X starts countdown until payment and booking confirmation. If countdown completes before Patient makes the payment, resources are freed up and available to others.
+	Market-X notifies Patient that Referring physician has made a tentative booking, and that she needs to accept or refuse that booking. 
 	\item Cases:
 		\begin{enumerate}
-			\item If Patient accepts, Patient makes the payment on X. X notifies the Referring physician and the booked resource of this booking and shares the relevant Patient information with the booked resource.
+			\item If Patient accepts, Patient makes the payment on X. Market-X notifies the Referring physician and the booked resource of this booking and shares the relevant Patient information with the booked resource.
 			\item If Patient refuses, X notifies the Referred physician, and cancels the tentative booking to free up the tentatively booked resource.
 		\end{enumerate}
-	\item Patient uses the booked resource, meaning the booked consultation or otherwise takes place. X allows the booked resource to add results of the consultation to X. X notifies the Referring physician and the Patient that they can access the results on X.
-	\item X asks Referring patient to give feedback and score the booked resource. X asks Referring physician to rank give feedback on the results which the booked resource posted for the Patient on X. X uses the evaluations to describe the quality or reputation of the booked resource.
+	\item Patient uses the booked resource, meaning the booked consultation or otherwise takes place. Market-X allows the booked resource to add results of the consultation. Market-X notifies the Referring physician and the Patient that they can access the results on X.
+	\item Market-X asks Referring patient to give feedback and score the booked resource. Market-X asks Referring physician to rank give feedback on the results which the booked resource posted for the Patient on X. X uses the evaluations to describe the quality or reputation of the booked resource.
 \end{enumerate}
 
+\section{\ncnf{} for Market-X}
 The initial set of terms was the following.
 
-\begin{svgraybox}
-\noindent\textbf{Patient:} An individual who needs an Appointment, and whose Appointment is booked via X. There are two types of Patients:
-Referred Patient: Patient who has a Referring Physician. The Referring Physician books Appointments on behalf of the Patient on X.
-Self-Service Patient: Patient who does not have a Referring Physician outside X. Patient needs to book Appointments by herself on X.
-
-\noindent\textbf{Physician:} Medical professional who holds a valid license to practice medicine. There are the following types of Physician Roles on X:
-Referring Physician: Physician who is not part of X (the business), and uses X to refer the Patient to a Referred Physician.
-Referred Physician: Physician to whom the Patient is being referred via X, and whom the Patient will have an Appointment with. 
-
-\noindent\textbf{Visitor:} Individual who is visiting X and viewing public X material (such as website, mobile app, etc.) and who has not yet registered as a Patient on X.
-
-\noindent\textbf{X Administrators:} An individual employed by X, and who is authorized to make changes to User Rights, Appointments, and more generally any subset of data which X holds.
-
-\noindent\textbf{Appointment:} A limited amount of time with a set start and end, which a Patient purchased from a Physician on X, and during which the Physician is available to provide diagnostic and prognostic care to the Patient.
-
-\noindent\textbf{Appointment Slot:} A limited amount of time with a set start and end, which a Physician offers for sale on X, and during which the Physician will be available to provide diagnostic and prognostic care to one Patient.
-
-\noindent\textbf{Equipment} is any clinic or hospital capital equipment which is available to Physicians for use during their Appointments. Examples are MR, CT, U/S, X-ray, PET/CT, Nuclear Medicine, resources used in Blood and Chemistry tests, tissue pathology, and Genetic Profile Analysis, among others.
-
-\noindent\textbf{Customer} is a synonym for Patient.
-
-\noindent\textbf{X Health Record (XHR)} is the electronic health record of the Patient on X.
-\end{svgraybox}
-
-It turned out that many patients wanted to see physicians without this being initiated by a referring physician. In such cases, it was necessary for X, the business, to provide a referring physician. This also meant refining the definition of Physician, to include so-called X Physician, giving the following new Physician definition.
-
-\begin{svgraybox}
-\textbf{Physician:} Medical professional who holds a valid license to practice medicine. There are the following types of Physician Roles on X:
+\newterm{Patient: An individual who needs an Appointment, and whose Appointment is booked via Market-X. There are two types of Patients:
 \begin{itemize}
-	\item Referring Physician: Physician who is not part of X (the business), and uses X to refer the Patient to a Referred Physician.
-	\item Referred Physician: Physician to whom the Patient is being referred via X, and whom the Patient will have an Appointment with. 
-	\item X Physician: Physician employed by X, and who acts as a Referring Physician for every Self-Service Patient on X.
+	\item Referred Patient: Patient who has a Referring Physician. The Referring Physician books Appointments on behalf of the Patient on Market-X.
+	\item Self-Service Patient: Patient who does not have a Referring Physician outside Market-X. Patient needs to book Appointments by herself on Market-X.
 \end{itemize}
-\end{svgraybox}
+}
 
-Beyond simple cases such as the above, an interesting question was how to define a physician's specialties and procedures and tests that this physician may be most competent to refer patients to. The definition of Physician, even the refined one above, is not particularly helpful in this respect. 
+\newterm{Physician: Medical professional who holds a valid license to practice medicine. There are the following types of Physician Roles on Market-X:
+\begin{itemize}
+	\item Referring Physician: Physician who is not part of Market-X (the business), and uses Market-X to refer the Patient to a Referred Physician.
+	\item Referred Physician: Physician to whom the Patient is being referred via Market-X, and whom the Patient will have an Appointment with. 
+\end{itemize}
+}
 
-Each physician thus needed to be described by the medical specialties they were competent in, following standard naming conventions \cite{wikipedia-specialty-medicine}. But this was not enough, if we wanted to allow patients to look for physicians by other means, such as:
+\newterm{Visitor: Individual who is visiting Market-X and viewing public Market-X material (such as website, mobile app, etc.) and who has not yet registered as a Patient on Market-X.}
+
+\newterm{X Administrators: An individual employed by Market-X, and who is authorized to make changes to User Rights, Appointments, and more generally any subset of data which Market-X holds.}
+
+\newterm{Appointment: A limited amount of time with a set start and end, which a Patient purchased from a Physician on Market-X, and during which the Physician is available to provide diagnostic and prognostic care to the Patient.}
+
+\newterm{Appointment Slot: A limited amount of time with a set start and end, which a Physician offers for sale on X, and during which the Physician will be available to provide diagnostic and prognostic care to one Patient.}
+
+\newterm{Equipment: any clinic or hospital capital equipment which is available to Physicians for use during their Appointments. Examples are MR, CT, U/S, X-ray, PET/CT, Nuclear Medicine, resources used in Blood and Chemistry tests, tissue pathology, and Genetic Profile Analysis, among others.}
+
+\newterm{Customer: a synonym for Patient.}
+
+\newterm{Market-X Health Record (XHR): the electronic health record of the Patient on Market-X.}
+
+
+It turned out that many \nterm{Patients} wanted to see \nterm{Physicians} without this being initiated by a referring \nterm{Physician}. In such cases, it was necessary for \nterm{Market-X}, the business, to provide a referring \nterm{Physician}. This also meant refining the definition of \nterm{Physician}, to include so-called \nterm{Market-X Physician}, giving the following new \nterm{Physician} definition.
+
+\newterm{Physician: Medical professional who holds a valid license to practice medicine. There are the following types of Physician Roles on Market-X:
+\begin{itemize}
+	\item Referring Physician: Physician who is not part of Market-X (the business), and uses Market-X to refer the Patient to a Referred Physician.
+	\item Referred Physician: Physician to whom the Patient is being referred via Market-X, and whom the Patient will have an Appointment with. 
+	\item Market-X Physician: Physician employed by Market-X, and who acts as a Referring Physician for every Self-Service Patient on Market-X.
+\end{itemize}
+}
+
+Beyond simple cases such as the above, an interesting question was how to define a \nterm{Physician}'s specialties, as well as procedures and tests that this \nterm{Physician} may be most competent to refer \nterm{Patients} to. The definition of \nterm{Physician}, even the refined one above, is not helpful in this respect. 
+
+Each \nterm{Physician} thus needed to be described by the medical specialties they were competent in, following standard naming conventions \cite{wikipedia-specialty-medicine}. But this was not enough, if we wanted to allow patients to look for physicians by other means, such as:
 \begin{itemize}
 	\item Procedure or test, such as ''Amniocentesis'';
 	\item Equipment, such as ''PET'';
@@ -811,9 +863,9 @@ Each physician thus needed to be described by the medical specialties they were 
 	\item Maximal distance from Patient’s address.
 \end{itemize}
 
-Adding these properties to the definition of Physician is easy, but choosing the set of procedures and equipment is not. It was important to recognize that these choices could not be made definitely during the innovation process. New equipment and procedures can become available after the initial version of the service is released and used. This led to the need to design functionality that allowed X Administrators to add new procedures and equipment.
+Adding these properties to the definition of \nterm{Physician} is easy, but choosing the set of procedures and equipment is not. It was important to recognize that these choices could not be made definitely during the innovation process. New equipment and procedures can become available after the initial version of the service is released and used. This led to the need to design functionality that allowed \nterm{Market-X Administrators} to add new procedures and equipment.
 
-So, what if we chose the following properties for Physicians?
+What if we chose the following properties for Physicians?
 \begin{itemize}
 	\item First name,
 	\item Last name,
@@ -825,61 +877,63 @@ So, what if we chose the following properties for Physicians?
 Medical Licenses.
 \end{itemize}
 
-This depends - if we want these alone, then the relationship of the physician to medical specialties needs to happen via medical licenses, i.e., the definition of medical licenses needs to be done via - among others - via medical specialties. What about equipment? Perhaps it needs to be related to medical procedures in which it can be used. Either way, note how the choice in the definition of one term influences definitions we have to make for others. Note, also, that there may be established definitions of physicians, such as the following one, but in the context of this innovation project, the term Physician needs to be more specific, and not only a refinement of the following definition, but one which has both a different scope and depth, which in turn makes it part of the innovation language, not of the base language.
+This depends -- if we want these alone, then the relationship of the physician to medical specialties needs to happen via medical licenses, i.e., the definition of medical licenses needs to be done via -- among others -- via medical specialties. 
 
-\begin{svgraybox}
-\textbf{Physician:} A person qualified to practise medicine, especially one who specializes in diagnosis and medical treatment as distinct from surgery. \cite{def-physician}
-\end{svgraybox}
+What about equipment? Perhaps it needs to be related to medical procedures in which it can be used. Either way, note how the choice in the definition of one term influences definitions we have to make for others. Note, also, that there may be established definitions of physicians, such as the following one, but in the context of this innovation project, the term Physician needs to be more specific, and not only a refinement of the following definition, but one which has both a different scope and depth, which in turn makes it part of the \ncnf, not of the base language.
 
-Further work on how physicians would be using such a service, led to the observation that they will most likely delegate many of the responsibilities we expected them to fulfil, such as indicating their availability. It was thus necessary to introduce so-called Physician Staff, as follows.
+\begin{quote}
+Physician: A person qualified to practise medicine, especially one who specializes in diagnosis and medical treatment as distinct from surgery. \cite{def-physician}
+\end{quote}
 
-\begin{svgraybox}
-\textbf{Physician Staff User:} X User who was invited by a Physician to X, and will accomplish tasks (registering Patients, managing Appointment Slots, etc.) on behalf of Physician on X.
-\end{svgraybox}
+Further work on how \nterm{Physicians} would be using such a service, led to the observation that they will most likely delegate many of the responsibilities we expected them to fulfil, such as indicating their availability. It was thus necessary to introduce so-called \nterm{Physician Staff}, as follows.
 
-This was only an early definition, as it left open how delegation happens, that is, how the software can know which Physician Staff is related to which Physician. That in itself was done by defining a process by which the delegation relationship is established. The following is an early draft of the process.
+\nterm{Physician Staff User: Market-X User who was invited by a Physician to Market-X, and will accomplish tasks (registering Patients, managing Appointment Slots, etc.) on behalf of Physician on X.
+}
 
-\begin{svgraybox}
+This was only an early definition, as it left open how delegation happens, that is, how the software can know which \nterm{Physician Staff} is related to which \nterm{Physician}. That in itself was done by defining a process by which the delegation relationship is established. The following is an early draft of the process.
+
+\newterm{Delegation Process:
 To allow Physician Staff User on X to act on her behalf, a Physician User proceeds as follows
 \begin{enumerate}
-	\item Physician User logs into X.
+	\item Physician User logs into Market-X.
 	\item Physician User chooses Staff.
 	\item Physician User chooses to invite new Physician Staff Users.
-	\item X asks the Physician User to provide Physician Staff User Registration Properties.
-	\item Physician User fills out the information and clicks to submit it to X.
-	\item X does the following:
+	\item Market-X asks the Physician User to provide Physician Staff User Registration Properties.
+	\item Physician User fills out the information and clicks to submit it to Market-X.
+	\item Market-X does the following:
 		\begin{enumerate}
-			\item X changes the Physician Staff User’s X Status to Awaiting;
-			\item X sends New Physician Staff Password Setup email to the Physician Staff.
+			\item Market-X changes the Physician Staff User’s Market-X Status to Awaiting;
+			\item Market-X sends New Physician Staff Password Setup email to the Physician Staff.
 		\end{enumerate}
 	\item Physician Staff receives the New Physician Staff Password Setup email. 
 Physician Staff clicks on the link in the email.
-	\item X opens in Physician Staff User’s web browser, and asks Physician Staff to enter twice a new password, which Physician Staff User wishes to use to access X.
+	\item Market-X opens in Physician Staff User’s web browser, and asks Physician Staff to enter twice a new password, which Physician Staff User wishes to use to access Market-X.
 	\item Physician Staff User submits the password.
-	\item X checks if the password is strong enough, and if not, requests a new password from Physician Staff User.
-	\item If the chosen password is acceptable to X, X performs the following:
+	\item Market-X checks if the password is strong enough, and if not, requests a new password from Physician Staff User.
+	\item If the chosen password is acceptable to Market-X, Market-X performs the following:
 		\begin{enumerate}
-			\item X registers Physician Staff as a Physician Staff User on X.
-			\item X changes Physician Staff User Status to Active.
-			\item X gives Physician Staff the User Rights chosen by the Physician who invited the Physician Staff User.
-			\item X sends an email to the Physician Staff User, to confirm that she is registered to X.
-			\item X sends an email to the Physician User who invited the Physician Staff User, to notify Physician User that Physician Staff User is registered and Active on X.
+			\item Market-X registers Physician Staff as a Physician Staff User on Market-X.
+			\item Market-X changes Physician Staff User Status to Active.
+			\item Market-X gives Physician Staff the User Rights chosen by the Physician who invited the Physician Staff User.
+			\item Market-X sends an email to the Physician Staff User, to confirm that she is registered to Market-X.
+			\item Market-X sends an email to the Physician User who invited the Physician Staff User, to notify Physician User that Physician Staff User is registered and Active on Market-X.
 		\end{enumerate}
 \end{enumerate}
-\end{svgraybox}
+}
 
-Notice how processes, such as the one above, extend the scope of the innovation language. The design of such processes signals the need for new functionality and new artefacts that the software should have and manage, such as registration, statuses, email messages, and so on. As we will see in later Chapters, design that proceeds in this way, during the innovation process, literally branches out the innovation language, where by applying the actions on plastic definitions, we identify the need for new terms.
+Notice how processes, such as the one above, extend the scope of the \ncnf. The design of such processes signals the need for new functionality and new artefacts that the software should have and manage, such as registration, statuses, email messages, and so on. As we will see in later Chapters, design that proceeds in this way, during the innovation process, literally branches out the \ncnf, where by applying the actions on definitions, we identify the need for new terms.
 
 
-\section{Case 3: How to improve a new product development process?}
-\label{c5:s4}
+
+
+\chapter{Case: Defining a New Product Development Process}
 In 2012, after experiencing success with its initial product, a manufacturer of designer low energy light bulbs wanted to expand its product line. To do so, its owners wanted to get a better understanding of its existing new product design and development process. This would help them plan the investment in, and the design and development of future new products. 
 
 The approach was to document the existing new product design process, which proved successful, before considering any changes. This meant understanding who does what, and how they coordinate, from new ideas to having a definite design sent for manufacturing and distribution. 
 
 To understand how work was done, and why, and so be able to document the existing process, we had to understand the language which they used to speak about that process, and to coordinate throughout that process. It was a new language, partly because the process was specific to the team there, but also because it was invented as they went. Both of these were expected. Design and manufacturing of new products, and in this company's case, of a product widely recognized as highly innovative, involves innovation at the level of the product, but also of the organization which makes that product happen, so to speak, from idea to the customer. 
 
-This is also a case which shows how widely-used terms get a local meaning that makes very much sense to the team, but not necessarily to outsiders. There are few new terms in their innovation language, but definitions aren't standard at all.
+This is also a case which shows how widely-used terms get a local meaning that makes very much sense to the team, but not necessarily to outsiders. There are few new terms in their \ncnf, but definitions aren't standard at all.
 
 Initial interviews led to the following simple set of terms, where many definitions are rather straightforward, and reflect the common-sense understanding of these terms.
 
@@ -1004,9 +1058,8 @@ Recall that there are five actions a plastic definition invites - keep, refine, 
 In practice, new product development processes are rarely as structured, and steps as clear cut.  This makes it harder to settle on definite definitions, but only emphasizes the need for plasticity. It also highlights that you can never really understand the term, if you do not know where and how it was used, since through usage, or mentions, it gets refined, choices are made, parts are added, or removed. Plasticity cannot only be grasped by looking at snapshots of definitions, as I gave them above, but also through changes of the artifacts which mention the term, as in the partial description of the new product development process above. That is a thorny batch of issues, which will keep coming back throughout this book.
 
 
-\section{Case 4: How to automate running training advice?}
-\label{c5:s5}
-Over two years, from 2011 to 2013, the innovation language in this case went from a dozen or so terms, to about one hundred. Not only was the language used in verbal and written communication, but also in algorithm specifications, software specifications, software code, and marketing material for the service which this software was enabling. It is a rare case where the language was built for completely new ideas, and graduated to be included in most artefacts used and produced by the company who commissioned the underlying innovation.
+\chapter{Case: Defining an Automated Running Coach}
+Over two years, from 2011 to 2013, the \ncnf in this case went from a dozen or so terms, to about one hundred. Not only was the language used in verbal and written communication, but also in algorithm specifications, software specifications, software code, and marketing material for the service which this software was enabling. It is a rare case where the language was built for completely new ideas, and graduated to be included in most artefacts used and produced by the company who commissioned the underlying innovation.
 
 The aim of the innovation process was to design algorithms which would provide personalized advice to amateur runners, interested in improving their performance, and reaching specific goals, such as running a certain kind of race. There were no such algorithms at the time, and invariably, no software which could provide such advice.
 
@@ -1064,7 +1117,7 @@ A convenient way to think about the structure of a Training Plan is that a Sessi
 This Module – the Macro Training Plan Setup Module – allows the Coach to define as many Training Plan structures as she wishes. The Coach defines a new Training Plan by giving it a name, and associating the Training Plan with Athlete Levels and Training Goals for which the Training Plan should apply. This allows the Coach to define different Training Plans for different Training Goal and Athlete Level combinations. In this Module, the Coach can define new Training Plans, and define the Periods of each Training Plan. For each Period, the Coach defines the name of that Period (e.g., Taper) and defines which Period precedes it and which other Period follows that Period in the Training Plan. The Coach uses other Modules to define Blocks.
 \end{svgraybox}
 
-The text was part of an early version of an explanation, for how one of the many modules works, within one of the various algorithms works. The text is filled with capitalized terms, each having its own definition in the innovation language that we were creating. It makes the text hard to understand in absence of definitions. It is an example of how the language becomes an important tool for the team. 
+The text was part of an early version of an explanation, for how one of the many modules works, within one of the various algorithms works. The text is filled with capitalized terms, each having its own definition in the \ncnf that we were creating. It makes the text hard to understand in absence of definitions. It is an example of how the language becomes an important tool for the team. 
 
 The language then appears in pseudo-code of the algorithm, the database structure, and software code, ensuring consistency across the many artefacts. The following is a piece of pseudo-code from the specification, followed by the definitions of the terms which appear in it.
 
@@ -1105,7 +1158,7 @@ ELSE {
 
 The names \verb|actual_DTERM|, \verb|actual_Q|, \verb|actual_Density| are defined in the remainder of the algorithm specifications, as functions over other variables there.
 
-The example above, even if trivial, illustrates the important idea that an innovation language can be a significant record of the content of the innovation process, and as such appears throughout the various artefacts an innovation process may produce.
+The example above, even if trivial, illustrates the important idea that an \ncnf can be a significant record of the content of the innovation process, and as such appears throughout the various artefacts an innovation process may produce.
 
 
 
