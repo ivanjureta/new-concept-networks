@@ -21,7 +21,7 @@
 % additional, on top of Springer's default packages
 \usepackage{microtype}
 \usepackage{hyphenat}
-\usepackage{hyperref}
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
 \usepackage{url}
 %\usepackage{minted} % source code formatting
 \usepackage{longtable}
@@ -777,13 +777,13 @@ In a summary, an \ncn{} does not, and cannot replace a model or specification wh
 \chapter{Case: Matching Physicians to Patients}\label{c:case:matching-physicians-to-patients}
 
 \section{Background}
-In 2015, owners of a hospital network in USA were interested into the following problem: specialized equipment (e.g., MR, CT, U/S, X-ray, PET/CT, and so on) was not fully used by the demand within the network, and they were aware that there was demand for more outside of the network. The opportunity they wanted to explore was how to make these resources available for booking to physicians outside their hospital network. A team of analysts, physicians, and product designers was assembled, initially to design a new organization which would focus on matching supply of specialized equipment, that is, its availability, with interested and approved physicians. 
+In 2015, owners of a hospital network in the USA were interested into the following problem: specialized equipment (e.g., MR, CT, U/S, X-ray, PET/CT, and so on) was not fully used by the demand within the network, and they were aware that there was demand for more outside of the network. The opportunity they wanted to explore was how to make these resources available for booking to physicians outside their hospital network. A team of analysts, physicians, and product designers was assembled, initially to design a new organization which would focus on matching supply of specialized equipment, that is, its availability, with interested and approved physicians. 
 
 \section{Challenges}
-The team saw this as a problem of designing a two-sided marketplace, call it Market-X here. Early on, scope increased on the basis of initial data collection, and grew beyond equipment bookings. It was described as follows.
+The team saw this as a problem of designing a two-sided marketplace, call it Market-X here (MX hereafter). Early on, scope increased on the basis of initial data collection, and grew beyond equipment bookings. It was described as follows.
 
 \begin{quote}
-''Market-X is a marketplace where the demand and supply of diagnostic and prognostic care meet at scale, efficiency, and cost which have been out of reach in the past.
+''MX is a marketplace where the demand and supply of diagnostic and prognostic care meet at scale, efficiency, and cost which have been out of reach in the past.
 \begin{itemize}
 	\item Supply is the time of human resources and equipment, which are available in X-approved healthcare institutions. These human resources include physicians, but can include other profiles in the healthcare workforce, such as nurses, dentists, etc. 
 	\item Demand is made of:
@@ -796,42 +796,42 @@ The team saw this as a problem of designing a two-sided marketplace, call it Mar
 
 The normal process by which demand and supply meet, was described as follows:
 \begin{enumerate}
-	\item Referring physician, previously approved by and registered on Market-X, accesses Market-X software.
+	\item Referring physician, previously approved by and registered on MX, accesses MX software.
 	\item If the Referring physician has not yet added her Patient’s information and contact details, she adds them. 
-	\item Referring physician searches Market-X and finds relevant Supply side resources, which she decides to book for her Patient. Market-X uses Patient information and search input from the Referring physician to recommend best fitting resources in search results to the Referring physician.
-	\item Referring physician makes a tentative booking of the resources. Market-X starts countdown until payment and booking confirmation. If countdown completes before Patient makes the payment, resources are freed up and available to others.
-	Market-X notifies Patient that Referring physician has made a tentative booking, and that she needs to accept or refuse that booking. 
+	\item Referring physician searches MX and finds relevant Supply side resources, which she decides to book for her Patient. MX uses Patient information and search input from the Referring physician to recommend best fitting resources in search results to the Referring physician.
+	\item Referring physician makes a tentative booking of the resources. MX starts countdown until payment and booking confirmation. If countdown completes before Patient makes the payment, resources are freed up and available to others.
+	MX notifies Patient that Referring physician has made a tentative booking, and that she needs to accept or refuse that booking. 
 	\item Cases:
 		\begin{enumerate}
-			\item If Patient accepts, Patient makes the payment on X. Market-X notifies the Referring physician and the booked resource of this booking and shares the relevant Patient information with the booked resource.
+			\item If Patient accepts, Patient makes the payment on X. MX notifies the Referring physician and the booked resource of this booking and shares the relevant Patient information with the booked resource.
 			\item If Patient refuses, X notifies the Referred physician, and cancels the tentative booking to free up the tentatively booked resource.
 		\end{enumerate}
-	\item Patient uses the booked resource, meaning the booked consultation or otherwise takes place. Market-X allows the booked resource to add results of the consultation. Market-X notifies the Referring physician and the Patient that they can access the results on X.
-	\item Market-X asks Referring patient to give feedback and score the booked resource. Market-X asks Referring physician to rank give feedback on the results which the booked resource posted for the Patient on X. X uses the evaluations to describe the quality or reputation of the booked resource.
+	\item Patient uses the booked resource, meaning the booked consultation or otherwise takes place. MX allows the booked resource to add results of the consultation. MX notifies the Referring physician and the Patient that they can access the results on X.
+	\item MX asks Referring patient to give feedback and score the booked resource. MX asks Referring physician to rank give feedback on the results which the booked resource posted for the Patient on X. X uses the evaluations to describe the quality or reputation of the booked resource.
 \end{enumerate}
 
-\section{\ncnf{} for Market-X}
+\section{Growing the \ncnf}
 The initial set of terms was the following.
 
-\newterm{Patient: An individual who needs an Appointment, and whose Appointment is booked via Market-X. There are two types of Patients:
+\newterm{Patient: An individual who needs an Appointment, and whose Appointment is booked via MX. There are two types of Patients:
 \begin{itemize}
-	\item Referred Patient: Patient who has a Referring Physician. The Referring Physician books Appointments on behalf of the Patient on Market-X.
-	\item Self-Service Patient: Patient who does not have a Referring Physician outside Market-X. Patient needs to book Appointments by herself on Market-X.
+	\item Referred Patient: Patient who has a Referring Physician. The Referring Physician books Appointments on behalf of the Patient on MX.
+	\item Self-Service Patient: Patient who does not have a Referring Physician outside MX. Patient needs to book Appointments by herself on MX.
 \end{itemize}
 }
 
-\newterm{Physician: Medical professional who holds a valid license to practice medicine. There are the following types of Physician Roles on Market-X:
+\newterm{Physician: Medical professional who holds a valid license to practice medicine. There are the following types of Physician Roles on MX:
 \begin{itemize}
-	\item Referring Physician: Physician who is not part of Market-X (the business), and uses Market-X to refer the Patient to a Referred Physician.
-	\item Referred Physician: Physician to whom the Patient is being referred via Market-X, and whom the Patient will have an Appointment with. 
+	\item Referring Physician: Physician who is not part of MX (the business), and uses MX to refer the Patient to a Referred Physician.
+	\item Referred Physician: Physician to whom the Patient is being referred via MX, and whom the Patient will have an Appointment with. 
 \end{itemize}
 }
 
-\newterm{Visitor: Individual who is visiting Market-X and viewing public Market-X material (such as website, mobile app, etc.) and who has not yet registered as a Patient on Market-X.}
+\newterm{Visitor: Individual who is visiting MX and viewing public MX material (such as website, mobile app, etc.) and who has not yet registered as a Patient on MX.}
 
-\newterm{X Administrators: An individual employed by Market-X, and who is authorized to make changes to User Rights, Appointments, and more generally any subset of data which Market-X holds.}
+\newterm{X Administrators: An individual employed by MX, and who is authorized to make changes to User Rights, Appointments, and more generally any subset of data which MX holds.}
 
-\newterm{Appointment: A limited amount of time with a set start and end, which a Patient purchased from a Physician on Market-X, and during which the Physician is available to provide diagnostic and prognostic care to the Patient.}
+\newterm{Appointment: A limited amount of time with a set start and end, which a Patient purchased from a Physician on MX, and during which the Physician is available to provide diagnostic and prognostic care to the Patient.}
 
 \newterm{Appointment Slot: A limited amount of time with a set start and end, which a Physician offers for sale on X, and during which the Physician will be available to provide diagnostic and prognostic care to one Patient.}
 
@@ -839,16 +839,16 @@ The initial set of terms was the following.
 
 \newterm{Customer: a synonym for Patient.}
 
-\newterm{Market-X Health Record (XHR): the electronic health record of the Patient on Market-X.}
+\newterm{MX Health Record (XHR): the electronic health record of the Patient on MX.}
 
 
-It turned out that many \nterm{Patients} wanted to see \nterm{Physicians} without this being initiated by a referring \nterm{Physician}. In such cases, it was necessary for \nterm{Market-X}, the business, to provide a referring \nterm{Physician}. This also meant refining the definition of \nterm{Physician}, to include so-called \nterm{Market-X Physician}, giving the following new \nterm{Physician} definition.
+It turned out that many \nterm{Patients} wanted to see \nterm{Physicians} without this being initiated by a referring \nterm{Physician}. In such cases, it was necessary for \nterm{MX}, the business, to provide a referring \nterm{Physician}. This also meant refining the definition of \nterm{Physician}, to include so-called \nterm{MX Physician}, giving the following new \nterm{Physician} definition.
 
-\newterm{Physician: Medical professional who holds a valid license to practice medicine. There are the following types of Physician Roles on Market-X:
+\newterm{Physician: Medical professional who holds a valid license to practice medicine. There are the following types of Physician Roles on MX:
 \begin{itemize}
-	\item Referring Physician: Physician who is not part of Market-X (the business), and uses Market-X to refer the Patient to a Referred Physician.
-	\item Referred Physician: Physician to whom the Patient is being referred via Market-X, and whom the Patient will have an Appointment with. 
-	\item Market-X Physician: Physician employed by Market-X, and who acts as a Referring Physician for every Self-Service Patient on Market-X.
+	\item Referring Physician: Physician who is not part of MX (the business), and uses MX to refer the Patient to a Referred Physician.
+	\item Referred Physician: Physician to whom the Patient is being referred via MX, and whom the Patient will have an Appointment with. 
+	\item MX Physician: Physician employed by MX, and who acts as a Referring Physician for every Self-Service Patient on MX.
 \end{itemize}
 }
 
@@ -863,7 +863,7 @@ Each \nterm{Physician} thus needed to be described by the medical specialties th
 	\item Maximal distance from Patient’s address.
 \end{itemize}
 
-Adding these properties to the definition of \nterm{Physician} is easy, but choosing the set of procedures and equipment is not. It was important to recognize that these choices could not be made definitely during the innovation process. New equipment and procedures can become available after the initial version of the service is released and used. This led to the need to design functionality that allowed \nterm{Market-X Administrators} to add new procedures and equipment.
+Adding these properties to the definition of \nterm{Physician} is easy, but choosing the set of procedures and equipment is not. It was important to recognize that these choices could not be made definitely during the innovation process. New equipment and procedures can become available after the initial version of the service is released and used. This led to the need to design functionality that allowed \nterm{MX Administrators} to add new procedures and equipment.
 
 What if we chose the following properties for Physicians?
 \begin{itemize}
@@ -887,7 +887,7 @@ Physician: A person qualified to practise medicine, especially one who specializ
 
 Further work on how \nterm{Physicians} would be using such a service, led to the observation that they will most likely delegate many of the responsibilities we expected them to fulfil, such as indicating their availability. It was thus necessary to introduce so-called \nterm{Physician Staff}, as follows.
 
-\nterm{Physician Staff User: Market-X User who was invited by a Physician to Market-X, and will accomplish tasks (registering Patients, managing Appointment Slots, etc.) on behalf of Physician on X.
+\nterm{Physician Staff User: MX User who was invited by a Physician to MX, and will accomplish tasks (registering Patients, managing Appointment Slots, etc.) on behalf of Physician on X.
 }
 
 This was only an early definition, as it left open how delegation happens, that is, how the software can know which \nterm{Physician Staff} is related to which \nterm{Physician}. That in itself was done by defining a process by which the delegation relationship is established. The following is an early draft of the process.
@@ -895,28 +895,28 @@ This was only an early definition, as it left open how delegation happens, that 
 \newterm{Delegation Process:
 To allow Physician Staff User on X to act on her behalf, a Physician User proceeds as follows
 \begin{enumerate}
-	\item Physician User logs into Market-X.
+	\item Physician User logs into MX.
 	\item Physician User chooses Staff.
 	\item Physician User chooses to invite new Physician Staff Users.
-	\item Market-X asks the Physician User to provide Physician Staff User Registration Properties.
-	\item Physician User fills out the information and clicks to submit it to Market-X.
-	\item Market-X does the following:
+	\item MX asks the Physician User to provide Physician Staff User Registration Properties.
+	\item Physician User fills out the information and clicks to submit it to MX.
+	\item MX does the following:
 		\begin{enumerate}
-			\item Market-X changes the Physician Staff User’s Market-X Status to Awaiting;
-			\item Market-X sends New Physician Staff Password Setup email to the Physician Staff.
+			\item MX changes the Physician Staff User’s MX Status to Awaiting;
+			\item MX sends New Physician Staff Password Setup email to the Physician Staff.
 		\end{enumerate}
 	\item Physician Staff receives the New Physician Staff Password Setup email. 
 Physician Staff clicks on the link in the email.
-	\item Market-X opens in Physician Staff User’s web browser, and asks Physician Staff to enter twice a new password, which Physician Staff User wishes to use to access Market-X.
+	\item MX opens in Physician Staff User’s web browser, and asks Physician Staff to enter twice a new password, which Physician Staff User wishes to use to access MX.
 	\item Physician Staff User submits the password.
-	\item Market-X checks if the password is strong enough, and if not, requests a new password from Physician Staff User.
-	\item If the chosen password is acceptable to Market-X, Market-X performs the following:
+	\item MX checks if the password is strong enough, and if not, requests a new password from Physician Staff User.
+	\item If the chosen password is acceptable to MX, MX performs the following:
 		\begin{enumerate}
-			\item Market-X registers Physician Staff as a Physician Staff User on Market-X.
-			\item Market-X changes Physician Staff User Status to Active.
-			\item Market-X gives Physician Staff the User Rights chosen by the Physician who invited the Physician Staff User.
-			\item Market-X sends an email to the Physician Staff User, to confirm that she is registered to Market-X.
-			\item Market-X sends an email to the Physician User who invited the Physician Staff User, to notify Physician User that Physician Staff User is registered and Active on Market-X.
+			\item MX registers Physician Staff as a Physician Staff User on MX.
+			\item MX changes Physician Staff User Status to Active.
+			\item MX gives Physician Staff the User Rights chosen by the Physician who invited the Physician Staff User.
+			\item MX sends an email to the Physician Staff User, to confirm that she is registered to MX.
+			\item MX sends an email to the Physician User who invited the Physician Staff User, to notify Physician User that Physician Staff User is registered and Active on MX.
 		\end{enumerate}
 \end{enumerate}
 }
@@ -927,82 +927,76 @@ Notice how processes, such as the one above, extend the scope of the \ncnf. The 
 %%%%%%%%
 \chapter{Case: Defining a New Product Development Process}\label{c:case:defining-new-product-development-process}
 
-In 2012, after experiencing success with its initial product, a manufacturer of designer low energy light bulbs wanted to expand its product line. To do so, its owners wanted to get a better understanding of its existing new product design and development process. This would help them plan the investment in, and the design and development of future new products. 
+\section{Background}
+In 2012, after experiencing success with its initial product, a manufacturer of designer low energy light bulbs wanted to expand its product line. To do so, its owners wanted to get a better understanding of its existing new product design and development process. This would help them plan the investment in new products, and understand what to improve and how, in the process itself.
 
+\section{Challenges}
 The approach was to document the existing new product design process, which proved successful, before considering any changes. This meant understanding who does what, and how they coordinate, from new ideas to having a definite design sent for manufacturing and distribution. 
 
 To understand how work was done, and why, and so be able to document the existing process, we had to understand the language which they used to speak about that process, and to coordinate throughout that process. It was a new language, partly because the process was specific to the team there, but also because it was invented as they went. Both of these were expected. Design and manufacturing of new products, and in this company's case, of a product widely recognized as highly innovative, involves innovation at the level of the product, but also of the organization which makes that product happen, so to speak, from idea to the customer. 
 
 This is also a case which shows how widely-used terms get a local meaning that makes very much sense to the team, but not necessarily to outsiders. There are few new terms in their \ncnf, but definitions aren't standard at all.
 
+\section{Growing the \ncnf}
 Initial interviews led to the following simple set of terms, where many definitions are rather straightforward, and reflect the common-sense understanding of these terms.
 
-\begin{svgraybox}
-\noindent\textbf{Product:} That which \nterm{Clients} purchase from Company X.
+\newterm{Product: That which \nterm{Clients} purchase from Company X.}
 
-\noindent\textbf{New Product:} Product that Company X plans to, but has not yet started selling.
+\newterm{New Product: Product that Company X plans to, but has not yet started selling.}
 
-\noindent\textbf{Process:} Sequence of Activities performed to achieve a particular objective.
+\newterm{Process: Sequence of Activities performed to achieve a particular objective.}
 
-\noindent\textbf{Activity:} Meaningfully related Steps within a Process (e.g., these Steps realize related tasks in a Process).
+\newterm{Activity: Meaningfully related Steps within a Process (e.g., these Steps realize related tasks in a Process).}
 
-\noindent\textbf{Step:} Smallest part of an Activity, defining a task that a single Role needs to accomplish.
+\newterm{Step: Smallest part of an Activity, defining a task that a single Role needs to accomplish.}
 
-\noindent\textbf{Process Guideline:} A recommendation on how to perform Steps in Processes.
+\newterm{Process Guideline: A recommendation on how to perform Steps in Processes.}
 
-\noindent\textbf{Role:} Set of responsibilities that the individual playing the Role has to discharge in one or more Processes.
+\newterm{Role: Set of responsibilities that the individual playing the Role has to discharge in one or more Processes.}
 
-\noindent\textbf{New Product Prototype:} A preliminary model of the New Product.
+\newterm{New Product Prototype: A preliminary model of the New Product.}
 
-\noindent\textbf{New Product Packaging Prototype:} A preliminary model of the packaging for the New Product.
+\newterm{New Product Packaging Prototype: A preliminary model of the packaging for the New Product.}
 
-\noindent\textbf{Product Developer:} Individual with expertise in Product design and development.
+\newterm{Product Developer: Individual with expertise in Product design and development.}
 
-\noindent\textbf{Product Specifications Designer:} Individual with expertise in making specifications for Product manufacturing.
+\newterm{Product Specifications Designer: Individual with expertise in making specifications for Product manufacturing.}
 
-\noindent\textbf{Product Manufacturer:} Individual representing the company capable of manufacturing the New Product for Company X.
+\newterm{Product Manufacturer: Individual representing the company capable of manufacturing the New Product for Company X.}
 
-\noindent\textbf{New Product Brief:} Document specifying the requirements that the New Product should satisfy.
+\newterm{New Product Brief: Document specifying the requirements that the New Product should satisfy.}
 
-\noindent\textbf{New Product Specifications:} Document defining the specifications of the New Product which satisfies the requirements given in the New Product Brief.
+\newterm{New Product Specifications: Document defining the specifications of the New Product which satisfies the requirements given in the New Product Brief.}
 
-\noindent\textbf{Manufacturer Estimate:} Document by which the Product Manufacturer responds to New Product Specifications.
+\newterm{Manufacturer Estimate: Document by which the Product Manufacturer responds to New Product Specifications.}
 
-\noindent\textbf{New Product Packaging Design:} Document describing the design of the packaging for the New Product.
-\end{svgraybox}
+\newterm{New Product Packaging Design: Document describing the design of the packaging for the New Product.}
 
-Subsequent discussions of how the current product was designed, how and why the design changed, and eventually, how it went into manufacturing, led to many changes.
+Subsequent discussions of how the current product was designed, how and why the design changed, and eventually, how it went into manufacturing, led to many changes. The term \nterm{New Product Prototype} was not precise enough, and was removed. It's role was filled by two new terms, \nterm{First Sample} and \nterm{Final Sample}, defined below.
 
-The term New Product Prototype was not precise enough, and was removed. It's role was filled by two new terms, First Sample and Final Sample, defined below.
+\newterm{First Sample: A first and preliminary model of the New Product.}
 
-\begin{svgraybox}
-\noindent\textbf{First Sample:} A first and preliminary model of the New Product.
+\newterm{Final Sample: A final model of the New Product, accepted by Company X.}
 
-\noindent\textbf{Final Sample:} A final model of the New Product, accepted by Company X.
-\end{svgraybox}
+\nterm{New Product Packaging Prototype} was removed. It was replaced by \nterm{New Product Packaging Brief} and \nterm{New Product Packaging Design}.
 
-New Product Packaging Prototype was removed. It was replaced by New Product Packaging Brief and New Product Packaging Design.
+\newterm{New Product Packaging Brief: Document defining requirements on packaging for the New Product.}
 
-\begin{svgraybox}
-\noindent\textbf{New Product Packaging Brief:} Document defining requirements on packaging for the New Product.
+\newterm{New Product Packaging Design: Document specifying the packaging design for a Product.}
 
-\noindent\textbf{New Product Packaging Design:} Document specifying the packaging design for a Product.
-\end{svgraybox}
+The term \nterm{Product Developer} changed. It shifted from vaguely pointing to skills needed, to a list of responsibilities in the new product development process.
 
-The Product Developer term changed. It shifted from vaguely pointing to skills needed, to a list of responsibilities in the new product development process.
-
-\begin{svgraybox}
-\textbf{Product Developer:}
+\newterm{Product Developer:
 \begin{itemize}
 	\item Produces New Product design concepts;
 	\item Presents design concepts to Creative Director and Managing Director;
 	\item Adapts design concepts until Creative Director and Managing Director approve a concept.
 \end{itemize}
-\end{svgraybox}
+}
 
-This points again, as in Case 1, to the problem of deciding where a definition starts and stops, that is, what is part of a definition, and what isn't. The following is an early account of the initial steps of new product development process.
+This points again, as in Chapter \ref{c:case:contracting-process}, to the problem of deciding where a definition starts and stops; in other words, what is part of a definition, and what isn't? The following is an early account of the initial steps of new product development process. We put it as a new term in the \ncn, and wrote it in text, but we could have also made a process model, using a workflow or business process modeling language, and had that as the definition in place, or alongside even, of the textual one below.
 
-\begin{svgraybox}
+\newterm{New Product Development Process:
 \begin{enumerate}
 	\item Creative Director and Managing Director discuss New Product ideas.
 	\item Managing Director initiates research on the New Product.
@@ -1024,9 +1018,7 @@ This points again, as in Case 1, to the problem of deciding where a definition s
 	\item Creative Director, Managing Director, and Product Developer revise, if needed the New Product Brief.
 	\item Managing Director sends revised New Product Brief to Product Manufacturer.
 \end{enumerate}
-
 Steps 8 and 9 are repeated until the Product Manufacturer can provide the Manufacturer Estimate to the Managing Director.
-
 \begin{enumerate}
 \setcounter{enumi}{9}
 	\item Product Manufacturer delivers Manufacturer Estimate to the Managing Director. Manufacturer Estimate includes estimates of:
@@ -1047,81 +1039,83 @@ Steps 8 and 9 are repeated until the Product Manufacturer can provide the Manufa
 			\item Delivers First Sample to Managing Director.
 		\end{enumerate}
 \end{enumerate}
-\end{svgraybox}
+}
 
-More steps followed. What is interesting, is how the process defines the terms it mentions. Step 5 defines the responsibilities of the Product Developer. Step 10 defines the content of the Manufacturer Estimate.
+More steps followed. What is interesting, is how the process defines the terms it mentions. Step 5 defines the responsibilities of the \nterm{Product Developer}. Step 10 defines the content of the \nterm{Manufacturer Estimate}.
 
 How does this process description relate, then, to definitions of the terms it mentions? Do we even need to have separate definitions, if we have descriptions of various processes? 
 
-Recall that there are five actions a plastic definition invites - keep, refine, add, remove, choose. Eventually, many of the generic early definitions got refined through the definition of various processes, as above. For example, Product Manufacturer definition does not mention what exactly a Product Manufacturer is responsible for in the new product development process. But the process is more specific, and refines the definition by, for example, saying in Step 10 that a Product Manufacturer is responsible for producing the Manufacturer Estimate. 
+Eventually, many of the generic early definitions got refined through the definition of various processes, as above. For example, the definition of \nterm{Product Manufacturer} does not mention what exactly a \nterm{Product Manufacturer} is responsible for, in the \nterm{New Product Development Process}. But the process is more specific, and refines the definition by, for example, saying in Step 10 that a \nterm{Product Manufacturer} is responsible for producing the \nterm{Manufacturer Estimate}. 
 
-In practice, new product development processes are rarely as structured, and steps as clear cut.  This makes it harder to settle on definite definitions, but only emphasizes the need for plasticity. It also highlights that you can never really understand the term, if you do not know where and how it was used, since through usage, or mentions, it gets refined, choices are made, parts are added, or removed. Plasticity cannot only be grasped by looking at snapshots of definitions, as I gave them above, but also through changes of the artifacts which mention the term, as in the partial description of the new product development process above. That is a thorny batch of issues, which will keep coming back throughout this book.
+In practice, new product development processes are rarely as structured, and steps as clear cut.  This makes it harder to settle on definite definitions, but only emphasizes the need for openness to change. It also highlights that you can never really understand the term, if you do not know where and how it was used, since through usage, or mentions, it gets refined, choices are made, parts are added, or removed. This openness to change cannot only be grasped by looking at snapshots of definitions, as I gave them above, but also through changes of the artifacts which mention the term, as in the partial description of the new product development process above. That is a thorny batch of issues, which will keep coming back throughout this book.
 
 
 %%%%%%%%
 \chapter{Case: Defining an Automated Running Coach}\label{c:case:defining-automated-running-coach}
 
-Over two years, from 2011 to 2013, the \ncnf in this case went from a dozen or so terms, to about one hundred. Not only was the language used in verbal and written communication, but also in algorithm specifications, software specifications, software code, and marketing material for the service which this software was enabling. It is a rare case where the language was built for completely new ideas, and graduated to be included in most artefacts used and produced by the company who commissioned the underlying innovation.
+From 2011 to 2013, the \ncnf in this case went from a dozen or so terms, to about a hundred. Not only was it used in verbal and written communication, but also in algorithm specifications, software specifications, software code, and marketing material for the service which this software was enabling. It is a rare case where the \ncn{} was built for completely new ideas, and graduated to be included in most artefacts used and produced by the company who commissioned the underlying innovation.
 
-The aim of the innovation process was to design algorithms which would provide personalized advice to amateur runners, interested in improving their performance, and reaching specific goals, such as running a certain kind of race. There were no such algorithms at the time, and invariably, no software which could provide such advice.
+\section{Background}
+The aim of the innovation process was to design algorithms which would provide personalized advice to amateur runners, interested in improving their performance, and reaching specific goals. For example, a goal would be to run a certain race which is scheduled to happen in a few months or later. There were no such algorithms at the time, and invariably, no software which could provide such advice.
 
+\section{Challenges}
 The goal of the innovation process was hard to achieve. Providing running advice cannot be reduced to a machine learning problem. There is not enough historical data on the progression of a given runner, or similar runners, from low to high performance,. There are various ways to improve one's performance, i.e., different training methods that coaches subscribe to. These methods are rarely well documented. The outcome of the innovation process was a combination of expert rules and learning algorithms. Advice is generated on the basis of specific coaching methods, and for an individual runner, that advice was parametrized according to the learning of how that runner responded to advice in the past, and prediction of how she may respond to advice in the future. 
 
+\section{Sample from the \ncnf}
 The following is a sample of the more stable terms and their definitions. 
 
-\begin{svgraybox}
-\noindent\textbf{Athlete:} 16 or more years old person wishing to use Running Algorithm X.
+\newterm{Athlete: 16 or more years old person wishing to use Running Algorithm X.}
 
-\noindent\textbf{Coach:} individual controlling the parameters of Running Algorithm X.
+\newterm{Coach: individual controlling the parameters of Running Algorithm X.}
 
-\noindent\textbf{Algorithm:} Running Algorithm X.
+\newterm{Algorithm: Running Algorithm X.}
 
-\noindent\textbf{Module:} self-contained part of the Algorithm performing a related set of operations.
+\newterm{Module: self-contained part of the Algorithm performing a related set of operations.}
 
-\noindent\textbf{Session:} period of training associated to exactly one day in the calendar.
+\newterm{Session: period of training associated to exactly one day in the calendar.}
 
-\noindent\textbf{Training Plan:} sequence of Sessions.
+\newterm{Training Plan: sequence of Sessions.}
 
-\noindent\textbf{Athlete Level:} set of Athletes sharing similar Athlete properties and receiving similar training advice.
+\newterm{Athlete Level: set of Athletes sharing similar Athlete properties and receiving similar training advice.}
 
-\noindent\textbf{Athlete Property:} characteristic obtained from the Athlete at registration for Running Algorithm X. Athlete Properties are used to compute the Athlete level.
+\newterm{Athlete Property: characteristic obtained from the Athlete at registration for Running Algorithm X. Athlete Properties are used to compute the Athlete level.}
 
-\noindent\textbf{Test Time:} time Athlete inputs for each Test Distance.
+\newterm{Test Time: time Athlete inputs for each Test Distance.}
 
-\noindent\textbf{Test Distance:} distance selected by Coach, and for which Athlete should provide Test Time.
+\newterm{Test Distance: distance selected by Coach, and for which Athlete should provide Test Time.}
 
-\noindent\textbf{Injury Type:} injury that the Athlete selects from the Injury Type List.
+\newterm{Injury Type: injury that the Athlete selects from the Injury Type List.}
 
-\noindent\textbf{Zone:} quantification of the level of intensity to maintain during a Session.
+\newterm{Zone: quantification of the level of intensity to maintain during a Session.}
 
-\noindent\textbf{Target Pace:} running speed to achieve and maintain in a Session.
-\end{svgraybox}
+\newterm{Target Pace: running speed to achieve and maintain in a Session.}
 
-In the very first months of this innovation process, few of these terms had stable definitions. Athlete could be anyone, without age restrictions. It was unclear if any tests should be done before a person could use the algorithm, and the notion of Test Time came only later. The role of injuries became critical, but only after normal usage of the algorithm was better understood. 
+In the very first months of this innovation process, few of these terms had stable definitions. \newterm{Athlete} could be anyone, without age restrictions. It was unclear if any tests should be done before a person could use the algorithm, and the notion of \nterm{Test Time} came only later. The role of injuries became critical, but only after normal usage of the algorithm was better understood. 
 
 To help someone improve performance in running, a coach needs to be able to measure performance, plan how to vary future stress, decide how and when to apply planned stress, measure outcomes, and plan subsequent sessions, while taking into account measured outcomes. All this needs to be placed in context of the overall performance gain that this person is aiming for, itself a function of the goal that the person set to herself. Linear increase in stress does not correlate positively with increase in performance. And it does not make sense to do the same thing over and over; it does not produce performance improvements.
 
-For coaches, it is straightforward to think in terms of a ''training plan''. As in the definition above, it is indeed a sequence of sessions. But even if that definition fits the general idea, it is not operational at all - it does not tell you why some sequences of sessions are good training plans for a person, but not for another, for example. When you need to automate the creation of training plans, such questions become central. What are the parts of a training plan? Should sessions be grouped, why, and how?
+For coaches, it is straightforward to think in terms of a ''training plan''. As in the definition above, it is indeed a sequence of sessions. But even if that definition fits the general idea, it is not operational at all -- it does not tell you why some sequences of sessions are good training plans for a person, but not for another, for example. When you need to automate the creation of training plans, such questions become central. What are the parts of a training plan? Should sessions be grouped, why, and how?
 
-Eventually, we used the notion of training period. The following is an informal, non-mathematical description of something called the macro-structure of a training plan, itself a new concept.
+Eventually, we used the notion of \nterm{Training Period}. The following is an informal, non-mathematical description of something called the \nterm{Training Macro-Structure} of a training plan, itself a new concept.
 
-\begin{svgraybox}
+\newterm{Training Macro-Structure:
 A Training Plan has the following structure for every Athlete who is neither Injured nor a Starter:
-
 \begin{enumerate}
 	\item A Training Plan is made of Periods, including Periods called: Base training, Race training, Taper and Recovery; each Training Plan is specific to a Training Goal and to the Athlete Level; (an Introduction period can be defined for Athletes with Starter Athlete Level);
 	\item A Period is made of one or more Blocks;
 	\item A Block is made of Sessions. 
 \end{enumerate}
+}
 
-A convenient way to think about the structure of a Training Plan is that a Session is assigned to a day and that a Block corresponds to a week’s worth of training (a Block does not exactly correspond to a calendar Monday-to-Sunday week, because the first Block does not necessarily begin on Monday). The Period can last up to a few months.
- 
-This Module – the Macro Training Plan Setup Module – allows the Coach to define as many Training Plan structures as she wishes. The Coach defines a new Training Plan by giving it a name, and associating the Training Plan with Athlete Levels and Training Goals for which the Training Plan should apply. This allows the Coach to define different Training Plans for different Training Goal and Athlete Level combinations. In this Module, the Coach can define new Training Plans, and define the Periods of each Training Plan. For each Period, the Coach defines the name of that Period (e.g., Taper) and defines which Period precedes it and which other Period follows that Period in the Training Plan. The Coach uses other Modules to define Blocks.
-\end{svgraybox}
+A convenient way to think about the structure of a \nterm{Training Plan} is that a \nterm{Session} is assigned to a day and that a \nterm{Block} corresponds to a week’s worth of training; a \nterm{Block} does not exactly correspond to a calendar Monday-to-Sunday week, because the first \nterm{Block} does not necessarily begin on Monday. The \nterm{Period} can last up to a few months.
 
-The text was part of an early version of an explanation, for how one of the many modules works, within one of the various algorithms works. The text is filled with capitalized terms, each having its own definition in the \ncnf that we were creating. It makes the text hard to understand in absence of definitions. It is an example of how the language becomes an important tool for the team. 
+\begin{quote}
+The Macro Training Plan Setup Module allows the \nterm{Coach} to define as many \nterm{Training Plan} structures as she wishes. The \nterm{Coach} defines a new \nterm{Training Plan} by giving it a name, and associating the \nterm{Training Plan} with \nterm{Athlete Levels} and \nterm{Training Goals} for which the \nterm{Training Plan} should apply. This allows the \nterm{Coach} to define different \nterm{Training Plans} for different \nterm{Training Goal} and \nterm{Athlete Level} combinations. In this module, the \nterm{Coach} can define new \nterm{Training Plans}, and define the \nterm{Periods} of each \nterm{Training Plan}. For each \nterm{Period}, the \nterm{Coach} defines the name of that \nterm{Period} (e.g., \nterm{Taper}) and defines which \nterm{Period} precedes it and which other \nterm{Period} follows it in the \nterm{Training Plan}. The \nterm{Coach} uses other \nterm{Modules} to define \nterm{Blocks}.
+\end{quote}
 
-The language then appears in pseudo-code of the algorithm, the database structure, and software code, ensuring consistency across the many artefacts. The following is a piece of pseudo-code from the specification, followed by the definitions of the terms which appear in it.
+The text was part of an early version of an explanation, for how one of the many modules works, within one of the various algorithms works. The text is filled with capitalized terms, each having its own definition in the \ncnf that we were creating. It makes the text hard to understand in absence of definitions. It is an example of how the \ncn{} becomes an important tool for the team. 
+
+The \ncn{} then appears in pseudo-code of the algorithm, the database structure, and software code, ensuring consistency across the many artefacts. The following is a piece of pseudo-code from the specification, followed by the definitions of the terms which appear in it.
 
 \small{
 \begin{verbatim}
@@ -1148,19 +1142,19 @@ ELSE {
 }
 \end{verbatim}}
 
-\begin{svgraybox}
-\noindent\textbf{Interval Distance:} distance in meters to run in an Interval in a Session.
+\newterm{Interval Distance: distance in meters to run in an Interval in a Session.}
 
-\noindent\textbf{Interval Time:} Time it takes the Athlete to complete a given Interval Distance.
+\newterm{Interval Time: Time it takes the Athlete to complete a given Interval Distance.}
 
-\noindent\textbf{Training Load:} quantification of effort during training. Training Load is function of Zone, Interval Distance and Interval Count. Training Load is computed using the Training Load Module.
+\newterm{Training Load: quantification of effort during training. Training Load is function of Zone, Interval Distance and Interval Count. Training Load is computed using the Training Load Module.}
 
-\noindent\textbf{Interval Recovery Pace:} pace to run between interval runs.
-\end{svgraybox}
+\newterm{Interval Recovery Pace: pace to run between interval runs.}
 
 The names \verb|actual_DTERM|, \verb|actual_Q|, \verb|actual_Density| are defined in the remainder of the algorithm specifications, as functions over other variables there.
 
-The example above, even if trivial, illustrates the important idea that an \ncnf can be a significant record of the content of the innovation process, and as such appears throughout the various artefacts an innovation process may produce.
+The example above, even if trivial, illustrates the important idea that an \ncnf{} can be a significant record of the content of the innovation process, and as such appears throughout the various artefacts an innovation process may produce.
+
+
 
 
 
